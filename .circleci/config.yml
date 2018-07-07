@@ -1,0 +1,29 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ubuntu:16.04
+    steps:
+      - run: apt-get -qq update && apt-get -qq install git curl wget
+      - run: git clone https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git -b weekly $HOME/project/
+      - run: cd $HOME/project/
+      - run: wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/getversion.sh
+      - run: wget -q https://github.com/fabianonline/telegram.sh/raw/master/telegram && chmod +x telegram
+      - run: chmod 775 *.sh
+      - run: ./weekly.sh
+
+workflows:
+  version: 2
+  commit-workflow:
+    jobs:
+      - build 
+  weekly:
+    triggers:
+      - schedule:
+          cron: "0 12 * * 5"
+          filters:
+            branches:
+              only: weekly
+
+    jobs:
+      - build
