@@ -1,7 +1,7 @@
 # MIUI Updates Tracker
 
 [![Subscibe](https://img.shields.io/badge/Telegram-Subscribe-blue.svg)](https://t.me/MIUIUpdatesTracker)
-[![CircleCI](https://circleci.com/gh/XiaomiFirmwareUpdater/miui-updates-tracker/tree/stable.svg?style=svg)](https://circleci.com/gh/XiaomiFirmwareUpdater/miui-updates-tracker/tree/stable)
+[![CircleCI](https://circleci.com/gh/XiaomiFirmwareUpdater/miui-updates-tracker/tree/weekly_fastboot.svg?style=svg)](https://circleci.com/gh/XiaomiFirmwareUpdater/miui-updates-tracker/tree/weekly_fastboot)
 [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
 
 A Script that automatically track Xiaomi MIUI ROM releases and send a message to the telegram channel to notify users!
