@@ -2,9 +2,9 @@
 rm raw_out compare changes updates dl_links 2> /dev/null
 
 #Check if db exist
-if [ -e stable_db ]
+if [ -e stable_fastboot_db ]
 then
-    mv stable_db stable_db_old
+    mv stable_fastboot_db stable_fastboot_db_old
 else
     echo "DB not found!"
 fi
@@ -13,21 +13,21 @@ fi
 echo Fetching updates:
 cat devices | while read device; do
 	codename=$(echo $device | cut -d , -f1)
-	android=$(echo $device | cut -d , -f3)
-	url=`./getversion.sh $codename F $android`
+	region=$(echo $device | cut -d , -f3)
+	url=`./fastboot.sh $codename F $region`
 	tmpname=$(echo $device | cut -d , -f1 | sed 's/_/-/g')
 	echo $tmpname"="$url >> raw_out
 done
-sed -i 's/param error/not avilable/g' ./raw_out
+sed -i 's\http.*com//\not avilable\g' ./raw_out
 sed -i 's/^ *//; s/ *$//; /^$/d' ./raw_out
-cat raw_out | sort | sed 's/http.*miui_//' | cut -d _ -f1,2 | sed 's/-/_/g' > stable_db
+cat raw_out | sort | sed 's\http.*/\\' | sed 's/_[0-9]*.[0-9]*.[0-9]*_[0-9]*.[0-9]*_[a-z]*_[a-z0-9]*.[a-z]*//g' | sed 's/-/_/g' > stable_fastboot_db
 
 #Compare
 echo Comparing:
-cat stable_db | while read rom; do
+cat stable_fastboot_db | while read rom; do
 	codename=$(echo $rom | cut -d = -f1)
-	new=`cat stable_db | grep $codename | cut -d = -f2`
-	old=`cat stable_db_old | grep $codename | cut -d = -f2`
+	new=`cat stable_fastboot_db | grep $codename | cut -d = -f2`
+	old=`cat stable_fastboot_db_old | grep $codename | cut -d = -f2`
 	diff <(echo "$old") <(echo "$new") | grep ^"<\|>" >> compare
 done
 awk '!seen[$0]++' compare > changes
@@ -67,5 +67,5 @@ done
 
 #Push
 git config --global user.email "$gitmail"; git config --global user.name "$gituser"
-git add stable_db stable_db_old; git commit -m "Sync: $(date +%d.%m.%Y)"
-git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:stable
+git add stable_fastboot_db; git commit -m "Sync: $(date +%d.%m.%Y)"
+git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:stable_fastboot
