@@ -5,12 +5,12 @@ jobs:
       - image: ubuntu:16.04
     steps:
       - run: apt-get -qq update && apt-get -qq install git curl wget
-      - run: git clone https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git -b stable_fastboot $HOME/project/
+      - run: git clone https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git -b weekly_fastboot $HOME/project/
       - run: cd $HOME/project/
       - run: wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/fastboot.sh
       - run: wget -q https://github.com/fabianonline/telegram.sh/raw/master/telegram && chmod +x telegram
       - run: chmod 775 *.sh
-      - run: ./stable_fastboot.sh
+      - run: ./weekly_fastboot.sh
 
 workflows:
   version: 2
@@ -20,10 +20,10 @@ workflows:
   weekly:
     triggers:
       - schedule:
-          cron: "5 10 * * *"
+          cron: "5 12 * * 5"
           filters:
             branches:
-              only: stable_fastboot
+              only: weekly_fastboot
 
     jobs:
       - build
