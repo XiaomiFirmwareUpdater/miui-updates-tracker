@@ -14,7 +14,7 @@ echo Fetching updates:
 cat devices | while read device; do
 	codename=$(echo $device | cut -d , -f1)
 	region=$(echo $device | cut -d , -f3)
-	url=`./fastboot.sh $codename X $region`
+	url=`bash fastboot.sh $codename X $region`
 	tmpname=$(echo $device | cut -d , -f1 | sed 's/_/-/g')
 	echo $tmpname"="$url >> raw_out
 done
