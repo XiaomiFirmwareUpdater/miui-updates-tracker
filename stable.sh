@@ -67,5 +67,5 @@ done
 
 #Push
 git config --global user.email "$gitmail"; git config --global user.name "$gituser"
-git add stable_db stable_db_old; git commit -m "Sync: $(date +%d.%m.%Y)"
+git add stable_db; git commit -m "Sync: $(date +%d.%m.%Y)"
 git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:stable
