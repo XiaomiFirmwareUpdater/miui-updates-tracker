@@ -62,7 +62,8 @@ cat dl_links | while read line; do
 	*Codename*: $codename
 	*Version*: $version
 	*Android*: $android
-	*Download Link*: [Here]($link)"
+	*Download Link*: [Here]($link)
+	@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
 done
 
 #Push
