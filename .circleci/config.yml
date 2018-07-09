@@ -17,7 +17,7 @@ workflows:
   commit-workflow:
     jobs:
       - build 
-  weekly:
+  stable:
     triggers:
       - schedule:
           cron: "0 10 * * *"
