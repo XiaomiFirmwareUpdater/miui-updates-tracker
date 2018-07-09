@@ -17,7 +17,7 @@ workflows:
   commit-workflow:
     jobs:
       - build 
-  weekly:
+  stable_fastboot:
     triggers:
       - schedule:
           cron: "5 10 * * *"
