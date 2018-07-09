@@ -57,7 +57,7 @@ cat dl_links | while read line; do
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
 	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
 	link=$(echo $line | cut -d = -f2)
-	./telegram -t $bottoken -c $chat -M "New update available!
+	./telegram -t $bottoken -c $chat -M "New stable update available!
 	*Device*: $model
 	*Codename*: $codename
 	*Version*: $version
