@@ -57,7 +57,7 @@ cat dl_links | while read line; do
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
 	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
 	link=$(echo $line | cut -d = -f2)
-	./telegram -t $bottoken -c $chat -M "New fastboot image available!
+	./telegram -t $bottoken -c $chat -M "New stable fastboot image available!
 	*Device*: $codename
 	*Version*: $version
 	*Android*: $android
