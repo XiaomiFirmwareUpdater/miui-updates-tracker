@@ -17,7 +17,7 @@ workflows:
   commit-workflow:
     jobs:
       - build 
-  weekly:
+  weekly_fastboot:
     triggers:
       - schedule:
           cron: "5 12 * * 5"
