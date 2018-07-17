@@ -55,7 +55,7 @@ cat dl_links | while read line; do
 	model=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f2)
 	codename=$(echo $line | cut -d = -f1)
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
-	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
+	android=$(echo $line | grep -Po [0-9].[0-9]_ | cut -d _ -f1)
 	link=$(echo $line | cut -d = -f2)
 	./telegram -t $bottoken -c $chat -M "New weekly fastboot image available!
 	*Device*: $codename
