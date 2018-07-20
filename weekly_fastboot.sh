@@ -18,9 +18,8 @@ cat devices | while read device; do
 	tmpname=$(echo $device | cut -d , -f1 | sed 's/_/-/g')
 	echo $tmpname"="$url >> raw_out
 done
-sed -i 's\http.*com//\not avilable\g' ./raw_out
-sed -i 's/^ *//; s/ *$//; /^$/d' ./raw_out
-cat raw_out | sort | sed 's\http.*/\\' | sed 's/_[0-9]*.[0-9]*.[0-9]*_[0-9]*.[0-9]*_[a-z]*_[a-z0-9]*.[a-z]*//g' | sed 's/-/_/g' > weekly_fastboot_db
+sed -i 's|=//|=not avilable|g' ./raw_out
+cat raw_out | sort | sed 's|http://bigota.d.miui.com/[0-9]*.[0-9]*.[0-9]*/||g' | sed 's/_[0-9]*.[0-9]*.[0-9]*_[0-9]*.[0-9]*_[a-z]*_[a-z0-9]*.[a-z]*//g' | cut -d ' ' -f1 | sed 's/-/_/g' > weekly_fastboot_db
 
 #Compare
 echo Comparing:
@@ -52,15 +51,20 @@ fi
 
 #Telegram
 cat dl_links | while read line; do
-	model=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f2)
 	codename=$(echo $line | cut -d = -f1)
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
-	android=$(echo $line | grep -Po [0-9].[0-9]_ | cut -d _ -f1)
-	link=$(echo $line | cut -d = -f2)
-	./telegram -t $bottoken -c $chat -M "New weekly fastboot image available!
+	changes=$(echo $line | cut -d ' ' -f2)
+	md5=$(echo $line | cut -d ' ' -f3)
+	size=$(echo $line | cut -d ' ' -f4)
+	android=$(echo $line | cut -d ' ' -f5)
+	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
+	./telegram -t $bottoken -c $chat -M "New fastboot image available!
 	*Device*: $codename
 	*Version*: $version
 	*Android*: $android
+	*Filesize*: $size
+	*MD5*: $md5
+	*Changelog*: [Here]($changes)
 	*Download Link*: [Here]($link)
 	@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
 done
