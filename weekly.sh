@@ -16,11 +16,11 @@ cat devices | while read device; do
 	android=$(echo $device | cut -d , -f3)
 	url=`./getversion.sh $codename X $android`
 	tmpname=$(echo $device | cut -d , -f1 | sed 's/_/-/g')
-	echo $tmpname"="$url >> raw_out
+	name=$(echo $device | cut -d '"' -f2)
+	echo $tmpname"="$url \"$name\" >> raw_out
 done
-sed -i 's/param error/not avilable/g' ./raw_out
-sed -i 's/^ *//; s/ *$//; /^$/d' ./raw_out
-cat raw_out | sort | sed 's/http.*miui_//' | cut -d _ -f1,2 | sed 's/-/_/g' > weekly_db
+sed -i 's/param error/none/g' ./raw_out
+cat raw_out | sort | sed 's/http.*miui_//' | cut -d _ -f1,2 | cut -d ' ' -f1 | sed 's/-/_/g' > weekly_db
 
 #Compare
 echo Comparing:
@@ -52,13 +52,15 @@ fi
 
 #Telegram
 cat dl_links | while read line; do
+	name=$(echo $line | cut -d '"' -f2)
 	model=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f2)
 	codename=$(echo $line | cut -d = -f1)
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
 	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
-	link=$(echo $line | cut -d = -f2)
+	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
 	./telegram -t $bottoken -c $chat -M "New weekly update available!
-	*Device*: $model
+	*Device*: $name
+	*Product*: $model
 	*Codename*: $codename
 	*Version*: $version
 	*Android*: $android
