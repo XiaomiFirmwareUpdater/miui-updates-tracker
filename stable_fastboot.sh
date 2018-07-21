@@ -16,9 +16,10 @@ cat devices | while read device; do
 	region=$(echo $device | cut -d , -f3)
 	url=`bash fastboot.sh $codename F $region`
 	tmpname=$(echo $device | cut -d , -f1 | sed 's/_/-/g')
-	echo $tmpname"="$url >> raw_out
+	name=$(echo $device | cut -d '"' -f2)
+	echo $tmpname"="$url \"$name\" >> raw_out
 done
-sed -i 's|=//|=not avilable|g' ./raw_out
+sed -i 's|=//|=none|g' ./raw_out
 cat raw_out | sort | sed 's|http://bigota.d.miui.com/V[0-9]*.[0-9]*.[0-9]*.[0-9]*.[A-Z]*/||g' | sed 's/_[0-9]*.[0-9]*.[0-9]*_[0-9]*.[0-9]*_[a-z]*_[a-z0-9]*.[a-z]*//g' | cut -d ' ' -f1 | sed 's/-/_/g' > stable_fastboot_db
 
 #Compare
@@ -51,6 +52,7 @@ fi
 
 #Telegram
 cat dl_links | while read line; do
+	name=$(echo $line | cut -d '"' -f2)
 	codename=$(echo $line | cut -d = -f1)
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
 	changes=$(echo $line | cut -d ' ' -f2)
@@ -59,7 +61,8 @@ cat dl_links | while read line; do
 	android=$(echo $line | cut -d ' ' -f5)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
 	./telegram -t $bottoken -c $chat -M "New fastboot image available!
-	*Device*: $codename
+	*Device*: $name
+	*Codename*: $codename
 	*Version*: $version
 	*Android*: $android
 	*Filesize*: $size
