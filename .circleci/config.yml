@@ -20,7 +20,7 @@ workflows:
   weekly_fastboot:
     triggers:
       - schedule:
-          cron: "5 12 * * 5"
+          cron: "5 10 * * 5"
           filters:
             branches:
               only: weekly_fastboot
