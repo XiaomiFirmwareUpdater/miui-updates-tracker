@@ -7,8 +7,6 @@ jobs:
       - run: apt-get -qq update && apt-get -qq install git curl wget
       - run: git clone https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git -b weekly_fastboot $HOME/project/
       - run: cd $HOME/project/
-      - run: wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/fastboot.sh
-      - run: wget -q https://github.com/fabianonline/telegram.sh/raw/master/telegram && chmod +x telegram
       - run: chmod 775 *.sh
       - run: ./weekly_fastboot.sh
 

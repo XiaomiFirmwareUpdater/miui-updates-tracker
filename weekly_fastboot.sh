@@ -1,6 +1,10 @@
 #Cleanup
 rm raw_out compare changes updates dl_links 2> /dev/null
 
+#Download
+curl -H "PRIVATE-TOKEN: $token" 'https://gitlab.com/api/v4/projects/7746867/repository/files/fastboot.sh/raw?ref=master' -o fastboot.sh && chmod +x fastboot.sh
+wget -q https://github.com/yshalsager/telegram.sh/raw/master/telegram && chmod +x telegram
+
 #Check if db exist
 if [ -e weekly_fastboot_db ]
 then
