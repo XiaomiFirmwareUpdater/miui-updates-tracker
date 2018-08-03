@@ -1,6 +1,10 @@
 #Cleanup
 rm raw_out compare changes updates dl_links 2> /dev/null
 
+#Download
+curl -H "PRIVATE-TOKEN: $token" 'https://gitlab.com/api/v4/projects/7746867/repository/files/getversion.sh/raw?ref=master' -o getversion.sh && chmod +x getversion.sh
+wget -q https://github.com/yshalsager/telegram.sh/raw/master/telegram && chmod +x telegram
+
 #Check if db exist
 if [ -e stable_db ]
 then
