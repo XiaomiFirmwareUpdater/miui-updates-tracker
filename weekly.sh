@@ -75,6 +75,5 @@ cat dl_links | while read line; do
 done
 
 #Push
-git config --global user.email "$gitmail"; git config --global user.name "$gituser"
-git add weekly_db; git commit -m "Sync: $(date +%d.%m.%Y)"
+git add weekly_db ; git commit --author="$gituser <$gitmail>" -m "Sync: $(date +%d.%m.%Y)"
 git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:weekly
