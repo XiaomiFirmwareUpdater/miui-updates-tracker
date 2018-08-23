@@ -64,7 +64,7 @@ cat dl_links | while read line; do
 	size=$(echo $line | cut -d ' ' -f4)
 	android=$(echo $line | cut -d ' ' -f5)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
-	./telegram -t $bottoken -c $chat -M "New fastboot image available!
+	./telegram -t $bottoken -c @MIUIUpdatesTracker -M "New fastboot image available!
 	*Device*: $name
 	*Codename*: $codename
 	*Version*: $version
