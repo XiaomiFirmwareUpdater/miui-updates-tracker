@@ -77,7 +77,7 @@ cat dl_links | while read line; do
 done
 
 #Push
-git add weekly_db ; git -c "user.name=$gituser" -c "user.email=$gitmail" commit -m "Sync: $(date +%d.%m.%Y)"
+git add weekly_db ; git -c "user.name=$gituser" -c "user.email=$gitmail" commit -m "Sync: $(date +%d.%m.%Y-%R)"
 git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:weekly
 
 else
