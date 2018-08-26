@@ -54,6 +54,8 @@ else
     echo "No new updates!"
 fi
 
+if [ -s dl_links ]
+then
 #Telegram
 cat dl_links | while read line; do
 	name=$(echo $line | cut -d '"' -f2)
@@ -77,3 +79,7 @@ done
 #Push
 git add stable_db ; git -c "user.name=$gituser" -c "user.email=$gitmail" commit -m "Sync: $(date +%d.%m.%Y)"
 git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:stable
+
+else
+    echo "Nothing to do!" && exit 0
+fi
