@@ -4,6 +4,7 @@ rm raw_out compare changes updates dl_links 2> /dev/null
 #Download
 curl -H "PRIVATE-TOKEN: $token" 'https://gitlab.com/api/v4/projects/7746867/repository/files/fastboot.sh/raw?ref=master' -o fastboot.sh && chmod +x fastboot.sh
 wget -q https://github.com/yshalsager/telegram.sh/raw/master/telegram && chmod +x telegram
+wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/discord.sh && chmod +x discord.sh
 
 #Check if db exist
 if [ -e weekly_fastboot_db ]
@@ -59,14 +60,14 @@ then
 #Telegram
 cat dl_links | while read line; do
 	name=$(echo $line | cut -d '"' -f2)
-	codename=$(echo $line | cut -d = -f1)
+	codename=$(echo $line | cut -d = -f1 | cut -d - -f1)
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
 	changes=$(echo $line | cut -d ' ' -f2)
 	md5=$(echo $line | cut -d ' ' -f3)
 	size=$(echo $line | cut -d ' ' -f4)
 	android=$(echo $line | cut -d ' ' -f5)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
-	./telegram -t $bottoken -c @MIUIUpdatesTracker -M "New fastboot image available!
+	./telegram -t $bottoken -c @MIUIUpdatesTracker -M "New weekly fastboot image available!
 	*Device*: $name
 	*Codename*: $codename
 	*Version*: $version
@@ -76,6 +77,7 @@ cat dl_links | while read line; do
 	*Changelog*: [Here]($changes)
 	*Download Link*: [Here]($link)
 	@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
+	./discord.sh "New weekly fastboot image available! \n \n **Device**: $name \n **Codename**: $codename \n **Version**: $version \n **Android**: $android \n **Filesize**: $size \n 	**MD5**: $md5 \n **Changelog**: <$changes> \n **Download Link**: <$link> \n ~~                                                     ~~"
 done
 else
     echo "Nothing to do!" && exit 0
