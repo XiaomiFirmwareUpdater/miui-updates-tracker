@@ -54,7 +54,7 @@ else
     echo "No new updates!"
 fi
 
-if [ -s dl_links ]
+if [ -s dl_links ] && ! grep -q "none" dl_links
 then
 #Telegram
 cat dl_links | while read line; do
@@ -77,11 +77,10 @@ cat dl_links | while read line; do
 	*Download Link*: [Here]($link)
 	@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
 done
+else
+    echo "Nothing to do!" && exit 0
+fi
 
 #Push
 git add weekly_fastboot_db ; git -c "user.name=$gituser" -c "user.email=$gitmail" commit -m "Sync: $(date +%d.%m.%Y-%R)"
 git push -q https://$GIT_OAUTH_TOKEN_XFU@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:weekly_fastboot
-
-else
-    echo "Nothing to do!" && exit 0
-fi
