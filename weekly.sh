@@ -4,6 +4,7 @@ rm raw_out compare changes updates dl_links 2> /dev/null
 #Download
 curl -H "PRIVATE-TOKEN: $token" 'https://gitlab.com/api/v4/projects/7746867/repository/files/getversion.sh/raw?ref=master' -o getversion.sh && chmod +x getversion.sh
 wget -q https://github.com/yshalsager/telegram.sh/raw/master/telegram && chmod +x telegram
+wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/discord.sh && chmod +x discord.sh
 
 #Check if db exist
 if [ -e weekly_db ]
@@ -60,11 +61,11 @@ then
 cat dl_links | while read line; do
 	name=$(echo $line | cut -d '"' -f2)
 	model=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f2)
-	codename=$(echo $line | cut -d = -f1)
+	codename=$(echo $line | cut -d = -f1 | cut -d - -f1)
 	version=$(echo $line | cut -d = -f2 | cut -d / -f4)
 	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
-	size=$(wget --spider $link --server-response -O - 2>&1 | sed -ne '/Length:/{s/*. //;p}' | tail -1 | cut -d ' ' -f3)
+	size=$(wget --spider $link --server-response -O - 2>&1 | sed -ne '/Length:/{s/*. //;p}' | tail -1 | cut -d '(' -f2 | cut -d ')' -f1)
 	./telegram -t $bottoken -c @MIUIUpdatesTracker -M "New weekly update available!
 	*Device*: $name
 	*Product*: $model
@@ -74,6 +75,7 @@ cat dl_links | while read line; do
 	*Filesize*: $size
 	*Download Link*: [Here]($link)
 	@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
+	./discord.sh "New weekly update available! \n \n **Device**: $name \n **Product**: $model \n **Codename**: $codename \n **Version**: $version \n **Android**: $android \n **Filesize**: $size \n **Download Link**: <$link> \n ~~                                                     ~~"
 done
 else
     echo "Nothing to do!" && exit 0
