@@ -77,7 +77,7 @@ cat dl_links | while read line; do
 	*Changelog*: [Here]($changes)
 	*Download Link*: [Here]($link)
 	@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
-	./discord.sh "New weekly fastboot image available! \n \n **Device**: $name \n **Codename**: $codename \n **Version**: $version \n **Android**: $android \n **Filesize**: $size \n 	**MD5**: $md5 \n **Changelog**: <$changes> \n **Download Link**: <$link> \n ~~                                                     ~~"
+	./discord.sh "New weekly fastboot image available! \n \n **Device**: $name \n **Codename**: $codename \n **Version**: $version \n **Android**: $android \n **Filesize**: $size \n **MD5**: $md5 \n **Changelog**: <$changes> \n **Download Link**: <$link> \n ~~                                                     ~~"
 done
 else
     echo "Nothing to do!" && exit 0
