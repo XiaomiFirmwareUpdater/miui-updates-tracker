@@ -55,10 +55,10 @@ else
     echo "No new updates!"
 fi
 
-if [ -s dl_links ] && ! grep -q "none" dl_links
+if [ -s dl_links ]
 then
 #Telegram
-cat dl_links | while read line; do
+cat dl_links | sed -n '/none/!p' | while read line; do
 	name=$(echo $line | cut -d '"' -f2)
 	model=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f2)
 	codename=$(echo $line | cut -d = -f1 | cut -d - -f1)
