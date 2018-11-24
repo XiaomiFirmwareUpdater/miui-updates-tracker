@@ -3,7 +3,7 @@ rm raw_out compare changes updates dl_links 2> /dev/null
 
 #Download
 curl -H "PRIVATE-TOKEN: $token" 'https://gitlab.com/api/v4/projects/7746867/repository/files/getversion.sh/raw?ref=master' -o getversion.sh && chmod +x getversion.sh
-wget -q https://github.com/fabianonline/telegram.sh/raw/master/telegram && chmod +x telegram
+wget -q https://github.com/yshalsager/telegram.py/raw/master/telegram.py
 wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/discord.sh && chmod +x discord.sh
 
 #Check if db exist
@@ -66,7 +66,7 @@ cat dl_links | sed -n '/none/!p' | while read line; do
 	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
 	size=$(wget --spider $link --server-response -O - 2>&1 | sed -ne '/Length:/{s/*. //;p}' | tail -1 | cut -d '(' -f2 | cut -d ')' -f1)
-	./telegram -t $bottoken -c @MIUIUpdatesTracker -D -M "New stable update available!
+	python telegram.py -t $bottoken -c @MIUIUpdatesTracker -D -M "New stable update available!
 	*Device*: $name
 	*Product*: $model
 	*Codename*: $codename
