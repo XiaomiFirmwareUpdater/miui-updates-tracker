@@ -66,7 +66,7 @@ cat dl_links | sed -n '/none/!p' | while read line; do
 	android=$(echo $line | cut -d = -f2 | cut -d / -f5 | cut -d _ -f5 | cut -d . -f1,2)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
 	size=$(wget --spider $link --server-response -O - 2>&1 | sed -ne '/Length:/{s/*. //;p}' | tail -1 | cut -d '(' -f2 | cut -d ')' -f1)
-	python telegram.py -t $bottoken -c @MIUIUpdatesTracker -D -M "New stable update available!
+	python telegram.py -t $bottoken -c @MIUIUpdatesTracker -M "New stable update available!
 	*Device*: $name
 	*Product*: $model
 	*Codename*: $codename
