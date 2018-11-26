@@ -67,7 +67,7 @@ cat dl_links | sed -n '/none/!p' | while read line; do
 	size=$(echo $line | cut -d ' ' -f4)
 	android=$(echo $line | cut -d ' ' -f5)
 	link=$(echo $line | cut -d = -f2 | cut -d ' ' -f1)
-	python telegram.py -t $bottoken -c @MIUIUpdatesTracker -D -M "New weekly fastboot image available!
+	python telegram.py -t $bottoken -c @MIUIUpdatesTracker -M "New weekly fastboot image available!
 	*Device*: $name
 	*Codename*: $codename
 	*Version*: $version
