@@ -1,5 +1,5 @@
 import json
-from datetime import date
+from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
 
@@ -282,8 +282,8 @@ for v in versions:
 
 # push
 if changes is True:
-    today = str(date.today())
-    system("git add *_recovery/*_recovery.json *_fastboot/*_fastboot.json && "" \
+    today = str(datetime.today()).split('.')[0]
+    system("git add *_recovery/*.json *_fastboot/*.json && "" \
            ""git commit -m \"sync: {0}\" --author='XiaomiFirmwareUpdater <xiaomifirmwareupdater@gmail.com>' && "" \
            ""git push -q https://{1}@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:master"
            .format(today, GIT_OAUTH_TOKEN))
