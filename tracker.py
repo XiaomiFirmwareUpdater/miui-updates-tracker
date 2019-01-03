@@ -281,12 +281,8 @@ for v in versions:
         print(v + ": Nothing to do!")
 
 # push
-if changes is True:
-    today = str(datetime.today()).split('.')[0]
-    system("git add *_recovery/*.json *_fastboot/*.json && "" \
-           ""git commit -m \"sync: {0}\" --author='XiaomiFirmwareUpdater <xiaomifirmwareupdater@gmail.com>' && "" \
-           ""git push -q https://{1}@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:master"
-           .format(today, GIT_OAUTH_TOKEN))
-elif changes is False:
-    print("Nothing to push!")
-
+today = str(datetime.today()).split('.')[0]
+system("git add *_recovery/*.json *_fastboot/*.json && "" \
+       ""git commit -m \"sync: {0}\" --author='XiaomiFirmwareUpdater <xiaomifirmwareupdater@gmail.com>' && "" \
+       ""git push -q https://{1}@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:master"
+       .format(today, GIT_OAUTH_TOKEN))
