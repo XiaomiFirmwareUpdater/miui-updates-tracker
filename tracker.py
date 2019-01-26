@@ -104,7 +104,7 @@ sf_devices = ['aqua', 'beryllium_global', 'cactus', 'cactus_global', 'cancro', '
 wr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1', 'cappu': '7.0', 'capricorn': '8.0',
               'capricorn_global': '8.0', 'cereus': '8.1', 'cereus_global': '8.1', 'chiron': '8.0',
               'chiron_global': '8.0', 'clover': '8.1', 'dipper': '9.0', 'dipper_global': '9.0', 'equuleus': '9.0',
-              'equuleus_global': '8.1', 'gemini': '8.0', 'gemini_global': '8.0', 'helium': '7.0',
+              'equuleus_global': '9.0', 'gemini': '8.0', 'gemini_global': '8.0', 'helium': '7.0',
               'helium_global': '7.0', 'hydrogen': '7.0', 'hydrogen_global': '7.0', 'jason': '8.1',
               'jason_global': '8.1', 'kate_global': '6.0', 'kenzo': '6.0', 'kenzo_global': '6.0', 'land': '6.0',
               'land_global': '6.0', 'lithium': '8.0', 'lithium_global': '8.0', 'lotus': '8.1', 'markw': '6.0',
