@@ -283,7 +283,8 @@ for v in versions:
 
 # push
 today = str(datetime.today()).split('.')[0]
-system("git add *_recovery/*.json *_fastboot/*.json && "" \
-       ""git commit -m \"sync: {0}\" --author='XiaomiFirmwareUpdater <xiaomifirmwareupdater@gmail.com>' && "" \
+system("git add *_recovery/*.json *_fastboot/*.json && "
+       "git -c \"user.name=XiaomiFirmwareUpdater\" -c \"user.email=xiaomifirmwareupdater@gmail.com\" "
+       "commit -m \"sync: {0}\" && "" \
        ""git push -q https://{1}@github.com/XiaomiFirmwareUpdater/miui-updates-tracker.git HEAD:master"
        .format(today, GIT_OAUTH_TOKEN))
