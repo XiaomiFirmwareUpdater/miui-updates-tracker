@@ -199,7 +199,7 @@ for v in versions:
                 product = str(value['filename']).split('_')[1]
                 for c, info in names.items():
                     if info[1] == product:
-                        codename = str(c)
+                        codename = str(c).split('_')[0]
                         device = info[0]
                 version = value['version']
                 link = value['download']
