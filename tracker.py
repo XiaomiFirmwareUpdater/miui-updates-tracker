@@ -84,7 +84,7 @@ sr_devices = {'aqua': '7.0', 'beryllium_global': '9.0', 'cactus': '8.1',
               'riva': '8.1', 'riva_global': '7.1', 'rolex': '6.0', 'rolex_global': '7.1', 'rosy': '8.1',
               'rosy_global': '7.1', 'sagit': '8.0', 'sagit_global': '8.0', 'sakura': '8.1',
               'sakura_india_global': '8.1', 'santoni': '7.1', 'santoni_global': '7.1', 'scorpio': '8.0',
-              'scorpio_global': '8.0', 'sirius': '8.1', 'tiffany': '8.1', 'tulip_global': '8.1', 'ursa': '9.0',
+              'scorpio_global': '8.0', 'sirius': '9.0', 'tiffany': '8.1', 'tulip_global': '8.1', 'ursa': '9.0',
               'ugg': '7.1', 'ugg_global': '7.1', 'ugglite': '7.1', 'ugglite_global': '7.1', 'vince': '7.1',
               'vince_global': '8.1', 'wayne': '8.1', 'whyred': '8.1', 'whyred_global': '8.1', 'ysl': '8.1',
               'ysl_global': '8.1'}
