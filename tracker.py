@@ -107,7 +107,7 @@ wr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1'
               'equuleus_global': '9.0', 'gemini': '8.0', 'gemini_global': '8.0', 'helium': '7.0',
               'helium_global': '7.0', 'hydrogen': '7.0', 'hydrogen_global': '7.0', 'jason': '8.1',
               'jason_global': '8.1', 'kate_global': '6.0', 'kenzo': '6.0', 'kenzo_global': '6.0', 'land': '6.0',
-              'land_global': '6.0', 'lithium': '8.0', 'lithium_global': '8.0', 'lotus': '8.1', 'markw': '6.0',
+              'land_global': '6.0', 'lavender': '9.0', 'lithium': '8.0', 'lithium_global': '8.0', 'lotus': '8.1', 'markw': '6.0',
               'meri': '7.1', 'mido': '7.0', 'mido_global': '7.0', 'natrium': '8.0', 'natrium_global': '8.0',
               'nikel': '6.0', 'nikel_global': '6.0', 'nitrogen': '9.0', 'nitrogen_global': '9.0', 'omega': '6.0',
               'oxygen': '7.1', 'oxygen_global': '7.1', 'perseus': '9.0', 'platina': '9.0', 'platina_global': '8.1',
