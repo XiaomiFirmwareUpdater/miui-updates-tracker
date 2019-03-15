@@ -70,7 +70,7 @@ sr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1'
               'jason_global': '7.1', 'kate_global': '6.0', 'land': '6.0',
               'land_global': '6.0', 'lavender': '9.0', 'lithium': '8.0', 'lithium_global': '8.0', 'lotus': '8.1',
               'markw': '6.0', 'markw_global': '6.0', 'meri': '7.1', 'mido': '7.0', 'mido_global': '7.0',
-              'natrium': '8.0', 'natrium_global': '8.0', 'nikel': '6.0', 'nikel_global': '6.0', 'nitrogen': '9.0',
+              'natrium': '8.0', 'natrium_global': '8.0', 'nikel': '6.0', 'nikel_global': '6.0', 'nitrogen': '8.1',
               'nitrogen_global': '8.1', 'omega': '6.0', 'oxygen': '7.1', 'oxygen_global': '7.1', 'perseus': '9.0',
               'perseus_global': '9.0', 'platina': '8.1', 'platina_global': '8.1', 'polaris': '9.0',
               'polaris_global': '9.0', 'prada': '6.0', 'prada_global': '6.0', 'riva': '8.1', 'riva_global': '7.1',
