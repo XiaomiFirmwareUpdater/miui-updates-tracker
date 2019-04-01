@@ -32,7 +32,7 @@ names = {'beryllium_global': ('Poco F1 Global', 'POCOF1Global'), 'cactus': ('Red
          'jason_global': ('Mi Note 3 Global', 'MINote3Global'),
          'kate_global': ('Redmi Note 3 SE Global', 'HMNote3ProtwGlobal'), 'land': ('Redmi 3S China', 'HM3S'),
          'land_global': ('Redmi 3S Global', 'HM3SGlobal'), 'lavender': ('Redmi Note 7 China', 'LAVENDER'),
-         'lavender_eea_global': ('Redmi Note 7 China', 'LAVENDEREEAGlobal'),
+         'lavender_eea_global': ('Redmi Note 7 EEA Global', 'LAVENDEREEAGlobal'), 'lavender_in_global': ('Redmi Note 7 India', 'LAVENDERINGlobal'),
          'lithium': ('Mi MIX China', 'MIMIX'), 'lithium_global': ('Mi MIX Global', 'MIMIXGlobal'),
          'lotus': ('Mi Play', 'MIPLAY'), 'markw': ('Redmi 4 Prime China', 'HM4Pro'),
          'markw_global': ('Redmi 4 Prime Global', 'HM4ProGlobal'), 'meri': ('Mi 5C China', 'MI5C'),
