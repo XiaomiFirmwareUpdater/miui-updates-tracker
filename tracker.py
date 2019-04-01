@@ -40,7 +40,7 @@ names = {'beryllium_global': ('Poco F1 Global', 'POCOF1Global'), 'cactus': ('Red
          'natrium': ('Mi 5s Plus China', 'MI5SPlus'), 'natrium_global': ('Mi 5s Plus Global', 'MI5SPlusGlobal'),
          'nikel': ('Redmi Note 4 MTK China', 'HMNote4'), 'nikel_global': ('Redmi Note 4 MTK Global', 'HMNote4Global'),
          'nitrogen': ('Mi Max 3 China', 'MIMAX3'), 'nitrogen_global': ('Mi Max 3 Global', 'MIMAX3Global'),
-         'onclite': ('Redmi 6 China', 'ONCLITE'), 'omega': ('Redmi Pro China', 'HMPro'), 'oxygen': ('Mi Max 2 China', 'MIMAX2'),
+         'onclite': ('Redmi 7 China', 'ONCLITE'), 'omega': ('Redmi Pro China', 'HMPro'), 'oxygen': ('Mi Max 2 China', 'MIMAX2'),
          'oxygen_global': ('Mi Max 2 Global', 'MIMAX2Global'), 'perseus': ('Mi MIX 3 China', 'MIMIX3'),
          'perseus_global': ('Mi MIX 3 Global', 'MIMIX3Global'), 'platina': ('Mi 8 Lite China', 'MI8Lite'),
          'platina_global': ('Mi 8 Lite Global', 'MI8LiteGlobal'), 'polaris': ('Mi MIX 2S China', 'MIMIX2S'),
