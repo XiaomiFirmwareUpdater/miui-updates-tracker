@@ -1,13 +1,43 @@
+import difflib
 import json
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
 
+import fastboot
 import recovery
-from jsondiff import diff
 from requests import post
 
-import fastboot
+
+def tg_post(message, codename_):
+    params = (
+        ('chat_id', telegram_chat),
+        ('text', message),
+        ('parse_mode', "Markdown"),
+        ('disable_web_page_preview', "yes")
+    )
+    telegram_url = "https://api.telegram.org/bot" + bottoken + "/sendMessage"
+    telegram_req = post(telegram_url, params=params)
+    telegram_status = telegram_req.status_code
+    if telegram_status == 200:
+        print("{}: Telegram Message sent".format(codename_))
+    else:
+        print("Telegram Error")
+
+
+def discord_post(message, codename_):
+    discord_url = "https://discordapp.com/api/channels/{}/messages".format(channelID)
+    headers = {"Authorization": "Bot {}".format(DISCORD_BOT_TOKEN),
+               "User-Agent": "myBotThing (http://some.url, v0.1)",
+               "Content-Type": "application/json", }
+    data = json.dumps({"content": message})
+    discord_req = post(discord_url, headers=headers, data=data)
+    discord_status = discord_req.status_code
+    if discord_status == 200:
+        print("{0}: Discord Message sent".format(codename_))
+    else:
+        print("Discord Error")
+
 
 # vars
 GIT_OAUTH_TOKEN = environ['XFU']
@@ -32,7 +62,8 @@ names = {'beryllium_global': ('Poco F1 Global', 'POCOF1Global'), 'cactus': ('Red
          'jason_global': ('Mi Note 3 Global', 'MINote3Global'),
          'kate_global': ('Redmi Note 3 SE Global', 'HMNote3ProtwGlobal'), 'land': ('Redmi 3S China', 'HM3S'),
          'land_global': ('Redmi 3S Global', 'HM3SGlobal'), 'lavender': ('Redmi Note 7 China', 'LAVENDER'),
-         'lavender_eea_global': ('Redmi Note 7 EEA Global', 'LAVENDEREEAGlobal'), 'lavender_in_global': ('Redmi Note 7 India', 'LAVENDERINGlobal'),
+         'lavender_eea_global': ('Redmi Note 7 EEA Global', 'LAVENDEREEAGlobal'),
+         'lavender_in_global': ('Redmi Note 7 India', 'LAVENDERINGlobal'),
          'lithium': ('Mi MIX China', 'MIMIX'), 'lithium_global': ('Mi MIX Global', 'MIMIXGlobal'),
          'lotus': ('Mi Play', 'MIPLAY'), 'markw': ('Redmi 4 Prime China', 'HM4Pro'),
          'markw_global': ('Redmi 4 Prime Global', 'HM4ProGlobal'), 'meri': ('Mi 5C China', 'MI5C'),
@@ -40,7 +71,8 @@ names = {'beryllium_global': ('Poco F1 Global', 'POCOF1Global'), 'cactus': ('Red
          'natrium': ('Mi 5s Plus China', 'MI5SPlus'), 'natrium_global': ('Mi 5s Plus Global', 'MI5SPlusGlobal'),
          'nikel': ('Redmi Note 4 MTK China', 'HMNote4'), 'nikel_global': ('Redmi Note 4 MTK Global', 'HMNote4Global'),
          'nitrogen': ('Mi Max 3 China', 'MIMAX3'), 'nitrogen_global': ('Mi Max 3 Global', 'MIMAX3Global'),
-         'onclite': ('Redmi 7 China', 'ONCLITE'), 'omega': ('Redmi Pro China', 'HMPro'), 'oxygen': ('Mi Max 2 China', 'MIMAX2'),
+         'onclite': ('Redmi 7 China', 'ONCLITE'), 'omega': ('Redmi Pro China', 'HMPro'),
+         'oxygen': ('Mi Max 2 China', 'MIMAX2'),
          'oxygen_global': ('Mi Max 2 Global', 'MIMAX2Global'), 'perseus': ('Mi MIX 3 China', 'MIMIX3'),
          'perseus_global': ('Mi MIX 3 Global', 'MIMIX3Global'), 'platina': ('Mi 8 Lite China', 'MI8Lite'),
          'platina_global': ('Mi 8 Lite Global', 'MI8LiteGlobal'), 'polaris': ('Mi MIX 2S China', 'MIMIX2S'),
@@ -54,17 +86,20 @@ names = {'beryllium_global': ('Poco F1 Global', 'POCOF1Global'), 'cactus': ('Red
          'santoni_global': ('Redmi 4X Global', 'HM4XGlobal'), 'scorpio': ('Mi Note 2 China', 'MINote2'),
          'scorpio_global': ('Mi Note 2 Global', 'MINote2Global'), 'sirius': ('Mi 8 SE China', 'MI8SE'),
          'tiffany': ('Mi 5X China', 'MI5X'), 'tulip_global': ('Redmi Note 6 Pro Global', 'HMNote6ProGlobal'),
-         'ugg': ('Redmi Note 5A Prime China', 'HMNote5A'), 'ugg_global': ('Redmi Note 5A Prime Global', 'HMNote5AGlobal'),
+         'ugg': ('Redmi Note 5A Prime China', 'HMNote5A'),
+         'ugg_global': ('Redmi Note 5A Prime Global', 'HMNote5AGlobal'),
          'ugglite': ('Redmi Note 5A (2GB) China', 'HMNote5ALITE'),
          'ugglite_global': ('Redmi Note 5A (2GB) Global', 'HMNote5ALITEGlobal'),
          'ursa': ('Mi 8 Explorer China', 'MI8Explorer'), 'vince': ('Redmi 5 Plus China', 'HM5Plus'),
          'vince_global': ('Redmi 5 Plus Global - Redmi Note 5 India', 'HM5PlusGlobal'),
-         'violet': ('Redmi Note 7 Pro China', 'VIOLET'), 'violet_in_global': ('Redmi Note 7 Pro India', 'VIOLETINGlobal'),
+         'violet': ('Redmi Note 7 Pro China', 'VIOLET'),
+         'violet_in_global': ('Redmi Note 7 Pro India', 'VIOLETINGlobal'),
          'wayne': ('Mi 6X China', 'MI6X'), 'whyred': ('Redmi Note 5 China', 'HMNote5'),
          'whyred_global': ('Redmi Note 5 Global - Redmi Note 5 Pro India', 'HMNote5HMNote5ProGlobal'),
          'ysl': ('Redmi S2 China', 'HMS2'), 'ysl_global': ('Redmi S2 Global - Redmi Y2', 'HMS2Global')}
 sr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1', 'cappu': '7.0', 'capricorn': '8.0',
-              'capricorn_global': '7.0', 'cereus': '8.1', 'cereus_global': '8.1', 'cepheus': '9.0', 'cepheus_global': '9.0',
+              'capricorn_global': '7.0', 'cereus': '8.1', 'cereus_global': '8.1', 'cepheus': '9.0',
+              'cepheus_global': '9.0',
               'cepheus_eea_global': '9.0', 'chiron': '8.0', 'chiron_global': '8.0', 'clover': '8.1', 'dipper': '9.0',
               'dipper_global': '9.0', 'equuleus': '9.0', 'equuleus_global': '9.0', 'grus': '9.0', 'helium': '7.0',
               'helium_global': '7.0', 'hydrogen': '7.0', 'hydrogen_global': '7.0', 'jason': '8.1',
@@ -72,28 +107,34 @@ sr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1'
               'lavender': '9.0', 'lavender_in_global': '9.0', 'lithium': '8.0', 'lithium_global': '8.0', 'lotus': '8.1',
               'markw': '6.0', 'markw_global': '6.0', 'meri': '7.1', 'mido': '7.0', 'mido_global': '7.0',
               'natrium': '8.0', 'natrium_global': '8.0', 'nikel': '6.0', 'nikel_global': '6.0', 'nitrogen': '8.1',
-              'nitrogen_global': '9.0', 'onclite': '9.0', 'omega': '6.0', 'oxygen': '7.1', 'oxygen_global': '7.1', 'perseus': '9.0',
+              'nitrogen_global': '9.0', 'onclite': '9.0', 'omega': '6.0', 'oxygen': '7.1', 'oxygen_global': '7.1',
+              'perseus': '9.0',
               'perseus_global': '9.0', 'platina': '8.1', 'platina_global': '9.0', 'polaris': '9.0',
               'polaris_global': '9.0', 'prada': '6.0', 'prada_global': '6.0', 'riva': '8.1', 'riva_global': '7.1',
               'rolex': '6.0', 'rolex_global': '7.1', 'rosy': '8.1', 'rosy_global': '7.1', 'sagit': '8.0',
               'sagit_global': '8.0', 'sakura': '8.1', 'sakura_india_global': '8.1', 'santoni': '7.1',
               'santoni_global': '7.1', 'scorpio': '8.0', 'scorpio_global': '8.0', 'sirius': '9.0', 'tiffany': '8.1',
               'tulip_global': '8.1', 'ursa': '9.0', 'ugg': '7.1', 'ugg_global': '7.1', 'ugglite': '7.1',
-              'ugglite_global': '7.1', 'vince': '8.1', 'vince_global': '8.1', 'violet': '9.0', 'violet_in_global': '9.0',
+              'ugglite_global': '7.1', 'vince': '8.1', 'vince_global': '8.1', 'violet': '9.0',
+              'violet_in_global': '9.0',
               'wayne': '8.1', 'whyred': '8.1', 'whyred_global': '8.1', 'ysl': '8.1', 'ysl_global': '8.1'}
 sf_devices = ['beryllium_global', 'cactus', 'cactus_global', 'cappu', 'capricorn', 'capricorn_global', 'cereus',
               'cereus_global', 'cepheus', 'cepheus_eea_global', 'chiron', 'chiron_global', 'clover', 'dipper',
               'dipper_global', 'equuleus', 'equuleus_global', 'grus', 'helium', 'helium_global', 'hydrogen',
               'hydrogen_global', 'jason', 'jason_global', 'kate_global', 'land', 'land_global',
-              'lavender', 'lavender_in_global', 'lithium', 'lithium_global', 'lotus', 'markw', 'markw_global', 'meri', 'mido',
-              'mido_global', 'natrium', 'natrium_global', 'nikel', 'nikel_global', 'nitrogen', 'nitrogen_global', 'onclite',
+              'lavender', 'lavender_in_global', 'lithium', 'lithium_global', 'lotus', 'markw', 'markw_global', 'meri',
+              'mido',
+              'mido_global', 'natrium', 'natrium_global', 'nikel', 'nikel_global', 'nitrogen', 'nitrogen_global',
+              'onclite',
               'omega', 'oxygen', 'oxygen_global', 'perseus', 'platina', 'platina_global', 'polaris', 'polaris_global',
               'prada', 'prada_global', 'riva', 'riva_global', 'rolex', 'rolex_global', 'rosy', 'rosy_global', 'sagit',
               'sagit_global', 'sakura', 'santoni', 'santoni_global', 'scorpio', 'scorpio_global',
-              'sirius', 'tiffany', 'tulip_global', 'ursa', 'ugg', 'ugg_global', 'ugglite', 'ugglite_global', 
-              'violet', 'violet_in_global', 'vince', 'vince_global', 'wayne', 'whyred', 'whyred_global', 'ysl', 'ysl_global']
+              'sirius', 'tiffany', 'tulip_global', 'ursa', 'ugg', 'ugg_global', 'ugglite', 'ugglite_global',
+              'violet', 'violet_in_global', 'vince', 'vince_global', 'wayne', 'whyred', 'whyred_global', 'ysl',
+              'ysl_global']
 wr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1', 'cappu': '7.0', 'capricorn': '8.0',
-              'capricorn_global': '8.0', 'cereus': '8.1', 'cereus_global': '8.1', 'cepheus': '9.0', 'cepheus_global': '9.0', 'chiron': '8.0',
+              'capricorn_global': '8.0', 'cereus': '8.1', 'cereus_global': '8.1', 'cepheus': '9.0',
+              'cepheus_global': '9.0', 'chiron': '8.0',
               'chiron_global': '8.0', 'clover': '8.1', 'dipper': '9.0', 'dipper_global': '9.0', 'equuleus': '9.0',
               'equuleus_global': '9.0', 'helium': '7.0', 'helium_global': '7.0', 'hydrogen': '7.0',
               'hydrogen_global': '7.0', 'jason': '8.1', 'jason_global': '8.1', 'kate_global': '6.0', 'land': '6.0',
@@ -101,7 +142,8 @@ wr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1'
               'markw': '6.0', 'meri': '7.1', 'mido': '7.0', 'mido_global': '7.0', 'natrium': '8.0',
               'natrium_global': '8.0', 'nikel': '6.0', 'nikel_global': '6.0', 'nitrogen': '9.0',
               'nitrogen_global': '9.0', 'omega': '6.0', 'oxygen': '7.1', 'oxygen_global': '7.1', 'perseus': '9.0',
-              'perseus_global': '9.0', 'platina': '9.0', 'platina_global': '9.0', 'polaris': '9.0', 'polaris_global': '9.0', 'prada': '6.0',
+              'perseus_global': '9.0', 'platina': '9.0', 'platina_global': '9.0', 'polaris': '9.0',
+              'polaris_global': '9.0', 'prada': '6.0',
               'riva': '8.1', 'riva_global': '8.1', 'rolex': '6.0', 'rolex_global': '7.1', 'rosy': '8.1',
               'rosy_global': '8.1', 'sagit': '8.0', 'sagit_global': '8.0', 'sakura': '9.0',
               'sakura_india_global': '9.0', 'santoni': '7.1', 'santoni_global': '7.1', 'scorpio': '8.0',
@@ -110,11 +152,14 @@ wr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1'
               'vince_global': '8.1', 'wayne': '9.0', 'whyred': '8.1', 'whyred_global': '9.0', 'ysl': '8.1',
               'ysl_global': '8.1'}
 wf_devices = ['beryllium_global', 'cactus', 'cactus_global', 'cappu', 'capricorn', 'capricorn_global', 'cereus',
-              'cereus_global', 'cepheus', 'cepheus_global', 'chiron', 'chiron_global', 'clover', 'dipper', 'dipper_global', 'equuleus',
+              'cereus_global', 'cepheus', 'cepheus_global', 'chiron', 'chiron_global', 'clover', 'dipper',
+              'dipper_global', 'equuleus',
               'equuleus_global', 'helium', 'helium_global', 'hydrogen', 'hydrogen_global', 'jason', 'jason_global',
-              'kate_global', 'land', 'land_global', 'lavender', 'lithium', 'lithium_global', 'lotus', 'markw', 'meri', 'mido',
+              'kate_global', 'land', 'land_global', 'lavender', 'lithium', 'lithium_global', 'lotus', 'markw', 'meri',
+              'mido',
               'mido_global', 'natrium', 'natrium_global', 'nikel', 'nikel_global', 'nitrogen', 'nitrogen_global',
-              'oxygen', 'oxygen_global', 'perseus', 'perseus_global', 'platina', 'platina_global', 'polaris', 'polaris_global', 'prada',
+              'oxygen', 'oxygen_global', 'perseus', 'perseus_global', 'platina', 'platina_global', 'polaris',
+              'polaris_global', 'prada',
               'riva', 'riva_global', 'rolex', 'rolex_global', 'rosy', 'rosy_global', 'sagit', 'sagit_global', 'sakura',
               'santoni', 'santoni_global', 'scorpio', 'scorpio_global', 'sirius', 'tiffany',
               'tulip_global', 'ursa', 'ugg', 'ugg_global', 'ugglite', 'ugglite_global', 'vince', 'vince_global',
@@ -127,6 +172,8 @@ for v in versions:
     if path.exists(v + '/' + v + '.json'):
         rename(v + '/' + v + '.json', v + '/' + 'old_' + v)
     # set branches and devices
+    devices = ''
+    branch = ''
     if "stable_recovery" in v:
         branch = "1"
         devices = sr_devices
@@ -165,70 +212,90 @@ for v in versions:
     # Compare
     print("Comparing")
     with open(v + '/' + 'old_' + v, 'r') as o, open(v + '/' + v + '.json', 'r') as n:
-        old = json.load(o)
-        new = json.load(n)
-        c = diff(old, new)
-        if c:
-            print("New changes found!")
-            with open(v + '/' + 'changes', "w") as f:
-                json.dump(c, f, indent=1)
-            changes = True
+        diff = difflib.unified_diff(o.readlines(), n.readlines(), fromfile='old_weekly_recovery',
+                                    tofile='weekly_recovery.json')
+        changes = []
+        for line in diff:
+            if line.startswith('+') and 'filename' in line:
+                changes.append(str(line))
+        # save changes to file
+        new = ''.join(changes[1:]).replace("+", "")
+        with open(v + '/changes', 'w') as out:
+            out.write(new)
+        current = None
+        if changes:
+            # load the current data
+            with open(v + '/' + v + '.json', 'r') as c:
+                current = json.load(c)
+            new = True
         else:
             print("No changes found!")
             if path.exists(v + '/' + 'changes'):
                 remove(v + '/' + 'changes')
-            changes = False
+            new = False
 
     # commit, push and send
-    if changes is True:
+    if new:
         # Notify
-        rom = str(v.replace('_', ' '))
-        for key, value in c.items():
+        for i in changes:
+            android = ''
+            codename = ''
+            device = ''
+            link = ''
+            md5 = ''
+            version = ''
+            rom = v.replace('_', ' ')
+            telegram_message = ''
+            discord_message = ''
             if "_recovery" in v:
-                android = str(value['filename']).split('_')[4].replace('.zip', ' ')
-                product = str(value['filename']).split('_')[1]
-                for c, info in names.items():
-                    if info[1] == product:
-                        codename = str(c).split('_')[0]
-                        device = info[0]
-                version = value['version']
-                link = value['download']
-                telegram_message = "New {0} update available!: \n" \
-                                   "*Device:* {1} \n" \
-                                   "*Codename:* {2} \n" \
-                                   "*Version:* `{3}` \n" \
-                                   "*Android:* {4} \n" \
-                                   "Download: [Here]({5}) \n" \
-                                   "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
-                    .format(rom, device, codename, version, android, link)
-                discord_message = "New {0} update available! \n \n" \
-                                  "**Device**: {1} \n" \
-                                  "**Codename**: {2} \n" \
-                                  "**Version**: `{3}` \n" \
-                                  "**Android**: {4} \n" \
-                                  "**Download**: {5} \n" \
-                                  "~~                                                     ~~" \
-                    .format(rom, device, codename, version, android, link)
-            elif "_fastboot" in v:
-                if "_cn_" in str(value['filename']):
-                    android = str(value['filename']).split('_')[4]
-                    code = str(value['filename']).split('_')[0]
-                elif "_global_" in str(value['filename']):
-                    android = str(value['filename']).split('_')[5]
-                    code = str(value['filename']).split('_images')[0]
+                product = i.split('_')[1]
+                for code_name, name in names.items():
+                    if name[1] == product:
+                        codename = code_name
+                        product = name[1]
+                for item in current:
+                    if product in item['filename']:
+                        android = item['android']
+                        codename = codename.split('_')[0]
+                        device = item['device']
+                        link = item['download']
+                        version = item['version']
+                        telegram_message = "New {} update available!\n" \
+                                           "*Device:* {} \n" \
+                                           "*Codename:* {} \n" \
+                                           "*Version:* `{}` \n" \
+                                           "*Android:* {} \n" \
+                                           "*Download*: [Here]({}) \n" \
+                                           "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
+                            .format(rom, device, codename, version, android, link)
+                        discord_message = "New {0} update available! \n \n" \
+                                          "**Device**: {1} \n" \
+                                          "**Codename**: {2} \n" \
+                                          "**Version**: `{3}` \n" \
+                                          "**Android**: {4} \n" \
+                                          "**Download**: {5} \n" \
+                                          "~~                                                     ~~" \
+                            .format(rom, device, codename, version, android, link)
 
-                device = names[code][0]
-                codename = str(value['filename']).split('_')[0]
-                version = value['version']
-                md5 = value['md5']
-                link = value['download']
-                telegram_message = "New {0} image available!: \n" \
-                                   "*Device:* {1} \n" \
-                                   "*Codename:* {2} \n" \
-                                   "*Version:* `{3}` \n" \
-                                   "*Android:* {4} \n" \
-                                   "*MD5:* `{5}` \n" \
-                                   "Download: [Here]({6}) \n" \
+            elif "_fastboot" in v:
+                codename = i.split('"')[3].split('_images_')[0]
+                print(codename)
+                for item in current:
+                    if codename in item['filename']:
+                        android = item['android']
+                        codename = codename.split('_')[0]
+                        device = item['device']
+                        filesize = item['filesize']
+                        link = item['download']
+                        md5 = item['md5']
+                        version = item['version']
+                telegram_message = "New {} image available!: \n" \
+                                   "*Device:* {} \n" \
+                                   "*Codename:* {} \n" \
+                                   "*Version:* `{}` \n" \
+                                   "*Android:* {} \n" \
+                                   "*MD5:* `{}` \n" \
+                                   "*Download:* [Here]({}) \n" \
                                    "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
                     .format(rom, device, codename, version, android, md5, link)
                 discord_message = "New {0} image available! \n \n" \
@@ -240,35 +307,12 @@ for v in versions:
                                   "**Download**: {6} \n" \
                                   "~~                                                     ~~" \
                     .format(rom, device, codename, version, android, md5, link)
-
-            params = (
-                ('chat_id', telegram_chat),
-                ('text', telegram_message),
-                ('parse_mode', "Markdown"),
-                ('disable_web_page_preview', "yes")
-            )
-            telegram_url = "https://api.telegram.org/bot" + bottoken + "/sendMessage"
-            telegram_req = post(telegram_url, params=params)
-            telegram_status = telegram_req.status_code
-            if telegram_status == 200:
-                print("{0}: Telegram Message sent".format(device))
-            else:
-                print("Telegram Error")
-
-            discord_url = "https://discordapp.com/api/channels/{}/messages".format(channelID)
-            headers = {"Authorization": "Bot {}".format(DISCORD_BOT_TOKEN),
-                       "User-Agent": "myBotThing (http://some.url, v0.1)",
-                       "Content-Type": "application/json", }
-            data = json.dumps({"content": discord_message})
-            discord_req = post(discord_url, headers=headers, data=data)
-            discord_status = discord_req.status_code
-            if discord_status == 200:
-                print("{0}: Discord Message sent".format(device))
-            else:
-                print("Discord Error")
+            tg_post(telegram_message, codename)
+            discord_post(discord_message, codename)
+            # cleanup
             if path.exists(v + '/' + 'changes'):
                 remove(v + '/' + 'changes')
-    elif changes is False:
+    else:
         print(v + ": Nothing to do!")
 
 # push
