@@ -126,7 +126,7 @@ sf_devices = ['beryllium_global', 'cactus', 'cactus_global', 'cappu', 'capricorn
               'mido',
               'mido_global', 'natrium', 'natrium_global', 'nikel', 'nikel_global', 'nitrogen', 'nitrogen_global',
               'onclite',
-              'omega', 'oxygen', 'oxygen_global', 'perseus', 'platina', 'platina_global', 'polaris', 'polaris_global',
+              'omega', 'oxygen', 'oxygen_global', 'perseus', 'perseus_global', 'platina', 'platina_global', 'polaris', 'polaris_global',
               'prada', 'prada_global', 'riva', 'riva_global', 'rolex', 'rolex_global', 'rosy', 'rosy_global', 'sagit',
               'sagit_global', 'sakura', 'santoni', 'santoni_global', 'scorpio', 'scorpio_global',
               'sirius', 'tiffany', 'tulip_global', 'ursa', 'ugg', 'ugg_global', 'ugglite', 'ugglite_global',
