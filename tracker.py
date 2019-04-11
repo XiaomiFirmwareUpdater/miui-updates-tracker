@@ -282,8 +282,8 @@ for v in versions:
 
             elif "_fastboot" in v:
                 codename = i.split('"')[3].split('_images_')[0]
-                try:
-                    for item in current:
+                for item in current:
+                    try:
                         if codename == str(item['filename']).split('"')[3].split('_images_')[0]:
                             android = item['android']
                             codename = codename.split('_')[0]
@@ -292,26 +292,26 @@ for v in versions:
                             link = item['download']
                             md5 = item['md5']
                             version = item['version']
-                except IndexError:
-                    continue
-                telegram_message = "New {} image available!: \n" \
-                                   "*Device:* {} \n" \
-                                   "*Codename:* {} \n" \
-                                   "*Version:* `{}` \n" \
-                                   "*Android:* {} \n" \
-                                   "*MD5:* `{}` \n" \
-                                   "*Download:* [Here]({}) \n" \
-                                   "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
-                    .format(rom, device, codename, version, android, md5, link)
-                discord_message = "New {0} image available! \n \n" \
-                                  "**Device**: {1} \n" \
-                                  "**Codename**: {2} \n" \
-                                  "**Version**: `{3}` \n" \
-                                  "**Android**: {4} \n" \
-                                  "**MD5**: `{5}` \n" \
-                                  "**Download**: {6} \n" \
-                                  "~~                                                     ~~" \
-                    .format(rom, device, codename, version, android, md5, link)
+                    except IndexError:
+                        continue
+                    telegram_message = "New {} image available!: \n" \
+                                       "*Device:* {} \n" \
+                                       "*Codename:* {} \n" \
+                                       "*Version:* `{}` \n" \
+                                       "*Android:* {} \n" \
+                                       "*MD5:* `{}` \n" \
+                                       "*Download:* [Here]({}) \n" \
+                                       "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
+                        .format(rom, device, codename, version, android, md5, link)
+                    discord_message = "New {0} image available! \n \n" \
+                                      "**Device**: {1} \n" \
+                                      "**Codename**: {2} \n" \
+                                      "**Version**: `{3}` \n" \
+                                      "**Android**: {4} \n" \
+                                      "**MD5**: `{5}` \n" \
+                                      "**Download**: {6} \n" \
+                                      "~~                                                     ~~" \
+                        .format(rom, device, codename, version, android, md5, link)
             tg_post(telegram_message, codename)
             discord_post(discord_message, codename)
             # cleanup
