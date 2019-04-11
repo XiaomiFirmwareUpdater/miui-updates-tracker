@@ -212,14 +212,14 @@ for v in versions:
     # Compare
     print("Comparing")
     with open(v + '/' + 'old_' + v, 'r') as o, open(v + '/' + v + '.json', 'r') as n:
-        diff = difflib.unified_diff(o.readlines(), n.readlines(), fromfile='old_weekly_recovery',
-                                    tofile='weekly_recovery.json')
+        diff = difflib.unified_diff(o.readlines(), n.readlines(), fromfile='old',
+                                    tofile='new')
         changes = []
         for line in diff:
             if line.startswith('+') and 'filename' in line:
                 changes.append(str(line))
         # save changes to file
-        new = ''.join(changes[1:]).replace("+", "")
+        new = ''.join(changes).replace("+", "")
         with open(v + '/changes', 'w') as out:
             out.write(new)
         current = None
@@ -254,41 +254,46 @@ for v in versions:
                         codename = code_name
                         product = name[1]
                 for item in current:
-                    if product in item['filename']:
-                        android = item['android']
-                        codename = codename.split('_')[0]
-                        device = item['device']
-                        link = item['download']
-                        version = item['version']
-                        telegram_message = "New {} update available!\n" \
-                                           "*Device:* {} \n" \
-                                           "*Codename:* {} \n" \
-                                           "*Version:* `{}` \n" \
-                                           "*Android:* {} \n" \
-                                           "*Download*: [Here]({}) \n" \
-                                           "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
-                            .format(rom, device, codename, version, android, link)
-                        discord_message = "New {0} update available! \n \n" \
-                                          "**Device**: {1} \n" \
-                                          "**Codename**: {2} \n" \
-                                          "**Version**: `{3}` \n" \
-                                          "**Android**: {4} \n" \
-                                          "**Download**: {5} \n" \
-                                          "~~                                                     ~~" \
-                            .format(rom, device, codename, version, android, link)
+                    try:
+                        if product == str(item['filename']).split('_')[1]:
+                            android = item['android']
+                            codename = codename.split('_')[0]
+                            device = item['device']
+                            link = item['download']
+                            version = item['version']
+                    except IndexError:
+                        continue
+                    telegram_message = "New {} update available!\n" \
+                                       "*Device:* {} \n" \
+                                       "*Codename:* {} \n" \
+                                       "*Version:* `{}` \n" \
+                                       "*Android:* {} \n" \
+                                       "*Download*: [Here]({}) \n" \
+                                       "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
+                        .format(rom, device, codename, version, android, link)
+                    discord_message = "New {0} update available! \n \n" \
+                                      "**Device**: {1} \n" \
+                                      "**Codename**: {2} \n" \
+                                      "**Version**: `{3}` \n" \
+                                      "**Android**: {4} \n" \
+                                      "**Download**: {5} \n" \
+                                      "~~                                                     ~~" \
+                        .format(rom, device, codename, version, android, link)
 
             elif "_fastboot" in v:
                 codename = i.split('"')[3].split('_images_')[0]
-                print(codename)
-                for item in current:
-                    if codename in item['filename']:
-                        android = item['android']
-                        codename = codename.split('_')[0]
-                        device = item['device']
-                        filesize = item['filesize']
-                        link = item['download']
-                        md5 = item['md5']
-                        version = item['version']
+                try:
+                    for item in current:
+                        if codename == str(item['filename']).split('"')[3].split('_images_')[0]:
+                            android = item['android']
+                            codename = codename.split('_')[0]
+                            device = item['device']
+                            filesize = item['filesize']
+                            link = item['download']
+                            md5 = item['md5']
+                            version = item['version']
+                except IndexError:
+                    continue
                 telegram_message = "New {} image available!: \n" \
                                    "*Device:* {} \n" \
                                    "*Codename:* {} \n" \
