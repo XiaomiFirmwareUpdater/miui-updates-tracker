@@ -284,7 +284,7 @@ for v in versions:
                 codename = i.split('"')[3].split('_images_')[0]
                 for item in current:
                     try:
-                        if codename == str(item['filename']).split('"')[3].split('_images_')[0]:
+                        if codename == str(item['filename']).split('_images_')[0]:
                             android = item['android']
                             codename = codename.split('_')[0]
                             device = item['device']
