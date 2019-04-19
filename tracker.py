@@ -149,7 +149,7 @@ wr_devices = {'beryllium_global': '9.0', 'cactus': '8.1', 'cactus_global': '8.1'
               'sakura_india_global': '9.0', 'santoni': '7.1', 'santoni_global': '7.1', 'scorpio': '8.0',
               'scorpio_global': '8.0', 'sirius': '9.0', 'tiffany': '8.1', 'tulip_global': '9.0', 'ursa': '9.0',
               'ugg': '7.1', 'ugg_global': '7.1', 'ugglite': '7.1', 'ugglite_global': '7.1', 'vince': '8.1',
-              'vince_global': '8.1', 'wayne': '9.0', 'whyred': '8.1', 'whyred_global': '9.0', 'ysl': '8.1',
+              'vince_global': '8.1', 'wayne': '9.0', 'whyred': '9.0', 'whyred_global': '9.0', 'ysl': '8.1',
               'ysl_global': '8.1'}
 wf_devices = ['beryllium_global', 'cactus', 'cactus_global', 'cappu', 'capricorn', 'capricorn_global', 'cereus',
               'cereus_global', 'cepheus', 'cepheus_global', 'chiron', 'chiron_global', 'clover', 'dipper',
