@@ -187,7 +187,6 @@ for v in versions:
                             android = item['android']
                             codename = codename.split('_')[0]
                             device = item['device']
-                            filesize = item['filesize']
                             link = item['download']
                             md5 = item['md5']
                             version = item['version']
@@ -197,20 +196,21 @@ for v in versions:
                                        "*Device:* {} \n" \
                                        "*Codename:* {} \n" \
                                        "*Version:* `{}` \n" \
-                                       "*Android:* {} \n" \
-                                       "*MD5:* `{}` \n" \
-                                       "*Download:* [Here]({}) \n" \
-                                       "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater" \
-                        .format(rom, device, codename, version, android, md5, link)
-                    discord_message = "New {0} image available! \n \n" \
-                                      "**Device**: {1} \n" \
-                                      "**Codename**: {2} \n" \
-                                      "**Version**: `{3}` \n" \
-                                      "**Android**: {4} \n" \
-                                      "**MD5**: `{5}` \n" \
-                                      "**Download**: {6} \n" \
-                                      "~~                                                     ~~" \
-                        .format(rom, device, codename, version, android, md5, link)
+                                       "*Android:* {} \n".format(rom, device, codename, version, android)
+                    if md5 != 'null':
+                        telegram_message += "*MD5:* `{}` \n".format(md5)
+                    telegram_message += "*Download:* [Here]({}) \n" \
+                                        "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater".format(link)
+                    discord_message = "New {} image available! \n \n" \
+                                      "**Device**: {} \n" \
+                                      "**Codename**: {} \n" \
+                                      "**Version**: `{}` \n" \
+                                      "**Android**: {} \n".format(rom, device, codename, version, android)
+                    if md5 != 'null':
+                        discord_message += "**MD5**: `{}` \n".format(md5)
+                    discord_message += "**Download**: {} \n" \
+                                       "~~                                                     ~~"\
+                        .format(link)
             tg_post(telegram_message, codename)
             discord_post(discord_message, codename)
             # cleanup
