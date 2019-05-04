@@ -13,8 +13,8 @@ def get_fastboot(miui_id):
     response = get(url)
     page = BeautifulSoup(response.content, 'html.parser')
     links = page.findAll('a', {"class": "btn_5"})
-    log = []
     for i in links:
+        log = []
         link = i['href']
         file = link.split('/')[-1]
         region = file.split('_')[1][:2]
