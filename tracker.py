@@ -3,10 +3,10 @@ import json
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
-
+from requests import post
 import fastboot
 import recovery
-from requests import post
+import ao
 
 
 def tg_post(message, codename_):
@@ -85,6 +85,9 @@ for v in versions:
     elif "_fastboot" in v:
         fastboot.fetch(devices, branch, folder, names)
     print("Fetched " + v.replace('_', ' '))
+
+    if "stable_fastboot" in v:
+        ao.main()
 
     # Merge files
     print("Creating JSON")
