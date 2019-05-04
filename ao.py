@@ -39,7 +39,7 @@ def get_fastboot(miui_id):
         DATA.append(info)
         log.append(info)
         with open('stable_fastboot/' + file.split('_images')[0] + '.json', 'w') as output:
-            json.dump(log, output, indent=1)
+            json.dump(log[0], output, indent=1)
 
 
 def main():
