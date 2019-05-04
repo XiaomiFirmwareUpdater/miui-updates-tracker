@@ -26,7 +26,7 @@ def get_fastboot(miui_id):
             device = page.find('span', {"class": "tab"}).text
         version = link.split('/')[3]
         android = link.split('_')[-2]
-        codename = link.split('/')[4].split('_')[0]
+        codename = link.split('/')[4].split('_images')[0]
         info = {}
         info.update({"android": android})
         info.update({"codename": codename})
@@ -38,7 +38,7 @@ def get_fastboot(miui_id):
         info.update({"version": version})
         DATA.append(info)
         log.append(info)
-        with open('stable_fastboot/' + file.split('_images')[0] + '.json', 'w') as output:
+        with open('stable_fastboot/' + codename + '.json', 'w') as output:
             json.dump(log, output, indent=1)
 
 

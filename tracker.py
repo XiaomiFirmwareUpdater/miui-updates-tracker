@@ -58,6 +58,7 @@ with open('devices/wr.json', 'r') as wr:
 with open('devices/wf.json', 'r') as wf:
     wf_devices = json.load(wf)
 versions = ['stable_recovery', 'stable_fastboot', 'weekly_recovery', 'weekly_fastboot']
+ao_run = False
 
 for v in versions:
     folder = v + '/'
@@ -87,7 +88,9 @@ for v in versions:
     print("Fetched " + v.replace('_', ' '))
 
     if "stable_fastboot" in v:
-        ao.main()
+        if ao_run is False:
+            ao.main()
+            ao_run = True
 
     # Merge files
     print("Creating JSON")
