@@ -7,7 +7,7 @@ from glob import glob
 from os import remove, rename, path, environ, system, makedirs
 from requests import post, get
 import fastboot
-import recovery
+import recovery_a as recovery
 import ao
 
 # vars
@@ -170,13 +170,13 @@ def generate_message(update):
         branch = 'Stable'
     else:
         branch = 'Weekly'
-    if 'eea_global' in filename or 'EU' in filename:
+    if 'eea_global' in filename or 'eea_global' in codename or 'EU' in filename:
         region = 'EEA Global'
-    elif 'in_global' in filename or 'IN' in filename:
+    elif 'in_global' in filename or 'in_global' in codename or 'IN' in filename:
         region = 'India'
-    elif 'ru_global' in filename or 'RU' in filename:
+    elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in filename:
         region = 'Russia'
-    elif 'global' in filename or 'MI' in filename:
+    elif 'global' in filename or 'global' in codename or 'MI' in filename:
         region = 'Global'
     else:
         region = 'China'
@@ -184,6 +184,7 @@ def generate_message(update):
         rom_type = 'Fastboot'
     else:
         rom_type = 'Recovery'
+    codename = codename.split('_')[0]
     rolled_back = rolledback_check(codename, filename, version, region)
     message = ''
     if rolled_back:
@@ -214,19 +215,17 @@ def main():
     """
     initialize()
     names, sr_devices, sf_devices, wr_devices, wf_devices = load_devices()
-    # versions = {'stable_recovery': {'branch': '1', 'devices': sr_devices},
-    #             'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
-    #             'weekly_recovery': {'branch': '0', 'devices': wr_devices},
-    #             'weekly_fastboot': {'branch': 'X', 'devices': wf_devices}}
     versions = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
-                'weekly_fastboot': {'branch': 'X', 'devices': wf_devices}}
+                'stable_recovery': {'branch': '1', 'devices': sr_devices},
+                'weekly_fastboot': {'branch': 'X', 'devices': wf_devices},
+                'weekly_recovery': {'branch': '0', 'devices': wr_devices}}
     ao_run = False
     for name, data in versions.items():
         # fetch based on version
-        if "_recovery" in name:
-            recovery.fetch(data['devices'], data['branch'], f'{name}/', names)
-        elif "_fastboot" in name:
+        if "_fastboot" in name:
             fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
+        elif "_recovery" in name:
+            recovery.get_roms(name)
         print("Fetched " + name.replace('_', ' '))
         if "stable_fastboot" in name and ao_run is False:
             ao.main()
