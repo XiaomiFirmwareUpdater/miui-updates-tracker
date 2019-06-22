@@ -203,7 +203,8 @@ def generate_message(update):
         print(f"{codename}: Telegram Message sent")
     discord_separator = '~~                                                     ~~'
     discord_message = message.replace('*', '**')\
-        .replace('@MIUIUpdatesTracker | @XiaomiFirmwareUpdater', discord_separator)
+        .replace('@MIUIUpdatesTracker | @XiaomiFirmwareUpdater', discord_separator)\
+        .replace('[Here](', '').replace(')', '')
     status = discord_post(discord_message)
     if status == 200:
         print(f"{codename}: Discord Message sent")
@@ -247,6 +248,7 @@ def main():
         # Compare
         print("Comparing")
         diff(name)
+        print("Done")
     if CHANGES:
         for update in CHANGES:
             generate_message(update)
