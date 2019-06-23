@@ -161,7 +161,7 @@ def generate_message(update):
     generates telegram message
     """
     android = update['android']
-    codename = update['codename'].split('_')[0]
+    codename = update['codename']
     device = update['device']
     download = update['download']
     filename = update['filename']
@@ -170,13 +170,13 @@ def generate_message(update):
         branch = 'Stable'
     else:
         branch = 'Weekly'
-    if 'eea_global' in filename or 'eea_global' in codename or 'EU' in filename:
+    if 'eea_global' in filename or 'eea_global' in codename or 'EU' in version:
         region = 'EEA Global'
-    elif 'in_global' in filename or 'in_global' in codename or 'IN' in filename:
+    elif 'in_global' in filename or 'in_global' in codename or 'IN' in version:
         region = 'India'
-    elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in filename:
+    elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in version:
         region = 'Russia'
-    elif 'global' in filename or 'global' in codename or 'MI' in filename:
+    elif 'global' in filename or 'global' in codename or 'MI' in version:
         region = 'Global'
     else:
         region = 'China'
