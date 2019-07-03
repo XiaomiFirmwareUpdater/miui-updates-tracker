@@ -3,63 +3,75 @@
 
 import json
 from glob import glob
-from os import remove, rename, path
-
+from os import remove, rename, path, makedirs
 import fastboot
-import recovery
+import recovery_a as recovery
 
-# load devices lists
-with open('names.json', 'r') as n:
-    NAMES = json.load(n)
-with open('sr.json', 'r') as sr:
-    SR_DEVICES = json.load(sr)
-with open('sf.json', 'r') as sf:
-    SF_DEVICES = json.load(sf)
-with open('wr.json', 'r') as wr:
-    WR_DEVICES = json.load(wr)
-with open('wf.json', 'r') as wf:
-    WF_DEVICES = json.load(wf)
-VERSIONS = ['stable_recovery', 'stable_fastboot', 'weekly_recovery', 'weekly_fastboot']
 
-for v in VERSIONS:
-    folder = v + '/'
-    # backup old
-    if path.exists(v + '/' + v + '.json'):
-        rename(v + '/' + v + '.json', v + '/' + 'old_' + v)
-    # set branches and devices
-    devices = ''
-    branch = ''
-    if "stable_recovery" in v:
-        branch = "1"
-        devices = SR_DEVICES
-    elif "stable_fastboot" in v:
-        branch = "F"
-        devices = SF_DEVICES
-    elif "weekly_recovery" in v:
-        branch = "0"
-        devices = WR_DEVICES
-    elif "weekly_fastboot" in v:
-        branch = "X"
-        devices = WF_DEVICES
-    # fetch based on version
-    if "_recovery" in v:
-        recovery.fetch(devices, branch, folder, NAMES)
-    elif "_fastboot" in v:
-        fastboot.fetch(devices, branch, folder, NAMES)
-    print("Fetched " + v.replace('_', ' '))
+def initialize():
+    """
+    creates required folders and copy old files
+    """
+    makedirs("stable_recovery", exist_ok=True)
+    makedirs("stable_fastboot", exist_ok=True)
+    makedirs("weekly_recovery", exist_ok=True)
+    makedirs("weekly_fastboot", exist_ok=True)
+    for file in glob('*_*/*.json'):
+        if 'old_' in file:
+            continue
+        name = 'old_' + file.split('/')[-1].split('.')[0]
+        rename(file, '/'.join(file.split('/')[:-1]) + '/' + name)
 
-    # Merge files
-    print("Creating JSON")
-    json_files = [x for x in sorted(glob(v + '/' + '*.json'))]
-    json_data = list()
-    for file in json_files:
-        with open(file, "r") as f:
-            json_data.append(json.load(f))
-    with open(v + '/' + v, "w") as f:
-        json.dump(json_data, f, indent=1)
 
-    # Cleanup
-    for file in glob(v + '/' + '*.json'):
-        remove(file)
-    if path.exists(v + '/' + v):
-        rename(v + '/' + v, v + '/' + v + '.json')
+def load_devices():
+    """
+    load devices lists
+    """
+    with open('names.json', 'r') as names_:
+        names = json.load(names_)
+    with open('sr.json', 'r') as stable_recovery:
+        sr_devices = json.load(stable_recovery)
+    with open('sf.json', 'r') as stable_fastboot:
+        sf_devices = json.load(stable_fastboot)
+    with open('wr.json', 'r') as weekly_recovery:
+        wr_devices = json.load(weekly_recovery)
+    with open('wf.json', 'r') as weekly_fastboot:
+        wf_devices = json.load(weekly_fastboot)
+    return names, sr_devices, sf_devices, wr_devices, wf_devices
+
+
+def main():
+    """
+    MIUI Updates Tracker
+    """
+    initialize()
+    names, sr_devices, sf_devices, wr_devices, wf_devices = load_devices()
+    versions = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
+                'stable_recovery': {'branch': '1', 'devices': sr_devices},
+                'weekly_fastboot': {'branch': 'X', 'devices': wf_devices},
+                'weekly_recovery': {'branch': '0', 'devices': wr_devices}}
+    for name, data in versions.items():
+        # fetch based on version
+        if "_fastboot" in name:
+            fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
+        elif "_recovery" in name:
+            recovery.get_roms(name)
+        print("Fetched " + name.replace('_', ' '))
+        # Merge files
+        print("Creating JSON")
+        json_files = [x for x in sorted(glob(f'{name}/*.json')) if not x.startswith('old_')]
+        json_data = []
+        for file in json_files:
+            with open(file, "r") as json_file:
+                json_data.append(json.load(json_file))
+        with open(f'{name}/{name}', "w") as output:
+            json.dump(json_data, output, indent=1)
+        # Cleanup
+        for file in glob(f'{name}/*.json'):
+            remove(file)
+        if path.exists(f'{name}/{name}'):
+            rename(f'{name}/{name}', f'{name}/{name}.json')
+
+
+if __name__ == '__main__':
+    main()
