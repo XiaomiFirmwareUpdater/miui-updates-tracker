@@ -185,7 +185,7 @@ def generate_message(update):
     else:
         rom_type = 'Recovery'
     codename = codename.split('_')[0]
-    rolled_back = rolledback_check(codename, filename, version, region)
+    rolled_back = rolledback_check(codename, filename, version, branch)
     message = ''
     if rolled_back:
         message += f'Rolled back {branch} {rom_type} update!\n'
