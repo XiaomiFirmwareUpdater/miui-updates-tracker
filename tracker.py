@@ -123,14 +123,17 @@ def diff(name):
         first_run = True
     if first_run is False:
         if len(latest) == len(old):
-            CHANGES.append([new_ for new_, old_ in zip(latest, old) if not new_['version'] == old_['version']])
+            data = [new_ for new_, old_ in zip(latest, old) if not new_['version'] == old_['version']]
+            if data:
+                CHANGES.append(data)
         else:
             old_codenames = [i["codename"] for i in old]
             new_codenames = [i["codename"] for i in latest]
             changes = [i for i in new_codenames if i not in old_codenames]
-            for codename in changes:
-                data = [i for i in latest if codename == i["codename"]][0]
-                CHANGES.append(data)
+            if changes:
+                for codename in changes:
+                    data = [i for i in latest if codename == i["codename"]][0]
+                    CHANGES.append(data)
 
 
 def generate_message(update):
