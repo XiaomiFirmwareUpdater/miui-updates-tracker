@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system, makedirs
-from requests import post, get
+from requests import post
 import fastboot
 import recovery_a as recovery
 import ao
@@ -122,9 +122,15 @@ def diff(name):
         print(f"Can't find old {name} files, skipping")
         first_run = True
     if first_run is False:
-        for new_, old_ in zip(latest, old):
-            if not new_['version'] == old_['version']:
-                CHANGES.append(new_)
+        if len(latest) == len(old):
+            CHANGES.append([new_ for new_, old_ in zip(latest, old) if not new_['version'] == old_['version']])
+        else:
+            old_codenames = [i["codename"] for i in old]
+            new_codenames = [i["codename"] for i in latest]
+            changes = [i for i in new_codenames if i not in old_codenames]
+            for codename in changes:
+                data = [i for i in latest if codename == i["codename"]][0]
+                CHANGES.append(data)
 
 
 def generate_message(update):
