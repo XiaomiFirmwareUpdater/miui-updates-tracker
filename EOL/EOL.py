@@ -27,7 +27,7 @@ def load_devices():
     """
     load devices lists
     """
-    with open('names.json', 'r') as names_:
+    with open('../devices/names.json', 'r') as names_:
         names = json.load(names_)
     with open('sr.json', 'r') as stable_recovery:
         sr_devices = json.load(stable_recovery)
