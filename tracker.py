@@ -127,35 +127,6 @@ def diff(name):
                 CHANGES.append(new_)
 
 
-def rolledback_check(codename, file, version, branch):
-    """
-    check if this update is rolled-back
-    :return: Boolean
-    """
-    rolled_back = False
-    try:
-        old_data = json.loads(get(
-            "https://raw.githubusercontent.com/XiaomiFirmwareUpdater/" +
-            "xiaomifirmwareupdater.github.io/master/data/devices/" +
-            "full/{}.json".format(codename.split("_")[0])).content)
-    except json.decoder.JSONDecodeError:
-        print(f"Working on {codename} for the first time!")
-        old_data = []
-    if 'MI' in file or 'Global' in file:
-        region = 'Global'
-    else:
-        region = 'China'
-    if branch == 'Stable':
-        all_versions = [i for i in old_data if i['branch'] == 'stable']
-    else:
-        all_versions = [i for i in old_data if i['branch'] == 'weekly']
-    check = [i for i in all_versions if i['versions']['miui'] == version and i['type'] == region]
-    if check:
-        print("{}: {} is rolled back ROM!".format(codename, version))
-        rolled_back = True
-    return rolled_back
-
-
 def generate_message(update):
     """
     generates telegram message
@@ -185,12 +156,7 @@ def generate_message(update):
     else:
         rom_type = 'Recovery'
     codename = codename.split('_')[0]
-    rolled_back = rolledback_check(codename, filename, version, branch)
-    message = ''
-    if rolled_back:
-        message += f'Rolled back {branch} {rom_type} update!\n'
-    else:
-        message += f"New {branch} {rom_type} update available!\n"
+    message = f"New {branch} {rom_type} update available!\n"
     message += f"*Device:* {device} \n" \
         f"*Codename:* #{codename} \n" \
         f"*Region:* {region} \n" \
