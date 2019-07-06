@@ -229,9 +229,11 @@ def generate_rss(files: list):
         download = update['download']
         version = update['version']
         message = generate_message(update)
-        message = message.replace('*', '').replace('[Here](', '').replace(')', '').replace('#', '')\
-            .replace('http', '<a>http').replace('.tgz', '.tgz</a>').replace('.zip', '.zip</a>')
+        message = message.replace('*', '').replace('[Here](', '')\
+            .replace(')', '').replace('#', '').replace('`', '')
+        message = "\n".join(message.splitlines()[:-2])
         message = "".join([f'<p>{i}</p>\n' for i in message.splitlines()])
+        message += f'<a href="{download}">Download</a>'
         rss_body = f'<item>\n' \
             f'<title>MIUI {version} update for {device}</title>\n' \
             f'<link>{download}</link>\n' \
