@@ -2,6 +2,7 @@
 """MIUI Updates Tracker - By XiaomiFirmwareUpdater"""
 
 import json
+import re
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system, makedirs
@@ -17,6 +18,13 @@ TG_CHAT = "@MIUIUpdatesTracker"
 DISCORD_BOT_TOKEN = environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID = "484478392562089995"
 CHANGES = []
+CHANGED = []
+
+RSS_HEAD = '<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0">\n<channel>\n' \
+           '<title>MIUI Updates Tracker by XiaomiFirmwareUpdater</title>\n' \
+           '<link>https://xiaomifirmwareupdater.com</link>\n' \
+           '<description>A script that automatically tracks MIUI ROM releases!</description>'
+RSS_TAIL = '</channel>\n</rss>'
 
 
 def initialize():
@@ -28,10 +36,12 @@ def initialize():
     makedirs("weekly_recovery", exist_ok=True)
     makedirs("weekly_fastboot", exist_ok=True)
     for file in glob('*_*/*.json'):
+        full_name = file.split('/')[-1]
         if 'old_' in file:
             continue
-        name = 'old_' + file.split('/')[-1].split('.')[0]
-        rename(file, '/'.join(file.split('/')[:-1]) + '/' + name)
+        if 'recovery' in full_name or 'fastboot' in full_name:
+            name = 'old_' + full_name.split('.')[0]
+            rename(file, '/'.join(file.split('/')[:-1]) + '/' + name)
 
 
 def load_devices():
@@ -51,7 +61,7 @@ def load_devices():
     return names, sr_devices, sf_devices, wr_devices, wf_devices
 
 
-def tg_post(message):
+def tg_post(message: str):
     """
     post message to telegram
     """
@@ -76,7 +86,7 @@ def tg_post(message):
     return telegram_status
 
 
-def discord_post(message):
+def discord_post(message: str):
     """
     post message to discord
     """
@@ -99,7 +109,7 @@ def git_commit_push():
     git add - git commit - git push
 =    """
     today = str(datetime.today()).split('.')[0]
-    system("git add *_recovery/*.json *_fastboot/*.json && "
+    system("git add *_recovery/*.json *_fastboot/*.json rss/ && "
            "git -c \"user.name=XiaomiFirmwareUpdater\" -c "
            "\"user.email=xiaomifirmwareupdater@gmail.com\" "
            "commit -m \"sync: {}\" && "" \
@@ -108,7 +118,7 @@ def git_commit_push():
            .format(today, GIT_OAUTH_TOKEN))
 
 
-def diff(name):
+def diff(name: str):
     """
     compare json files
     """
@@ -123,20 +133,37 @@ def diff(name):
         first_run = True
     if first_run is False:
         if len(latest) == len(old):
-            data = [new_ for new_, old_ in zip(latest, old) if not new_['version'] == old_['version']]
-            if data:
-                CHANGES.append(data)
+            changes = [new_ for new_, old_ in zip(latest, old)
+                       if not new_['version'] == old_['version']]
+            if changes:
+                CHANGES.append(changes)
+                CHANGED.append([f'{name}/{i["codename"]}.json' for i in changes])
         else:
             old_codenames = [i["codename"] for i in old]
             new_codenames = [i["codename"] for i in latest]
             changes = [i for i in new_codenames if i not in old_codenames]
             if changes:
-                for codename in changes:
-                    data = [i for i in latest if codename == i["codename"]][0]
-                    CHANGES.append(data)
+                CHANGES.append([i for i in latest for codename in changes
+                                if codename == i["codename"]])
+            CHANGED.append([f'{name}/{i["codename"]}.json' for i in changes])
 
 
-def generate_message(update):
+def merge_json(name: str):
+    """
+    merge all devices json files into one file
+    """
+    print("Creating JSON files")
+    json_files = [x for x in sorted(glob(f'{name}/*.json')) if not x.endswith('recovery.json')
+                  and not x.endswith('fastboot.json')]
+    json_data = []
+    for file in json_files:
+        with open(file, "r") as json_file:
+            json_data.append(json.load(json_file))
+    with open(f'{name}/{name}', "w") as output:
+        json.dump(json_data, output, indent=1)
+
+
+def generate_message(update: dict):
     """
     generates telegram message
     """
@@ -173,6 +200,14 @@ def generate_message(update):
         f"*Android:* {android} \n" \
         f"*Download*: [Here]({download}) \n" \
         "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
+    return message
+
+
+def post_message(message: str):
+    """
+    post the generated message
+    """
+    codename = message.splitlines()[2].split('#')[1].strip()
     status = tg_post(message)
     if status == 200:
         print(f"{codename}: Telegram Message sent")
@@ -183,6 +218,64 @@ def generate_message(update):
     status = discord_post(discord_message)
     if status == 200:
         print(f"{codename}: Discord Message sent")
+
+
+def generate_rss(files: list):
+    """
+    generate RSS feed
+    """
+    def write_rss(update: dict):
+        device = update['device']
+        download = update['download']
+        version = update['version']
+        message = generate_message(update)
+        message = message.replace('*', '').replace('[Here](', '').replace(')', '').replace('#', '')\
+            .replace('http', '<a>http').replace('.tgz', '.tgz</a>').replace('.zip', '.zip</a>')
+        message = "".join([f'<p>{i}</p>\n' for i in message.splitlines()])
+        rss_body = f'<item>\n' \
+            f'<title>MIUI {version} update for {device}</title>\n' \
+            f'<link>{download}</link>\n' \
+            f'<pubDate>{str(datetime.today()).split(".")[0]}</pubDate>\n' \
+            f'<description><![CDATA[{message}]]></description>\n' \
+            f'</item>'
+        return rss_body
+
+    rss = ''
+    for file in files:
+        file = file[0]
+        with open(file, "r") as json_file:
+            info = json.load(json_file)
+        if isinstance(info, dict):
+            rss = f'{RSS_HEAD}\n{write_rss(info)}\n{RSS_TAIL}'
+        elif isinstance(info, list):
+            rss = f'{RSS_HEAD}\n'
+            for item in info:
+                rss += f'{write_rss(item)}\n'
+            rss += f'{RSS_TAIL}'
+        with open(f'rss/{file.split(".")[0]}.xml', 'w') as rss_file:
+            rss_file.write(rss)
+
+
+def merge_rss(name: str):
+    """
+    merge all devices rss xml files into one file
+    """
+    xml_files = [x for x in sorted(glob(f'rss/{name}/*.xml')) if not x.endswith('recovery.xml')
+                 and not x.endswith('fastboot.xml')]
+    xml_items = []
+    for file in xml_files:
+        with open(file, "r") as xml_file:
+            xml = xml_file.read()
+        try:
+            item = re.findall(r'<item>(?:[\s\S]*?)</item>', xml, re.MULTILINE)[0]
+        except IndexError:
+            continue
+        xml_items.append(item)
+    with open(f'rss/{name}/{name}.xml', 'w') as out:
+        out.write(f'{RSS_HEAD}\n')
+        for item in xml_items:
+            out.write(f'{item}\n')
+        out.write(f'{RSS_TAIL}')
 
 
 def main():
@@ -207,17 +300,7 @@ def main():
             ao.main()
             ao_run = True
         # Merge files
-        print("Creating JSON")
-        json_files = [x for x in sorted(glob(f'{name}/*.json')) if not x.startswith('old_')]
-        json_data = []
-        for file in json_files:
-            with open(file, "r") as json_file:
-                json_data.append(json.load(json_file))
-        with open(f'{name}/{name}', "w") as output:
-            json.dump(json_data, output, indent=1)
-        # Cleanup
-        for file in glob(f'{name}/*.json'):
-            remove(file)
+        merge_json(name)
         if path.exists(f'{name}/{name}'):
             rename(f'{name}/{name}', f'{name}/{name}.json')
         # Compare
@@ -225,10 +308,14 @@ def main():
         diff(name)
         print("Done")
     if CHANGES:
+        generate_rss(CHANGED)
         for update in CHANGES:
-            generate_message(update)
+            message = generate_message(update[0])
+            post_message(message)
     else:
         print('No new updates found!')
+    for version in versions.keys():
+        merge_rss(version)
     git_commit_push()
     for file in glob(f'*_*/old_*'):
         remove(file)
