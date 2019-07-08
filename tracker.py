@@ -243,19 +243,19 @@ def generate_rss(files: list):
         return rss_body
 
     rss = ''
-    for file in files:
-        file = file[0]
-        with open(file, "r") as json_file:
-            info = json.load(json_file)
-        if isinstance(info, dict):
-            rss = f'{RSS_HEAD}\n{write_rss(info)}\n{RSS_TAIL}'
-        elif isinstance(info, list):
-            rss = f'{RSS_HEAD}\n'
-            for item in info:
-                rss += f'{write_rss(item)}\n'
-            rss += f'{RSS_TAIL}'
-        with open(f'rss/{file.split(".")[0]}.xml', 'w') as rss_file:
-            rss_file.write(rss)
+    for branch in files:
+        for file in branch:
+            with open(file, "r") as json_file:
+                info = json.load(json_file)
+            if isinstance(info, dict):
+                rss = f'{RSS_HEAD}\n{write_rss(info)}\n{RSS_TAIL}'
+            elif isinstance(info, list):
+                rss = f'{RSS_HEAD}\n'
+                for item in info:
+                    rss += f'{write_rss(item)}\n'
+                rss += f'{RSS_TAIL}'
+            with open(f'rss/{file.split(".")[0]}.xml', 'w') as rss_file:
+                rss_file.write(rss)
 
 
 def merge_rss(name: str):
@@ -311,9 +311,10 @@ def main():
         print("Done")
     if CHANGES:
         generate_rss(CHANGED)
-        for update in CHANGES:
-            message = generate_message(update[0])
-            post_message(message)
+        for branch in CHANGES:
+            for update in branch:
+                message = generate_message(update)
+                post_message(message)
     else:
         print('No new updates found!')
     for version in versions.keys():
