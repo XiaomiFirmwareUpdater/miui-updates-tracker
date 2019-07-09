@@ -5,7 +5,7 @@ import json
 import re
 from datetime import datetime
 from glob import glob
-from os import remove, rename, path, environ, system, makedirs
+from os import remove, rename, path, environ, system
 from requests import post
 import fastboot
 import recovery_a as recovery
@@ -25,23 +25,6 @@ RSS_HEAD = '<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0">\n<channe
            '<link>https://xiaomifirmwareupdater.com</link>\n' \
            '<description>A script that automatically tracks MIUI ROM releases!</description>'
 RSS_TAIL = '</channel>\n</rss>'
-
-
-def initialize():
-    """
-    creates required folders and copy old files
-    """
-    makedirs("stable_recovery", exist_ok=True)
-    makedirs("stable_fastboot", exist_ok=True)
-    makedirs("weekly_recovery", exist_ok=True)
-    makedirs("weekly_fastboot", exist_ok=True)
-    for file in glob('*_*/*.json'):
-        full_name = file.split('/')[-1]
-        if 'old_' in file:
-            continue
-        if 'recovery' in full_name or 'fastboot' in full_name:
-            name = 'old_' + full_name.split('.')[0]
-            rename(file, '/'.join(file.split('/')[:-1]) + '/' + name)
 
 
 def load_devices():
@@ -288,7 +271,6 @@ def main():
     """
     MIUI Updates Tracker
     """
-    initialize()
     names, sr_devices, sf_devices, wr_devices, wf_devices = load_devices()
     fastboot_roms = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
                      'weekly_fastboot': {'branch': 'X', 'devices': wf_devices}}
@@ -297,6 +279,7 @@ def main():
     ao_run = False
     for name, data in fastboot_roms.items():
         # fetch based on version
+        rename(f'{name}/{name}.json', f'{name}/old_{name}')
         fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
         print(f"Fetched {name}")
         if "stable_fastboot" in name and ao_run is False:
@@ -309,11 +292,13 @@ def main():
         diff(name)
     if CHANGES:
         for name, data in recovery_roms.items():
+            rename(f'{name}/{name}.json', f'{name}/old_{name}')
             recovery.get_roms(name, CHANGED, data['devices'])
             print(f"Fetched {name}")
             merge_json(name)
             print(f"Comparing {name} files")
             diff(name)
+    if CHANGES:
         generate_rss(CHANGED)
         for branch in CHANGES:
             for update in branch:
