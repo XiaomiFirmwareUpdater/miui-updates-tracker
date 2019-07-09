@@ -4,6 +4,9 @@
 import json
 from bs4 import BeautifulSoup
 from requests import get
+from humanize import naturalsize
+
+
 DATA = []
 
 
@@ -16,6 +19,7 @@ def get_fastboot(miui_id):
     for i in links:
         log = []
         link = i['href']
+        file_size = naturalsize(int(get(link, stream=True).headers['Content-Length']))
         file = link.split('/')[-1]
         region = file.split('_')[1][:2]
         names = page.findAll('span', {"class": "tab"})
@@ -33,12 +37,12 @@ def get_fastboot(miui_id):
         info.update({"device": device})
         info.update({"download": link})
         info.update({"filename": file})
-        info.update({"filesize": "null"})
+        info.update({"filesize": file_size})
         info.update({"md5": "null"})
         info.update({"version": version})
         DATA.append(info)
         log.append(info)
-        with open('stable_fastboot/' + file.split('_images')[0] + '.json', 'w') as output:
+        with open('stable_fastboot/' + file.split('_images')[0] + '.json', 'w', newline='\n') as output:
             json.dump(log[0], output, indent=1)
 
 
@@ -48,7 +52,7 @@ def main():
     for device_id in ids:
         get_fastboot(device_id)
     # write all json to one file
-    # with open('ao.json', 'w') as ao:
+    # with open('ao.json', 'w', newline='\n') as ao:
     #     json.dump(DATA, ao, indent=1)
 
 

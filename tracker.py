@@ -172,6 +172,7 @@ def generate_message(update: dict):
     device = update['device']
     download = update['download']
     filename = update['filename']
+    filesize = update['size']
     version = update['version']
     if 'V' in version:
         branch = 'Stable'
@@ -198,6 +199,7 @@ def generate_message(update: dict):
         f"*Region:* {region} \n" \
         f"*Version:* `{version}` \n" \
         f"*Android:* {android} \n" \
+        f"*Size*: {filesize} \n" \
         f"*Download*: [Here]({download}) \n" \
         "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
     return message
@@ -254,7 +256,7 @@ def generate_rss(files: list):
                 for item in info:
                     rss += f'{write_rss(item)}\n'
                 rss += f'{RSS_TAIL}'
-            with open(f'rss/{file.split(".")[0]}.xml', 'w') as rss_file:
+            with open(f'rss/{file.split(".")[0]}.xml', 'w', newline='\n') as rss_file:
                 rss_file.write(rss)
 
 
@@ -273,7 +275,7 @@ def merge_rss(name: str):
         except IndexError:
             continue
         xml_items.append(item)
-    with open(f'rss/{name}/{name}.xml', 'w') as out:
+    with open(f'rss/{name}/{name}.xml', 'w', newline='\n') as out:
         out.write(f'{RSS_HEAD}\n')
         for item in xml_items:
             out.write(f'{item}\n')
