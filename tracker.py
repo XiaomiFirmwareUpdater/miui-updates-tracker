@@ -145,7 +145,7 @@ def diff(name: str):
             if changes:
                 CHANGES.append([i for i in latest for codename in changes
                                 if codename == i["codename"]])
-            CHANGED.append([f'{name}/{i["codename"]}.json' for i in changes])
+            CHANGED.append([f'{name}/{i}.json' for i in changes])
 
 
 def merge_json(name: str):
@@ -161,6 +161,8 @@ def merge_json(name: str):
             json_data.append(json.load(json_file))
     with open(f'{name}/{name}', "w") as output:
         json.dump(json_data, output, indent=1)
+    if path.exists(f'{name}/{name}'):
+        rename(f'{name}/{name}', f'{name}/{name}.json')
 
 
 def generate_message(update: dict):
@@ -288,30 +290,30 @@ def main():
     """
     initialize()
     names, sr_devices, sf_devices, wr_devices, wf_devices = load_devices()
-    versions = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
-                'stable_recovery': {'branch': '1', 'devices': sr_devices},
-                'weekly_fastboot': {'branch': 'X', 'devices': wf_devices},
-                'weekly_recovery': {'branch': '0', 'devices': wr_devices}}
+    fastboot_roms = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
+                     'weekly_fastboot': {'branch': 'X', 'devices': wf_devices}}
+    recovery_roms = {'stable_recovery': {'branch': '1', 'devices': sr_devices},
+                     'weekly_recovery': {'branch': '0', 'devices': wr_devices}}
     ao_run = False
-    for name, data in versions.items():
+    for name, data in fastboot_roms.items():
         # fetch based on version
-        if "_fastboot" in name:
-            fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
-        elif "_recovery" in name:
-            recovery.get_roms(name)
-        print("Fetched " + name.replace('_', ' '))
+        fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
+        print(f"Fetched {name}")
         if "stable_fastboot" in name and ao_run is False:
             ao.main()
             ao_run = True
         # Merge files
         merge_json(name)
-        if path.exists(f'{name}/{name}'):
-            rename(f'{name}/{name}', f'{name}/{name}.json')
         # Compare
-        print("Comparing")
+        print(f"Comparing {name} files")
         diff(name)
-        print("Done")
     if CHANGES:
+        for name, data in recovery_roms.items():
+            recovery.get_roms(name, CHANGED, data['devices'])
+            print(f"Fetched {name}")
+            merge_json(name)
+            print(f"Comparing {name} files")
+            diff(name)
         generate_rss(CHANGED)
         for branch in CHANGES:
             for update in branch:
@@ -319,8 +321,10 @@ def main():
                 post_message(message)
     else:
         print('No new updates found!')
-    for version in versions.keys():
+    versions = [i for i in fastboot_roms.keys()] + [i for i in recovery_roms.keys()]
+    for version in versions:
         merge_rss(version)
+    print("Done")
     git_commit_push()
     for file in glob(f'*_*/old_*'):
         remove(file)

@@ -37,7 +37,7 @@ def get_fastboot(miui_id):
         info.update({"device": device})
         info.update({"download": link})
         info.update({"filename": file})
-        info.update({"filesize": file_size})
+        info.update({"size": file_size})
         info.update({"md5": "null"})
         info.update({"version": version})
         DATA.append(info)
