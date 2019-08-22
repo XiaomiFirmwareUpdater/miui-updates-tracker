@@ -44,7 +44,7 @@ class DiscordBot(discord.Client):
             f"**Region**: {region} \n" \
             f"**Version**: `{version} | {android}` \n" \
             f"**Size**: {filesize} \n" \
-            f"**Download**: [Here]({download})\n"
+            f"**Download**: [Here]({download})"
         embed = discord.Embed(title=f"New {branch} {rom_type} update available!", color=discord.Colour.orange(), description=desc)
         embed.set_footer(text="@MIUIUpdatesTracker | @XiaomiFirmwareUpdater")
         device = device.lower()
