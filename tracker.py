@@ -10,13 +10,13 @@ from requests import post
 import fastboot
 import recovery_a as recovery
 import ao
+from discordbot import DiscordBot
 
 # vars
 GIT_OAUTH_TOKEN = environ['XFU']
 BOT_TOKEN = environ['bottoken']
 TG_CHAT = "@MIUIUpdatesTracker"
 DISCORD_BOT_TOKEN = environ['DISCORD_BOT_TOKEN']
-CHANNEL_ID = "484478392562089995"
 CHANGES = []
 CHANGED = []
 
@@ -67,24 +67,6 @@ def tg_post(message: str):
         print("Unknown error")
         print("Response: " + telegram_req.reason)
     return telegram_status
-
-
-def discord_post(message: str):
-    """
-    post message to discord
-    """
-    discord_url = "https://discordapp.com/api/channels/{}/messages".format(CHANNEL_ID)
-    headers = {"Authorization": "Bot {}".format(DISCORD_BOT_TOKEN),
-               "User-Agent": "myBotThing (http://some.url, v0.1)",
-               "Content-Type": "application/json", }
-    data = json.dumps({"content": message})
-    discord_req = post(discord_url, headers=headers, data=data)
-    discord_status = discord_req.status_code
-    if discord_status == 200:
-        pass
-    else:
-        print("Discord Error")
-    return discord_status
 
 
 def git_commit_push():
@@ -163,7 +145,7 @@ def generate_message(update: dict):
     else:
         branch = 'Weekly'
     if 'eea_global' in filename or 'eea_global' in codename or 'EU' in version:
-        region = 'EEA Global'
+        region = 'EEA'
     elif 'in_global' in filename or 'in_global' in codename or 'IN' in version:
         region = 'India'
     elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in version:
@@ -197,13 +179,6 @@ def post_message(message: str):
     status = tg_post(message)
     if status == 200:
         print(f"{codename}: Telegram Message sent")
-    discord_separator = '~~                                                     ~~'
-    discord_message = message.replace('*', '**')\
-        .replace('@MIUIUpdatesTracker | @XiaomiFirmwareUpdater', discord_separator)\
-        .replace('[Here](', '').replace(')', '')
-    status = discord_post(discord_message)
-    if status == 200:
-        print(f"{codename}: Discord Message sent")
 
 
 def generate_rss(files: list):
@@ -276,6 +251,7 @@ def main():
     recovery_roms = {'stable_recovery': {'branch': '1', 'devices': sr_devices},
                      'weekly_recovery': {'branch': '0', 'devices': wr_devices}}
     ao_run = False
+    discord_bot = DiscordBot(DISCORD_BOT_TOKEN)
     for name, data in fastboot_roms.items():
         # fetch based on version
         rename(f'{name}/{name}.json', f'{name}/old_{name}')
@@ -299,10 +275,11 @@ def main():
             diff(name)
     if CHANGES:
         generate_rss(CHANGED)
-        for branch in CHANGES:
-            for update in branch:
-                message = generate_message(update)
-                post_message(message)
+        updates = [x for y in CHANGES for x in y]
+        for update in updates:
+            message = generate_message(update)
+            post_message(message)
+        discord_bot.send(updates)
     else:
         print('No new updates found!')
     versions = [i for i in fastboot_roms.keys()] + [i for i in recovery_roms.keys()]
