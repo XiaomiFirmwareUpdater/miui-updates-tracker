@@ -50,14 +50,14 @@ class DiscordBot(discord.Client):
         device = device.lower()
         for name in self.channels:
             if device.startswith(name):
-                await self.channels[name].send(embed)
+                await self.channels[name].send(embed=embed)
                 return
         if device.startswith("redmi"):
-            await self.channels['redmi other'].send(embed)
+            await self.channels['redmi other'].send(embed=embed)
         elif device.startswith("mi"):
-            await self.channels['mi other'].send(embed)
+            await self.channels['mi other'].send(embed=embed)
         elif device.starswith("poco"):
-            await self.channels['pocophone f1'].send(embed)
+            await self.channels['pocophone f1'].send(embed=embed)
 
     async def on_ready(self):
         print('Discord bot up!')
