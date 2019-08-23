@@ -46,18 +46,22 @@ class DiscordBot(discord.Client):
             f"**Size**: {filesize} \n" \
             f"**Download**: [Here]({download})"
         embed = discord.Embed(title=f"New {branch} {rom_type} update available!", color=discord.Colour.orange(), description=desc)
-        embed.set_footer(text="@MIUIUpdatesTracker | @XiaomiFirmwareUpdater")
+        embed.set_footer(text=f"https://xiaomifirmwareupdater.com/miui/{codename}")
         device = device.lower()
         for name in self.channels:
             if device.startswith(name):
                 await self.channels[name].send(embed=embed)
+                print(f"Posted update for {codename} in Discord")
                 return
         if device.startswith("redmi"):
             await self.channels['redmi other'].send(embed=embed)
+            print(f"Posted update for {codename} in Discord")
         elif device.startswith("mi"):
             await self.channels['mi other'].send(embed=embed)
+            print(f"Posted update for {codename} in Discord")
         elif device.starswith("poco"):
             await self.channels['pocophone f1'].send(embed=embed)
+            print(f"Posted update for {codename} in Discord")
 
     async def on_ready(self):
         print('Discord bot up!')
