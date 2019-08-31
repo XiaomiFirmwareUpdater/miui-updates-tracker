@@ -14,8 +14,7 @@ from discordbot import DiscordBot
 
 # vars
 GIT_OAUTH_TOKEN = environ['XFU']
-BOT_TOKEN = environ['bottoken']
-TG_CHAT = "@MIUIUpdatesTracker"
+BOT_TOKEN = environ['tg_bot_token']
 DISCORD_BOT_TOKEN = environ['DISCORD_BOT_TOKEN']
 CHANGES = []
 CHANGED = []
@@ -25,6 +24,9 @@ RSS_HEAD = '<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0">\n<channe
            '<link>https://xiaomifirmwareupdater.com</link>\n' \
            '<description>A script that automatically tracks MIUI ROM releases!</description>'
 RSS_TAIL = '</channel>\n</rss>'
+
+with open('telegram.json', 'r') as telegram_data:
+    TELEGRAM = json.load(telegram_data)
 
 
 def load_devices():
@@ -44,12 +46,12 @@ def load_devices():
     return names, sr_devices, sf_devices, wr_devices, wf_devices
 
 
-def tg_post(message: str):
+def tg_post(message: str, chat: str) -> int:
     """
     post message to telegram
     """
     params = (
-        ('chat_id', TG_CHAT),
+        ('chat_id', chat),
         ('text', message),
         ('parse_mode', "Markdown"),
         ('disable_web_page_preview', "yes")
@@ -176,9 +178,14 @@ def post_message(message: str):
     post the generated message
     """
     codename = message.splitlines()[2].split('#')[1].strip()
-    status = tg_post(message)
-    if status == 200:
-        print(f"{codename}: Telegram Message sent")
+    to_post = ["@MIUIUpdatesTracker"]
+    if codename in TELEGRAM.keys():
+        for i in TELEGRAM[codename]:
+            to_post.append(i)
+    for chat in to_post:
+        status = tg_post(message, chat)
+        if status == 200:
+            print(f"{codename}: Telegram Message sent to {chat}")
 
 
 def generate_rss(files: list):
