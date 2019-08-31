@@ -139,6 +139,7 @@ def generate_message(update: dict):
     android = update['android']
     codename = update['codename']
     device = update['device']
+    download = update['download']
     filename = update['filename']
     filesize = update['size']
     version = update['version']
@@ -168,7 +169,9 @@ def generate_message(update: dict):
         f"*Version:* `{version}` \n" \
         f"*Android:* {android} \n" \
         f"*Size*: {filesize} \n" \
-        f"*Download*: [Here](https://xiaomifirmwareupdater.com/miui/{codename})\n" \
+        f"*Download*: [Here]({download})\n\n" \
+        f"[Latest Updates](https://xiaomifirmwareupdater.com/miui/{codename}) - " \
+               f"[All Updates](https://xiaomifirmwareupdater.com/archive/miui/{codename})\n" \
         "@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
     return message
 
