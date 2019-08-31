@@ -1,7 +1,9 @@
+"""MIUI Updates Tracker - Discord bot script"""
 import discord
-from os import environ
+
 
 class DiscordBot(discord.Client):
+    """initialize Discord bot"""
     def __init__(self, token):
         super().__init__()
         self.token = token
@@ -45,7 +47,8 @@ class DiscordBot(discord.Client):
             f"**Version**: `{version} | {android}` \n" \
             f"**Size**: {filesize} \n" \
             f"**Download**: [Here]({download})"
-        embed = discord.Embed(title=f"New {branch} {rom_type} update available!", color=discord.Colour.orange(), description=desc)
+        embed = discord.Embed(title=f"New {branch} {rom_type} update available!",
+                              color=discord.Colour.orange(), description=desc)
         embed.set_footer(text=f"https://xiaomifirmwareupdater.com/miui/{codename}")
         device = device.lower()
         for name in self.channels:
@@ -64,12 +67,16 @@ class DiscordBot(discord.Client):
             print(f"Posted update for {codename} in Discord")
 
     async def on_ready(self):
+        """Prepare"""
         print('Discord bot up!')
-        self.channels = {x.name.replace('_series', '').replace('_', ' '): x for x in self.get_all_channels() if x.category is not None and "phones" in x.category.name}
+        self.channels = {x.name.replace('_series', '').replace('_', ' '): x
+                         for x in self.get_all_channels()
+                         if x.category is not None and "phones" in x.category.name}
         for update in self.updates:
             await self.send_message(update)
         await self.logout()
-    
+
     def send(self, updates):
+        """send messages to Discord"""
         self.updates = updates
         self.run(self.token)
