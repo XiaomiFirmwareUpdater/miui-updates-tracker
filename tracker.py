@@ -3,6 +3,7 @@
 
 import json
 import re
+from collections import OrderedDict
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
@@ -143,10 +144,7 @@ def generate_message(update: dict):
     filename = update['filename']
     filesize = update['size']
     version = update['version']
-    if 'V' in version:
-        branch = 'Stable'
-    else:
-        branch = 'Weekly'
+    branch = 'Stable' if 'V' in version else 'Weekly'
     if 'eea_global' in filename or 'eea_global' in codename or 'EU' in version:
         region = 'EEA'
     elif 'in_global' in filename or 'in_global' in codename or 'IN' in version:
@@ -251,6 +249,41 @@ def merge_rss(name: str):
         out.write(f'{RSS_TAIL}')
 
 
+def archive(update: dict):
+    """Append new update to the archive"""
+    codename = update['codename']
+    link = update['download']
+    version = update['version']
+    branch = 'stable' if version.startswith('V') else 'weekly'
+    rom_type = 'recovery' if update['filename'].endswith('.zip') else 'fastboot'
+    with open(f'archive/{branch}_{rom_type}/{codename}.json', 'r') as json_file:
+        data = json.load(json_file)
+    data[codename].update({version: link})
+    new = OrderedDict(sorted(data[codename].items(), reverse=True))
+    data.update({codename: new})
+    with open(f'archive/{branch}_{rom_type}/{codename}.json', 'w') as output:
+        json.dump(data, output, indent=1)
+
+
+def merge_archive():
+    """
+    merge all archive json files into one file
+    """
+    print("Creating archive JSON files")
+    for name in ['stable_recovery', 'stable_fastboot', 'weekly_recovery', 'weekly_fastboot']:
+        json_files = [x for x in sorted(glob(f'archive/{name}/*.json'))
+                      if not x.endswith('recovery.json')
+                      and not x.endswith('fastboot.json')]
+        json_data = []
+        for file in json_files:
+            with open(file, "r") as json_file:
+                json_data.append(json.load(json_file))
+        with open(f'archive/{name}/{name}', "w") as output:
+            json.dump(json_data, output, indent=1)
+        if path.exists(f'archive/{name}/{name}'):
+            rename(f'archive/{name}/{name}', f'archive/{name}/{name}.json')
+
+
 def main():
     """
     MIUI Updates Tracker
@@ -289,12 +322,14 @@ def main():
         for update in updates:
             message = generate_message(update)
             post_message(message)
+            archive(update)
         discord_bot.send(updates)
     else:
         print('No new updates found!')
     versions = [i for i in fastboot_roms.keys()] + [i for i in recovery_roms.keys()]
     for version in versions:
         merge_rss(version)
+    merge_archive()
     print("Done")
     git_commit_push()
     for file in glob(f'*_*/old_*'):
