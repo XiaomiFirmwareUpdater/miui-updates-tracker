@@ -62,7 +62,7 @@ class DiscordBot(discord.Client):
         elif device.startswith("mi"):
             await self.channels['mi other'].send(embed=embed)
             print(f"Posted update for {codename} in Discord")
-        elif device.starswith("poco"):
+        elif device.startswith("poco"):
             await self.channels['pocophone f1'].send(embed=embed)
             print(f"Posted update for {codename} in Discord")
 
