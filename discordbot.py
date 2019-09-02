@@ -62,16 +62,13 @@ class DiscordBot(discord.Client):
         elif device.startswith("mi"):
             await self.channels['mi other'].send(embed=embed)
             print(f"Posted update for {codename} in Discord")
-        elif device.startswith("poco"):
-            await self.channels['pocophone f1'].send(embed=embed)
-            print(f"Posted update for {codename} in Discord")
 
     async def on_ready(self):
         """Prepare"""
         print('Discord bot up!')
         self.channels = {x.name.replace('_series', '').replace('_', ' '): x
                          for x in self.get_all_channels()
-                         if x.category is not None and "phones" in x.category.name}
+                         if x.category is not None and ("mi" in x.category.name.lower() or "other" in x.category.name.lower())}
         for update in self.updates:
             await self.send_message(update)
         await self.logout()
