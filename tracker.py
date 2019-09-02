@@ -77,7 +77,7 @@ def git_commit_push():
     git add - git commit - git push
 =    """
     today = str(datetime.today()).split('.')[0]
-    system("git add *_recovery/*.json *_fastboot/*.json rss/ && "
+    system("git add *_recovery/*.json *_fastboot/*.json rss/ archive/ && "
            "git -c \"user.name=XiaomiFirmwareUpdater\" -c "
            "\"user.email=xiaomifirmwareupdater@gmail.com\" "
            "commit -m \"sync: {}\" && "" \
@@ -256,13 +256,18 @@ def archive(update: dict):
     version = update['version']
     branch = 'stable' if version.startswith('V') else 'weekly'
     rom_type = 'recovery' if update['filename'].endswith('.zip') else 'fastboot'
-    with open(f'archive/{branch}_{rom_type}/{codename}.json', 'r') as json_file:
-        data = json.load(json_file)
-    data[codename].update({version: link})
-    new = OrderedDict(sorted(data[codename].items(), reverse=True))
-    data.update({codename: new})
-    with open(f'archive/{branch}_{rom_type}/{codename}.json', 'w') as output:
-        json.dump(data, output, indent=1)
+    try:
+        with open(f'archive/{branch}_{rom_type}/{codename}.json', 'r') as json_file:
+            data = json.load(json_file)
+            data[codename].update({version: link})
+            new = OrderedDict(sorted(data[codename].items(), reverse=True))
+            data.update({codename: new})
+            with open(f'archive/{branch}_{rom_type}/{codename}.json', 'w') as output:
+                json.dump(data, output, indent=1)
+    except FileNotFoundError:
+        data = {codename: {version: link}}
+        with open(f'archive/{branch}_{rom_type}/{codename}.json', 'w') as output:
+            json.dump(data, output, indent=1)
 
 
 def merge_archive():
