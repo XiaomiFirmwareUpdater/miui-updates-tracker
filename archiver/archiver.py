@@ -2,13 +2,14 @@
 """MIUI Updates Tracker channel dumper"""
 
 import json
+import yaml
 from collections import OrderedDict
 from glob import glob
 from bs4 import BeautifulSoup
 from requests import get
 
-DEVICES = get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
-              'miui-updates-tracker/master/devices/names.json').json()
+with open("../devices/names.yml", 'r') as f:
+    DEVICES = yaml.load(f, yaml.FullLoader) # replace with yaml.CLoader
 
 CODES = get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
             'xiaomi_devices/miui_codes/miui.json').json()
