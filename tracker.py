@@ -11,6 +11,7 @@ from requests import post
 import fastboot
 import recovery_a as recovery
 import ao
+import yaml
 from discordbot import DiscordBot
 
 # vars
@@ -26,24 +27,24 @@ RSS_HEAD = '<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0">\n<channe
            '<description>A script that automatically tracks MIUI ROM releases!</description>'
 RSS_TAIL = '</channel>\n</rss>'
 
-with open('telegram.json', 'r') as telegram_data:
-    TELEGRAM = json.load(telegram_data)
+with open('telegram.yml', 'r') as telegram_data:
+    TELEGRAM = yaml.load(telegram_data, Loader=yaml.CLoader)
 
 
 def load_devices():
     """
     load devices lists
     """
-    with open('devices/names.json', 'r') as names_:
-        names = json.load(names_)
-    with open('devices/sr.json', 'r') as stable_recovery:
-        sr_devices = json.load(stable_recovery)
-    with open('devices/sf.json', 'r') as stable_fastboot:
-        sf_devices = json.load(stable_fastboot)
-    with open('devices/wr.json', 'r') as weekly_recovery:
-        wr_devices = json.load(weekly_recovery)
-    with open('devices/wf.json', 'r') as weekly_fastboot:
-        wf_devices = json.load(weekly_fastboot)
+    with open('devices/names.yml', 'r') as names_:
+        names = yaml.load(names_, Loader=yaml.CLoader)
+    with open('devices/sr.yml', 'r') as stable_recovery:
+        sr_devices = yaml.load(stable_recovery, Loader=yaml.CLoader)
+    with open('devices/sf.yml', 'r') as stable_fastboot:
+        sf_devices = yaml.load(stable_fastboot, Loader=yaml.CLoader)
+    with open('devices/wr.yml', 'r') as weekly_recovery:
+        wr_devices = yaml.load(weekly_recovery, Loader=yaml.CLoader)
+    with open('devices/wf.yml', 'r') as weekly_fastboot:
+        wf_devices = yaml.load(weekly_fastboot, Loader=yaml.CLoader)
     return names, sr_devices, sf_devices, wr_devices, wf_devices
 
 
