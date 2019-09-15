@@ -29,15 +29,15 @@ def load_devices():
     load devices lists
     """
     with open('../devices/names.yml', 'r') as names_:
-        names = yaml.load(names_, yaml.FullLoader) # replace with yaml.CLoader
+        names = yaml.load(names_, Loader=yaml.CLoader)
     with open('sr.yml', 'r') as stable_recovery:
-        sr_devices = yaml.load(stable_recovery, yaml.FullLoader) # replace with yaml.CLoader
+        sr_devices = yaml.load(stable_recovery, Loader=yaml.CLoader)
     with open('sf.yml', 'r') as stable_fastboot:
-        sf_devices = yaml.load(stable_fastboot, yaml.FullLoader) # replace with yaml.CLoader
+        sf_devices = yaml.load(stable_fastboot, Loader=yaml.CLoader)
     with open('wr.yml', 'r') as weekly_recovery:
-        wr_devices = yaml.load(weekly_recovery, yaml.FullLoader) # replace with yaml.CLoader
+        wr_devices = yaml.load(weekly_recovery, Loader=yaml.CLoader)
     with open('wf.yml', 'r') as weekly_fastboot:
-        wf_devices = yaml.load(weekly_fastboot, yaml.FullLoader) # replace with yaml.CLoader
+        wf_devices = yaml.load(weekly_fastboot, Loader=yaml.CLoader)
     return names, sr_devices, sf_devices, wr_devices, wf_devices
 
 

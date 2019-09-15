@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 with open("../devices/names.yml", 'r') as f:
-    DEVICES = yaml.load(f, yaml.FullLoader) # replace with yaml.CLoader
+    DEVICES = yaml.load(f, Loader=yaml.CLoader)
 
 CODES = get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
             'xiaomi_devices/miui_codes/miui.json').json()

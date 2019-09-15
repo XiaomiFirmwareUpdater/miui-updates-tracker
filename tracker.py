@@ -28,7 +28,7 @@ RSS_HEAD = '<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0">\n<channe
 RSS_TAIL = '</channel>\n</rss>'
 
 with open('telegram.yml', 'r') as telegram_data:
-    TELEGRAM = yaml.load(telegram_data, yaml.FullLoader) # replace with yaml.CLoader
+    TELEGRAM = yaml.load(telegram_data, Loader=yaml.CLoader)
 
 
 def load_devices():
@@ -36,15 +36,15 @@ def load_devices():
     load devices lists
     """
     with open('devices/names.yml', 'r') as names_:
-        names = yaml.load(names_, yaml.FullLoader) # replace with yaml.CLoader
+        names = yaml.load(names_, Loader=yaml.CLoader)
     with open('devices/sr.yml', 'r') as stable_recovery:
-        sr_devices = yaml.load(stable_recovery, yaml.FullLoader) # replace with yaml.CLoader
+        sr_devices = yaml.load(stable_recovery, Loader=yaml.CLoader)
     with open('devices/sf.yml', 'r') as stable_fastboot:
-        sf_devices = yaml.load(stable_fastboot, yaml.FullLoader) # replace with yaml.CLoader
+        sf_devices = yaml.load(stable_fastboot, Loader=yaml.CLoader)
     with open('devices/wr.yml', 'r') as weekly_recovery:
-        wr_devices = yaml.load(weekly_recovery, yaml.FullLoader) # replace with yaml.CLoader
+        wr_devices = yaml.load(weekly_recovery, Loader=yaml.CLoader)
     with open('devices/wf.yml', 'r') as weekly_fastboot:
-        wf_devices = yaml.load(weekly_fastboot, yaml.FullLoader) # replace with yaml.CLoader
+        wf_devices = yaml.load(weekly_fastboot, Loader=yaml.CLoader)
     return names, sr_devices, sf_devices, wr_devices, wf_devices
 
 
