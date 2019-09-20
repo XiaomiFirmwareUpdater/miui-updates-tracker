@@ -50,7 +50,7 @@ def get_fastboot(codename, info):
     version = link.split('/')[3]
     android = link.split('_')[-2]
     update.update({"android": android})
-    update.update({"codename": info['model']})
+    update.update({"codename": codename})
     update.update({"device": info['name']})
     update.update({"download": link})
     update.update({"filename": file})
