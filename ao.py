@@ -6,51 +6,66 @@ from bs4 import BeautifulSoup
 from requests import get
 from humanize import naturalsize
 
-
+DEVICES = {"daisy_global": {"name": "Mi A2 Lite", "model": "daisy", "id": "1700354"},
+           "jasmine_global": {"name": "Mi A2", "model": "jasmine", "id": "1700353"},
+           "laurel_sprout_global": {"name": "Mi A3", "model": "laurel", "id": "1900372"},
+           "tiare_eea_global": {"name": "Redmi Go EEA", "model": "tiare", "id": "1700365"},
+           "tiare_global": {"name": "Redmi Go Global", "model": "tiare", "id": "1700365"},
+           "tiare_in_global": {"name": "Redmi Go India", "model": "tiare", "id": "1700365"},
+           "tiare_ru_global": {"name": "Redmi Go Russia", "model": "tiare", "id": "1700365"},
+           "tissot": {"name": "Mi A1", "model": "tissot", "id": "1700333"}
+           }
 DATA = []
 
 
-def get_fastboot(miui_id):
-    """Scrape latest available fastboot ROM from MIUI downloads page"""
-    url = 'http://en.miui.com/download-{}.html'.format(miui_id)
-    response = get(url)
-    page = BeautifulSoup(response.content, 'html.parser')
-    links = page.findAll('a', {"class": "btn_5"})
-    for i in links:
-        log = []
-        link = i['href']
-        file_size = naturalsize(int(get(link, stream=True).headers['Content-Length']))
-        file = link.split('/')[-1]
-        region = file.split('_')[1][:2]
-        names = page.findAll('span', {"class": "tab"})
-        if file.count('_') == 7:
-            name = [j.text for j in names if region == j.text.split(' ')[2].lower()[:2]]
-            device = ''.join(name)
-        else:
-            device = page.find('span', {"class": "tab"}).text
-        version = link.split('/')[3]
-        android = link.split('_')[-2]
-        codename = file.split('_')[0]
-        info = {}
-        info.update({"android": android})
-        info.update({"codename": codename})
-        info.update({"device": device})
-        info.update({"download": link})
-        info.update({"filename": file})
-        info.update({"size": file_size})
-        info.update({"md5": "null"})
-        info.update({"version": version})
-        DATA.append(info)
-        log.append(info)
-        with open('stable_fastboot/' + file.split('_images')[0] + '.json', 'w', newline='\n') as output:
-            json.dump(log[0], output, indent=1)
+def get_fastboot(codename, info):
+    """    fetch MIUI ROMs downloads"""
+    headers = {
+        'Pragma': 'no-cache',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept': 'application/json, text/javascript, */*; q=0.01',
+        'Referer': f'http://c.mi.com/oc/miuidownload/detail?device={info["id"]}',
+        'X-Requested-With': 'XMLHttpRequest',
+        'Connection': 'keep-alive',
+        'Cache-Control': 'no-cache',
+    }
+    data = list(get(
+        f"https://c.mi.com/oc/rom/getdevicelist?phone_id={info['id']}",
+        headers=headers).json()['data']['device_data']['device_list'].values())
+    update = {}
+    link = ""
+    try:
+        if data[0]['stable_rom']['rom_url']:
+            link = data[0]['stable_rom']['rom_url'].strip()
+    except KeyError:
+        try:
+            if data[0]['developer_rom']['rom_url']:
+                link = data[0]['developer_rom']['rom_url'].strip()
+        except KeyError:
+            pass
+
+    file_size = naturalsize(int(get(link, stream=True).headers['Content-Length']))
+    file = link.split('/')[-1]
+    version = link.split('/')[3]
+    android = link.split('_')[-2]
+    update.update({"android": android})
+    update.update({"codename": info['model']})
+    update.update({"device": info['name']})
+    update.update({"download": link})
+    update.update({"filename": file})
+    update.update({"size": file_size})
+    update.update({"md5": "null"})
+    update.update({"version": version})
+    DATA.append(info)
+    with open(f'stable_fastboot/{codename}.json', 'w', newline='\n') as output:
+        json.dump(update, output, indent=1)
 
 
 def main():
     """loop through MIUI downloads and get the link"""
-    ids = ['333', '353', '354', '365']
-    for device_id in ids:
-        get_fastboot(device_id)
+    for codename, info in DEVICES.items():
+        get_fastboot(codename, info)
     # write all json to one file
     # with open('ao.json', 'w', newline='\n') as ao:
     #     json.dump(DATA, ao, indent=1)
