@@ -15,8 +15,8 @@ A Script that automatically track Xiaomi MIUI ROM releases and send messages to 
 - Both Global and China ROMs are supported.
 - Script runs automatically every 6h!
 
-## Public JSON and RSS
-Starting from V2.2 the script will push JSON and XML files for each device, in addition to the all-in-one file that was already available.
+## Public YAML and RSS
+Starting from V2.2 the script will push YAML and XML files for each device, in addition to the all-in-one file that was already available.
 
 _These files can be used for whatever project, just give the proper credits to @XiaomiFirmwareUpdater project_
 
@@ -24,8 +24,8 @@ Files are separated by branch: Stable Recovery - Stable Fastboot - Weekly Recove
 
 RSS files are available [here](https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker/tree/master/rss), Just open any xml file in raw view, copy the link, add to your RSS feed and enjoy :D
 
-## r/Xiaomi
-We're part of [r/Xiaomi](https://www.reddit.com/r/Xiaomi/)'s discord server! Join us [Here](https://discord.gg/xiaomi)
+## Xiaomi Community
+We're part of Xiaomi Community's discord server! Join us [Here](https://discord.gg/xiaomi)
 
 #### This script is a part of [Xiaomi Firmware Updater](https://github.com/XiaomiFirmwareUpdater) project.
 #### Developer: [yshalsager](https://github.com/yshalsager)

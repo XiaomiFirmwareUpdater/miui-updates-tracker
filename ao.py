@@ -2,6 +2,7 @@
 """Xiaomi MIUI Stable fastboot script for android one devices"""
 
 import json
+import yaml
 from bs4 import BeautifulSoup
 from requests import get
 from humanize import naturalsize
@@ -58,8 +59,8 @@ def get_fastboot(codename, info):
     update.update({"md5": "null"})
     update.update({"version": version})
     DATA.append(info)
-    with open(f'stable_fastboot/{codename}.json', 'w', newline='\n') as output:
-        json.dump(update, output, indent=1)
+    with open(f'stable_fastboot/{codename}.yml', 'w', newline='\n') as output:
+        yaml.dump(update, output, Dumper=yaml.CDumper)
 
 
 def main():
