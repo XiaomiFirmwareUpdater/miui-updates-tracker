@@ -1,7 +1,6 @@
 #!/usr/bin/env python3.7
 """Xiaomi MIUI EOL devices ROMs fetcher"""
 
-import json
 import yaml
 from glob import glob
 from os import remove, rename, path, makedirs
@@ -17,7 +16,7 @@ def initialize():
     makedirs("stable_fastboot", exist_ok=True)
     makedirs("weekly_recovery", exist_ok=True)
     makedirs("weekly_fastboot", exist_ok=True)
-    for file in glob('*_*/*.json'):
+    for file in glob('*_*/*.yml'):
         if 'old_' in file:
             continue
         name = 'old_' + file.split('/')[-1].split('.')[0]
@@ -59,20 +58,19 @@ def main():
             recovery.get_roms(name)
         print("Fetched " + name.replace('_', ' '))
         # Merge files
-        print("Creating JSON")
-        json_files = [x for x in sorted(glob(f'{name}/*.json')) if not x.startswith('old_')]
-        json_data = []
-        for file in json_files:
-            with open(file, "r") as json_file:
-                json_data.append(json.load(json_file))
+        print("Creating YAML")
+        yaml_files = [x for x in sorted(glob(f'{name}/*.yml')) if not x.startswith('old_')]
+        yaml_data = []
+        for file in yaml_files:
+            with open(file, "r") as yaml_file:
+                yaml_data.append(yaml.load(yaml_file, Loader=yaml.CLoader))
         with open(f'{name}/{name}', "w") as output:
-            json.dump(json_data, output, indent=1)
+            yaml.dump(yaml_data, output, Dumper=yaml.CDumper)
         # Cleanup
-        for file in glob(f'{name}/*.json'):
+        for file in glob(f'{name}/*.yml'):
             remove(file)
         if path.exists(f'{name}/{name}'):
-            rename(f'{name}/{name}', f'{name}/{name}.json')
-
+            rename(f'{name}/{name}', f'{name}/{name}.yml')
 
 if __name__ == '__main__':
     main()
