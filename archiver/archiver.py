@@ -1,7 +1,6 @@
 #!/usr/bin/env python3.7
 """MIUI Updates Tracker channel dumper"""
 
-import json
 import yaml
 from collections import OrderedDict
 from glob import glob
@@ -11,8 +10,8 @@ from requests import get
 with open("../devices/names.yml", 'r') as f:
     DEVICES = yaml.load(f, Loader=yaml.CLoader)
 
-CODES = get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
-            'xiaomi_devices/miui_codes/miui.json').json()
+CODES = yaml.load(get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
+            'xiaomi_devices/miui_codes/miui.yml').text, Loader=yaml.CLoader)
 
 
 def fetch_links():
@@ -51,9 +50,9 @@ def fetch_links():
     return stable_recovery, stable_fastboot, weekly_recovery, weekly_fastboot
 
 
-def gen_json(links, folder):
+def gen_yaml(links, folder):
     """
-    generate json file with device's info for each rom link
+    generate yaml file with device's info for each rom link
     :param links: a list of links
     :param folder: stable/weekly
     """
@@ -99,17 +98,17 @@ def gen_json(links, folder):
             info.update({version: rom})
         info = OrderedDict(sorted(info.items(), reverse=True))
         data.update({codename: info})
-        with open(f'{folder}/{codename}.json', 'w') as output:
-            json.dump(data, output, indent=1)
+        with open(f'{folder}/{codename}.yml', 'w') as output:
+            yaml.dump(data, output, Dumper=yaml.CDumper)
 
 
 def main():
     """MIUIUpdatesTracker archiver"""
     stable_recovery, stable_fastboot, weekly_recovery, weekly_fastboot = fetch_links()
-    gen_json(stable_recovery, 'stable_recovery')
-    gen_json(stable_fastboot, 'stable_fastboot')
-    gen_json(weekly_recovery, 'weekly_recovery')
-    gen_json(weekly_fastboot, 'weekly_fastboot')
+    gen_yaml(stable_recovery, 'stable_recovery')
+    gen_yaml(stable_fastboot, 'stable_fastboot')
+    gen_yaml(weekly_recovery, 'weekly_recovery')
+    gen_yaml(weekly_fastboot, 'weekly_fastboot')
 
 
 if __name__ == '__main__':
