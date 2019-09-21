@@ -1,7 +1,6 @@
 #!/usr/bin/env python3.7
 """MIUI Updates Tracker - By XiaomiFirmwareUpdater"""
 
-import json
 import re
 from collections import OrderedDict
 from datetime import datetime
@@ -78,7 +77,7 @@ def git_commit_push():
     git add - git commit - git push
 =    """
     today = str(datetime.today()).split('.')[0]
-    system("git add *_recovery/*.json *_fastboot/*.json rss/ archive/ && "
+    system("git add *_recovery/*.yml *_fastboot/*.yml rss/ archive/ && "
            "git -c \"user.name=XiaomiFirmwareUpdater\" -c "
            "\"user.email=xiaomifirmwareupdater@gmail.com\" "
            "commit -m \"sync: {}\" && "" \
@@ -89,13 +88,13 @@ def git_commit_push():
 
 def diff(name: str):
     """
-    compare json files
+    compare yaml files
     """
     try:
-        with open(f'{name}/{name}.json', 'r') as new,\
+        with open(f'{name}/{name}.yml', 'r') as new,\
                 open(f'{name}/old_{name}', 'r') as old_data:
-            latest = json.load(new)
-            old = json.load(old_data)
+            latest = yaml.load(new, Loader=yaml.CLoader)
+            old = yaml.load(old_data, Loader=yaml.CLoader)
             first_run = False
     except FileNotFoundError:
         print(f"Can't find old {name} files, skipping")
@@ -106,7 +105,7 @@ def diff(name: str):
                        if not new_['version'] == old_['version']]
             if changes:
                 CHANGES.append(changes)
-                CHANGED.append([f'{name}/{i["codename"]}.json' for i in changes])
+                CHANGED.append([f'{name}/{i["codename"]}.yml' for i in changes])
         else:
             old_codenames = [i["codename"] for i in old]
             new_codenames = [i["codename"] for i in latest]
@@ -114,24 +113,24 @@ def diff(name: str):
             if changes:
                 CHANGES.append([i for i in latest for codename in changes
                                 if codename == i["codename"]])
-            CHANGED.append([f'{name}/{i}.json' for i in changes])
+            CHANGED.append([f'{name}/{i}.yml' for i in changes])
 
 
-def merge_json(name: str):
+def merge_yaml(name: str):
     """
-    merge all devices json files into one file
+    merge all devices yaml files into one file
     """
-    print("Creating JSON files")
-    json_files = [x for x in sorted(glob(f'{name}/*.json')) if not x.endswith('recovery.json')
-                  and not x.endswith('fastboot.json')]
-    json_data = []
-    for file in json_files:
-        with open(file, "r") as json_file:
-            json_data.append(json.load(json_file))
+    print("Creating YAML files")
+    yaml_files = [x for x in sorted(glob(f'{name}/*.yml')) if not x.endswith('recovery.yml')
+                  and not x.endswith('fastboot.yml')]
+    yaml_data = []
+    for file in yaml_files:
+        with open(file, "r") as yaml_file:
+            yaml_data.append(yaml.load(yaml_file, Loader=yaml.CLoader))
     with open(f'{name}/{name}', "w") as output:
-        json.dump(json_data, output, indent=1)
+        yaml.dump(yaml_data, output, Dumper=yaml.CDumper)
     if path.exists(f'{name}/{name}'):
-        rename(f'{name}/{name}', f'{name}/{name}.json')
+        rename(f'{name}/{name}', f'{name}/{name}.yml')
 
 
 def generate_message(update: dict):
@@ -215,8 +214,8 @@ def generate_rss(files: list):
     rss = ''
     for branch in files:
         for file in branch:
-            with open(file, "r") as json_file:
-                info = json.load(json_file)
+            with open(file, "r") as yaml_file:
+                info = yaml.load(yaml_file, Loader=yaml.CLoader)
             if isinstance(info, dict):
                 rss = f'{RSS_HEAD}\n{write_rss(info)}\n{RSS_TAIL}'
             elif isinstance(info, list):
@@ -258,36 +257,36 @@ def archive(update: dict):
     branch = 'stable' if version.startswith('V') else 'weekly'
     rom_type = 'recovery' if update['filename'].endswith('.zip') else 'fastboot'
     try:
-        with open(f'archive/{branch}_{rom_type}/{codename}.json', 'r') as json_file:
-            data = json.load(json_file)
+        with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'r') as yaml_file:
+            data = yaml.load(yaml_file, Loader=yaml.CLoader)
             data[codename].update({version: link})
             new = OrderedDict(sorted(data[codename].items(), reverse=True))
             data.update({codename: new})
-            with open(f'archive/{branch}_{rom_type}/{codename}.json', 'w') as output:
-                json.dump(data, output, indent=1)
+            with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'w') as output:
+                yaml.dump(data, output, Dumper=yaml.CDumper)
     except FileNotFoundError:
         data = {codename: {version: link}}
-        with open(f'archive/{branch}_{rom_type}/{codename}.json', 'w') as output:
-            json.dump(data, output, indent=1)
+        with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'w') as output:
+            yaml.dump(data, output, Dumper=yaml.CDumper)
 
 
 def merge_archive():
     """
-    merge all archive json files into one file
+    merge all archive yaml files into one file
     """
-    print("Creating archive JSON files")
+    print("Creating archive YAML files")
     for name in ['stable_recovery', 'stable_fastboot', 'weekly_recovery', 'weekly_fastboot']:
-        json_files = [x for x in sorted(glob(f'archive/{name}/*.json'))
-                      if not x.endswith('recovery.json')
-                      and not x.endswith('fastboot.json')]
-        json_data = []
-        for file in json_files:
-            with open(file, "r") as json_file:
-                json_data.append(json.load(json_file))
+        yaml_files = [x for x in sorted(glob(f'archive/{name}/*.yml'))
+                      if not x.endswith('recovery.yml')
+                      and not x.endswith('fastboot.yml')]
+        yaml_data = []
+        for file in yaml_files:
+            with open(file, "r") as yaml_file:
+                yaml_data.append(yaml.load(yaml_file, Loader=yaml.CLoader))
         with open(f'archive/{name}/{name}', "w") as output:
-            json.dump(json_data, output, indent=1)
+            yaml.dump(yaml_data, output, Dumper=yaml.CDumper)
         if path.exists(f'archive/{name}/{name}'):
-            rename(f'archive/{name}/{name}', f'archive/{name}/{name}.json')
+            rename(f'archive/{name}/{name}', f'archive/{name}/{name}.yml')
 
 
 def main():
@@ -303,23 +302,23 @@ def main():
     discord_bot = DiscordBot(DISCORD_BOT_TOKEN)
     for name, data in fastboot_roms.items():
         # fetch based on version
-        rename(f'{name}/{name}.json', f'{name}/old_{name}')
+        rename(f'{name}/{name}.yml', f'{name}/old_{name}')
         fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
         print(f"Fetched {name}")
         if "stable_fastboot" in name and ao_run is False:
             ao.main()
             ao_run = True
         # Merge files
-        merge_json(name)
+        merge_yaml(name)
         # Compare
         print(f"Comparing {name} files")
         diff(name)
     if CHANGES:
         for name, data in recovery_roms.items():
-            rename(f'{name}/{name}.json', f'{name}/old_{name}')
+            rename(f'{name}/{name}.yml', f'{name}/old_{name}')
             recovery.get_roms(name, CHANGED, data['devices'])
             print(f"Fetched {name}")
-            merge_json(name)
+            merge_yaml(name)
             print(f"Comparing {name} files")
             diff(name)
     if CHANGES:
