@@ -1,9 +1,9 @@
 #!/usr/bin/env python3.7
 """MIUI Updates Tracker channel dumper"""
 
-import yaml
 from collections import OrderedDict
 from glob import glob
+import yaml
 from bs4 import BeautifulSoup
 from requests import get
 
@@ -11,7 +11,7 @@ with open("../devices/names.yml", 'r') as f:
     DEVICES = yaml.load(f, Loader=yaml.CLoader)
 
 CODES = yaml.load(get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
-            'xiaomi_devices/miui_codes/miui.yml').text, Loader=yaml.CLoader)
+                      'xiaomi_devices/miui_codes/miui.yml').text, Loader=yaml.CLoader)
 
 
 def fetch_links():
@@ -78,7 +78,7 @@ def gen_yaml(links, folder):
             try:
                 roms = [link for link in links if CODES[codename] in link.split('/')[3]]
             # except KeyError as e:
-                # print(f'KeyError {e}')
+            # print(f'KeyError {e}')
             except KeyError:
                 continue
         elif 'weekly_recovery' in folder:
