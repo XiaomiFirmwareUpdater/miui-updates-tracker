@@ -1,9 +1,9 @@
 #!/usr/bin/env python3.7
 """Xiaomi MIUI EOL devices ROMs fetcher"""
 
-import yaml
 from glob import glob
 from os import remove, rename, path, makedirs
+import yaml
 import fastboot
 import recovery_a as recovery
 

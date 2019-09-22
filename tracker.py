@@ -7,10 +7,10 @@ from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
 from requests import post
+import yaml
 import fastboot
 import recovery_a as recovery
 import ao
-import yaml
 from discordbot import DiscordBot
 
 # vars
