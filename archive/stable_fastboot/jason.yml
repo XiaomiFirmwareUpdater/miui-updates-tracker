@@ -1,6 +1,13 @@
-jason:
-  V10.0.4.0.OCHCNFH: http://bigota.d.miui.com/V10.0.4.0.OCHCNFH/jason_images_V10.0.4.0.OCHCNFH_20180906.0000.00_8.1_cn_59b229d8b6.tgz
-  V10.0.5.0.OCHCNFH: http://bigota.d.miui.com/V10.0.5.0.OCHCNFH/jason_images_V10.0.5.0.OCHCNFH_20181023.0000.00_8.1_cn_49c3765091.tgz
-  V10.2.3.0.OCHCNFK: http://bigota.d.miui.com/V10.2.3.0.OCHCNFK/jason_images_V10.2.3.0.OCHCNFK_20181208.0000.00_8.1_cn_4fb07115eb.tgz
-  V10.3.1.0.OCHCNXM: http://bigota.d.miui.com/V10.3.1.0.OCHCNXM/jason_images_V10.3.1.0.OCHCNXM_20190330.0000.00_8.1_cn_58fee5bbb7.tgz
-  V9.6.1.0.NCHCNFD: http://bigota.d.miui.com/V9.6.1.0.NCHCNFD/jason_images_V9.6.1.0.NCHCNFD_20180608.0000.00_7.1_cn_fedc64ef91.tgz
+jason: !!python/object/apply:collections.OrderedDict
+- - - V9.6.1.0.NCHCNFD
+    - http://bigota.d.miui.com/V9.6.1.0.NCHCNFD/jason_images_V9.6.1.0.NCHCNFD_20180608.0000.00_7.1_cn_fedc64ef91.tgz
+  - - V10.4.2.0.PCHCNXM
+    - http://bigota.d.miui.com/V10.4.2.0.PCHCNXM/jason_images_V10.4.2.0.PCHCNXM_20190906.0000.00_9.0_cn_4f22b038c1.tgz
+  - - V10.3.1.0.OCHCNXM
+    - http://bigota.d.miui.com/V10.3.1.0.OCHCNXM/jason_images_V10.3.1.0.OCHCNXM_20190330.0000.00_8.1_cn_58fee5bbb7.tgz
+  - - V10.2.3.0.OCHCNFK
+    - http://bigota.d.miui.com/V10.2.3.0.OCHCNFK/jason_images_V10.2.3.0.OCHCNFK_20181208.0000.00_8.1_cn_4fb07115eb.tgz
+  - - V10.0.5.0.OCHCNFH
+    - http://bigota.d.miui.com/V10.0.5.0.OCHCNFH/jason_images_V10.0.5.0.OCHCNFH_20181023.0000.00_8.1_cn_49c3765091.tgz
+  - - V10.0.4.0.OCHCNFH
+    - http://bigota.d.miui.com/V10.0.4.0.OCHCNFH/jason_images_V10.0.4.0.OCHCNFH_20180906.0000.00_8.1_cn_59b229d8b6.tgz
