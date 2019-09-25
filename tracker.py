@@ -2,7 +2,6 @@
 """MIUI Updates Tracker - By XiaomiFirmwareUpdater"""
 
 import re
-from collections import OrderedDict
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
@@ -260,8 +259,7 @@ def archive(update: dict):
         with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'r') as yaml_file:
             data = yaml.load(yaml_file, Loader=yaml.CLoader)
             data[codename].update({version: link})
-            new = OrderedDict(sorted(data[codename].items(), reverse=True))
-            data.update({codename: new})
+            data.update({codename: data[codename]})
             with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'w') as output:
                 yaml.dump(data, output, Dumper=yaml.CDumper)
     except FileNotFoundError:
