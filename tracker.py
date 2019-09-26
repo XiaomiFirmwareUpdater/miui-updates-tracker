@@ -301,7 +301,7 @@ def main():
     for name, data in fastboot_roms.items():
         # fetch based on version
         rename(f'{name}/{name}.yml', f'{name}/old_{name}')
-        fastboot.fetch(data['devices'], data['branch'], f'{name}/', names)
+        fastboot.fetch(data['devices'], data['branch'], name, names)
         print(f"Fetched {name}")
         if "stable_fastboot" in name and ao_run is False:
             ao.main()
@@ -311,19 +311,19 @@ def main():
         # Compare
         print(f"Comparing {name} files")
         diff(name)
-    if CHANGES:
-        for name, data in recovery_roms.items():
-            rename(f'{name}/{name}.yml', f'{name}/old_{name}')
-            recovery.get_roms(name, CHANGED, data['devices'])
-            print(f"Fetched {name}")
-            merge_yaml(name)
-            print(f"Comparing {name} files")
-            diff(name)
+    for name, data in recovery_roms.items():
+        rename(f'{name}/{name}.yml', f'{name}/old_{name}')
+        recovery.get_roms(data['devices'], data['branch'], name, names)
+        print(f"Fetched {name}")
+        merge_yaml(name)
+        print(f"Comparing {name} files")
+        diff(name)
     if CHANGES:
         generate_rss(CHANGED)
         updates = [x for y in CHANGES for x in y]
         for update in updates:
             message = generate_message(update)
+            # print(message)
             post_message(message)
             archive(update)
         discord_bot.send(updates)
