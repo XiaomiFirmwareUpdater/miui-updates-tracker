@@ -31,9 +31,12 @@ def get_fastboot(codename, info):
         'Connection': 'keep-alive',
         'Cache-Control': 'no-cache',
     }
-    data = list(get(
-        f"https://c.mi.com/oc/rom/getdevicelist?phone_id={info['id']}",
-        headers=headers).json()['data']['device_data']['device_list'].values())
+    try:
+        data = list(get(
+            f"https://c.mi.com/oc/rom/getdevicelist?phone_id={info['id']}",
+            headers=headers).json()['data']['device_data']['device_list'].values())
+    except AttributeError:
+        return
     update = {}
     link = ""
     try:
