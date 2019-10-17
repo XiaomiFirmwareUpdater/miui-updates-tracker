@@ -59,7 +59,14 @@ def gen_yaml(links, folder):
     if 'fastboot' in folder:
         codenames = sorted(list(set(link.split('/')[-1].split('_images')[0] for link in links)))
     else:
-        devices = sorted(list(set(link.split('/')[-1].split('_')[1] for link in links)))
+        devices = set()
+        for link in links:
+            try:
+                devices.add(link.split('/')[-1].split('_')[1])
+            except IndexError:
+                print(f"Bad link: {link}!")
+                exit(1)
+        devices = sorted(list(devices))
         codenames = []
         for model in devices:
             try:
@@ -96,7 +103,7 @@ def gen_yaml(links, folder):
             else:
                 version = rom.split('/')[-1].split('_')[2]
             info.update({version: rom})
-        info = OrderedDict(sorted(info.items(), reverse=True))
+        info = dict(sorted(info.items(), reverse=True))
         data.update({codename: info})
         with open(f'{folder}/{codename}.yml', 'w') as output:
             yaml.dump(data, output, Dumper=yaml.CDumper)
