@@ -41,13 +41,16 @@ def get_fastboot(codename, info):
         for device in data:
             if device['stable_rom']['rom_url']:
                 link = device['stable_rom']['rom_url'].strip()
-                add_rom(codename, link, info)
+                if codename in link:
+                    print(link)
+                    add_rom(codename, link, info)
     except KeyError:
         try:
             for device in data:
                 if device['developer_rom']['rom_url']:
                     link = device['developer_rom']['rom_url'].strip()
-                    add_rom(codename, link, info)
+                    if codename in link:
+                        add_rom(codename, link, info)
         except KeyError:
             pass
 
