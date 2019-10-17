@@ -37,18 +37,23 @@ def get_fastboot(codename, info):
             headers=headers).json()['data']['device_data']['device_list'].values())
     except AttributeError:
         return
-    update = {}
-    link = ""
     try:
-        if data[0]['stable_rom']['rom_url']:
-            link = data[0]['stable_rom']['rom_url'].strip()
+        for device in data:
+            if device['stable_rom']['rom_url']:
+                link = device['stable_rom']['rom_url'].strip()
+                add_rom(codename, link, info)
     except KeyError:
         try:
-            if data[0]['developer_rom']['rom_url']:
-                link = data[0]['developer_rom']['rom_url'].strip()
+            for device in data:
+                if device['developer_rom']['rom_url']:
+                    link = device['developer_rom']['rom_url'].strip()
+                    add_rom(codename, link, info)
         except KeyError:
             pass
 
+
+def add_rom(codename, link, info):
+    update = {}
     file_size = naturalsize(int(get(link, stream=True).headers['Content-Length']))
     file = link.split('/')[-1]
     version = link.split('/')[3]
