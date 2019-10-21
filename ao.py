@@ -42,7 +42,7 @@ def get_fastboot(codename, info):
             if device['stable_rom']['rom_url']:
                 link = device['stable_rom']['rom_url'].strip()
                 if codename in link:
-                    print(link)
+                    # print(link)
                     add_rom(codename, link, info)
     except KeyError:
         try:
