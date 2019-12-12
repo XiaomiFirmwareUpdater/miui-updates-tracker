@@ -145,19 +145,19 @@
 - android: '10.0'
   codename: cepheus_eea_global
   device: Mi 9 Global EEA
-  download: http://bigota.d.miui.com/V11.0.5.0.QFAEUXM/cepheus_eea_global_images_V11.0.5.0.QFAEUXM_20191101.0000.00_10.0_eea_4a25745076.tgz
-  filename: cepheus_eea_global_images_V11.0.5.0.QFAEUXM_20191101.0000.00_10.0_eea_4a25745076.tgz
-  md5: 4a2574507658d8b076ad25668fcda43a
-  size: 3.5G
-  version: V11.0.5.0.QFAEUXM
+  download: http://bigota.d.miui.com/V11.0.6.0.QFAEUXM/cepheus_eea_global_images_V11.0.6.0.QFAEUXM_20191115.0000.00_10.0_eea_7f0fa5bd26.tgz
+  filename: cepheus_eea_global_images_V11.0.6.0.QFAEUXM_20191115.0000.00_10.0_eea_7f0fa5bd26.tgz
+  md5: 7f0fa5bd26f291d6a4ebcc0010ded79b
+  size: 3.7G
+  version: V11.0.6.0.QFAEUXM
 - android: '10.0'
   codename: cepheus_global
   device: Mi 9 Global
-  download: http://bigota.d.miui.com/V11.0.2.0.QFAMIXM/cepheus_global_images_V11.0.2.0.QFAMIXM_20191102.0000.00_10.0_global_906dd532e6.tgz
-  filename: cepheus_global_images_V11.0.2.0.QFAMIXM_20191102.0000.00_10.0_global_906dd532e6.tgz
-  md5: 906dd532e6bf18adc1654c5a9a06ae24
-  size: 3.5G
-  version: V11.0.2.0.QFAMIXM
+  download: http://bigota.d.miui.com/V11.0.3.0.QFAMIXM/cepheus_global_images_V11.0.3.0.QFAMIXM_20191115.0000.00_10.0_global_33579835d8.tgz
+  filename: cepheus_global_images_V11.0.3.0.QFAMIXM_20191115.0000.00_10.0_global_33579835d8.tgz
+  md5: 33579835d876f992cc34e6ef206e2ac2
+  size: 3.6G
+  version: V11.0.3.0.QFAMIXM
 - android: '10.0'
   codename: cepheus_ru_global
   device: Mi 9 Russia
@@ -505,11 +505,11 @@
 - android: '7.1'
   codename: meri
   device: Mi 5C China
-  download: http://bigota.d.miui.com/V10.2.1.0.NCJCNXM/meri_images_V10.2.1.0.NCJCNXM_20190108.0000.00_7.1_cn_f33b272e11.tgz
-  filename: meri_images_V10.2.1.0.NCJCNXM_20190108.0000.00_7.1_cn_f33b272e11.tgz
-  md5: f33b272e112a965b7ffc8836f709661d
-  size: 1.7G
-  version: V10.2.1.0.NCJCNXM
+  download: http://bigota.d.miui.com/V11.0.3.0.NCJCNXM/meri_images_V11.0.3.0.NCJCNXM_20191125.0000.00_7.1_cn_0eb3e99e93.tgz
+  filename: meri_images_V11.0.3.0.NCJCNXM_20191125.0000.00_7.1_cn_0eb3e99e93.tgz
+  md5: 0eb3e99e93ed8c0bf364b83ea011d9db
+  size: 1.6G
+  version: V11.0.3.0.NCJCNXM
 - android: '7.0'
   codename: mido
   device: Redmi Note 4 China
@@ -585,11 +585,11 @@
 - android: '9.0'
   codename: olive_global
   device: Redmi 8 Global
-  download: http://bigota.d.miui.com/V10.3.4.0.PCNMIXM/olive_global_images_V10.3.4.0.PCNMIXM_20191019.0000.00_9.0_global_f40cd15bf2.tgz
-  filename: olive_global_images_V10.3.4.0.PCNMIXM_20191019.0000.00_9.0_global_f40cd15bf2.tgz
-  md5: f40cd15bf2010fb9ce184d571e7913a6
-  size: 3.0G
-  version: V10.3.4.0.PCNMIXM
+  download: http://bigota.d.miui.com/V11.0.1.0.PCNMIXM/olive_global_images_V11.0.1.0.PCNMIXM_20191127.0000.00_9.0_global_405bc45fb1.tgz
+  filename: olive_global_images_V11.0.1.0.PCNMIXM_20191127.0000.00_9.0_global_405bc45fb1.tgz
+  md5: 405bc45fb1ca1d42cce9057ed43ea4a7
+  size: 3.1G
+  version: V11.0.1.0.PCNMIXM
 - android: '9.0'
   codename: olive_in_global
   device: Redmi 8 India
@@ -726,14 +726,22 @@
   md5: 9d3961778b745aa7f3fe9704158adca0
   size: 2.8G
   version: V11.0.4.0.PEEMIXM
+- android: '10.0'
+  codename: phoenix
+  device: Redmi K30 4G China
+  download: http://bigota.d.miui.com/V11.0.4.0.QGHCNXM/phoenix_images_V11.0.4.0.QGHCNXM_20191130.0000.00_10.0_cn_162e3c377b.tgz
+  filename: phoenix_images_V11.0.4.0.QGHCNXM_20191130.0000.00_10.0_cn_162e3c377b.tgz
+  md5: 162e3c377b07865af1c62aa1ddcbe126
+  size: 3.1G
+  version: V11.0.4.0.QGHCNXM
 - android: '9.0'
   codename: pine
   device: Redmi 7A China
-  download: http://bigota.d.miui.com/V11.0.1.0.PCMCNXM/pine_images_V11.0.1.0.PCMCNXM_20191024.0000.00_9.0_cn_8d2a7ba323.tgz
-  filename: pine_images_V11.0.1.0.PCMCNXM_20191024.0000.00_9.0_cn_8d2a7ba323.tgz
-  md5: 8d2a7ba3236a8d5b92cf7c7fdbe88d9b
+  download: http://bigota.d.miui.com/V11.0.2.0.PCMCNXM/pine_images_V11.0.2.0.PCMCNXM_20191125.0000.00_9.0_cn_0537a3e50b.tgz
+  filename: pine_images_V11.0.2.0.PCMCNXM_20191125.0000.00_9.0_cn_0537a3e50b.tgz
+  md5: 0537a3e50b2e72c45d7b7bfce7311ef4
   size: 2.2G
-  version: V11.0.1.0.PCMCNXM
+  version: V11.0.2.0.PCMCNXM
 - android: '9.0'
   codename: pine_eea_global
   device: Redmi 7A EEA
@@ -817,11 +825,11 @@
 - android: '9.0'
   codename: pyxis
   device: Mi CC 9 China
-  download: http://bigota.d.miui.com/V11.3.1.0.PFCCNXM/pyxis_images_V11.3.1.0.PFCCNXM_20191015.0000.00_9.0_cn_ba72eb8c1f.tgz
-  filename: pyxis_images_V11.3.1.0.PFCCNXM_20191015.0000.00_9.0_cn_ba72eb8c1f.tgz
-  md5: ba72eb8c1ff6a6e2db713c0db3bcf71f
-  size: 3.1G
-  version: V11.3.1.0.PFCCNXM
+  download: http://bigota.d.miui.com/V11.3.3.0.PFCCNXM/pyxis_images_V11.3.3.0.PFCCNXM_20191122.0000.00_9.0_cn_c083d9ff76.tgz
+  filename: pyxis_images_V11.3.3.0.PFCCNXM_20191122.0000.00_9.0_cn_c083d9ff76.tgz
+  md5: c083d9ff769e3073955710af3ece1368
+  size: 3.2G
+  version: V11.3.3.0.PFCCNXM
 - android: '9.0'
   codename: pyxis_eea_global
   device: Mi 9 Lite EEA
@@ -1065,11 +1073,11 @@
 - android: '9.0'
   codename: tucana_eea_global
   device: Mi Note 10 EEA
-  download: http://bigota.d.miui.com/V11.0.9.0.PFDEUXM/tucana_eea_global_images_V11.0.9.0.PFDEUXM_20191118.0000.00_9.0_eea_b11e577702.tgz
-  filename: tucana_eea_global_images_V11.0.9.0.PFDEUXM_20191118.0000.00_9.0_eea_b11e577702.tgz
-  md5: b11e57770256a76db3fe822934269847
-  size: 3.9G
-  version: V11.0.9.0.PFDEUXM
+  download: http://bigota.d.miui.com/V11.0.10.0.PFDEUXM/tucana_eea_global_images_V11.0.10.0.PFDEUXM_20191125.0000.00_9.0_eea_2f14cc5807.tgz
+  filename: tucana_eea_global_images_V11.0.10.0.PFDEUXM_20191125.0000.00_9.0_eea_2f14cc5807.tgz
+  md5: 2f14cc58073e6b7b6eb955080f45559c
+  size: 4.0G
+  version: V11.0.10.0.PFDEUXM
 - android: '9.0'
   codename: tucana_global
   device: Mi Note 10 Global
@@ -1222,6 +1230,30 @@
   md5: f4bbfbdf80d7d52092d2d85c4493406f
   size: 2.3G
   version: V11.0.1.0.PEIRUXM
+- android: '9.0'
+  codename: willow_eea_global
+  device: Redmi Note 8T EEA
+  download: http://bigota.d.miui.com/V10.3.5.0.PCXEUXM/willow_eea_global_images_V10.3.5.0.PCXEUXM_20191112.0000.00_9.0_eea_6020f1c679.tgz
+  filename: willow_eea_global_images_V10.3.5.0.PCXEUXM_20191112.0000.00_9.0_eea_6020f1c679.tgz
+  md5: 6020f1c679d63e4d1de745895a198a78
+  size: 2.8G
+  version: V10.3.5.0.PCXEUXM
+- android: '9.0'
+  codename: willow_global
+  device: Redmi Note 8T Global
+  download: http://bigota.d.miui.com/V10.3.1.0.PCXMIXM/willow_global_images_V10.3.1.0.PCXMIXM_20191106.0000.00_9.0_global_b4229c28fb.tgz
+  filename: willow_global_images_V10.3.1.0.PCXMIXM_20191106.0000.00_9.0_global_b4229c28fb.tgz
+  md5: b4229c28fb6c4a25fb445f58e889d1ff
+  size: 2.8G
+  version: V10.3.1.0.PCXMIXM
+- android: '9.0'
+  codename: willow_ru_global
+  device: Redmi Note 8T Russia
+  download: http://bigota.d.miui.com/V10.3.2.0.PCXRUXM/willow_ru_global_images_V10.3.2.0.PCXRUXM_20191118.0000.00_9.0_global_f5ba06c31d.tgz
+  filename: willow_ru_global_images_V10.3.2.0.PCXRUXM_20191118.0000.00_9.0_global_f5ba06c31d.tgz
+  md5: f5ba06c31d4306c68e9d8dad18dd07ff
+  size: 2.8G
+  version: V10.3.2.0.PCXRUXM
 - android: '9.0'
   codename: ysl
   device: Redmi S2 China
