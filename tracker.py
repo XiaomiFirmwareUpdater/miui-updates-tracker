@@ -294,10 +294,8 @@ def main():
     MIUI Updates Tracker
     """
     names, sr_devices, sf_devices, wr_devices, wf_devices = load_devices()
-    fastboot_roms = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices},
-                     'weekly_fastboot': {'branch': 'X', 'devices': wf_devices}}
-    recovery_roms = {'stable_recovery': {'branch': '1', 'devices': sr_devices},
-                     'weekly_recovery': {'branch': '0', 'devices': wr_devices}}
+    fastboot_roms = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices}}
+    recovery_roms = {'stable_recovery': {'branch': '1', 'devices': sr_devices}}
     ao_run = False
     discord_bot = DiscordBot(DISCORD_BOT_TOKEN)
     for name, data in fastboot_roms.items():
