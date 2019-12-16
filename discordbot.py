@@ -27,6 +27,8 @@ class DiscordBot(discord.Client):
             branch = 'Developer'
         if 'eea_global' in filename or 'eea_global' in codename or 'EU' in version:
             region = 'EEA'
+        elif 'id_global' in filename or 'id_global' in codename or 'ID' in version:
+            region = 'Indonesia'
         elif 'in_global' in filename or 'in_global' in codename or 'IN' in version:
             region = 'India'
         elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in version:
