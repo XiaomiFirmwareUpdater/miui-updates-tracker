@@ -94,7 +94,7 @@ def gen_yaml(links, folder):
             if codename == 'whyred_global':
                 roms = [link for link in links
                         if link.split('/')[-1].split('_')[1].startswith(DEVICES[codename][1])
-                        or link.split('/')[-1].split('_')[1] == 'HMNote5Global']
+                        or link.split('/')[-1].split('_')[1] == 'HMNote5HMNote5ProGlobal']
             else:
                 roms = [link for link in links
                         if link.split('/')[-1].split('_')[1] == DEVICES[codename][1]]
