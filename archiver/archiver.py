@@ -3,6 +3,7 @@
 
 from collections import OrderedDict
 from glob import glob
+import json
 import yaml
 from bs4 import BeautifulSoup
 from requests import get
@@ -10,8 +11,8 @@ from requests import get
 with open("../devices/names.yml", 'r') as f:
     DEVICES = yaml.load(f, Loader=yaml.CLoader)
 
-CODES = yaml.load(get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
-                      'xiaomi_devices/miui_codes/miui.yml').text, Loader=yaml.CLoader)
+CODES = json.loads(get('https://raw.githubusercontent.com/XiaomiFirmwareUpdater/'
+                      'xiaomi_devices/miui_codes/miui.json').text)
 
 
 def fetch_links():
@@ -56,6 +57,7 @@ def gen_yaml(links, folder):
     :param links: a list of links
     :param folder: stable/weekly
     """
+    print(folder)
     if 'fastboot' in folder:
         codenames = sorted(list(set(link.split('/')[-1].split('_images')[0] for link in links)))
     else:
@@ -84,9 +86,9 @@ def gen_yaml(links, folder):
         elif 'stable_recovery' in folder:
             try:
                 roms = [link for link in links if CODES[codename] in link.split('/')[3]]
-            # except KeyError as e:
-            # print(f'KeyError {e}')
-            except KeyError:
+            except KeyError as e:
+                print(f'KeyError {e}')
+            #except KeyError:
                 continue
         elif 'weekly_recovery' in folder:
             if codename == 'whyred_global':
