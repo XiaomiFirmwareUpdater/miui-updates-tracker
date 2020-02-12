@@ -115,6 +115,22 @@ def diff(name: str):
             CHANGED.append([f'{name}/{i}.yml' for i in changes])
 
 
+def is_roll_back(update: dict):
+    """
+    check if the new update is actually a rollback one
+    """
+    codename = update['codename']
+    version = update['version']
+    branch = 'stable' if version.startswith('V') else 'weekly'
+    rom_type = 'recovery' if update['filename'].endswith('.zip') else 'fastboot'
+    try:
+        with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'r') as yaml_file:
+            data = yaml.load(yaml_file, Loader=yaml.CLoader)
+        return bool(data["version"] == version)
+    except FileNotFoundError:
+        return False
+
+
 def merge_yaml(name: str):
     """
     merge all devices yaml files into one file
@@ -322,6 +338,8 @@ def main():
         generate_rss(CHANGED)
         updates = [x for y in CHANGES for x in y]
         for update in updates:
+            if is_roll_back(update):
+                continue
             message = generate_message(update)
             # print(message)
             post_message(message)

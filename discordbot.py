@@ -1,5 +1,6 @@
 """MIUI Updates Tracker - Discord bot script"""
 import discord
+from tracker import is_roll_back
 
 
 class DiscordBot(discord.Client):
@@ -72,6 +73,8 @@ class DiscordBot(discord.Client):
                          for x in self.get_all_channels()
                          if x.category is not None and ("mi" in x.category.name.lower() or "other" in x.category.name.lower())}
         for update in self.updates:
+            if is_roll_back(update):
+                continue
             await self.send_message(update)
         await self.logout()
 
