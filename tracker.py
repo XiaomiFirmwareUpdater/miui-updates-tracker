@@ -5,12 +5,15 @@ import re
 from datetime import datetime
 from glob import glob
 from os import remove, rename, path, environ, system
-from requests import post
+
 import yaml
+from requests import post
+
+import ao
 import fastboot
 import recovery_a as recovery
-import ao
 from discordbot import DiscordBot
+from utils import is_roll_back, get_branch, get_region, get_type
 
 # vars
 GIT_OAUTH_TOKEN = environ['XFU']
@@ -115,22 +118,6 @@ def diff(name: str):
             CHANGED.append([f'{name}/{i}.yml' for i in changes])
 
 
-def is_roll_back(update: dict):
-    """
-    check if the new update is actually a rollback one
-    """
-    codename = update['codename']
-    version = update['version']
-    branch = 'stable' if version.startswith('V') else 'weekly'
-    rom_type = 'recovery' if update['filename'].endswith('.zip') else 'fastboot'
-    try:
-        with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'r') as yaml_file:
-            data = yaml.load(yaml_file, Loader=yaml.CLoader)
-        return bool(data["version"] == version)
-    except FileNotFoundError:
-        return False
-
-
 def merge_yaml(name: str):
     """
     merge all devices yaml files into one file
@@ -159,23 +146,9 @@ def generate_message(update: dict):
     filename = update['filename']
     filesize = update['size']
     version = update['version']
-    branch = 'Stable' if 'V' in version else 'Weekly'
-    if 'eea_global' in filename or 'eea_global' in codename or 'EU' in version:
-        region = 'EEA'
-    elif 'id_global' in filename or 'id_global' in codename or 'ID' in version:
-        region = 'Indonesia'
-    elif 'in_global' in filename or 'in_global' in codename or 'IN' in version:
-        region = 'India'
-    elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in version:
-        region = 'Russia'
-    elif 'global' in filename or 'global' in codename or 'MI' in version:
-        region = 'Global'
-    else:
-        region = 'China'
-    if '.tgz' in filename:
-        rom_type = 'Fastboot'
-    else:
-        rom_type = 'Recovery'
+    branch = get_branch(version).capitalize()
+    region = get_region(filename, codename, version)
+    rom_type = get_type(filename)
     codename = codename.split('_')[0]
     message = f"New {branch} {rom_type} update available!\n"
     message += f"*Device:* {device} \n" \
@@ -271,7 +244,7 @@ def archive(update: dict):
     codename = update['codename']
     link = update['download']
     version = update['version']
-    branch = 'stable' if version.startswith('V') else 'weekly'
+    branch = get_branch(version)
     rom_type = 'recovery' if update['filename'].endswith('.zip') else 'fastboot'
     try:
         with open(f'archive/{branch}_{rom_type}/{codename}.yml', 'r') as yaml_file:

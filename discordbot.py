@@ -1,6 +1,6 @@
 """MIUI Updates Tracker - Discord bot script"""
 import discord
-from tracker import is_roll_back
+from utils import is_roll_back, get_branch, get_region, get_type
 
 
 class DiscordBot(discord.Client):
@@ -22,26 +22,9 @@ class DiscordBot(discord.Client):
         filesize = update['size']
         version = update['version']
         download = update['download']
-        if 'V' in version:
-            branch = 'Stable'
-        else:
-            branch = 'Developer'
-        if 'eea_global' in filename or 'eea_global' in codename or 'EU' in version:
-            region = 'EEA'
-        elif 'id_global' in filename or 'id_global' in codename or 'ID' in version:
-            region = 'Indonesia'
-        elif 'in_global' in filename or 'in_global' in codename or 'IN' in version:
-            region = 'India'
-        elif 'ru_global' in filename or 'ru_global' in codename or 'RU' in version:
-            region = 'Russia'
-        elif 'global' in filename or 'global' in codename or 'MI' in version:
-            region = 'Global'
-        else:
-            region = 'China'
-        if '.tgz' in filename:
-            rom_type = 'Fastboot'
-        else:
-            rom_type = 'Recovery'
+        branch = get_branch(version)
+        region = get_region(filename, codename, version)
+        rom_type = get_type(filename)
         codename = codename.split('_')[0]
         device = device.replace(f' {region}', '')
         desc = f"**Device**: {device} \n" \
