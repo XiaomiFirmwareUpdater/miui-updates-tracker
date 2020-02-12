@@ -44,4 +44,4 @@ def get_region(filename, codename, version):
 
 def get_type(filename):
     """ Get the type of an update """
-    return 'Recovery' if '.tgz' in filename else 'Fastboot'
+    return 'Fastboot' if filename.endswith('.tgz') else 'Recovery'
