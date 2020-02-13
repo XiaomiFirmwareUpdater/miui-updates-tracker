@@ -42,11 +42,7 @@ def load_devices():
         sr_devices = yaml.load(stable_recovery, Loader=yaml.CLoader)
     with open('devices/sf.yml', 'r') as stable_fastboot:
         sf_devices = yaml.load(stable_fastboot, Loader=yaml.CLoader)
-    with open('devices/wr.yml', 'r') as weekly_recovery:
-        wr_devices = yaml.load(weekly_recovery, Loader=yaml.CLoader)
-    with open('devices/wf.yml', 'r') as weekly_fastboot:
-        wf_devices = yaml.load(weekly_fastboot, Loader=yaml.CLoader)
-    return names, sr_devices, sf_devices, wr_devices, wf_devices
+    return names, sr_devices, sf_devices
 
 
 def tg_post(message: str, chat: str) -> int:
@@ -116,6 +112,8 @@ def diff(name: str):
                 CHANGES.append([i for i in latest for codename in changes
                                 if codename == i["codename"]])
             CHANGED.append([f'{name}/{i}.yml' for i in changes])
+        with open('changes', 'w') as changes_file:
+            changes_file..writelines(f"{update for update in CHANGED}\n")
 
 
 def merge_yaml(name: str):
@@ -282,7 +280,7 @@ def main():
     """
     MIUI Updates Tracker
     """
-    names, sr_devices, sf_devices, wr_devices, wf_devices = load_devices()
+    names, sr_devices, sf_devices = load_devices()
     fastboot_roms = {'stable_fastboot': {'branch': 'F', 'devices': sf_devices}}
     recovery_roms = {'stable_recovery': {'branch': '1', 'devices': sr_devices}}
     ao_run = False
@@ -310,6 +308,7 @@ def main():
     if CHANGES:
         generate_rss(CHANGED)
         updates = [x for y in CHANGES for x in y]
+        discord_bot.send(updates)
         for update in updates:
             if is_roll_back(update):
                 continue
@@ -317,7 +316,6 @@ def main():
             # print(message)
             post_message(message)
             archive(update)
-        discord_bot.send(updates)
     else:
         print('No new updates found!')
     versions = [i for i in fastboot_roms.keys()] + [i for i in recovery_roms.keys()]
