@@ -112,8 +112,6 @@ def diff(name: str):
                 CHANGES.append([i for i in latest for codename in changes
                                 if codename == i["codename"]])
             CHANGED.append([f'{name}/{i}.yml' for i in changes])
-        with open('changes', 'w') as changes_file:
-            changes_file..writelines(f"{update for update in CHANGED}\n")
 
 
 def merge_yaml(name: str):
