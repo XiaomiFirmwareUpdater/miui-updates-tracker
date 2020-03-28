@@ -69,7 +69,7 @@ def add_rom(codename, link, info):
     update.update({"size": file_size})
     update.update({"md5": "null"})
     update.update({"version": version})
-    DATA.append(info)
+    DATA.append(update)
     with open(f'stable_fastboot/{codename}.yml', 'w', newline='\n') as output:
         yaml.dump(update, output, Dumper=yaml.CDumper)
 
