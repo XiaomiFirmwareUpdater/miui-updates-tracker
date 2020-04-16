@@ -37,24 +37,20 @@ class DiscordBot(discord.Client):
                               color=discord.Colour.orange(), description=desc)
         embed.set_footer(text=f"https://xiaomifirmwareupdater.com/miui/{codename}")
         device = device.lower()
-        for name in self.channels:
+        for name, channel in self.channels.items():
             if device.startswith(name):
-                await self.channels[name].send(embed=embed)
+                await channel.send(embed=embed)
                 print(f"Posted update for {codename} in Discord")
                 return
-        if device.startswith("redmi"):
-            await self.channels['redmi other'].send(embed=embed)
-            print(f"Posted update for {codename} in Discord")
-        elif device.startswith("mi"):
-            await self.channels['mi other'].send(embed=embed)
-            print(f"Posted update for {codename} in Discord")
+        await self.channels['other'].send(embed=embed)
+        print(f"Posted update for {codename} in Discord")
 
     async def on_ready(self):
         """Prepare"""
         print('Discord bot up!')
         self.channels = {x.name.replace('_series', '').replace('_', ' '): x
                          for x in self.get_all_channels()
-                         if x.category is not None and ("mi" in x.category.name.lower() or "other" in x.category.name.lower())}
+                         if x.category_id == 699991467560534136}
         for update in self.updates:
             if is_roll_back(update):
                 continue
