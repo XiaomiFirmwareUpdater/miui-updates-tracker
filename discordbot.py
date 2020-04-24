@@ -49,7 +49,7 @@ class DiscordBot(discord.Client):
         """Prepare"""
         print('Discord bot up!')
         self.channels = {x.name.replace('_series', '').replace('_', ' '): x
-                         for x in self.get_all_channels()
+                         for x in sorted(self.get_all_channels(), key=lambda c: c.name)
                          if x.category_id == 699991467560534136}
         for update in self.updates:
             if is_roll_back(update):
