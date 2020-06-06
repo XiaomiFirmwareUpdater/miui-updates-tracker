@@ -42,7 +42,7 @@ class DiscordBot(discord.Client):
                 await channel.send(embed=embed)
                 print(f"Posted update for {codename} in Discord")
                 return
-        await self.channels['other'].send(embed=embed)
+        await self.channels['other_phones'].send(embed=embed)
         print(f"Posted update for {codename} in Discord")
 
     async def on_ready(self):
