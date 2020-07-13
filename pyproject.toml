@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "miui_updates_tracker"
+version = "0.1.0"
+description = ""
+authors = ["yshalsager <ysh-alsager@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^5.3.1"
+sqlalchemy = "^1.3.18"
+mysqlclient = "^2.0.1"
+beautifulsoup4 = "^4.9.1"
+requests = "^2.24.0"
+humanize = "^2.5.0"
+aiohttp = {extras = ["speedups"], version = "^3.6.2"}
+python-telegram-bot = "^12.8"
+"discord.py" = "^1.3.4"
+feedgen = "^0.9.0"
+tweepy = "^3.9.0"
+facebook-sdk = "^3.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

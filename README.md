@@ -1,6 +1,6 @@
-# MIUI Updates Tracker V2.2
+# MIUI Updates Tracker V3
 
-[![Subscibe](https://img.shields.io/badge/Telegram-Subscribe-blue.svg)](https://t.me/MIUIUpdatesTracker)
+[![Subscribe](https://img.shields.io/badge/Telegram-Subscribe-blue.svg)](https://t.me/MIUIUpdatesTracker)
 [![Discord](https://img.shields.io/discord/221706949786468353.svg?style=flat-square)](https://discord.gg/xiaomi)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -9,18 +9,12 @@
 [![Patreon](https://img.shields.io/badge/Patreon-Donate-red.svg)](https://www.patreon.com/XiaomiFirmwareUpdater)
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.me/yshalsager)
 
-A Script that automatically track Xiaomi MIUI ROM releases and send messages to telegram and discord channels to notify users!
-
-- It supports all devices.
-- Both Global and China ROMs are supported.
-- Script runs automatically every 6h!
+A Script that automatically track Xiaomi MIUI ROM releases and send messages to telegram, discord, twitter and other platforms to notify users!
 
 ## Public YAML and RSS
-Starting from V2.2 the script will push YAML and XML files for each device, in addition to the all-in-one file that was already available.
+Starting from V3 the script provides an all-in-one YAML file, along with RSS XML feeds for each device.
 
 _These files can be used for whatever project, just give the proper credits to @XiaomiFirmwareUpdater project_
-
-Files are separated by branch: Stable Recovery - Stable Fastboot - Weekly Recovery - Weekly Fastboot
 
 RSS files are available [here](https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker/tree/master/rss), Just open any xml file in raw view, copy the link, add to your RSS feed and enjoy :D
 

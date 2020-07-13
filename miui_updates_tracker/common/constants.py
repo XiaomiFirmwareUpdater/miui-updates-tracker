@@ -1,0 +1,4 @@
+android_one_devices = ['laurel_sprout_global', 'laurel_sprout_eea_global',
+                       'jasmine_global', 'daisy_global', 'tissot_global', 'tissot',
+                       'tiare_global', 'tiare_in_global', 'tiare_eea_global', 'tiare_ru_global']
+website = "https://xiaomifirmwareupdater.com"
