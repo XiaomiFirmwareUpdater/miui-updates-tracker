@@ -1,7 +1,7 @@
 import asyncio
 from typing import List
 
-from discord import Client, Embed, Colour
+from discord import Client, Embed, Colour, HTTPException
 from humanize import naturalsize
 
 from miui_updates_tracker.common.constants import website
@@ -63,7 +63,7 @@ class DiscordBot(Client):
         for update in self.updates:
             try:
                 await self.send_message(update)
-            except KeyError:
+            except (KeyError, HTTPException):
                 continue
         await self.logout()
 
