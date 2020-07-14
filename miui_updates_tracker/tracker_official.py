@@ -6,7 +6,7 @@ import asyncio
 import logging
 from dataclasses import asdict
 
-from miui_updates_tracker import WORK_DIR
+from miui_updates_tracker import CONF_DIR
 from miui_updates_tracker.common.database.database import get_mi_website_ids, get_fastboot_codenames
 from miui_updates_tracker.common.database.helpers import export_latest
 from miui_updates_tracker.official.api_client.api_client import APIClient
@@ -41,18 +41,18 @@ async def main():
     await api.global_website.get_devices()
     logger.debug(f"global devices: {api.global_website.devices}")
     DataManager.write_file(
-        f"{WORK_DIR}/data/official/global/devices.yml", [asdict(i) for i in api.global_website.devices])
+        f"{CONF_DIR}/data/official/global/devices.yml", [asdict(i) for i in api.global_website.devices])
     await api.china_website.get_devices()
     logger.debug(f"china devices: {api.china_website.devices}")
     DataManager.write_file(
-        f"{WORK_DIR}/data/official/china/devices.yml", [asdict(i) for i in api.china_website.devices])
+        f"{CONF_DIR}/data/official/china/devices.yml", [asdict(i) for i in api.china_website.devices])
     await api.global_website.get_fastboot_devices()
     logger.debug(f"global fastboot devices: {api.global_website.fastboot_devices}")
     DataManager.write_file(
-        f"{WORK_DIR}/data/official/global/fastboot_devices.yml", api.global_website.fastboot_devices)
+        f"{CONF_DIR}/data/official/global/fastboot_devices.yml", api.global_website.fastboot_devices)
     await api.china_website.get_fastboot_devices()
     DataManager.write_file(
-        f"{WORK_DIR}/data/official/china/fastboot_devices.yml", api.china_website.fastboot_devices)
+        f"{CONF_DIR}/data/official/china/fastboot_devices.yml", api.china_website.fastboot_devices)
     # check for updates
     semaphore = asyncio.Semaphore(3)
     tasks = [asyncio.ensure_future(check_update(device, api)) for device in devices] + [
@@ -67,7 +67,8 @@ async def main():
     if new_updates:
         logger.info(f"New updates: {new_updates}")
         await post_updates(new_updates)
-    export_latest()
+    latest = export_latest()
+    DataManager.write_file(f"{CONF_DIR}/data/latest.yml", latest)
     await git_commit_push()
 
 

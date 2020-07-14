@@ -6,13 +6,13 @@ from asyncio import create_subprocess_shell
 from asyncio.subprocess import PIPE, Process
 from datetime import datetime
 
-from miui_updates_tracker import CONFIG, WORK_DIR, CONF_DIR
+from miui_updates_tracker import CONFIG, CONF_DIR
 
 
 async def git_commit_push():
     """ Git helper function that adds, commits, and pushes changes"""
-    command: str = f'git add {WORK_DIR}/data/official/*/*.yml ' \
-                   f'{WORK_DIR}/data/*.yml -f {CONF_DIR}/rss/* && ' \
+    command: str = f'git add {CONF_DIR}/data/official/*/*.yml ' \
+                   f'{CONF_DIR}/data/*.yml -f {CONF_DIR}/rss/* && ' \
                    f'git -c "user.name=XiaomiFirmwareUpdater" -c "user.email=xiaomifirmwareupdater@gmail.com" ' \
                    f'commit -m "sync: {datetime.today().strftime("%d-%m-%Y %H:%M:%S")}" && ' \
                    f'git push -q https://{CONFIG.get("git_oauth_token")}@' \
