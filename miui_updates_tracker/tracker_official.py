@@ -54,14 +54,16 @@ async def main():
     DataManager.write_file(
         f"{WORK_DIR}/data/official/china/fastboot_devices.yml", api.china_website.fastboot_devices)
     # check for updates
+    semaphore = asyncio.Semaphore(3)
     tasks = [asyncio.ensure_future(check_update(device, api)) for device in devices] + [
         asyncio.ensure_future(check_fastboot_update(codename, api)) for codename in fastboot_devices]
-    results = await asyncio.gather(*tasks)
-    for result in results:
-        if result:
-            for update in result:
-                new_updates.append(update)
-    await api.close()
+    async with semaphore:
+        results = await asyncio.gather(*tasks)
+        for result in results:
+            if result:
+                for update in result:
+                    new_updates.append(update)
+        await api.close()
     if new_updates:
         logger.info(f"New updates: {new_updates}")
         await post_updates(new_updates)
