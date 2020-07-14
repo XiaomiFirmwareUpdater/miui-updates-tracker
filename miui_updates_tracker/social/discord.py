@@ -37,7 +37,8 @@ class DiscordBot(Client):
         if update.md5:
             message += f"**MD5**: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
-            message += f"**Changelog**:\n`{update.changelog}`"
+            changelog = f"**Changelog**:\n`{update.changelog}`"
+            message += changelog[:2000 - len(message)]
         embed = Embed(title=f"New {update.branch} {update.method} update available!",
                       color=Colour.orange(), description=message)
         embed.add_field(name="Full ROM", value=f'[Download]({update.link})', inline=True)
