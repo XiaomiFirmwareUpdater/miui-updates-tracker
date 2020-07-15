@@ -8,11 +8,9 @@ from dataclasses import asdict
 
 from miui_updates_tracker import CONF_DIR
 from miui_updates_tracker.common.database.database import get_mi_website_ids, get_fastboot_codenames
-from miui_updates_tracker.common.database.helpers import export_latest, export_devices
 from miui_updates_tracker.official.api_client.api_client import APIClient
 from miui_updates_tracker.social.poster import post_updates
 from miui_updates_tracker.utils.data_manager import DataManager
-from miui_updates_tracker.utils.git import git_commit_push
 
 logger = logging.getLogger(__name__)
 
@@ -67,11 +65,6 @@ async def main():
     if new_updates:
         logger.info(f"New updates: {new_updates}")
         await post_updates(new_updates)
-    latest = export_latest()
-    DataManager.write_file(f"{CONF_DIR}/data/latest.yml", latest)
-    devices = export_devices()
-    DataManager.write_file(f"{CONF_DIR}/data/devices.yml", devices)
-    await git_commit_push()
 
 
 def run():
