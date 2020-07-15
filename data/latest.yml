@@ -662,21 +662,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
@@ -2201,22 +2201,22 @@
 - android: '10.0'
   branch: Stable
   codename: crux
+  date: 2020-06-15
+  link: https://bigota.d.miui.com/V12.0.1.0.QFXCNXM/miui_CRUX_V12.0.1.0.QFXCNXM_5b10297d1e_10.0.zip
+  md5: 5b10297d1ed2fbe698dce467ab7bf6a2
+  method: Recovery
+  name: Mi 9 Pro 5G China
+  size: 2.9 GB
+  version: V12.0.1.0.QFXCNXM
+- android: '10.0'
+  branch: Stable
+  codename: crux
   date: 2020-06-17
   link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/crux_images_V12.0.2.0.QFXCNXM_20200617.0000.00_10.0_cn_c96cca0203.tgz
   md5: c96cca02032f147811f98d41f3596185
   method: Fastboot
   name: Mi 9 Pro 5G China
   size: 4.0 GB
-  version: V12.0.2.0.QFXCNXM
-- android: '10.0'
-  branch: Stable
-  codename: crux
-  date: 2020-06-22
-  link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/miui_CRUX_V12.0.2.0.QFXCNXM_1d03981a42_10.0.zip
-  md5: 1d03981a425812c3493e4d0d86091f2a
-  method: Recovery
-  name: Mi 9 Pro 5G China
-  size: 3.1 GB
   version: V12.0.2.0.QFXCNXM
 - android: '10.0'
   branch: Stable
@@ -3121,13 +3121,13 @@
 - android: '10.0'
   branch: Stable
   codename: merlin_eea_global
-  date: 2020-05-28
-  link: https://bigota.d.miui.com/V11.0.4.0.QJOEUXM/merlin_eea_global_images_V11.0.4.0.QJOEUXM_20200528.0000.00_10.0_eea_2f463f395a.tgz
-  md5: 2f463f395a72c39beb0c4101990f60dd
+  date: 2020-06-18
+  link: https://bigota.d.miui.com/V11.0.5.0.QJOEUXM/merlin_eea_global_images_V11.0.5.0.QJOEUXM_20200618.0000.00_10.0_eea_94fa19e044.tgz
+  md5: 94fa19e0440c8d6a51bfc3d8f62ae636
   method: Fastboot
   name: Redmi Note 9 EEA
   size: 3.6 GB
-  version: V11.0.4.0.QJOEUXM
+  version: V11.0.5.0.QJOEUXM
 - android: '10.0'
   branch: Stable
   codename: merlin_eea_global
@@ -3928,16 +3928,16 @@
   name: Redmi 7A Russia
   size: 3.1 GB
   version: V11.0.6.0.PCMRUXM
-- android: '9.0'
+- android: '10.0'
   branch: Stable
   codename: pine_ru_global
-  date: 2020-05-09
-  link: https://bigota.d.miui.com/V11.0.6.0.PCMRUXM/miui_PINERUGlobal_V11.0.6.0.PCMRUXM_0fdf5242bc_9.0.zip
-  md5: 0fdf5242bc6a2baf6bb88221494250fe
+  date: 2020-07-15
+  link: https://bigota.d.miui.com/V11.0.1.0.QCMRUXM/miui_PINERUGlobal_V11.0.1.0.QCMRUXM_7f31992ad2_10.0.zip
+  md5: 7f31992ad2294f37dd190f5195d1d496
   method: Recovery
   name: Redmi 7A Russia
   size: 1.7 GB
-  version: V11.0.6.0.PCMRUXM
+  version: V11.0.1.0.QCMRUXM
 - android: '10.0'
   branch: Stable
   codename: platina
@@ -5111,23 +5111,23 @@
 - android: '9.0'
   branch: Stable
   codename: tissot
-  date: 2020-06-15
-  link: https://bigota.d.miui.com/V10.0.22.0.PDHMIXM/tissot_images_V10.0.22.0.PDHMIXM_20200615.0000.00_9.0_fd9fc5b33f.tgz
-  md5: fd9fc5b33f736185bc49f6ae01435b37
+  date: 2020-07-07
+  link: https://bigota.d.miui.com/V10.0.23.0.PDHMIXM/tissot_images_V10.0.23.0.PDHMIXM_20200707.0000.00_9.0_b49c1d0e32.tgz
+  md5: b49c1d0e3284f2df02ee8b0d792d7eda
   method: Fastboot
   name: Mi A1 Global
   size: 1.7 GB
-  version: V10.0.22.0.PDHMIXM
+  version: V10.0.23.0.PDHMIXM
 - android: '9.0'
   branch: Stable
   codename: tissot
-  date: 2020-06-26
-  link: https://bigota.d.miui.com/V10.0.22.0.PDHMIXM/miui_TISSOT_V10.0.22.0.PDHMIXM_9ca4b2d734_9.0.zip
-  md5: 9ca4b2d73466790a57db16f0ad227e69
+  date: 2020-07-15
+  link: https://bigota.d.miui.com/V10.0.23.0.PDHMIXM/miui_TISSOT_V10.0.23.0.PDHMIXM_d27b3c34cf_9.0.zip
+  md5: d27b3c34cf9f6fea02464a9787ba37e0
   method: Recovery
   name: Mi A1 Global
   size: 1.2 GB
-  version: V10.0.22.0.PDHMIXM
+  version: V10.0.23.0.PDHMIXM
 - android: '10.0'
   branch: Stable
   codename: jasmine_global
