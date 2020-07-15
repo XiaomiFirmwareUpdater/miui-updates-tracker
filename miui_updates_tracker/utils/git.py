@@ -19,7 +19,7 @@ def git_commit_push():
                    f'miui-updates-tracker.git HEAD:V3'
     with subprocess.Popen(command, stdout=subprocess.PIPE, bufsize=1,
                           universal_newlines=True, shell=True) as process:
-        if process.returncode != 0 and process.returncode != 1:
+        if process.returncode and process.returncode != 0 and process.returncode != 1:
             stdout = process.stdout.read()
             logger = logging.getLogger(__name__)
             logger.warning(f"Cannot commit and push changes! Error code: {process.returncode}\n"

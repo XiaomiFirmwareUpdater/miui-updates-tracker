@@ -2,6 +2,7 @@
 from importlib import import_module
 
 from miui_updates_tracker import CONFIG
+from miui_updates_tracker.common.database import close_db
 from miui_updates_tracker.tracker_official import run as official
 from miui_updates_tracker.utils.export import export_data
 from miui_updates_tracker.utils.git import git_commit_push
@@ -25,3 +26,4 @@ if __name__ == '__main__':
     official()
     export_data()
     git_commit_push()
+    close_db()
