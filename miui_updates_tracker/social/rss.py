@@ -6,7 +6,7 @@ from humanize import naturalsize
 
 from miui_updates_tracker import CONF_DIR
 from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_incremental
+from miui_updates_tracker.common.database.database import get_incremental, get_latest_updates
 
 
 class RSSGenerator:
@@ -45,6 +45,7 @@ class RSSGenerator:
         main_feed_generator.description('Your best website to track MIUI ROM releases!')
         main_feed_generator.language('en')
         main_feed_generator.logo(f'{website}/images/xfu.png')
+        main_feed_generator.lastBuildDate(None)
         for update in self.updates:
             short_codename = update.codename.split('_')[0]
             if short_codename not in self.feeds.keys():
@@ -54,6 +55,7 @@ class RSSGenerator:
                 feed_generator.description('Your best website to track MIUI ROM releases!')
                 feed_generator.language('en')
                 feed_generator.logo(f'{website}/images/xfu.png')
+                feed_generator.lastBuildDate(None)
             else:
                 feed_generator = self.feeds.get(short_codename)
             feed_generator = self.add_feed_entry(feed_generator, update)
@@ -62,3 +64,9 @@ class RSSGenerator:
         main_feed_generator.rss_file(f"{CONF_DIR}/rss/latest.xml")
         for codename, feed in self.feeds.items():
             feed.rss_file(f"{CONF_DIR}/rss/{codename}.xml")
+
+
+if __name__ == '__main__':
+    all_updates = get_latest_updates() + get_latest_updates(branch="Weekly")
+    rss = RSSGenerator(all_updates)
+    rss.generate()
