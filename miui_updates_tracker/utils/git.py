@@ -16,7 +16,7 @@ def git_commit_push():
                    f'commit -m "sync: {datetime.today().strftime("%d-%m-%Y %H:%M:%S")}" && ' \
                    f'git push -q https://{CONFIG.get("git_oauth_token")}@' \
                    f'github.com/XiaomiFirmwareUpdater/' \
-                   f'miui-updates-tracker.git HEAD:V3'
+                   f'miui-updates-tracker.git HEAD:master'
     with subprocess.Popen(command, stdout=subprocess.PIPE, bufsize=1,
                           universal_newlines=True, shell=True) as process:
         stdout, _ = process.communicate()
