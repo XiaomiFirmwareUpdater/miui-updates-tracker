@@ -72,4 +72,4 @@ class TwitterBot:
                 else:
                     tweet: Status = self.tweet(post)
                     previous = tweet.id
-                sleep(10)
+                sleep(60)
