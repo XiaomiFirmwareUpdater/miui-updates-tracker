@@ -662,21 +662,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
@@ -2201,22 +2201,22 @@
 - android: '10.0'
   branch: Stable
   codename: crux
-  date: 2020-06-15
-  link: https://bigota.d.miui.com/V12.0.1.0.QFXCNXM/miui_CRUX_V12.0.1.0.QFXCNXM_5b10297d1e_10.0.zip
-  md5: 5b10297d1ed2fbe698dce467ab7bf6a2
-  method: Recovery
-  name: Mi 9 Pro 5G China
-  size: 2.9 GB
-  version: V12.0.1.0.QFXCNXM
-- android: '10.0'
-  branch: Stable
-  codename: crux
   date: 2020-06-17
   link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/crux_images_V12.0.2.0.QFXCNXM_20200617.0000.00_10.0_cn_c96cca0203.tgz
   md5: c96cca02032f147811f98d41f3596185
   method: Fastboot
   name: Mi 9 Pro 5G China
   size: 4.0 GB
+  version: V12.0.2.0.QFXCNXM
+- android: '10.0'
+  branch: Stable
+  codename: crux
+  date: 2020-06-22
+  link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/miui_CRUX_V12.0.2.0.QFXCNXM_1d03981a42_10.0.zip
+  md5: 1d03981a425812c3493e4d0d86091f2a
+  method: Recovery
+  name: Mi 9 Pro 5G China
+  size: 3.1 GB
   version: V12.0.2.0.QFXCNXM
 - android: '10.0'
   branch: Stable
@@ -2441,13 +2441,13 @@
 - android: '10.0'
   branch: Stable
   codename: dipper_ru_global
-  date: 2020-05-07
-  link: https://bigota.d.miui.com/V11.0.3.0.QEARUXM/dipper_ru_global_images_V11.0.3.0.QEARUXM_20200507.0000.00_10.0_global_27cacaa8c2.tgz
-  md5: 27cacaa8c2e4f76d678ed98270b5ca36
+  date: 2020-07-03
+  link: https://bigota.d.miui.com/V11.0.4.0.QEARUXM/dipper_ru_global_images_V11.0.4.0.QEARUXM_20200703.0000.00_10.0_global_8380f0eb73.tgz
+  md5: 8380f0eb7316c000baa1510c7fa79bcc
   method: Fastboot
   name: Mi 8 Russia
   size: 2.5 GB
-  version: V11.0.3.0.QEARUXM
+  version: V11.0.4.0.QEARUXM
 - android: '10.0'
   branch: Stable
   codename: dipper_ru_global
@@ -2501,13 +2501,13 @@
 - android: '10.0'
   branch: Stable
   codename: equuleus_ru_global
-  date: 2020-04-26
-  link: https://bigota.d.miui.com/V11.0.3.0.QECRUXM/equuleus_ru_global_images_V11.0.3.0.QECRUXM_20200426.0000.00_10.0_global_fac3492886.tgz
-  md5: fac34928867778405bc02452349d0d97
+  date: 2020-07-05
+  link: https://bigota.d.miui.com/V11.0.4.0.QECRUXM/equuleus_ru_global_images_V11.0.4.0.QECRUXM_20200705.0000.00_10.0_global_e1c6dd46fc.tgz
+  md5: e1c6dd46fca95dc2868321ab81dd12df
   method: Fastboot
   name: Mi 8 Pro Russia
   size: 2.5 GB
-  version: V11.0.3.0.QECRUXM
+  version: V11.0.4.0.QECRUXM
 - android: '10.0'
   branch: Stable
   codename: equuleus_ru_global
@@ -3781,13 +3781,13 @@
 - android: '10.0'
   branch: Stable
   codename: phoenixin_in_global
-  date: 2020-05-22
-  link: https://bigota.d.miui.com/V11.0.10.0.QGHINXM/phoenixin_in_global_images_V11.0.10.0.QGHINXM_20200522.0000.00_10.0_in_b6cdab2534.tgz
-  md5: b6cdab2534664b1c0fea90ad56b2a129
+  date: 2020-07-05
+  link: https://bigota.d.miui.com/V11.0.11.0.QGHINXM/phoenixin_in_global_images_V11.0.11.0.QGHINXM_20200705.0000.00_10.0_in_d79df4867e.tgz
+  md5: d79df4867e69027b0e90afaf832bbc7c
   method: Fastboot
   name: POCO X2 India
   size: 3.2 GB
-  version: V11.0.10.0.QGHINXM
+  version: V11.0.11.0.QGHINXM
 - android: '10.0'
   branch: Stable
   codename: phoenixin_in_global
@@ -4691,13 +4691,13 @@
 - android: '10.0'
   branch: Stable
   codename: umi_id_global
-  date: 2020-06-02
-  link: https://bigota.d.miui.com/V11.0.3.0.QJBIDXM/miui_UMIIDGlobal_V11.0.3.0.QJBIDXM_9a9a881ee4_10.0.zip
-  md5: 9a9a881ee49c2ff6a9dd3bb269301f24
+  date: 2020-07-17
+  link: https://bigota.d.miui.com/V11.0.5.0.QJBIDXM/miui_UMIIDGlobal_V11.0.5.0.QJBIDXM_1ab28d37e0_10.0.zip
+  md5: 1ab28d37e031d84e37651b5144ce3380
   method: Recovery
   name: Mi 10 Indonesia
   size: 2.7 GB
-  version: V11.0.3.0.QJBIDXM
+  version: V11.0.5.0.QJBIDXM
 - android: '10.0'
   branch: Stable
   codename: umi_in_global
@@ -4861,6 +4861,16 @@
 - android: '10.0'
   branch: Stable
   codename: violet
+  date: 2020-06-03
+  link: https://bigota.d.miui.com/V11.0.1.0.QFHCNXM/violet_images_V11.0.1.0.QFHCNXM_20200603.0000.00_10.0_cn_32a5958a03.tgz
+  md5: 32a5958a03b26777078dae06eaffffb5
+  method: Fastboot
+  name: Redmi Note 7 Pro China
+  size: 3.1 GB
+  version: V11.0.1.0.QFHCNXM
+- android: '10.0'
+  branch: Stable
+  codename: violet
   date: 2020-06-09
   link: https://bigota.d.miui.com/V11.0.1.0.QFHCNXM/miui_VIOLET_V11.0.1.0.QFHCNXM_d16fb03b84_10.0.zip
   md5: d16fb03b84123d42dd0d36c130c876c7
@@ -4868,16 +4878,6 @@
   name: Redmi Note 7 Pro China
   size: 2.2 GB
   version: V11.0.1.0.QFHCNXM
-- android: '9.0'
-  branch: Stable
-  codename: violet
-  date: 2020-03-03
-  link: https://bigota.d.miui.com/V11.0.8.0.PFHCNXM/violet_images_V11.0.8.0.PFHCNXM_20200303.0000.00_9.0_cn_899b0d2046.tgz
-  md5: 899b0d2046957c4975a4efbb772bcb5d
-  method: Fastboot
-  name: Redmi Note 7 Pro China
-  size: 2.9 GB
-  version: V11.0.8.0.PFHCNXM
 - android: '9.0'
   branch: Stable
   codename: violet_in_global
