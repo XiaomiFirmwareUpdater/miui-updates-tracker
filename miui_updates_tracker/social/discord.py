@@ -11,7 +11,7 @@ from miui_updates_tracker.common.database.models.update import Update
 
 logger = logging.getLogger(__name__)
 logging.getLogger('discord.client').setLevel(logging.ERROR)
-logging.getLogger('discord.gateway').setLevel(logging.ERROR)
+logging.getLogger('discord.state').setLevel(logging.ERROR)
 logging.getLogger('discord.gateway').setLevel(logging.ERROR)
 
 class DiscordBot(Client):
