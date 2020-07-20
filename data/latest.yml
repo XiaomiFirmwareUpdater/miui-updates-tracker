@@ -622,21 +622,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Stable
@@ -2201,22 +2201,22 @@
 - android: '10.0'
   branch: Stable
   codename: crux
+  date: 2020-07-16
+  link: https://bigota.d.miui.com/V12.0.3.0.QFXCNXM/miui_CRUX_V12.0.3.0.QFXCNXM_5ece229616_10.0.zip
+  md5: 5ece229616d9ccce1a822ca43a1a33cd
+  method: Recovery
+  name: Mi 9 Pro 5G China
+  size: 2.9 GB
+  version: V12.0.3.0.QFXCNXM
+- android: '10.0'
+  branch: Stable
+  codename: crux
   date: 2020-06-17
   link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/crux_images_V12.0.2.0.QFXCNXM_20200617.0000.00_10.0_cn_c96cca0203.tgz
   md5: c96cca02032f147811f98d41f3596185
   method: Fastboot
   name: Mi 9 Pro 5G China
   size: 4.0 GB
-  version: V12.0.2.0.QFXCNXM
-- android: '10.0'
-  branch: Stable
-  codename: crux
-  date: 2020-06-22
-  link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/miui_CRUX_V12.0.2.0.QFXCNXM_1d03981a42_10.0.zip
-  md5: 1d03981a425812c3493e4d0d86091f2a
-  method: Recovery
-  name: Mi 9 Pro 5G China
-  size: 3.1 GB
   version: V12.0.2.0.QFXCNXM
 - android: '10.0'
   branch: Stable
@@ -2371,13 +2371,13 @@
 - android: '10.0'
   branch: Stable
   codename: davinci_ru_global
-  date: 2020-05-18
-  link: https://bigota.d.miui.com/V11.0.5.0.QFJRUXM/miui_DAVINCIRUGlobal_V11.0.5.0.QFJRUXM_6de5eff5c7_10.0.zip
-  md5: 6de5eff5c7421743d45126aaef9ea983
+  date: 2020-07-20
+  link: https://bigota.d.miui.com/V12.0.1.0.QFJRUXM/miui_DAVINCIRUGlobal_V12.0.1.0.QFJRUXM_5707976485_10.0.zip
+  md5: 57079764851d00e156179b5ae0859ac9
   method: Recovery
   name: Mi 9T Russia
-  size: 2.4 GB
-  version: V11.0.5.0.QFJRUXM
+  size: 2.5 GB
+  version: V12.0.1.0.QFJRUXM
 - android: '10.0'
   branch: Stable
   codename: davinciin_in_global
@@ -5241,13 +5241,13 @@
 - android: '8.1'
   branch: Stable
   codename: tiare_eea_global
-  date: 2020-05-26
-  link: https://bigota.d.miui.com/V10.2.14.0.OCLEUXM/miui_TIAREEEAGlobal_V10.2.14.0.OCLEUXM_f5722712e2_8.1.zip
-  md5: f5722712e281e905b24088401e3f79a2
+  date: 2020-07-20
+  link: https://bigota.d.miui.com/V10.2.15.0.OCLEUXM/miui_TIAREEEAGlobal_V10.2.15.0.OCLEUXM_7d7ce95d4a_8.1.zip
+  md5: 7d7ce95d4a2a15d8ac4720a4a744ec8b
   method: Recovery
   name: Redmi Go EEA
-  size: 806.5 MB
-  version: V10.2.14.0.OCLEUXM
+  size: 806.4 MB
+  version: V10.2.15.0.OCLEUXM
 - android: '8.1'
   branch: Stable
   codename: tiare_in_global
