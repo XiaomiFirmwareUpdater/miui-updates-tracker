@@ -65,7 +65,8 @@ class TelegramBot:
         if update.md5:
             message += f"*MD5*: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
-            message += f"*Changelog*:\n`{update.changelog}`\n"
+            changelog = f"*Changelog*:\n`{update.changelog}`\n"
+            message += changelog[:4000 - len(message)]
         message += "\n@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
         button: InlineKeyboardButton = InlineKeyboardButton("Full ROM", update.link)
         # bot subscribe
