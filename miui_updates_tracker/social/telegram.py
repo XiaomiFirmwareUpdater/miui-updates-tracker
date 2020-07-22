@@ -1,10 +1,12 @@
 """Telegram Bot implementation"""
+import logging
 from base64 import b64encode
 from time import sleep
 from typing import List, Union
 
 from humanize import naturalsize
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.error import BadRequest
 from telegram.ext import Updater
 
 from miui_updates_tracker.common.constants import website
@@ -28,6 +30,7 @@ class TelegramBot:
         self.updater = Updater(token=bot_token, use_context=True)
         self.chat = chat if isinstance(chat, int) else f"@{chat}"
         self.source = source
+        self._logger = logging.getLogger(__name__)
 
     def post_updates(self, new_updates: List[Update]):
         """
@@ -37,7 +40,10 @@ class TelegramBot:
         """
         for update in new_updates:
             message, button = self.generate_message(update)
-            self.send_telegram_message(message, button)
+            try:
+                self.send_telegram_message(message, button)
+            except BadRequest:
+                self._logger.warning(f"Can't send telegram message of update {update}.\n Message:{message}")
 
     def generate_message(self, update: Update) -> (str, InlineKeyboardMarkup):
         """
@@ -65,8 +71,11 @@ class TelegramBot:
         if update.md5:
             message += f"*MD5*: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
-            changelog = f"*Changelog*:\n`{update.changelog}`\n"
-            message += changelog[:4000 - len(message)]
+            if len(update.changelog) + len(message) > 4000:
+                message += f"*Changelog*: [Here]({website}/miui/{short_codename}/" \
+                           f"{update.branch.lower()}/{update.version}/)\n"
+            else:
+                message += f"*Changelog*:\n`{update.changelog}`\n"
         message += "\n@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
         button: InlineKeyboardButton = InlineKeyboardButton("Full ROM", update.link)
         # bot subscribe
