@@ -43,7 +43,8 @@ async def main():
     await api.china_website.get_devices()
     logger.debug(f"china devices: {api.china_website.devices}")
     DataManager.write_file(
-        f"{CONF_DIR}/data/official/china/devices.yml", [asdict(i) for i in api.china_website.devices])
+        f"{CONF_DIR}/data/official/china/devices.yml",
+        sorted([asdict(i) for i in api.china_website.devices], key=lambda x: x['id'], reverse=True))
     await api.global_website.get_fastboot_devices()
     logger.debug(f"global fastboot devices: {api.global_website.fastboot_devices}")
     DataManager.write_file(
