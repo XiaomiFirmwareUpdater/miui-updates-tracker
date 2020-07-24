@@ -1,9 +1,11 @@
+import logging
 from time import sleep
 from typing import Dict, List
 
 from humanize import naturalsize
-from tweepy import OAuthHandler, API, Status
+from tweepy import OAuthHandler, API, Status, TweepError
 
+from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_device_name
 from miui_updates_tracker.common.database.models.update import Update
 
@@ -19,6 +21,7 @@ class TwitterBot:
         # Create API object
         self.api = API(auth)
         self.tweet_max = 280
+        self._logger = logging.getLogger(__name__)
 
     def generate_posts(self, update: Update) -> List[str]:
         footer = f"\n#MIUI_Updates #Xiaomi #MIUI #{get_device_name(update.codename).replace(' ', '')}"
@@ -40,7 +43,11 @@ class TwitterBot:
         else:
             message_2 += download
         if update.changelog != "Bug fixes and system optimizations.":
-            message_2 += f"Changelog:\n{update.changelog}"
+            if len(update.changelog) + len(message) > self.tweet_max:
+                message_2 += f"Changelog: {website}/miui/{short_codename}/" \
+                             f"{update.branch.lower()}/{update.version}/\n"
+            else:
+                message_2 += f"Changelog:\n{update.changelog}\n"
         posts.append(message)
         if len(message_2) > self.tweet_max:
             message_2 = message_2[:self.tweet_max - len(footer)]
@@ -52,9 +59,12 @@ class TwitterBot:
         return posts
 
     def tweet(self, text, reply=None):
-        if reply:
-            return self.api.update_status(text, reply)
-        return self.api.update_status(text)
+        try:
+            if reply:
+                return self.api.update_status(text, reply)
+            return self.api.update_status(text)
+        except TweepError as e:
+            self._logger.warning(f"Can't send twitter message {text}.\n Error:{e}")
 
     def post_updates(self, new_updates: List[Update]):
         """

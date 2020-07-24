@@ -14,6 +14,7 @@ logging.getLogger('discord.client').setLevel(logging.ERROR)
 logging.getLogger('discord.state').setLevel(logging.ERROR)
 logging.getLogger('discord.gateway').setLevel(logging.ERROR)
 
+
 class DiscordBot(Client):
     """
     This class implements discord bot that is used for sending updates to discord channels in Xiaomi server
@@ -29,6 +30,7 @@ class DiscordBot(Client):
         self.token = token
         self.updates = None
         self.channels = None
+        self._logger = logging.getLogger(__name__)
 
     async def send_message(self, update: Update):
         """
@@ -42,8 +44,11 @@ class DiscordBot(Client):
         if update.md5:
             message += f"**MD5**: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
-            changelog = f"**Changelog**:\n`{update.changelog}`"
-            message += changelog[:2000 - len(message)]
+            if len(update.changelog) + len(message) > 2000:
+                message += f"**Changelog**: {website}/miui/{short_codename}/" \
+                           f"{update.branch.lower()}/{update.version}/\n"
+            else:
+                message += f"**Changelog**:\n`{update.changelog}`\n"
         embed = Embed(title=f"New {update.branch} {update.method} update available!",
                       color=Colour.orange(), description=message)
         embed.add_field(name="Full ROM", value=f'[Download]({update.link})', inline=True)
@@ -68,7 +73,8 @@ class DiscordBot(Client):
         for update in self.updates:
             try:
                 await self.send_message(update)
-            except (KeyError, HTTPException):
+            except (KeyError, HTTPException) as e:
+                self._logger.warning(f"Can't send discord message of update {update}.\n Error:{e}")
                 continue
         await self.logout()
 
