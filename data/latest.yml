@@ -622,21 +622,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Stable
@@ -2201,6 +2201,16 @@
 - android: '10.0'
   branch: Stable
   codename: crux
+  date: 2020-07-10
+  link: https://bigota.d.miui.com/V12.0.3.0.QFXCNXM/crux_images_V12.0.3.0.QFXCNXM_20200710.0000.00_10.0_cn_3f1b5c6099.tgz
+  md5: 3f1b5c6099f26c2891db1b82665841b1
+  method: Fastboot
+  name: Mi 9 Pro 5G China
+  size: 3.9 GB
+  version: V12.0.3.0.QFXCNXM
+- android: '10.0'
+  branch: Stable
+  codename: crux
   date: 2020-07-16
   link: https://bigota.d.miui.com/V12.0.3.0.QFXCNXM/miui_CRUX_V12.0.3.0.QFXCNXM_5ece229616_10.0.zip
   md5: 5ece229616d9ccce1a822ca43a1a33cd
@@ -2208,16 +2218,6 @@
   name: Mi 9 Pro 5G China
   size: 2.9 GB
   version: V12.0.3.0.QFXCNXM
-- android: '10.0'
-  branch: Stable
-  codename: crux
-  date: 2020-06-17
-  link: https://bigota.d.miui.com/V12.0.2.0.QFXCNXM/crux_images_V12.0.2.0.QFXCNXM_20200617.0000.00_10.0_cn_c96cca0203.tgz
-  md5: c96cca02032f147811f98d41f3596185
-  method: Fastboot
-  name: Mi 9 Pro 5G China
-  size: 4.0 GB
-  version: V12.0.2.0.QFXCNXM
 - android: '10.0'
   branch: Stable
   codename: curtana_eea_global
@@ -3201,13 +3201,13 @@
 - android: '10.0'
   branch: Stable
   codename: monet_eea_global
-  date: 2020-06-12
-  link: https://bigota.d.miui.com/V11.0.11.0.QJIEUXM/monet_eea_global_images_V11.0.11.0.QJIEUXM_20200612.0000.00_10.0_eea_7287078add.tgz
-  md5: 7287078add68298bd9a725147670296b
+  date: 2020-07-09
+  link: https://bigota.d.miui.com/V12.0.1.0.QJIEUXM/monet_eea_global_images_V12.0.1.0.QJIEUXM_20200709.0000.00_10.0_eea_ed4cc1ba0b.tgz
+  md5: ed4cc1ba0badd453ec88d3debb5b77a4
   method: Fastboot
   name: Mi 10 Lite EEA
-  size: 4.3 GB
-  version: V11.0.11.0.QJIEUXM
+  size: 4.4 GB
+  version: V12.0.1.0.QJIEUXM
 - android: '10.0'
   branch: Stable
   codename: monet_eea_global
@@ -4451,13 +4451,13 @@
 - android: '10.0'
   branch: Stable
   codename: toco_eea_global
-  date: 2020-06-30
-  link: https://bigota.d.miui.com/V11.0.10.0.QFNEUXM/miui_TOCOEEAGlobal_V11.0.10.0.QFNEUXM_bbed176029_10.0.zip
-  md5: bbed176029f06dde0510c426f53a0c5b
+  date: 2020-07-28
+  link: https://bigota.d.miui.com/V11.0.11.0.QFNEUXM/miui_TOCOEEAGlobal_V11.0.11.0.QFNEUXM_23149d3aad_10.0.zip
+  md5: 23149d3aad7e9e894822003798da731e
   method: Recovery
   name: Mi Note 10 Lite EEA
   size: 2.4 GB
-  version: V11.0.10.0.QFNEUXM
+  version: V11.0.11.0.QFNEUXM
 - android: '10.0'
   branch: Stable
   codename: toco_global
@@ -4631,33 +4631,33 @@
 - android: '10.0'
   branch: Stable
   codename: umi
-  date: 2020-07-10
-  link: https://bigota.d.miui.com/V12.0.4.0.QJBCNXM/miui_UMI_V12.0.4.0.QJBCNXM_9a876a1449_10.0.zip
-  md5: 9a876a144960eae5c41c7d1cd995b62e
+  date: 2020-07-27
+  link: https://bigota.d.miui.com/V12.0.7.0.QJBCNXM/miui_UMI_V12.0.7.0.QJBCNXM_a86a0aee85_10.0.zip
+  md5: a86a0aee8536a07ac5804009ea337d85
   method: Recovery
   name: Mi 10 China
-  size: 3.4 GB
-  version: V12.0.4.0.QJBCNXM
+  size: 3.7 GB
+  version: V12.0.7.0.QJBCNXM
 - android: '10.0'
   branch: Stable
   codename: umi_eea_global
-  date: 2020-06-12
-  link: https://bigota.d.miui.com/V11.0.15.0.QJBEUXM/umi_eea_global_images_V11.0.15.0.QJBEUXM_20200612.0000.00_10.0_eea_eda3dd7932.tgz
-  md5: eda3dd79327180b3dad13a106efa9164
+  date: 2020-07-15
+  link: https://bigota.d.miui.com/V11.0.18.0.QJBEUXM/umi_eea_global_images_V11.0.18.0.QJBEUXM_20200715.0000.00_10.0_eea_c682b1e206.tgz
+  md5: c682b1e206eda9bfe05343e90ea3e7db
   method: Fastboot
   name: Mi 10 EEA
   size: 4.4 GB
-  version: V11.0.15.0.QJBEUXM
+  version: V11.0.18.0.QJBEUXM
 - android: '10.0'
   branch: Stable
   codename: umi_eea_global
-  date: 2020-06-24
-  link: https://bigota.d.miui.com/V11.0.15.0.QJBEUXM/miui_UMIEEAGlobal_V11.0.15.0.QJBEUXM_aa62d8edb7_10.0.zip
-  md5: aa62d8edb799322d4fe69548624d5a64
+  date: 2020-07-28
+  link: https://bigota.d.miui.com/V12.0.1.0.QJBEUXM/miui_UMIEEAGlobal_V12.0.1.0.QJBEUXM_e8362fdb86_10.0.zip
+  md5: e8362fdb862d4e2e0e260e12ae5aaf16
   method: Recovery
   name: Mi 10 EEA
-  size: 2.7 GB
-  version: V11.0.15.0.QJBEUXM
+  size: 2.9 GB
+  version: V12.0.1.0.QJBEUXM
 - android: '10.0'
   branch: Stable
   codename: umi_global
@@ -5191,23 +5191,23 @@
 - android: '10.0'
   branch: Stable
   codename: laurel_sprout_eea_global
-  date: 2020-06-11
-  link: https://bigota.d.miui.com/V11.0.3.0.QFQEUXM/laurel_sprout_eea_global_images_V11.0.3.0.QFQEUXM_20200611.0000.00_10.0_a0fc54b57d.tgz
-  md5: a0fc54b57d777dd690a0803ca4c9ffa2
+  date: 2020-07-23
+  link: https://bigota.d.miui.com/V11.0.5.0.QFQEUXM/laurel_sprout_eea_global_images_V11.0.5.0.QFQEUXM_20200723.0000.00_10.0_682dc26eba.tgz
+  md5: 682dc26eba041251905f49b844fd1895
   method: Fastboot
   name: Mi A3 EEA
   size: 2.1 GB
-  version: V11.0.3.0.QFQEUXM
+  version: V11.0.5.0.QFQEUXM
 - android: '10.0'
   branch: Stable
   codename: laurel_sprout_eea_global
-  date: 2020-06-18
-  link: https://bigota.d.miui.com/V11.0.3.0.QFQEUXM/miui_LAURELSPROUTEEAGlobal_V11.0.3.0.QFQEUXM_1b8bcf1188_10.0.zip
-  md5: 1b8bcf1188c2b88c1edbad473ab27e28
+  date: 2020-07-28
+  link: https://bigota.d.miui.com/V11.0.5.0.QFQEUXM/miui_LAURELSPROUTEEAGlobal_V11.0.5.0.QFQEUXM_79d7c1c43e_10.0.zip
+  md5: 79d7c1c43e91a91ab7f7a397653e9e78
   method: Recovery
   name: Mi A3 EEA
   size: 1.3 GB
-  version: V11.0.3.0.QFQEUXM
+  version: V11.0.5.0.QFQEUXM
 - android: '8.1'
   branch: Stable
   codename: tiare_global
