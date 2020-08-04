@@ -9,7 +9,8 @@ from typing import List, Optional, Dict
 from aiohttp import ClientResponse
 
 from miui_updates_tracker.common.api_client.common_client import CommonClient
-from miui_updates_tracker.common.database.database import update_in_db, add_to_db, get_codename
+from miui_updates_tracker.common.database.database import update_in_db, add_to_db, get_codename, update_stable_beta, \
+    get_update_by_version
 from miui_updates_tracker.common.database.models.update import Update
 from miui_updates_tracker.official.models.device import GlobalDevice
 from miui_updates_tracker.utils.helpers import human_size_to_bytes
@@ -60,7 +61,7 @@ class GlobalAPIClient(CommonClient):
         response: ClientResponse
         async with self.session.get(f'{self.base_url}/rom/getphonelist', headers=self.headers) as response:
             if response.status == 200:
-                response = await self._get_json_response(response)
+                response: dict = await self._get_json_response(response)
                 self.devices = [GlobalDevice.from_response(item) for item in
                                 response['phone_data']['phone_list']]
                 return self.devices
@@ -157,9 +158,13 @@ class GlobalAPIClient(CommonClient):
             for item in response:
                 filename = item['filename']
                 if update_in_db(filename):
+                    recovery_update = get_update_by_version(item['version'])
+                    update_stable_beta(recovery_update)
                     continue
                 update = self._get_update(item)
                 if update:
+                    if update.branch == "Stable" and not get_update_by_version(update.version, method="Fastboot"):
+                        update.branch = "Stable Beta"
                     add_to_db(update)
                     self._logger.info(f"Added {filename} to db")
                     updates.append(update)
@@ -180,6 +185,8 @@ class GlobalAPIClient(CommonClient):
             if update:
                 add_to_db(update)
                 self._logger.info(f"Added {filename} to db")
+                recovery_update = get_update_by_version(update.version)
+                update_stable_beta(recovery_update)
             return update
 
     @staticmethod

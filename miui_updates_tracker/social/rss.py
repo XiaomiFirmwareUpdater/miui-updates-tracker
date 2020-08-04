@@ -6,7 +6,7 @@ from humanize import naturalsize
 
 from miui_updates_tracker import CONF_DIR
 from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_incremental, get_latest_updates
+from miui_updates_tracker.common.database.database import get_incremental, get_all_latest_updates
 
 
 class RSSGenerator:
@@ -67,6 +67,6 @@ class RSSGenerator:
 
 
 if __name__ == '__main__':
-    all_updates = get_latest_updates() + get_latest_updates(branch="Weekly")
+    all_updates = get_all_latest_updates()
     rss = RSSGenerator(all_updates)
     rss.generate()

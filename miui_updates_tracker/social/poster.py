@@ -1,5 +1,5 @@
 from miui_updates_tracker import CONFIG
-from miui_updates_tracker.common.database.database import get_latest_updates
+from miui_updates_tracker.common.database.database import get_all_latest_updates
 from miui_updates_tracker.social.discord import DiscordBot
 from miui_updates_tracker.social.facebook_page import FacebookPage
 from miui_updates_tracker.social.rss import RSSGenerator
@@ -29,7 +29,7 @@ async def post_updates(new_updates):
         facebook_page = FacebookPage(facebook_config.get('page_id'), facebook_config.get('page_token'))
         facebook_page.post_updates(new_updates)
     # RSS
-    updates = get_latest_updates() + get_latest_updates(branch="Weekly")
+    updates = get_all_latest_updates()
     rss = RSSGenerator(updates)
     rss.generate()
 
