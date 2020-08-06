@@ -1,6 +1,7 @@
 import asyncio
 import logging
 from typing import List
+from urllib.parse import quote
 
 from discord import Client, Embed, Colour, HTTPException
 from humanize import naturalsize
@@ -45,8 +46,8 @@ class DiscordBot(Client):
             message += f"**MD5**: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > 2000:
-                message += f"**Changelog**: {website}/miui/{short_codename}/" \
-                           f"{update.branch.lower()}/{update.version}/\n"
+                changelog_link = quote(f'{website}/miui/{short_codename}/{update.branch.lower()}/{update.version}/')
+                message += f"**Changelog**: {changelog_link}\n"
             else:
                 message += f"**Changelog**:\n`{update.changelog}`\n"
         embed = Embed(title=f"New {update.branch} {update.method} update available!",

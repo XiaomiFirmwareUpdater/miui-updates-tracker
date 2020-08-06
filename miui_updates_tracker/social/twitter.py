@@ -1,6 +1,7 @@
 import logging
 from time import sleep
 from typing import Dict, List
+from urllib.parse import quote
 
 from humanize import naturalsize
 from tweepy import OAuthHandler, API, Status, TweepError
@@ -44,8 +45,8 @@ class TwitterBot:
             message_2 += download
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > self.tweet_max:
-                message_2 += f"Changelog: {website}/miui/{short_codename}/" \
-                             f"{update.branch.lower()}/{update.version}/\n"
+                changelog_link = quote(f'{website}/miui/{short_codename}/{update.branch.lower()}/{update.version}/')
+                message_2 += f"Changelog: {changelog_link}\n"
             else:
                 message_2 += f"Changelog:\n{update.changelog}\n"
         posts.append(message)

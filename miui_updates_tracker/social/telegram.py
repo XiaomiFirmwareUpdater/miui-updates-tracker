@@ -3,6 +3,7 @@ import logging
 from base64 import b64encode
 from time import sleep
 from typing import List, Union
+from urllib.parse import quote
 
 from humanize import naturalsize
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -72,8 +73,8 @@ class TelegramBot:
             message += f"*MD5*: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > 4000:
-                message += f"*Changelog*: [Here]({website}/miui/{short_codename}/" \
-                           f"{update.branch.lower()}/{update.version}/)\n"
+                changelog_link = quote(f'{website}/miui/{short_codename}/{update.branch.lower()}/{update.version}/')
+                message += f"*Changelog*: [Here]({changelog_link})\n"
             else:
                 message += f"*Changelog*:\n`{update.changelog}`\n"
         message += "\n@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
