@@ -1,13 +1,13 @@
 # MIUI Updates Tracker V3
 
-[![Subscribe](https://img.shields.io/badge/Telegram-Subscribe-blue.svg)](https://t.me/MIUIUpdatesTracker)
-[![Discord](https://img.shields.io/discord/221706949786468353.svg?style=flat-square)](https://discord.gg/xiaomi)
-
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-
-[![Patreon](https://img.shields.io/badge/Patreon-Donate-red.svg)](https://www.patreon.com/XiaomiFirmwareUpdater)
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.me/yshalsager)
+[![Telegram Badge](https://img.shields.io/badge/Telegram-Subscribe-2CA5E0?style=flat&labelColor=2CA5E0&logo=Telegram&logoColor=white&link=https://t.me/MIUIUpdatesTracker)](https://t.me/MIUIUpdatesTracker)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-Follow-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/MiFwUpdater)](https://twitter.com/MiFwUpdater)
+[![Discord Badge](https://img.shields.io/badge/Discord-Subscribe-7289DA?style=flat&labelColor=7289DA&logo=Discord&logoColor=white)](https://discord.gg/xiaomi) <br />
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python%203-3776AB?style=flat&labelColor=3776AB&logo=python&logoColor=white&link=https://www.python.org/)](https://www.python.org/)
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](#) <br />
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=flat&labelColor=00457C&logo=PayPal&logoColor=white&link=https://www.paypal.me/yshalsager)](https://www.paypal.me/yshalsager)
+[![Patreon](https://img.shields.io/badge/Patreon-Support-F96854?style=flat&labelColor=F96854&logo=Patreon&logoColor=white&link=https://www.paypal.me/yshalsager)](https://www.paypal.me/yshalsager)
+[![Liberapay](https://img.shields.io/badge/Liberapay-Support-F6C915?style=flat&labelColor=F6C915&logo=Liberapay&logoColor=white&link=https://liberapay.com/yshalsager)](https://liberapay.com/yshalsager)
 
 A Script that automatically track Xiaomi MIUI ROM releases and send messages to telegram, discord, twitter and other platforms to notify users!
 
