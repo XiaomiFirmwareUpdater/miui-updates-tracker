@@ -45,8 +45,9 @@ class TwitterBot:
             message_2 += download
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > self.tweet_max:
-                changelog_link = quote(f'{website}/miui/{short_codename}/{update.branch.lower()}/{update.version}/')
-                message_2 += f"Changelog: {changelog_link}\n"
+                branch = quote(update.branch.lower())
+                message_2 += f"Changelog: {website}/miui/{short_codename}/" \
+                             f"{branch}/{update.version}/\n"
             else:
                 message_2 += f"Changelog:\n{update.changelog}\n"
         posts.append(message)

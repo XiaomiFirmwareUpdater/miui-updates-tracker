@@ -46,8 +46,9 @@ class DiscordBot(Client):
             message += f"**MD5**: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > 2000:
-                changelog_link = quote(f'{website}/miui/{short_codename}/{update.branch.lower()}/{update.version}/')
-                message += f"**Changelog**: {changelog_link}\n"
+                branch = quote(update.branch.lower())
+                message += f"**Changelog**: {website}/miui/{short_codename}/" \
+                           f"{branch}/{update.version}/\n
             else:
                 message += f"**Changelog**:\n`{update.changelog}`\n"
         embed = Embed(title=f"New {update.branch} {update.method} update available!",

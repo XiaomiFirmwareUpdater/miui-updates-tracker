@@ -73,8 +73,9 @@ class TelegramBot:
             message += f"*MD5*: `{update.md5}`\n"
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > 4000:
-                changelog_link = quote(f'{website}/miui/{short_codename}/{update.branch.lower()}/{update.version}/')
-                message += f"*Changelog*: [Here]({changelog_link})\n"
+                branch = quote(update.branch.lower())
+                message += f"*Changelog*: [Here]({website}/miui/{short_codename}/" \
+                           f"{branch}/{update.version}/)\n"
             else:
                 message += f"*Changelog*:\n`{update.changelog}`\n"
         message += "\n@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
