@@ -48,7 +48,7 @@ class DiscordBot(Client):
             if len(update.changelog) + len(message) > 2000:
                 branch = quote(update.branch.lower())
                 message += f"**Changelog**: {website}/miui/{short_codename}/" \
-                           f"{branch}/{update.version}/\n
+                           f"{branch}/{update.version}/\n"
             else:
                 message += f"**Changelog**:\n`{update.changelog}`\n"
         embed = Embed(title=f"New {update.branch} {update.method} update available!",
