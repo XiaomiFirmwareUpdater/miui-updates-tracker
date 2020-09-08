@@ -138,6 +138,16 @@
   name: Mi 10 China
   size: 3.7 GB
   version: V12.0.7.0.QJBCNXM
+- android: '10.0'
+  branch: Stable
+  codename: cattail_in_global
+  date: 2020-09-08
+  link: https://bigota.d.miui.com/V12.0.1.0.QCTINXM/miui_CATTAILINGlobal_V12.0.1.0.QCTINXM_b9eab18015_10.0.zip
+  md5: b9eab180158851c2d0b1c2ea0a4e41bf
+  method: Recovery
+  name: Redmi 9 India
+  size: 1.7 GB
+  version: V12.0.1.0.QCTINXM
 - android: '9.0'
   branch: Stable
   codename: andromeda_eea_global
@@ -308,6 +318,26 @@
   name: Mi 10 Ultra China
   size: 3.9 GB
   version: V12.0.8.0.QJJCNXM
+- android: '10.0'
+  branch: Stable
+  codename: angelica_global
+  date: 2020-08-25
+  link: https://bigota.d.miui.com/V12.0.4.0.QCRMIXM/angelica_global_images_V12.0.4.0.QCRMIXM_20200825.0000.00_10.0_global_e2938b38c7.tgz
+  md5: e2938b38c7f8e268134f20fde6d4b2b7
+  method: Fastboot
+  name: Redmi 9C Global
+  size: 3.2 GB
+  version: V12.0.4.0.QCRMIXM
+- android: '10.0'
+  branch: Stable
+  codename: angelica_eea_global
+  date: 2020-08-25
+  link: https://bigota.d.miui.com/V12.0.3.0.QCREUXM/angelica_eea_global_images_V12.0.3.0.QCREUXM_20200825.0000.00_10.0_eea_de62b150d3.tgz
+  md5: de62b150d39b872fc34abfd189566194
+  method: Fastboot
+  name: Redmi 9C EEA
+  size: 3.3 GB
+  version: V12.0.3.0.QCREUXM
 - android: '10.0'
   branch: Stable
   codename: begonia_eea_global
@@ -535,7 +565,7 @@
   link: https://bigota.d.miui.com/V12.0.6.0.QCDEUXM/miui_DANDELIONEEAGlobal_V12.0.6.0.QCDEUXM_caaa465ec4_10.0.zip
   md5: caaa465ec49900c8135363b134667723
   method: Recovery
-  name: Redmi 9A EEA
+  name: Redmi 9A / 9AT EEA
   size: 1.7 GB
   version: V12.0.6.0.QCDEUXM
 - android: '10.0'
@@ -1025,7 +1055,7 @@
   link: https://bigota.d.miui.com/V12.0.6.0.QCDEUXM/dandelion_eea_global_images_V12.0.6.0.QCDEUXM_20200815.0000.00_10.0_eea_d5367f1a15.tgz
   md5: d5367f1a150e839245b6c479b4966c78
   method: Fastboot
-  name: Redmi 9A EEA
+  name: Redmi 9A / 9AT EEA
   size: 3.3 GB
   version: V12.0.6.0.QCDEUXM
 - android: '10.0'
@@ -1878,6 +1908,16 @@
   name: Redmi 9 Indonesia
   size: 1.9 GB
   version: V11.0.3.0.QJCIDXM
+- android: '10.0'
+  branch: Stable
+  codename: cattail_in_global
+  date: 2020-07-31
+  link: https://bigota.d.miui.com/V12.0.1.0.QCTINXM/cattail_in_global_images_V12.0.1.0.QCTINXM_20200731.0000.00_10.0_in_a11c84c64c.tgz
+  md5: a11c84c64ce3199207894eb7471d194a
+  method: Fastboot
+  name: Redmi 9 India
+  size: 2.6 GB
+  version: V12.0.1.0.QCTINXM
 - android: '10.0'
   branch: Stable
   codename: lmi_eea_global
@@ -4902,21 +4942,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Stable
