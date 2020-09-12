@@ -2,6 +2,17 @@ import re
 from datetime import datetime
 
 from requests import head
+from requests.exceptions import ConnectionError as RequestsConnectionError
+
+
+def get_headers(link):
+    """Perform a HEAD request safely"""
+    headers = None
+    try:
+        headers = head(link).headers
+    except RequestsConnectionError as err:
+        print(f"ConnectionError when trying to get headers of {link}\n{err}")
+    return headers
 
 
 def rom_info_from_file(rom_file: str, more_details: bool = False):
@@ -17,13 +28,14 @@ def rom_info_from_file(rom_file: str, more_details: bool = False):
             'filename': rom_file,
             'link': link}
     if more_details:
-        headers = head(link).headers
-        try:
-            date = datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
-                                     '%d %b %Y').strftime("%Y-%m-%d")
-        except KeyError:
-            date = None
-        info.update({'date': date, 'size': headers['Content-Length']})
+        headers = get_headers(link)
+        if headers:
+            try:
+                date = datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
+                                         '%d %b %Y').strftime("%Y-%m-%d")
+            except KeyError:
+                date = None
+            info.update({'date': date, 'size': headers['Content-Length']})
     return info
 
 
@@ -41,14 +53,15 @@ def ota_info_from_file(ota_file: str, more_details: bool = False):
             'filename': ota_file,
             'link': link}
     if more_details:
-        headers = head(link).headers
-        date = None
-        try:
-            date = datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
-                                     '%d %b %Y').strftime("%Y-%m-%d")
-        except KeyError as e:
-            print(e, headers)
-        info.update({'date': date, 'size': headers['Content-Length']})
+        headers = get_headers(link)
+        if headers:
+            date = None
+            try:
+                date = datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
+                                         '%d %b %Y').strftime("%Y-%m-%d")
+            except KeyError as err:
+                print(err, headers)
+            info.update({'date': date, 'size': headers['Content-Length']})
     return info
 
 
@@ -72,11 +85,13 @@ def fastboot_info_from_file(fastboot_file: str, more_details: bool = False):
             'filename': fastboot_file,
             'link': link}
     if more_details:
-        try:
-            date = datetime.strptime(match.group(3), '%Y%m%d').strftime("%Y-%m-%d") if match.group(
-                3) else datetime.strptime(' '.join(head(link).headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
-                                          '%d %b %Y').strftime("%Y-%m-%d")
-        except KeyError:
-            date = None
-        info.update({'date': date, 'size': head(link).headers['Content-Length']})
+        headers = get_headers(link)
+        if headers:
+            try:
+                date = datetime.strptime(match.group(3), '%Y%m%d').strftime("%Y-%m-%d") if match.group(
+                    3) else datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
+                                              '%d %b %Y').strftime("%Y-%m-%d")
+            except KeyError:
+                date = None
+            info.update({'date': date, 'size': headers['Content-Length']})
     return info
