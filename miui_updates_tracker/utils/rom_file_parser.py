@@ -1,8 +1,11 @@
+import logging
 import re
 from datetime import datetime
 
 from requests import head
 from requests.exceptions import ConnectionError as RequestsConnectionError
+
+logger = logging.getLogger(__name__)
 
 
 def get_headers(link):
@@ -11,7 +14,7 @@ def get_headers(link):
     try:
         headers = head(link).headers
     except RequestsConnectionError as err:
-        print(f"ConnectionError when trying to get headers of {link}\n{err}")
+        logger.error(f"ConnectionError when trying to get headers of {link}\n{err}")
     return headers
 
 
