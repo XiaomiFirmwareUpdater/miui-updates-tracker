@@ -10,7 +10,7 @@ from miui_updates_tracker.utils.git import git_commit_push
 source = CONFIG.get('source')
 extra_run = None
 if source == "tracker_updater":
-    from miui_updates_tracker.tracker_updater import run as extra_run
+    from miui_updates_tracker.updater.tracker_updater import run as extra_run
 elif source == "tracker_official":
     pass
 else:

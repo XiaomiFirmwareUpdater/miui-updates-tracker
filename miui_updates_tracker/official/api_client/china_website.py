@@ -5,7 +5,6 @@ from typing import List, Optional
 
 from aiohttp import ClientResponse
 from bs4 import BeautifulSoup, Tag
-
 from miui_updates_tracker.common.api_client.common_client import CommonClient
 from miui_updates_tracker.common.database.database import update_in_db, add_to_db, get_codename
 from miui_updates_tracker.common.database.models.update import Update
@@ -13,6 +12,10 @@ from miui_updates_tracker.official.models.device import ChinaDevice
 from miui_updates_tracker.utils.rom_file_parser import rom_info_from_file, fastboot_info_from_file
 from miui_updates_tracker.utils.rom_utils import get_rom_type, get_rom_branch, \
     get_region_code_from_codename
+
+china_website_useragent = "'Mozilla/5.0 (Linux; U; Android 10; zh-cn; M2007J1SC Build/QKQ1.200419.002) " \
+                          "AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 " \
+                          "Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.25'"
 
 
 class ChinaAPIClient(CommonClient):
@@ -57,7 +60,8 @@ class ChinaAPIClient(CommonClient):
         Get all available fastboot devices from the website.
         """
         response: ClientResponse
-        async with self.session.get(f'{self.base_url}/shuaji-393.html') as response:
+        async with self.session.get(f'{self.base_url}/shuaji-393.html',
+                                    headers={'User-Agent': china_website_useragent}) as response:
             if response.status == 200:
                 page = BeautifulSoup(await response.text(), 'html.parser')
                 links = page.select('a[href^="//update.miui.com/updates/"]')
