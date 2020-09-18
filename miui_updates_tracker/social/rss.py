@@ -22,7 +22,10 @@ class RSSGenerator:
         entry = feed.add_entry()
         entry.title(f"MIUI {update.version} {update.method} update for {update.fullname}")
         entry.link(href=update.link, rel='alternate')
-        entry.pubDate(datetime.combine(update.date, datetime.min.time(), tzinfo=timezone.utc))
+        try:
+            entry.pubDate(datetime.combine(update.date, datetime.min.time(), tzinfo=timezone.utc))
+        except TypeError:
+            entry.pubDate(datetime.combine(datetime.today(), datetime.min.time(), tzinfo=timezone.utc))
         description = f"<p<b>New {update.branch} {update.method} update available!</b></p>\n" \
                       f"<p><b>Device:</b> {update.fullname}</p>\n" \
                       f"<p><b>Codename:</b> {update.codename.split('_')[0]}</p>\n" \
