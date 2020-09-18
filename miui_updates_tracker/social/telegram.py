@@ -1,18 +1,17 @@
 """Telegram Bot implementation"""
 import logging
+from asyncio import sleep
 from base64 import b64encode
-from time import sleep
 from typing import List, Union
 from urllib.parse import quote
 
 from humanize import naturalsize
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.error import BadRequest
-from telegram.ext import Updater
-
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_full_name
 from miui_updates_tracker.common.database.models.update import Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.error import BadRequest
+from telegram.ext import Updater
 
 
 class TelegramBot:
@@ -33,7 +32,7 @@ class TelegramBot:
         self.source = source
         self._logger = logging.getLogger(__name__)
 
-    def post_updates(self, new_updates: List[Update]):
+    async def post_updates(self, new_updates: List[Update]):
         """
         Send updates to a Telegram chat
         :param new_updates: a list of updates
@@ -42,7 +41,7 @@ class TelegramBot:
         for update in new_updates:
             message, button = self.generate_message(update)
             try:
-                self.send_telegram_message(message, button)
+                await self.send_telegram_message(message, button)
             except BadRequest:
                 self._logger.warning(f"Can't send telegram message of update {update}.\n Message:{message}")
 
@@ -95,7 +94,7 @@ class TelegramBot:
                 return message, InlineKeyboardMarkup([[button, incremental_button], more_buttons])
         return message, InlineKeyboardMarkup([[button], more_buttons])
 
-    def send_telegram_message(self, message: str, reply_markup: InlineKeyboardMarkup):
+    async def send_telegram_message(self, message: str, reply_markup: InlineKeyboardMarkup):
         """
         Send a message to Telegram chat
         :param message: A string of the update message to be sent
@@ -105,4 +104,4 @@ class TelegramBot:
         self.updater.bot.send_message(chat_id=self.chat, text=message,
                                       parse_mode='Markdown', disable_web_page_preview='yes',
                                       reply_markup=reply_markup)
-        sleep(3)
+        await sleep(3)

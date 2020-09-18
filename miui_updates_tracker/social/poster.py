@@ -12,7 +12,7 @@ async def post_updates(new_updates):
     tg_config = CONFIG.get('telegram')
     if None not in tg_config.values():
         bot: TelegramBot = TelegramBot(tg_config.get('bot_token'), tg_config.get('chat'), "updater")
-        bot.post_updates(new_updates)
+        await bot.post_updates(new_updates)
     # Discord
     discord_config = CONFIG.get('discord')
     if None not in discord_config.values():
@@ -22,16 +22,16 @@ async def post_updates(new_updates):
     twitter_config: dict = CONFIG.get('twitter')
     if None not in twitter_config.values():
         twitter_bot = TwitterBot(twitter_config)
-        twitter_bot.post_updates(new_updates)
+        await twitter_bot.post_updates(new_updates)
     # Facebook
     facebook_config: dict = CONFIG.get('facebook')
     if None not in facebook_config.values():
         facebook_page = FacebookPage(facebook_config.get('page_id'), facebook_config.get('page_token'))
-        facebook_page.post_updates(new_updates)
+        await facebook_page.post_updates(new_updates)
     # RSS
     updates = get_all_latest_updates()
     rss = RSSGenerator(updates)
-    rss.generate()
+    await rss.generate()
 
 # updates = [Update(codename='merlin_in_global', version='V11.0.2.0.QJOINXM', android='10.0', branch='Stable',
 #                   type='Full', method='Fastboot', size='2851806192', md5='ccbdaddff3da08fc7ca548c75448fc75',

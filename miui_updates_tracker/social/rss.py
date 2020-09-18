@@ -1,9 +1,9 @@
+import asyncio
 from datetime import datetime, timezone
 from typing import Dict
 
 from feedgen.feed import FeedGenerator
 from humanize import naturalsize
-
 from miui_updates_tracker import CONF_DIR
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_all_latest_updates
@@ -41,7 +41,7 @@ class RSSGenerator:
         entry.description(description)
         return feed
 
-    def generate(self):
+    async def generate(self):
         main_feed_generator = FeedGenerator()
         main_feed_generator.title('MIUI Updates Tracker by XiaomiFirmwareUpdater')
         main_feed_generator.link(href=website, rel='alternate')
@@ -69,7 +69,17 @@ class RSSGenerator:
             feed.rss_file(f"{CONF_DIR}/rss/{codename}.xml")
 
 
-if __name__ == '__main__':
+async def main():
     all_updates = get_all_latest_updates()
     rss = RSSGenerator(all_updates)
-    rss.generate()
+    await rss.generate()
+
+
+def run():
+    """asyncio trigger function"""
+    event_loop = asyncio.get_event_loop()
+    event_loop.run_until_complete(main())
+
+
+if __name__ == '__main__':
+    run()

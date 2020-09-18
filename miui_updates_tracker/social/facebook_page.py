@@ -2,7 +2,6 @@ from typing import List
 
 from facebook import GraphAPI
 from humanize import naturalsize
-
 from miui_updates_tracker import CONFIG
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_incremental, get_device_name
@@ -41,7 +40,7 @@ class FacebookPage:
         message += f" #Android{update.android.split('.')[0]}"
         return message, link
 
-    def post_updates(self, new_updates: List[Update]):
+    async def post_updates(self, new_updates: List[Update]):
         """
         Send updates to a Telegram chat
         :param new_updates: a list of updates

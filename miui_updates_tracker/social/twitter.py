@@ -1,14 +1,13 @@
 import logging
-from time import sleep
+from asyncio import sleep
 from typing import Dict, List
 from urllib.parse import quote
 
 from humanize import naturalsize
-from tweepy import OAuthHandler, API, Status, TweepError
-
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_device_name
 from miui_updates_tracker.common.database.models.update import Update
+from tweepy import OAuthHandler, API, Status, TweepError
 
 
 class TwitterBot:
@@ -60,7 +59,7 @@ class TwitterBot:
                 posts.append(message_2)
         return posts
 
-    def tweet(self, text, reply=None):
+    async def tweet(self, text, reply=None):
         try:
             if reply:
                 return self.api.update_status(text, reply)
@@ -68,7 +67,7 @@ class TwitterBot:
         except TweepError as e:
             self._logger.warning(f"Can't send twitter message {text}.\n Error:{e}")
 
-    def post_updates(self, new_updates: List[Update]):
+    async def post_updates(self, new_updates: List[Update]):
         """
         Post updates to Twitter
         :param new_updates: a list of updates
@@ -79,9 +78,9 @@ class TwitterBot:
             previous = None
             for post in posts:
                 if previous:
-                    tweet: Status = self.tweet(post, reply=previous)
+                    tweet: Status = await self.tweet(post, reply=previous)
                     previous = tweet.id
                 else:
                     tweet: Status = self.tweet(post)
                     previous = tweet.id
-                sleep(60)
+                await sleep(60)
