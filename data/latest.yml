@@ -1,3 +1,23 @@
+- android: '9.0'
+  branch: Stable Beta
+  codename: cereus_ru_global
+  date: 2020-09-19
+  link: https://bigota.d.miui.com/V11.0.5.0.PCGRUXM/miui_HM6RUGlobal_V11.0.5.0.PCGRUXM_9be9598f94_9.0.zip
+  md5: 9be9598f94254cd7006f24c27a36de4b
+  method: Recovery
+  name: Redmi 6 Russia
+  size: 1.5 GB
+  version: V11.0.5.0.PCGRUXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: lancelot_eea_global
+  date: 2020-09-19
+  link: https://bigota.d.miui.com/V11.0.8.0.QJCEUXM/miui_LANCELOTEEAGlobal_V11.0.8.0.QJCEUXM_73ec49317c_10.0.zip
+  md5: 73ec49317c20ea6e797b9d496060d56e
+  method: Recovery
+  name: Redmi 9 EEA
+  size: 1.9 GB
+  version: V11.0.8.0.QJCEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: curtana_in_global
@@ -108,16 +128,6 @@
   name: Redmi Note 9 EEA
   size: 2.0 GB
   version: V12.0.3.0.QJOEUXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: dandelion
-  date: 2020-09-14
-  link: https://bigota.d.miui.com/V12.0.3.0.QCDCNXM/miui_DANDELION_V12.0.3.0.QCDCNXM_e9e05c99a8_10.0.zip
-  md5: e9e05c99a8fd299a60e443a4c8ee8cb2
-  method: Recovery
-  name: Redmi 9A China
-  size: 2.0 GB
-  version: V12.0.3.0.QCDCNXM
 - android: '9.0'
   branch: Stable Beta
   codename: willow_ru_global
@@ -198,16 +208,6 @@
   name: Redmi 9 China
   size: 2.0 GB
   version: V11.0.5.0.QJCCNXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lancelot_eea_global
-  date: 2020-08-13
-  link: https://bigota.d.miui.com/V11.0.5.0.QJCEUXM/miui_LANCELOTEEAGlobal_V11.0.5.0.QJCEUXM_ec3a4c98d9_10.0.zip
-  md5: ec3a4c98d93f5bb8969e3cfa1474af28
-  method: Recovery
-  name: Redmi 9 EEA
-  size: 1.9 GB
-  version: V11.0.5.0.QJCEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: lancelot_global
@@ -360,6 +360,16 @@
   version: V11.0.2.0.QCPEUXM
 - android: '10.0'
   branch: Stable
+  codename: dandelion
+  date: 2020-09-14
+  link: https://bigota.d.miui.com/V12.0.3.0.QCDCNXM/miui_DANDELION_V12.0.3.0.QCDCNXM_e9e05c99a8_10.0.zip
+  md5: e9e05c99a8fd299a60e443a4c8ee8cb2
+  method: Recovery
+  name: Redmi 9A China
+  size: 2.0 GB
+  version: V12.0.3.0.QCDCNXM
+- android: '10.0'
+  branch: Stable
   codename: cattail_in_global
   date: 2020-09-13
   link: https://bigota.d.miui.com/V12.0.2.0.QCTINXM/miui_CATTAILINGlobal_V12.0.2.0.QCTINXM_4cab0e6287_10.0.zip
@@ -388,6 +398,16 @@
   name: Redmi 9 Global
   size: 1.9 GB
   version: V11.0.8.0.QJCMIXM
+- android: '10.0'
+  branch: Stable
+  codename: dandelion
+  date: 2020-09-12
+  link: https://bigota.d.miui.com/V12.0.3.0.QCDCNXM/dandelion_images_V12.0.3.0.QCDCNXM_20200912.0000.00_10.0_cn_50059d3818.tgz
+  md5: 50059d3818be29f15f33e6a3800a93fd
+  method: Fastboot
+  name: Redmi 9A China
+  size: 3.1 GB
+  version: V12.0.3.0.QCDCNXM
 - android: '10.0'
   branch: Stable
   codename: surya_global
@@ -1350,16 +1370,6 @@
   version: V12.0.1.0.QFDEUXM
 - android: '10.0'
   branch: Stable
-  codename: dandelion
-  date: 2020-08-19
-  link: https://bigota.d.miui.com/V12.0.2.0.QCDCNXM/miui_DANDELION_V12.0.2.0.QCDCNXM_a3a42bcd16_10.0.zip
-  md5: a3a42bcd16e4ed1e3203408b72d7fe61
-  method: Recovery
-  name: Redmi 9A China
-  size: 2.0 GB
-  version: V12.0.2.0.QCDCNXM
-- android: '10.0'
-  branch: Stable
   codename: equuleus
   date: 2020-08-18
   link: https://bigota.d.miui.com/V12.0.2.0.QECCNXM/equuleus_images_V12.0.2.0.QECCNXM_20200818.0000.00_10.0_cn_f42299b37f.tgz
@@ -1678,16 +1688,6 @@
   name: Redmi 9A Russia
   size: 3.3 GB
   version: V12.0.3.0.QCDRUXM
-- android: '10.0'
-  branch: Stable
-  codename: dandelion
-  date: 2020-08-15
-  link: https://bigota.d.miui.com/V12.0.2.0.QCDCNXM/dandelion_images_V12.0.2.0.QCDCNXM_20200815.0000.00_10.0_cn_a078fb6f5f.tgz
-  md5: a078fb6f5fa784f2256d62f0eb766359
-  method: Fastboot
-  name: Redmi 9A China
-  size: 3.1 GB
-  version: V12.0.2.0.QCDCNXM
 - android: '10.0'
   branch: Stable
   codename: olive_ru_global
