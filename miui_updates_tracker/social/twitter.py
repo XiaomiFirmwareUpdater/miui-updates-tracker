@@ -81,6 +81,6 @@ class TwitterBot:
                     tweet: Status = await self.tweet(post, reply=previous)
                     previous = tweet.id
                 else:
-                    tweet: Status = self.tweet(post)
+                    tweet: Status = await self.tweet(post)
                     previous = tweet.id
                 await sleep(60)
