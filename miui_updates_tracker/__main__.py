@@ -6,6 +6,7 @@ from miui_updates_tracker.common.database import close_db
 from miui_updates_tracker.tracker_official import run as official
 from miui_updates_tracker.utils.export import export_data
 from miui_updates_tracker.utils.git import git_commit_push
+from social.poster import generate_rss_feed
 
 source = CONFIG.get('source')
 extra_run = None
@@ -25,5 +26,6 @@ if __name__ == '__main__':
         extra_run()
     official()
     export_data()
+    generate_rss_feed()
     git_commit_push()
     close_db()

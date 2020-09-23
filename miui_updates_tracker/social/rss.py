@@ -41,7 +41,7 @@ class RSSGenerator:
         entry.description(description)
         return feed
 
-    async def generate(self):
+    def generate(self):
         main_feed_generator = FeedGenerator()
         main_feed_generator.title('MIUI Updates Tracker by XiaomiFirmwareUpdater')
         main_feed_generator.link(href=website, rel='alternate')
@@ -72,7 +72,7 @@ class RSSGenerator:
 async def main():
     all_updates = get_all_latest_updates()
     rss = RSSGenerator(all_updates)
-    await rss.generate()
+    rss.generate()
 
 
 def run():

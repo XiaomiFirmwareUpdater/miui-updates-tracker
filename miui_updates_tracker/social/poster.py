@@ -28,10 +28,13 @@ async def post_updates(new_updates):
     if None not in facebook_config.values():
         facebook_page = FacebookPage(facebook_config.get('page_id'), facebook_config.get('page_token'))
         await facebook_page.post_updates(new_updates)
+
+
+def generate_rss_feed():
     # RSS
     updates = get_all_latest_updates()
     rss = RSSGenerator(updates)
-    await rss.generate()
+    rss.generate()
 
 # updates = [Update(codename='merlin_in_global', version='V11.0.2.0.QJOINXM', android='10.0', branch='Stable',
 #                   type='Full', method='Fastboot', size='2851806192', md5='ccbdaddff3da08fc7ca548c75448fc75',
