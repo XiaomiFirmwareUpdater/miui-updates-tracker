@@ -3,10 +3,10 @@ from importlib import import_module
 
 from miui_updates_tracker import CONFIG
 from miui_updates_tracker.common.database import close_db
+from miui_updates_tracker.social.poster import generate_rss_feed
 from miui_updates_tracker.tracker_official import run as official
 from miui_updates_tracker.utils.export import export_data
 from miui_updates_tracker.utils.git import git_commit_push
-from social.poster import generate_rss_feed
 
 source = CONFIG.get('source')
 extra_run = None
