@@ -1,5 +1,15 @@
 - android: '10.0'
   branch: Stable Beta
+  codename: excalibur_in_global
+  date: 2020-09-29
+  link: https://bigota.d.miui.com/V12.0.1.0.QJXINXM/miui_EXCALIBURINGlobal_V12.0.1.0.QJXINXM_40cbf00495_10.0.zip
+  md5: 40cbf0049569269d94e725fd4c810fff
+  method: Recovery
+  name: Redmi Note 9 Pro Max India
+  size: 2.4 GB
+  version: V12.0.1.0.QJXINXM
+- android: '10.0'
+  branch: Stable Beta
   codename: lmi_global
   date: 2020-09-29
   link: https://bigota.d.miui.com/V12.0.4.0.QJKMIXM/miui_LMIGlobal_V12.0.4.0.QJKMIXM_72b1da9230_10.0.zip
@@ -168,36 +178,6 @@
   name: Mi 9T Pro Russia
   size: 2.6 GB
   version: V12.0.2.0.QFKRUXM
-- android: '9.0'
-  branch: Stable Beta
-  codename: whyred_global
-  date: 2020-09-23
-  link: https://bigota.d.miui.com/V11.0.5.0.PEIMIXM/miui_HMNote5Global_V11.0.5.0.PEIMIXM_45f26eac62_9.0.zip
-  md5: 45f26eac62ad61f8944f5bda68e366ad
-  method: Recovery
-  name: Redmi Note 5 / Note 5 Pro Global
-  size: 1.9 GB
-  version: V11.0.5.0.PEIMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: sirius
-  date: 2020-09-23
-  link: https://bigota.d.miui.com/V12.0.2.0.QEBCNXM/miui_MI8SE_V12.0.2.0.QEBCNXM_09d4db05cb_10.0.zip
-  md5: 09d4db05cb055b49ade9bc7de4102130
-  method: Recovery
-  name: Mi 8 SE China
-  size: 2.0 GB
-  version: V12.0.2.0.QEBCNXM
-- android: '9.0'
-  branch: Stable Beta
-  codename: tulip_global
-  date: 2020-09-23
-  link: https://bigota.d.miui.com/V11.0.6.0.PEKMIXM/miui_HMNote6ProGlobal_V11.0.6.0.PEKMIXM_d3abd03ac2_9.0.zip
-  md5: d3abd03ac2458c95d8a3b7e7abffd6f7
-  method: Recovery
-  name: Redmi Note 6 Pro Global
-  size: 1.9 GB
-  version: V11.0.6.0.PEKMIXM
 - android: '10.0'
   branch: Stable Beta
   codename: cezanne
@@ -250,6 +230,16 @@
   version: V12.0.10.0.QJJCNXM
 - android: '10.0'
   branch: Stable Beta
+  codename: lmi
+  date: 2020-09-11
+  link: https://bigota.d.miui.com/V12.0.9.0.QJKCNXM/miui_LMI_V12.0.9.0.QJKCNXM_c7272d59e5_10.0.zip
+  md5: c7272d59e5f45f7b9d295b374c4aafc9
+  method: Recovery
+  name: Redmi K30 Pro China
+  size: 3.4 GB
+  version: V12.0.9.0.QJKCNXM
+- android: '10.0'
+  branch: Stable Beta
   codename: cmi_eea_global
   date: 2020-09-08
   link: https://bigota.d.miui.com/V12.0.2.0.QJAEUXM/miui_CMIEEAGlobal_V12.0.2.0.QJAEUXM_6310c179de_10.0.zip
@@ -288,16 +278,6 @@
   name: Redmi 9 Global
   size: 1.9 GB
   version: V11.0.5.0.QJCMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lmi
-  date: 2020-07-30
-  link: https://bigota.d.miui.com/V12.0.5.0.QJKCNXM/miui_LMI_V12.0.5.0.QJKCNXM_c527b444d1_10.0.zip
-  md5: c527b444d1548530efe2e188354c1dfd
-  method: Recovery
-  name: Redmi K30 Pro China
-  size: 3.4 GB
-  version: V12.0.5.0.QJKCNXM
 - android: '10.0'
   branch: Stable Beta
   codename: onclite
@@ -418,6 +398,26 @@
   name: Redmi 9C NFC Global
   size: 1.6 GB
   version: V12.0.2.0.QCSMIXM
+- android: '9.0'
+  branch: Stable
+  codename: tulip_global
+  date: 2020-09-23
+  link: https://bigota.d.miui.com/V11.0.6.0.PEKMIXM/miui_HMNote6ProGlobal_V11.0.6.0.PEKMIXM_d3abd03ac2_9.0.zip
+  md5: d3abd03ac2458c95d8a3b7e7abffd6f7
+  method: Recovery
+  name: Redmi Note 6 Pro Global
+  size: 1.9 GB
+  version: V11.0.6.0.PEKMIXM
+- android: '9.0'
+  branch: Stable
+  codename: whyred_global
+  date: 2020-09-23
+  link: https://bigota.d.miui.com/V11.0.5.0.PEIMIXM/miui_HMNote5Global_V11.0.5.0.PEIMIXM_45f26eac62_9.0.zip
+  md5: 45f26eac62ad61f8944f5bda68e366ad
+  method: Recovery
+  name: Redmi Note 5 / Note 5 Pro Global
+  size: 1.9 GB
+  version: V11.0.5.0.PEIMIXM
 - android: '10.0'
   branch: Stable
   codename: laurel_sprout_global
@@ -428,6 +428,16 @@
   name: Mi A3 Global
   size: 1.3 GB
   version: V11.0.21.0.QFQMIXM
+- android: '10.0'
+  branch: Stable
+  codename: sirius
+  date: 2020-09-23
+  link: https://bigota.d.miui.com/V12.0.2.0.QEBCNXM/miui_MI8SE_V12.0.2.0.QEBCNXM_09d4db05cb_10.0.zip
+  md5: 09d4db05cb055b49ade9bc7de4102130
+  method: Recovery
+  name: Mi 8 SE China
+  size: 2.0 GB
+  version: V12.0.2.0.QEBCNXM
 - android: '9.0'
   branch: Stable
   codename: cactus_global
@@ -668,6 +678,26 @@
   name: Redmi Note 8 Indonesia
   size: 3.6 GB
   version: V11.0.6.0.PCOIDXM
+- android: '9.0'
+  branch: Stable
+  codename: tulip_global
+  date: 2020-09-17
+  link: https://bigota.d.miui.com/V11.0.6.0.PEKMIXM/tulip_global_images_V11.0.6.0.PEKMIXM_20200917.0000.00_9.0_global_6132313624.tgz
+  md5: 6132313624f7863b2cf8e5792b7dc242
+  method: Fastboot
+  name: Redmi Note 6 Pro Global
+  size: 2.5 GB
+  version: V11.0.6.0.PEKMIXM
+- android: '9.0'
+  branch: Stable
+  codename: whyred_global
+  date: 2020-09-17
+  link: https://bigota.d.miui.com/V11.0.5.0.PEIMIXM/whyred_global_images_V11.0.5.0.PEIMIXM_20200917.0000.00_9.0_global_46113830ee.tgz
+  md5: 46113830ee78877f30a67eb20ac5e940
+  method: Fastboot
+  name: Redmi Note 5 / Note 5 Pro Global
+  size: 2.4 GB
+  version: V11.0.5.0.PEIMIXM
 - android: '10.0'
   branch: Stable
   codename: laurel_sprout_global
@@ -1188,6 +1218,16 @@
   name: Redmi Note 8 India
   size: 2.8 GB
   version: V11.0.6.0.PCOINXM
+- android: '10.0'
+  branch: Stable
+  codename: sirius
+  date: 2020-09-08
+  link: https://bigota.d.miui.com/V12.0.2.0.QEBCNXM/sirius_images_V12.0.2.0.QEBCNXM_20200908.0000.00_10.0_cn_d02fa1473e.tgz
+  md5: d02fa1473e1583524b5c77da9dfbd2ae
+  method: Fastboot
+  name: Mi 8 SE China
+  size: 2.6 GB
+  version: V12.0.2.0.QEBCNXM
 - android: '10.0'
   branch: Stable
   codename: olivewood_id_global
@@ -2070,16 +2110,6 @@
   version: V11.0.1.0.QCPIDXM
 - android: '9.0'
   branch: Stable
-  codename: tulip_global
-  date: 2020-08-19
-  link: https://bigota.d.miui.com/V11.0.5.0.PEKMIXM/miui_HMNote6ProGlobal_V11.0.5.0.PEKMIXM_49b9874b65_9.0.zip
-  md5: 49b9874b65067d51fe931c5d95163f57
-  method: Recovery
-  name: Redmi Note 6 Pro Global
-  size: 1.9 GB
-  version: V11.0.5.0.PEKMIXM
-- android: '9.0'
-  branch: Stable
   codename: willow_eea_global
   date: 2020-08-19
   link: https://bigota.d.miui.com/V11.0.11.0.PCXEUXM/willow_eea_global_images_V11.0.11.0.PCXEUXM_20200819.0000.00_9.0_eea_23523ab51f.tgz
@@ -2378,16 +2408,6 @@
   name: Redmi Note 9 Russia
   size: 3.6 GB
   version: V12.0.1.0.QJORUXM
-- android: '9.0'
-  branch: Stable
-  codename: tulip_global
-  date: 2020-08-15
-  link: https://bigota.d.miui.com/V11.0.5.0.PEKMIXM/tulip_global_images_V11.0.5.0.PEKMIXM_20200815.0000.00_9.0_global_69fdf7e8d0.tgz
-  md5: 69fdf7e8d09bb63cb4ba4d2a2ec5391d
-  method: Fastboot
-  name: Redmi Note 6 Pro Global
-  size: 2.4 GB
-  version: V11.0.5.0.PEKMIXM
 - android: '10.0'
   branch: Stable
   codename: dandelion_global
@@ -4130,16 +4150,6 @@
   version: V11.0.3.0.QGGRUXM
 - android: '10.0'
   branch: Stable
-  codename: sirius
-  date: 2020-05-25
-  link: https://bigota.d.miui.com/V11.0.3.0.QEBCNXM/miui_MI8SE_V11.0.3.0.QEBCNXM_fd6c55042a_10.0.zip
-  md5: fd6c55042a796f039027e1f298efde3a
-  method: Recovery
-  name: Mi 8 SE China
-  size: 2.1 GB
-  version: V11.0.3.0.QEBCNXM
-- android: '10.0'
-  branch: Stable
   codename: nitrogen_ru_global
   date: 2020-05-21
   link: https://bigota.d.miui.com/V11.0.2.0.QEDRUXM/nitrogen_ru_global_images_V11.0.2.0.QEDRUXM_20200521.0000.00_10.0_global_e14f21da3f.tgz
@@ -4188,16 +4198,6 @@
   name: Mi 6X China
   size: 2.0 GB
   version: V11.0.6.0.PDCCNXM
-- android: '10.0'
-  branch: Stable
-  codename: sirius
-  date: 2020-05-12
-  link: https://bigota.d.miui.com/V11.0.3.0.QEBCNXM/sirius_images_V11.0.3.0.QEBCNXM_20200512.0000.00_10.0_cn_102a13ab59.tgz
-  md5: 102a13ab595ea19a96ea371b7b458cfa
-  method: Fastboot
-  name: Mi 8 SE China
-  size: 2.5 GB
-  version: V11.0.3.0.QEBCNXM
 - android: '9.0'
   branch: Stable
   codename: wayne
@@ -4618,16 +4618,6 @@
   name: Mi Note 2 Global
   size: 1.7 GB
   version: V11.0.2.0.OADMIXM
-- android: '9.0'
-  branch: Stable
-  codename: whyred_global
-  date: 2019-11-13
-  link: https://bigota.d.miui.com/V11.0.3.0.PEIMIXM/miui_HMNote5Global_V11.0.3.0.PEIMIXM_ff4c5a6b1a_9.0.zip
-  md5: ff4c5a6b1af0388a2f4a9634de846231
-  method: Recovery
-  name: Redmi Note 5 / Note 5 Pro Global
-  size: 1.8 GB
-  version: V11.0.3.0.PEIMIXM
 - android: '7.1'
   branch: Stable
   codename: santoni
@@ -4768,16 +4758,6 @@
   name: Redmi 5 Plus / Note 5 Global
   size: 2.0 GB
   version: V11.0.2.0.OEGMIXM
-- android: '9.0'
-  branch: Stable
-  codename: whyred_global
-  date: 2019-11-08
-  link: https://bigota.d.miui.com/V11.0.3.0.PEIMIXM/whyred_global_images_V11.0.3.0.PEIMIXM_20191108.0000.00_9.0_global_f128798d03.tgz
-  md5: f128798d03976382e4c88258eae62a72
-  method: Fastboot
-  name: Redmi Note 5 / Note 5 Pro Global
-  size: 2.4 GB
-  version: V11.0.3.0.PEIMIXM
 - android: '8.1'
   branch: Stable
   codename: rosy_ru_global
