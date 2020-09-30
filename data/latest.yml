@@ -1,5 +1,15 @@
 - android: '10.0'
   branch: Stable Beta
+  codename: ginkgo
+  date: 2020-09-30
+  link: https://bigota.d.miui.com/V12.0.2.0.QCOCNXM/miui_GINKGO_V12.0.2.0.QCOCNXM_fad5afbf68_10.0.zip
+  md5: null
+  method: Recovery
+  name: Redmi Note 8 China
+  size: 2.5 GB
+  version: V12.0.2.0.QCOCNXM
+- android: '10.0'
+  branch: Stable Beta
   codename: cepheus
   date: 2020-09-29
   link: https://bigota.d.miui.com/V12.0.4.0.QFACNXM/miui_CEPHEUS_V12.0.4.0.QFACNXM_7a7f45fb4a_10.0.zip
@@ -100,16 +110,6 @@
   version: V12.0.4.0.QJKIDXM
 - android: '10.0'
   branch: Stable Beta
-  codename: lancelot
-  date: 2020-09-26
-  link: https://bigota.d.miui.com/V12.0.4.0.QJCCNXM/miui_LANCELOT_V12.0.4.0.QJCCNXM_c97f5caa5e_10.0.zip
-  md5: c97f5caa5e347b9dfa888fed3c52e5c0
-  method: Recovery
-  name: Redmi 9 China
-  size: 2.1 GB
-  version: V12.0.4.0.QJCCNXM
-- android: '10.0'
-  branch: Stable Beta
   codename: begonia
   date: 2020-09-25
   link: https://bigota.d.miui.com/V12.0.3.0.QGGCNXM/miui_BEGONIA_V12.0.3.0.QGGCNXM_42e1368dc7_10.0.zip
@@ -138,16 +138,6 @@
   name: Redmi 8 Global
   size: 2.0 GB
   version: V11.0.3.0.QCNMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lancelot_ru_global
-  date: 2020-09-25
-  link: https://bigota.d.miui.com/V11.0.7.0.QJCRUXM/miui_LANCELOTRUGlobal_V11.0.7.0.QJCRUXM_7d783f77af_10.0.zip
-  md5: 7d783f77af0104987ce7a0b59ded7215
-  method: Recovery
-  name: Redmi 9 Russia
-  size: 1.9 GB
-  version: V11.0.7.0.QJCRUXM
 - android: '10.0'
   branch: Stable Beta
   codename: curtana_tr_global
@@ -290,6 +280,16 @@
   version: V12.0.3.0.QGGRUXM
 - android: '10.0'
   branch: Stable Beta
+  codename: lancelot
+  date: 2020-08-14
+  link: https://bigota.d.miui.com/V11.0.5.0.QJCCNXM/miui_LANCELOT_V11.0.5.0.QJCCNXM_1fc09d6ff1_10.0.zip
+  md5: 1fc09d6ff1cdd66a513703af2644416f
+  method: Recovery
+  name: Redmi 9 China
+  size: 2.0 GB
+  version: V11.0.5.0.QJCCNXM
+- android: '10.0'
+  branch: Stable Beta
   codename: lancelot_eea_global
   date: 2020-08-13
   link: https://bigota.d.miui.com/V11.0.5.0.QJCEUXM/miui_LANCELOTEEAGlobal_V11.0.5.0.QJCEUXM_ec3a4c98d9_10.0.zip
@@ -350,6 +350,56 @@
   version: V12.0.7.0.QJBCNXM
 - android: '10.0'
   branch: Stable
+  codename: jasmine_global
+  date: 2020-09-30
+  link: https://bigota.d.miui.com/V11.0.14.0.QDIMIXM/miui_JASMINEGlobal_V11.0.14.0.QDIMIXM_6e562068f2_10.0.zip
+  md5: 6e562068f2c4f560d448228a980046c7
+  method: Recovery
+  name: Mi A2 Global
+  size: 1.4 GB
+  version: V11.0.14.0.QDIMIXM
+- android: '10.0'
+  branch: Stable
+  codename: laurel_sprout_eea_global
+  date: 2020-09-30
+  link: https://bigota.d.miui.com/V11.0.8.0.QFQEUXM/miui_LAURELSPROUTEEAGlobal_V11.0.8.0.QFQEUXM_7cd89c6e33_10.0.zip
+  md5: 7cd89c6e33ae7cbd8405f4320787e6b7
+  method: Recovery
+  name: Mi A3 EEA
+  size: 1.3 GB
+  version: V11.0.8.0.QFQEUXM
+- android: '10.0'
+  branch: Stable
+  codename: jasmine_global
+  date: 2020-09-28
+  link: https://bigota.d.miui.com/V11.0.14.0.QDIMIXM/jasmine_global_images_V11.0.14.0.QDIMIXM_20200928.0000.00_10.0_62d0264480.tgz
+  md5: 62d0264480c5dabea249af0512452020
+  method: Fastboot
+  name: Mi A2 Global
+  size: 1.7 GB
+  version: V11.0.14.0.QDIMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot
+  date: 2020-09-26
+  link: https://bigota.d.miui.com/V12.0.4.0.QJCCNXM/miui_LANCELOT_V12.0.4.0.QJCCNXM_c97f5caa5e_10.0.zip
+  md5: c97f5caa5e347b9dfa888fed3c52e5c0
+  method: Recovery
+  name: Redmi 9 China
+  size: 2.1 GB
+  version: V12.0.4.0.QJCCNXM
+- android: '10.0'
+  branch: Stable
+  codename: laurel_sprout_eea_global
+  date: 2020-09-26
+  link: https://bigota.d.miui.com/V11.0.8.0.QFQEUXM/laurel_sprout_eea_global_images_V11.0.8.0.QFQEUXM_20200926.0000.00_10.0_1e84b7ff7d.tgz
+  md5: 1e84b7ff7d175476b41842c2a743a979
+  method: Fastboot
+  name: Mi A3 EEA
+  size: 2.1 GB
+  version: V11.0.8.0.QFQEUXM
+- android: '10.0'
+  branch: Stable
   codename: lancelot_id_global
   date: 2020-09-25
   link: https://bigota.d.miui.com/V11.0.6.0.QJCIDXM/lancelot_id_global_images_V11.0.6.0.QJCIDXM_20200910.0000.00_10.0_global_3f65f152e2.tgz
@@ -358,6 +408,16 @@
   name: Redmi 9 Indonesia
   size: 3.5 GB
   version: V11.0.6.0.QJCIDXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot_ru_global
+  date: 2020-09-25
+  link: https://bigota.d.miui.com/V11.0.7.0.QJCRUXM/miui_LANCELOTRUGlobal_V11.0.7.0.QJCRUXM_7d783f77af_10.0.zip
+  md5: 7d783f77af0104987ce7a0b59ded7215
+  method: Recovery
+  name: Redmi 9 Russia
+  size: 1.9 GB
+  version: V11.0.7.0.QJCRUXM
 - android: '9.0'
   branch: Stable
   codename: ginkgo_id_global
@@ -498,6 +558,16 @@
   name: Redmi 6 Global
   size: 1.5 GB
   version: V11.0.5.0.PCGMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot
+  date: 2020-09-22
+  link: https://bigota.d.miui.com/V12.0.4.0.QJCCNXM/lancelot_images_V12.0.4.0.QJCCNXM_20200922.0000.00_10.0_cn_fe7e8523fe.tgz
+  md5: fe7e8523fe1d77fe8d6e219729651524
+  method: Fastboot
+  name: Redmi 9 China
+  size: 3.0 GB
+  version: V12.0.4.0.QJCCNXM
 - android: '9.0'
   branch: Stable
   codename: onclite
@@ -528,6 +598,16 @@
   name: Mi 8 Lite Global
   size: 2.0 GB
   version: V12.0.3.0.QDTMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot_ru_global
+  date: 2020-09-21
+  link: https://bigota.d.miui.com/V11.0.7.0.QJCRUXM/lancelot_ru_global_images_V11.0.7.0.QJCRUXM_20200921.0000.00_10.0_global_bcd2c4aa64.tgz
+  md5: bcd2c4aa64c85cd34537f8d33174f6ca
+  method: Fastboot
+  name: Redmi 9 Russia
+  size: 3.6 GB
+  version: V11.0.7.0.QJCRUXM
 - android: '10.0'
   branch: Stable
   codename: angelica_global
@@ -1678,16 +1758,6 @@
   name: Mi 9 Global
   size: 2.5 GB
   version: V12.0.2.0.QFAMIXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot
-  date: 2020-08-26
-  link: https://bigota.d.miui.com/V11.0.7.0.QJCCNXM/miui_LANCELOT_V11.0.7.0.QJCCNXM_f5becd3110_10.0.zip
-  md5: f5becd3110d0bc39e31aaa5984aa9c43
-  method: Recovery
-  name: Redmi 9 China
-  size: 2.0 GB
-  version: V11.0.7.0.QJCCNXM
 - android: '9.0'
   branch: Stable
   codename: onc_in_global
@@ -1900,26 +1970,6 @@
   version: V10.0.24.0.PDHMIXM
 - android: '10.0'
   branch: Stable
-  codename: jasmine_global
-  date: 2020-08-23
-  link: https://bigota.d.miui.com/V11.0.13.0.QDIMIXM/miui_JASMINEGlobal_V11.0.13.0.QDIMIXM_5b4de8dcd4_10.0.zip
-  md5: 5b4de8dcd4b348d20d8b8fe48af4bcfc
-  method: Recovery
-  name: Mi A2 Global
-  size: 1.4 GB
-  version: V11.0.13.0.QDIMIXM
-- android: '10.0'
-  branch: Stable
-  codename: laurel_sprout_eea_global
-  date: 2020-08-23
-  link: https://bigota.d.miui.com/V11.0.6.0.QFQEUXM/miui_LAURELSPROUTEEAGlobal_V11.0.6.0.QFQEUXM_85c4733559_10.0.zip
-  md5: 85c473355994a0df29871330251466de
-  method: Recovery
-  name: Mi A3 EEA
-  size: 1.3 GB
-  version: V11.0.6.0.QFQEUXM
-- android: '10.0'
-  branch: Stable
   codename: cas
   date: 2020-08-23
   link: https://bigota.d.miui.com/V12.0.8.0.QJJCNXM/cas_images_V12.0.8.0.QJJCNXM_20200823.0000.00_10.0_cn_8c57a38882.tgz
@@ -2058,16 +2108,6 @@
   name: Mi 9 Global
   size: 3.2 GB
   version: V12.0.2.0.QFAMIXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot
-  date: 2020-08-20
-  link: https://bigota.d.miui.com/V11.0.7.0.QJCCNXM/lancelot_images_V11.0.7.0.QJCCNXM_20200820.0000.00_10.0_cn_98b4fc97d7.tgz
-  md5: 98b4fc97d7fd55b6b1ae11224be96421
-  method: Fastboot
-  name: Redmi 9 China
-  size: 2.9 GB
-  version: V11.0.7.0.QJCCNXM
 - android: '9.0'
   branch: Stable
   codename: jason
@@ -2158,16 +2198,6 @@
   name: Mi 9 Lite EEA
   size: 3.2 GB
   version: V12.0.3.0.QFCEUXM
-- android: '10.0'
-  branch: Stable
-  codename: jasmine_global
-  date: 2020-08-19
-  link: https://bigota.d.miui.com/V11.0.13.0.QDIMIXM/jasmine_global_images_V11.0.13.0.QDIMIXM_20200819.0000.00_10.0_8702a6f736.tgz
-  md5: 8702a6f736b8e7377e8cb133955b997b
-  method: Fastboot
-  name: Mi A2 Global
-  size: 1.7 GB
-  version: V11.0.13.0.QDIMIXM
 - android: '10.0'
   branch: Stable
   codename: pyxis_global
@@ -2358,16 +2388,6 @@
   name: Mi MIX 2S Russia
   size: 2.6 GB
   version: V12.0.1.0.QDGRUXM
-- android: '10.0'
-  branch: Stable
-  codename: laurel_sprout_eea_global
-  date: 2020-08-17
-  link: https://bigota.d.miui.com/V11.0.6.0.QFQEUXM/laurel_sprout_eea_global_images_V11.0.6.0.QFQEUXM_20200817.0000.00_10.0_b721dbb2fb.tgz
-  md5: b721dbb2fbaa81d112bb4c11b8fd2f6d
-  method: Fastboot
-  name: Mi A3 EEA
-  size: 2.1 GB
-  version: V11.0.6.0.QFQEUXM
 - android: '10.0'
   branch: Stable
   codename: lmi_ru_global
@@ -3038,16 +3058,6 @@
   name: Redmi 7A Russia
   size: 1.7 GB
   version: V11.0.2.0.QCMRUXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot_ru_global
-  date: 2020-08-03
-  link: https://bigota.d.miui.com/V11.0.5.0.QJCRUXM/miui_LANCELOTRUGlobal_V11.0.5.0.QJCRUXM_a835536aa9_10.0.zip
-  md5: a835536aa9ca1061914c34b76d649160
-  method: Recovery
-  name: Redmi 9 Russia
-  size: 1.9 GB
-  version: V11.0.5.0.QJCRUXM
 - android: '10.0'
   branch: Stable
   codename: atom
@@ -4088,16 +4098,6 @@
   name: Redmi 7 Global
   size: 1.9 GB
   version: V11.0.6.0.PFLMIXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot_ru_global
-  date: 2020-06-20
-  link: https://bigota.d.miui.com/V11.0.5.0.QJCRUXM/lancelot_ru_global_images_V11.0.5.0.QJCRUXM_20200620.0000.00_10.0_global_bc89463dae.tgz
-  md5: bc89463daed194a8aa64b453a2f2b5fa
-  method: Fastboot
-  name: Redmi 9 Russia
-  size: 3.6 GB
-  version: V11.0.5.0.QJCRUXM
 - android: '10.0'
   branch: Stable
   codename: curtana_tr_global
