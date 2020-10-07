@@ -25,4 +25,4 @@ We're part of Xiaomi Community's discord server! Join us [Here](https://discord.
 #### Developer: [yshalsager](https://github.com/yshalsager)
 
 #### XiaomiFirmwareUpdater Project is Supported By:
-[![Packet](https://raw.githubusercontent.com/XiaomiFirmwareUpdater/xiaomifirmwareupdater.github.io/master/images/Packet_logo_sm.png)](https://www.packet.net)
+<a href='https://metal.equinix.com/' target="_blank"><img alt='Equinix Metal' src='https://metal.equinix.com/metal/images/logo/equinix-metal-full.svg' width='250px' /></a>
