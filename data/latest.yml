@@ -6,7 +6,7 @@
   md5: a5f9fd24f1c2db0864b24a511a5d4511
   method: Recovery
   name: Redmi 10X 5G China
-  size: 2.6 GB
+  size: 2.7 GB
   version: V12.0.5.0.QJHCNXM
 - android: '9.0'
   branch: Stable Beta
@@ -168,16 +168,6 @@
   name: Redmi K30 Pro China
   size: 3.5 GB
   version: V12.1.3.0.RJKCNXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lmi_global
-  date: 2020-09-29
-  link: https://bigota.d.miui.com/V12.0.4.0.QJKMIXM/miui_LMIGlobal_V12.0.4.0.QJKMIXM_72b1da9230_10.0.zip
-  md5: 72b1da9230f5d59e6460f4bb43cec215
-  method: Recovery
-  name: POCO F2 Pro Global
-  size: 3.0 GB
-  version: V12.0.4.0.QJKMIXM
 - android: '10.0'
   branch: Stable Beta
   codename: raphael
@@ -510,6 +500,16 @@
   version: V11.0.8.0.QFQEUXM
 - android: '10.0'
   branch: Stable
+  codename: lmi_global
+  date: 2020-09-29
+  link: https://bigota.d.miui.com/V12.0.4.0.QJKMIXM/miui_LMIGlobal_V12.0.4.0.QJKMIXM_72b1da9230_10.0.zip
+  md5: 72b1da9230f5d59e6460f4bb43cec215
+  method: Recovery
+  name: POCO F2 Pro Global
+  size: 3.0 GB
+  version: V12.0.4.0.QJKMIXM
+- android: '10.0'
+  branch: Stable
   codename: gram_in_global
   date: 2020-09-29
   link: https://bigota.d.miui.com/V12.0.1.0.QJPINXM/miui_GRAMINGlobal_V12.0.1.0.QJPINXM_be860b8c30_10.0.zip
@@ -718,6 +718,16 @@
   name: Mi 9 Russia
   size: 2.5 GB
   version: V12.0.2.0.QFARUXM
+- android: '10.0'
+  branch: Stable
+  codename: lmi_global
+  date: 2020-09-23
+  link: https://bigota.d.miui.com/V12.0.4.0.QJKMIXM/lmi_global_images_V12.0.4.0.QJKMIXM_20200923.0000.00_10.0_global_18b68d3e34.tgz
+  md5: 18b68d3e34d0f864222afd395dd6357b
+  method: Fastboot
+  name: POCO F2 Pro Global
+  size: 4.6 GB
+  version: V12.0.4.0.QJKMIXM
 - android: '10.0'
   branch: Stable
   codename: raphael_ru_global
@@ -1920,16 +1930,6 @@
   version: V12.0.11.0.QJNCNXM
 - android: '10.0'
   branch: Stable
-  codename: olivewood_in_global
-  date: 2020-09-01
-  link: https://bigota.d.miui.com/V11.0.1.0.QCQINXM/miui_OLIVEWOODINGlobal_V11.0.1.0.QCQINXM_4dbc00b40a_10.0.zip
-  md5: 4dbc00b40a29133fd174cb21ccaa610b
-  method: Recovery
-  name: Redmi 8A Dual India
-  size: 1.7 GB
-  version: V11.0.1.0.QCQINXM
-- android: '10.0'
-  branch: Stable
   codename: olivelite
   date: 2020-09-01
   link: https://bigota.d.miui.com/V11.0.3.0.QCPCNXM/olivelite_images_V11.0.3.0.QCPCNXM_20200901.0000.00_10.0_cn_e54db6e67a.tgz
@@ -1938,6 +1938,16 @@
   name: Redmi 8A China
   size: 2.7 GB
   version: V11.0.3.0.QCPCNXM
+- android: '10.0'
+  branch: Stable
+  codename: olivewood_in_global
+  date: 2020-09-01
+  link: https://bigota.d.miui.com/V11.0.1.0.QCQINXM/miui_OLIVEWOODINGlobal_V11.0.1.0.QCQINXM_4dbc00b40a_10.0.zip
+  md5: 4dbc00b40a29133fd174cb21ccaa610b
+  method: Recovery
+  name: Redmi 8A Dual India
+  size: 1.7 GB
+  version: V11.0.1.0.QCQINXM
 - android: '10.0'
   branch: Stable
   codename: olivewood_id_global
@@ -2098,16 +2108,6 @@
   name: Mi 9 Global
   size: 2.5 GB
   version: V12.0.2.0.QFAMIXM
-- android: '10.0'
-  branch: Stable
-  codename: olivewood_in_global
-  date: 2020-08-26
-  link: https://bigota.d.miui.com/V11.0.1.0.QCQINXM/olivewood_in_global_images_V11.0.1.0.QCQINXM_20200826.0000.00_10.0_in_bb2716c97e.tgz
-  md5: bb2716c97e1eb29de16fe73286272aa6
-  method: Fastboot
-  name: Redmi 8A Dual India
-  size: 2.5 GB
-  version: V11.0.1.0.QCQINXM
 - android: '9.0'
   branch: Stable
   codename: onc_in_global
@@ -2118,6 +2118,16 @@
   name: Redmi Y3 India
   size: 1.8 GB
   version: V11.0.10.0.PFFINXM
+- android: '10.0'
+  branch: Stable
+  codename: olivewood_in_global
+  date: 2020-08-26
+  link: https://bigota.d.miui.com/V11.0.1.0.QCQINXM/olivewood_in_global_images_V11.0.1.0.QCQINXM_20200826.0000.00_10.0_in_bb2716c97e.tgz
+  md5: bb2716c97e1eb29de16fe73286272aa6
+  method: Fastboot
+  name: Redmi 8A Dual India
+  size: 2.5 GB
+  version: V11.0.1.0.QCQINXM
 - android: '10.0'
   branch: Stable
   codename: perseus_global
@@ -2490,16 +2500,6 @@
   version: V12.0.1.0.QJIMIXM
 - android: '10.0'
   branch: Stable
-  codename: olivelite_id_global
-  date: 2020-08-19
-  link: https://bigota.d.miui.com/V11.0.1.0.QCPIDXM/miui_OLIVELITEIDGlobal_V11.0.1.0.QCPIDXM_274cc5c011_10.0.zip
-  md5: 274cc5c011556bbc5e890efd3cb95cbb
-  method: Recovery
-  name: Redmi 8A Indonesia
-  size: 1.7 GB
-  version: V11.0.1.0.QCPIDXM
-- android: '10.0'
-  branch: Stable
   codename: olive_id_global
   date: 2020-08-19
   link: https://bigota.d.miui.com/V11.0.1.0.QCNIDXM/miui_OLIVEIDGlobal_V11.0.1.0.QCNIDXM_7642124459_10.0.zip
@@ -2508,6 +2508,16 @@
   name: Redmi 8 Indonesia
   size: 2.0 GB
   version: V11.0.1.0.QCNIDXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_id_global
+  date: 2020-08-19
+  link: https://bigota.d.miui.com/V11.0.1.0.QCPIDXM/miui_OLIVELITEIDGlobal_V11.0.1.0.QCPIDXM_274cc5c011_10.0.zip
+  md5: 274cc5c011556bbc5e890efd3cb95cbb
+  method: Recovery
+  name: Redmi 8A Indonesia
+  size: 1.7 GB
+  version: V11.0.1.0.QCPIDXM
 - android: '9.0'
   branch: Stable
   codename: willow_eea_global
@@ -2658,16 +2668,6 @@
   name: Mi 9 SE EEA
   size: 2.5 GB
   version: V12.0.1.0.QFBEUXM
-- android: '10.0'
-  branch: Stable
-  codename: lmi_global
-  date: 2020-08-17
-  link: https://bigota.d.miui.com/V12.0.3.0.QJKMIXM/miui_LMIGlobal_V12.0.3.0.QJKMIXM_a4c5b43d82_10.0.zip
-  md5: a4c5b43d822b02bab167992467f0df58
-  method: Recovery
-  name: POCO F2 Pro Global
-  size: 2.9 GB
-  version: V12.0.3.0.QJKMIXM
 - android: '10.0'
   branch: Stable
   codename: grus_global
@@ -2950,26 +2950,6 @@
   version: V12.0.5.0.QJOCNXM
 - android: '10.0'
   branch: Stable
-  codename: olivelite_in_global
-  date: 2020-08-11
-  link: https://bigota.d.miui.com/V11.0.1.0.QCPINXM/olivelite_in_global_images_V11.0.1.0.QCPINXM_20200811.0000.00_10.0_in_91e4570eec.tgz
-  md5: 91e4570eecbf75b111889da5eac12f4c
-  method: Fastboot
-  name: Redmi 8A India
-  size: 2.6 GB
-  version: V11.0.1.0.QCPINXM
-- android: '10.0'
-  branch: Stable
-  codename: olivelite_ru_global
-  date: 2020-08-11
-  link: https://bigota.d.miui.com/V11.0.1.0.QCPRUXM/olivelite_ru_global_images_V11.0.1.0.QCPRUXM_20200811.0000.00_10.0_global_23a5c88313.tgz
-  md5: 23a5c8831383eb7e1c503d8bae86d2d4
-  method: Fastboot
-  name: Redmi 8A Russia
-  size: 3.2 GB
-  version: V11.0.1.0.QCPRUXM
-- android: '10.0'
-  branch: Stable
   codename: olive_ru_global
   date: 2020-08-11
   link: https://bigota.d.miui.com/V11.0.1.0.QCNRUXM/olive_ru_global_images_V11.0.1.0.QCNRUXM_20200811.0000.00_10.0_global_12d7138f73.tgz
@@ -2988,6 +2968,26 @@
   name: Mi Max 3 China
   size: 2.1 GB
   version: V12.0.1.0.QEDCNXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_in_global
+  date: 2020-08-11
+  link: https://bigota.d.miui.com/V11.0.1.0.QCPINXM/olivelite_in_global_images_V11.0.1.0.QCPINXM_20200811.0000.00_10.0_in_91e4570eec.tgz
+  md5: 91e4570eecbf75b111889da5eac12f4c
+  method: Fastboot
+  name: Redmi 8A India
+  size: 2.6 GB
+  version: V11.0.1.0.QCPINXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_ru_global
+  date: 2020-08-11
+  link: https://bigota.d.miui.com/V11.0.1.0.QCPRUXM/olivelite_ru_global_images_V11.0.1.0.QCPRUXM_20200811.0000.00_10.0_global_23a5c88313.tgz
+  md5: 23a5c8831383eb7e1c503d8bae86d2d4
+  method: Fastboot
+  name: Redmi 8A Russia
+  size: 3.2 GB
+  version: V11.0.1.0.QCPRUXM
 - android: '10.0'
   branch: Stable
   codename: raphael_eea_global
@@ -3038,16 +3038,6 @@
   name: Mi A1 Global
   size: 1.7 GB
   version: V10.0.24.0.PDHMIXM
-- android: '10.0'
-  branch: Stable
-  codename: lmi_global
-  date: 2020-08-08
-  link: https://bigota.d.miui.com/V12.0.3.0.QJKMIXM/lmi_global_images_V12.0.3.0.QJKMIXM_20200808.0000.00_10.0_global_e622045452.tgz
-  md5: e622045452a92afc2101b31e0fb98e15
-  method: Fastboot
-  name: POCO F2 Pro Global
-  size: 4.6 GB
-  version: V12.0.3.0.QJKMIXM
 - android: '10.0'
   branch: Stable
   codename: lmi_ru_global
