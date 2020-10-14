@@ -90,16 +90,6 @@
   version: V12.0.3.0.QJKEUXM
 - android: '10.0'
   branch: Stable Beta
-  codename: olivelite_global
-  date: 2020-10-09
-  link: https://bigota.d.miui.com/V11.0.2.0.QCPMIXM/miui_OLIVELITEGlobal_V11.0.2.0.QCPMIXM_8b2e928a61_10.0.zip
-  md5: 8b2e928a6141dca3671e7a02ff44ad86
-  method: Recovery
-  name: Redmi 8A Global
-  size: 1.8 GB
-  version: V11.0.2.0.QCPMIXM
-- android: '10.0'
-  branch: Stable Beta
   codename: pine_global
   date: 2020-10-09
   link: https://bigota.d.miui.com/V11.0.4.0.QCMMIXM/miui_PINEGlobal_V11.0.4.0.QCMMIXM_48739f67b4_10.0.zip
@@ -418,6 +408,16 @@
   name: Redmi 9A Global
   size: 1.6 GB
   version: V12.0.6.0.QCDMIXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_global
+  date: 2020-10-09
+  link: https://bigota.d.miui.com/V11.0.2.0.QCPMIXM/miui_OLIVELITEGlobal_V11.0.2.0.QCPMIXM_8b2e928a61_10.0.zip
+  md5: 8b2e928a6141dca3671e7a02ff44ad86
+  method: Recovery
+  name: Redmi 8A Global
+  size: 1.8 GB
+  version: V11.0.2.0.QCPMIXM
 - android: '9.0'
   branch: Stable
   codename: ginkgo_global
@@ -608,6 +608,16 @@
   name: Redmi 8 Global
   size: 2.0 GB
   version: V11.0.3.0.QCNMIXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_global
+  date: 2020-09-25
+  link: https://bigota.d.miui.com/V11.0.2.0.QCPMIXM/olivelite_global_images_V11.0.2.0.QCPMIXM_20200925.0000.00_10.0_global_886496ba27.tgz
+  md5: 886496ba275424afa1dc2ba02cb75dc0
+  method: Fastboot
+  name: Redmi 8A Global
+  size: 3.2 GB
+  version: V11.0.2.0.QCPMIXM
 - android: '10.0'
   branch: Stable
   codename: lancelot_id_global
@@ -3328,16 +3338,6 @@
   name: Mi 9 SE China
   size: 3.5 GB
   version: V12.0.2.0.QFBCNXM
-- android: '10.0'
-  branch: Stable
-  codename: olivelite_global
-  date: 2020-08-04
-  link: https://bigota.d.miui.com/V11.0.1.0.QCPMIXM/miui_OLIVELITEGlobal_V11.0.1.0.QCPMIXM_0d091c0c4e_10.0.zip
-  md5: 0d091c0c4e848e2268dd8165eacafb1d
-  method: Recovery
-  name: Redmi 8A Global
-  size: 1.8 GB
-  version: V11.0.1.0.QCPMIXM
 - android: '8.1'
   branch: Stable
   codename: lotus
@@ -3478,16 +3478,6 @@
   name: POCO F2 Pro EEA
   size: 4.7 GB
   version: V12.0.2.0.QJKEUXM
-- android: '10.0'
-  branch: Stable
-  codename: olivelite_global
-  date: 2020-07-30
-  link: https://bigota.d.miui.com/V11.0.1.0.QCPMIXM/olivelite_global_images_V11.0.1.0.QCPMIXM_20200730.0000.00_10.0_global_93673fed06.tgz
-  md5: 93673fed067d31358db7df309edfafed
-  method: Fastboot
-  name: Redmi 8A Global
-  size: 3.3 GB
-  version: V11.0.1.0.QCPMIXM
 - android: '10.0'
   branch: Stable
   codename: begonia_id_global
