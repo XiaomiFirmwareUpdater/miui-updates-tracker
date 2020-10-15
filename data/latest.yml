@@ -90,16 +90,6 @@
   version: V12.0.2.0.QEACNXM
 - android: '10.0'
   branch: Stable Beta
-  codename: lmi_eea_global
-  date: 2020-10-09
-  link: https://bigota.d.miui.com/V12.0.3.0.QJKEUXM/miui_LMIEEAGlobal_V12.0.3.0.QJKEUXM_a9ead2b623_10.0.zip
-  md5: a9ead2b623ae0221f32cf472bbe6d3aa
-  method: Recovery
-  name: POCO F2 Pro EEA
-  size: 3.0 GB
-  version: V12.0.3.0.QJKEUXM
-- android: '10.0'
-  branch: Stable Beta
   codename: pine_global
   date: 2020-10-09
   link: https://bigota.d.miui.com/V11.0.4.0.QCMMIXM/miui_PINEGlobal_V11.0.4.0.QCMMIXM_48739f67b4_10.0.zip
@@ -391,13 +381,13 @@
 - android: '10.0'
   branch: Stable
   codename: apollo_eea_global
-  date: 2020-10-12
-  link: https://bigota.d.miui.com/V12.0.5.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.5.0.QJDEUXM_fc0ec2ed8a_10.0.zip
-  md5: fc0ec2ed8aaa5d1c86f15b00d6757dc2
+  date: 2020-10-15
+  link: https://bigota.d.miui.com/V12.0.6.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.6.0.QJDEUXM_13a98019c8_10.0.zip
+  md5: 13a98019c866f46b6458aee126322894
   method: Recovery
   name: Mi 10T / Mi 10T Pro EEA
   size: 3.0 GB
-  version: V12.0.5.0.QJDEUXM
+  version: V12.0.6.0.QJDEUXM
 - android: '10.0'
   branch: Stable
   codename: dandelion_global
@@ -408,6 +398,16 @@
   name: Redmi 9A Global
   size: 1.6 GB
   version: V12.0.6.0.QCDMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lmi_eea_global
+  date: 2020-10-09
+  link: https://bigota.d.miui.com/V12.0.3.0.QJKEUXM/miui_LMIEEAGlobal_V12.0.3.0.QJKEUXM_a9ead2b623_10.0.zip
+  md5: a9ead2b623ae0221f32cf472bbe6d3aa
+  method: Recovery
+  name: POCO F2 Pro EEA
+  size: 3.0 GB
+  version: V12.0.3.0.QJKEUXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_global
@@ -580,6 +580,16 @@
   version: V12.0.3.0.QJDMIXM
 - android: '10.0'
   branch: Stable
+  codename: apollo_eea_global
+  date: 2020-09-26
+  link: https://bigota.d.miui.com/V12.0.6.0.QJDEUXM/apollo_eea_global_images_V12.0.6.0.QJDEUXM_20200926.0000.00_10.0_eea_eed0142ec3.tgz
+  md5: eed0142ec3223ce0c8c8a5fbfff4bb50
+  method: Fastboot
+  name: Mi 10T / Mi 10T Pro EEA
+  size: 4.4 GB
+  version: V12.0.6.0.QJDEUXM
+- android: '10.0'
+  branch: Stable
   codename: begonia
   date: 2020-09-25
   link: https://bigota.d.miui.com/V12.0.3.0.QGGCNXM/miui_BEGONIA_V12.0.3.0.QGGCNXM_42e1368dc7_10.0.zip
@@ -750,6 +760,16 @@
   version: V12.0.2.0.QFARUXM
 - android: '10.0'
   branch: Stable
+  codename: lmi_eea_global
+  date: 2020-09-23
+  link: https://bigota.d.miui.com/V12.0.3.0.QJKEUXM/lmi_eea_global_images_V12.0.3.0.QJKEUXM_20200923.0000.00_10.0_eea_e53e1f2537.tgz
+  md5: e53e1f25372df33ef3b93bd6c7f7f8e6
+  method: Fastboot
+  name: POCO F2 Pro EEA
+  size: 4.7 GB
+  version: V12.0.3.0.QJKEUXM
+- android: '10.0'
+  branch: Stable
   codename: lmi_global
   date: 2020-09-23
   link: https://bigota.d.miui.com/V12.0.4.0.QJKMIXM/lmi_global_images_V12.0.4.0.QJKMIXM_20200923.0000.00_10.0_global_18b68d3e34.tgz
@@ -878,16 +898,6 @@
   name: Redmi 7 China
   size: 1.9 GB
   version: V11.0.5.0.PFLCNXM
-- android: '10.0'
-  branch: Stable
-  codename: apollo_eea_global
-  date: 2020-09-22
-  link: https://bigota.d.miui.com/V12.0.5.0.QJDEUXM/apollo_eea_global_images_V12.0.5.0.QJDEUXM_20200922.0000.00_10.0_eea_8b13f894d0.tgz
-  md5: 8b13f894d0a03eec0c9e78734f30143b
-  method: Fastboot
-  name: Mi 10T / Mi 10T Pro EEA
-  size: 4.4 GB
-  version: V12.0.5.0.QJDEUXM
 - android: '10.0'
   branch: Stable
   codename: gram_in_global
@@ -3180,16 +3190,6 @@
   version: V12.0.8.0.QJKCNXM
 - android: '10.0'
   branch: Stable
-  codename: lmi_eea_global
-  date: 2020-08-06
-  link: https://bigota.d.miui.com/V12.0.2.0.QJKEUXM/miui_LMIEEAGlobal_V12.0.2.0.QJKEUXM_0b1adc6767_10.0.zip
-  md5: 0b1adc67677c6481ad8f061b7de60ed0
-  method: Recovery
-  name: POCO F2 Pro EEA
-  size: 3.0 GB
-  version: V12.0.2.0.QJKEUXM
-- android: '10.0'
-  branch: Stable
   codename: grus_ru_global
   date: 2020-08-06
   link: https://bigota.d.miui.com/V12.0.1.0.QFBRUXM/grus_ru_global_images_V12.0.1.0.QFBRUXM_20200806.0000.00_10.0_global_9c3919ddb5.tgz
@@ -3478,16 +3478,6 @@
   name: Redmi Note 7 Pro China
   size: 3.2 GB
   version: V12.0.2.0.QFHCNXM
-- android: '10.0'
-  branch: Stable
-  codename: lmi_eea_global
-  date: 2020-07-30
-  link: https://bigota.d.miui.com/V12.0.2.0.QJKEUXM/lmi_eea_global_images_V12.0.2.0.QJKEUXM_20200730.0000.00_10.0_eea_7a4654b9f8.tgz
-  md5: 7a4654b9f87eb99e13baa92f016a6c9e
-  method: Fastboot
-  name: POCO F2 Pro EEA
-  size: 4.7 GB
-  version: V12.0.2.0.QJKEUXM
 - android: '10.0'
   branch: Stable
   codename: begonia_id_global
