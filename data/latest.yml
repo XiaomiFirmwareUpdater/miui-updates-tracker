@@ -23,10 +23,10 @@
   codename: cas
   date: 2020-10-18
   link: https://bigota.d.miui.com/V12.0.13.0.QJJCNXM/miui_CAS_V12.0.13.0.QJJCNXM_ec69c11a77_10.0.zip
-  md5: null
+  md5: ec69c11a770e6744a1e3d0933e89aac8
   method: Recovery
   name: Mi 10 Ultra China
-  size: 3.9 GB
+  size: 4.0 GB
   version: V12.0.13.0.QJJCNXM
 - android: '10.0'
   branch: Stable Beta
@@ -98,16 +98,6 @@
   name: POCO X3 NFC Turkey
   size: 2.4 GB
   version: V12.0.2.0.QJGTRXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: umi_in_global
-  date: 2020-10-14
-  link: https://bigota.d.miui.com/V12.0.3.0.QJBINXM/miui_UMIINGlobal_V12.0.3.0.QJBINXM_ec709ff446_10.0.zip
-  md5: ec709ff446fbab11811a44c363f973cf
-  method: Recovery
-  name: Mi 10 India
-  size: 2.9 GB
-  version: V12.0.3.0.QJBINXM
 - android: '10.0'
   branch: Stable Beta
   codename: grus_global
@@ -400,6 +390,26 @@
   version: V11.0.6.0.QFNMIXM
 - android: '10.0'
   branch: Stable
+  codename: daisy_global
+  date: 2020-10-19
+  link: https://bigota.d.miui.com/V11.0.12.0.QDLMIXM/miui_DAISYGlobal_V11.0.12.0.QDLMIXM_1e8d0d76bb_10.0.zip
+  md5: 1e8d0d76bb52eab29968e9dfa3d24b2f
+  method: Recovery
+  name: Mi A2 Lite Global
+  size: 1.2 GB
+  version: V11.0.12.0.QDLMIXM
+- android: '10.0'
+  branch: Stable
+  codename: apollo_in_global
+  date: 2020-10-19
+  link: https://bigota.d.miui.com/V12.0.2.0.QJDINXM/miui_APOLLOINGlobal_V12.0.2.0.QJDINXM_d3c698e6d6_10.0.zip
+  md5: d3c698e6d691eea9f439c7da107d8d89
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro India
+  size: 2.9 GB
+  version: V12.0.2.0.QJDINXM
+- android: '10.0'
+  branch: Stable
   codename: apollo_eea_global
   date: 2020-10-15
   link: https://bigota.d.miui.com/V12.0.6.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.6.0.QJDEUXM_13a98019c8_10.0.zip
@@ -408,6 +418,26 @@
   name: Mi 10T / Mi 10T Pro EEA
   size: 3.0 GB
   version: V12.0.6.0.QJDEUXM
+- android: '10.0'
+  branch: Stable
+  codename: umi_in_global
+  date: 2020-10-14
+  link: https://bigota.d.miui.com/V12.0.3.0.QJBINXM/miui_UMIINGlobal_V12.0.3.0.QJBINXM_ec709ff446_10.0.zip
+  md5: ec709ff446fbab11811a44c363f973cf
+  method: Recovery
+  name: Mi 10 India
+  size: 2.9 GB
+  version: V12.0.3.0.QJBINXM
+- android: '10.0'
+  branch: Stable
+  codename: daisy_global
+  date: 2020-10-12
+  link: https://bigota.d.miui.com/V11.0.12.0.QDLMIXM/daisy_global_images_V11.0.12.0.QDLMIXM_20201012.0000.00_10.0_89656cbe08.tgz
+  md5: 89656cbe08deaa4e79f871ed9a1ac2aa
+  method: Fastboot
+  name: Mi A2 Lite Global
+  size: 1.5 GB
+  version: V11.0.12.0.QDLMIXM
 - android: '9.0'
   branch: Stable
   codename: chiron_global
@@ -698,6 +728,16 @@
   name: Mi 10T / Mi 10T Pro EEA
   size: 4.4 GB
   version: V12.0.6.0.QJDEUXM
+- android: '10.0'
+  branch: Stable
+  codename: apollo_in_global
+  date: 2020-09-26
+  link: https://bigota.d.miui.com/V12.0.2.0.QJDINXM/apollo_in_global_images_V12.0.2.0.QJDINXM_20200926.0000.00_10.0_in_294970ae23.tgz
+  md5: 294970ae2308da6cc19b0d6712c3d7ab
+  method: Fastboot
+  name: Mi 10T / Mi 10T Pro India
+  size: 3.7 GB
+  version: V12.0.2.0.QJDINXM
 - android: '10.0'
   branch: Stable
   codename: begonia
@@ -1290,6 +1330,16 @@
   version: V12.0.2.0.QJGINXM
 - android: '10.0'
   branch: Stable
+  codename: violet_in_global
+  date: 2020-09-18
+  link: https://bigota.d.miui.com/V12.0.1.0.QFHINXM/miui_VIOLETINGlobal_V12.0.1.0.QFHINXM_634e909327_10.0.zip
+  md5: 634e909327c41f2ddff5c7102ceaace5
+  method: Recovery
+  name: Redmi Note 7 Pro India
+  size: 2.1 GB
+  version: V12.0.1.0.QFHINXM
+- android: '10.0'
+  branch: Stable
   codename: surya_ru_global
   date: 2020-09-18
   link: https://bigota.d.miui.com/V12.0.1.0.QJGRUXM/miui_SURYARUGlobal_V12.0.1.0.QJGRUXM_a221eeaecd_10.0.zip
@@ -1308,16 +1358,6 @@
   name: POCO X3 NFC Turkey
   size: 2.4 GB
   version: V12.0.1.0.QJGTRXM
-- android: '10.0'
-  branch: Stable
-  codename: violet_in_global
-  date: 2020-09-18
-  link: https://bigota.d.miui.com/V12.0.1.0.QFHINXM/miui_VIOLETINGlobal_V12.0.1.0.QFHINXM_634e909327_10.0.zip
-  md5: 634e909327c41f2ddff5c7102ceaace5
-  method: Recovery
-  name: Redmi Note 7 Pro India
-  size: 2.1 GB
-  version: V12.0.1.0.QFHINXM
 - android: '9.0'
   branch: Stable
   codename: ginkgo_id_global
@@ -1460,14 +1500,14 @@
   version: V11.0.8.0.QJCEUXM
 - android: '10.0'
   branch: Stable
-  codename: daisy_global
+  codename: umi_in_global
   date: 2020-09-16
-  link: https://bigota.d.miui.com/V11.0.11.0.QDLMIXM/miui_DAISYGlobal_V11.0.11.0.QDLMIXM_5a0d0cf932_10.0.zip
-  md5: 5a0d0cf932f4a581b0662b4bb6cb01e4
-  method: Recovery
-  name: Mi A2 Lite Global
-  size: 1.2 GB
-  version: V11.0.11.0.QDLMIXM
+  link: https://bigota.d.miui.com/V12.0.3.0.QJBINXM/umi_in_global_images_V12.0.3.0.QJBINXM_20200916.0000.00_10.0_in_82c7e429ca.tgz
+  md5: 82c7e429caab9dbcb9e1cfa1ca7dbb27
+  method: Fastboot
+  name: Mi 10 India
+  size: 3.8 GB
+  version: V12.0.3.0.QJBINXM
 - android: '10.0'
   branch: Stable
   codename: merlin_in_global
@@ -1818,16 +1858,6 @@
   name: Redmi Note 9 India
   size: 2.9 GB
   version: V12.0.4.0.QJOINXM
-- android: '10.0'
-  branch: Stable
-  codename: daisy_global
-  date: 2020-09-10
-  link: https://bigota.d.miui.com/V11.0.11.0.QDLMIXM/daisy_global_images_V11.0.11.0.QDLMIXM_20200910.0000.00_10.0_b5265ba3b8.tgz
-  md5: b5265ba3b800abb9fcdf34fa2f66143a
-  method: Fastboot
-  name: Mi A2 Lite Global
-  size: 1.5 GB
-  version: V11.0.11.0.QDLMIXM
 - android: '10.0'
   branch: Stable
   codename: shiva_in_global
@@ -2960,16 +2990,6 @@
   version: V12.0.3.0.QJKRUXM
 - android: '10.0'
   branch: Stable
-  codename: umi_in_global
-  date: 2020-08-17
-  link: https://bigota.d.miui.com/V12.0.2.0.QJBINXM/miui_UMIINGlobal_V12.0.2.0.QJBINXM_3cf1fc9031_10.0.zip
-  md5: 3cf1fc9031dbbc4c51362b392270a243
-  method: Recovery
-  name: Mi 10 India
-  size: 2.9 GB
-  version: V12.0.2.0.QJBINXM
-- android: '10.0'
-  branch: Stable
   codename: bomb
   date: 2020-08-16
   link: https://bigota.d.miui.com/V12.0.5.0.QJLCNXM/bomb_images_V12.0.5.0.QJLCNXM_20200816.0000.00_10.0_cn_cd796b2a82.tgz
@@ -3348,16 +3368,6 @@
   name: Mi 10 China
   size: 4.7 GB
   version: V12.0.8.0.QJBCNXM
-- android: '10.0'
-  branch: Stable
-  codename: umi_in_global
-  date: 2020-08-06
-  link: https://bigota.d.miui.com/V12.0.2.0.QJBINXM/umi_in_global_images_V12.0.2.0.QJBINXM_20200806.0000.00_10.0_in_2c317adc1d.tgz
-  md5: 2c317adc1d2025278c6b97f6ae917bbb
-  method: Fastboot
-  name: Mi 10 India
-  size: 3.8 GB
-  version: V12.0.2.0.QJBINXM
 - android: '10.0'
   branch: Stable
   codename: umi_ru_global
