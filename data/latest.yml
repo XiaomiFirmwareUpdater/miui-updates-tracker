@@ -240,16 +240,6 @@
   version: V12.0.5.0.QFJMIXM
 - android: '10.0'
   branch: Stable Beta
-  codename: curtana_ru_global
-  date: 2020-10-16
-  link: https://bigota.d.miui.com/V12.0.1.0.QJWRUXM/miui_CURTANARUGlobal_V12.0.1.0.QJWRUXM_0d4f4caac5_10.0.zip
-  md5: 0d4f4caac5109daac5ac4bff27ebf326
-  method: Recovery
-  name: Redmi Note 9S Russia
-  size: 2.5 GB
-  version: V12.0.1.0.QJWRUXM
-- android: '10.0'
-  branch: Stable Beta
   codename: phoenix
   date: 2020-10-15
   link: https://bigota.d.miui.com/V12.0.5.0.QGHCNXM/miui_PHOENIX_V12.0.5.0.QGHCNXM_fc51e1211b_10.0.zip
@@ -550,6 +540,16 @@
   version: V12.0.13.0.QJJCNXM
 - android: '10.0'
   branch: Stable
+  codename: curtana_ru_global
+  date: 2020-10-16
+  link: https://bigota.d.miui.com/V12.0.1.0.QJWRUXM/miui_CURTANARUGlobal_V12.0.1.0.QJWRUXM_0d4f4caac5_10.0.zip
+  md5: 0d4f4caac5109daac5ac4bff27ebf326
+  method: Recovery
+  name: Redmi Note 9S Russia
+  size: 2.5 GB
+  version: V12.0.1.0.QJWRUXM
+- android: '10.0'
+  branch: Stable
   codename: nitrogen_global
   date: 2020-10-16
   link: https://bigota.d.miui.com/V12.0.1.0.QEDMIXM/miui_MIMAX3Global_V12.0.1.0.QEDMIXM_83ae0d72cd_10.0.zip
@@ -618,6 +618,16 @@
   name: Mi 10 India
   size: 2.9 GB
   version: V12.0.3.0.QJBINXM
+- android: '10.0'
+  branch: Stable
+  codename: curtana_ru_global
+  date: 2020-10-13
+  link: https://bigota.d.miui.com/V12.0.1.0.QJWRUXM/curtana_ru_global_images_V12.0.1.0.QJWRUXM_20201013.0000.00_10.0_global_4be398171e.tgz
+  md5: 4be398171e05fa5947eeb1286cec84ec
+  method: Fastboot
+  name: Redmi Note 9S Russia
+  size: 4.1 GB
+  version: V12.0.1.0.QJWRUXM
 - android: '10.0'
   branch: Stable
   codename: grus_global
@@ -4360,16 +4370,6 @@
   version: V11.0.3.0.QFCRUXM
 - android: '10.0'
   branch: Stable
-  codename: curtana_ru_global
-  date: 2020-06-29
-  link: https://bigota.d.miui.com/V11.0.3.0.QJWRUXM/miui_CURTANARUGlobal_V11.0.3.0.QJWRUXM_49a35a4e80_10.0.zip
-  md5: 49a35a4e8013aa1f7db92a5b04db2aef
-  method: Recovery
-  name: Redmi Note 9S Russia
-  size: 2.4 GB
-  version: V11.0.3.0.QJWRUXM
-- android: '10.0'
-  branch: Stable
   codename: olive
   date: 2020-06-29
   link: https://bigota.d.miui.com/V11.0.1.0.QCNCNXM/miui_OLIVE_V11.0.1.0.QCNCNXM_f95f98fba9_10.0.zip
@@ -4378,16 +4378,6 @@
   name: Redmi 8 China
   size: 2.1 GB
   version: V11.0.1.0.QCNCNXM
-- android: '10.0'
-  branch: Stable
-  codename: curtana_ru_global
-  date: 2020-06-23
-  link: https://bigota.d.miui.com/V11.0.3.0.QJWRUXM/curtana_ru_global_images_V11.0.3.0.QJWRUXM_20200623.0000.00_10.0_global_5ad1f92087.tgz
-  md5: 5ad1f9208725443dbd2bd7ad45e53e79
-  method: Fastboot
-  name: Redmi Note 9S Russia
-  size: 4.0 GB
-  version: V11.0.3.0.QJWRUXM
 - android: '10.0'
   branch: Stable
   codename: olive
@@ -5612,21 +5602,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Stable
