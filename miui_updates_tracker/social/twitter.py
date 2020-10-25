@@ -6,7 +6,7 @@ from urllib.parse import quote
 from humanize import naturalsize
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_device_name
-from miui_updates_tracker.common.database.models.update import Update
+from miui_updates_tracker.common.database.models.miui_update import Update
 from tweepy import OAuthHandler, API, Status, TweepError
 
 

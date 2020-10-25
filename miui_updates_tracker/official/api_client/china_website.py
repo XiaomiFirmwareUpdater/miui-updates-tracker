@@ -7,7 +7,7 @@ from aiohttp import ClientResponse
 from bs4 import BeautifulSoup, Tag
 from miui_updates_tracker.common.api_client.common_client import CommonClient
 from miui_updates_tracker.common.database.database import update_in_db, add_to_db, get_codename
-from miui_updates_tracker.common.database.models.update import Update
+from miui_updates_tracker.common.database.models.miui_update import Update
 from miui_updates_tracker.official.models.device import ChinaDevice
 from miui_updates_tracker.utils.rom_file_parser import rom_info_from_file, fastboot_info_from_file
 from miui_updates_tracker.utils.rom_utils import get_rom_type, get_rom_branch, \

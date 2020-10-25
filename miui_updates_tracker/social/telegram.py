@@ -8,7 +8,7 @@ from urllib.parse import quote
 from humanize import naturalsize
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_full_name
-from miui_updates_tracker.common.database.models.update import Update
+from miui_updates_tracker.common.database.models.miui_update import Update
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.error import BadRequest
 from telegram.ext import Updater

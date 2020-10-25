@@ -7,11 +7,10 @@ import re
 from typing import List, Optional, Dict
 
 from aiohttp import ClientResponse
-
 from miui_updates_tracker.common.api_client.common_client import CommonClient
 from miui_updates_tracker.common.database.database import update_in_db, add_to_db, get_codename, update_stable_beta, \
     get_update_by_version
-from miui_updates_tracker.common.database.models.update import Update
+from miui_updates_tracker.common.database.models.miui_update import Update
 from miui_updates_tracker.official.models.device import GlobalDevice
 from miui_updates_tracker.utils.helpers import human_size_to_bytes
 from miui_updates_tracker.utils.rom_file_parser import rom_info_from_file, fastboot_info_from_file

@@ -5,10 +5,9 @@ from urllib.parse import quote
 
 from discord import Client, Embed, Colour, HTTPException
 from humanize import naturalsize
-
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_device_name, get_incremental
-from miui_updates_tracker.common.database.models.update import Update
+from miui_updates_tracker.common.database.models.miui_update import Update
 
 logger = logging.getLogger(__name__)
 logging.getLogger('discord.client').setLevel(logging.ERROR)
