@@ -210,26 +210,6 @@
   version: V12.0.2.0.QGHINXM
 - android: '10.0'
   branch: Stable Beta
-  codename: cepheus
-  date: 2020-10-18
-  link: https://bigota.d.miui.com/V12.0.5.0.QFACNXM/miui_CEPHEUS_V12.0.5.0.QFACNXM_d14054540d_10.0.zip
-  md5: d14054540dcbd099327310337d19eb37
-  method: Recovery
-  name: Mi 9 China
-  size: 2.7 GB
-  version: V12.0.5.0.QFACNXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: raphael
-  date: 2020-10-18
-  link: https://bigota.d.miui.com/V12.0.5.0.QFKCNXM/miui_RAPHAEL_V12.0.5.0.QFKCNXM_d03168fb55_10.0.zip
-  md5: d03168fb55773f29578e8e92e5f9b026
-  method: Recovery
-  name: Redmi K20 Pro China
-  size: 2.6 GB
-  version: V12.0.5.0.QFKCNXM
-- android: '10.0'
-  branch: Stable Beta
   codename: davinci_global
   date: 2020-10-16
   link: https://bigota.d.miui.com/V12.0.5.0.QFJMIXM/miui_DAVINCIGlobal_V12.0.5.0.QFJMIXM_68eafed495_10.0.zip
@@ -530,6 +510,26 @@
   version: V12.0.2.0.QJDINXM
 - android: '10.0'
   branch: Stable
+  codename: cepheus
+  date: 2020-10-18
+  link: https://bigota.d.miui.com/V12.0.5.0.QFACNXM/miui_CEPHEUS_V12.0.5.0.QFACNXM_d14054540d_10.0.zip
+  md5: d14054540dcbd099327310337d19eb37
+  method: Recovery
+  name: Mi 9 China
+  size: 2.7 GB
+  version: V12.0.5.0.QFACNXM
+- android: '10.0'
+  branch: Stable
+  codename: raphael
+  date: 2020-10-18
+  link: https://bigota.d.miui.com/V12.0.5.0.QFKCNXM/miui_RAPHAEL_V12.0.5.0.QFKCNXM_d03168fb55_10.0.zip
+  md5: d03168fb55773f29578e8e92e5f9b026
+  method: Recovery
+  name: Redmi K20 Pro China
+  size: 2.6 GB
+  version: V12.0.5.0.QFKCNXM
+- android: '10.0'
+  branch: Stable
   codename: cas
   date: 2020-10-18
   link: https://bigota.d.miui.com/V12.0.13.0.QJJCNXM/miui_CAS_V12.0.13.0.QJJCNXM_ec69c11a77_10.0.zip
@@ -620,6 +620,16 @@
   version: V12.0.3.0.QJBINXM
 - android: '10.0'
   branch: Stable
+  codename: cepheus
+  date: 2020-10-13
+  link: https://bigota.d.miui.com/V12.0.5.0.QFACNXM/cepheus_images_V12.0.5.0.QFACNXM_20201013.0000.00_10.0_cn_e91d4d314b.tgz
+  md5: e91d4d314bc3c51f682d818895999477
+  method: Fastboot
+  name: Mi 9 China
+  size: 3.8 GB
+  version: V12.0.5.0.QFACNXM
+- android: '10.0'
+  branch: Stable
   codename: curtana_ru_global
   date: 2020-10-13
   link: https://bigota.d.miui.com/V12.0.1.0.QJWRUXM/curtana_ru_global_images_V12.0.1.0.QJWRUXM_20201013.0000.00_10.0_global_4be398171e.tgz
@@ -668,6 +678,16 @@
   name: Mi Max 3 Russia
   size: 2.6 GB
   version: V12.0.1.0.QEDRUXM
+- android: '10.0'
+  branch: Stable
+  codename: raphael
+  date: 2020-10-12
+  link: https://bigota.d.miui.com/V12.0.5.0.QFKCNXM/raphael_images_V12.0.5.0.QFKCNXM_20201012.0000.00_10.0_cn_bc6e3c7bb0.tgz
+  md5: bc6e3c7bb031e9e6241a6be4172b9b2a
+  method: Fastboot
+  name: Redmi K20 Pro China
+  size: 3.7 GB
+  version: V12.0.5.0.QFKCNXM
 - android: '10.0'
   branch: Stable
   codename: daisy_global
@@ -880,16 +900,6 @@
   version: V11.0.8.0.QFQEUXM
 - android: '10.0'
   branch: Stable
-  codename: cepheus
-  date: 2020-09-29
-  link: https://bigota.d.miui.com/V12.0.4.0.QFACNXM/miui_CEPHEUS_V12.0.4.0.QFACNXM_7a7f45fb4a_10.0.zip
-  md5: 7a7f45fb4aabddce124c49dcd9533e42
-  method: Recovery
-  name: Mi 9 China
-  size: 2.7 GB
-  version: V12.0.4.0.QFACNXM
-- android: '10.0'
-  branch: Stable
   codename: lmi_global
   date: 2020-09-29
   link: https://bigota.d.miui.com/V12.0.4.0.QJKMIXM/miui_LMIGlobal_V12.0.4.0.QJKMIXM_72b1da9230_10.0.zip
@@ -898,16 +908,6 @@
   name: POCO F2 Pro Global
   size: 3.0 GB
   version: V12.0.4.0.QJKMIXM
-- android: '10.0'
-  branch: Stable
-  codename: raphael
-  date: 2020-09-29
-  link: https://bigota.d.miui.com/V12.0.4.0.QFKCNXM/miui_RAPHAEL_V12.0.4.0.QFKCNXM_e596b7b802_10.0.zip
-  md5: e596b7b802a9379844751fab5e83df3e
-  method: Recovery
-  name: Redmi K20 Pro China
-  size: 2.6 GB
-  version: V12.0.4.0.QFKCNXM
 - android: '9.0'
   branch: Stable
   codename: ysl_global
@@ -1420,16 +1420,6 @@
   version: V12.0.1.0.QJWTRXM
 - android: '10.0'
   branch: Stable
-  codename: cepheus
-  date: 2020-09-21
-  link: https://bigota.d.miui.com/V12.0.4.0.QFACNXM/cepheus_images_V12.0.4.0.QFACNXM_20200921.0000.00_10.0_cn_bab10013ae.tgz
-  md5: bab10013aeef62e4b3670063e65c98ea
-  method: Fastboot
-  name: Mi 9 China
-  size: 3.8 GB
-  version: V12.0.4.0.QFACNXM
-- android: '10.0'
-  branch: Stable
   codename: crux
   date: 2020-09-21
   link: https://bigota.d.miui.com/V12.0.4.0.QFXCNXM/crux_images_V12.0.4.0.QFXCNXM_20200921.0000.00_10.0_cn_280a2e8a44.tgz
@@ -1448,16 +1438,6 @@
   name: Mi Note 3 Global
   size: 2.0 GB
   version: V12.0.1.0.PCHMIXM
-- android: '10.0'
-  branch: Stable
-  codename: raphael
-  date: 2020-09-21
-  link: https://bigota.d.miui.com/V12.0.4.0.QFKCNXM/raphael_images_V12.0.4.0.QFKCNXM_20200921.0000.00_10.0_cn_d5a9962a40.tgz
-  md5: d5a9962a40b3602786d82cd869a35fd9
-  method: Fastboot
-  name: Redmi K20 Pro China
-  size: 3.7 GB
-  version: V12.0.4.0.QFKCNXM
 - android: '10.0'
   branch: Stable
   codename: raphaelin_in_global
