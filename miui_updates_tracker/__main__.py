@@ -1,4 +1,5 @@
 """MIUI Updates Tracker entry point"""
+from argparse import ArgumentParser
 from importlib import import_module
 
 from miui_updates_tracker import CONFIG
@@ -21,10 +22,16 @@ else:
     except ImportError:
         raise Exception("Incorrect source has been specified! exiting...")
 
+parser = ArgumentParser(prog='python3 -m miui_updates_tracker')
+parser.add_argument("-G", "--generate", help="generate data only without checking for new updates.",
+                    action="store_true")
+args = parser.parse_args()
+
 if __name__ == '__main__':
-    if extra_run:
-        extra_run()
-    official()
+    if not args.generate:
+        if extra_run:
+            extra_run()
+        official()
     export_data()
     generate_rss_feed()
     git_commit_push()
