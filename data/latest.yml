@@ -20,26 +20,6 @@
   version: V12.0.2.0.QJOIDXM
 - android: '10.0'
   branch: Stable Beta
-  codename: dandelion_ru_global
-  date: 2020-11-05
-  link: https://bigota.d.miui.com/V12.0.5.0.QCDRUXM/miui_DANDELIONRUGlobal_V12.0.5.0.QCDRUXM_c18b160ef1_10.0.zip
-  md5: c18b160ef1e5790c026549d6aa724b09
-  method: Recovery
-  name: Redmi 9A Russia
-  size: 1.7 GB
-  version: V12.0.5.0.QCDRUXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: angelican_global
-  date: 2020-11-05
-  link: https://bigota.d.miui.com/V12.0.3.0.QCSMIXM/miui_ANGELICANGlobal_V12.0.3.0.QCSMIXM_a35644ae9e_10.0.zip
-  md5: a35644ae9ee85572151cc4fc71d9433d
-  method: Recovery
-  name: Redmi 9C NFC Global
-  size: 1.6 GB
-  version: V12.0.3.0.QCSMIXM
-- android: '10.0'
-  branch: Stable Beta
   codename: tucana_global
   date: 2020-11-04
   link: https://bigota.d.miui.com/V12.0.3.0.QFDMIXM/miui_TUCANAGlobal_V12.0.3.0.QFDMIXM_919439d60e_10.0.zip
@@ -58,16 +38,6 @@
   name: Redmi Note 8T EEA
   size: 2.3 GB
   version: V12.0.1.0.QCXEUXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: dandelion_global
-  date: 2020-11-04
-  link: https://bigota.d.miui.com/V12.0.7.0.QCDMIXM/miui_DANDELIONGlobal_V12.0.7.0.QCDMIXM_f1449809a6_10.0.zip
-  md5: f1449809a60861a7487b7c494d82b781
-  method: Recovery
-  name: Redmi 9A Global
-  size: 1.6 GB
-  version: V12.0.7.0.QCDMIXM
 - android: '10.0'
   branch: Stable Beta
   codename: toco_eea_global
@@ -440,6 +410,36 @@
   version: V12.0.2.0.QJOMIXM
 - android: '10.0'
   branch: Stable
+  codename: dandelion_ru_global
+  date: 2020-11-05
+  link: https://bigota.d.miui.com/V12.0.5.0.QCDRUXM/miui_DANDELIONRUGlobal_V12.0.5.0.QCDRUXM_c18b160ef1_10.0.zip
+  md5: c18b160ef1e5790c026549d6aa724b09
+  method: Recovery
+  name: Redmi 9A Russia
+  size: 1.7 GB
+  version: V12.0.5.0.QCDRUXM
+- android: '10.0'
+  branch: Stable
+  codename: angelican_global
+  date: 2020-11-05
+  link: https://bigota.d.miui.com/V12.0.3.0.QCSMIXM/miui_ANGELICANGlobal_V12.0.3.0.QCSMIXM_a35644ae9e_10.0.zip
+  md5: a35644ae9ee85572151cc4fc71d9433d
+  method: Recovery
+  name: Redmi 9C NFC Global
+  size: 1.6 GB
+  version: V12.0.3.0.QCSMIXM
+- android: '10.0'
+  branch: Stable
+  codename: dandelion_global
+  date: 2020-11-04
+  link: https://bigota.d.miui.com/V12.0.7.0.QCDMIXM/miui_DANDELIONGlobal_V12.0.7.0.QCDMIXM_f1449809a6_10.0.zip
+  md5: f1449809a60861a7487b7c494d82b781
+  method: Recovery
+  name: Redmi 9A Global
+  size: 1.6 GB
+  version: V12.0.7.0.QCDMIXM
+- android: '10.0'
+  branch: Stable
   codename: angelican_eea_global
   date: 2020-11-04
   link: https://bigota.d.miui.com/V12.0.4.0.QCSEUXM/miui_ANGELICANEEAGlobal_V12.0.4.0.QCSEUXM_e61c5bb519_10.0.zip
@@ -550,6 +550,16 @@
   version: V12.0.6.0.QJBEUXM
 - android: '10.0'
   branch: Stable
+  codename: dandelion_global
+  date: 2020-10-28
+  link: https://bigota.d.miui.com/V12.0.7.0.QCDMIXM/dandelion_global_images_V12.0.7.0.QCDMIXM_20201028.0000.00_10.0_global_2628946939.tgz
+  md5: 2628946939ff966aec5b2209a60090f9
+  method: Fastboot
+  name: Redmi 9A Global
+  size: 3.3 GB
+  version: V12.0.7.0.QCDMIXM
+- android: '10.0'
+  branch: Stable
   codename: dandelion_eea_global
   date: 2020-10-28
   link: https://bigota.d.miui.com/V12.0.8.0.QCDEUXM/dandelion_eea_global_images_V12.0.8.0.QCDEUXM_20201028.0000.00_10.0_eea_5997eec403.tgz
@@ -558,6 +568,16 @@
   name: Redmi 9A / 9AT EEA
   size: 3.4 GB
   version: V12.0.8.0.QCDEUXM
+- android: '10.0'
+  branch: Stable
+  codename: dandelion_ru_global
+  date: 2020-10-28
+  link: https://bigota.d.miui.com/V12.0.5.0.QCDRUXM/dandelion_ru_global_images_V12.0.5.0.QCDRUXM_20201028.0000.00_10.0_global_b9e6182bfb.tgz
+  md5: b9e6182bfb6a499144d385aecb8591ee
+  method: Fastboot
+  name: Redmi 9A Russia
+  size: 3.2 GB
+  version: V12.0.5.0.QCDRUXM
 - android: '10.0'
   branch: Stable
   codename: angelica_global
@@ -588,6 +608,16 @@
   name: Redmi 9 India
   size: 2.6 GB
   version: V12.0.3.0.QCTINXM
+- android: '10.0'
+  branch: Stable
+  codename: angelican_global
+  date: 2020-10-28
+  link: https://bigota.d.miui.com/V12.0.3.0.QCSMIXM/angelican_global_images_V12.0.3.0.QCSMIXM_20201028.0000.00_10.0_global_c391295e30.tgz
+  md5: c391295e3032610d754c05518fa3318a
+  method: Fastboot
+  name: Redmi 9C NFC Global
+  size: 3.3 GB
+  version: V12.0.3.0.QCSMIXM
 - android: '10.0'
   branch: Stable
   codename: angelican_eea_global
@@ -1530,16 +1560,6 @@
   version: V12.0.5.0.QGHCNXM
 - android: '10.0'
   branch: Stable
-  codename: dandelion_ru_global
-  date: 2020-10-15
-  link: https://bigota.d.miui.com/V12.0.4.0.QCDRUXM/miui_DANDELIONRUGlobal_V12.0.4.0.QCDRUXM_7c7fd8a32c_10.0.zip
-  md5: 7c7fd8a32c899fede900d0aa229508da
-  method: Recovery
-  name: Redmi 9A Russia
-  size: 1.7 GB
-  version: V12.0.4.0.QCDRUXM
-- android: '10.0'
-  branch: Stable
   codename: surya_tr_global
   date: 2020-10-15
   link: https://bigota.d.miui.com/V12.0.2.0.QJGTRXM/miui_SURYATRGlobal_V12.0.2.0.QJGTRXM_4f50262d02_10.0.zip
@@ -1730,16 +1750,6 @@
   version: V12.0.1.0.QCXMIXM
 - android: '10.0'
   branch: Stable
-  codename: dandelion_global
-  date: 2020-10-10
-  link: https://bigota.d.miui.com/V12.0.6.0.QCDMIXM/miui_DANDELIONGlobal_V12.0.6.0.QCDMIXM_d60f424ace_10.0.zip
-  md5: d60f424ace0930909e344ddd291512c0
-  method: Recovery
-  name: Redmi 9A Global
-  size: 1.6 GB
-  version: V12.0.6.0.QCDMIXM
-- android: '10.0'
-  branch: Stable
   codename: beryllium_global
   date: 2020-10-09
   link: https://bigota.d.miui.com/V12.0.2.0.QEJMIXM/miui_POCOF1Global_V12.0.2.0.QEJMIXM_ce099a7067_10.0.zip
@@ -1818,26 +1828,6 @@
   name: Redmi Note 7/7S India
   size: 2.0 GB
   version: V11.0.5.0.QFGINXM
-- android: '10.0'
-  branch: Stable
-  codename: dandelion_global
-  date: 2020-10-01
-  link: https://bigota.d.miui.com/V12.0.6.0.QCDMIXM/dandelion_global_images_V12.0.6.0.QCDMIXM_20201001.0000.00_10.0_global_18964e042e.tgz
-  md5: 18964e042e423ca3acd60747d6a2ebbb
-  method: Fastboot
-  name: Redmi 9A Global
-  size: 3.2 GB
-  version: V12.0.6.0.QCDMIXM
-- android: '10.0'
-  branch: Stable
-  codename: dandelion_ru_global
-  date: 2020-10-01
-  link: https://bigota.d.miui.com/V12.0.4.0.QCDRUXM/dandelion_ru_global_images_V12.0.4.0.QCDRUXM_20201001.0000.00_10.0_global_54b98bb3e3.tgz
-  md5: 54b98bb3e351004df1a40a9555ca3cbb
-  method: Fastboot
-  name: Redmi 9A Russia
-  size: 3.3 GB
-  version: V12.0.4.0.QCDRUXM
 - android: '10.0'
   branch: Stable
   codename: gauguin_eea_global
@@ -2118,16 +2108,6 @@
   name: Redmi Go Russia
   size: 812.6 MB
   version: V10.2.16.0.OCLRUXM
-- android: '10.0'
-  branch: Stable
-  codename: angelican_global
-  date: 2020-09-24
-  link: https://bigota.d.miui.com/V12.0.2.0.QCSMIXM/miui_ANGELICANGlobal_V12.0.2.0.QCSMIXM_de995da929_10.0.zip
-  md5: de995da9291f1d75b9375ad68aa2434b
-  method: Recovery
-  name: Redmi 9C NFC Global
-  size: 1.6 GB
-  version: V12.0.2.0.QCSMIXM
 - android: '9.0'
   branch: Stable
   codename: ysl_global
@@ -3368,16 +3348,6 @@
   name: Mi Note 10 Lite Global
   size: 3.9 GB
   version: V12.0.2.0.QFNMIXM
-- android: '10.0'
-  branch: Stable
-  codename: angelican_global
-  date: 2020-08-25
-  link: https://bigota.d.miui.com/V12.0.2.0.QCSMIXM/angelican_global_images_V12.0.2.0.QCSMIXM_20200825.0000.00_10.0_global_29613b6cf2.tgz
-  md5: 29613b6cf2eba4be4f8e6dc0405a1147
-  method: Fastboot
-  name: Redmi 9C NFC Global
-  size: 3.2 GB
-  version: V12.0.2.0.QCSMIXM
 - android: '10.0'
   branch: Stable
   codename: equuleus
