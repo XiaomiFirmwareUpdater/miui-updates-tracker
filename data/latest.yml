@@ -208,26 +208,6 @@
   name: Redmi 8 Indonesia
   size: 2.0 GB
   version: V11.0.2.0.QCNIDXM
-- android: '9.0'
-  branch: Stable Beta
-  codename: sakura_india_global
-  date: 2020-11-12
-  link: https://bigota.d.miui.com/V12.0.4.0.PDMMIXM/miui_HM6ProINGlobal_V12.0.4.0.PDMMIXM_ad48898cf1_9.0.zip
-  md5: ad48898cf18f96318eb98fc360278d95
-  method: Recovery
-  name: Redmi 6 Pro India
-  size: 1.9 GB
-  version: V12.0.4.0.PDMMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lancelot_in_global
-  date: 2020-11-12
-  link: https://bigota.d.miui.com/V11.0.6.0.QJCINXM/miui_LANCELOTINGlobal_V11.0.6.0.QJCINXM_7ef64c03a3_10.0.zip
-  md5: 7ef64c03a3c5d74035a159f1f20b2757
-  method: Recovery
-  name: Redmi 9 Prime India
-  size: 1.9 GB
-  version: V11.0.6.0.QJCINXM
 - android: '10.0'
   branch: Stable Beta
   codename: cepheus_eea_global
@@ -648,6 +628,26 @@
   name: Mi 8 Pro Global
   size: 2.1 GB
   version: V12.0.1.0.QECMIXM
+- android: '9.0'
+  branch: Stable
+  codename: sakura_india_global
+  date: 2020-11-12
+  link: https://bigota.d.miui.com/V12.0.4.0.PDMMIXM/miui_HM6ProINGlobal_V12.0.4.0.PDMMIXM_ad48898cf1_9.0.zip
+  md5: ad48898cf18f96318eb98fc360278d95
+  method: Recovery
+  name: Redmi 6 Pro India
+  size: 1.9 GB
+  version: V12.0.4.0.PDMMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot_in_global
+  date: 2020-11-12
+  link: https://bigota.d.miui.com/V11.0.6.0.QJCINXM/miui_LANCELOTINGlobal_V11.0.6.0.QJCINXM_7ef64c03a3_10.0.zip
+  md5: 7ef64c03a3c5d74035a159f1f20b2757
+  method: Recovery
+  name: Redmi 9 Prime India
+  size: 1.9 GB
+  version: V11.0.6.0.QJCINXM
 - android: '10.0'
   branch: Stable
   codename: surya_tr_global
@@ -860,6 +860,16 @@
   version: V12.0.5.0.QCDRUXM
 - android: '10.0'
   branch: Stable
+  codename: lancelot_in_global
+  date: 2020-11-05
+  link: https://bigota.d.miui.com/V11.0.6.0.QJCINXM/lancelot_in_global_images_V11.0.6.0.QJCINXM_20201105.0000.00_10.0_in_627bc07c44.tgz
+  md5: 627bc07c44c2b439839321efd95c916d
+  method: Fastboot
+  name: Redmi 9 Prime India
+  size: 2.8 GB
+  version: V11.0.6.0.QJCINXM
+- android: '10.0'
+  branch: Stable
   codename: angelican_global
   date: 2020-11-05
   link: https://bigota.d.miui.com/V12.0.3.0.QCSMIXM/miui_ANGELICANGlobal_V12.0.3.0.QCSMIXM_a35644ae9e_10.0.zip
@@ -898,6 +908,16 @@
   name: POCO X3 NFC Turkey
   size: 3.7 GB
   version: V12.0.3.0.QJGTRXM
+- android: '9.0'
+  branch: Stable
+  codename: sakura_india_global
+  date: 2020-11-04
+  link: https://bigota.d.miui.com/V12.0.4.0.PDMMIXM/sakura_india_global_images_V12.0.4.0.PDMMIXM_20201104.0000.00_9.0_global_396957553f.tgz
+  md5: 396957553f48091288d735226801016b
+  method: Fastboot
+  name: Redmi 6 Pro India
+  size: 2.4 GB
+  version: V12.0.4.0.PDMMIXM
 - android: '10.0'
   branch: Stable
   codename: tucana_global
@@ -3530,16 +3550,6 @@
   version: V11.0.1.0.QCQIDXM
 - android: '10.0'
   branch: Stable
-  codename: lancelot_in_global
-  date: 2020-09-08
-  link: https://bigota.d.miui.com/V11.0.4.0.QJCINXM/miui_LANCELOTINGlobal_V11.0.4.0.QJCINXM_7c06f672bb_10.0.zip
-  md5: 7c06f672bba00e9f88fdbc5f00b52f15
-  method: Recovery
-  name: Redmi 9 Prime India
-  size: 1.9 GB
-  version: V11.0.4.0.QJCINXM
-- android: '10.0'
-  branch: Stable
   codename: beryllium_ru_global
   date: 2020-09-07
   link: https://bigota.d.miui.com/V12.0.2.0.QEJRUXM/beryllium_ru_global_images_V12.0.2.0.QEJRUXM_20200907.0000.00_10.0_global_76c93390af.tgz
@@ -3738,16 +3748,6 @@
   name: Redmi 8A Pro Indonesia
   size: 3.0 GB
   version: V11.0.1.0.QCQIDXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot_in_global
-  date: 2020-09-01
-  link: https://bigota.d.miui.com/V11.0.4.0.QJCINXM/lancelot_in_global_images_V11.0.4.0.QJCINXM_20200901.0000.00_10.0_in_336e5636b2.tgz
-  md5: 336e5636b2a640b18f1dd77e798e22ec
-  method: Fastboot
-  name: Redmi 9 Prime India
-  size: 2.7 GB
-  version: V11.0.4.0.QJCINXM
 - android: '9.0'
   branch: Stable
   codename: onclite_eea_global
@@ -3978,16 +3978,6 @@
   name: Mi Note 3 China
   size: 2.3 GB
   version: V12.0.1.0.PCHCNXM
-- android: '9.0'
-  branch: Stable
-  codename: sakura_india_global
-  date: 2020-08-20
-  link: https://bigota.d.miui.com/V12.0.2.0.PDMMIXM/miui_HM6ProINGlobal_V12.0.2.0.PDMMIXM_fb255b4239_9.0.zip
-  md5: fb255b4239e5ad9af40b15c739f79df0
-  method: Recovery
-  name: Redmi 6 Pro India
-  size: 1.9 GB
-  version: V12.0.2.0.PDMMIXM
 - android: '10.0'
   branch: Stable
   codename: ursa
@@ -4148,16 +4138,6 @@
   name: Mi 8 Explorer China
   size: 2.9 GB
   version: V12.0.2.0.QEHCNXM
-- android: '9.0'
-  branch: Stable
-  codename: sakura_india_global
-  date: 2020-08-14
-  link: https://bigota.d.miui.com/V12.0.2.0.PDMMIXM/sakura_india_global_images_V12.0.2.0.PDMMIXM_20200814.0000.00_9.0_global_48164fc9c5.tgz
-  md5: 48164fc9c5d26e2689493fbfc2efd9e6
-  method: Fastboot
-  name: Redmi 6 Pro India
-  size: 2.3 GB
-  version: V12.0.2.0.PDMMIXM
 - android: '10.0'
   branch: Stable
   codename: grus
