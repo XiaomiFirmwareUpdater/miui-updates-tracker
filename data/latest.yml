@@ -230,26 +230,6 @@
   version: V11.0.2.0.QCNIDXM
 - android: '10.0'
   branch: Stable Beta
-  codename: cepheus_eea_global
-  date: 2020-11-11
-  link: https://bigota.d.miui.com/V12.0.3.0.QFAEUXM/miui_CEPHEUSEEAGlobal_V12.0.3.0.QFAEUXM_86b15cca82_10.0.zip
-  md5: 86b15cca82b0e01592fc589407d8ce1d
-  method: Recovery
-  name: Mi 9 EEA
-  size: 2.5 GB
-  version: V12.0.3.0.QFAEUXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: cepheus_global
-  date: 2020-11-11
-  link: https://bigota.d.miui.com/V12.0.3.0.QFAMIXM/miui_CEPHEUSGlobal_V12.0.3.0.QFAMIXM_175452a9a2_10.0.zip
-  md5: 175452a9a25b589d522a26149ed3bf9c
-  method: Recovery
-  name: Mi 9 Global
-  size: 2.5 GB
-  version: V12.0.3.0.QFAMIXM
-- android: '10.0'
-  branch: Stable Beta
   codename: begonia
   date: 2020-11-10
   link: https://bigota.d.miui.com/V12.0.4.0.QGGCNXM/miui_BEGONIA_V12.0.4.0.QGGCNXM_c250ebe0cb_10.0.zip
@@ -560,6 +540,16 @@
   version: V12.0.5.0.QJSMIXM
 - android: '10.0'
   branch: Stable
+  codename: lancelot_global
+  date: 2020-11-20
+  link: https://bigota.d.miui.com/V11.0.9.0.QJCMIXM/miui_LANCELOTGlobal_V11.0.9.0.QJCMIXM_5331114c25_10.0.zip
+  md5: 5331114c258adcd184c7cc126a66ff9e
+  method: Recovery
+  name: Redmi 9 Global
+  size: 1.9 GB
+  version: V11.0.9.0.QJCMIXM
+- android: '10.0'
+  branch: Stable
   codename: equuleus_ru_global
   date: 2020-11-17
   link: https://bigota.d.miui.com/V12.0.1.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.1.0.QECRUXM_44bcc2b8b4_10.0.zip
@@ -660,6 +650,16 @@
   version: V12.0.1.0.QJZEUXM
 - android: '10.0'
   branch: Stable
+  codename: lancelot_global
+  date: 2020-11-13
+  link: https://bigota.d.miui.com/V11.0.9.0.QJCMIXM/lancelot_global_images_V11.0.9.0.QJCMIXM_20201113.0000.00_10.0_global_7b55cf26f8.tgz
+  md5: 7b55cf26f861e09d23cae8c2731793cd
+  method: Fastboot
+  name: Redmi 9 Global
+  size: 3.7 GB
+  version: V11.0.9.0.QJCMIXM
+- android: '10.0'
+  branch: Stable
   codename: surya_id_global
   date: 2020-11-13
   link: https://bigota.d.miui.com/V12.0.3.0.QJGIDXM/miui_SURYAIDGlobal_V12.0.3.0.QJGIDXM_43d42743ee_10.0.zip
@@ -708,6 +708,26 @@
   name: POCO X3 NFC Turkey
   size: 2.4 GB
   version: V12.0.3.0.QJGTRXM
+- android: '10.0'
+  branch: Stable
+  codename: cepheus_eea_global
+  date: 2020-11-11
+  link: https://bigota.d.miui.com/V12.0.3.0.QFAEUXM/miui_CEPHEUSEEAGlobal_V12.0.3.0.QFAEUXM_86b15cca82_10.0.zip
+  md5: 86b15cca82b0e01592fc589407d8ce1d
+  method: Recovery
+  name: Mi 9 EEA
+  size: 2.5 GB
+  version: V12.0.3.0.QFAEUXM
+- android: '10.0'
+  branch: Stable
+  codename: cepheus_global
+  date: 2020-11-11
+  link: https://bigota.d.miui.com/V12.0.3.0.QFAMIXM/miui_CEPHEUSGlobal_V12.0.3.0.QFAMIXM_175452a9a2_10.0.zip
+  md5: 175452a9a25b589d522a26149ed3bf9c
+  method: Recovery
+  name: Mi 9 Global
+  size: 2.5 GB
+  version: V12.0.3.0.QFAMIXM
 - android: '10.0'
   branch: Stable
   codename: curtana_eea_global
@@ -1240,6 +1260,26 @@
   version: V12.0.4.0.QJGEUXM
 - android: '10.0'
   branch: Stable
+  codename: cepheus_eea_global
+  date: 2020-10-29
+  link: https://bigota.d.miui.com/V12.0.3.0.QFAEUXM/cepheus_eea_global_images_V12.0.3.0.QFAEUXM_20201029.0000.00_10.0_eea_9077f8a80b.tgz
+  md5: 9077f8a80b6fc920ca4ab2c60ee0697a
+  method: Fastboot
+  name: Mi 9 EEA
+  size: 3.2 GB
+  version: V12.0.3.0.QFAEUXM
+- android: '10.0'
+  branch: Stable
+  codename: cepheus_global
+  date: 2020-10-29
+  link: https://bigota.d.miui.com/V12.0.3.0.QFAMIXM/cepheus_global_images_V12.0.3.0.QFAMIXM_20201029.0000.00_10.0_global_ed9062b883.tgz
+  md5: ed9062b8831717db414e61f766b9deed
+  method: Fastboot
+  name: Mi 9 Global
+  size: 3.2 GB
+  version: V12.0.3.0.QFAMIXM
+- android: '10.0'
+  branch: Stable
   codename: willow_eea_global
   date: 2020-10-29
   link: https://bigota.d.miui.com/V12.0.1.0.QCXEUXM/willow_eea_global_images_V12.0.1.0.QCXEUXM_20201029.0000.00_10.0_eea_1ea2db561b.tgz
@@ -1276,7 +1316,7 @@
   md5: c9a39ccae8945159a188c316f8cec8a4
   method: Fastboot
   name: Mi 10T Lite Global
-  size: 345 Bytes
+  size: 4.3 GB
   version: V12.0.1.0.QJSMIXM
 - android: '10.0'
   branch: Stable
@@ -3470,16 +3510,6 @@
   version: V12.0.1.0.QDTRUXM
 - android: '10.0'
   branch: Stable
-  codename: lancelot_global
-  date: 2020-09-12
-  link: https://bigota.d.miui.com/V11.0.8.0.QJCMIXM/miui_LANCELOTGlobal_V11.0.8.0.QJCMIXM_a7aead523b_10.0.zip
-  md5: a7aead523b5eec96d92b2125831cc2f6
-  method: Recovery
-  name: Redmi 9 Global
-  size: 1.9 GB
-  version: V11.0.8.0.QJCMIXM
-- android: '10.0'
-  branch: Stable
   codename: merlin_in_global
   date: 2020-09-11
   link: https://bigota.d.miui.com/V12.0.4.0.QJOINXM/merlin_in_global_images_V12.0.4.0.QJOINXM_20200911.0000.00_10.0_in_746b10b617.tgz
@@ -3650,16 +3680,6 @@
   version: V12.0.1.0.QFNRUXM
 - android: '10.0'
   branch: Stable
-  codename: lancelot_global
-  date: 2020-09-05
-  link: https://bigota.d.miui.com/V11.0.8.0.QJCMIXM/lancelot_global_images_V11.0.8.0.QJCMIXM_20200905.0000.00_10.0_global_20bc749f5d.tgz
-  md5: 20bc749f5d87a078c51438663d40cd61
-  method: Fastboot
-  name: Redmi 9 Global
-  size: 3.4 GB
-  version: V11.0.8.0.QJCMIXM
-- android: '10.0'
-  branch: Stable
   codename: tucana_id_global
   date: 2020-09-05
   link: https://bigota.d.miui.com/V12.0.2.0.QFDIDXM/tucana_id_global_images_V12.0.2.0.QFDIDXM_20200905.0000.00_10.0_global_28f241bbe9.tgz
@@ -3790,16 +3810,6 @@
   version: V11.0.10.0.PFLEUXM
 - android: '10.0'
   branch: Stable
-  codename: cepheus_eea_global
-  date: 2020-08-28
-  link: https://bigota.d.miui.com/V12.0.2.0.QFAEUXM/miui_CEPHEUSEEAGlobal_V12.0.2.0.QFAEUXM_44dcb66933_10.0.zip
-  md5: 44dcb669331871607368f28dc43ef3b1
-  method: Recovery
-  name: Mi 9 EEA
-  size: 2.5 GB
-  version: V12.0.2.0.QFAEUXM
-- android: '10.0'
-  branch: Stable
   codename: vela
   date: 2020-08-28
   link: https://bigota.d.miui.com/V12.0.2.0.QFECNXM/miui_VELA_V12.0.2.0.QFECNXM_2c09c180cc_10.0.zip
@@ -3818,16 +3828,6 @@
   name: Redmi 7 India
   size: 2.2 GB
   version: V11.0.7.0.PFLINXM
-- android: '10.0'
-  branch: Stable
-  codename: cepheus_global
-  date: 2020-08-26
-  link: https://bigota.d.miui.com/V12.0.2.0.QFAMIXM/miui_CEPHEUSGlobal_V12.0.2.0.QFAMIXM_a559c4c1fe_10.0.zip
-  md5: a559c4c1fe078b02ad4807cb00f43573
-  method: Recovery
-  name: Mi 9 Global
-  size: 2.5 GB
-  version: V12.0.2.0.QFAMIXM
 - android: '10.0'
   branch: Stable
   codename: olivewood_in_global
@@ -3978,26 +3978,6 @@
   name: Redmi 10X Pro China
   size: 2.6 GB
   version: V12.0.5.0.QJLCNXM
-- android: '10.0'
-  branch: Stable
-  codename: cepheus_eea_global
-  date: 2020-08-20
-  link: https://bigota.d.miui.com/V12.0.2.0.QFAEUXM/cepheus_eea_global_images_V12.0.2.0.QFAEUXM_20200820.0000.00_10.0_eea_045af18021.tgz
-  md5: 045af18021e597b067c58c8b5154b831
-  method: Fastboot
-  name: Mi 9 EEA
-  size: 3.2 GB
-  version: V12.0.2.0.QFAEUXM
-- android: '10.0'
-  branch: Stable
-  codename: cepheus_global
-  date: 2020-08-20
-  link: https://bigota.d.miui.com/V12.0.2.0.QFAMIXM/cepheus_global_images_V12.0.2.0.QFAMIXM_20200820.0000.00_10.0_global_c30a08c0e6.tgz
-  md5: c30a08c0e6fea0bd52cbe4c01e81f96a
-  method: Fastboot
-  name: Mi 9 Global
-  size: 3.2 GB
-  version: V12.0.2.0.QFAMIXM
 - android: '9.0'
   branch: Stable
   codename: jason
