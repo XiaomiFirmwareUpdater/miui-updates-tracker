@@ -148,16 +148,6 @@
   name: Mi Note 10 / Note 10 Pro Russia
   size: 2.9 GB
   version: V12.0.3.0.QFDRUXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: merlin_tr_global
-  date: 2020-11-19
-  link: https://bigota.d.miui.com/V12.0.3.0.QJOTRXM/miui_MERLINTRGlobal_V12.0.3.0.QJOTRXM_c3e393ef60_10.0.zip
-  md5: c3e393ef60819cf0b424136bcfff645e
-  method: Recovery
-  name: Redmi Note 9 Turkey
-  size: 2.0 GB
-  version: V12.0.3.0.QJOTRXM
 - android: '11.0'
   branch: Stable Beta
   codename: curtana_in_global
@@ -429,16 +419,6 @@
   size: 2.4 GB
   version: V11.0.6.0.QFNMIXM
 - android: '10.0'
-  branch: Stable Beta
-  codename: gauguin_global
-  date: null
-  link: https://bigota.d.miui.com/V12.0.5.0.QJSMIXM/miui_GAUGUINGlobal_V12.0.5.0.QJSMIXM_16a6aaa02d_10.0.zip
-  md5: 16a6aaa02d978869fc7456685e79c4cc
-  method: Recovery
-  name: Mi 10T Lite Global
-  size: 2.6 GB
-  version: V12.0.5.0.QJSMIXM
-- android: '10.0'
   branch: Stable
   codename: jasmine_global
   date: 2020-11-24
@@ -538,6 +518,16 @@
   name: Redmi 7 Russia
   size: 1.8 GB
   version: V11.0.9.0.PFLRUXM
+- android: '10.0'
+  branch: Stable
+  codename: merlin_tr_global
+  date: 2020-11-19
+  link: https://bigota.d.miui.com/V12.0.3.0.QJOTRXM/miui_MERLINTRGlobal_V12.0.3.0.QJOTRXM_c3e393ef60_10.0.zip
+  md5: c3e393ef60819cf0b424136bcfff645e
+  method: Recovery
+  name: Redmi Note 9 Turkey
+  size: 2.0 GB
+  version: V12.0.3.0.QJOTRXM
 - android: '10.0'
   branch: Stable
   codename: begonia_global
@@ -740,6 +730,16 @@
   version: V11.0.3.0.QFLCNXM
 - android: '10.0'
   branch: Stable
+  codename: merlin_tr_global
+  date: 2020-11-14
+  link: https://bigota.d.miui.com/V12.0.3.0.QJOTRXM/merlin_tr_global_images_V12.0.3.0.QJOTRXM_20201114.0000.00_10.0_global_9803d2fb11.tgz
+  md5: 9803d2fb110e4d573571408b20bd5732
+  method: Fastboot
+  name: Redmi Note 9 Turkey
+  size: 3.4 GB
+  version: V12.0.3.0.QJOTRXM
+- android: '10.0'
+  branch: Stable
   codename: dipper_global
   date: 2020-11-13
   link: https://bigota.d.miui.com/V12.0.2.0.QEAMIXM/dipper_global_images_V12.0.2.0.QEAMIXM_20201113.0000.00_10.0_global_b450e91e17.tgz
@@ -798,6 +798,16 @@
   name: POCO X3 NFC Indonesia
   size: 2.4 GB
   version: V12.0.3.0.QJGIDXM
+- android: '10.0'
+  branch: Stable
+  codename: gauguin_global
+  date: 2020-11-13
+  link: https://bigota.d.miui.com/V12.0.5.0.QJSMIXM/gauguin_global_images_V12.0.5.0.QJSMIXM_20201113.0000.00_10.0_global_3b65a33882.tgz
+  md5: 3b65a3388226e7ea1e96d3846a0590ee
+  method: Fastboot
+  name: Mi 10T Lite Global
+  size: 4.5 GB
+  version: V12.0.5.0.QJSMIXM
 - android: '10.0'
   branch: Stable
   codename: equuleus_global
@@ -1558,16 +1568,6 @@
   name: POCO X3 NFC India
   size: 2.4 GB
   version: V12.0.5.0.QJGINXM
-- android: '10.0'
-  branch: Stable
-  codename: gauguin_global
-  date: 2020-10-29
-  link: https://bigota.d.miui.com/V12.0.1.0.QJSMIXM/gauguin_global_images_V12.0.1.0.QJSMIXM_20201029.0000.00_10.0_global_c9a39ccae8.tgz
-  md5: c9a39ccae8945159a188c316f8cec8a4
-  method: Fastboot
-  name: Mi 10T Lite Global
-  size: 4.3 GB
-  version: V12.0.1.0.QJSMIXM
 - android: '10.0'
   branch: Stable
   codename: cmi_eea_global
@@ -3958,16 +3958,6 @@
   name: Mi MIX 2S Russia
   size: 2.0 GB
   version: V12.0.1.0.QDGRUXM
-- android: '10.0'
-  branch: Stable
-  codename: merlin_tr_global
-  date: 2020-08-24
-  link: https://bigota.d.miui.com/V12.0.1.0.QJOTRXM/miui_MERLINTRGlobal_V12.0.1.0.QJOTRXM_1e6c8331e1_10.0.zip
-  md5: 1e6c8331e1966f479ef971804cb33d1d
-  method: Recovery
-  name: Redmi Note 9 Turkey
-  size: 2.0 GB
-  version: V12.0.1.0.QJOTRXM
 - android: '9.0'
   branch: Stable
   codename: andromeda_eea_global
@@ -4058,16 +4048,6 @@
   name: Redmi Note 9 Indonesia
   size: 2.0 GB
   version: V12.0.1.0.QJOIDXM
-- android: '10.0'
-  branch: Stable
-  codename: merlin_tr_global
-  date: 2020-08-18
-  link: https://bigota.d.miui.com/V12.0.1.0.QJOTRXM/merlin_tr_global_images_V12.0.1.0.QJOTRXM_20200818.0000.00_10.0_global_134898c1db.tgz
-  md5: 134898c1db7d9d8cb912216dadcd876f
-  method: Fastboot
-  name: Redmi Note 9 Turkey
-  size: 3.4 GB
-  version: V12.0.1.0.QJOTRXM
 - android: '10.0'
   branch: Stable
   codename: grus_ru_global
