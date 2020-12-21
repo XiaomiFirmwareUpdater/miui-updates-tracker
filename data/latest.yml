@@ -248,26 +248,6 @@
   name: Redmi 7A Global
   size: 1.7 GB
   version: V11.0.5.0.QCMMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lancelot_id_global
-  date: 2020-12-09
-  link: https://bigota.d.miui.com/V12.0.1.0.QJCIDXM/miui_LANCELOTIDGlobal_V12.0.1.0.QJCIDXM_fcaa46c9ba_10.0.zip
-  md5: fcaa46c9ba5a42b67f9ad165638e255d
-  method: Recovery
-  name: Redmi 9 Indonesia
-  size: 2.0 GB
-  version: V12.0.1.0.QJCIDXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: apollo_eea_global
-  date: 2020-12-08
-  link: https://bigota.d.miui.com/V12.0.13.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.13.0.QJDEUXM_45c42ff803_10.0.zip
-  md5: 45c42ff80361c8c92693470097a11089
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro EEA
-  size: 3.0 GB
-  version: V12.0.13.0.QJDEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: cmi_eea_global
@@ -428,6 +408,16 @@
   name: Mi 10 China
   size: 4.8 GB
   version: V12.2.2.0.RJBCNXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: apollo_eea_global
+  date: 2020-10-27
+  link: https://bigota.d.miui.com/V12.0.11.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.11.0.QJDEUXM_57f2ddfcb7_10.0.zip
+  md5: 57f2ddfcb7f13244006794c0e885ec4d
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro EEA
+  size: 3.0 GB
+  version: V12.0.11.0.QJDEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: angelicain_in_global
@@ -660,6 +650,16 @@
   version: V12.0.3.0.QJFMIXM
 - android: '10.0'
   branch: Stable
+  codename: lancelot_id_global
+  date: 2020-12-09
+  link: https://bigota.d.miui.com/V12.0.1.0.QJCIDXM/miui_LANCELOTIDGlobal_V12.0.1.0.QJCIDXM_fcaa46c9ba_10.0.zip
+  md5: fcaa46c9ba5a42b67f9ad165638e255d
+  method: Recovery
+  name: Redmi 9 Indonesia
+  size: 2.0 GB
+  version: V12.0.1.0.QJCIDXM
+- android: '10.0'
+  branch: Stable
   codename: monet_tw_global
   date: 2020-12-09
   link: https://bigota.d.miui.com/V12.0.1.0.QJITWXM/miui_MONETTWGlobal_V12.0.1.0.QJITWXM_44a1de5563_10.0.zip
@@ -678,6 +678,16 @@
   name: Mi 10T / Mi 10T Pro Global
   size: 2.9 GB
   version: V12.0.8.0.QJDMIXM
+- android: '10.0'
+  branch: Stable
+  codename: apollo_eea_global
+  date: 2020-12-08
+  link: https://bigota.d.miui.com/V12.0.13.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.13.0.QJDEUXM_45c42ff803_10.0.zip
+  md5: 45c42ff80361c8c92693470097a11089
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro EEA
+  size: 3.0 GB
+  version: V12.0.13.0.QJDEUXM
 - android: '10.0'
   branch: Stable
   codename: citrus_eea_global
@@ -798,6 +808,16 @@
   name: Mi 10 Lite Global
   size: 2.9 GB
   version: V12.1.1.0.RJIMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot_id_global
+  date: 2020-12-04
+  link: https://bigota.d.miui.com/V12.0.1.0.QJCIDXM/lancelot_id_global_images_V12.0.1.0.QJCIDXM_20201204.0000.00_10.0_global_0544e663c5.tgz
+  md5: 0544e663c5aae330d93b88712c088718
+  method: Fastboot
+  name: Redmi 9 Indonesia
+  size: 3.8 GB
+  version: V12.0.1.0.QJCIDXM
 - android: '10.0'
   branch: Stable
   codename: citrus_global
@@ -1138,6 +1158,16 @@
   name: Mi 10T / Mi 10T Pro Global
   size: 4.7 GB
   version: V12.0.8.0.QJDMIXM
+- android: '10.0'
+  branch: Stable
+  codename: apollo_eea_global
+  date: 2020-11-27
+  link: https://bigota.d.miui.com/V12.0.13.0.QJDEUXM/apollo_eea_global_images_V12.0.13.0.QJDEUXM_20201127.0000.00_10.0_eea_6a442adc76.tgz
+  md5: 6a442adc76f18c6d99837b8315f3dcf9
+  method: Fastboot
+  name: Mi 10T / Mi 10T Pro EEA
+  size: 4.8 GB
+  version: V12.0.13.0.QJDEUXM
 - android: '8.1'
   branch: Stable
   codename: lotus
@@ -2850,16 +2880,6 @@
   version: V12.0.4.0.QCSRUXM
 - android: '10.0'
   branch: Stable
-  codename: apollo_eea_global
-  date: 2020-10-28
-  link: https://bigota.d.miui.com/V12.0.10.0.QJDEUXM/miui_APOLLOEEAGlobal_V12.0.10.0.QJDEUXM_ab1218565d_10.0.zip
-  md5: ab1218565df0a4c48ba0176e4a581c59
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro EEA
-  size: 3.0 GB
-  version: V12.0.10.0.QJDEUXM
-- android: '10.0'
-  branch: Stable
   codename: angelicain_in_global
   date: 2020-10-28
   link: https://bigota.d.miui.com/V12.0.3.0.QCRINXM/angelicain_in_global_images_V12.0.3.0.QCRINXM_20201028.0000.00_10.0_in_7aa92c4362.tgz
@@ -3490,16 +3510,6 @@
   version: V11.0.3.0.QCPEUXM
 - android: '10.0'
   branch: Stable
-  codename: apollo_eea_global
-  date: 2020-10-17
-  link: https://bigota.d.miui.com/V12.0.10.0.QJDEUXM/apollo_eea_global_images_V12.0.10.0.QJDEUXM_20201017.0000.00_10.0_eea_cc4ef304fd.tgz
-  md5: cc4ef304fdb09565cf1ce4f769f60dcb
-  method: Fastboot
-  name: Mi 10T / Mi 10T Pro EEA
-  size: 4.4 GB
-  version: V12.0.10.0.QJDEUXM
-- android: '10.0'
-  branch: Stable
   codename: begonia_eea_global
   date: 2020-10-16
   link: https://bigota.d.miui.com/V12.0.2.0.QGGEUXM/begonia_eea_global_images_V12.0.2.0.QGGEUXM_20201016.0000.00_10.0_eea_ec50927521.tgz
@@ -3920,16 +3930,6 @@
   version: V11.0.3.0.QCMRUXM
 - android: '10.0'
   branch: Stable
-  codename: lancelot_id_global
-  date: 2020-09-25
-  link: https://bigota.d.miui.com/V11.0.6.0.QJCIDXM/lancelot_id_global_images_V11.0.6.0.QJCIDXM_20200910.0000.00_10.0_global_3f65f152e2.tgz
-  md5: 3f65f152e2cd2600e14ef21b6738be85
-  method: Fastboot
-  name: Redmi 9 Indonesia
-  size: 3.5 GB
-  version: V11.0.6.0.QJCIDXM
-- android: '10.0'
-  branch: Stable
   codename: lancelot_ru_global
   date: 2020-09-25
   link: https://bigota.d.miui.com/V11.0.7.0.QJCRUXM/miui_LANCELOTRUGlobal_V11.0.7.0.QJCRUXM_7d783f77af_10.0.zip
@@ -4198,16 +4198,6 @@
   name: Mi 10 Lite Zoom China
   size: 3.3 GB
   version: V12.0.6.0.QJVCNXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot_id_global
-  date: 2020-09-18
-  link: https://bigota.d.miui.com/V11.0.6.0.QJCIDXM/miui_LANCELOTIDGlobal_V11.0.6.0.QJCIDXM_20725269fc_10.0.zip
-  md5: 20725269fc7b5b49ce4d0d053e22da80
-  method: Recovery
-  name: Redmi 9 Indonesia
-  size: 1.9 GB
-  version: V11.0.6.0.QJCIDXM
 - android: '9.0'
   branch: Stable
   codename: tulip_global
