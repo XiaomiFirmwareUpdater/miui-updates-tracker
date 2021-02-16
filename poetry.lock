@@ -264,7 +264,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "mysqlclient"
-version = "2.0.1"
+version = "2.0.3"
 description = "Python interface to MySQL"
 category = "main"
 optional = false
@@ -600,7 +600,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "061e3461ffdca9b324ad7fd62f933f4b569eda187c6590e8631ebd7534c369b2"
+content-hash = "16c95d3d02cd59e07f10268c647cdcbf6c6d7cd728183904d3905073547219fb"
 
 [metadata.files]
 aiodns = [
@@ -906,10 +906,11 @@ multidict = [
     {file = "multidict-4.7.6.tar.gz", hash = "sha256:fbb77a75e529021e7c4a8d4e823d88ef4d23674a202be4f5addffc72cbb91430"},
 ]
 mysqlclient = [
-    {file = "mysqlclient-2.0.1-cp36-cp36m-win_amd64.whl", hash = "sha256:edd42ccaa444b00702d5374b2f5f7585c9d0ce201917f15339f1c3cf91c1b1ed"},
-    {file = "mysqlclient-2.0.1-cp37-cp37m-win_amd64.whl", hash = "sha256:3f39855a4ad22805361e782cc4d1010ac74796225fa2d1c03cc16673ccdc983a"},
-    {file = "mysqlclient-2.0.1-cp38-cp38-win_amd64.whl", hash = "sha256:a6b5648f648b16335e3b1aaec93dc3fcc81a9a661180e306936437cc522c810b"},
-    {file = "mysqlclient-2.0.1.tar.gz", hash = "sha256:fb2f75aea14722390d2d8ddf384ad99da708c707a96656210a7be8af20a2c5e5"},
+    {file = "mysqlclient-2.0.3-cp36-cp36m-win_amd64.whl", hash = "sha256:3381ca1a4f37ff1155fcfde20836b46416d66531add8843f6aa6d968982731c3"},
+    {file = "mysqlclient-2.0.3-cp37-cp37m-win_amd64.whl", hash = "sha256:0ac0dd759c4ca02c35a9fedc24bc982cf75171651e8187c2495ec957a87dfff7"},
+    {file = "mysqlclient-2.0.3-cp38-cp38-win_amd64.whl", hash = "sha256:71c4b330cf2313bbda0307fc858cc9055e64493ba9bf28454d25cf8b3ee8d7f5"},
+    {file = "mysqlclient-2.0.3-cp39-cp39-win_amd64.whl", hash = "sha256:fc575093cf81b6605bed84653e48b277318b880dc9becf42dd47fa11ffd3e2b6"},
+    {file = "mysqlclient-2.0.3.tar.gz", hash = "sha256:f6ebea7c008f155baeefe16c56cd3ee6239f7a5a9ae42396c2f1860f08a7c432"},
 ]
 oauthlib = [
     {file = "oauthlib-3.1.0-py2.py3-none-any.whl", hash = "sha256:df884cd6cbe20e32633f1db1072e9356f53638e4361bef4e8b03c9127c9328ea"},
