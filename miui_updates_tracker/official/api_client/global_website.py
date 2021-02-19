@@ -71,7 +71,7 @@ class GlobalAPIClient(CommonClient):
             if response.status == 200:
                 response: list = await self._get_json_response(response)
                 for item in response:
-                    data = re.search(r'\?d=(\w+)&b=(\w)&r=(\w+)?', item['package_url'])
+                    data = re.search(r'\?d=(\w+)(?:\t)?&b=(\w)&r=(\w+)?', item['package_url'])
                     self.fastboot_devices.append({
                         'id': item.get('id'),
                         'device': re.search(r'★ ?(.*) Latest', item.get('package_name')).group(1),
