@@ -106,7 +106,7 @@ class GlobalAPIClient(CommonClient):
             updates.append(update)
         return updates
 
-    async def _request(self, device_id: str) -> list:
+    async def _request(self, device_id: str) -> Optional[list]:
         """
         Perform an OTA request
         :param device_id: Mi Community API device code
@@ -119,6 +119,8 @@ class GlobalAPIClient(CommonClient):
             if response.status == 200:
                 response = await self._get_json_response(response)
                 response = response['device_data']['device_list']
+                if not response:
+                    return
                 files = []
                 for _, info in response.items():
                     for branch in ['stable_rom', 'developer_rom']:
