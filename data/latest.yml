@@ -1,3 +1,23 @@
+- android: '11.0'
+  branch: Stable Beta
+  codename: davinci
+  date: 2021-03-01
+  link: https://bigota.d.miui.com/V12.1.1.0.RFJCNXM/miui_DAVINCI_V12.1.1.0.RFJCNXM_471ae2cf60_11.0.zip
+  md5: null
+  method: Recovery
+  name: Redmi K20 China
+  size: 2.6 GB
+  version: V12.1.1.0.RFJCNXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: surya_ru_global
+  date: 2021-03-01
+  link: https://bigota.d.miui.com/V12.0.6.0.QJGRUXM/miui_SURYARUGlobal_V12.0.6.0.QJGRUXM_cb2f3c53fa_10.0.zip
+  md5: cb2f3c53fa9f2308273647e2cd703419
+  method: Recovery
+  name: POCO X3 NFC Russia
+  size: 2.4 GB
+  version: V12.0.6.0.QJGRUXM
 - android: '10.0'
   branch: Stable Beta
   codename: merlin_global
@@ -108,16 +128,6 @@
   name: Redmi Note 9 Pro Max India
   size: 2.5 GB
   version: V12.0.3.0.QJXINXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: onc_in_global
-  date: 2021-02-23
-  link: https://bigota.d.miui.com/V11.0.5.0.QFFINXM/miui_ONCINGlobal_V11.0.5.0.QFFINXM_c57a715339_10.0.zip
-  md5: c57a7153398d85480da0d1821acfafb4
-  method: Recovery
-  name: Redmi Y3 India
-  size: 2.0 GB
-  version: V11.0.5.0.QFFINXM
 - android: '11.0'
   branch: Stable Beta
   codename: picasso
@@ -168,16 +178,6 @@
   name: Mi 10 Lite Zoom China
   size: 3.5 GB
   version: V12.1.5.0.RJVCNXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lancelot_ru_global
-  date: 2021-02-22
-  link: https://bigota.d.miui.com/V12.0.2.0.QJCRUXM/miui_LANCELOTRUGlobal_V12.0.2.0.QJCRUXM_50ffa07035_10.0.zip
-  md5: 50ffa07035a38ed5136292347e826f0c
-  method: Recovery
-  name: Redmi 9 Russia
-  size: 2.0 GB
-  version: V12.0.2.0.QJCRUXM
 - android: '10.0'
   branch: Stable Beta
   codename: apollo
@@ -238,16 +238,6 @@
   name: Mi 10T / Mi 10T Pro Indonesia
   size: 3.0 GB
   version: V12.0.4.0.QJDIDXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: apollo_tw_global
-  date: 2021-02-20
-  link: https://bigota.d.miui.com/V12.0.2.0.QJDTWXM/miui_APOLLOTWGlobal_V12.0.2.0.QJDTWXM_5c6a70825b_10.0.zip
-  md5: 5c6a70825bd813e55eaeb45425b17b32
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro Taiwan
-  size: 2.9 GB
-  version: V12.0.2.0.QJDTWXM
 - android: '10.0'
   branch: Stable Beta
   codename: gram_in_global
@@ -328,16 +318,6 @@
   name: Redmi 8A Dual India
   size: 1.8 GB
   version: V12.0.1.0.QCQINXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: gauguin_global
-  date: 2021-02-06
-  link: https://bigota.d.miui.com/V12.0.2.0.RJSMIXM/miui_GAUGUINGlobal_V12.0.2.0.RJSMIXM_5eb45c65a7_11.0.zip
-  md5: 5eb45c65a738c7b6f3f877a0d807c36d
-  method: Recovery
-  name: Mi 10T Lite Global
-  size: 2.7 GB
-  version: V12.0.2.0.RJSMIXM
 - android: '11.0'
   branch: Stable Beta
   codename: venus
@@ -798,6 +778,26 @@
   name: Redmi Go India
   size: 807.4 MB
   version: V10.2.19.0.OCLINXM
+- android: '10.0'
+  branch: Stable
+  codename: begonia_ru_global
+  date: 2021-02-23
+  link: https://bigota.d.miui.com/V12.0.7.0.QGGRUXM/miui_BEGONIARUGlobal_V12.0.7.0.QGGRUXM_94a5e98cc8_10.0.zip
+  md5: 94a5e98cc8fb119fa6f0e9daca7ba52f
+  method: Recovery
+  name: Redmi Note 8 Pro Russia
+  size: 2.3 GB
+  version: V12.0.7.0.QGGRUXM
+- android: '10.0'
+  branch: Stable
+  codename: onc_in_global
+  date: 2021-02-23
+  link: https://bigota.d.miui.com/V11.0.5.0.QFFINXM/miui_ONCINGlobal_V11.0.5.0.QFFINXM_c57a715339_10.0.zip
+  md5: c57a7153398d85480da0d1821acfafb4
+  method: Recovery
+  name: Redmi Y3 India
+  size: 2.0 GB
+  version: V11.0.5.0.QFFINXM
 - android: '8.1'
   branch: Stable
   codename: tiare_ru_global
@@ -818,6 +818,16 @@
   name: Redmi 9A China
   size: 2.0 GB
   version: V12.0.9.0.QCDCNXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot_ru_global
+  date: 2021-02-22
+  link: https://bigota.d.miui.com/V12.0.2.0.QJCRUXM/miui_LANCELOTRUGlobal_V12.0.2.0.QJCRUXM_50ffa07035_10.0.zip
+  md5: 50ffa07035a38ed5136292347e826f0c
+  method: Recovery
+  name: Redmi 9 Russia
+  size: 2.0 GB
+  version: V12.0.2.0.QJCRUXM
 - android: '10.0'
   branch: Stable
   codename: surya_eea_global
@@ -848,6 +858,16 @@
   name: Mi 10i India
   size: 2.6 GB
   version: V12.0.6.0.QJSINXM
+- android: '10.0'
+  branch: Stable
+  codename: apollo_tw_global
+  date: 2021-02-20
+  link: https://bigota.d.miui.com/V12.0.2.0.QJDTWXM/miui_APOLLOTWGlobal_V12.0.2.0.QJDTWXM_5c6a70825b_10.0.zip
+  md5: 5c6a70825bd813e55eaeb45425b17b32
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro Taiwan
+  size: 2.9 GB
+  version: V12.0.2.0.QJDTWXM
 - android: '11.0'
   branch: Stable
   codename: venus_eea_global
@@ -878,6 +898,16 @@
   name: Redmi 9 Indonesia
   size: 2.0 GB
   version: V12.0.2.0.QJCIDXM
+- android: '10.0'
+  branch: Stable
+  codename: onc_in_global
+  date: 2021-02-18
+  link: https://bigota.d.miui.com/V11.0.5.0.QFFINXM/onc_in_global_images_V11.0.5.0.QFFINXM_20210218.0000.00_10.0_in_877effa952.tgz
+  md5: 877effa952b48ce92f17309ede2fc0f1
+  method: Fastboot
+  name: Redmi Y3 India
+  size: 2.4 GB
+  version: V11.0.5.0.QFFINXM
 - android: '8.1'
   branch: Stable
   codename: tiare_global
@@ -990,6 +1020,16 @@
   version: V12.0.4.0.QJETWXM
 - android: '10.0'
   branch: Stable
+  codename: lancelot_ru_global
+  date: 2021-02-09
+  link: https://bigota.d.miui.com/V12.0.2.0.QJCRUXM/lancelot_ru_global_images_V12.0.2.0.QJCRUXM_20210209.0000.00_10.0_global_b97e72ffdc.tgz
+  md5: b97e72ffdc5c7a78ee7bc8608d55e591
+  method: Fastboot
+  name: Redmi 9 Russia
+  size: 3.7 GB
+  version: V12.0.2.0.QJCRUXM
+- android: '10.0'
+  branch: Stable
   codename: jasmine_global
   date: 2021-02-07
   link: https://bigota.d.miui.com/V11.0.21.0.QDIMIXM/miui_JASMINEGlobal_V11.0.21.0.QDIMIXM_ed83c6c979_10.0.zip
@@ -1068,6 +1108,16 @@
   name: Redmi K30 Ultra China
   size: 4.1 GB
   version: V12.0.20.0.QJNCNXM
+- android: '11.0'
+  branch: Stable
+  codename: gauguin_global
+  date: 2021-02-06
+  link: https://bigota.d.miui.com/V12.0.2.0.RJSMIXM/miui_GAUGUINGlobal_V12.0.2.0.RJSMIXM_5eb45c65a7_11.0.zip
+  md5: 5eb45c65a738c7b6f3f877a0d807c36d
+  method: Recovery
+  name: Mi 10T Lite Global
+  size: 2.7 GB
+  version: V12.0.2.0.RJSMIXM
 - android: '10.0'
   branch: Stable
   codename: citrus_in_global
@@ -1218,6 +1268,16 @@
   name: Redmi Note 8 Pro China
   size: 2.4 GB
   version: V12.0.5.0.QGGCNXM
+- android: '10.0'
+  branch: Stable
+  codename: begonia_ru_global
+  date: 2021-02-03
+  link: https://bigota.d.miui.com/V12.0.7.0.QGGRUXM/begonia_ru_global_images_V12.0.7.0.QGGRUXM_20210203.0000.00_10.0_global_fae254ed9e.tgz
+  md5: fae254ed9e00a6884681ab7204318c2a
+  method: Fastboot
+  name: Redmi Note 8 Pro Russia
+  size: 3.9 GB
+  version: V12.0.7.0.QGGRUXM
 - android: '10.0'
   branch: Stable
   codename: pine_eea_global
@@ -1408,6 +1468,16 @@
   name: POCO M3 Taiwan
   size: 2.5 GB
   version: V12.0.2.0.QJFTWXM
+- android: '11.0'
+  branch: Stable
+  codename: gauguin_global
+  date: 2021-01-30
+  link: https://bigota.d.miui.com/V12.0.2.0.RJSMIXM/gauguin_global_images_V12.0.2.0.RJSMIXM_20210130.0000.00_11.0_global_ed94f44278.tgz
+  md5: ed94f44278f0f09c4adee1ab17062689
+  method: Fastboot
+  name: Mi 10T Lite Global
+  size: 4.8 GB
+  version: V12.0.2.0.RJSMIXM
 - android: '10.0'
   branch: Stable
   codename: beryllium_ru_global
@@ -1668,6 +1738,16 @@
   name: Mi 10 Lite Taiwan
   size: 2.9 GB
   version: V12.1.1.0.RJITWXM
+- android: '10.0'
+  branch: Stable
+  codename: apollo_tw_global
+  date: 2021-01-27
+  link: https://bigota.d.miui.com/V12.0.2.0.QJDTWXM/apollo_tw_global_images_V12.0.2.0.QJDTWXM_20210127.0000.00_10.0_global_d73b7dbe4c.tgz
+  md5: d73b7dbe4c96aa7318789b0055fd2d32
+  method: Fastboot
+  name: Mi 10T / Mi 10T Pro Taiwan
+  size: 3.8 GB
+  version: V12.0.2.0.QJDTWXM
 - android: '10.0'
   branch: Stable
   codename: lime_eea_global
@@ -3170,16 +3250,6 @@
   version: V12.0.1.0.QCMINXM
 - android: '10.0'
   branch: Stable
-  codename: gauguin_global
-  date: 2021-01-08
-  link: https://bigota.d.miui.com/V12.0.7.0.QJSMIXM/miui_GAUGUINGlobal_V12.0.7.0.QJSMIXM_aeeb4fc609_10.0.zip
-  md5: aeeb4fc6098ad546a3d341a560e86cf3
-  method: Recovery
-  name: Mi 10T Lite Global
-  size: 2.6 GB
-  version: V12.0.7.0.QJSMIXM
-- android: '10.0'
-  branch: Stable
   codename: cannong_eea_global
   date: 2021-01-08
   link: https://bigota.d.miui.com/V12.0.4.0.QJEEUXM/cannong_eea_global_images_V12.0.4.0.QJEEUXM_20210108.0000.00_10.0_eea_143ab8bbcd.tgz
@@ -3478,16 +3548,6 @@
   name: Redmi K30 4G China
   size: 3.0 GB
   version: V12.1.3.0.RGHCNXM
-- android: '10.0'
-  branch: Stable
-  codename: apollo_tw_global
-  date: 2020-12-31
-  link: https://bigota.d.miui.com/V12.0.1.0.QJDTWXM/miui_APOLLOTWGlobal_V12.0.1.0.QJDTWXM_e13f205e7e_10.0.zip
-  md5: e13f205e7ec1fa06b55602a4ec83646d
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro Taiwan
-  size: 2.9 GB
-  version: V12.0.1.0.QJDTWXM
 - android: '10.0'
   branch: Stable
   codename: merlin_tw_global
@@ -3810,16 +3870,6 @@
   version: V12.0.1.0.QJRINXM
 - android: '10.0'
   branch: Stable
-  codename: gauguin_global
-  date: 2020-12-24
-  link: https://bigota.d.miui.com/V12.0.7.0.QJSMIXM/gauguin_global_images_V12.0.7.0.QJSMIXM_20201224.0000.00_10.0_global_0751deb9ca.tgz
-  md5: 0751deb9ca954fa63534f28be3aeeb5c
-  method: Fastboot
-  name: Mi 10T Lite Global
-  size: 4.6 GB
-  version: V12.0.7.0.QJSMIXM
-- android: '10.0'
-  branch: Stable
   codename: atom
   date: 2020-12-23
   link: https://bigota.d.miui.com/V12.0.6.0.QJHCNXM/miui_ATOM_V12.0.6.0.QJHCNXM_13ed449c76_10.0.zip
@@ -4020,16 +4070,6 @@
   version: V12.0.3.0.QGGEUXM
 - android: '10.0'
   branch: Stable
-  codename: begonia_ru_global
-  date: 2020-12-18
-  link: https://bigota.d.miui.com/V12.0.6.0.QGGRUXM/miui_BEGONIARUGlobal_V12.0.6.0.QGGRUXM_84c9617bd4_10.0.zip
-  md5: 84c9617bd46c723fb1e6f2091a7157cc
-  method: Recovery
-  name: Redmi Note 8 Pro Russia
-  size: 2.3 GB
-  version: V12.0.6.0.QGGRUXM
-- android: '10.0'
-  branch: Stable
   codename: merlin_eea_global
   date: 2020-12-18
   link: https://bigota.d.miui.com/V12.0.5.0.QJOEUXM/miui_MERLINEEAGlobal_V12.0.5.0.QJOEUXM_d605e6fe32_10.0.zip
@@ -4100,16 +4140,6 @@
   version: V12.0.6.0.QFACNXM
 - android: '10.0'
   branch: Stable
-  codename: lancelot_ru_global
-  date: 2020-12-16
-  link: https://bigota.d.miui.com/V12.0.1.0.QJCRUXM/miui_LANCELOTRUGlobal_V12.0.1.0.QJCRUXM_2fdde20b04_10.0.zip
-  md5: 2fdde20b04698e6599e12d2601777f82
-  method: Recovery
-  name: Redmi 9 Russia
-  size: 2.0 GB
-  version: V12.0.1.0.QJCRUXM
-- android: '10.0'
-  branch: Stable
   codename: grus_eea_global
   date: 2020-12-15
   link: https://bigota.d.miui.com/V12.0.3.0.QFBEUXM/miui_GRUSEEAGlobal_V12.0.3.0.QFBEUXM_81b6632b04_10.0.zip
@@ -4158,16 +4188,6 @@
   name: Redmi Note 8 Pro EEA
   size: 4.3 GB
   version: V12.0.3.0.QGGEUXM
-- android: '10.0'
-  branch: Stable
-  codename: begonia_ru_global
-  date: 2020-12-13
-  link: https://bigota.d.miui.com/V12.0.6.0.QGGRUXM/begonia_ru_global_images_V12.0.6.0.QGGRUXM_20201213.0000.00_10.0_global_43a58921d3.tgz
-  md5: 43a58921d3a83e032c01589637c6cd19
-  method: Fastboot
-  name: Redmi Note 8 Pro Russia
-  size: 3.8 GB
-  version: V12.0.6.0.QGGRUXM
 - android: '10.0'
   branch: Stable
   codename: gram_in_global
@@ -4298,16 +4318,6 @@
   name: Redmi S2 Russia
   size: 2.0 GB
   version: V12.0.1.0.PEFRUXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot_ru_global
-  date: 2020-12-09
-  link: https://bigota.d.miui.com/V12.0.1.0.QJCRUXM/lancelot_ru_global_images_V12.0.1.0.QJCRUXM_20201209.0000.00_10.0_global_92522af65d.tgz
-  md5: 92522af65df03a86e7633266e290048e
-  method: Fastboot
-  name: Redmi 9 Russia
-  size: 3.7 GB
-  version: V12.0.1.0.QJCRUXM
 - android: '10.0'
   branch: Stable
   codename: apollo_ru_global
@@ -4528,16 +4538,6 @@
   name: Mi 9 SE China
   size: 3.5 GB
   version: V12.0.3.0.QFBCNXM
-- android: '9.0'
-  branch: Stable
-  codename: onc_in_global
-  date: 2020-11-23
-  link: https://bigota.d.miui.com/V11.0.12.0.PFFINXM/miui_ONCINGlobal_V11.0.12.0.PFFINXM_3905c69fd7_9.0.zip
-  md5: 3905c69fd7e79fceda02d24a9fc9fa35
-  method: Recovery
-  name: Redmi Y3 India
-  size: 1.8 GB
-  version: V11.0.12.0.PFFINXM
 - android: '10.0'
   branch: Stable
   codename: tucana_id_global
@@ -4638,16 +4638,6 @@
   name: Redmi Note 8 China
   size: 3.4 GB
   version: V12.0.3.0.QCOCNXM
-- android: '10.0'
-  branch: Stable
-  codename: apollo_tw_global
-  date: 2020-11-17
-  link: https://bigota.d.miui.com/V12.0.1.0.QJDTWXM/apollo_tw_global_images_V12.0.1.0.QJDTWXM_20201117.0000.00_10.0_global_5284eac353.tgz
-  md5: 5284eac3530154590ab63f173334e64e
-  method: Fastboot
-  name: Mi 10T / Mi 10T Pro Taiwan
-  size: 3.8 GB
-  version: V12.0.1.0.QJDTWXM
 - android: '11.0'
   branch: Stable
   codename: cmi_global
@@ -4658,16 +4648,6 @@
   name: Mi 10 Pro Global
   size: 4.8 GB
   version: V12.2.1.0.RJAMIXM
-- android: '9.0'
-  branch: Stable
-  codename: onc_in_global
-  date: 2020-11-16
-  link: https://bigota.d.miui.com/V11.0.12.0.PFFINXM/onc_in_global_images_V11.0.12.0.PFFINXM_20201116.0000.00_9.0_in_b906c756e7.tgz
-  md5: b906c756e7dacbdb4d467f792b1f7805
-  method: Fastboot
-  name: Redmi Y3 India
-  size: 2.2 GB
-  version: V11.0.12.0.PFFINXM
 - android: '10.0'
   branch: Stable
   codename: perseus_global
