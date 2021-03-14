@@ -68,16 +68,6 @@
   name: Redmi 9A India
   size: 1.7 GB
   version: V12.0.11.0.QCDINXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: alioth
-  date: 2021-03-11
-  link: https://bigota.d.miui.com/V12.0.6.0.RKHCNXM/miui_ALIOTH_V12.0.6.0.RKHCNXM_8a8612befa_11.0.zip
-  md5: 8a8612befae3995d005aa17ec3ca89d9
-  method: Recovery
-  name: Redmi K40 China
-  size: 3.7 GB
-  version: V12.0.6.0.RKHCNXM
 - android: '10.0'
   branch: Stable Beta
   codename: ginkgo_global
@@ -770,6 +760,16 @@
   version: V10.2.9.0.OCLRUXM
 - android: '11.0'
   branch: Stable
+  codename: alioth
+  date: 2021-03-11
+  link: https://bigota.d.miui.com/V12.0.6.0.RKHCNXM/miui_ALIOTH_V12.0.6.0.RKHCNXM_8a8612befa_11.0.zip
+  md5: 8a8612befae3995d005aa17ec3ca89d9
+  method: Recovery
+  name: Redmi K40 China
+  size: 3.7 GB
+  version: V12.0.6.0.RKHCNXM
+- android: '11.0'
+  branch: Stable
   codename: mojito_global
   date: 2021-03-11
   link: https://bigota.d.miui.com/V12.0.2.0.RKGMIXM/miui_MOJITOGlobal_V12.0.2.0.RKGMIXM_89060c6741_11.0.zip
@@ -798,6 +798,16 @@
   name: Mi 11 Global
   size: 3.1 GB
   version: V12.0.4.0.RKBMIXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth
+  date: 2021-03-09
+  link: https://bigota.d.miui.com/V12.0.6.0.RKHCNXM/alioth_images_V12.0.6.0.RKHCNXM_20210309.0000.00_11.0_cn_786816ab4a.tgz
+  md5: 786816ab4a7dfbac6501a011f6951746
+  method: Fastboot
+  name: Redmi K40 China
+  size: 4.9 GB
+  version: V12.0.6.0.RKHCNXM
 - android: '10.0'
   branch: Stable
   codename: lime_eea_global
@@ -868,16 +878,6 @@
   name: Mi 10S China
   size: 5.0 GB
   version: V12.0.7.0.RGACNXM
-- android: '11.0'
-  branch: Stable
-  codename: alioth
-  date: 2021-03-04
-  link: https://bigota.d.miui.com/V12.0.5.0.RKHCNXM/miui_ALIOTH_V12.0.5.0.RKHCNXM_92ccb0cdcf_11.0.zip
-  md5: 92ccb0cdcf7d3229be8fbed39c433b1f
-  method: Recovery
-  name: Redmi K40 China
-  size: 3.7 GB
-  version: V12.0.5.0.RKHCNXM
 - android: '9.0'
   branch: Stable
   codename: andromeda_eea_global
@@ -1088,16 +1088,6 @@
   name: Redmi Go India
   size: 807.4 MB
   version: V10.2.19.0.OCLINXM
-- android: '11.0'
-  branch: Stable
-  codename: alioth
-  date: 2021-02-24
-  link: https://bigota.d.miui.com/V12.0.5.0.RKHCNXM/alioth_images_V12.0.5.0.RKHCNXM_20210224.0000.00_11.0_cn_68bd63b8dc.tgz
-  md5: 68bd63b8dc7e6d103090d33e4b785674
-  method: Fastboot
-  name: Redmi K40 China
-  size: 4.9 GB
-  version: V12.0.5.0.RKHCNXM
 - android: '10.0'
   branch: Stable
   codename: begonia_ru_global
