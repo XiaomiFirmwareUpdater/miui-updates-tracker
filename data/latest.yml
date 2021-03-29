@@ -1,3 +1,23 @@
+- android: '9.0'
+  branch: Stable Beta
+  codename: andromeda_global
+  date: 2021-03-29
+  link: https://bigota.d.miui.com/V12.0.4.0.PEMMIXM/miui_ANDROMEDAGlobal_V12.0.4.0.PEMMIXM_9ac8cec738_9.0.zip
+  md5: 9ac8cec7384c07152ae3c7544ad8d8be
+  method: Recovery
+  name: Mi MIX 3 5G Global
+  size: 2.4 GB
+  version: V12.0.4.0.PEMMIXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: cas
+  date: 2021-03-29
+  link: https://bigota.d.miui.com/V12.5.1.0.RJJCNXM/miui_CAS_V12.5.1.0.RJJCNXM_a26d7e7cc0_11.0.zip
+  md5: a26d7e7cc0429808571b27a0b6cfbfd9
+  method: Recovery
+  name: Mi 10 Ultra China
+  size: 4.1 GB
+  version: V12.5.1.0.RJJCNXM
 - android: '10.0'
   branch: Stable Beta
   codename: lime_tw_global
@@ -375,7 +395,7 @@
   link: https://bigota.d.miui.com/V12.0.3.0.RKKCNXM/miui_HAYDN_V12.0.3.0.RKKCNXM_5ae249fda2_11.0.zip
   md5: 5ae249fda2a2f3194c671abd878ebbc3
   method: Recovery
-  name: Redmi K40 Pro China
+  name: Redmi K40 Pro / Pro+ China
   size: 3.8 GB
   version: V12.0.3.0.RKKCNXM
 - android: '11.0'
@@ -538,16 +558,6 @@
   name: POCO M3 Russia
   size: 2.5 GB
   version: V12.0.2.0.QJFRUXM
-- android: '9.0'
-  branch: Stable Beta
-  codename: andromeda_global
-  date: 2020-12-23
-  link: https://bigota.d.miui.com/V12.0.2.0.PEMMIXM/miui_ANDROMEDAGlobal_V12.0.2.0.PEMMIXM_bcb73d3715_9.0.zip
-  md5: bcb73d371512a26c06e9d13893c5c885
-  method: Recovery
-  name: Mi MIX 3 5G Global
-  size: 2.5 GB
-  version: V12.0.2.0.PEMMIXM
 - android: '10.0'
   branch: Stable Beta
   codename: surya_id_global
@@ -578,16 +588,6 @@
   name: POCO X3 NFC Global
   size: 2.4 GB
   version: V12.0.6.0.QJGMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: cas
-  date: 2020-12-08
-  link: https://bigota.d.miui.com/V12.0.14.0.QJJCNXM/miui_CAS_V12.0.14.0.QJJCNXM_9437ab21cb_10.0.zip
-  md5: 9437ab21cb47751dea6d378670ab41dc
-  method: Recovery
-  name: Mi 10 Ultra China
-  size: 4.0 GB
-  version: V12.0.14.0.QJJCNXM
 - android: '10.0'
   branch: Stable Beta
   codename: lime_in_global
@@ -1275,7 +1275,7 @@
   link: https://bigota.d.miui.com/V12.0.5.0.RKKCNXM/miui_HAYDN_V12.0.5.0.RKKCNXM_cdb31bc683_11.0.zip
   md5: cdb31bc68345465aa641056028450123
   method: Recovery
-  name: Redmi K40 Pro China
+  name: Redmi K40 Pro / Pro+ China
   size: 3.9 GB
   version: V12.0.5.0.RKKCNXM
 - android: '11.0'
@@ -1615,7 +1615,7 @@
   link: https://bigota.d.miui.com/V12.0.5.0.RKKCNXM/haydn_images_V12.0.5.0.RKKCNXM_20210309.0000.00_11.0_cn_91dfe3fb50.tgz
   md5: 91dfe3fb505d4e50b47c6c1053223897
   method: Fastboot
-  name: Redmi K40 Pro China
+  name: Redmi K40 Pro / Pro+ China
   size: 5.2 GB
   version: V12.0.5.0.RKKCNXM
 - android: '10.0'
@@ -8505,7 +8505,7 @@
   link: https://bigota.d.miui.com/21.3.24/miui_HAYDN_21.3.24_3ed2fa051a_11.0.zip
   md5: 3ed2fa051a6848e45e54861625111eab
   method: Recovery
-  name: Redmi K40 Pro China
+  name: Redmi K40 Pro / Pro+ China
   size: 4.1 GB
   version: 21.3.24
 - android: '11.0'
