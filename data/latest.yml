@@ -140,16 +140,6 @@
   version: V12.0.8.0.QJCCNXM
 - android: '10.0'
   branch: Stable Beta
-  codename: olive_eea_global
-  date: 2021-03-26
-  link: https://bigota.d.miui.com/V12.0.2.0.QCNEUXM/miui_OLIVEEEAGlobal_V12.0.2.0.QCNEUXM_9b40d2cdfe_10.0.zip
-  md5: 9b40d2cdfe69c3963d76389f1ce19203
-  method: Recovery
-  name: Redmi 8 EEA
-  size: 2.3 GB
-  version: V12.0.2.0.QCNEUXM
-- android: '10.0'
-  branch: Stable Beta
   codename: olivelite_eea_global
   date: 2021-03-26
   link: https://bigota.d.miui.com/V12.0.2.0.QCPEUXM/miui_OLIVELITEEEAGlobal_V12.0.2.0.QCPEUXM_53eb672eb5_10.0.zip
@@ -198,16 +188,6 @@
   name: POCO C3 India
   size: 1.7 GB
   version: V12.0.8.0.QCRINXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: olive_ru_global
-  date: 2021-03-25
-  link: https://bigota.d.miui.com/V12.0.2.0.QCNRUXM/miui_OLIVERUGlobal_V12.0.2.0.QCNRUXM_1b1222a284_10.0.zip
-  md5: 1b1222a284576cc5b75366307acf932b
-  method: Recovery
-  name: Redmi 8 Russia
-  size: 2.3 GB
-  version: V12.0.2.0.QCNRUXM
 - android: '11.0'
   branch: Stable Beta
   codename: gauguin
@@ -960,6 +940,16 @@
   version: V12.0.4.0.RJUINXM
 - android: '10.0'
   branch: Stable
+  codename: olive_eea_global
+  date: 2021-03-26
+  link: https://bigota.d.miui.com/V12.0.2.0.QCNEUXM/miui_OLIVEEEAGlobal_V12.0.2.0.QCNEUXM_9b40d2cdfe_10.0.zip
+  md5: 9b40d2cdfe69c3963d76389f1ce19203
+  method: Recovery
+  name: Redmi 8 EEA
+  size: 2.3 GB
+  version: V12.0.2.0.QCNEUXM
+- android: '10.0'
+  branch: Stable
   codename: shiva_in_global
   date: 2021-03-26
   link: https://bigota.d.miui.com/V12.0.2.0.QJRINXM/miui_SHIVAINGlobal_V12.0.2.0.QJRINXM_35ea0713e1_10.0.zip
@@ -978,6 +968,16 @@
   name: POCO X3 Pro Global
   size: 2.8 GB
   version: V12.0.4.0.RJUMIXM
+- android: '10.0'
+  branch: Stable
+  codename: olive_ru_global
+  date: 2021-03-25
+  link: https://bigota.d.miui.com/V12.0.2.0.QCNRUXM/miui_OLIVERUGlobal_V12.0.2.0.QCNRUXM_1b1222a284_10.0.zip
+  md5: 1b1222a284576cc5b75366307acf932b
+  method: Recovery
+  name: Redmi 8 Russia
+  size: 2.3 GB
+  version: V12.0.2.0.QCNRUXM
 - android: '9.0'
   branch: Stable
   codename: andromeda_global
@@ -1058,6 +1058,26 @@
   name: Mi Max 3 China
   size: 2.3 GB
   version: V12.0.2.0.QEDCNXM
+- android: '10.0'
+  branch: Stable
+  codename: olive_eea_global
+  date: 2021-03-22
+  link: https://bigota.d.miui.com/V12.0.2.0.QCNEUXM/olive_eea_global_images_V12.0.2.0.QCNEUXM_20210322.0000.00_10.0_eea_c228b7379d.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi 8 EEA
+  size: 4.1 GB
+  version: V12.0.2.0.QCNEUXM
+- android: '10.0'
+  branch: Stable
+  codename: olive_ru_global
+  date: 2021-03-22
+  link: https://bigota.d.miui.com/V12.0.2.0.QCNRUXM/olive_ru_global_images_V12.0.2.0.QCNRUXM_20210322.0000.00_10.0_global_0e5e578038.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi 8 Russia
+  size: 3.6 GB
+  version: V12.0.2.0.QCNRUXM
 - android: '11.0'
   branch: Stable
   codename: tucana_id_global
@@ -4470,16 +4490,6 @@
   version: V12.2.3.0.RJACNXM
 - android: '10.0'
   branch: Stable
-  codename: olivelite_ru_global
-  date: 2021-01-12
-  link: https://bigota.d.miui.com/V12.0.1.0.QCPRUXM/olivelite_ru_global_images_V12.0.1.0.QCPRUXM_20210112.0000.00_10.0_global_21c844ec5a.tgz
-  md5: 21c844ec5aa0e450c530d5422ac64311
-  method: Fastboot
-  name: Redmi 8A Russia
-  size: 3.2 GB
-  version: V12.0.1.0.QCPRUXM
-- android: '10.0'
-  branch: Stable
   codename: olive
   date: 2021-01-12
   link: https://bigota.d.miui.com/V12.0.1.0.QCNCNXM/olive_images_V12.0.1.0.QCNCNXM_20210112.0000.00_10.0_cn_298f01b00d.tgz
@@ -4488,6 +4498,16 @@
   name: Redmi 8 China
   size: 3.1 GB
   version: V12.0.1.0.QCNCNXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_ru_global
+  date: 2021-01-12
+  link: https://bigota.d.miui.com/V12.0.1.0.QCPRUXM/olivelite_ru_global_images_V12.0.1.0.QCPRUXM_20210112.0000.00_10.0_global_21c844ec5a.tgz
+  md5: 21c844ec5aa0e450c530d5422ac64311
+  method: Fastboot
+  name: Redmi 8A Russia
+  size: 3.2 GB
+  version: V12.0.1.0.QCPRUXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_global
@@ -4578,26 +4598,6 @@
   name: Redmi 8A China
   size: 2.0 GB
   version: V12.0.1.0.QCPCNXM
-- android: '10.0'
-  branch: Stable
-  codename: olive_eea_global
-  date: 2021-01-08
-  link: https://bigota.d.miui.com/V12.0.1.0.QCNEUXM/miui_OLIVEEEAGlobal_V12.0.1.0.QCNEUXM_f6ff3a4e83_10.0.zip
-  md5: f6ff3a4e836c20857e1a836484157463
-  method: Recovery
-  name: Redmi 8 EEA
-  size: 2.1 GB
-  version: V12.0.1.0.QCNEUXM
-- android: '10.0'
-  branch: Stable
-  codename: olive_ru_global
-  date: 2021-01-08
-  link: https://bigota.d.miui.com/V12.0.1.0.QCNRUXM/miui_OLIVERUGlobal_V12.0.1.0.QCNRUXM_e7a253edef_10.0.zip
-  md5: e7a253edef24eeb9dc5f4a4683f4b123
-  method: Recovery
-  name: Redmi 8 Russia
-  size: 2.1 GB
-  version: V12.0.1.0.QCNRUXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_eea_global
@@ -4720,16 +4720,6 @@
   version: V12.0.2.0.PEIMIXM
 - android: '10.0'
   branch: Stable
-  codename: olive_ru_global
-  date: 2021-01-03
-  link: https://bigota.d.miui.com/V12.0.1.0.QCNRUXM/olive_ru_global_images_V12.0.1.0.QCNRUXM_20210103.0000.00_10.0_global_8c65d97313.tgz
-  md5: 8c65d973130a30b3d289ff99fc1f3515
-  method: Fastboot
-  name: Redmi 8 Russia
-  size: 3.6 GB
-  version: V12.0.1.0.QCNRUXM
-- android: '10.0'
-  branch: Stable
   codename: olivelite
   date: 2020-12-31
   link: https://bigota.d.miui.com/V12.0.1.0.QCPCNXM/olivelite_images_V12.0.1.0.QCPCNXM_20201231.0000.00_10.0_cn_206fe6b910.tgz
@@ -4778,16 +4768,6 @@
   name: Redmi Note 9T Russia
   size: 3.8 GB
   version: V12.0.1.0.QJERUXM
-- android: '10.0'
-  branch: Stable
-  codename: olive_eea_global
-  date: 2020-12-29
-  link: https://bigota.d.miui.com/V12.0.1.0.QCNEUXM/olive_eea_global_images_V12.0.1.0.QCNEUXM_20201229.0000.00_10.0_eea_3fde240dbc.tgz
-  md5: 3fde240dbc167f8ff4f3ec39f9eb3d8f
-  method: Fastboot
-  name: Redmi 8 EEA
-  size: 4.1 GB
-  version: V12.0.1.0.QCNEUXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_eea_global
