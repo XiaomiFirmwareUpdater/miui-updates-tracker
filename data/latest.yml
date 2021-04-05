@@ -78,16 +78,6 @@
   name: Redmi Note 9 Pro Indonesia
   size: 2.5 GB
   version: V12.0.5.0.QJZIDXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: surya_ru_global
-  date: 2021-03-30
-  link: https://bigota.d.miui.com/V12.0.7.0.QJGRUXM/miui_SURYARUGlobal_V12.0.7.0.QJGRUXM_e150f7d22a_10.0.zip
-  md5: e150f7d22ad5ec602ed617a9ed95ed29
-  method: Recovery
-  name: POCO X3 NFC Russia
-  size: 2.4 GB
-  version: V12.0.7.0.QJGRUXM
 - android: '11.0'
   branch: Stable Beta
   codename: apollo_eea_global
@@ -868,6 +858,16 @@
   name: Mi 11 Lite 4G EEA
   size: 2.9 GB
   version: V12.0.2.0.RKQEUXM
+- android: '10.0'
+  branch: Stable
+  codename: surya_ru_global
+  date: 2021-03-30
+  link: https://bigota.d.miui.com/V12.0.7.0.QJGRUXM/miui_SURYARUGlobal_V12.0.7.0.QJGRUXM_e150f7d22a_10.0.zip
+  md5: e150f7d22ad5ec602ed617a9ed95ed29
+  method: Recovery
+  name: POCO X3 NFC Russia
+  size: 2.4 GB
+  version: V12.0.7.0.QJGRUXM
 - android: '11.0'
   branch: Stable
   codename: haydn
@@ -1978,6 +1978,16 @@
   name: Redmi Note 9 Turkey
   size: 3.6 GB
   version: V12.0.6.0.QJOTRXM
+- android: '10.0'
+  branch: Stable
+  codename: surya_ru_global
+  date: 2021-03-10
+  link: https://bigota.d.miui.com/V12.0.7.0.QJGRUXM/surya_ru_global_images_V12.0.7.0.QJGRUXM_20210310.0000.00_10.0_global_eb3ff78feb.tgz
+  md5: eb3ff78feba612f4ce0c34b54f708530
+  method: Fastboot
+  name: POCO X3 NFC Russia
+  size: 4.2 GB
+  version: V12.0.7.0.QJGRUXM
 - android: '11.0'
   branch: Stable
   codename: apollo_global
@@ -2318,16 +2328,6 @@
   name: POCO X3 NFC Indonesia
   size: 2.4 GB
   version: V12.0.6.0.QJGIDXM
-- android: '10.0'
-  branch: Stable
-  codename: surya_ru_global
-  date: 2021-03-01
-  link: https://bigota.d.miui.com/V12.0.6.0.QJGRUXM/miui_SURYARUGlobal_V12.0.6.0.QJGRUXM_cb2f3c53fa_10.0.zip
-  md5: cb2f3c53fa9f2308273647e2cd703419
-  method: Recovery
-  name: POCO X3 NFC Russia
-  size: 2.4 GB
-  version: V12.0.6.0.QJGRUXM
 - android: '10.0'
   branch: Stable
   codename: merlin_global
@@ -2758,16 +2758,6 @@
   name: POCO X3 NFC Indonesia
   size: 4.2 GB
   version: V12.0.6.0.QJGIDXM
-- android: '10.0'
-  branch: Stable
-  codename: surya_ru_global
-  date: 2021-02-21
-  link: https://bigota.d.miui.com/V12.0.6.0.QJGRUXM/surya_ru_global_images_V12.0.6.0.QJGRUXM_20210221.0000.00_10.0_global_2d9e2fb8b9.tgz
-  md5: 2d9e2fb8b9384fcc3e0ef5bfc84e0371
-  method: Fastboot
-  name: POCO X3 NFC Russia
-  size: 4.1 GB
-  version: V12.0.6.0.QJGRUXM
 - android: '11.0'
   branch: Stable
   codename: monet_eea_global
@@ -4080,16 +4070,6 @@
   version: V12.0.2.0.QJZEUXM
 - android: '10.0'
   branch: Stable
-  codename: olive_id_global
-  date: 2021-01-21
-  link: https://bigota.d.miui.com/V12.0.1.0.QCNIDXM/olive_id_global_images_V12.0.1.0.QCNIDXM_20210121.0000.00_10.0_global_c8b26f617d.tgz
-  md5: c8b26f617d84d2c6ec12b61d9ba5643c
-  method: Fastboot
-  name: Redmi 8 Indonesia
-  size: 3.8 GB
-  version: V12.0.1.0.QCNIDXM
-- android: '10.0'
-  branch: Stable
   codename: olivelite_ru_global
   date: 2021-01-21
   link: https://bigota.d.miui.com/V12.0.1.0.QCPRUXM/miui_OLIVELITERUGlobal_V12.0.1.0.QCPRUXM_1898da3da2_10.0.zip
@@ -4098,6 +4078,16 @@
   name: Redmi 8A Russia
   size: 1.8 GB
   version: V12.0.1.0.QCPRUXM
+- android: '10.0'
+  branch: Stable
+  codename: olive_id_global
+  date: 2021-01-21
+  link: https://bigota.d.miui.com/V12.0.1.0.QCNIDXM/olive_id_global_images_V12.0.1.0.QCNIDXM_20210121.0000.00_10.0_global_c8b26f617d.tgz
+  md5: c8b26f617d84d2c6ec12b61d9ba5643c
+  method: Fastboot
+  name: Redmi 8 Indonesia
+  size: 3.8 GB
+  version: V12.0.1.0.QCNIDXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_global
@@ -4728,16 +4718,6 @@
   name: Redmi 7A China
   size: 2.0 GB
   version: V12.0.2.0.QCMCNXM
-- android: '10.0'
-  branch: Stable
-  codename: vela
-  date: 2021-01-06
-  link: https://bigota.d.miui.com/V12.0.3.0.QFECNXM/miui_VELA_V12.0.3.0.QFECNXM_c0824e79ad_10.0.zip
-  md5: c0824e79ad5c6e0f12998c43a86be242
-  method: Recovery
-  name: Mi CC 9 Meitu Edition China
-  size: 2.6 GB
-  version: V12.0.3.0.QFECNXM
 - android: '9.0'
   branch: Stable
   codename: tulip_global
@@ -4748,6 +4728,16 @@
   name: Redmi Note 6 Pro Global
   size: 2.0 GB
   version: V12.0.1.0.PEKMIXM
+- android: '10.0'
+  branch: Stable
+  codename: vela
+  date: 2021-01-06
+  link: https://bigota.d.miui.com/V12.0.3.0.QFECNXM/miui_VELA_V12.0.3.0.QFECNXM_c0824e79ad_10.0.zip
+  md5: c0824e79ad5c6e0f12998c43a86be242
+  method: Recovery
+  name: Mi CC 9 Meitu Edition China
+  size: 2.6 GB
+  version: V12.0.3.0.QFECNXM
 - android: '11.0'
   branch: Stable
   codename: lmi_global
