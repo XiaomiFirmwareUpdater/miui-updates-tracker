@@ -1,3 +1,13 @@
+- android: '10.0'
+  branch: Stable Beta
+  codename: lime
+  date: 2021-04-06
+  link: https://bigota.d.miui.com/V12.0.13.0.QJQCNXM/miui_LIME_V12.0.13.0.QJQCNXM_c736f457e3_10.0.zip
+  md5: c736f457e371252c8b35979d917462cf
+  method: Recovery
+  name: Redmi Note 9 4G China
+  size: 2.7 GB
+  version: V12.0.13.0.QJQCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: cmi
@@ -90,16 +100,6 @@
   version: V12.1.4.0.RJDEUXM
 - android: '11.0'
   branch: Stable Beta
-  codename: apollo_tw_global
-  date: 2021-03-30
-  link: https://bigota.d.miui.com/V12.1.1.0.RJDTWXM/miui_APOLLOTWGlobal_V12.1.1.0.RJDTWXM_074aac798b_11.0.zip
-  md5: 074aac798b1c1f6a71afe32a173bd7b2
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro Taiwan
-  size: 3.0 GB
-  version: V12.1.1.0.RJDTWXM
-- android: '11.0'
-  branch: Stable Beta
   codename: venus
   date: 2021-03-30
   link: https://bigota.d.miui.com/V12.5.1.0.RKBCNXM/miui_VENUS_V12.5.1.0.RKBCNXM_a019e6dcb8_11.0.zip
@@ -148,16 +148,6 @@
   name: Mi 11 Pro / Ultra China
   size: 5.6 GB
   version: V12.0.9.0.RKACNXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: olivelite_eea_global
-  date: 2021-03-26
-  link: https://bigota.d.miui.com/V12.0.2.0.QCPEUXM/miui_OLIVELITEEEAGlobal_V12.0.2.0.QCPEUXM_53eb672eb5_10.0.zip
-  md5: 53eb672eb579e16a16a71c764f0ffdc5
-  method: Recovery
-  name: Redmi 8A EEA
-  size: 1.9 GB
-  version: V12.0.2.0.QCPEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_tr_global
@@ -530,16 +520,6 @@
   version: V12.0.1.0.QJFEUXM
 - android: '10.0'
   branch: Stable Beta
-  codename: lime
-  date: 2020-11-27
-  link: https://bigota.d.miui.com/V12.0.1.0.QJQCNXM/miui_LIME_V12.0.1.0.QJQCNXM_094e383307_10.0.zip
-  md5: 094e383307884dd788fc6262872b5658
-  method: Recovery
-  name: Redmi Note 9 4G China
-  size: 2.7 GB
-  version: V12.0.1.0.QJQCNXM
-- android: '10.0'
-  branch: Stable Beta
   codename: ginkgo_global
   date: 2020-11-24
   link: https://bigota.d.miui.com/V12.0.2.0.QCOMIXM/miui_GINKGOGlobal_V12.0.2.0.QCOMIXM_b58f9663d7_10.0.zip
@@ -858,6 +838,16 @@
   name: Mi 11 Lite 4G EEA
   size: 2.9 GB
   version: V12.0.2.0.RKQEUXM
+- android: '11.0'
+  branch: Stable
+  codename: courbet_ru_global
+  date: 2021-03-31
+  link: https://bigota.d.miui.com/V12.0.1.0.RKQRUXM/miui_COURBETRUGlobal_V12.0.1.0.RKQRUXM_a7fce83b92_11.0.zip
+  md5: a7fce83b925c2bac2683625defaafd1e
+  method: Recovery
+  name: Mi 11 Lite 4G Russia
+  size: 2.8 GB
+  version: V12.0.1.0.RKQRUXM
 - android: '10.0'
   branch: Stable
   codename: surya_ru_global
@@ -868,6 +858,16 @@
   name: POCO X3 NFC Russia
   size: 2.4 GB
   version: V12.0.7.0.QJGRUXM
+- android: '11.0'
+  branch: Stable
+  codename: apollo_tw_global
+  date: 2021-03-30
+  link: https://bigota.d.miui.com/V12.1.1.0.RJDTWXM/miui_APOLLOTWGlobal_V12.1.1.0.RJDTWXM_074aac798b_11.0.zip
+  md5: 074aac798b1c1f6a71afe32a173bd7b2
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro Taiwan
+  size: 3.0 GB
+  version: V12.1.1.0.RJDTWXM
 - android: '11.0'
   branch: Stable
   codename: haydn
@@ -978,6 +978,16 @@
   name: Redmi 8 EEA
   size: 2.3 GB
   version: V12.0.2.0.QCNEUXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_eea_global
+  date: 2021-03-26
+  link: https://bigota.d.miui.com/V12.0.2.0.QCPEUXM/miui_OLIVELITEEEAGlobal_V12.0.2.0.QCPEUXM_53eb672eb5_10.0.zip
+  md5: 53eb672eb579e16a16a71c764f0ffdc5
+  method: Recovery
+  name: Redmi 8A EEA
+  size: 1.9 GB
+  version: V12.0.2.0.QCPEUXM
 - android: '11.0'
   branch: Stable
   codename: tucana_ru_global
@@ -1138,6 +1148,16 @@
   name: Redmi 8 Russia
   size: 3.6 GB
   version: V12.0.2.0.QCNRUXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_eea_global
+  date: 2021-03-22
+  link: https://bigota.d.miui.com/V12.0.2.0.QCPEUXM/olivelite_eea_global_images_V12.0.2.0.QCPEUXM_20210322.0000.00_10.0_eea_88ee5cbe11.tgz
+  md5: 88ee5cbe116aa6074d10a20371c54b70
+  method: Fastboot
+  name: Redmi 8A EEA
+  size: 3.5 GB
+  version: V12.0.2.0.QCPEUXM
 - android: '11.0'
   branch: Stable
   codename: tucana_id_global
@@ -1188,6 +1208,16 @@
   name: Redmi 9C NFC Russia
   size: 1.7 GB
   version: V12.0.7.0.QCSRUXM
+- android: '11.0'
+  branch: Stable
+  codename: apollo_tw_global
+  date: 2021-03-21
+  link: https://bigota.d.miui.com/V12.1.1.0.RJDTWXM/apollo_tw_global_images_V12.1.1.0.RJDTWXM_20210321.0000.00_11.0_global_32bdcb83c6.tgz
+  md5: 32bdcb83c657a46bbe9c0f0206907dc6
+  method: Fastboot
+  name: Mi 10T / Mi 10T Pro Taiwan
+  size: 3.9 GB
+  version: V12.1.1.0.RJDTWXM
 - android: '11.0'
   branch: Stable
   codename: vayu_global
@@ -2798,16 +2828,6 @@
   name: Mi 10i India
   size: 2.6 GB
   version: V12.0.6.0.QJSINXM
-- android: '10.0'
-  branch: Stable
-  codename: apollo_tw_global
-  date: 2021-02-20
-  link: https://bigota.d.miui.com/V12.0.2.0.QJDTWXM/miui_APOLLOTWGlobal_V12.0.2.0.QJDTWXM_5c6a70825b_10.0.zip
-  md5: 5c6a70825bd813e55eaeb45425b17b32
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro Taiwan
-  size: 2.9 GB
-  version: V12.0.2.0.QJDTWXM
 - android: '8.1'
   branch: Stable
   codename: tiare_eea_global
@@ -3538,6 +3558,16 @@
   name: Mi 11 Lite 4G Global
   size: 4.4 GB
   version: V12.0.3.0.RKQMIXM
+- android: '11.0'
+  branch: Stable
+  codename: courbet_ru_global
+  date: 2021-01-30
+  link: https://bigota.d.miui.com/V12.0.1.0.RKQRUXM/courbet_ru_global_images_V12.0.1.0.RKQRUXM_20210130.0000.00_11.0_global_1851f3409c.tgz
+  md5: 1851f3409c7eaf1f12978c9c9683e7c6
+  method: Fastboot
+  name: Mi 11 Lite 4G Russia
+  size: 4.2 GB
+  version: V12.0.1.0.RKQRUXM
 - android: '10.0'
   branch: Stable
   codename: beryllium_ru_global
@@ -3718,16 +3748,6 @@
   name: Redmi 8A Pro Indonesia
   size: 3.3 GB
   version: V12.0.1.0.QCQIDXM
-- android: '10.0'
-  branch: Stable
-  codename: apollo_tw_global
-  date: 2021-01-27
-  link: https://bigota.d.miui.com/V12.0.2.0.QJDTWXM/apollo_tw_global_images_V12.0.2.0.QJDTWXM_20210127.0000.00_10.0_global_d73b7dbe4c.tgz
-  md5: d73b7dbe4c96aa7318789b0055fd2d32
-  method: Fastboot
-  name: Mi 10T / Mi 10T Pro Taiwan
-  size: 3.8 GB
-  version: V12.0.2.0.QJDTWXM
 - android: '11.0'
   branch: Stable
   codename: monet_global
@@ -4680,16 +4700,6 @@
   version: V12.0.1.0.QCPCNXM
 - android: '10.0'
   branch: Stable
-  codename: olivelite_eea_global
-  date: 2021-01-08
-  link: https://bigota.d.miui.com/V12.0.1.0.QCPEUXM/miui_OLIVELITEEEAGlobal_V12.0.1.0.QCPEUXM_4f9bdb6c18_10.0.zip
-  md5: 4f9bdb6c1893f0e84ec65d96e70d3d86
-  method: Recovery
-  name: Redmi 8A EEA
-  size: 1.8 GB
-  version: V12.0.1.0.QCPEUXM
-- android: '10.0'
-  branch: Stable
   codename: pine_in_global
   date: 2021-01-08
   link: https://bigota.d.miui.com/V12.0.1.0.QCMINXM/miui_PINEINGlobal_V12.0.1.0.QCMINXM_a416304125_10.0.zip
@@ -4718,16 +4728,6 @@
   name: Redmi 7A China
   size: 2.0 GB
   version: V12.0.2.0.QCMCNXM
-- android: '9.0'
-  branch: Stable
-  codename: tulip_global
-  date: 2021-01-06
-  link: https://bigota.d.miui.com/V12.0.1.0.PEKMIXM/miui_HMNote6ProGlobal_V12.0.1.0.PEKMIXM_1920d51d84_9.0.zip
-  md5: 1920d51d845e85ab6e95067592a8784b
-  method: Recovery
-  name: Redmi Note 6 Pro Global
-  size: 2.0 GB
-  version: V12.0.1.0.PEKMIXM
 - android: '10.0'
   branch: Stable
   codename: vela
@@ -4738,6 +4738,16 @@
   name: Mi CC 9 Meitu Edition China
   size: 2.6 GB
   version: V12.0.3.0.QFECNXM
+- android: '9.0'
+  branch: Stable
+  codename: tulip_global
+  date: 2021-01-06
+  link: https://bigota.d.miui.com/V12.0.1.0.PEKMIXM/miui_HMNote6ProGlobal_V12.0.1.0.PEKMIXM_1920d51d84_9.0.zip
+  md5: 1920d51d845e85ab6e95067592a8784b
+  method: Recovery
+  name: Redmi Note 6 Pro Global
+  size: 2.0 GB
+  version: V12.0.1.0.PEKMIXM
 - android: '11.0'
   branch: Stable
   codename: lmi_global
@@ -4848,16 +4858,6 @@
   name: Redmi Note 9T Russia
   size: 3.8 GB
   version: V12.0.1.0.QJERUXM
-- android: '10.0'
-  branch: Stable
-  codename: olivelite_eea_global
-  date: 2020-12-29
-  link: https://bigota.d.miui.com/V12.0.1.0.QCPEUXM/olivelite_eea_global_images_V12.0.1.0.QCPEUXM_20201229.0000.00_10.0_eea_ac134bca61.tgz
-  md5: ac134bca6115138803e4865389cdab5e
-  method: Fastboot
-  name: Redmi 8A EEA
-  size: 3.5 GB
-  version: V12.0.1.0.QCPEUXM
 - android: '9.0'
   branch: Stable
   codename: tulip_global
