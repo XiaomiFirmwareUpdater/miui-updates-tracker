@@ -5,6 +5,7 @@ from miui_updates_tracker.social.facebook_page import FacebookPage
 from miui_updates_tracker.social.rss import RSSGenerator
 from miui_updates_tracker.social.telegram import TelegramBot
 from miui_updates_tracker.social.twitter import TwitterBot
+from miui_updates_tracker.social.xda import XDAPoster
 
 
 async def post_updates(new_updates):
@@ -28,6 +29,11 @@ async def post_updates(new_updates):
     if None not in facebook_config.values():
         facebook_page = FacebookPage(facebook_config.get('page_id'), facebook_config.get('page_token'))
         await facebook_page.post_updates(new_updates)
+    # XDA
+    xda_config = CONFIG.get('xda')
+    if None not in xda_config.values():
+        xda: XDAPoster = XDAPoster(xda_config.get('access_token'))
+        await xda.post_updates(new_updates)
 
 
 def generate_rss_feed():
