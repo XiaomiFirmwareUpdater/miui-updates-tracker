@@ -8,6 +8,16 @@
   name: Mi 9T Global
   size: 2.5 GB
   version: V12.0.8.0.QFJMIXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: lmi
+  date: 2021-04-20
+  link: https://bigota.d.miui.com/V12.2.4.0.RJKCNXM/miui_LMI_V12.2.4.0.RJKCNXM_9d9da1c3f3_11.0.zip
+  md5: 9d9da1c3f3934d2d8069a5c8a1503495
+  method: Recovery
+  name: Redmi K30 Pro China
+  size: 3.6 GB
+  version: V12.2.4.0.RJKCNXM
 - android: '10.0'
   branch: Stable Beta
   codename: pine_eea_global
@@ -710,16 +720,6 @@
   version: V12.1.1.0.RGICNXM
 - android: '11.0'
   branch: Stable Beta
-  codename: lmi
-  date: 2020-11-20
-  link: https://bigota.d.miui.com/V12.2.1.0.RJKCNXM/miui_LMI_V12.2.1.0.RJKCNXM_d02f925688_11.0.zip
-  md5: d02f9256883a66dc5feb436292f789d7
-  method: Recovery
-  name: Redmi K30 Pro China
-  size: 3.5 GB
-  version: V12.2.1.0.RJKCNXM
-- android: '11.0'
-  branch: Stable Beta
   codename: curtana_in_global
   date: 2020-11-18
   link: https://bigota.d.miui.com/V12.0.1.0.RJWINXM/miui_CURTANAINGlobal_V12.0.1.0.RJWINXM_3ad7d510e0_11.0.zip
@@ -958,6 +958,26 @@
   name: Redmi Go Russia
   size: 1.8 GB
   version: V10.2.9.0.OCLRUXM
+- android: '11.0'
+  branch: Stable
+  codename: renoir
+  date: 2021-04-20
+  link: https://bigota.d.miui.com/V12.0.7.0.RKICNXM/miui_RENOIR_V12.0.7.0.RKICNXM_ccf60ab5b4_11.0.zip
+  md5: ccf60ab5b4ed937f2f693853c80a1709
+  method: Recovery
+  name: Mi 11 Lite 5G China
+  size: 3.8 GB
+  version: V12.0.7.0.RKICNXM
+- android: '11.0'
+  branch: Stable
+  codename: renoir
+  date: 2021-04-19
+  link: https://bigota.d.miui.com/V12.0.7.0.RKICNXM/renoir_images_V12.0.7.0.RKICNXM_20210419.0000.00_11.0_cn_626e6efd82.tgz
+  md5: 626e6efd827d841e25e6abb0b60bd57a
+  method: Fastboot
+  name: Mi 11 Lite 5G China
+  size: 5.1 GB
+  version: V12.0.7.0.RKICNXM
 - android: '11.0'
   branch: Stable
   codename: alioth_eea_global
@@ -5840,16 +5860,6 @@
   version: V12.0.1.0.QEARUXM
 - android: '10.0'
   branch: Stable
-  codename: equuleus_ru_global
-  date: 2020-11-17
-  link: https://bigota.d.miui.com/V12.0.1.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.1.0.QECRUXM_44bcc2b8b4_10.0.zip
-  md5: 44bcc2b8b488cba6dffdd719cb2231bc
-  method: Recovery
-  name: Mi 8 Pro Russia
-  size: 2.1 GB
-  version: V12.0.1.0.QECRUXM
-- android: '10.0'
-  branch: Stable
   codename: ginkgo
   date: 2020-11-17
   link: https://bigota.d.miui.com/V12.0.3.0.QCOCNXM/ginkgo_images_V12.0.3.0.QCOCNXM_20201117.0000.00_10.0_cn_fe1f2115e7.tgz
@@ -5858,6 +5868,16 @@
   name: Redmi Note 8 China
   size: 3.4 GB
   version: V12.0.3.0.QCOCNXM
+- android: '10.0'
+  branch: Stable
+  codename: equuleus_ru_global
+  date: 2020-11-17
+  link: https://bigota.d.miui.com/V12.0.1.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.1.0.QECRUXM_44bcc2b8b4_10.0.zip
+  md5: 44bcc2b8b488cba6dffdd719cb2231bc
+  method: Recovery
+  name: Mi 8 Pro Russia
+  size: 2.1 GB
+  version: V12.0.1.0.QECRUXM
 - android: '10.0'
   branch: Stable
   codename: perseus_global
