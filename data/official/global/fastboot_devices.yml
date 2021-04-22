@@ -5,9 +5,14 @@
   region: global
 - branch: F
   codename: alioth_eea_global
-  device: POCO F3 Pro
+  device: POCO F3
   id: 1209
   region: eea
+- branch: F
+  codename: alioth_tw_global
+  device: POCO F3
+  id: 1216
+  region: global
 - branch: F
   codename: courbet_global
   device: Xiaomi Mi 11 Lite
@@ -52,7 +57,7 @@
   codename: vayu_tw_global
   device: POCO X3 Pro
   id: 1204
-  region: tw
+  region: global
 - branch: F
   codename: venus_global
   device: Xiaomi Mi 11
@@ -87,7 +92,7 @@
   codename: venus_tw_global
   device: Xiaomi Mi 11
   id: 1197
-  region: tw
+  region: global
 - branch: F
   codename: mojito_global
   device: Redmi Note 10
@@ -152,7 +157,7 @@
   codename: sweet_tw_global
   device: Redmi Note 10 Pro
   id: 1184
-  region: tw
+  region: global
 - branch: F
   codename: cannong_eea_global
   device: Redmi Note 9T
@@ -162,7 +167,7 @@
   codename: cannong_tw_global
   device: Redmi Note 9T
   id: 1175
-  region: tw
+  region: global
 - branch: F
   codename: cannong_ru_global
   device: Redmi Note 9T
@@ -199,6 +204,11 @@
   id: 1205
   region: global
 - branch: F
+  codename: citrus_tw_global
+  device: POCO M3
+  id: 1217
+  region: global
+- branch: F
   codename: gauguin_ru_global
   device: Xiaomi Mi 10T Lite
   id: 1163
@@ -219,6 +229,11 @@
   id: 1166
   region: eea
 - branch: F
+  codename: gauguin_tw_global
+  device: Xiaomi Mi 10T Lite
+  id: 1211
+  region: global
+- branch: F
   codename: apollo_global
   device: Xiaomi Mi 10T/Pro
   id: 1158
@@ -237,6 +252,11 @@
   codename: apollo_ru_global
   device: Xiaomi Mi 10T/Pro
   id: 1161
+  region: global
+- branch: F
+  codename: apollo_tw_global
+  device: Xiaomi Mi 10T/Pro
+  id: 1212
   region: global
 - branch: F
   codename: surya_global
@@ -358,6 +378,11 @@
   device: Xiaomi Mi 10 Lite 5G
   id: 1134
   region: eea
+- branch: F
+  codename: monet_tw_global
+  device: Xiaomi Mi 10 Lite 5G
+  id: 1210
+  region: global
 - branch: F
   codename: cmi_global
   device: Xiaomi Mi 10 Pro
@@ -669,6 +694,16 @@
   id: 1162
   region: in
 - branch: F
+  codename: merlin_tw_global
+  device: Xiaomi Redmi Note 9
+  id: 1214
+  region: global
+- branch: F
+  codename: joyeuse_tw_global
+  device: Xiaomi Redmi Note 9 Pro
+  id: 1215
+  region: global
+- branch: F
   codename: lime_global
   device: Redmi 9T
   id: 1168
@@ -677,6 +712,11 @@
   codename: lime_global
   device: Redmi 9 Power
   id: 1169
+  region: global
+- branch: F
+  codename: lime_tw_global
+  device: Redmi 9T
+  id: 1213
   region: global
 - branch: F
   codename: angelican_global
