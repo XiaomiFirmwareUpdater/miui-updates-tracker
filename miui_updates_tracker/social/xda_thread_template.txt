@@ -29,11 +29,13 @@ Because Xiaomi's official websites are too messy and not being updated regularly
 Yes! We don't touch updates' files at all. Actually, all download links are from MIUI servers directly, we don't have enough space to mirror more than 25K ROM files.
 
 [B]- How to update?[/B]
-Recovery updates can be installed using the official updater app inside your device settings, but keep in mind that only [B]stable updates[/B] can be installed like this. If the update is a [B]stable beta[/B] you might not be able to install it.
-After downloading the MIUI update, whether the incremental or the full one, open the updater from settings then click the 3-dots menu and choose Install from a local file, then select the downloaded MIUI zip. If you can't see this option, click on MIUI logo in the updater several times till you see a message that tells you more features have been enabled.
+[LIST]
+[*]Recovery updates can be installed using the official updater app inside your device settings, but keep in mind that only [B]stable updates[/B] can be installed like this. If the update is a [B]stable beta[/B] you might not be able to install it. After downloading the MIUI update, whether the incremental or the full one, open the updater from settings then click the 3-dots menu and choose Install from a local file, then select the downloaded MIUI zip. If you can't see this option, click on MIUI logo in the updater several times till you see a message that tells you more features have been enabled.
+[*]Fastboot updates can be installed using [URL='https://xiaomiwiki.github.io/wiki/Tools_for_Xiaomi_devices.html']MiFlash[/URL] official tool, but you must unlock the bootloader of your device first. Here's a good guide about flashing the official updates: [URL='https://xiaomiwiki.github.io/wiki/Flash_official_ROMs.html']Flash official ROMs | XiaomiWiki[/URL].
+[/LIST]
 
-Fastboot updates can be installed using [URL='https://xiaomiwiki.github.io/wiki/Tools_for_Xiaomi_devices.html']MiFlash[/URL] official tool, but you must unlock the bootloader of your device first.
-Here's a good guide about flashing the official updates: [URL='https://xiaomiwiki.github.io/wiki/Flash_official_ROMs.html']Flash official ROMs | XiaomiWiki[/URL].
+[B]- Excuse me. What is stable beta?![/B]
+Basically, Xiaomi releases stable updates in gradual phases in which an update reaches some devices randomly but not all devices. Then, after some days if the update was stable enough they release it to everybody via OTA along with releasing fastboot package. In a nutshell, the update that doesn't have fastboot version is not a fully released stable update yet.
 
 [B]- Can I flash an update of region X if I am using a version of region Y?[/B]
 No, to switch regions you will have to unlock the bootloader and flash the fastboot ROM of the region you want to switch to.
