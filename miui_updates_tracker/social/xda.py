@@ -1,4 +1,5 @@
 import asyncio
+import re
 from itertools import groupby
 from pathlib import Path
 from string import Template
@@ -10,6 +11,7 @@ from humanize import naturalsize
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_full_name, get_device_roms
 from miui_updates_tracker.common.database.models.miui_update import Update
+
 from .xda_poster.xda import XDA
 
 current_dir = Path(__file__).parent.absolute()
@@ -62,18 +64,22 @@ class XDAPoster(XDA):
         updates = get_device_roms(codename)
         grouped_by_name = [list(item) for _, item in
                            groupby(sorted(updates, key=lambda x: x.name), lambda x: x.name)]
-        message = ""
+        updates_history = ""
         for group in grouped_by_name:
-            message += f"[B]{group[0].name}[/B]\n"
-            message += "[LIST]\n"
+            updates_history += f"[B]{group[0].name}[/B]\n"
+            updates_history += "[LIST]\n"
             for update in group:
-                message += f"[*]{update.date} | {update.branch} {update.method} | {update.version} | " \
-                           f"[URL='{update.link}']Download[/URL] | " \
-                           f"[URL='{website}/miui/{codename}/{quote(update.branch.lower())}/" \
-                           f"{update.version}/']Details[/URL]\n"
-            message += "[/LIST]\n"
+                updates_history += f"[*]{update.date} | {update.branch} {update.method} | {update.version} | " \
+                                   f"[URL='{update.link}']Download[/URL] | " \
+                                   f"[URL='{website}/miui/{codename}/{quote(update.branch.lower())}/" \
+                                   f"{update.version}/']Details[/URL]\n"
+            updates_history += "[/LIST]\n"
         device_name: str = ' / '.join(list(set([' '.join(i.name.split(' ')[:-1]) for i in updates])))
-        return self.thread_template.substitute(codename=codename, device_name=device_name, updates_history=message)
+        thread = self.thread_template.substitute(codename=codename, device_name=device_name,
+                                                 updates_history=updates_history)
+        if len(thread) > 60000:
+            thread = re.sub(r'\[\*\]201(?:8|9).*\n', '', thread)
+        return thread
 
     async def post_updates(self, new_updates: List[Update]):
         """
@@ -101,10 +107,12 @@ class XDAPoster(XDA):
 
 async def main():
     from miui_updates_tracker import CONFIG
+    from miui_updates_tracker.common.database import close_db
     from miui_updates_tracker.common.database.database import get_device_latest
     all_updates = get_device_latest('mojito')
     xda = XDAPoster(CONFIG['xda']['access_token'])
     await xda.post_updates(all_updates)
+    close_db()
 
 
 def run():
