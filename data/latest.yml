@@ -438,16 +438,6 @@
   name: Mi 6X China
   size: 2.0 GB
   version: V12.0.2.0.PDCCNXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: equuleus
-  date: 2021-04-06
-  link: https://bigota.d.miui.com/V12.0.5.0.QECCNXM/miui_MI8UD_V12.0.5.0.QECCNXM_d7fc38a453_10.0.zip
-  md5: d7fc38a453176294bac0f7e78a44415c
-  method: Recovery
-  name: Mi 8 Pro China
-  size: 2.3 GB
-  version: V12.0.5.0.QECCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: monet_eea_global
@@ -940,6 +930,16 @@
   version: V11.0.6.0.QFNMIXM
 - android: '11.0'
   branch: Stable
+  codename: vayu_tr_global
+  date: 2021-04-27
+  link: https://bigota.d.miui.com/V12.0.2.0.RJUTRXM/miui_VAYUTRGlobal_V12.0.2.0.RJUTRXM_9a06cb8258_11.0.zip
+  md5: 9a06cb8258d0da0bd93beed79825293c
+  method: Recovery
+  name: POCO X3 Pro Turkey
+  size: 2.8 GB
+  version: V12.0.2.0.RJUTRXM
+- android: '11.0'
+  branch: Stable
   codename: courbet_tr_global
   date: 2021-04-26
   link: https://bigota.d.miui.com/V12.0.2.0.RKQTRXM/miui_COURBETTRGlobal_V12.0.2.0.RKQTRXM_e008eb83ae_11.0.zip
@@ -1200,6 +1200,16 @@
   version: V12.0.3.0.RKQRUXM
 - android: '11.0'
   branch: Stable
+  codename: vayu_tr_global
+  date: 2021-04-17
+  link: https://bigota.d.miui.com/V12.0.2.0.RJUTRXM/vayu_tr_global_images_V12.0.2.0.RJUTRXM_20210417.0000.00_11.0_global_9ad96b1b4b.tgz
+  md5: 9ad96b1b4b3d1a3c5888e1f130c10c48
+  method: Fastboot
+  name: POCO X3 Pro Turkey
+  size: 4.0 GB
+  version: V12.0.2.0.RJUTRXM
+- android: '11.0'
+  branch: Stable
   codename: vayu_id_global
   date: 2021-04-17
   link: https://bigota.d.miui.com/V12.0.3.0.RJUIDXM/vayu_id_global_images_V12.0.3.0.RJUIDXM_20210417.0000.00_11.0_global_ab953c4740.tgz
@@ -1438,16 +1448,6 @@
   name: Mi 11 China
   size: 5.4 GB
   version: V12.5.4.0.RKBCNXM
-- android: '11.0'
-  branch: Stable
-  codename: venus
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.5.4.0.RKBCNXM/miui_VENUS_V12.5.4.0.RKBCNXM_67e47afc99_11.0.zip
-  md5: 67e47afc999453c26ae67b0bf6fec93c
-  method: Recovery
-  name: Mi 11 China
-  size: 4.1 GB
-  version: V12.5.4.0.RKBCNXM
 - android: '10.0'
   branch: Stable
   codename: lime_tr_global
@@ -1458,6 +1458,16 @@
   name: Redmi 9T Turkey
   size: 4.0 GB
   version: V12.0.4.0.QJQTRXM
+- android: '11.0'
+  branch: Stable
+  codename: venus
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.5.4.0.RKBCNXM/miui_VENUS_V12.5.4.0.RKBCNXM_67e47afc99_11.0.zip
+  md5: 67e47afc999453c26ae67b0bf6fec93c
+  method: Recovery
+  name: Mi 11 China
+  size: 4.1 GB
+  version: V12.5.4.0.RKBCNXM
 - android: '11.0'
   branch: Stable
   codename: mojito_ru_global
@@ -2128,6 +2138,16 @@
   name: Mi 10 Pro Global
   size: 3.1 GB
   version: V12.2.6.0.RJAMIXM
+- android: '10.0'
+  branch: Stable
+  codename: equuleus
+  date: 2021-04-06
+  link: https://bigota.d.miui.com/V12.0.5.0.QECCNXM/miui_MI8UD_V12.0.5.0.QECCNXM_d7fc38a453_10.0.zip
+  md5: d7fc38a453176294bac0f7e78a44415c
+  method: Recovery
+  name: Mi 8 Pro China
+  size: 2.3 GB
+  version: V12.0.5.0.QECCNXM
 - android: '11.0'
   branch: Stable
   codename: monet_global
@@ -2868,6 +2888,16 @@
   name: Redmi 9T Russia
   size: 4.5 GB
   version: V12.0.2.0.QJQRUXM
+- android: '10.0'
+  branch: Stable
+  codename: equuleus
+  date: 2021-03-26
+  link: https://bigota.d.miui.com/V12.0.5.0.QECCNXM/equuleus_images_V12.0.5.0.QECCNXM_20210326.0000.00_10.0_cn_7d78525b39.tgz
+  md5: 7d78525b39d3cd54d1ba2bc4350fef06
+  method: Fastboot
+  name: Mi 8 Pro China
+  size: 3.0 GB
+  version: V12.0.5.0.QECCNXM
 - android: '10.0'
   branch: Stable
   codename: lancelot
@@ -5798,16 +5828,6 @@
   name: Redmi Note 9 Taiwan
   size: 3.3 GB
   version: V12.0.2.0.QJOTWXM
-- android: '10.0'
-  branch: Stable
-  codename: equuleus
-  date: 2020-12-25
-  link: https://bigota.d.miui.com/V12.0.4.0.QECCNXM/miui_MI8UD_V12.0.4.0.QECCNXM_f875c0d75f_10.0.zip
-  md5: f875c0d75f4027552a3f11ddcfabab54
-  method: Recovery
-  name: Mi 8 Pro China
-  size: 2.3 GB
-  version: V12.0.4.0.QECCNXM
 - android: '9.0'
   branch: Stable
   codename: whyred_global
@@ -5838,16 +5858,6 @@
   name: Redmi 10X 5G China
   size: 2.6 GB
   version: V12.0.6.0.QJHCNXM
-- android: '10.0'
-  branch: Stable
-  codename: equuleus
-  date: 2020-12-22
-  link: https://bigota.d.miui.com/V12.0.4.0.QECCNXM/equuleus_images_V12.0.4.0.QECCNXM_20201222.0000.00_10.0_cn_b4d6c7584d.tgz
-  md5: b4d6c7584d072e66eea7523596bd193e
-  method: Fastboot
-  name: Mi 8 Pro China
-  size: 3.1 GB
-  version: V12.0.4.0.QECCNXM
 - android: '10.0'
   branch: Stable
   codename: lavender_in_global
