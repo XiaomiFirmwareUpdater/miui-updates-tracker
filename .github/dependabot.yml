@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: friday
+    timezone: Africa/Cairo
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: aiohttp
+    versions:
+    - "> 3.7.4, < 3.8"
+  - dependency-name: sqlalchemy
+    versions:
+    - 1.4.0
+    - 1.4.1
+    - 1.4.4
