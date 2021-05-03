@@ -81,7 +81,7 @@ class TelegramBot:
         button: InlineKeyboardButton = InlineKeyboardButton("Full ROM", update.link)
         # bot subscribe
         subscribe_command = str(
-            b64encode(bytes(f"/subscribe miui {short_codename}", encoding='utf-8')), encoding='utf-8')
+            b64encode(bytes(f"/subscribe miui {update.codename}", encoding='utf-8')), encoding='utf-8')
         more_buttons = [InlineKeyboardButton("Latest", f"{website}/miui/{short_codename}"),
                         InlineKeyboardButton("Archive", f"{website}/archive/miui/{short_codename}"),
                         InlineKeyboardButton("Subscribe", f"https://t.me/XiaomiGeeksBot?start={subscribe_command}")]
