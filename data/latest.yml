@@ -8,6 +8,16 @@
   name: Redmi 9A India
   size: 1.7 GB
   version: V12.0.13.0.QCDINXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: angelicain_in_global
+  date: 2021-05-06
+  link: https://bigota.d.miui.com/V12.0.9.0.QCRINXM/miui_ANGELICAININGlobal_V12.0.9.0.QCRINXM_d1197165a2_10.0.zip
+  md5: d1197165a220d48c6bc7975a750245e7
+  method: Recovery
+  name: POCO C3 India
+  size: 1.7 GB
+  version: V12.0.9.0.QCRINXM
 - android: '11.0'
   branch: Stable Beta
   codename: rosemary_global
@@ -648,16 +658,6 @@
   name: POCO F2 Pro Turkey
   size: 3.0 GB
   version: V12.0.3.0.QJKTRXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: angelicain_in_global
-  date: 2020-10-27
-  link: https://bigota.d.miui.com/V12.0.2.0.QCRINXM/miui_ANGELICAININGlobal_V12.0.2.0.QCRINXM_5f28a491aa_10.0.zip
-  md5: 5f28a491aad4918facf2c31c65bf7816
-  method: Recovery
-  name: POCO C3 India
-  size: 1.6 GB
-  version: V12.0.2.0.QCRINXM
 - android: '10.0'
   branch: Stable Beta
   codename: angelica_tr_global
@@ -7842,21 +7842,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
