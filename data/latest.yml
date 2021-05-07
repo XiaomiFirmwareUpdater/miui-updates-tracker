@@ -2270,16 +2270,6 @@
   version: V12.0.7.0.QJQINXM
 - android: '11.0'
   branch: Stable
-  codename: courbet_global
-  date: 2021-04-13
-  link: https://bigota.d.miui.com/V12.0.8.0.RKQMIXM/courbet_global_images_V12.0.8.0.RKQMIXM_20210413.0000.00_11.0_global_1c2ac9c295.tgz
-  md5: 1c2ac9c2950b21bb95cf8a5166bdbd61
-  method: Fastboot
-  name: Mi 11 Lite 4G Global
-  size: 4.9 GB
-  version: V12.0.8.0.RKQMIXM
-- android: '11.0'
-  branch: Stable
   codename: courbet_eea_global
   date: 2021-04-13
   link: https://bigota.d.miui.com/V12.0.4.0.RKQEUXM/courbet_eea_global_images_V12.0.4.0.RKQEUXM_20210413.0000.00_11.0_eea_92ba4a5056.tgz
@@ -2288,6 +2278,16 @@
   name: Mi 11 Lite 4G EEA
   size: 5.0 GB
   version: V12.0.4.0.RKQEUXM
+- android: '11.0'
+  branch: Stable
+  codename: courbet_global
+  date: 2021-04-13
+  link: https://bigota.d.miui.com/V12.0.8.0.RKQMIXM/courbet_global_images_V12.0.8.0.RKQMIXM_20210413.0000.00_11.0_global_1c2ac9c295.tgz
+  md5: 1c2ac9c2950b21bb95cf8a5166bdbd61
+  method: Fastboot
+  name: Mi 11 Lite 4G Global
+  size: 4.9 GB
+  version: V12.0.8.0.RKQMIXM
 - android: '11.0'
   branch: Stable
   codename: star_eea_global
@@ -2848,16 +2848,6 @@
   name: Mi 8 Pro China
   size: 2.3 GB
   version: V12.0.5.0.QECCNXM
-- android: '11.0'
-  branch: Stable
-  codename: monet_global
-  date: 2021-04-06
-  link: https://bigota.d.miui.com/V12.1.4.0.RJIMIXM/miui_MONETGlobal_V12.1.4.0.RJIMIXM_f299c46cfa_11.0.zip
-  md5: f299c46cfa277f1eab4331bdc7e47334
-  method: Recovery
-  name: Mi 10 Lite Global
-  size: 2.9 GB
-  version: V12.1.4.0.RJIMIXM
 - android: '10.0'
   branch: Stable
   codename: olive_global
@@ -2868,6 +2858,16 @@
   name: Redmi 8 Global
   size: 2.3 GB
   version: V12.0.2.0.QCNMIXM
+- android: '11.0'
+  branch: Stable
+  codename: monet_global
+  date: 2021-04-06
+  link: https://bigota.d.miui.com/V12.1.4.0.RJIMIXM/miui_MONETGlobal_V12.1.4.0.RJIMIXM_f299c46cfa_11.0.zip
+  md5: f299c46cfa277f1eab4331bdc7e47334
+  method: Recovery
+  name: Mi 10 Lite Global
+  size: 2.9 GB
+  version: V12.1.4.0.RJIMIXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_in_global
@@ -6160,16 +6160,6 @@
   version: V12.0.1.0.QEARUXM
 - android: '10.0'
   branch: Stable
-  codename: ginkgo
-  date: 2020-11-17
-  link: https://bigota.d.miui.com/V12.0.3.0.QCOCNXM/ginkgo_images_V12.0.3.0.QCOCNXM_20201117.0000.00_10.0_cn_fe1f2115e7.tgz
-  md5: fe1f2115e7a611cb4c8e9229fc16e1fd
-  method: Fastboot
-  name: Redmi Note 8 China
-  size: 3.4 GB
-  version: V12.0.3.0.QCOCNXM
-- android: '10.0'
-  branch: Stable
   codename: equuleus_ru_global
   date: 2020-11-17
   link: https://bigota.d.miui.com/V12.0.1.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.1.0.QECRUXM_44bcc2b8b4_10.0.zip
@@ -6178,6 +6168,16 @@
   name: Mi 8 Pro Russia
   size: 2.1 GB
   version: V12.0.1.0.QECRUXM
+- android: '10.0'
+  branch: Stable
+  codename: ginkgo
+  date: 2020-11-17
+  link: https://bigota.d.miui.com/V12.0.3.0.QCOCNXM/ginkgo_images_V12.0.3.0.QCOCNXM_20201117.0000.00_10.0_cn_fe1f2115e7.tgz
+  md5: fe1f2115e7a611cb4c8e9229fc16e1fd
+  method: Fastboot
+  name: Redmi Note 8 China
+  size: 3.4 GB
+  version: V12.0.3.0.QCOCNXM
 - android: '10.0'
   branch: Stable
   codename: perseus_global
@@ -7822,21 +7822,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
