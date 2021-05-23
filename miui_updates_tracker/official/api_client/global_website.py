@@ -72,9 +72,14 @@ class GlobalAPIClient(CommonClient):
                 response: list = await self._get_json_response(response)
                 for item in response:
                     data = re.search(r'\?d=(\w+)(?:\t)?&b=(\w)&r=(\w+)?', item['package_url'])
+                    device = re.search(r'★ ?(.*) Latest', item.get('package_name'))
+                    if device:
+                        device = device.group(1)
+                    else:
+                        device = re.search(r'★ ?(.*) \b\w+\b Stable', item.get('package_name')).group(1)
                     self.fastboot_devices.append({
                         'id': item.get('id'),
-                        'device': re.search(r'★ ?(.*) Latest', item.get('package_name')).group(1),
+                        'device': device,
                         'codename': data.group(1),
                         'branch': data.group(2),
                         'region': data.group(3)
