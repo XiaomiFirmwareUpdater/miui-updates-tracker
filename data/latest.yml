@@ -628,16 +628,6 @@
   name: Redmi Note 9 Pro Russia
   size: 2.6 GB
   version: V12.0.4.0.QJZRUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: venus
-  date: 2021-04-09
-  link: https://bigota.d.miui.com/V12.5.3.0.RKBCNXM/miui_VENUS_V12.5.3.0.RKBCNXM_5a493e6380_11.0.zip
-  md5: 5a493e6380d5c4941756daa3f1424363
-  method: Recovery
-  name: Mi 11 China
-  size: 4.1 GB
-  version: V12.5.3.0.RKBCNXM
 - android: '9.0'
   branch: Stable Beta
   codename: wayne
@@ -648,6 +638,16 @@
   name: Mi 6X China
   size: 2.0 GB
   version: V12.0.2.0.PDCCNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: venus
+  date: 2021-04-07
+  link: https://bigota.d.miui.com/V12.5.2.0.RKBCNXM/miui_VENUS_V12.5.2.0.RKBCNXM_ccefbe95a2_11.0.zip
+  md5: ccefbe95a23ab9a8478fc65776ac0763
+  method: Recovery
+  name: Mi 11 China
+  size: 4.1 GB
+  version: V12.5.2.0.RKBCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: monet_eea_global
@@ -4808,16 +4808,6 @@
   name: Mi MIX 2S China
   size: 2.8 GB
   version: V12.0.3.0.QDGCNXM
-- android: '11.0'
-  branch: Stable
-  codename: tucana_ru_global
-  date: 2021-03-26
-  link: https://bigota.d.miui.com/V12.1.1.0.RFDRUXM/miui_TUCANARUGlobal_V12.1.1.0.RFDRUXM_a09cabac91_11.0.zip
-  md5: a09cabac912b516c7b779e99513e9f98
-  method: Recovery
-  name: Mi Note 10 / Note 10 Pro Russia
-  size: 3.0 GB
-  version: V12.1.1.0.RFDRUXM
 - android: '10.0'
   branch: Stable
   codename: ursa
@@ -4828,6 +4818,16 @@
   name: Mi 8 Explorer China
   size: 2.9 GB
   version: V12.0.5.0.QEHCNXM
+- android: '11.0'
+  branch: Stable
+  codename: tucana_ru_global
+  date: 2021-03-26
+  link: https://bigota.d.miui.com/V12.1.1.0.RFDRUXM/miui_TUCANARUGlobal_V12.1.1.0.RFDRUXM_a09cabac91_11.0.zip
+  md5: a09cabac912b516c7b779e99513e9f98
+  method: Recovery
+  name: Mi Note 10 / Note 10 Pro Russia
+  size: 3.0 GB
+  version: V12.1.1.0.RFDRUXM
 - android: '10.0'
   branch: Stable
   codename: joyeuse_tr_global
@@ -6710,16 +6710,6 @@
   version: V12.0.1.0.QEARUXM
 - android: '10.0'
   branch: Stable
-  codename: equuleus_ru_global
-  date: 2020-11-17
-  link: https://bigota.d.miui.com/V12.0.1.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.1.0.QECRUXM_44bcc2b8b4_10.0.zip
-  md5: 44bcc2b8b488cba6dffdd719cb2231bc
-  method: Recovery
-  name: Mi 8 Pro Russia
-  size: 2.1 GB
-  version: V12.0.1.0.QECRUXM
-- android: '10.0'
-  branch: Stable
   codename: ginkgo
   date: 2020-11-17
   link: https://bigota.d.miui.com/V12.0.3.0.QCOCNXM/ginkgo_images_V12.0.3.0.QCOCNXM_20201117.0000.00_10.0_cn_fe1f2115e7.tgz
@@ -6728,6 +6718,16 @@
   name: Redmi Note 8 China
   size: 3.4 GB
   version: V12.0.3.0.QCOCNXM
+- android: '10.0'
+  branch: Stable
+  codename: equuleus_ru_global
+  date: 2020-11-17
+  link: https://bigota.d.miui.com/V12.0.1.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.1.0.QECRUXM_44bcc2b8b4_10.0.zip
+  md5: 44bcc2b8b488cba6dffdd719cb2231bc
+  method: Recovery
+  name: Mi 8 Pro Russia
+  size: 2.1 GB
+  version: V12.0.1.0.QECRUXM
 - android: '10.0'
   branch: Stable
   codename: perseus_global
@@ -8332,21 +8332,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Stable
