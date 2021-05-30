@@ -278,16 +278,6 @@
   name: Redmi Note 9 Global
   size: 2.1 GB
   version: V12.0.8.0.QJOMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: surya_ru_global
-  date: 2021-05-24
-  link: https://bigota.d.miui.com/V12.0.9.0.QJGRUXM/miui_SURYARUGlobal_V12.0.9.0.QJGRUXM_62caec8807_10.0.zip
-  md5: 62caec8807809350172ac47205e5b8a0
-  method: Recovery
-  name: POCO X3 NFC Russia
-  size: 2.5 GB
-  version: V12.0.9.0.QJGRUXM
 - android: '11.0'
   branch: Stable Beta
   codename: gauguin
@@ -418,16 +408,6 @@
   name: POCO M2 Pro India
   size: 2.5 GB
   version: V12.0.4.0.QJPINXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-05-19
-  link: https://bigota.d.miui.com/V12.0.8.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.8.0.RJGEUXM_5a1c94bd0b_11.0.zip
-  md5: 5a1c94bd0b5b834de82a7b0e3eb1f13e
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.8.0.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: tucana_global
@@ -668,6 +648,16 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: courbet_eea_global
@@ -1110,6 +1100,26 @@
   version: V12.0.1.0.RKSMIXM
 - android: '11.0'
   branch: Stable
+  codename: star_eea_global
+  date: 2021-05-29
+  link: https://bigota.d.miui.com/V12.5.3.0.RKAEUXM/star_eea_global_images_V12.5.3.0.RKAEUXM_20210529.0000.00_11.0_eea_b7f83337f4.tgz
+  md5: b7f83337f49c481579f4b5b187254d1d
+  method: Fastboot
+  name: Mi 11 Ultra EEA
+  size: 5.9 GB
+  version: V12.5.3.0.RKAEUXM
+- android: '11.0'
+  branch: Stable
+  codename: star_eea_global
+  date: 2021-05-29
+  link: https://bigota.d.miui.com/V12.5.3.0.RKAEUXM/miui_STAREEAGlobal_V12.5.3.0.RKAEUXM_12ae5696cc_11.0.zip
+  md5: 12ae5696cc8d126757f279a23d462c27
+  method: Recovery
+  name: Mi 11 Ultra EEA
+  size: 3.4 GB
+  version: V12.5.3.0.RKAEUXM
+- android: '11.0'
+  branch: Stable
   codename: sweet_tr_global
   date: 2021-05-27
   link: https://bigota.d.miui.com/V12.0.7.0.RKFTRXM/miui_SWEETTRGlobal_V12.0.7.0.RKFTRXM_4337d9682d_11.0.zip
@@ -1138,16 +1148,6 @@
   name: Redmi Note 10 5G Indonesia
   size: 2.3 GB
   version: V12.0.1.0.RKSIDXM
-- android: '11.0'
-  branch: Stable
-  codename: star_eea_global
-  date: 2021-05-27
-  link: https://bigota.d.miui.com/V12.5.2.0.RKAEUXM/miui_STAREEAGlobal_V12.5.2.0.RKAEUXM_97efa55df1_11.0.zip
-  md5: 97efa55df17bb0e81c1a914e8972fd53
-  method: Recovery
-  name: Mi 11 Ultra EEA
-  size: 3.4 GB
-  version: V12.5.2.0.RKAEUXM
 - android: '11.0'
   branch: Stable
   codename: courbet_id_global
@@ -1258,6 +1258,16 @@
   name: POCO X3 NFC Indonesia
   size: 2.5 GB
   version: V12.0.7.0.QJGIDXM
+- android: '10.0'
+  branch: Stable
+  codename: surya_ru_global
+  date: 2021-05-24
+  link: https://bigota.d.miui.com/V12.0.9.0.QJGRUXM/miui_SURYARUGlobal_V12.0.9.0.QJGRUXM_62caec8807_10.0.zip
+  md5: 62caec8807809350172ac47205e5b8a0
+  method: Recovery
+  name: POCO X3 NFC Russia
+  size: 2.5 GB
+  version: V12.0.9.0.QJGRUXM
 - android: '11.0'
   branch: Stable
   codename: courbet_global
@@ -1400,6 +1410,26 @@
   version: V11.0.19.0.QDLMIXM
 - android: '11.0'
   branch: Stable
+  codename: surya_eea_global
+  date: 2021-05-19
+  link: https://bigota.d.miui.com/V12.0.8.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.8.0.RJGEUXM_5a1c94bd0b_11.0.zip
+  md5: 5a1c94bd0b5b834de82a7b0e3eb1f13e
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.8.0.RJGEUXM
+- android: '10.0'
+  branch: Stable
+  codename: surya_ru_global
+  date: 2021-05-19
+  link: https://bigota.d.miui.com/V12.0.9.0.QJGRUXM/surya_ru_global_images_V12.0.9.0.QJGRUXM_20210519.0000.00_10.0_global_45e67b6011.tgz
+  md5: 45e67b60117679168492ecad4ce10c21
+  method: Fastboot
+  name: POCO X3 NFC Russia
+  size: 4.2 GB
+  version: V12.0.9.0.QJGRUXM
+- android: '11.0'
+  branch: Stable
   codename: venus_global
   date: 2021-05-19
   link: https://bigota.d.miui.com/V12.5.3.0.RKBMIXM/venus_global_images_V12.5.3.0.RKBMIXM_20210519.0000.00_11.0_global_ecef9bf16a.tgz
@@ -1518,16 +1548,6 @@
   name: Redmi Note 10 5G China
   size: 3.9 GB
   version: V12.0.5.0.RKSCNXM
-- android: '11.0'
-  branch: Stable
-  codename: star_eea_global
-  date: 2021-05-18
-  link: https://bigota.d.miui.com/V12.5.2.0.RKAEUXM/star_eea_global_images_V12.5.2.0.RKAEUXM_20210518.0000.00_11.0_eea_bf7fed7f46.tgz
-  md5: bf7fed7f46c6e04501e89b6b7535eb65
-  method: Fastboot
-  name: Mi 11 Ultra EEA
-  size: 5.9 GB
-  version: V12.5.2.0.RKAEUXM
 - android: '10.0'
   branch: Stable
   codename: surya_id_global
@@ -1658,6 +1678,16 @@
   name: POCO X3 NFC Global
   size: 2.5 GB
   version: V12.0.9.0.QJGMIXM
+- android: '11.0'
+  branch: Stable
+  codename: surya_eea_global
+  date: 2021-05-14
+  link: https://bigota.d.miui.com/V12.0.8.0.RJGEUXM/surya_eea_global_images_V12.0.8.0.RJGEUXM_20210514.0000.00_11.0_eea_8e27f0477f.tgz
+  md5: 8e27f0477fc0be9222f414bbe7da4e1a
+  method: Fastboot
+  name: POCO X3 NFC EEA
+  size: 4.9 GB
+  version: V12.0.8.0.RJGEUXM
 - android: '10.0'
   branch: Stable
   codename: ginkgo_global
@@ -4638,16 +4668,6 @@
   name: Redmi 8A India
   size: 2.4 GB
   version: V12.0.2.0.QCPINXM
-- android: '10.0'
-  branch: Stable
-  codename: surya_ru_global
-  date: 2021-03-30
-  link: https://bigota.d.miui.com/V12.0.7.0.QJGRUXM/miui_SURYARUGlobal_V12.0.7.0.QJGRUXM_e150f7d22a_10.0.zip
-  md5: e150f7d22ad5ec602ed617a9ed95ed29
-  method: Recovery
-  name: POCO X3 NFC Russia
-  size: 2.4 GB
-  version: V12.0.7.0.QJGRUXM
 - android: '11.0'
   branch: Stable
   codename: apollo_global
@@ -5548,16 +5568,6 @@
   name: Mi Note 10 / Note 10 Pro Global
   size: 3.0 GB
   version: V12.1.2.0.RFDMIXM
-- android: '10.0'
-  branch: Stable
-  codename: surya_ru_global
-  date: 2021-03-10
-  link: https://bigota.d.miui.com/V12.0.7.0.QJGRUXM/surya_ru_global_images_V12.0.7.0.QJGRUXM_20210310.0000.00_10.0_global_eb3ff78feb.tgz
-  md5: eb3ff78feba612f4ce0c34b54f708530
-  method: Fastboot
-  name: POCO X3 NFC Russia
-  size: 4.2 GB
-  version: V12.0.7.0.QJGRUXM
 - android: '11.0'
   branch: Stable
   codename: apollo_global
@@ -5848,16 +5858,6 @@
   name: Redmi Note 8 Pro EEA
   size: 2.3 GB
   version: V12.0.4.0.QGGEUXM
-- android: '10.0'
-  branch: Stable
-  codename: surya_eea_global
-  date: 2021-02-22
-  link: https://bigota.d.miui.com/V12.0.8.0.QJGEUXM/miui_SURYAEEAGlobal_V12.0.8.0.QJGEUXM_068c43db4b_10.0.zip
-  md5: 068c43db4b003ea6abd1581de9b017d4
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.8.0.QJGEUXM
 - android: '11.0'
   branch: Stable
   codename: monet_eea_global
@@ -5998,16 +5998,6 @@
   name: Redmi Go India
   size: 890.8 MB
   version: V10.2.19.0.OCLINXM
-- android: '10.0'
-  branch: Stable
-  codename: surya_eea_global
-  date: 2021-02-05
-  link: https://bigota.d.miui.com/V12.0.8.0.QJGEUXM/surya_eea_global_images_V12.0.8.0.QJGEUXM_20210205.0000.00_10.0_eea_cc0a2e386f.tgz
-  md5: cc0a2e386fd184d4f348394fb6c397a1
-  method: Fastboot
-  name: POCO X3 NFC EEA
-  size: 4.4 GB
-  version: V12.0.8.0.QJGEUXM
 - android: '11.0'
   branch: Stable
   codename: phoenix
