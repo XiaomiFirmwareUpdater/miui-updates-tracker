@@ -77,7 +77,7 @@ class DiscordBot(Client):
             except (KeyError, HTTPException) as e:
                 self._logger.warning(f"Can't send discord message of update {update}.\n Error:{e}")
                 continue
-        await self.logout()
+        await self.close()
 
     async def post_updates(self, new_updates: List[Update]):
         """
