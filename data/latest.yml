@@ -1340,16 +1340,6 @@
   version: V12.5.1.0.RKBTRXM
 - android: '11.0'
   branch: Stable
-  codename: alioth
-  date: 2021-05-25
-  link: https://bigota.d.miui.com/V12.5.3.0.RKHCNXM/miui_ALIOTH_V12.5.3.0.RKHCNXM_4ad280c0e9_11.0.zip
-  md5: 4ad280c0e9969b3ef69ae45f73694515
-  method: Recovery
-  name: Redmi K40 China
-  size: 3.8 GB
-  version: V12.5.3.0.RKHCNXM
-- android: '11.0'
-  branch: Stable
   codename: venus_tw_global
   date: 2021-05-25
   link: https://bigota.d.miui.com/V12.5.1.0.RKBTWXM/miui_VENUSTWGlobal_V12.5.1.0.RKBTWXM_d6c482f0ed_11.0.zip
@@ -1358,6 +1348,16 @@
   name: Mi 11 Taiwan
   size: 3.2 GB
   version: V12.5.1.0.RKBTWXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth
+  date: 2021-05-25
+  link: https://bigota.d.miui.com/V12.5.3.0.RKHCNXM/miui_ALIOTH_V12.5.3.0.RKHCNXM_4ad280c0e9_11.0.zip
+  md5: 4ad280c0e9969b3ef69ae45f73694515
+  method: Recovery
+  name: Redmi K40 China
+  size: 3.8 GB
+  version: V12.5.3.0.RKHCNXM
 - android: '11.0'
   branch: Stable
   codename: biloba_global
@@ -1438,16 +1438,6 @@
   name: POCO C3 India
   size: 2.3 GB
   version: V12.0.11.0.QCRINXM
-- android: '10.0'
-  branch: Stable
-  codename: dandelion_tr_global
-  date: 2021-05-24
-  link: https://bigota.d.miui.com/V12.0.5.0.QCDTRXM/miui_DANDELIONTRGlobal_V12.0.5.0.QCDTRXM_199c519546_10.0.zip
-  md5: 199c519546601339416fea0d94e9c2b0
-  method: Recovery
-  name: Redmi 9A Turkey
-  size: 1.8 GB
-  version: V12.0.5.0.QCDTRXM
 - android: '11.0'
   branch: Stable
   codename: gauguin
@@ -1458,6 +1448,16 @@
   name: Redmi Note 9 Pro 5G China
   size: 3.3 GB
   version: V12.5.2.0.RJSCNXM
+- android: '10.0'
+  branch: Stable
+  codename: dandelion_tr_global
+  date: 2021-05-24
+  link: https://bigota.d.miui.com/V12.0.5.0.QCDTRXM/miui_DANDELIONTRGlobal_V12.0.5.0.QCDTRXM_199c519546_10.0.zip
+  md5: 199c519546601339416fea0d94e9c2b0
+  method: Recovery
+  name: Redmi 9A Turkey
+  size: 1.8 GB
+  version: V12.0.5.0.QCDTRXM
 - android: '11.0'
   branch: Stable
   codename: courbet_global
@@ -2790,16 +2790,6 @@
   version: V12.0.7.0.QFCEUXM
 - android: '11.0'
   branch: Stable
-  codename: umi_eea_global
-  date: 2021-05-06
-  link: https://bigota.d.miui.com/V12.2.8.0.RJBEUXM/miui_UMIEEAGlobal_V12.2.8.0.RJBEUXM_1159cffb14_11.0.zip
-  md5: 1159cffb1420b9113566bbaccfde4b75
-  method: Recovery
-  name: Mi 10 EEA
-  size: 3.2 GB
-  version: V12.2.8.0.RJBEUXM
-- android: '11.0'
-  branch: Stable
   codename: toco_eea_global
   date: 2021-05-06
   link: https://bigota.d.miui.com/V12.1.6.0.RFNEUXM/toco_eea_global_images_V12.1.6.0.RFNEUXM_20210506.0000.00_11.0_eea_3ce5fb777b.tgz
@@ -2808,6 +2798,16 @@
   name: Mi Note 10 Lite EEA
   size: 4.5 GB
   version: V12.1.6.0.RFNEUXM
+- android: '11.0'
+  branch: Stable
+  codename: umi_eea_global
+  date: 2021-05-06
+  link: https://bigota.d.miui.com/V12.2.8.0.RJBEUXM/miui_UMIEEAGlobal_V12.2.8.0.RJBEUXM_1159cffb14_11.0.zip
+  md5: 1159cffb1420b9113566bbaccfde4b75
+  method: Recovery
+  name: Mi 10 EEA
+  size: 3.2 GB
+  version: V12.2.8.0.RJBEUXM
 - android: '11.0'
   branch: Stable
   codename: laurel_sprout_global
@@ -3038,16 +3038,6 @@
   name: Redmi 9T Taiwan
   size: 3.7 GB
   version: V12.0.4.0.QJQTWXM
-- android: '11.0'
-  branch: Stable
-  codename: venus_eea_global
-  date: 2021-04-28
-  link: https://bigota.d.miui.com/V12.5.1.0.RKBEUXM/venus_eea_global_images_V12.5.1.0.RKBEUXM_20210428.0000.00_11.0_eea_a182c96769.tgz
-  md5: a182c9676970ffba53846a75ffbb4e59
-  method: Fastboot
-  name: Mi 11 EEA
-  size: 5.9 GB
-  version: V12.5.1.0.RKBEUXM
 - android: '10.0'
   branch: Stable
   codename: lime_eea_global
@@ -3058,6 +3048,16 @@
   name: Redmi 9T EEA
   size: 2.6 GB
   version: V12.0.9.0.QJQEUXM
+- android: '11.0'
+  branch: Stable
+  codename: venus_eea_global
+  date: 2021-04-28
+  link: https://bigota.d.miui.com/V12.5.1.0.RKBEUXM/venus_eea_global_images_V12.5.1.0.RKBEUXM_20210428.0000.00_11.0_eea_a182c96769.tgz
+  md5: a182c9676970ffba53846a75ffbb4e59
+  method: Fastboot
+  name: Mi 11 EEA
+  size: 5.9 GB
+  version: V12.5.1.0.RKBEUXM
 - android: '11.0'
   branch: Stable
   codename: haydn
