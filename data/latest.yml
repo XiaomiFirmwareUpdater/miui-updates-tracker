@@ -270,16 +270,6 @@
   version: V12.5.2.0.RKFINXM
 - android: '11.0'
   branch: Stable Beta
-  codename: joyeuse_global
-  date: 2021-05-25
-  link: https://bigota.d.miui.com/V12.0.1.0.RJZMIXM/miui_JOYEUSEGlobal_V12.0.1.0.RJZMIXM_2ed492f999_11.0.zip
-  md5: 2ed492f9998406bc222553169aef7474
-  method: Recovery
-  name: Redmi Note 9 Pro Global
-  size: 2.5 GB
-  version: V12.0.1.0.RJZMIXM
-- android: '11.0'
-  branch: Stable Beta
   codename: biloba_global
   date: 2021-05-25
   link: https://bigota.d.miui.com/V12.5.1.0.RCUMIXM/miui_BILOBAGlobal_V12.5.1.0.RCUMIXM_852e830201_11.0.zip
@@ -1488,6 +1478,16 @@
   name: Mi 9 SE Global
   size: 2.6 GB
   version: V12.5.1.0.RFBMIXM
+- android: '11.0'
+  branch: Stable
+  codename: joyeuse_global
+  date: 2021-05-25
+  link: https://bigota.d.miui.com/V12.0.1.0.RJZMIXM/miui_JOYEUSEGlobal_V12.0.1.0.RJZMIXM_2ed492f999_11.0.zip
+  md5: 2ed492f9998406bc222553169aef7474
+  method: Recovery
+  name: Redmi Note 9 Pro Global
+  size: 2.5 GB
+  version: V12.0.1.0.RJZMIXM
 - android: '10.0'
   branch: Stable
   codename: olive_eea_global
@@ -2118,6 +2118,16 @@
   name: Redmi Note 9 Pro Max India
   size: 3.1 GB
   version: V12.0.4.0.QJXINXM
+- android: '11.0'
+  branch: Stable
+  codename: joyeuse_global
+  date: 2021-05-19
+  link: https://bigota.d.miui.com/V12.0.1.0.RJZMIXM/joyeuse_global_images_V12.0.1.0.RJZMIXM_20210519.0000.00_11.0_global_d236658133.tgz
+  md5: d2366581337be69aa382f743b5690b75
+  method: Fastboot
+  name: Redmi Note 9 Pro Global
+  size: 4.9 GB
+  version: V12.0.1.0.RJZMIXM
 - android: '11.0'
   branch: Stable
   codename: picasso
@@ -3678,16 +3688,6 @@
   name: Redmi Note 9S EEA
   size: 4.9 GB
   version: V12.0.4.0.QJWEUXM
-- android: '10.0'
-  branch: Stable
-  codename: joyeuse_global
-  date: 2021-04-22
-  link: https://bigota.d.miui.com/V12.0.3.0.QJZMIXM/miui_JOYEUSEGlobal_V12.0.3.0.QJZMIXM_99a2cc21b6_10.0.zip
-  md5: 99a2cc21b604b2b79010bd71710bb9e7
-  method: Recovery
-  name: Redmi Note 9 Pro Global
-  size: 2.5 GB
-  version: V12.0.3.0.QJZMIXM
 - android: '11.0'
   branch: Stable
   codename: umi_eea_global
@@ -3918,16 +3918,6 @@
   name: Redmi Note 9 5G China
   size: 3.9 GB
   version: V12.5.1.0.RJECNXM
-- android: '10.0'
-  branch: Stable
-  codename: joyeuse_global
-  date: 2021-04-19
-  link: https://bigota.d.miui.com/V12.0.3.0.QJZMIXM/joyeuse_global_images_V12.0.3.0.QJZMIXM_20210419.0000.00_10.0_global_0801ff7d09.tgz
-  md5: 0801ff7d09ac3e0013d81af5ec9d7393
-  method: Fastboot
-  name: Redmi Note 9 Pro Global
-  size: 4.8 GB
-  version: V12.0.3.0.QJZMIXM
 - android: '10.0'
   branch: Stable
   codename: pine_eea_global
@@ -8272,21 +8262,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
