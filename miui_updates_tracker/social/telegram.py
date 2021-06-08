@@ -76,7 +76,7 @@ class TelegramBot:
                 message += f"*Changelog*: [Here]({website}/miui/{short_codename}/" \
                            f"{branch}/{update.version}/)\n"
             else:
-                message += f"*Changelog*:\n`{update.changelog}`\n"
+                message += f"*Changelog*:\n`{update.changelog.replace('[', '(').replace(']', ')')}`\n"
         message += "\n@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
         button: InlineKeyboardButton = InlineKeyboardButton("Full ROM", update.link)
         # bot subscribe
