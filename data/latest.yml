@@ -280,26 +280,6 @@
   version: V12.5.4.0.RJBCNXM
 - android: '11.0'
   branch: Stable Beta
-  codename: alioth_global
-  date: 2021-06-01
-  link: https://bigota.d.miui.com/V12.5.1.0.RKHMIXM/miui_ALIOTHGlobal_V12.5.1.0.RKHMIXM_e9845255d6_11.0.zip
-  md5: e9845255d616b0182aef3bca353998b3
-  method: Recovery
-  name: POCO F3 Global
-  size: 3.0 GB
-  version: V12.5.1.0.RKHMIXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: alioth_eea_global
-  date: 2021-06-01
-  link: https://bigota.d.miui.com/V12.5.1.0.RKHEUXM/miui_ALIOTHEEAGlobal_V12.5.1.0.RKHEUXM_1efe939759_11.0.zip
-  md5: 1efe9397591bd4c658bdb927045adc0a
-  method: Recovery
-  name: POCO F3 EEA
-  size: 3.1 GB
-  version: V12.5.1.0.RKHEUXM
-- android: '11.0'
-  branch: Stable Beta
   codename: umi_global
   date: 2021-05-31
   link: https://bigota.d.miui.com/V12.5.1.0.RJBMIXM/miui_UMIGlobal_V12.5.1.0.RJBMIXM_d2fada1577_11.0.zip
@@ -488,6 +468,16 @@
   name: Mi 10S China
   size: 3.8 GB
   version: V12.0.11.0.RGACNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -538,16 +528,6 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: courbet_eea_global
@@ -970,16 +950,6 @@
   version: V11.0.9.0.QECMIXM
 - android: '10.0'
   branch: Stable Beta
-  codename: umi_tr_global
-  date: 2020-08-06
-  link: https://bigota.d.miui.com/V12.0.1.0.QJBTRXM/miui_UMITRGlobal_V12.0.1.0.QJBTRXM_f835646692_10.0.zip
-  md5: f835646692e49f2f4174d722b72cf687
-  method: Recovery
-  name: Mi 10 Turkey
-  size: 2.9 GB
-  version: V12.0.1.0.QJBTRXM
-- android: '10.0'
-  branch: Stable Beta
   codename: onclite
   date: 2020-07-30
   link: https://bigota.d.miui.com/V11.0.2.0.QFLCNXM/miui_ONCLITE_V11.0.2.0.QFLCNXM_0f7eda3bc4_10.0.zip
@@ -998,6 +968,16 @@
   name: Redmi Note 9 Global
   size: 1.9 GB
   version: V12.0.2.0.QJOMIXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: umi_tr_global
+  date: 2020-06-12
+  link: https://bigota.d.miui.com/V11.0.3.0.QJBTRXM/miui_UMITRGlobal_V11.0.3.0.QJBTRXM_650e66f686_10.0.zip
+  md5: 650e66f68641b6cbd06c222a3be28def
+  method: Recovery
+  name: Mi 10 Turkey
+  size: 2.7 GB
+  version: V11.0.3.0.QJBTRXM
 - android: '11.0'
   branch: Stable Beta
   codename: camellian_global
@@ -1228,6 +1208,26 @@
   name: POCO M3 Global
   size: 2.6 GB
   version: V12.0.8.0.QJFMIXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth_global
+  date: 2021-06-01
+  link: https://bigota.d.miui.com/V12.5.1.0.RKHMIXM/miui_ALIOTHGlobal_V12.5.1.0.RKHMIXM_e9845255d6_11.0.zip
+  md5: e9845255d616b0182aef3bca353998b3
+  method: Recovery
+  name: POCO F3 Global
+  size: 3.0 GB
+  version: V12.5.1.0.RKHMIXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth_eea_global
+  date: 2021-06-01
+  link: https://bigota.d.miui.com/V12.5.1.0.RKHEUXM/miui_ALIOTHEEAGlobal_V12.5.1.0.RKHEUXM_1efe939759_11.0.zip
+  md5: 1efe9397591bd4c658bdb927045adc0a
+  method: Recovery
+  name: POCO F3 EEA
+  size: 3.1 GB
+  version: V12.5.1.0.RKHEUXM
 - android: '11.0'
   branch: Stable
   codename: alioth_tr_global
@@ -2310,16 +2310,6 @@
   version: V12.0.10.0.RKICNXM
 - android: '11.0'
   branch: Stable
-  codename: alioth_id_global
-  date: 2021-05-20
-  link: https://bigota.d.miui.com/V12.5.1.0.RKHIDXM/alioth_id_global_images_V12.5.1.0.RKHIDXM_20210520.0000.00_11.0_global_a6dd481641.tgz
-  md5: a6dd481641584f7de565f012060a1a02
-  method: Fastboot
-  name: POCO F3 Indonesia
-  size: 4.9 GB
-  version: V12.5.1.0.RKHIDXM
-- android: '11.0'
-  branch: Stable
   codename: haydn_global
   date: 2021-05-20
   link: https://bigota.d.miui.com/V12.0.3.0.RKKMIXM/miui_HAYDNGlobal_V12.0.3.0.RKKMIXM_48dcdc95d3_11.0.zip
@@ -2328,6 +2318,16 @@
   name: Mi 11i Global
   size: 3.1 GB
   version: V12.0.3.0.RKKMIXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth_id_global
+  date: 2021-05-20
+  link: https://bigota.d.miui.com/V12.5.1.0.RKHIDXM/alioth_id_global_images_V12.5.1.0.RKHIDXM_20210520.0000.00_11.0_global_a6dd481641.tgz
+  md5: a6dd481641584f7de565f012060a1a02
+  method: Fastboot
+  name: POCO F3 Indonesia
+  size: 4.9 GB
+  version: V12.5.1.0.RKHIDXM
 - android: '11.0'
   branch: Stable
   codename: alioth_ru_global
@@ -2620,6 +2620,16 @@
   version: V12.0.6.0.RJURUXM
 - android: '11.0'
   branch: Stable
+  codename: alioth_eea_global
+  date: 2021-05-18
+  link: https://bigota.d.miui.com/V12.5.1.0.RKHEUXM/alioth_eea_global_images_V12.5.1.0.RKHEUXM_20210518.0000.00_11.0_eea_6eb60e2f98.tgz
+  md5: 6eb60e2f989c6f16a4ed324806f65b3e
+  method: Fastboot
+  name: POCO F3 EEA
+  size: 5.6 GB
+  version: V12.5.1.0.RKHEUXM
+- android: '11.0'
+  branch: Stable
   codename: alioth_in_global
   date: 2021-05-18
   link: https://bigota.d.miui.com/V12.5.1.0.RKHINXM/alioth_in_global_images_V12.5.1.0.RKHINXM_20210518.0000.00_11.0_in_16de415c31.tgz
@@ -2728,6 +2738,16 @@
   name: Mi 11i Global
   size: 5.8 GB
   version: V12.0.3.0.RKKMIXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth_global
+  date: 2021-05-17
+  link: https://bigota.d.miui.com/V12.5.1.0.RKHMIXM/alioth_global_images_V12.5.1.0.RKHMIXM_20210517.0000.00_11.0_global_35202c0d4e.tgz
+  md5: 35202c0d4efca32b795a44fc5a8fcb19
+  method: Fastboot
+  name: POCO F3 Global
+  size: 5.6 GB
+  version: V12.5.1.0.RKHMIXM
 - android: '11.0'
   branch: Stable
   codename: cetus
@@ -3698,26 +3718,6 @@
   name: POCO X3 Pro Indonesia
   size: 2.8 GB
   version: V12.0.3.0.RJUIDXM
-- android: '11.0'
-  branch: Stable
-  codename: alioth_global
-  date: 2021-04-26
-  link: https://bigota.d.miui.com/V12.0.3.0.RKHMIXM/miui_ALIOTHGlobal_V12.0.3.0.RKHMIXM_e4cdd42d11_11.0.zip
-  md5: e4cdd42d11bff0172d239c9c1de58c9b
-  method: Recovery
-  name: POCO F3 Global
-  size: 3.0 GB
-  version: V12.0.3.0.RKHMIXM
-- android: '11.0'
-  branch: Stable
-  codename: alioth_eea_global
-  date: 2021-04-26
-  link: https://bigota.d.miui.com/V12.0.5.0.RKHEUXM/miui_ALIOTHEEAGlobal_V12.0.5.0.RKHEUXM_07e1020d55_11.0.zip
-  md5: 07e1020d55e107d5fa50fc93a7612b78
-  method: Recovery
-  name: POCO F3 EEA
-  size: 3.0 GB
-  version: V12.0.5.0.RKHEUXM
 - android: '10.0'
   branch: Stable
   codename: cepheus_eea_global
@@ -3928,16 +3928,6 @@
   name: Mi 11 Lite 4G Indonesia
   size: 4.5 GB
   version: V12.0.2.0.RKQIDXM
-- android: '11.0'
-  branch: Stable
-  codename: alioth_eea_global
-  date: 2021-04-22
-  link: https://bigota.d.miui.com/V12.0.5.0.RKHEUXM/alioth_eea_global_images_V12.0.5.0.RKHEUXM_20210422.0000.00_11.0_eea_76c414b265.tgz
-  md5: 76c414b26526d84e10c07d55b9f7d60d
-  method: Fastboot
-  name: POCO F3 EEA
-  size: 5.5 GB
-  version: V12.0.5.0.RKHEUXM
 - android: '11.0'
   branch: Stable
   codename: sweetin_in_global
@@ -4288,16 +4278,6 @@
   name: POCO X3 Pro Global
   size: 4.9 GB
   version: V12.0.6.0.RJUMIXM
-- android: '11.0'
-  branch: Stable
-  codename: alioth_global
-  date: 2021-04-16
-  link: https://bigota.d.miui.com/V12.0.3.0.RKHMIXM/alioth_global_images_V12.0.3.0.RKHMIXM_20210416.0000.00_11.0_global_b716fd8a83.tgz
-  md5: b716fd8a830db013dd310a7fd72bd9b3
-  method: Fastboot
-  name: POCO F3 Global
-  size: 5.4 GB
-  version: V12.0.3.0.RKHMIXM
 - android: '11.0'
   branch: Stable
   codename: star_id_global
@@ -8312,21 +8292,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
