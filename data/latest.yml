@@ -128,16 +128,6 @@
   name: POCO M3 Turkey
   size: 2.6 GB
   version: V12.0.7.0.QJFTRXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: lime_in_global
-  date: 2021-06-08
-  link: https://bigota.d.miui.com/V12.0.8.0.QJQINXM/miui_LIMEINGlobal_V12.0.8.0.QJQINXM_3b5fbd865f_10.0.zip
-  md5: 3b5fbd865f020eb92db9f514db686c28
-  method: Recovery
-  name: Redmi 9 Power India
-  size: 2.6 GB
-  version: V12.0.8.0.QJQINXM
 - android: '11.0'
   branch: Stable Beta
   codename: cannong_global
@@ -1040,6 +1030,16 @@
   version: V12.0.14.0.QCRMIXM
 - android: '10.0'
   branch: Stable
+  codename: lime_in_global
+  date: 2021-06-08
+  link: https://bigota.d.miui.com/V12.0.8.0.QJQINXM/miui_LIMEINGlobal_V12.0.8.0.QJQINXM_3b5fbd865f_10.0.zip
+  md5: 3b5fbd865f020eb92db9f514db686c28
+  method: Recovery
+  name: Redmi 9 Power India
+  size: 2.6 GB
+  version: V12.0.8.0.QJQINXM
+- android: '10.0'
+  branch: Stable
   codename: dandelion_global
   date: 2021-06-04
   link: https://bigota.d.miui.com/V12.0.14.0.QCDMIXM/dandelion_global_images_V12.0.14.0.QCDMIXM_20210604.0000.00_10.0_global_80df29330a.tgz
@@ -1188,6 +1188,16 @@
   name: Mi A2 Lite Global
   size: 1.5 GB
   version: V11.0.20.0.QDLMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lime_in_global
+  date: 2021-06-02
+  link: https://bigota.d.miui.com/V12.0.8.0.QJQINXM/lime_in_global_images_V12.0.8.0.QJQINXM_20210602.0000.00_10.0_in_7f9e185e16.tgz
+  md5: 7f9e185e160baa065eae1de3d3311501
+  method: Fastboot
+  name: Redmi 9 Power India
+  size: 3.3 GB
+  version: V12.0.8.0.QJQINXM
 - android: '11.0'
   branch: Stable
   codename: sweet_global
@@ -2750,16 +2760,6 @@
   version: V12.0.5.0.RJUINXM
 - android: '11.0'
   branch: Stable
-  codename: alioth_global
-  date: 2021-05-17
-  link: https://bigota.d.miui.com/V12.5.1.0.RKHMIXM/alioth_global_images_V12.5.1.0.RKHMIXM_20210517.0000.00_11.0_global_35202c0d4e.tgz
-  md5: 35202c0d4efca32b795a44fc5a8fcb19
-  method: Fastboot
-  name: POCO F3 Global
-  size: 5.6 GB
-  version: V12.5.1.0.RKHMIXM
-- android: '11.0'
-  branch: Stable
   codename: haydn_global
   date: 2021-05-17
   link: https://bigota.d.miui.com/V12.0.3.0.RKKMIXM/haydn_global_images_V12.0.3.0.RKKMIXM_20210517.0000.00_11.0_global_03aed328ce.tgz
@@ -2768,6 +2768,16 @@
   name: Mi 11i Global
   size: 5.8 GB
   version: V12.0.3.0.RKKMIXM
+- android: '11.0'
+  branch: Stable
+  codename: alioth_global
+  date: 2021-05-17
+  link: https://bigota.d.miui.com/V12.5.1.0.RKHMIXM/alioth_global_images_V12.5.1.0.RKHMIXM_20210517.0000.00_11.0_global_35202c0d4e.tgz
+  md5: 35202c0d4efca32b795a44fc5a8fcb19
+  method: Fastboot
+  name: POCO F3 Global
+  size: 5.6 GB
+  version: V12.5.1.0.RKHMIXM
 - android: '11.0'
   branch: Stable
   codename: cetus
@@ -4488,16 +4498,6 @@
   name: Redmi 9C NFC EEA
   size: 1.8 GB
   version: V12.0.7.0.QCSEUXM
-- android: '10.0'
-  branch: Stable
-  codename: lime_in_global
-  date: 2021-04-13
-  link: https://bigota.d.miui.com/V12.0.7.0.QJQINXM/miui_LIMEINGlobal_V12.0.7.0.QJQINXM_912c570415_10.0.zip
-  md5: 912c570415fc5904629af3c7f35ff160
-  method: Recovery
-  name: Redmi 9 Power India
-  size: 2.6 GB
-  version: V12.0.7.0.QJQINXM
 - android: '11.0'
   branch: Stable
   codename: courbet_eea_global
@@ -4708,16 +4708,6 @@
   name: Mi Note 10 Lite Turkey
   size: 2.5 GB
   version: V12.1.3.0.RFNTRXM
-- android: '10.0'
-  branch: Stable
-  codename: lime_in_global
-  date: 2021-04-08
-  link: https://bigota.d.miui.com/V12.0.7.0.QJQINXM/lime_in_global_images_V12.0.7.0.QJQINXM_20210408.0000.00_10.0_in_1fb6d7356c.tgz
-  md5: 1fb6d7356ccf4a0fdf010e7897079e2f
-  method: Fastboot
-  name: Redmi 9 Power India
-  size: 3.3 GB
-  version: V12.0.7.0.QJQINXM
 - android: '10.0'
   branch: Stable
   codename: laurus
