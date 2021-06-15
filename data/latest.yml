@@ -1,3 +1,13 @@
+- android: '11.0'
+  branch: Stable Beta
+  codename: umi
+  date: 2021-06-15
+  link: https://bigota.d.miui.com/V12.5.5.0.RJBCNXM/miui_UMI_V12.5.5.0.RJBCNXM_8fa4752ff3_11.0.zip
+  md5: 8fa4752ff3b1ae6cbd96a28ac7128aaf
+  method: Recovery
+  name: Mi 10 China
+  size: 4.0 GB
+  version: V12.5.5.0.RJBCNXM
 - android: '9.0'
   branch: Stable Beta
   codename: whyred
@@ -278,16 +288,6 @@
   name: Redmi 9 China
   size: 2.5 GB
   version: V12.0.1.0.RJCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: umi
-  date: 2021-06-01
-  link: https://bigota.d.miui.com/V12.5.4.0.RJBCNXM/miui_UMI_V12.5.4.0.RJBCNXM_0eaf9561e1_11.0.zip
-  md5: 0eaf9561e134058a8d97f1f36ef5874b
-  method: Recovery
-  name: Mi 10 China
-  size: 4.0 GB
-  version: V12.5.4.0.RJBCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: umi_global
@@ -8262,21 +8262,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
