@@ -109,7 +109,7 @@ async def main():
     from miui_updates_tracker import CONFIG
     from miui_updates_tracker.common.database import close_db
     from miui_updates_tracker.common.database.database import get_device_latest
-    all_updates = get_device_latest('mojito')
+    all_updates = list(filter(lambda x: x.date, get_device_latest('rosemary')))
     xda = XDAPoster(CONFIG['xda']['access_token'])
     await xda.post_updates(all_updates)
     close_db()
