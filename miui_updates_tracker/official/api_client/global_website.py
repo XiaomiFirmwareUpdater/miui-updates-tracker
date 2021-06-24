@@ -38,7 +38,7 @@ class GlobalAPIClient(CommonClient):
         Website Class constructor
         """
         super().__init__()
-        self.base_url: str = "https://c.mi.com/oc"
+        self.base_url: str = "https://c.mi.com/"
         self.headers = {
             'pragma': 'no-cache',
             'accept-encoding': 'gzip, deflate, br',
@@ -48,7 +48,7 @@ class GlobalAPIClient(CommonClient):
             'authority': 'c.mi.com',
             'x-requested-with': 'XMLHttpRequest',
             'connection': 'keep-alive',
-            'referer': 'https://c.mi.com/oc/miuidownload/',
+            'referer': 'https://c.mi.com/miuidownload/',
         }
         self._logger = logging.getLogger(__name__)
         self.fastboot_devices = []
@@ -246,6 +246,8 @@ class GlobalAPIClient(CommonClient):
         :param _response: ClientResponse: The API response client object
         :return:
         """
-        response: dict = json.loads(await _response.text())
-        if response['errmsg'] == "Success" and response['errno'] == 0:
-            return response['data']
+        text = await _response.text()
+        if text.startswith("{"):
+            response: dict = json.loads(text)
+            if response['errmsg'] == "Success" and response['errno'] == 0:
+                return response['data']
