@@ -40,16 +40,6 @@
   version: V12.0.10.0.QJQEUXM
 - android: '10.0'
   branch: Stable Beta
-  codename: nitrogen
-  date: 2021-06-23
-  link: https://bigota.d.miui.com/V12.5.1.0.QEDCNXM/miui_MIMAX3_V12.5.1.0.QEDCNXM_31b6021352_10.0.zip
-  md5: 31b602135215a4222d520662b2a46737
-  method: Recovery
-  name: Mi Max 3 China
-  size: 2.2 GB
-  version: V12.5.1.0.QEDCNXM
-- android: '10.0'
-  branch: Stable Beta
   codename: olive_id_global
   date: 2021-06-23
   link: https://bigota.d.miui.com/V12.0.3.0.QCNIDXM/miui_OLIVEIDGlobal_V12.0.3.0.QCNIDXM_48fe772ddd_10.0.zip
@@ -58,6 +48,16 @@
   name: Redmi 8 Indonesia
   size: 2.3 GB
   version: V12.0.3.0.QCNIDXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: nitrogen
+  date: 2021-06-23
+  link: https://bigota.d.miui.com/V12.5.1.0.QEDCNXM/miui_MIMAX3_V12.5.1.0.QEDCNXM_31b6021352_10.0.zip
+  md5: 31b602135215a4222d520662b2a46737
+  method: Recovery
+  name: Mi Max 3 China
+  size: 2.3 GB
+  version: V12.5.1.0.QEDCNXM
 - android: '10.0'
   branch: Stable Beta
   codename: olive_ru_global
@@ -118,16 +118,6 @@
   name: Mi 9T Global
   size: 2.5 GB
   version: V12.0.9.0.QFJMIXM
-- android: '10.0'
-  branch: Stable Beta
-  codename: angelica_tr_global
-  date: 2021-06-22
-  link: https://bigota.d.miui.com/V12.0.7.0.QCRTRXM/miui_ANGELICATRGlobal_V12.0.7.0.QCRTRXM_f77107edbd_10.0.zip
-  md5: f77107edbd02d49b22d27784f86ede6d
-  method: Recovery
-  name: Redmi 9C Turkey
-  size: 1.8 GB
-  version: V12.0.7.0.QCRTRXM
 - android: '11.0'
   branch: Stable Beta
   codename: chopin
@@ -538,6 +528,16 @@
   name: Mi 10S China
   size: 3.8 GB
   version: V12.0.11.0.RGACNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -568,16 +568,6 @@
   name: Mi 6X China
   size: 2.0 GB
   version: V12.0.2.0.PDCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: courbet_eea_global
@@ -900,6 +890,16 @@
   version: V12.0.2.0.QCRINXM
 - android: '10.0'
   branch: Stable Beta
+  codename: angelica_tr_global
+  date: 2020-10-15
+  link: https://bigota.d.miui.com/V12.0.2.0.QCRTRXM/miui_ANGELICATRGlobal_V12.0.2.0.QCRTRXM_77b80b68cd_10.0.zip
+  md5: 77b80b68cd3f153688c1716092947598
+  method: Recovery
+  name: Redmi 9C Turkey
+  size: 1.7 GB
+  version: V12.0.2.0.QCRTRXM
+- android: '10.0'
+  branch: Stable Beta
   codename: joyeuse_tr_global
   date: 2020-10-13
   link: https://bigota.d.miui.com/V12.0.1.0.QJZTRXM/miui_JOYEUSETRGlobal_V12.0.1.0.QJZTRXM_50853d94c1_10.0.zip
@@ -1050,6 +1050,16 @@
   version: V12.5.1.0.RCUEUXM
 - android: '10.0'
   branch: Stable
+  codename: angelica_tr_global
+  date: 2021-06-22
+  link: https://bigota.d.miui.com/V12.0.7.0.QCRTRXM/miui_ANGELICATRGlobal_V12.0.7.0.QCRTRXM_f77107edbd_10.0.zip
+  md5: f77107edbd02d49b22d27784f86ede6d
+  method: Recovery
+  name: Redmi 9C Turkey
+  size: 1.8 GB
+  version: V12.0.7.0.QCRTRXM
+- android: '10.0'
+  branch: Stable
   codename: dandelion_eea_global
   date: 2021-06-18
   link: https://bigota.d.miui.com/V12.0.13.0.QCDEUXM/miui_DANDELIONEEAGlobal_V12.0.13.0.QCDEUXM_3d5f0d9861_10.0.zip
@@ -1178,6 +1188,16 @@
   name: Mi A2 Global
   size: 1.4 GB
   version: V11.0.27.0.QDIMIXM
+- android: '11.0'
+  branch: Stable
+  codename: laurel_sprout_global
+  date: 2021-06-15
+  link: https://bigota.d.miui.com/V12.0.11.0.RFQMIXM/laurel_sprout_global_images_V12.0.11.0.RFQMIXM_20210615.0000.00_11.0_54ab48a086.tgz
+  md5: 54ab48a08678fd08b9149f03bbecf861
+  method: Fastboot
+  name: Mi A3 Global
+  size: 2.4 GB
+  version: V12.0.11.0.RFQMIXM
 - android: '10.0'
   branch: Stable
   codename: angelican_global
@@ -1298,6 +1318,16 @@
   name: Redmi Note 9 5G China
   size: 3.0 GB
   version: V12.5.3.0.RJECNXM
+- android: '10.0'
+  branch: Stable
+  codename: angelica_tr_global
+  date: 2021-06-11
+  link: https://bigota.d.miui.com/V12.0.7.0.QCRTRXM/angelica_tr_global_images_V12.0.7.0.QCRTRXM_20210611.0000.00_10.0_global_de5676d141.tgz
+  md5: de5676d14166c521827cafa4cea5192a
+  method: Fastboot
+  name: Redmi 9C Turkey
+  size: 3.3 GB
+  version: V12.0.7.0.QCRTRXM
 - android: '11.0'
   branch: Stable
   codename: vayu_global
@@ -4290,16 +4320,6 @@
   version: V12.2.8.0.RJBEUXM
 - android: '11.0'
   branch: Stable
-  codename: laurel_sprout_global
-  date: 2021-05-06
-  link: https://bigota.d.miui.com/V12.0.9.0.RFQMIXM/laurel_sprout_global_images_V12.0.9.0.RFQMIXM_20210506.0000.00_11.0_71b71c458f.tgz
-  md5: 71b71c458f9be2d78dc7b7810a4ed5a5
-  method: Fastboot
-  name: Mi A3 Global
-  size: 2.4 GB
-  version: V12.0.9.0.RFQMIXM
-- android: '11.0'
-  branch: Stable
   codename: apollo_tr_global
   date: 2021-05-06
   link: https://bigota.d.miui.com/V12.1.2.0.RJDTRXM/apollo_tr_global_images_V12.1.2.0.RJDTRXM_20210506.0000.00_11.0_global_9d4ab2036d.tgz
@@ -4778,16 +4798,6 @@
   name: Redmi 7A Russia
   size: 1.8 GB
   version: V12.0.2.0.QCMRUXM
-- android: '10.0'
-  branch: Stable
-  codename: angelica_tr_global
-  date: 2021-04-19
-  link: https://bigota.d.miui.com/V12.0.6.0.QCRTRXM/miui_ANGELICATRGlobal_V12.0.6.0.QCRTRXM_559ce03a09_10.0.zip
-  md5: 559ce03a0909f2606f96196043d6e25e
-  method: Recovery
-  name: Redmi 9C Turkey
-  size: 1.8 GB
-  version: V12.0.6.0.QCRTRXM
 - android: '11.0'
   branch: Stable
   codename: courbet_eea_global
@@ -5088,16 +5098,6 @@
   name: Redmi Note 9T Russia
   size: 2.3 GB
   version: V12.0.2.0.QJERUXM
-- android: '10.0'
-  branch: Stable
-  codename: angelica_tr_global
-  date: 2021-04-10
-  link: https://bigota.d.miui.com/V12.0.6.0.QCRTRXM/angelica_tr_global_images_V12.0.6.0.QCRTRXM_20210410.0000.00_10.0_global_f19a26ea4f.tgz
-  md5: f19a26ea4f5480af7e9a89e62b3e985a
-  method: Fastboot
-  name: Redmi 9C Turkey
-  size: 3.1 GB
-  version: V12.0.6.0.QCRTRXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_id_global
