@@ -2670,16 +2670,6 @@
   version: V12.0.3.0.QCNRUXM
 - android: '10.0'
   branch: Stable
-  codename: olivelite_id_global
-  date: 2021-06-23
-  link: https://bigota.d.miui.com/V12.0.3.0.QCPIDXM/miui_OLIVELITEIDGlobal_V12.0.3.0.QCPIDXM_eb33d97d60_10.0.zip
-  md5: eb33d97d60f2a59d74a232714b593a4e
-  method: Recovery
-  name: Redmi 8A Indonesia
-  size: 1.9 GB
-  version: V12.0.3.0.QCPIDXM
-- android: '10.0'
-  branch: Stable
   codename: nitrogen
   date: 2021-06-23
   link: https://bigota.d.miui.com/V12.5.1.0.QEDCNXM/miui_MIMAX3_V12.5.1.0.QEDCNXM_31b6021352_10.0.zip
@@ -2688,6 +2678,16 @@
   name: Mi Max 3 China
   size: 2.3 GB
   version: V12.5.1.0.QEDCNXM
+- android: '10.0'
+  branch: Stable
+  codename: olivelite_id_global
+  date: 2021-06-23
+  link: https://bigota.d.miui.com/V12.0.3.0.QCPIDXM/miui_OLIVELITEIDGlobal_V12.0.3.0.QCPIDXM_eb33d97d60_10.0.zip
+  md5: eb33d97d60f2a59d74a232714b593a4e
+  method: Recovery
+  name: Redmi 8A Indonesia
+  size: 1.9 GB
+  version: V12.0.3.0.QCPIDXM
 - android: '10.0'
   branch: Stable
   codename: olivelite_ru_global
@@ -8672,21 +8672,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Stable
