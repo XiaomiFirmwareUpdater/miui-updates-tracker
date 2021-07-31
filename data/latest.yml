@@ -608,16 +608,6 @@
   name: Redmi K40 Pro / Pro+ China
   size: 3.9 GB
   version: V12.5.2.0.RKKCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -658,6 +648,16 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: courbet_eea_global
@@ -1970,16 +1970,6 @@
   version: V12.5.1.0.RJERUXM
 - android: '11.0'
   branch: Stable
-  codename: ginkgo_eea_global
-  date: 2021-07-07
-  link: https://bigota.d.miui.com/V12.0.2.0.RCOEUXM/miui_GINKGOEEAGlobal_V12.0.2.0.RCOEUXM_2a44f40334_11.0.zip
-  md5: 2a44f403346a7891a1c718aee8dcb7b9
-  method: Recovery
-  name: Redmi Note 8 EEA
-  size: 2.4 GB
-  version: V12.0.2.0.RCOEUXM
-- android: '11.0'
-  branch: Stable
   codename: cannong_tr_global
   date: 2021-07-07
   link: https://bigota.d.miui.com/V12.5.1.0.RJETRXM/cannong_tr_global_images_V12.5.1.0.RJETRXM_20210707.0000.00_11.0_global_3eae4e57bb.tgz
@@ -1988,6 +1978,16 @@
   name: Redmi Note 9T Turkey
   size: 3.9 GB
   version: V12.5.1.0.RJETRXM
+- android: '11.0'
+  branch: Stable
+  codename: ginkgo_eea_global
+  date: 2021-07-07
+  link: https://bigota.d.miui.com/V12.0.2.0.RCOEUXM/miui_GINKGOEEAGlobal_V12.0.2.0.RCOEUXM_2a44f40334_11.0.zip
+  md5: 2a44f403346a7891a1c718aee8dcb7b9
+  method: Recovery
+  name: Redmi Note 8 EEA
+  size: 2.4 GB
+  version: V12.0.2.0.RCOEUXM
 - android: '11.0'
   branch: Stable
   codename: camellian_id_global
@@ -2028,16 +2028,6 @@
   name: Mi 9T Pro Russia
   size: 3.3 GB
   version: V12.5.1.0.RFKRUXM
-- android: '11.0'
-  branch: Stable
-  codename: gauguin_in_global
-  date: 2021-07-06
-  link: https://bigota.d.miui.com/V12.5.1.0.RJSINXM/miui_GAUGUININGlobal_V12.5.1.0.RJSINXM_96a4f82abe_11.0.zip
-  md5: 96a4f82abe5be39f01a89d100f8b0dc4
-  method: Recovery
-  name: Mi 10i India
-  size: 2.8 GB
-  version: V12.5.1.0.RJSINXM
 - android: '10.0'
   branch: Stable
   codename: citrus_eea_global
@@ -2050,6 +2040,16 @@
   version: V12.0.10.0.QJFEUXM
 - android: '11.0'
   branch: Stable
+  codename: gauguin_in_global
+  date: 2021-07-06
+  link: https://bigota.d.miui.com/V12.5.1.0.RJSINXM/miui_GAUGUININGlobal_V12.5.1.0.RJSINXM_96a4f82abe_11.0.zip
+  md5: 96a4f82abe5be39f01a89d100f8b0dc4
+  method: Recovery
+  name: Mi 10i India
+  size: 2.8 GB
+  version: V12.5.1.0.RJSINXM
+- android: '11.0'
+  branch: Stable
   codename: gauguin_tw_global
   date: 2021-07-06
   link: https://bigota.d.miui.com/V12.5.1.0.RJSTWXM/gauguin_tw_global_images_V12.5.1.0.RJSTWXM_20210706.0000.00_11.0_global_093bfb1c49.tgz
@@ -2058,16 +2058,6 @@
   name: Mi 10T Lite Taiwan
   size: 3.9 GB
   version: V12.5.1.0.RJSTWXM
-- android: '11.0'
-  branch: Stable
-  codename: renoir_global
-  date: 2021-07-06
-  link: https://bigota.d.miui.com/V12.5.2.0.RKIMIXM/miui_RENOIRGlobal_V12.5.2.0.RKIMIXM_ab83d0ceea_11.0.zip
-  md5: ab83d0ceea4b7768b28963a5600a461e
-  method: Recovery
-  name: Mi 11 Lite 5G Global
-  size: 3.2 GB
-  version: V12.5.2.0.RKIMIXM
 - android: '11.0'
   branch: Stable
   codename: courbet_eea_global
@@ -2080,14 +2070,14 @@
   version: V12.5.3.0.RKQEUXM
 - android: '11.0'
   branch: Stable
-  codename: courbet_tr_global
+  codename: renoir_global
   date: 2021-07-06
-  link: https://bigota.d.miui.com/V12.5.1.0.RKQTRXM/miui_COURBETTRGlobal_V12.5.1.0.RKQTRXM_df2d222571_11.0.zip
-  md5: df2d222571f53e8af42caf84814e4667
+  link: https://bigota.d.miui.com/V12.5.2.0.RKIMIXM/miui_RENOIRGlobal_V12.5.2.0.RKIMIXM_ab83d0ceea_11.0.zip
+  md5: ab83d0ceea4b7768b28963a5600a461e
   method: Recovery
-  name: Mi 11 Lite 4G Turkey
-  size: 2.9 GB
-  version: V12.5.1.0.RKQTRXM
+  name: Mi 11 Lite 5G Global
+  size: 3.2 GB
+  version: V12.5.2.0.RKIMIXM
 - android: '11.0'
   branch: Stable
   codename: renoir_eea_global
@@ -2098,6 +2088,16 @@
   name: Mi 11 Lite 5G EEA
   size: 3.2 GB
   version: V12.5.3.0.RKIEUXM
+- android: '11.0'
+  branch: Stable
+  codename: courbet_tr_global
+  date: 2021-07-06
+  link: https://bigota.d.miui.com/V12.5.1.0.RKQTRXM/miui_COURBETTRGlobal_V12.5.1.0.RKQTRXM_df2d222571_11.0.zip
+  md5: df2d222571f53e8af42caf84814e4667
+  method: Recovery
+  name: Mi 11 Lite 4G Turkey
+  size: 2.9 GB
+  version: V12.5.1.0.RKQTRXM
 - android: '11.0'
   branch: Stable
   codename: alioth_global
@@ -4278,16 +4278,6 @@
   name: Redmi 9 Power India
   size: 2.6 GB
   version: V12.0.8.0.QJQINXM
-- android: '10.0'
-  branch: Stable
-  codename: lancelot_tr_global
-  date: 2021-06-08
-  link: https://bigota.d.miui.com/V12.0.3.0.QJCTRXM/lancelot_tr_global_images_V12.0.3.0.QJCTRXM_20210608.0000.00_10.0_global_ec993a0ad2.tgz
-  md5: ec993a0ad2c106ba3997bd85e3bf6fd6
-  method: Fastboot
-  name: Redmi 9 Turkey
-  size: 3.6 GB
-  version: V12.0.3.0.QJCTRXM
 - android: '11.0'
   branch: Stable
   codename: cannong_global
@@ -4298,6 +4288,16 @@
   name: Redmi Note 9T Global
   size: 2.4 GB
   version: V12.5.2.0.RJEMIXM
+- android: '10.0'
+  branch: Stable
+  codename: lancelot_tr_global
+  date: 2021-06-08
+  link: https://bigota.d.miui.com/V12.0.3.0.QJCTRXM/lancelot_tr_global_images_V12.0.3.0.QJCTRXM_20210608.0000.00_10.0_global_ec993a0ad2.tgz
+  md5: ec993a0ad2c106ba3997bd85e3bf6fd6
+  method: Fastboot
+  name: Redmi 9 Turkey
+  size: 3.6 GB
+  version: V12.0.3.0.QJCTRXM
 - android: '11.0'
   branch: Stable
   codename: vayu_ru_global
@@ -4470,16 +4470,6 @@
   version: V12.0.4.0.RKGIDXM
 - android: '11.0'
   branch: Stable
-  codename: ares
-  date: 2021-06-04
-  link: https://bigota.d.miui.com/V12.5.6.0.RKJCNXM/miui_ARES_V12.5.6.0.RKJCNXM_c571abdd03_11.0.zip
-  md5: c571abdd03eced19854e9494224a1906
-  method: Recovery
-  name: Redmi K40 Gaming China
-  size: 3.4 GB
-  version: V12.5.6.0.RKJCNXM
-- android: '11.0'
-  branch: Stable
   codename: vayu_tw_global
   date: 2021-06-04
   link: https://bigota.d.miui.com/V12.5.1.0.RJUTWXM/vayu_tw_global_images_V12.5.1.0.RJUTWXM_20210604.0000.00_11.0_global_50e33c70fe.tgz
@@ -4488,6 +4478,16 @@
   name: POCO X3 Pro Taiwan
   size: 3.8 GB
   version: V12.5.1.0.RJUTWXM
+- android: '11.0'
+  branch: Stable
+  codename: ares
+  date: 2021-06-04
+  link: https://bigota.d.miui.com/V12.5.6.0.RKJCNXM/miui_ARES_V12.5.6.0.RKJCNXM_c571abdd03_11.0.zip
+  md5: c571abdd03eced19854e9494224a1906
+  method: Recovery
+  name: Redmi K40 Gaming China
+  size: 3.4 GB
+  version: V12.5.6.0.RKJCNXM
 - android: '11.0'
   branch: Stable
   codename: curtana_eea_global
@@ -4650,16 +4650,6 @@
   version: V12.5.2.0.RJEEUXM
 - android: '11.0'
   branch: Stable
-  codename: sweet_id_global
-  date: 2021-06-02
-  link: https://bigota.d.miui.com/V12.5.2.0.RKFIDXM/sweet_id_global_images_V12.5.2.0.RKFIDXM_20210602.0000.00_11.0_global_c6e0124918.tgz
-  md5: c6e012491861de42a30300eb59dabffb
-  method: Fastboot
-  name: Redmi Note 10 Pro Indonesia
-  size: 4.7 GB
-  version: V12.5.2.0.RKFIDXM
-- android: '11.0'
-  branch: Stable
   codename: haydn_eea_global
   date: 2021-06-02
   link: https://bigota.d.miui.com/V12.5.2.0.RKKEUXM/miui_HAYDNEEAGlobal_V12.5.2.0.RKKEUXM_9bfe0b909a_11.0.zip
@@ -4668,6 +4658,16 @@
   name: Mi 11i EEA
   size: 3.2 GB
   version: V12.5.2.0.RKKEUXM
+- android: '11.0'
+  branch: Stable
+  codename: sweet_id_global
+  date: 2021-06-02
+  link: https://bigota.d.miui.com/V12.5.2.0.RKFIDXM/sweet_id_global_images_V12.5.2.0.RKFIDXM_20210602.0000.00_11.0_global_c6e0124918.tgz
+  md5: c6e012491861de42a30300eb59dabffb
+  method: Fastboot
+  name: Redmi Note 10 Pro Indonesia
+  size: 4.7 GB
+  version: V12.5.2.0.RKFIDXM
 - android: '11.0'
   branch: Stable
   codename: mojito_eea_global
