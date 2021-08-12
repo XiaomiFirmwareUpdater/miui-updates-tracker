@@ -186,7 +186,7 @@
   md5: bab92c514bfa201468e7237fc37e85d5
   method: Recovery
   name: Redmi K30 4G China
-  size: 3.3 GB
+  size: 3.2 GB
   version: V12.5.2.0.RGHCNXM
 - android: '11.0'
   branch: Stable Beta
@@ -268,16 +268,6 @@
   name: POCO F2 Pro Global
   size: 3.2 GB
   version: V12.5.2.0.RJKMIXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: rosemary_global
-  date: 2021-08-05
-  link: https://bigota.d.miui.com/V12.5.12.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.12.0.RKLMIXM_b28119e736_11.0.zip
-  md5: b28119e73657ecd5860e5863434a15c2
-  method: Recovery
-  name: Redmi Note 10S Global
-  size: 2.6 GB
-  version: V12.5.12.0.RKLMIXM
 - android: '11.0'
   branch: Stable Beta
   codename: merlin_global
@@ -620,6 +610,16 @@
   version: V12.0.5.0.RJOCNXM
 - android: '11.0'
   branch: Stable Beta
+  codename: rosemary_global
+  date: 2021-05-06
+  link: https://bigota.d.miui.com/V12.5.2.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.2.0.RKLMIXM_5d0fbfd3d4_11.0.zip
+  md5: 5d0fbfd3d46f5da6a8ebc5dc2da0ae1d
+  method: Recovery
+  name: Redmi Note 10S Global
+  size: 2.5 GB
+  version: V12.5.2.0.RKLMIXM
+- android: '11.0'
+  branch: Stable Beta
   codename: camellian_eea_global
   date: 2021-04-28
   link: https://bigota.d.miui.com/V12.0.3.0.RKSEUXM/miui_CAMELLIANEEAGlobal_V12.0.3.0.RKSEUXM_acc09f41a8_11.0.zip
@@ -648,16 +648,6 @@
   name: Mi CC 9 China
   size: 2.6 GB
   version: V12.5.1.0.RFCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -698,6 +688,16 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: courbet_eea_global
@@ -1168,6 +1168,16 @@
   name: Mi 11 Lite 5G Global
   size: 5.9 GB
   version: V12.5.5.0.RKIMIXM
+- android: '11.0'
+  branch: Stable
+  codename: rosemary_global
+  date: 2021-08-05
+  link: https://bigota.d.miui.com/V12.5.12.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.12.0.RKLMIXM_b28119e736_11.0.zip
+  md5: b28119e73657ecd5860e5863434a15c2
+  method: Recovery
+  name: Redmi Note 10S Global
+  size: 2.6 GB
+  version: V12.5.12.0.RKLMIXM
 - android: '10.0'
   branch: Stable
   codename: citrus_global
@@ -1288,6 +1298,16 @@
   name: Mi 10T Lite Global
   size: 2.8 GB
   version: V12.5.2.0.RJSMIXM
+- android: '11.0'
+  branch: Stable
+  codename: rosemary_global
+  date: 2021-08-02
+  link: https://bigota.d.miui.com/V12.5.12.0.RKLMIXM/rosemary_global_images_V12.5.12.0.RKLMIXM_20210802.0000.00_11.0_global_9e2ea7703a.tgz
+  md5: 9e2ea7703a88c878a315d1575826c83e
+  method: Fastboot
+  name: Redmi Note 10S Global
+  size: 5.4 GB
+  version: V12.5.12.0.RKLMIXM
 - android: '11.0'
   branch: Stable
   codename: ares
@@ -3590,16 +3610,6 @@
   version: V12.5.1.0.QFHCNXM
 - android: '11.0'
   branch: Stable
-  codename: rosemary_global
-  date: 2021-06-29
-  link: https://bigota.d.miui.com/V12.5.10.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.10.0.RKLMIXM_506665d7ec_11.0.zip
-  md5: 506665d7ec012c6a607b5802943b44eb
-  method: Recovery
-  name: Redmi Note 10S Global
-  size: 2.6 GB
-  version: V12.5.10.0.RKLMIXM
-- android: '11.0'
-  branch: Stable
   codename: rosemary_eea_global
   date: 2021-06-29
   link: https://bigota.d.miui.com/V12.5.8.0.RKLEUXM/miui_ROSEMARYEEAGlobal_V12.5.8.0.RKLEUXM_b29e7c6a8a_11.0.zip
@@ -4288,16 +4298,6 @@
   name: Redmi Note 10 Pro Turkey
   size: 4.5 GB
   version: V12.5.1.0.RKFTRXM
-- android: '11.0'
-  branch: Stable
-  codename: rosemary_global
-  date: 2021-06-18
-  link: https://bigota.d.miui.com/V12.5.11.0.RKLMIXM/rosemary_global_images_V12.5.11.0.RKLMIXM_20210618.0000.00_11.0_global_06239807c1.tgz
-  md5: 06239807c112e0457027e8df0346fd12
-  method: Fastboot
-  name: Redmi Note 10S Global
-  size: 5.3 GB
-  version: V12.5.11.0.RKLMIXM
 - android: '11.0'
   branch: Stable
   codename: rosemary_id_global
