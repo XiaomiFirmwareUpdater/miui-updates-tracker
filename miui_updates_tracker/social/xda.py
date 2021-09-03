@@ -11,8 +11,7 @@ from humanize import naturalsize
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_full_name, get_device_roms
 from miui_updates_tracker.common.database.models.miui_update import Update
-
-from .xda_poster.xda import XDA
+from miui_updates_tracker.social.xda_poster.xda import XDA
 
 current_dir = Path(__file__).parent.absolute()
 
@@ -109,7 +108,7 @@ async def main():
     from miui_updates_tracker import CONFIG
     from miui_updates_tracker.common.database import close_db
     from miui_updates_tracker.common.database.database import get_device_latest
-    all_updates = list(filter(lambda x: x.date, get_device_latest('rosemary')))
+    all_updates = list(filter(lambda x: x.date, get_device_latest('odin')))
     xda = XDAPoster(CONFIG['xda']['access_token'])
     await xda.post_updates(all_updates)
     close_db()
