@@ -4,10 +4,12 @@ from typing import Dict, List
 from urllib.parse import quote
 
 from humanize import naturalsize
+from tweepy import OAuthHandler, API, TweepyException
+from tweepy.models import Status
+
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_device_name
 from miui_updates_tracker.common.database.models.miui_update import Update
-from tweepy import OAuthHandler, API, Status, TweepError
 
 
 class TwitterBot:
@@ -62,9 +64,9 @@ class TwitterBot:
     async def tweet(self, text, reply=None):
         try:
             if reply:
-                return self.api.update_status(text, reply)
+                return self.api.update_status(text, in_reply_to_status_id=reply)
             return self.api.update_status(text)
-        except TweepError as e:
+        except TweepyException as e:
             self._logger.warning(f"Can't send twitter message {text}.\n Error:{e}")
 
     async def post_updates(self, new_updates: List[Update]):
