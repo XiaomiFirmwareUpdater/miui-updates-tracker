@@ -30,16 +30,6 @@
   version: V12.5.13.0.RKBCNXM
 - android: '11.0'
   branch: Stable Beta
-  codename: mona
-  date: 2021-10-03
-  link: https://bigota.d.miui.com/V12.5.5.0.RKVCNXM/miui_MONA_V12.5.5.0.RKVCNXM_2513b05d67_11.0.zip
-  md5: 2513b05d67ee61d3cd14adfbbbb986f5
-  method: Recovery
-  name: Xiaomi Civi China
-  size: 4.6 GB
-  version: V12.5.5.0.RKVCNXM
-- android: '11.0'
-  branch: Stable Beta
   codename: selene_global
   date: 2021-10-01
   link: https://bigota.d.miui.com/V12.5.7.0.RKUMIXM/miui_SELENEGlobal_V12.5.7.0.RKUMIXM_06409bf85a_11.0.zip
@@ -90,6 +80,16 @@
   version: V12.0.7.0.QJQIDXM
 - android: '11.0'
   branch: Stable Beta
+  codename: haydn_in_global
+  date: 2021-09-29
+  link: https://bigota.d.miui.com/V12.5.4.0.RKKINXM/miui_HAYDNINGlobal_V12.5.4.0.RKKINXM_e541456a2d_11.0.zip
+  md5: e541456a2df3a2fa0fa70cd7011b1eec
+  method: Recovery
+  name: Mi 11X Pro India
+  size: 3.1 GB
+  version: V12.5.4.0.RKKINXM
+- android: '11.0'
+  branch: Stable Beta
   codename: umi_eea_global
   date: 2021-09-28
   link: https://bigota.d.miui.com/V12.5.5.0.RJBEUXM/miui_UMIEEAGlobal_V12.5.5.0.RJBEUXM_9408fc707e_11.0.zip
@@ -108,6 +108,16 @@
   name: POCO F3 EEA
   size: 3.1 GB
   version: V12.5.6.0.RKHEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: mona
+  date: 2021-09-28
+  link: https://bigota.d.miui.com/V12.5.1.0.RKVCNXM/miui_MONA_V12.5.1.0.RKVCNXM_820f90d0d7_11.0.zip
+  md5: 820f90d0d7ac1eb359576fc1fb7c8bdc
+  method: Recovery
+  name: Xiaomi Civi China
+  size: 4.5 GB
+  version: V12.5.1.0.RKVCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: excalibur_in_global
@@ -840,16 +850,6 @@
   version: V12.0.9.0.RKGMIXM
 - android: '11.0'
   branch: Stable Beta
-  codename: haydn_in_global
-  date: 2021-05-11
-  link: https://bigota.d.miui.com/V12.0.1.0.RKKINXM/miui_HAYDNINGlobal_V12.0.1.0.RKKINXM_cb412d82c3_11.0.zip
-  md5: cb412d82c33c077a6c2025f5be96b3a7
-  method: Recovery
-  name: Mi 11X Pro India
-  size: 2.9 GB
-  version: V12.0.1.0.RKKINXM
-- android: '11.0'
-  branch: Stable Beta
   codename: rosemary_global
   date: 2021-05-06
   link: https://bigota.d.miui.com/V12.5.2.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.2.0.RKLMIXM_5d0fbfd3d4_11.0.zip
@@ -908,6 +908,16 @@
   name: Redmi K40 Pro / Pro+ China
   size: 3.9 GB
   version: V12.5.2.0.RKKCNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -938,16 +948,6 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: gauguin
@@ -1320,6 +1320,26 @@
   version: V12.5.5.0.RKWMIXM
 - android: '11.0'
   branch: Stable
+  codename: mona
+  date: 2021-10-03
+  link: https://bigota.d.miui.com/V12.5.5.0.RKVCNXM/miui_MONA_V12.5.5.0.RKVCNXM_2513b05d67_11.0.zip
+  md5: 2513b05d67ee61d3cd14adfbbbb986f5
+  method: Recovery
+  name: Xiaomi Civi China
+  size: 4.6 GB
+  version: V12.5.5.0.RKVCNXM
+- android: '11.0'
+  branch: Stable
+  codename: mona
+  date: 2021-09-30
+  link: https://bigota.d.miui.com/V12.5.5.0.RKVCNXM/mona_images_V12.5.5.0.RKVCNXM_20210930.0000.00_11.0_cn_32150508e6.tgz
+  md5: 32150508e6f385c11e63f5151926f915
+  method: Fastboot
+  name: Xiaomi Civi China
+  size: 6.2 GB
+  version: V12.5.5.0.RKVCNXM
+- android: '11.0'
+  branch: Stable
   codename: agate_global
   date: 2021-09-29
   link: https://bigota.d.miui.com/V12.5.5.0.RKWMIXM/agate_global_images_V12.5.5.0.RKWMIXM_20210929.0000.00_11.0_global_0c2530821b.tgz
@@ -1358,16 +1378,6 @@
   name: Xiaomi 11 Lite 5G NE Russia
   size: 3.2 GB
   version: V12.5.2.0.RKORUXM
-- android: '11.0'
-  branch: Stable
-  codename: mona
-  date: 2021-09-28
-  link: https://bigota.d.miui.com/V12.5.3.0.RKVCNXM/miui_MONA_V12.5.3.0.RKVCNXM_92fd6a9cd4_11.0.zip
-  md5: 92fd6a9cd4ba5d864c1835fcefded453
-  method: Recovery
-  name: Xiaomi Civi China
-  size: 4.6 GB
-  version: V12.5.3.0.RKVCNXM
 - android: '11.0'
   branch: Stable
   codename: lisa_global
@@ -1438,16 +1448,6 @@
   name: Mi A3 EEA
   size: 1.4 GB
   version: V12.0.12.0.RFQEUXM
-- android: '11.0'
-  branch: Stable
-  codename: mona
-  date: 2021-09-23
-  link: https://bigota.d.miui.com/V12.5.3.0.RKVCNXM/mona_images_V12.5.3.0.RKVCNXM_20210923.0000.00_11.0_cn_a3075068f4.tgz
-  md5: a3075068f4ee140e0016f6bef1b39f06
-  method: Fastboot
-  name: Xiaomi Civi China
-  size: 6.2 GB
-  version: V12.5.3.0.RKVCNXM
 - android: '11.0'
   branch: Stable
   codename: vili_tr_global
