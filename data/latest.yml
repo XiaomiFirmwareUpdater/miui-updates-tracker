@@ -2550,16 +2550,6 @@
   version: V12.5.6.0.RJJCNXM
 - android: '11.0'
   branch: Stable
-  codename: apollo
-  date: 2021-08-31
-  link: https://bigota.d.miui.com/V12.5.5.0.RJDCNXM/apollo_images_V12.5.5.0.RJDCNXM_20210831.0000.00_11.0_cn_2bdfe93042.tgz
-  md5: 2bdfe9304235fc01e4c1b81b1c6b1b51
-  method: Fastboot
-  name: Redmi K30S Ultra China
-  size: 4.9 GB
-  version: V12.5.5.0.RJDCNXM
-- android: '11.0'
-  branch: Stable
   codename: joyeuse_tr_global
   date: 2021-08-31
   link: https://bigota.d.miui.com/V12.5.1.0.RJZTRXM/joyeuse_tr_global_images_V12.5.1.0.RJZTRXM_20210831.0000.00_11.0_global_c8e8e88a39.tgz
@@ -2568,6 +2558,16 @@
   name: Redmi Note 9 Pro Turkey
   size: 4.1 GB
   version: V12.5.1.0.RJZTRXM
+- android: '11.0'
+  branch: Stable
+  codename: apollo
+  date: 2021-08-31
+  link: https://bigota.d.miui.com/V12.5.5.0.RJDCNXM/apollo_images_V12.5.5.0.RJDCNXM_20210831.0000.00_11.0_cn_2bdfe93042.tgz
+  md5: 2bdfe9304235fc01e4c1b81b1c6b1b51
+  method: Fastboot
+  name: Redmi K30S Ultra China
+  size: 4.9 GB
+  version: V12.5.5.0.RJDCNXM
 - android: '10.0'
   branch: Stable
   codename: citrus_id_global
@@ -3240,16 +3240,6 @@
   version: V12.0.7.0.QCDTRXM
 - android: '11.0'
   branch: Stable
-  codename: lancelot_tr_global
-  date: 2021-08-20
-  link: https://bigota.d.miui.com/V12.5.1.0.RJCTRXM/lancelot_tr_global_images_V12.5.1.0.RJCTRXM_20210820.0000.00_11.0_global_f3c9458ad4.tgz
-  md5: f3c9458ad42cc78af3e98a82fe4ea040
-  method: Fastboot
-  name: Redmi 9 Turkey
-  size: 3.8 GB
-  version: V12.5.1.0.RJCTRXM
-- android: '11.0'
-  branch: Stable
   codename: ginkgo_eea_global
   date: 2021-08-20
   link: https://bigota.d.miui.com/V12.0.3.0.RCOEUXM/miui_GINKGOEEAGlobal_V12.0.3.0.RCOEUXM_c6ad8ae9a8_11.0.zip
@@ -3258,6 +3248,16 @@
   name: Redmi Note 8 EEA
   size: 2.5 GB
   version: V12.0.3.0.RCOEUXM
+- android: '11.0'
+  branch: Stable
+  codename: lancelot_tr_global
+  date: 2021-08-20
+  link: https://bigota.d.miui.com/V12.5.1.0.RJCTRXM/lancelot_tr_global_images_V12.5.1.0.RJCTRXM_20210820.0000.00_11.0_global_f3c9458ad4.tgz
+  md5: f3c9458ad42cc78af3e98a82fe4ea040
+  method: Fastboot
+  name: Redmi 9 Turkey
+  size: 3.8 GB
+  version: V12.5.1.0.RJCTRXM
 - android: '11.0'
   branch: Stable
   codename: vayu_ru_global
@@ -3292,12 +3292,12 @@
   branch: Stable
   codename: tucana_eea_global
   date: 2021-08-19
-  link: https://bigota.d.miui.com/V12.5.3.0.RFDEUXM/miui_TUCANAEEAGlobal_V12.5.3.0.RFDEUXM_6bb545127e_11.0.zip
-  md5: 6bb545127eae92097bbdbfe48ebf10de
+  link: https://bigota.d.miui.com/V12.5.2.0.RFDEUXM/miui_TUCANAEEAGlobal_V12.5.2.0.RFDEUXM_cc4dffee68_11.0.zip
+  md5: cc4dffee686fd12cb725796d23a21c1d
   method: Recovery
   name: Mi Note 10 / Note 10 Pro EEA
   size: 3.1 GB
-  version: V12.5.3.0.RFDEUXM
+  version: V12.5.2.0.RFDEUXM
 - android: '11.0'
   branch: Stable
   codename: lancelot_ru_global
@@ -3420,6 +3420,16 @@
   version: V12.5.2.0.RJUIDXM
 - android: '11.0'
   branch: Stable
+  codename: camellian_global
+  date: 2021-08-18
+  link: https://bigota.d.miui.com/V12.0.7.0.RKSMIXM/camellian_global_images_V12.0.7.0.RKSMIXM_20210818.0000.00_11.0_global_8aa3298836.tgz
+  md5: 8aa3298836bd62f087c6382b66bb6f6a
+  method: Fastboot
+  name: Redmi Note 10 5G Global
+  size: 5.0 GB
+  version: V12.0.7.0.RKSMIXM
+- android: '11.0'
+  branch: Stable
   codename: mojito_tr_global
   date: 2021-08-18
   link: https://bigota.d.miui.com/V12.5.1.0.RKGTRXM/miui_MOJITOTRGlobal_V12.5.1.0.RKGTRXM_ecffc78803_11.0.zip
@@ -3438,16 +3448,6 @@
   name: Redmi Note 10 Russia
   size: 2.5 GB
   version: V12.5.1.0.RKGRUXM
-- android: '11.0'
-  branch: Stable
-  codename: camellian_global
-  date: 2021-08-18
-  link: https://bigota.d.miui.com/V12.0.7.0.RKSMIXM/camellian_global_images_V12.0.7.0.RKSMIXM_20210818.0000.00_11.0_global_8aa3298836.tgz
-  md5: 8aa3298836bd62f087c6382b66bb6f6a
-  method: Fastboot
-  name: Redmi Note 10 5G Global
-  size: 5.0 GB
-  version: V12.0.7.0.RKSMIXM
 - android: '11.0'
   branch: Stable
   codename: umi_tr_global
@@ -4608,16 +4608,6 @@
   name: Mi 10 Indonesia
   size: 3.2 GB
   version: V12.5.1.0.RJBIDXM
-- android: '10.0'
-  branch: Stable
-  codename: citrus_in_global
-  date: 2021-08-05
-  link: https://bigota.d.miui.com/V12.0.7.0.QJFINXM/citrus_in_global_images_V12.0.7.0.QJFINXM_20210805.0000.00_10.0_in_2cccf5be61.tgz
-  md5: 2cccf5be6128f9c30cfe8014e0918281
-  method: Fastboot
-  name: POCO M3 India
-  size: 3.2 GB
-  version: V12.0.7.0.QJFINXM
 - android: '11.0'
   branch: Stable
   codename: surya_id_global
@@ -4628,6 +4618,16 @@
   name: POCO X3 NFC Indonesia
   size: 4.3 GB
   version: V12.5.1.0.RJGIDXM
+- android: '10.0'
+  branch: Stable
+  codename: citrus_in_global
+  date: 2021-08-05
+  link: https://bigota.d.miui.com/V12.0.7.0.QJFINXM/citrus_in_global_images_V12.0.7.0.QJFINXM_20210805.0000.00_10.0_in_2cccf5be61.tgz
+  md5: 2cccf5be6128f9c30cfe8014e0918281
+  method: Fastboot
+  name: POCO M3 India
+  size: 3.2 GB
+  version: V12.0.7.0.QJFINXM
 - android: '11.0'
   branch: Stable
   codename: surya_ru_global
