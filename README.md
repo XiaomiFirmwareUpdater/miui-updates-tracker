@@ -23,6 +23,3 @@ We're part of Xiaomi Community's discord server! Join us [Here](https://discord.
 
 #### This script is a part of [Xiaomi Firmware Updater](https://github.com/XiaomiFirmwareUpdater) project.
 #### Developer: [yshalsager](https://github.com/yshalsager)
-
-#### XiaomiFirmwareUpdater Project is Supported By:
-<a href='https://metal.equinix.com/' target="_blank"><img alt='Equinix Metal' src='https://metal.equinix.com/metal/images/logo/equinix-metal-full.svg' width='250px' /></a>
