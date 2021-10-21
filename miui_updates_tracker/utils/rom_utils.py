@@ -18,7 +18,7 @@ def get_region_code_from_codename(codename):
         return ""
     if codename.endswith('_eea_global'):
         region = "eea"
-    elif codename.endswith('_in_global'):
+    elif codename.endswith('_in_global') or codename.endswith('_in_rf_global'):
         region = "in"
     elif codename.endswith('_global'):
         region = "global"
