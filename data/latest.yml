@@ -50,16 +50,6 @@
   version: V12.5.7.0.RKKCNXM
 - android: '11.0'
   branch: Stable Beta
-  codename: pissarro
-  date: 2021-11-03
-  link: https://bigota.d.miui.com/V12.5.6.0.RKTCNXM/miui_PISSARRO_V12.5.6.0.RKTCNXM_bd2b41e328_11.0.zip
-  md5: bd2b41e328044da0330f123e904d358c
-  method: Recovery
-  name: Redmi Note 11 Pro / Pro+ China
-  size: 3.5 GB
-  version: V12.5.6.0.RKTCNXM
-- android: '11.0'
-  branch: Stable Beta
   codename: lancelot
   date: 2021-11-02
   link: https://bigota.d.miui.com/V12.5.2.0.RJCCNXM/miui_LANCELOT_V12.5.2.0.RJCCNXM_dfc481dae3_11.0.zip
@@ -108,6 +98,46 @@
   name: Xiaomi 11 Lite 5G NE Global
   size: 3.3 GB
   version: V12.5.8.0.RKOMIXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: olive_global
+  date: 2021-11-01
+  link: https://bigota.d.miui.com/V12.5.3.0.QCNMIXM/miui_OLIVEGlobal_V12.5.3.0.QCNMIXM_f5509dd40b_10.0.zip
+  md5: f5509dd40b109117a3d2391ddf551f3c
+  method: Recovery
+  name: Redmi 8 Global
+  size: 2.4 GB
+  version: V12.5.3.0.QCNMIXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: olive_ru_global
+  date: 2021-11-01
+  link: https://bigota.d.miui.com/V12.5.3.0.QCNRUXM/miui_OLIVERUGlobal_V12.5.3.0.QCNRUXM_89c5bcc38e_10.0.zip
+  md5: 89c5bcc38eff2fd04c52accdfd68d328
+  method: Recovery
+  name: Redmi 8 Russia
+  size: 2.4 GB
+  version: V12.5.3.0.QCNRUXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: olivelite_eea_global
+  date: 2021-11-01
+  link: https://bigota.d.miui.com/V12.5.3.0.QCPEUXM/miui_OLIVELITEEEAGlobal_V12.5.3.0.QCPEUXM_ae6927c3ae_10.0.zip
+  md5: ae6927c3ae1a00917eeca5bf3f2dbc10
+  method: Recovery
+  name: Redmi 8A EEA
+  size: 2.0 GB
+  version: V12.5.3.0.QCPEUXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: olivelite_global
+  date: 2021-11-01
+  link: https://bigota.d.miui.com/V12.5.2.0.QCPMIXM/miui_OLIVELITEGlobal_V12.5.2.0.QCPMIXM_1c495cd112_10.0.zip
+  md5: 1c495cd112b635935acf00a655e17a06
+  method: Recovery
+  name: Redmi 8A Global
+  size: 2.0 GB
+  version: V12.5.2.0.QCPMIXM
 - android: '11.0'
   branch: Stable Beta
   codename: surya_tr_global
@@ -1260,6 +1290,26 @@
   version: V11.0.6.0.QFNMIXM
 - android: '11.0'
   branch: Stable
+  codename: pissarro
+  date: 2021-11-03
+  link: https://bigota.d.miui.com/V12.5.6.0.RKTCNXM/miui_PISSARRO_V12.5.6.0.RKTCNXM_bd2b41e328_11.0.zip
+  md5: bd2b41e328044da0330f123e904d358c
+  method: Recovery
+  name: Redmi Note 11 Pro / Pro+ China
+  size: 3.5 GB
+  version: V12.5.6.0.RKTCNXM
+- android: '11.0'
+  branch: Stable
+  codename: pissarro
+  date: 2021-11-02
+  link: https://bigota.d.miui.com/V12.5.6.0.RKTCNXM/pissarro_images_V12.5.6.0.RKTCNXM_20211102.0000.00_11.0_cn_06d44b434f.tgz
+  md5: 06d44b434f14be73cf1098589cde21d0
+  method: Fastboot
+  name: Redmi Note 11 Pro / Pro+ China
+  size: 5.0 GB
+  version: V12.5.6.0.RKTCNXM
+- android: '11.0'
+  branch: Stable
   codename: evergo
   date: 2021-11-01
   link: https://bigota.d.miui.com/V12.5.2.0.RGBCNXM/miui_EVERGO_V12.5.2.0.RGBCNXM_e8efa0e4f5_11.0.zip
@@ -1268,16 +1318,6 @@
   name: Redmi Note 11 5G China
   size: 3.0 GB
   version: V12.5.2.0.RGBCNXM
-- android: '11.0'
-  branch: Stable
-  codename: pissarro
-  date: 2021-11-01
-  link: https://bigota.d.miui.com/V12.5.5.0.RKTCNXM/miui_PISSARRO_V12.5.5.0.RKTCNXM_5a815ec6ae_11.0.zip
-  md5: 5a815ec6ae123d179c60ee992435a291
-  method: Recovery
-  name: Redmi Note 11 Pro / Pro+ China
-  size: 3.5 GB
-  version: V12.5.5.0.RKTCNXM
 - android: '11.0'
   branch: Stable
   codename: selene_tw_global
@@ -1358,16 +1398,6 @@
   name: MIX 4 China
   size: 4.6 GB
   version: V12.5.12.0.RKMCNXM
-- android: '11.0'
-  branch: Stable
-  codename: pissarro
-  date: 2021-10-27
-  link: https://bigota.d.miui.com/V12.5.5.0.RKTCNXM/pissarro_images_V12.5.5.0.RKTCNXM_20211027.0000.00_11.0_cn_52097994df.tgz
-  md5: 52097994df57d6d680c7a365b3e2d1e5
-  method: Fastboot
-  name: Redmi Note 11 Pro / Pro+ China
-  size: 5.0 GB
-  version: V12.5.5.0.RKTCNXM
 - android: '11.0'
   branch: Stable
   codename: selene_global
