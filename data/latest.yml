@@ -30,6 +30,36 @@
   version: V12.5.2.0.QEACNXM
 - android: '11.0'
   branch: Stable Beta
+  codename: picasso
+  date: 2021-11-05
+  link: https://bigota.d.miui.com/V12.5.7.0.RGICNXM/miui_PICASSO_V12.5.7.0.RGICNXM_02c694af6e_11.0.zip
+  md5: 02c694af6e9319b5fc9d7ab1f04043b0
+  method: Recovery
+  name: Redmi K30 5G China
+  size: 3.9 GB
+  version: V12.5.7.0.RGICNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: picasso_48m
+  date: 2021-11-05
+  link: https://bigota.d.miui.com/V12.5.6.0.RGICMXM/miui_PICASSO48M_V12.5.6.0.RGICMXM_1e84ba10b8_11.0.zip
+  md5: 1e84ba10b82b05e613462dec30ebf32b
+  method: Recovery
+  name: Redmi K30i 5G China
+  size: 3.9 GB
+  version: V12.5.6.0.RGICMXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: vangogh
+  date: 2021-11-05
+  link: https://bigota.d.miui.com/V12.5.7.0.RJVCNXM/miui_VANGOGH_V12.5.7.0.RJVCNXM_2b23fe4ce1_11.0.zip
+  md5: 2b23fe4ce19fa6441a0a98bd40ea5275
+  method: Recovery
+  name: Mi 10 Lite Zoom China
+  size: 4.0 GB
+  version: V12.5.7.0.RJVCNXM
+- android: '11.0'
+  branch: Stable Beta
   codename: cezanne
   date: 2021-11-05
   link: https://bigota.d.miui.com/V12.5.7.0.RJNCNXM/miui_CEZANNE_V12.5.7.0.RJNCNXM_207f23b3bf_11.0.zip
@@ -228,16 +258,6 @@
   name: Redmi 8A Global
   size: 2.0 GB
   version: V12.5.2.0.QCPMIXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_tr_global
-  date: 2021-11-01
-  link: https://bigota.d.miui.com/V12.5.2.0.RJGTRXM/miui_SURYATRGlobal_V12.5.2.0.RJGTRXM_bd655ac7f4_11.0.zip
-  md5: bd655ac7f4d14097688866a40be90807
-  method: Recovery
-  name: POCO X3 NFC Turkey
-  size: 2.7 GB
-  version: V12.5.2.0.RJGTRXM
 - android: '11.0'
   branch: Stable Beta
   codename: alioth
@@ -1128,16 +1148,6 @@
   name: Redmi Note 8 Russia
   size: 2.3 GB
   version: V12.0.1.0.QCORUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: picasso
-  date: 2020-11-21
-  link: https://bigota.d.miui.com/V12.1.1.0.RGICNXM/miui_PICASSO_V12.1.1.0.RGICNXM_45056581ec_11.0.zip
-  md5: 45056581ecb6c98a0c46cb66ffa89fb5
-  method: Recovery
-  name: Redmi K30 5G China
-  size: 3.3 GB
-  version: V12.1.1.0.RGICNXM
 - android: '10.0'
   branch: Stable Beta
   codename: gauguin_eea_global
@@ -1328,6 +1338,16 @@
   name: Redmi Note 11 Pro / Pro+ China
   size: 5.0 GB
   version: V12.5.6.0.RKTCNXM
+- android: '11.0'
+  branch: Stable
+  codename: surya_tr_global
+  date: 2021-11-01
+  link: https://bigota.d.miui.com/V12.5.2.0.RJGTRXM/miui_SURYATRGlobal_V12.5.2.0.RJGTRXM_bd655ac7f4_11.0.zip
+  md5: bd655ac7f4d14097688866a40be90807
+  method: Recovery
+  name: POCO X3 NFC Turkey
+  size: 2.7 GB
+  version: V12.5.2.0.RJGTRXM
 - android: '11.0'
   branch: Stable
   codename: evergo
@@ -1573,7 +1593,7 @@
   codename: surya_id_global
   date: 2021-10-22
   link: https://bigota.d.miui.com/V12.5.2.0.RJGIDXM/surya_id_global_images_V12.5.2.0.RJGIDXM_20211022.0000.00_11.0_global_18615d4b6f.tgz
-  md5: null
+  md5: 18615d4b6fa5455766e97673c118ed08
   method: Fastboot
   name: POCO X3 NFC Indonesia
   size: 4.4 GB
@@ -1583,11 +1603,21 @@
   codename: surya_ru_global
   date: 2021-10-22
   link: https://bigota.d.miui.com/V12.5.2.0.RJGRUXM/surya_ru_global_images_V12.5.2.0.RJGRUXM_20211022.0000.00_11.0_global_d888226b05.tgz
-  md5: null
+  md5: d888226b056ac9a10b0a8f89bc6ccda2
   method: Fastboot
   name: POCO X3 NFC Russia
   size: 4.6 GB
   version: V12.5.2.0.RJGRUXM
+- android: '11.0'
+  branch: Stable
+  codename: surya_tr_global
+  date: 2021-10-22
+  link: https://bigota.d.miui.com/V12.5.2.0.RJGTRXM/surya_tr_global_images_V12.5.2.0.RJGTRXM_20211022.0000.00_11.0_global_deba821414.tgz
+  md5: deba8214143e6c9d177c7c0fddb38263
+  method: Fastboot
+  name: POCO X3 NFC Turkey
+  size: 4.2 GB
+  version: V12.5.2.0.RJGTRXM
 - android: '11.0'
   branch: Stable
   codename: ginkgo_eea_global
@@ -2730,16 +2760,6 @@
   version: V12.5.5.0.RJUMIXM
 - android: '11.0'
   branch: Stable
-  codename: haydn_in_global
-  date: 2021-09-29
-  link: https://bigota.d.miui.com/V12.5.4.0.RKKINXM/miui_HAYDNINGlobal_V12.5.4.0.RKKINXM_e541456a2d_11.0.zip
-  md5: e541456a2df3a2fa0fa70cd7011b1eec
-  method: Recovery
-  name: Mi 11X Pro India
-  size: 3.1 GB
-  version: V12.5.4.0.RKKINXM
-- android: '11.0'
-  branch: Stable
   codename: sweet_ru_global
   date: 2021-09-29
   link: https://bigota.d.miui.com/V12.5.3.0.RKFRUXM/miui_SWEETRUGlobal_V12.5.3.0.RKFRUXM_9d0fc1ad33_11.0.zip
@@ -2748,6 +2768,16 @@
   name: Redmi Note 10 Pro Russia
   size: 3.1 GB
   version: V12.5.3.0.RKFRUXM
+- android: '11.0'
+  branch: Stable
+  codename: haydn_in_global
+  date: 2021-09-29
+  link: https://bigota.d.miui.com/V12.5.4.0.RKKINXM/miui_HAYDNINGlobal_V12.5.4.0.RKKINXM_e541456a2d_11.0.zip
+  md5: e541456a2df3a2fa0fa70cd7011b1eec
+  method: Recovery
+  name: Mi 11X Pro India
+  size: 3.1 GB
+  version: V12.5.4.0.RKKINXM
 - android: '11.0'
   branch: Stable
   codename: agate_global
@@ -4700,16 +4730,6 @@
   version: V12.5.1.0.RJWTRXM
 - android: '11.0'
   branch: Stable
-  codename: surya_tr_global
-  date: 2021-08-23
-  link: https://bigota.d.miui.com/V12.5.1.0.RJGTRXM/miui_SURYATRGlobal_V12.5.1.0.RJGTRXM_b45377809e_11.0.zip
-  md5: b45377809e118fbad18228ffdaa0680c
-  method: Recovery
-  name: POCO X3 NFC Turkey
-  size: 2.7 GB
-  version: V12.5.1.0.RJGTRXM
-- android: '11.0'
-  branch: Stable
   codename: sweet_id_global
   date: 2021-08-23
   link: https://bigota.d.miui.com/V12.5.3.0.RKFIDXM/miui_SWEETIDGlobal_V12.5.3.0.RKFIDXM_e3f04edc91_11.0.zip
@@ -4808,16 +4828,6 @@
   name: POCO C3 India
   size: 2.4 GB
   version: V12.0.13.0.QCRINXM
-- android: '10.0'
-  branch: Stable
-  codename: dandelion_tr_global
-  date: 2021-08-20
-  link: https://bigota.d.miui.com/V12.0.7.0.QCDTRXM/dandelion_tr_global_images_V12.0.7.0.QCDTRXM_20210820.0000.00_10.0_global_4b310a9ca3.tgz
-  md5: 4b310a9ca37e8e4549b0af5b674dfdbb
-  method: Fastboot
-  name: Redmi 9A Turkey
-  size: 3.4 GB
-  version: V12.0.7.0.QCDTRXM
 - android: '11.0'
   branch: Stable
   codename: lancelot_tr_global
@@ -4828,6 +4838,16 @@
   name: Redmi 9 Turkey
   size: 3.8 GB
   version: V12.5.1.0.RJCTRXM
+- android: '10.0'
+  branch: Stable
+  codename: dandelion_tr_global
+  date: 2021-08-20
+  link: https://bigota.d.miui.com/V12.0.7.0.QCDTRXM/dandelion_tr_global_images_V12.0.7.0.QCDTRXM_20210820.0000.00_10.0_global_4b310a9ca3.tgz
+  md5: 4b310a9ca37e8e4549b0af5b674dfdbb
+  method: Fastboot
+  name: Redmi 9A Turkey
+  size: 3.4 GB
+  version: V12.0.7.0.QCDTRXM
 - android: '10.0'
   branch: Stable
   codename: onclite_eea_global
@@ -5190,16 +5210,6 @@
   version: V12.5.2.0.RKQINXM
 - android: '11.0'
   branch: Stable
-  codename: camellian_id_global
-  date: 2021-08-13
-  link: https://bigota.d.miui.com/V12.0.4.0.RKSIDXM/camellian_id_global_images_V12.0.4.0.RKSIDXM_20210813.0000.00_11.0_global_e8b6b36cdd.tgz
-  md5: e8b6b36cdd71a67995ab2350049e436a
-  method: Fastboot
-  name: Redmi Note 10 5G Indonesia
-  size: 4.3 GB
-  version: V12.0.4.0.RKSIDXM
-- android: '11.0'
-  branch: Stable
   codename: mojito_ru_global
   date: 2021-08-13
   link: https://bigota.d.miui.com/V12.5.1.0.RKGRUXM/mojito_ru_global_images_V12.5.1.0.RKGRUXM_20210813.0000.00_11.0_global_3088185566.tgz
@@ -5208,6 +5218,16 @@
   name: Redmi Note 10 Russia
   size: 4.7 GB
   version: V12.5.1.0.RKGRUXM
+- android: '11.0'
+  branch: Stable
+  codename: camellian_id_global
+  date: 2021-08-13
+  link: https://bigota.d.miui.com/V12.0.4.0.RKSIDXM/camellian_id_global_images_V12.0.4.0.RKSIDXM_20210813.0000.00_11.0_global_e8b6b36cdd.tgz
+  md5: e8b6b36cdd71a67995ab2350049e436a
+  method: Fastboot
+  name: Redmi Note 10 5G Indonesia
+  size: 4.3 GB
+  version: V12.0.4.0.RKSIDXM
 - android: '11.0'
   branch: Stable
   codename: camellia_in_global
@@ -5428,16 +5448,6 @@
   name: Redmi 9C Indonesia
   size: 3.6 GB
   version: V12.0.9.0.QCRIDXM
-- android: '11.0'
-  branch: Stable
-  codename: surya_tr_global
-  date: 2021-08-11
-  link: https://bigota.d.miui.com/V12.5.1.0.RJGTRXM/surya_tr_global_images_V12.5.1.0.RJGTRXM_20210811.0000.00_11.0_global_573a46b202.tgz
-  md5: 573a46b202e097551233319a800673e1
-  method: Fastboot
-  name: POCO X3 NFC Turkey
-  size: 4.1 GB
-  version: V12.5.1.0.RJGTRXM
 - android: '11.0'
   branch: Stable
   codename: cannong_eea_global
