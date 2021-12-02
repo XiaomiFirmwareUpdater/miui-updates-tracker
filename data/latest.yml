@@ -300,16 +300,6 @@
   version: V12.5.4.0.RJGINXM
 - android: '11.0'
   branch: Stable Beta
-  codename: renoir_tw_global
-  date: 2021-11-25
-  link: https://bigota.d.miui.com/V12.5.4.0.RKITWXM/miui_RENOIRTWGlobal_V12.5.4.0.RKITWXM_715aa9996b_11.0.zip
-  md5: 715aa9996b215d3ad5e98a5b56776701
-  method: Recovery
-  name: Mi 11 Lite 5G Taiwan
-  size: 3.3 GB
-  version: V12.5.4.0.RKITWXM
-- android: '11.0'
-  branch: Stable Beta
   codename: sweet_id_global
   date: 2021-11-25
   link: https://bigota.d.miui.com/V12.5.4.0.RKFIDXM/miui_SWEETIDGlobal_V12.5.4.0.RKFIDXM_c79a18451c_11.0.zip
@@ -328,6 +318,16 @@
   name: POCO F2 Pro EEA
   size: 3.3 GB
   version: V12.5.4.0.RJKEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: renoir_ru_global
+  date: 2021-11-24
+  link: https://bigota.d.miui.com/V12.5.4.0.RKIRUXM/miui_RENOIRRUGlobal_V12.5.4.0.RKIRUXM_2d12286bd5_11.0.zip
+  md5: 2d12286bd50e3ddf5af02a149df6a698
+  method: Recovery
+  name: Mi 11 Lite 5G Russia
+  size: 3.3 GB
+  version: V12.5.4.0.RKIRUXM
 - android: '11.0'
   branch: Stable Beta
   codename: mojito_ru_global
@@ -408,26 +408,6 @@
   name: Redmi 9 China
   size: 2.9 GB
   version: V12.5.4.0.RJCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: rosemary_global
-  date: 2021-11-17
-  link: https://bigota.d.miui.com/V12.5.14.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.14.0.RKLMIXM_5834d5ad4f_11.0.zip
-  md5: 5834d5ad4fb2ee2d8a56fd62b7bc013e
-  method: Recovery
-  name: Redmi Note 10S Global
-  size: 2.7 GB
-  version: V12.5.14.0.RKLMIXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: renoir_jp_global
-  date: 2021-11-17
-  link: https://bigota.d.miui.com/V12.5.6.0.RKIJPXM/miui_RENOIRJPGlobal_V12.5.6.0.RKIJPXM_8dabafc656_11.0.zip
-  md5: 8dabafc6563f9b1363cf0891d97392e1
-  method: Recovery
-  name: Mi 11 Lite 5G Japan
-  size: 3.3 GB
-  version: V12.5.6.0.RKIJPXM
 - android: '10.0'
   branch: Stable Beta
   codename: ursa
@@ -1030,6 +1010,16 @@
   version: V12.0.1.0.RKKINXM
 - android: '11.0'
   branch: Stable Beta
+  codename: rosemary_global
+  date: 2021-05-06
+  link: https://bigota.d.miui.com/V12.5.2.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.2.0.RKLMIXM_5d0fbfd3d4_11.0.zip
+  md5: 5d0fbfd3d46f5da6a8ebc5dc2da0ae1d
+  method: Recovery
+  name: Redmi Note 10S Global
+  size: 2.5 GB
+  version: V12.5.2.0.RKLMIXM
+- android: '11.0'
+  branch: Stable Beta
   codename: atom
   date: 2021-04-28
   link: https://bigota.d.miui.com/V12.0.1.0.RJHCNXM/miui_ATOM_V12.0.1.0.RJHCNXM_c7a2e6c076_11.0.zip
@@ -1520,6 +1510,16 @@
   version: V12.5.2.0.RJETWXM
 - android: '11.0'
   branch: Stable
+  codename: renoir_tw_global
+  date: 2021-11-25
+  link: https://bigota.d.miui.com/V12.5.4.0.RKITWXM/miui_RENOIRTWGlobal_V12.5.4.0.RKITWXM_715aa9996b_11.0.zip
+  md5: 715aa9996b215d3ad5e98a5b56776701
+  method: Recovery
+  name: Mi 11 Lite 5G Taiwan
+  size: 3.3 GB
+  version: V12.5.4.0.RKITWXM
+- android: '11.0'
+  branch: Stable
   codename: umi_tr_global
   date: 2021-11-25
   link: https://bigota.d.miui.com/V12.5.3.0.RJBTRXM/miui_UMITRGlobal_V12.5.3.0.RJBTRXM_7d7eb026e5_11.0.zip
@@ -1813,7 +1813,7 @@
   codename: joyeuse_id_global
   date: 2021-11-20
   link: https://bigota.d.miui.com/V12.5.2.0.RJZIDXM/joyeuse_id_global_images_V12.5.2.0.RJZIDXM_20211120.0000.00_11.0_global_ae6d2e64ef.tgz
-  md5: null
+  md5: ae6d2e64efaed25da80079e78137e3cb
   method: Fastboot
   name: Redmi Note 9 Pro Indonesia
   size: 4.5 GB
@@ -2128,6 +2128,26 @@
   name: Mi 10S China
   size: 4.3 GB
   version: V12.5.14.0.RGACNXM
+- android: '11.0'
+  branch: Stable
+  codename: rosemary_global
+  date: 2021-11-17
+  link: https://bigota.d.miui.com/V12.5.14.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.14.0.RKLMIXM_5834d5ad4f_11.0.zip
+  md5: 5834d5ad4fb2ee2d8a56fd62b7bc013e
+  method: Recovery
+  name: Redmi Note 10S Global
+  size: 2.7 GB
+  version: V12.5.14.0.RKLMIXM
+- android: '11.0'
+  branch: Stable
+  codename: renoir_jp_global
+  date: 2021-11-17
+  link: https://bigota.d.miui.com/V12.5.6.0.RKIJPXM/miui_RENOIRJPGlobal_V12.5.6.0.RKIJPXM_8dabafc656_11.0.zip
+  md5: 8dabafc6563f9b1363cf0891d97392e1
+  method: Recovery
+  name: Mi 11 Lite 5G Japan
+  size: 3.3 GB
+  version: V12.5.6.0.RKIJPXM
 - android: '11.0'
   branch: Stable
   codename: selene_global
@@ -2698,6 +2718,26 @@
   name: Redmi Note 9T EEA
   size: 2.5 GB
   version: V12.5.6.0.RJEEUXM
+- android: '11.0'
+  branch: Stable
+  codename: renoir_tw_global
+  date: 2021-11-10
+  link: https://bigota.d.miui.com/V12.5.4.0.RKITWXM/renoir_tw_global_images_V12.5.4.0.RKITWXM_20211110.0000.00_11.0_global_9f17562562.tgz
+  md5: 9f17562562f4132ad1cb3f6576ad4e63
+  method: Fastboot
+  name: Mi 11 Lite 5G Taiwan
+  size: 4.8 GB
+  version: V12.5.4.0.RKITWXM
+- android: '11.0'
+  branch: Stable
+  codename: rosemary_global
+  date: 2021-11-10
+  link: https://bigota.d.miui.com/V12.5.14.0.RKLMIXM/rosemary_global_images_V12.5.14.0.RKLMIXM_20211110.0000.00_11.0_global_8a7639cd9e.tgz
+  md5: 8a7639cd9ee06fa15320307e5b971170
+  method: Fastboot
+  name: Redmi Note 10S Global
+  size: 5.7 GB
+  version: V12.5.14.0.RKLMIXM
 - android: '11.0'
   branch: Stable
   codename: nabu_global
@@ -3488,6 +3528,16 @@
   name: POCO F2 Pro Turkey
   size: 4.7 GB
   version: V12.5.3.0.RJKTRXM
+- android: '11.0'
+  branch: Stable
+  codename: renoir_jp_global
+  date: 2021-11-02
+  link: https://bigota.d.miui.com/V12.5.6.0.RKIJPXM/renoir_jp_global_images_V12.5.6.0.RKIJPXM_20211102.0000.00_11.0_global_5b06efc4ff.tgz
+  md5: 5b06efc4ff7f0338ced48f11251fdae2
+  method: Fastboot
+  name: Mi 11 Lite 5G Japan
+  size: 6.0 GB
+  version: V12.5.6.0.RKIJPXM
 - android: '11.0'
   branch: Stable
   codename: vili_eea_global
@@ -5920,16 +5970,6 @@
   version: V12.5.6.0.RJJCNXM
 - android: '11.0'
   branch: Stable
-  codename: renoir_tw_global
-  date: 2021-09-13
-  link: https://bigota.d.miui.com/V12.5.3.0.RKITWXM/miui_RENOIRTWGlobal_V12.5.3.0.RKITWXM_277004d52f_11.0.zip
-  md5: 277004d52fc88581b45f7a72a81b211e
-  method: Recovery
-  name: Mi 11 Lite 5G Taiwan
-  size: 3.2 GB
-  version: V12.5.3.0.RKITWXM
-- android: '11.0'
-  branch: Stable
   codename: rosemary_id_global
   date: 2021-09-13
   link: https://bigota.d.miui.com/V12.5.5.0.RKLIDXM/miui_ROSEMARYIDGlobal_V12.5.5.0.RKLIDXM_3443632b81_11.0.zip
@@ -6018,16 +6058,6 @@
   name: Redmi Note 10S Turkey
   size: 2.7 GB
   version: V12.5.4.0.RKLTRXM
-- android: '11.0'
-  branch: Stable
-  codename: renoir_jp_global
-  date: 2021-09-09
-  link: https://bigota.d.miui.com/V12.5.4.0.RKIJPXM/miui_RENOIRJPGlobal_V12.5.4.0.RKIJPXM_b95548a39f_11.0.zip
-  md5: b95548a39ffe178cf170585570b5b790
-  method: Recovery
-  name: Mi 11 Lite 5G Japan
-  size: 3.2 GB
-  version: V12.5.4.0.RKIJPXM
 - android: '11.0'
   branch: Stable
   codename: begonia_id_global
@@ -6210,16 +6240,6 @@
   version: V12.5.4.0.RJUINXM
 - android: '11.0'
   branch: Stable
-  codename: rosemary_global
-  date: 2021-09-02
-  link: https://bigota.d.miui.com/V12.5.13.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.13.0.RKLMIXM_9cddffa900_11.0.zip
-  md5: 9cddffa900f9a7f40fa53aed23576890
-  method: Recovery
-  name: Redmi Note 10S Global
-  size: 2.6 GB
-  version: V12.5.13.0.RKLMIXM
-- android: '11.0'
-  branch: Stable
   codename: lmi_global
   date: 2021-09-01
   link: https://bigota.d.miui.com/V12.5.3.0.RJKMIXM/lmi_global_images_V12.5.3.0.RJKMIXM_20210901.0000.00_11.0_global_9ada7ea2c3.tgz
@@ -6238,16 +6258,6 @@
   name: Mi 10 Ultra China
   size: 4.8 GB
   version: V12.5.6.0.RJJCNXM
-- android: '11.0'
-  branch: Stable
-  codename: renoir_tw_global
-  date: 2021-08-31
-  link: https://bigota.d.miui.com/V12.5.3.0.RKITWXM/renoir_tw_global_images_V12.5.3.0.RKITWXM_20210831.0000.00_11.0_global_78aa0236ba.tgz
-  md5: 78aa0236baf1ba1e5e5ebc153f227031
-  method: Fastboot
-  name: Mi 11 Lite 5G Taiwan
-  size: 4.6 GB
-  version: V12.5.3.0.RKITWXM
 - android: '11.0'
   branch: Stable
   codename: chopin_global
@@ -6358,26 +6368,6 @@
   name: Xiaomi 11T Pro Indonesia
   size: 5.1 GB
   version: V12.5.1.0.RKDIDXM
-- android: '11.0'
-  branch: Stable
-  codename: rosemary_global
-  date: 2021-08-24
-  link: https://bigota.d.miui.com/V12.5.13.0.RKLMIXM/rosemary_global_images_V12.5.13.0.RKLMIXM_20210824.0000.00_11.0_global_5af444bf94.tgz
-  md5: 5af444bf9480d92d13be8431291bf773
-  method: Fastboot
-  name: Redmi Note 10S Global
-  size: 5.4 GB
-  version: V12.5.13.0.RKLMIXM
-- android: '11.0'
-  branch: Stable
-  codename: renoir_jp_global
-  date: 2021-08-24
-  link: https://bigota.d.miui.com/V12.5.4.0.RKIJPXM/renoir_jp_global_images_V12.5.4.0.RKIJPXM_20210824.0000.00_11.0_global_207c42e65e.tgz
-  md5: 207c42e65ec344e9a9d0b1b874630cf3
-  method: Fastboot
-  name: Mi 11 Lite 5G Japan
-  size: 5.9 GB
-  version: V12.5.4.0.RKIJPXM
 - android: '11.0'
   branch: Stable
   codename: curtana_ru_global
