@@ -1580,6 +1580,16 @@
   version: V12.5.3.0.RJBRUXM
 - android: '11.0'
   branch: Stable
+  codename: lime
+  date: 2021-11-26
+  link: https://bigota.d.miui.com/V12.5.5.0.RJQCNXM/miui_LIME_V12.5.5.0.RJQCNXM_bb14040e90_11.0.zip
+  md5: bb14040e90d02d6c4dd6cb0281c9590f
+  method: Recovery
+  name: Redmi Note 9 4G China
+  size: 3.3 GB
+  version: V12.5.5.0.RJQCNXM
+- android: '11.0'
+  branch: Stable
   codename: elish
   date: 2021-11-26
   link: https://bigota.d.miui.com/V12.5.16.0.RKYCNXM/miui_ELISH_V12.5.16.0.RKYCNXM_06af933dc4_11.0.zip
@@ -1948,6 +1958,16 @@
   name: Redmi 9C NFC Russia
   size: 1.8 GB
   version: V12.0.11.0.QCSRUXM
+- android: '11.0'
+  branch: Stable
+  codename: lime
+  date: 2021-11-22
+  link: https://bigota.d.miui.com/V12.5.5.0.RJQCNXM/lime_images_V12.5.5.0.RJQCNXM_20211122.0000.00_11.0_cn_801d002dc3.tgz
+  md5: 801d002dc39102618aff08e3628def2a
+  method: Fastboot
+  name: Redmi Note 9 4G China
+  size: 4.4 GB
+  version: V12.5.5.0.RJQCNXM
 - android: '10.0'
   branch: Stable
   codename: citrus_tw_global
@@ -3290,16 +3310,6 @@
   version: V12.0.9.0.QJFINXM
 - android: '11.0'
   branch: Stable
-  codename: lime
-  date: 2021-11-09
-  link: https://bigota.d.miui.com/V12.5.4.0.RJQCNXM/miui_LIME_V12.5.4.0.RJQCNXM_7d50fe0c6b_11.0.zip
-  md5: 7d50fe0c6b6c50a014497674ce068143
-  method: Recovery
-  name: Redmi Note 9 4G China
-  size: 3.3 GB
-  version: V12.5.4.0.RJQCNXM
-- android: '11.0'
-  branch: Stable
   codename: vili_ru_global
   date: 2021-11-09
   link: https://bigota.d.miui.com/V12.5.3.0.RKDRUXM/miui_VILIRUGlobal_V12.5.3.0.RKDRUXM_2906e80091_11.0.zip
@@ -3548,16 +3558,6 @@
   name: POCO M3 India
   size: 3.3 GB
   version: V12.0.9.0.QJFINXM
-- android: '11.0'
-  branch: Stable
-  codename: lime
-  date: 2021-11-05
-  link: https://bigota.d.miui.com/V12.5.4.0.RJQCNXM/lime_images_V12.5.4.0.RJQCNXM_20211105.0000.00_11.0_cn_ff8ec0a544.tgz
-  md5: ff8ec0a544f6894b5880ef7a4b89aeb2
-  method: Fastboot
-  name: Redmi Note 9 4G China
-  size: 4.4 GB
-  version: V12.5.4.0.RJQCNXM
 - android: '10.0'
   branch: Stable
   codename: lime_in_global
@@ -6090,16 +6090,6 @@
   version: V12.5.1.0.QCDCNXM
 - android: '11.0'
   branch: Stable
-  codename: courbet_eea_global
-  date: 2021-09-18
-  link: https://bigota.d.miui.com/V12.5.5.0.RKQEUXM/courbet_eea_global_images_V12.5.5.0.RKQEUXM_20210918.0000.00_11.0_eea_c14b930938.tgz
-  md5: c14b930938cc8cc0f9d16ca3b733a305
-  method: Fastboot
-  name: Mi 11 Lite 4G EEA
-  size: 5.4 GB
-  version: V12.5.5.0.RKQEUXM
-- android: '11.0'
-  branch: Stable
   codename: courbet_global
   date: 2021-09-18
   link: https://bigota.d.miui.com/V12.5.6.0.RKQMIXM/courbet_global_images_V12.5.6.0.RKQMIXM_20210918.0000.00_11.0_global_02669ffbf3.tgz
@@ -6108,6 +6098,16 @@
   name: Mi 11 Lite 4G Global
   size: 5.4 GB
   version: V12.5.6.0.RKQMIXM
+- android: '11.0'
+  branch: Stable
+  codename: courbet_eea_global
+  date: 2021-09-18
+  link: https://bigota.d.miui.com/V12.5.5.0.RKQEUXM/courbet_eea_global_images_V12.5.5.0.RKQEUXM_20210918.0000.00_11.0_eea_c14b930938.tgz
+  md5: c14b930938cc8cc0f9d16ca3b733a305
+  method: Fastboot
+  name: Mi 11 Lite 4G EEA
+  size: 5.4 GB
+  version: V12.5.5.0.RKQEUXM
 - android: '11.0'
   branch: Stable
   codename: alioth_in_global
@@ -8410,16 +8410,6 @@
   version: V12.0.1.0.QECMIXM
 - android: '10.0'
   branch: Stable
-  codename: nitrogen_global
-  date: 2020-10-16
-  link: https://bigota.d.miui.com/V12.0.1.0.QEDMIXM/miui_MIMAX3Global_V12.0.1.0.QEDMIXM_83ae0d72cd_10.0.zip
-  md5: 83ae0d72cd4542b61b899d1b717fe002
-  method: Recovery
-  name: Mi Max 3 Global
-  size: 2.0 GB
-  version: V12.0.1.0.QEDMIXM
-- android: '10.0'
-  branch: Stable
   codename: nitrogen_ru_global
   date: 2020-10-16
   link: https://bigota.d.miui.com/V12.0.1.0.QEDRUXM/miui_NITROGENRUGlobal_V12.0.1.0.QEDRUXM_ea7b3b949e_10.0.zip
@@ -8428,6 +8418,16 @@
   name: Mi Max 3 Russia
   size: 2.0 GB
   version: V12.0.1.0.QEDRUXM
+- android: '10.0'
+  branch: Stable
+  codename: nitrogen_global
+  date: 2020-10-16
+  link: https://bigota.d.miui.com/V12.0.1.0.QEDMIXM/miui_MIMAX3Global_V12.0.1.0.QEDMIXM_83ae0d72cd_10.0.zip
+  md5: 83ae0d72cd4542b61b899d1b717fe002
+  method: Recovery
+  name: Mi Max 3 Global
+  size: 2.0 GB
+  version: V12.0.1.0.QEDMIXM
 - android: '10.0'
   branch: Stable
   codename: nitrogen_global
