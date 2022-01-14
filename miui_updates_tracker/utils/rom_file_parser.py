@@ -24,7 +24,10 @@ def rom_info_from_file(rom_file: str, more_details: bool = False):
         r'miui_([\w\d]+)_(.*)_([a-z0-9]+)_([0-9.]+)\.zip')
     match = pattern.search(rom_file)
     link = f"https://bigota.d.miui.com/{match.group(2)}/{rom_file}"
-    info = {'miui_name': match.group(1),
+    miui_name = match.group(1).replace('PRE', '') \
+        if match.group(1).endswith('PRE') and not match.group(2).startswith('V') \
+        else match.group(1)
+    info = {'miui_name': miui_name,
             'version': match.group(2),
             'md5_part': match.group(3),
             'android': match.group(4),
@@ -77,11 +80,16 @@ def fastboot_info_from_file(fastboot_file: str, more_details: bool = False):
     alt_pattern = re.compile(r'([\d\w_]+)_images_(.*)_(\d{8})?(?:\.0000\.\d{,2})?'
                              r'_?([0-9.]+)_([a-z]+)_([a-z0-9]+)\.tgz')
     match = pattern.search(fastboot_file)
-    if not match:
+    if match:
+        version = match.group(2)
+    else:
         match = alt_pattern.search(fastboot_file)
-    link = f"https://bigota.d.miui.com/{match.group(2)}/{fastboot_file}"
+        version = match.group(2)
+        if '_' in version:
+            version = version.split('_')[0]
+    link = f"https://bigota.d.miui.com/{version}/{fastboot_file}"
     info = {'codename': match.group(1),
-            'version': match.group(2),
+            'version': version,
             'android': match.group(4),
             'region': match.group(5),
             'md5_part': match.group(6),
