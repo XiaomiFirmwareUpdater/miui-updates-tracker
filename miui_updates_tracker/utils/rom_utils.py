@@ -1,8 +1,13 @@
 from miui_updates_tracker.common.constants import android_one_devices
 
 
-def get_rom_branch(version: str):
-    return "Stable" if version[0].isalpha() else "Beta"
+def get_rom_branch(version: str) -> str:
+    if version[0].isalpha() and not version.endswith("DEV"):
+        return "Stable"
+    elif version.endswith("DEV"):
+        return "Public Beta"
+    else:
+        return "Beta"
 
 
 def get_rom_type(filename: str):
