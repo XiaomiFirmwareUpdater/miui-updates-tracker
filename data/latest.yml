@@ -28,6 +28,26 @@
   name: Redmi K50G China
   size: 5.0 GB
   version: V13.0.2.0.SLJCNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: apollo_eea_global
+  date: 2022-02-16
+  link: https://bigota.d.miui.com/V12.5.12.0.RJDEUXM/miui_APOLLOEEAGlobal_V12.5.12.0.RJDEUXM_cb0759a1f7_11.0.zip
+  md5: cb0759a1f74164140dfa6d6981d8ebc2
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro EEA
+  size: 3.2 GB
+  version: V12.5.12.0.RJDEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: apollo_id_global
+  date: 2022-02-16
+  link: https://bigota.d.miui.com/V12.5.4.0.RJDIDXM/miui_APOLLOIDGlobal_V12.5.4.0.RJDIDXM_7cd1b0f07a_11.0.zip
+  md5: 7cd1b0f07a164e2409fb8da572d40b86
+  method: Recovery
+  name: Mi 10T / Mi 10T Pro Indonesia
+  size: 3.2 GB
+  version: V12.5.4.0.RJDIDXM
 - android: '12.0'
   branch: Stable Beta
   codename: lisa_eea_global
@@ -158,16 +178,6 @@
   name: Redmi Note 11 NFC EEA
   size: 2.8 GB
   version: V13.0.1.0.RGKEUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: spes_global
-  date: 2022-02-13
-  link: https://bigota.d.miui.com/V13.0.5.0.RGCMIXM/miui_SPESGlobal_V13.0.5.0.RGCMIXM_9a713fb62e_11.0.zip
-  md5: 9a713fb62e7f0c7d83dffcddef6da6c7
-  method: Recovery
-  name: Redmi Note 11 Global
-  size: 2.8 GB
-  version: V13.0.5.0.RGCMIXM
 - android: '11.0'
   branch: Stable Beta
   codename: rosemary_eea_global
@@ -548,16 +558,6 @@
   name: POCO X3 GT Indonesia
   size: 2.8 GB
   version: V12.5.3.0.RKPIDXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: apollo_eea_global
-  date: 2021-11-21
-  link: https://bigota.d.miui.com/V12.5.9.0.RJDEUXM/miui_APOLLOEEAGlobal_V12.5.9.0.RJDEUXM_aa5578e466_11.0.zip
-  md5: aa5578e4662e2cc59c61908dec6f8fa7
-  method: Recovery
-  name: Mi 10T / Mi 10T Pro EEA
-  size: 3.3 GB
-  version: V12.5.9.0.RJDEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: ursa
@@ -1555,7 +1555,7 @@
   link: https://bigota.d.miui.com/V13.0.4.0.RKEMIXM/miui_FLEURGlobal_V13.0.4.0.RKEMIXM_2b40dd0025_11.0.zip
   md5: 2b40dd0025242d8b42823bb80a265950
   method: Recovery
-  name: Redmi Note 11S / POCO M4 Pro 4G Global
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G Global
   size: 2.7 GB
   version: V13.0.4.0.RKEMIXM
 - android: '11.0'
@@ -1568,6 +1568,16 @@
   name: Redmi Note 11 NFC EEA
   size: 2.8 GB
   version: V13.0.4.0.RGKEUXM
+- android: '11.0'
+  branch: Stable
+  codename: spes_global
+  date: 2022-02-13
+  link: https://bigota.d.miui.com/V13.0.5.0.RGCMIXM/miui_SPESGlobal_V13.0.5.0.RGCMIXM_9a713fb62e_11.0.zip
+  md5: 9a713fb62e7f0c7d83dffcddef6da6c7
+  method: Recovery
+  name: Redmi Note 11 Global
+  size: 2.8 GB
+  version: V13.0.5.0.RGCMIXM
 - android: '11.0'
   branch: Stable
   codename: renoir_jp_global
@@ -1585,7 +1595,7 @@
   link: https://bigota.d.miui.com/V13.0.2.0.RKEINXM/miui_FLEURINGlobal_V13.0.2.0.RKEINXM_afd26d0eb8_11.0.zip
   md5: afd26d0eb8208ae244a00905f41123ab
   method: Recovery
-  name: Redmi Note 11S / POCO M4 Pro 4G India
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G India
   size: 2.7 GB
   version: V13.0.2.0.RKEINXM
 - android: '11.0'
@@ -1608,16 +1618,6 @@
   name: Mi 11 Lite 5G Japan
   size: 5.9 GB
   version: V12.5.9.0.RKIJPXM
-- android: '11.0'
-  branch: Stable
-  codename: spes_global
-  date: 2022-02-08
-  link: https://bigota.d.miui.com/V13.0.1.0.RGCMIXM/miui_SPESGlobal_V13.0.1.0.RGCMIXM_c979928205_11.0.zip
-  md5: c9799282057bcb75726a0d8229c9bb19
-  method: Recovery
-  name: Redmi Note 11 Global
-  size: 2.7 GB
-  version: V13.0.1.0.RGCMIXM
 - android: '11.0'
   branch: Stable
   codename: excalibur_in_global
@@ -1768,6 +1768,16 @@
   name: Redmi Note 11 Pro 5G EEA
   size: 6.0 GB
   version: V13.0.1.0.RKCEUXM
+- android: '11.0'
+  branch: Stable
+  codename: spes_global
+  date: 2022-01-29
+  link: https://bigota.d.miui.com/V13.0.5.0.RGCMIXM/spes_global_images_V13.0.5.0.RGCMIXM_20220129.0000.00_11.0_global_c379300bd9.tgz
+  md5: c379300bd9580fde6f9aa86f223f8da5
+  method: Fastboot
+  name: Redmi Note 11 Global
+  size: 5.6 GB
+  version: V13.0.5.0.RGCMIXM
 - android: '12.0'
   branch: Stable
   codename: cupid_eea_global
@@ -1835,7 +1845,7 @@
   link: https://bigota.d.miui.com/V13.0.2.0.RKEINXM/fleur_in_global_images_V13.0.2.0.RKEINXM_20220128.0000.00_11.0_in_b5df67d38c.tgz
   md5: b5df67d38cb577e4acfc3bb9b270ebc4
   method: Fastboot
-  name: Redmi Note 11S / POCO M4 Pro 4G India
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G India
   size: 4.0 GB
   version: V13.0.2.0.RKEINXM
 - android: '11.0'
@@ -2055,7 +2065,7 @@
   link: https://bigota.d.miui.com/V13.0.1.0.RKEEUXM/miui_FLEUREEAGlobal_V13.0.1.0.RKEEUXM_fc7808e89b_11.0.zip
   md5: fc7808e89b36991376cba2977313d15a
   method: Recovery
-  name: Redmi Note 11S / POCO M4 Pro 4G EEA
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G EEA
   size: 2.8 GB
   version: V13.0.1.0.RKEEUXM
 - android: '11.0'
@@ -2065,7 +2075,7 @@
   link: https://bigota.d.miui.com/V13.0.2.0.RKERUXM/miui_FLEURRUGlobal_V13.0.2.0.RKERUXM_4fc0a92376_11.0.zip
   md5: 4fc0a92376110b9e2e2e499b7e0e36c1
   method: Recovery
-  name: Redmi Note 11S / POCO M4 Pro 4G Russia
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G Russia
   size: 2.8 GB
   version: V13.0.2.0.RKERUXM
 - android: '11.0'
@@ -2665,7 +2675,7 @@
   link: https://bigota.d.miui.com/V13.0.4.0.RKEMIXM/fleur_global_images_V13.0.4.0.RKEMIXM_20220120.0000.00_11.0_global_7ffd343505.tgz
   md5: 7ffd343505c4e7f01628ac2742840cb6
   method: Fastboot
-  name: Redmi Note 11S / POCO M4 Pro 4G Global
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G Global
   size: 5.8 GB
   version: V13.0.4.0.RKEMIXM
 - android: '11.0'
@@ -2885,7 +2895,7 @@
   link: https://bigota.d.miui.com/V13.0.2.0.RKERUXM/fleur_ru_global_images_V13.0.2.0.RKERUXM_20220118.0000.00_11.0_global_a5ef2517b4.tgz
   md5: a5ef2517b49566e439a086651cfb5525
   method: Fastboot
-  name: Redmi Note 11S / POCO M4 Pro 4G Russia
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G Russia
   size: 5.3 GB
   version: V13.0.2.0.RKERUXM
 - android: '11.0'
@@ -3375,7 +3385,7 @@
   link: https://bigota.d.miui.com/V13.0.1.0.RKEEUXM/fleur_eea_global_images_V13.0.1.0.RKEEUXM_20220108.0000.00_11.0_eea_e34cd61d83.tgz
   md5: e34cd61d8300f0d3bd6f6c01f28b2cef
   method: Fastboot
-  name: Redmi Note 11S / POCO M4 Pro 4G EEA
+  name: Redmi Note 11S 4G / POCO M4 Pro 4G EEA
   size: 5.9 GB
   version: V13.0.1.0.RKEEUXM
 - android: '11.0'
@@ -4988,16 +4998,6 @@
   name: Xiaomi Civi China
   size: 6.7 GB
   version: V12.5.9.0.RKVCNXM
-- android: '11.0'
-  branch: Stable
-  codename: spes_global
-  date: 2021-12-11
-  link: https://bigota.d.miui.com/V13.0.1.0.RGCMIXM/spes_global_images_V13.0.1.0.RGCMIXM_20211211.0000.00_11.0_global_bcf78dba76.tgz
-  md5: bcf78dba769757deee49aa333522bc2e
-  method: Fastboot
-  name: Redmi Note 11 Global
-  size: 5.7 GB
-  version: V13.0.1.0.RGCMIXM
 - android: '10.0'
   branch: Stable
   codename: lavender_global
@@ -11546,7 +11546,7 @@
   md5: f14019b6ca5d3739c8172064921bd882
   method: Recovery
   name: Redmi Note 11 Pro 5G Global
-  size: 315 Bytes
+  size: 3.0 GB
   version: V13.0.2.0.RKCMIXM
 - android: '11.0'
   branch: Weekly
