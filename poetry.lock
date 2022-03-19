@@ -607,11 +607,11 @@ python-versions = ">= 3.5"
 
 [[package]]
 name = "tweepy"
-version = "4.6.0"
+version = "4.7.0"
 description = "Twitter library for Python"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 oauthlib = ">=3.2.0,<4"
@@ -671,7 +671,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "e33642dfd4b3a748723ad6c9031300083cba745652e126c50acf2139b4fdafcb"
+content-hash = "105c956c64a5cd724bce99b316079f984bf00a4c9e38613084805872db8b5d0c"
 
 [metadata.files]
 aiodns = [
@@ -1296,8 +1296,8 @@ tornado = [
     {file = "tornado-6.1.tar.gz", hash = "sha256:33c6e81d7bd55b468d2e793517c909b139960b6c790a60b7991b9b6b76fb9791"},
 ]
 tweepy = [
-    {file = "tweepy-4.6.0-py2.py3-none-any.whl", hash = "sha256:bd1f06755ed0a115b106bff0f8c8df0a85f9431b898de555abb9ef96aa65439f"},
-    {file = "tweepy-4.6.0.tar.gz", hash = "sha256:87f7ea18bdaf5896158b17e677b271c9b9772eb8917ae895895d77783b6d3176"},
+    {file = "tweepy-4.7.0-py2.py3-none-any.whl", hash = "sha256:d7e78c49232e849b660d82c7c2e504e8487d8014dcb73b39b490b61827965aba"},
+    {file = "tweepy-4.7.0.tar.gz", hash = "sha256:82323505d549e3868e14a4570fc069ab3058ef95f9e578d1476d69bf2c831483"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.7.4.3-py2-none-any.whl", hash = "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"},
