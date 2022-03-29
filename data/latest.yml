@@ -300,16 +300,6 @@
   version: V12.5.15.0.RKUEUXM
 - android: '12.0'
   branch: Stable Beta
-  codename: vili_ru_global
-  date: 2022-03-21
-  link: https://bigota.d.miui.com/V13.0.1.0.SKDRUXM/miui_VILIRUGlobal_V13.0.1.0.SKDRUXM_65f9a567f7_12.0.zip
-  md5: 65f9a567f71ce16e18c5782c2709769e
-  method: Recovery
-  name: Xiaomi 11T Pro Russia
-  size: 3.8 GB
-  version: V13.0.1.0.SKDRUXM
-- android: '12.0'
-  branch: Stable Beta
   codename: vili_tr_global
   date: 2022-03-21
   link: https://bigota.d.miui.com/V13.0.1.0.SKDTRXM/miui_VILITRGlobal_V13.0.1.0.SKDTRXM_58a7993a8b_12.0.zip
@@ -318,16 +308,6 @@
   name: Xiaomi 11T Pro Turkey
   size: 3.8 GB
   version: V13.0.1.0.SKDTRXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: vili_tw_global
-  date: 2022-03-21
-  link: https://bigota.d.miui.com/V13.0.1.0.SKDTWXM/miui_VILITWGlobal_V13.0.1.0.SKDTWXM_39248fbd6c_12.0.zip
-  md5: 39248fbd6ce44114811577f4cfa231b0
-  method: Recovery
-  name: Xiaomi 11T Pro Taiwan
-  size: 3.7 GB
-  version: V13.0.1.0.SKDTWXM
 - android: '11.0'
   branch: Stable Beta
   codename: psyche
@@ -1418,16 +1398,6 @@
   name: Redmi K40 Pro / Pro+ China
   size: 3.9 GB
   version: V12.5.2.0.RKKCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -1468,6 +1438,16 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: gauguin
@@ -1928,6 +1908,26 @@
   name: POCO X3 Pro Taiwan
   size: 3.2 GB
   version: V13.0.1.0.SJUTWXM
+- android: '12.0'
+  branch: Stable
+  codename: vili_ru_global
+  date: 2022-03-21
+  link: https://bigota.d.miui.com/V13.0.1.0.SKDRUXM/miui_VILIRUGlobal_V13.0.1.0.SKDRUXM_65f9a567f7_12.0.zip
+  md5: 65f9a567f71ce16e18c5782c2709769e
+  method: Recovery
+  name: Xiaomi 11T Pro Russia
+  size: 3.8 GB
+  version: V13.0.1.0.SKDRUXM
+- android: '12.0'
+  branch: Stable
+  codename: vili_tw_global
+  date: 2022-03-21
+  link: https://bigota.d.miui.com/V13.0.1.0.SKDTWXM/miui_VILITWGlobal_V13.0.1.0.SKDTWXM_39248fbd6c_12.0.zip
+  md5: 39248fbd6ce44114811577f4cfa231b0
+  method: Recovery
+  name: Xiaomi 11T Pro Taiwan
+  size: 3.7 GB
+  version: V13.0.1.0.SKDTWXM
 - android: '12.0'
   branch: Stable
   codename: lisa
@@ -2660,6 +2660,16 @@
   version: V13.0.2.0.SKDIDXM
 - android: '12.0'
   branch: Stable
+  codename: vili_tw_global
+  date: 2022-03-09
+  link: https://bigota.d.miui.com/V13.0.1.0.SKDTWXM/vili_tw_global_images_V13.0.1.0.SKDTWXM_20220309.0000.00_12.0_global_61684d4b20.tgz
+  md5: 61684d4b20ca4811ff08ad5cc0339241
+  method: Fastboot
+  name: Xiaomi 11T Pro Taiwan
+  size: 4.9 GB
+  version: V13.0.1.0.SKDTWXM
+- android: '12.0'
+  branch: Stable
   codename: lisa_ru_global
   date: 2022-03-09
   link: https://bigota.d.miui.com/V13.0.1.0.SKORUXM/miui_LISARUGlobal_V13.0.1.0.SKORUXM_a54668629d_12.0.zip
@@ -2798,6 +2808,16 @@
   name: Xiaomi 11T Pro EEA
   size: 3.4 GB
   version: V12.5.21.0.RKDEUXM
+- android: '12.0'
+  branch: Stable
+  codename: vili_ru_global
+  date: 2022-03-08
+  link: https://bigota.d.miui.com/V13.0.1.0.SKDRUXM/vili_ru_global_images_V13.0.1.0.SKDRUXM_20220308.0000.00_12.0_global_94f74ed6e5.tgz
+  md5: 94f74ed6e5750add19390248695aaed8
+  method: Fastboot
+  name: Xiaomi 11T Pro Russia
+  size: 5.8 GB
+  version: V13.0.1.0.SKDRUXM
 - android: '11.0'
   branch: Stable
   codename: pissarro_in_global
@@ -7210,26 +7230,6 @@
   version: V12.5.15.0.RKUMIXM
 - android: '11.0'
   branch: Stable
-  codename: vili_ru_global
-  date: 2021-12-24
-  link: https://bigota.d.miui.com/V12.5.4.0.RKDRUXM/miui_VILIRUGlobal_V12.5.4.0.RKDRUXM_20a9cc00f2_11.0.zip
-  md5: 20a9cc00f20f62b2d94d3dca41e113e2
-  method: Recovery
-  name: Xiaomi 11T Pro Russia
-  size: 3.4 GB
-  version: V12.5.4.0.RKDRUXM
-- android: '11.0'
-  branch: Stable
-  codename: vili_tw_global
-  date: 2021-12-24
-  link: https://bigota.d.miui.com/V12.5.3.0.RKDTWXM/miui_VILITWGlobal_V12.5.3.0.RKDTWXM_35f2c96517_11.0.zip
-  md5: 35f2c965179a888ad8f96615d22d8214
-  method: Recovery
-  name: Xiaomi 11T Pro Taiwan
-  size: 3.3 GB
-  version: V12.5.3.0.RKDTWXM
-- android: '11.0'
-  branch: Stable
   codename: apollo_global
   date: 2021-12-23
   link: https://bigota.d.miui.com/V12.5.8.0.RJDMIXM/apollo_global_images_V12.5.8.0.RJDMIXM_20211223.0000.00_11.0_global_adcd3c9a91.tgz
@@ -7398,26 +7398,6 @@
   name: Redmi Note 10 Pro Turkey
   size: 3.1 GB
   version: V12.5.6.0.RKFTRXM
-- android: '11.0'
-  branch: Stable
-  codename: vili_ru_global
-  date: 2021-12-17
-  link: https://bigota.d.miui.com/V12.5.4.0.RKDRUXM/vili_ru_global_images_V12.5.4.0.RKDRUXM_20211217.0000.00_11.0_global_b240684a74.tgz
-  md5: b240684a74a4061c088da2e30cd02cb6
-  method: Fastboot
-  name: Xiaomi 11T Pro Russia
-  size: 5.6 GB
-  version: V12.5.4.0.RKDRUXM
-- android: '11.0'
-  branch: Stable
-  codename: vili_tw_global
-  date: 2021-12-17
-  link: https://bigota.d.miui.com/V12.5.3.0.RKDTWXM/vili_tw_global_images_V12.5.3.0.RKDTWXM_20211217.0000.00_11.0_global_5ed1e590b8.tgz
-  md5: 5ed1e590b8ce17646795d57f42508fed
-  method: Fastboot
-  name: Xiaomi 11T Pro Taiwan
-  size: 4.7 GB
-  version: V12.5.3.0.RKDTWXM
 - android: '11.0'
   branch: Stable
   codename: evergreen_eea_global
