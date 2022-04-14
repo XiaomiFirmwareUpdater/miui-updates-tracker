@@ -98,16 +98,6 @@
   name: Redmi Note 10 Russia
   size: 2.8 GB
   version: V13.0.1.0.SKGRUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: camellian_tr_global
-  date: 2022-04-07
-  link: https://bigota.d.miui.com/V12.5.3.0.RKSTRXM/miui_CAMELLIANTRGlobal_V12.5.3.0.RKSTRXM_c609e07532_11.0.zip
-  md5: c609e07532c34180f6f098d694fc51cb
-  method: Recovery
-  name: Redmi Note 10 5G Turkey
-  size: 2.5 GB
-  version: V12.5.3.0.RKSTRXM
 - android: '12.0'
   branch: Stable Beta
   codename: mojito_id_global
@@ -1720,6 +1710,16 @@
   version: V13.0.2.0.RKCIDXM
 - android: '11.0'
   branch: Stable
+  codename: camellian_tr_global
+  date: 2022-04-07
+  link: https://bigota.d.miui.com/V12.5.3.0.RKSTRXM/miui_CAMELLIANTRGlobal_V12.5.3.0.RKSTRXM_c609e07532_11.0.zip
+  md5: c609e07532c34180f6f098d694fc51cb
+  method: Recovery
+  name: Redmi Note 10 5G Turkey
+  size: 2.5 GB
+  version: V12.5.3.0.RKSTRXM
+- android: '11.0'
+  branch: Stable
   codename: veux_id_global
   date: 2022-04-07
   link: https://bigota.d.miui.com/V13.0.2.0.RKCIDXM/veux_id_global_images_V13.0.2.0.RKCIDXM_20220407.0000.00_11.0_global_213a6a7204.tgz
@@ -1928,6 +1928,16 @@
   name: Redmi Note 9T Global
   size: 2.5 GB
   version: V12.5.8.0.RJEMIXM
+- android: '11.0'
+  branch: Stable
+  codename: camellian_tr_global
+  date: 2022-03-30
+  link: https://bigota.d.miui.com/V12.5.3.0.RKSTRXM/camellian_tr_global_images_V12.5.3.0.RKSTRXM_20220330.0000.00_11.0_global_41a4e12135.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi Note 10 5G Turkey
+  size: 4.4 GB
+  version: V12.5.3.0.RKSTRXM
 - android: '12.0'
   branch: Stable
   codename: vili_global
@@ -5500,16 +5510,6 @@
   version: V13.0.3.0.SKHEUXM
 - android: '11.0'
   branch: Stable
-  codename: camellian_tr_global
-  date: 2022-02-21
-  link: https://bigota.d.miui.com/V12.5.2.0.RKSTRXM/miui_CAMELLIANTRGlobal_V12.5.2.0.RKSTRXM_2bd9150fa8_11.0.zip
-  md5: 2bd9150fa803b6e7a20cc0039f838f95
-  method: Recovery
-  name: Redmi Note 10 5G Turkey
-  size: 2.5 GB
-  version: V12.5.2.0.RKSTRXM
-- android: '11.0'
-  branch: Stable
   codename: camellian_tw_global
   date: 2022-02-21
   link: https://bigota.d.miui.com/V12.5.2.0.RKSTWXM/miui_CAMELLIANTWGlobal_V12.5.2.0.RKSTWXM_88695143a2_11.0.zip
@@ -6238,16 +6238,6 @@
   name: Mi 11 Lite 4G Global
   size: 5.7 GB
   version: V13.0.4.0.SKQMIXM
-- android: '11.0'
-  branch: Stable
-  codename: camellian_tr_global
-  date: 2022-02-11
-  link: https://bigota.d.miui.com/V12.5.2.0.RKSTRXM/camellian_tr_global_images_V12.5.2.0.RKSTRXM_20220211.0000.00_11.0_global_3a013505df.tgz
-  md5: 3a013505dfe11a09fe70b441339bfb89
-  method: Fastboot
-  name: Redmi Note 10 5G Turkey
-  size: 4.5 GB
-  version: V12.5.2.0.RKSTRXM
 - android: '11.0'
   branch: Stable
   codename: camellian_tw_global
@@ -11242,21 +11232,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
