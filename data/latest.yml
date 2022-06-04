@@ -208,16 +208,6 @@
   name: Redmi Note 11T Pro / Pro+ China
   size: 5.2 GB
   version: V13.0.4.0.SLOCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: lime_in_global
-  date: 2022-05-28
-  link: https://bigota.d.miui.com/V12.5.9.0.RJQINXM/miui_LIMEINGlobal_V12.5.9.0.RJQINXM_9d4310c814_11.0.zip
-  md5: 9d4310c814896263fed72e2e289d90ce
-  method: Recovery
-  name: Redmi 9 Power India
-  size: 2.8 GB
-  version: V12.5.9.0.RJQINXM
 - android: '12.0'
   branch: Stable Beta
   codename: biloba_global
@@ -378,16 +368,6 @@
   name: Redmi Note 9S Global
   size: 2.7 GB
   version: V12.5.6.0.RJWMIXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: lime_global
-  date: 2022-05-25
-  link: https://bigota.d.miui.com/V12.5.11.0.RJQMIXM/miui_LIMEGlobal_V12.5.11.0.RJQMIXM_e71aa717a9_11.0.zip
-  md5: e71aa717a9c07e058f2531bd574ef359
-  method: Recovery
-  name: Redmi 9T Global
-  size: 2.8 GB
-  version: V12.5.11.0.RJQMIXM
 - android: '12.0'
   branch: Stable Beta
   codename: sweet_id_global
@@ -1540,6 +1520,16 @@
   version: V12.0.1.0.RJQIDXM
 - android: '11.0'
   branch: Stable Beta
+  codename: lime_global
+  date: 2021-07-30
+  link: https://bigota.d.miui.com/V12.0.1.0.RJQMIXM/miui_LIMEGlobal_V12.0.1.0.RJQMIXM_a8eb7ba048_11.0.zip
+  md5: a8eb7ba04831d32c78051fb5ee15bb27
+  method: Recovery
+  name: Redmi 9T Global
+  size: 2.6 GB
+  version: V12.0.1.0.RJQMIXM
+- android: '11.0'
+  branch: Stable Beta
   codename: lime_tw_global
   date: 2021-07-30
   link: https://bigota.d.miui.com/V12.0.1.0.RJQTWXM/miui_LIMETWGlobal_V12.0.1.0.RJQTWXM_b0ff2acc83_11.0.zip
@@ -2100,6 +2090,16 @@
   version: V13.0.10.0.RGCINXM
 - android: '11.0'
   branch: Stable
+  codename: lime_in_global
+  date: 2022-05-28
+  link: https://bigota.d.miui.com/V12.5.9.0.RJQINXM/miui_LIMEINGlobal_V12.5.9.0.RJQINXM_9d4310c814_11.0.zip
+  md5: 9d4310c814896263fed72e2e289d90ce
+  method: Recovery
+  name: Redmi 9 Power India
+  size: 2.8 GB
+  version: V12.5.9.0.RJQINXM
+- android: '11.0'
+  branch: Stable
   codename: viva_ru_global
   date: 2022-05-27
   link: https://bigota.d.miui.com/V13.0.4.0.RGDRUXM/miui_VIVARUGlobal_V13.0.4.0.RGDRUXM_9bb0feab01_11.0.zip
@@ -2158,6 +2158,26 @@
   name: Redmi 9C EEA
   size: 1.8 GB
   version: V12.0.13.0.QCREUXM
+- android: '11.0'
+  branch: Stable
+  codename: lime_global
+  date: 2022-05-25
+  link: https://bigota.d.miui.com/V12.5.11.0.RJQMIXM/miui_LIMEGlobal_V12.5.11.0.RJQMIXM_e71aa717a9_11.0.zip
+  md5: e71aa717a9c07e058f2531bd574ef359
+  method: Recovery
+  name: Redmi 9T Global
+  size: 2.8 GB
+  version: V12.5.11.0.RJQMIXM
+- android: '11.0'
+  branch: Stable
+  codename: lime_in_global
+  date: 2022-05-25
+  link: https://bigota.d.miui.com/V12.5.9.0.RJQINXM/lime_in_global_images_V12.5.9.0.RJQINXM_20220525.0000.00_11.0_in_89d8bb395c.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi 9 Power India
+  size: 3.5 GB
+  version: V12.5.9.0.RJQINXM
 - android: '11.0'
   branch: Stable
   codename: lime_id_global
@@ -2708,6 +2728,16 @@
   name: Mi 10i India
   size: 3.2 GB
   version: V13.0.4.0.SJSINXM
+- android: '11.0'
+  branch: Stable
+  codename: lime_global
+  date: 2022-05-16
+  link: https://bigota.d.miui.com/V12.5.11.0.RJQMIXM/lime_global_images_V12.5.11.0.RJQMIXM_20220516.0000.00_11.0_global_7758108419.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi 9T Global
+  size: 4.9 GB
+  version: V12.5.11.0.RJQMIXM
 - android: '11.0'
   branch: Stable
   codename: spes_tr_global
@@ -6858,16 +6888,6 @@
   name: Redmi Note 11T 5G India
   size: 2.6 GB
   version: V12.5.5.0.RGBINXM
-- android: '11.0'
-  branch: Stable
-  codename: lime_global
-  date: 2022-03-21
-  link: https://bigota.d.miui.com/V12.5.9.0.RJQMIXM/miui_LIMEGlobal_V12.5.9.0.RJQMIXM_18cc60722a_11.0.zip
-  md5: 18cc60722a2a80dc2a2309a9b2d27c9d
-  method: Recovery
-  name: Redmi 9T Global
-  size: 2.8 GB
-  version: V12.5.9.0.RJQMIXM
 - android: '12.0'
   branch: Stable
   codename: vayu_id_global
@@ -7368,16 +7388,6 @@
   name: Redmi 9C Global
   size: 1.8 GB
   version: V12.0.21.0.QCRMIXM
-- android: '11.0'
-  branch: Stable
-  codename: lime_in_global
-  date: 2022-03-11
-  link: https://bigota.d.miui.com/V12.5.7.0.RJQINXM/miui_LIMEINGlobal_V12.5.7.0.RJQINXM_9b15cbec24_11.0.zip
-  md5: 9b15cbec24e58d69b944f0106fc55774
-  method: Recovery
-  name: Redmi 9 Power India
-  size: 2.8 GB
-  version: V12.5.7.0.RJQINXM
 - android: '12.0'
   branch: Stable
   codename: venus_ru_global
@@ -7488,16 +7498,6 @@
   name: POCO C3 India
   size: 1.7 GB
   version: V12.0.17.0.QCRINXM
-- android: '11.0'
-  branch: Stable
-  codename: lime_global
-  date: 2022-03-10
-  link: https://bigota.d.miui.com/V12.5.9.0.RJQMIXM/lime_global_images_V12.5.9.0.RJQMIXM_20220310.0000.00_11.0_global_7c57b74b09.tgz
-  md5: 7c57b74b093cd41947084ce3075d2e9e
-  method: Fastboot
-  name: Redmi 9T Global
-  size: 5.4 GB
-  version: V12.5.9.0.RJQMIXM
 - android: '12.0'
   branch: Stable
   codename: star_id_global
@@ -7918,16 +7918,6 @@
   name: Redmi K30 4G China
   size: 5.0 GB
   version: V13.0.1.0.SGHCNXM
-- android: '11.0'
-  branch: Stable
-  codename: lime_in_global
-  date: 2022-02-28
-  link: https://bigota.d.miui.com/V12.5.7.0.RJQINXM/lime_in_global_images_V12.5.7.0.RJQINXM_20220228.0000.00_11.0_in_609941a63c.tgz
-  md5: 609941a63c64b590bf2b230c0cde1d2d
-  method: Fastboot
-  name: Redmi 9 Power India
-  size: 3.5 GB
-  version: V12.5.7.0.RJQINXM
 - android: '12.0'
   branch: Stable
   codename: venus_tr_global
