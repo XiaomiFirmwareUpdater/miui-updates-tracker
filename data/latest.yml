@@ -80,6 +80,16 @@
   version: V13.0.2.0.SKPTRXM
 - android: '12.0'
   branch: Stable Beta
+  codename: xaga
+  date: 2022-06-07
+  link: https://bigota.d.miui.com/V13.0.5.0.SLOCNXM/miui_XAGA_V13.0.5.0.SLOCNXM_17f68470fe_12.0.zip
+  md5: 17f68470fe4c909430aef432d52912dd
+  method: Recovery
+  name: Redmi Note 11T Pro / Pro+ China
+  size: 5.2 GB
+  version: V13.0.5.0.SLOCNXM
+- android: '12.0'
+  branch: Stable Beta
   codename: monet_global
   date: 2022-06-06
   link: https://bigota.d.miui.com/V13.0.3.0.SJIMIXM/miui_MONETGlobal_V13.0.3.0.SJIMIXM_eb3a61f8a5_12.0.zip
@@ -388,16 +398,6 @@
   name: Xiaomi 12 Pro India
   size: 4.1 GB
   version: V13.0.5.0.SLBINXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: xaga
-  date: 2022-05-30
-  link: https://bigota.d.miui.com/V13.0.4.0.SLOCNXM/miui_XAGA_V13.0.4.0.SLOCNXM_ab373c2cb1_12.0.zip
-  md5: ab373c2cb17bbdec76e8db347e9002af
-  method: Recovery
-  name: Redmi Note 11T Pro / Pro+ China
-  size: 5.2 GB
-  version: V13.0.4.0.SLOCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: biloba_global
@@ -2133,7 +2133,7 @@
   codename: selene_ru_global
   date: 2022-06-01
   link: https://bigota.d.miui.com/V13.0.1.0.SKURUXM/miui_SELENERUGlobal_V13.0.1.0.SKURUXM_a75a12d53d_12.0.zip
-  md5: null
+  md5: a75a12d53d91e12866318e0ebffa34a8
   method: Recovery
   name: Redmi 10 / Redmi 10 2022 Russia
   size: 2.8 GB
@@ -16940,72 +16940,132 @@
   version: 4.12.5
 - android: '12.0'
   branch: Public Beta
+  codename: bomb
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.1.1.37.DEV/miui_BOMB_V13.0.1.1.37.DEV_f61f404630_12.0.zip
+  md5: f61f404630247235c384b76c2ab44050
+  method: Recovery
+  name: Redmi 10X Pro China
+  size: 4.3 GB
+  version: V13.0.1.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: cmi
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.4.1.37.DEV/miui_CMI_V13.0.4.1.37.DEV_3585c94c63_12.0.zip
+  md5: 3585c94c6372f6d14f1f71968650ff9b
+  method: Recovery
+  name: Mi 10 Pro China
+  size: 4.6 GB
+  version: V13.0.4.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: lmi
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.3.1.37.DEV/miui_LMI_V13.0.3.1.37.DEV_d3586e0467_12.0.zip
+  md5: d3586e04674ef61906d6bd4e0cf6dfcc
+  method: Recovery
+  name: Redmi K30 Pro China
+  size: 4.6 GB
+  version: V13.0.3.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: phoenix
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.2.1.37.DEV/miui_PHOENIX_V13.0.2.1.37.DEV_53c428e639_12.0.zip
+  md5: 53c428e63982a015d1783fbf59f67685
+  method: Recovery
+  name: Redmi K30 4G China
+  size: 4.1 GB
+  version: V13.0.2.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: picasso
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.1.1.37.DEV/miui_PICASSO_V13.0.1.1.37.DEV_fc5a48518a_12.0.zip
+  md5: fc5a48518adb973a3736daa47c9cda50
+  method: Recovery
+  name: Redmi K30 5G China
+  size: 4.4 GB
+  version: V13.0.1.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: picasso_48m
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.1.1.37.DEV/miui_PICASSO48M_V13.0.1.1.37.DEV_d3a2abc424_12.0.zip
+  md5: d3a2abc42449b40b3e0c885681b99ec9
+  method: Recovery
+  name: Redmi K30i 5G China
+  size: 4.4 GB
+  version: V13.0.1.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: vangogh
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.3.1.37.DEV/miui_VANGOGH_V13.0.3.1.37.DEV_25c6fa15f8_12.0.zip
+  md5: 25c6fa15f89a5c2b0f6df4cbfaccd773
+  method: Recovery
+  name: Mi 10 Lite Zoom China
+  size: 4.4 GB
+  version: V13.0.3.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: cezanne
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.1.1.37.DEV/miui_CEZANNE_V13.0.1.1.37.DEV_8b0eef10ad_12.0.zip
+  md5: 8b0eef10ad6d59b28a73026ac5c4f7ec
+  method: Recovery
+  name: Redmi K30 Ultra China
+  size: 4.5 GB
+  version: V13.0.1.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: cas
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.4.1.37.DEV/miui_CAS_V13.0.4.1.37.DEV_5df86201ff_12.0.zip
+  md5: 5df86201ffc34c70c27730d1d0e64365
+  method: Recovery
+  name: Mi 10 Ultra China
+  size: 4.7 GB
+  version: V13.0.4.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: apollo
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.5.1.37.DEV/miui_APOLLO_V13.0.5.1.37.DEV_af62d0d102_12.0.zip
+  md5: af62d0d102cc5e160fc2430f4ab478ab
+  method: Recovery
+  name: Redmi K30S Ultra China
+  size: 4.5 GB
+  version: V13.0.5.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: gauguin
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.5.1.37.DEV/miui_GAUGUIN_V13.0.5.1.37.DEV_ece8648b8a_12.0.zip
+  md5: ece8648b8afbb9a01c132ad1af6378a0
+  method: Recovery
+  name: Redmi Note 9 Pro 5G China
+  size: 4.2 GB
+  version: V13.0.5.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
+  codename: cannon
+  date: 2022-06-10
+  link: https://bigota.d.miui.com/V13.0.2.1.37.DEV/miui_CANNON_V13.0.2.1.37.DEV_7cca3a97d6_12.0.zip
+  md5: 7cca3a97d6b564b0b1c285d8728065bc
+  method: Recovery
+  name: Redmi Note 9 5G China
+  size: 4.2 GB
+  version: V13.0.2.1.37.DEV
+- android: '12.0'
+  branch: Public Beta
   codename: atom
   date: 2022-05-27
   link: https://bigota.d.miui.com/V13.0.1.1.35.DEV/miui_ATOM_V13.0.1.1.35.DEV_d15e517e7b_12.0.zip
   md5: d15e517e7b6e5181ae07c4764a0553e6
   method: Recovery
   name: Redmi 10X 5G China
-  size: 4.3 GB
-  version: V13.0.1.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: bomb
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.1.1.35.DEV/miui_BOMB_V13.0.1.1.35.DEV_9743b255f1_12.0.zip
-  md5: 9743b255f18db3a33553a3d55a4a0ac0
-  method: Recovery
-  name: Redmi 10X Pro China
-  size: 4.3 GB
-  version: V13.0.1.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: cmi
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.4.1.35.DEV/miui_CMI_V13.0.4.1.35.DEV_65cdf67848_12.0.zip
-  md5: 65cdf678482d3c9aef561ff2472d92fb
-  method: Recovery
-  name: Mi 10 Pro China
-  size: 4.6 GB
-  version: V13.0.4.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: lmi
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.3.1.35.DEV/miui_LMI_V13.0.3.1.35.DEV_4315282f5c_12.0.zip
-  md5: 4315282f5c7ef30f4e5dd6dd8b9ff473
-  method: Recovery
-  name: Redmi K30 Pro China
-  size: 4.6 GB
-  version: V13.0.3.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: phoenix
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.2.1.35.DEV/miui_PHOENIX_V13.0.2.1.35.DEV_f26da3abe3_12.0.zip
-  md5: f26da3abe3f592d506ab6151a673f996
-  method: Recovery
-  name: Redmi K30 4G China
-  size: 4.1 GB
-  version: V13.0.2.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: picasso
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.1.1.35.DEV/miui_PICASSO_V13.0.1.1.35.DEV_64aa72336c_12.0.zip
-  md5: 64aa72336cc14f54216d32b1c460be28
-  method: Recovery
-  name: Redmi K30 5G China
-  size: 4.4 GB
-  version: V13.0.1.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: picasso_48m
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.1.1.35.DEV/miui_PICASSO48M_V13.0.1.1.35.DEV_ae7b8aec52_12.0.zip
-  md5: ae7b8aec52024b44ddd9e8acc9760c9b
-  method: Recovery
-  name: Redmi K30i 5G China
   size: 4.3 GB
   version: V13.0.1.1.35.DEV
 - android: '12.0'
@@ -17018,66 +17078,6 @@
   name: Mi 10 China
   size: 4.6 GB
   version: V13.0.5.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: vangogh
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.3.1.35.DEV/miui_VANGOGH_V13.0.3.1.35.DEV_df5ef16648_12.0.zip
-  md5: df5ef166485b3a7e82c22e3027a988e1
-  method: Recovery
-  name: Mi 10 Lite Zoom China
-  size: 4.4 GB
-  version: V13.0.3.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: cezanne
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.1.1.35.DEV/miui_CEZANNE_V13.0.1.1.35.DEV_aee7445244_12.0.zip
-  md5: aee7445244cd6def3439d513b5f5bdbd
-  method: Recovery
-  name: Redmi K30 Ultra China
-  size: 4.5 GB
-  version: V13.0.1.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: cas
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.4.1.35.DEV/miui_CAS_V13.0.4.1.35.DEV_23fa8e2a72_12.0.zip
-  md5: 23fa8e2a72d1708a9d2800326bc1ad0a
-  method: Recovery
-  name: Mi 10 Ultra China
-  size: 4.7 GB
-  version: V13.0.4.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: apollo
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.5.1.35.DEV/miui_APOLLO_V13.0.5.1.35.DEV_8b3ae8a3c6_12.0.zip
-  md5: 8b3ae8a3c6bb6a8a50eb69ff993c768e
-  method: Recovery
-  name: Redmi K30S Ultra China
-  size: 4.5 GB
-  version: V13.0.5.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: gauguin
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.5.1.35.DEV/miui_GAUGUIN_V13.0.5.1.35.DEV_e44e8206c7_12.0.zip
-  md5: e44e8206c7f04047de1f8c3b95b6ad7b
-  method: Recovery
-  name: Redmi Note 9 Pro 5G China
-  size: 4.2 GB
-  version: V13.0.5.1.35.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: cannon
-  date: 2022-05-27
-  link: https://bigota.d.miui.com/V13.0.1.1.35.DEV/miui_CANNON_V13.0.1.1.35.DEV_0ec35500be_12.0.zip
-  md5: 0ec35500beb717be41ced54d8ca4f250
-  method: Recovery
-  name: Redmi Note 9 5G China
-  size: 4.1 GB
-  version: V13.0.1.1.35.DEV
 - android: '12.0'
   branch: Public Beta
   codename: venus
