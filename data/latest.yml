@@ -498,16 +498,6 @@
   name: Redmi Note 9 Pro Taiwan
   size: 2.7 GB
   version: V12.5.2.0.RJZTWXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: courbet_in_global
-  date: 2022-05-31
-  link: https://bigota.d.miui.com/V13.0.3.0.SKQINXM/miui_COURBETINGlobal_V13.0.3.0.SKQINXM_bdb6ed8c2a_12.0.zip
-  md5: bdb6ed8c2ac517c958a2ff1936749acc
-  method: Recovery
-  name: Mi 11 Lite 4G India
-  size: 3.1 GB
-  version: V13.0.3.0.SKQINXM
 - android: '11.0'
   branch: Stable Beta
   codename: dandelion_c3l2
@@ -2083,7 +2073,7 @@
   codename: selene_id_global
   date: 2022-06-06
   link: https://bigota.d.miui.com/V13.0.2.0.SKUIDXM/miui_SELENEIDGlobal_V13.0.2.0.SKUIDXM_0f735079ed_12.0.zip
-  md5: null
+  md5: 0f735079ed5292beb9022ac166249583
   method: Recovery
   name: Redmi 10 / Redmi 10 2022 Indonesia
   size: 2.8 GB
@@ -2268,6 +2258,16 @@
   name: Xiaomi 12X Taiwan
   size: 3.2 GB
   version: V13.0.2.0.SLDTWXM
+- android: '12.0'
+  branch: Stable
+  codename: courbet_in_global
+  date: 2022-05-31
+  link: https://bigota.d.miui.com/V13.0.3.0.SKQINXM/miui_COURBETINGlobal_V13.0.3.0.SKQINXM_bdb6ed8c2a_12.0.zip
+  md5: bdb6ed8c2ac517c958a2ff1936749acc
+  method: Recovery
+  name: Mi 11 Lite 4G India
+  size: 3.1 GB
+  version: V13.0.3.0.SKQINXM
 - android: '12.0'
   branch: Stable
   codename: star_id_global
@@ -3100,6 +3100,16 @@
   version: V13.0.4.0.RKXINXM
 - android: '12.0'
   branch: Stable
+  codename: picasso
+  date: 2022-05-19
+  link: https://bigota.d.miui.com/V13.0.2.0.SGICNXM/picasso_images_V13.0.2.0.SGICNXM_20220519.0000.00_12.0_cn_31c1f7a768.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi K30 5G China
+  size: 5.6 GB
+  version: V13.0.2.0.SGICNXM
+- android: '12.0'
+  branch: Stable
   codename: picasso_48m
   date: 2022-05-19
   link: https://bigota.d.miui.com/V13.0.2.0.SGICMXM/picasso_48m_images_V13.0.2.0.SGICMXM_20220519.0000.00_12.0_cn_d00a574a59.tgz
@@ -3258,6 +3268,16 @@
   name: Mi 11 Lite 4G Turkey
   size: 4.8 GB
   version: V13.0.4.0.SKQTRXM
+- android: '12.0'
+  branch: Stable
+  codename: courbet_in_global
+  date: 2022-05-18
+  link: https://bigota.d.miui.com/V13.0.3.0.SKQINXM/courbet_in_global_images_V13.0.3.0.SKQINXM_20220518.0000.00_12.0_in_0180816f2c.tgz
+  md5: null
+  method: Fastboot
+  name: Mi 11 Lite 4G India
+  size: 3.9 GB
+  version: V13.0.3.0.SKQINXM
 - android: '12.0'
   branch: Stable
   codename: haydn_in_global
@@ -5588,16 +5608,6 @@
   name: Redmi 8A Indonesia
   size: 2.0 GB
   version: V12.5.2.0.QCPIDXM
-- android: '12.0'
-  branch: Stable
-  codename: picasso
-  date: 2022-04-19
-  link: https://bigota.d.miui.com/V13.0.1.0.SGICNXM/picasso_images_V13.0.1.0.SGICNXM_20220419.0000.00_12.0_cn_22c48f786e.tgz
-  md5: null
-  method: Fastboot
-  name: Redmi K30 5G China
-  size: 5.6 GB
-  version: V13.0.1.0.SGICNXM
 - android: '11.0'
   branch: Stable
   codename: surya_global
@@ -6790,16 +6800,6 @@
   version: V12.5.8.0.RJEEUXM
 - android: '12.0'
   branch: Stable
-  codename: courbet_in_global
-  date: 2022-04-01
-  link: https://bigota.d.miui.com/V13.0.2.0.SKQINXM/miui_COURBETINGlobal_V13.0.2.0.SKQINXM_da16992466_12.0.zip
-  md5: da169924662625ff6bcfb2c9f9b9a808
-  method: Recovery
-  name: Mi 11 Lite 4G India
-  size: 3.1 GB
-  version: V13.0.2.0.SKQINXM
-- android: '12.0'
-  branch: Stable
   codename: mojito_in_global
   date: 2022-04-01
   link: https://bigota.d.miui.com/V13.0.1.0.SKGINXM/mojito_in_global_images_V13.0.1.0.SKGINXM_20220401.0000.00_12.0_in_fc25074784.tgz
@@ -7048,16 +7048,6 @@
   name: Mi CC 9 Pro China
   size: 4.5 GB
   version: V13.0.1.0.RFDCNXM
-- android: '12.0'
-  branch: Stable
-  codename: courbet_in_global
-  date: 2022-03-28
-  link: https://bigota.d.miui.com/V13.0.2.0.SKQINXM/courbet_in_global_images_V13.0.2.0.SKQINXM_20220328.0000.00_12.0_in_c7d02c5757.tgz
-  md5: c7d02c5757bb27a1e39710c88fb9f755
-  method: Fastboot
-  name: Mi 11 Lite 4G India
-  size: 3.9 GB
-  version: V13.0.2.0.SKQINXM
 - android: '12.0'
   branch: Stable
   codename: mojito_tr_global
