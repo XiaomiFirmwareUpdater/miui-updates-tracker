@@ -258,16 +258,6 @@
   name: Mi 10 India
   size: 3.5 GB
   version: V13.0.4.0.SJBINXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_global
-  date: 2022-06-08
-  link: https://bigota.d.miui.com/V12.5.8.0.RJGMIXM/miui_SURYAGlobal_V12.5.8.0.RJGMIXM_e57b4eef74_11.0.zip
-  md5: e57b4eef744b46f9c3f3c4a99c3975a9
-  method: Recovery
-  name: POCO X3 NFC Global
-  size: 2.7 GB
-  version: V12.5.8.0.RJGMIXM
 - android: '12.0'
   branch: Stable Beta
   codename: apollo_eea_global
@@ -1850,6 +1840,16 @@
   version: V12.0.5.0.QJGIDXM
 - android: '10.0'
   branch: Stable Beta
+  codename: surya_global
+  date: 2020-12-13
+  link: https://bigota.d.miui.com/V12.0.6.0.QJGMIXM/miui_SURYAGlobal_V12.0.6.0.QJGMIXM_50419afd46_10.0.zip
+  md5: 50419afd466233e51d44d38135c00732
+  method: Recovery
+  name: POCO X3 NFC Global
+  size: 2.4 GB
+  version: V12.0.6.0.QJGMIXM
+- android: '10.0'
+  branch: Stable Beta
   codename: citrus_eea_global
   date: 2020-11-27
   link: https://bigota.d.miui.com/V12.0.1.0.QJFEUXM/miui_CITRUSEEAGlobal_V12.0.1.0.QJFEUXM_aa62ffe026_10.0.zip
@@ -2038,6 +2038,16 @@
   name: Redmi 10 5G / POCO M4 5G Global
   size: 3.1 GB
   version: V13.0.2.0.SLSMIXM
+- android: '11.0'
+  branch: Stable
+  codename: surya_global
+  date: 2022-06-08
+  link: https://bigota.d.miui.com/V12.5.8.0.RJGMIXM/miui_SURYAGlobal_V12.5.8.0.RJGMIXM_e57b4eef74_11.0.zip
+  md5: e57b4eef744b46f9c3f3c4a99c3975a9
+  method: Recovery
+  name: POCO X3 NFC Global
+  size: 2.7 GB
+  version: V12.5.8.0.RJGMIXM
 - android: '11.0'
   branch: Stable
   codename: surya_eea_global
@@ -2848,6 +2858,16 @@
   name: Mi 10 Ultra China
   size: 5.4 GB
   version: V13.0.4.0.SJJCNXM
+- android: '11.0'
+  branch: Stable
+  codename: surya_global
+  date: 2022-05-24
+  link: https://bigota.d.miui.com/V12.5.8.0.RJGMIXM/surya_global_images_V12.5.8.0.RJGMIXM_20220524.0000.00_11.0_global_e2a45f1e0f.tgz
+  md5: null
+  method: Fastboot
+  name: POCO X3 NFC Global
+  size: 4.7 GB
+  version: V12.5.8.0.RJGMIXM
 - android: '12.0'
   branch: Stable
   codename: alioth_ru_global
@@ -5140,16 +5160,6 @@
   version: V12.5.4.0.RJZTRXM
 - android: '11.0'
   branch: Stable
-  codename: surya_global
-  date: 2022-04-24
-  link: https://bigota.d.miui.com/V12.5.7.0.RJGMIXM/miui_SURYAGlobal_V12.5.7.0.RJGMIXM_e1c3ff9d45_11.0.zip
-  md5: e1c3ff9d45db4b5d692bffd0cb241452
-  method: Recovery
-  name: POCO X3 NFC Global
-  size: 2.7 GB
-  version: V12.5.7.0.RJGMIXM
-- android: '11.0'
-  branch: Stable
   codename: camellian_id_global
   date: 2022-04-24
   link: https://bigota.d.miui.com/V12.5.4.0.RKSIDXM/miui_CAMELLIANIDGlobal_V12.5.4.0.RKSIDXM_1560e7500f_11.0.zip
@@ -5728,16 +5738,6 @@
   name: Redmi 8A Indonesia
   size: 2.0 GB
   version: V12.5.2.0.QCPIDXM
-- android: '11.0'
-  branch: Stable
-  codename: surya_global
-  date: 2022-04-19
-  link: https://bigota.d.miui.com/V12.5.7.0.RJGMIXM/surya_global_images_V12.5.7.0.RJGMIXM_20220419.0000.00_11.0_global_d168332988.tgz
-  md5: d1683329887fb7ad9e2506e459c9128b
-  method: Fastboot
-  name: POCO X3 NFC Global
-  size: 4.9 GB
-  version: V12.5.7.0.RJGMIXM
 - android: '11.0'
   branch: Stable
   codename: surya_in_global
@@ -16930,6 +16930,16 @@
   version: V13.0.4.1.39.DEV
 - android: '12.0'
   branch: Public Beta
+  codename: lmi
+  date: 2022-06-17
+  link: https://bigota.d.miui.com/V13.0.3.1.39.DEV/miui_LMI_V13.0.3.1.39.DEV_5c96f458a0_12.0.zip
+  md5: 5c96f458a0b99eb4c859d52aeba54c8d
+  method: Recovery
+  name: Redmi K30 Pro China
+  size: 4.6 GB
+  version: V13.0.3.1.39.DEV
+- android: '12.0'
+  branch: Public Beta
   codename: phoenix
   date: 2022-06-17
   link: https://bigota.d.miui.com/V13.0.2.1.39.DEV/miui_PHOENIX_V13.0.2.1.39.DEV_75b8e0502c_12.0.zip
@@ -17168,16 +17178,6 @@
   name: Redmi Note 11T Pro / Pro+ China
   size: 5.1 GB
   version: V13.0.4.1.39.DEV
-- android: '12.0'
-  branch: Public Beta
-  codename: lmi
-  date: 2022-06-10
-  link: https://bigota.d.miui.com/V13.0.3.1.37.DEV/miui_LMI_V13.0.3.1.37.DEV_d3586e0467_12.0.zip
-  md5: d3586e04674ef61906d6bd4e0cf6dfcc
-  method: Recovery
-  name: Redmi K30 Pro China
-  size: 4.6 GB
-  version: V13.0.3.1.37.DEV
 - android: '12.0'
   branch: Public Beta
   codename: renoir
