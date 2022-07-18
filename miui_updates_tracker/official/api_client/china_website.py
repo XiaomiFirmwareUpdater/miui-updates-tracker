@@ -5,27 +5,37 @@ from typing import List, Optional
 
 from aiohttp import ClientResponse
 from bs4 import BeautifulSoup, Tag
+
 from miui_updates_tracker.common.api_client.common_client import CommonClient
-from miui_updates_tracker.common.database.database import update_in_db, add_to_db, get_codename
+from miui_updates_tracker.common.database.database import (
+    update_in_db,
+    add_to_db,
+    get_codename,
+)
 from miui_updates_tracker.common.database.models.miui_update import Update
 from miui_updates_tracker.official.models.device import ChinaDevice
-from miui_updates_tracker.utils.rom_file_parser import rom_info_from_file, fastboot_info_from_file
-from miui_updates_tracker.utils.rom_utils import get_rom_type, get_rom_branch, \
-    get_region_code_from_codename
+from miui_updates_tracker.utils.rom_file_parser import (
+    rom_info_from_file,
+    fastboot_info_from_file,
+)
+from miui_updates_tracker.utils.rom_utils import (
+    get_rom_type,
+    get_rom_branch,
+    get_region_code_from_codename,
+)
 
-china_website_useragent = "'Mozilla/5.0 (Linux; U; Android 10; zh-cn; M2007J1SC Build/QKQ1.200419.002) " \
-                          "AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 " \
-                          "Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.25'"
+china_website_useragent = (
+    "'Mozilla/5.0 (Linux; U; Android 10; zh-cn; M2007J1SC Build/QKQ1.200419.002) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 "
+    "Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.25'"
+)
 
 
 class ChinaAPIClient(CommonClient):
     """
-    miui.com/download.html website API client
+    Xiaomi Community website API client
 
     This class is used to get data from Xiaomi China website.
-    It's responsible for scraping Xiaomi China website downloads page in order to:
-    - Get devices list.
-    - Get device's updates information
     :attr: `headers`: dict - HTTP request headers
     :meth: `get_devices` - Get all available devices on the website.
     :meth: `get_fastboot_devices` - Get all available fastboot devices on the website.
@@ -38,7 +48,9 @@ class ChinaAPIClient(CommonClient):
         Website Class constructor
         """
         super().__init__()
-        self.base_url: str = "http://www.miui.com"
+        self.base_url: str = (
+            "https://api.vip.miui.com/api/community/post/detail?postId="
+        )
         self._logger = logging.getLogger(__name__)
         self.fastboot_devices = []
 
@@ -47,10 +59,14 @@ class ChinaAPIClient(CommonClient):
         Get all available devices from the website.
         """
         response: ClientResponse
-        async with self.session.get(f'{self.base_url}/download.html') as response:
+        async with self.session.get(f"{self.base_url}/download.html") as response:
             if response.status == 200:
-                page = BeautifulSoup(await response.text(), 'html.parser')
-                data = [str(i) for i in page.select("script") if "var phones" in str(i)][0].split('=')[1].split(';')[0]
+                page = BeautifulSoup(await response.text(), "html.parser")
+                data = (
+                    [str(i) for i in page.select("script") if "var phones" in str(i)][0]
+                    .split("=")[1]
+                    .split(";")[0]
+                )
                 info = json.loads(data)
                 self.devices = [ChinaDevice.from_response(item) for item in info]
                 return self.devices
@@ -60,21 +76,29 @@ class ChinaAPIClient(CommonClient):
         Get all available fastboot devices from the website.
         """
         response: ClientResponse
-        async with self.session.get(f'{self.base_url}/shuaji-393.html',
-                                    headers={'User-Agent': china_website_useragent}) as response:
+        async with self.session.get(
+                f"{self.base_url}/shuaji-393.html",
+                headers={"User-Agent": china_website_useragent},
+        ) as response:
             if response.status == 200:
-                page = BeautifulSoup(await response.text(), 'html.parser')
+                page = BeautifulSoup(await response.text(), "html.parser")
                 links = page.select('a[href^="//update.miui.com/updates/"]')
                 item: Tag
                 for item in links:
-                    data = re.search(r'\?d=(\w+)&b=(\w)&r=(\w+)?&n=(\w+)?', item.get('href'))
-                    self.fastboot_devices.append({
-                        'device': re.search(r'(.*) ?最新', item.text).group(1).strip(),
-                        'codename': data.group(1),
-                        'branch': data.group(2),
-                        'region': data.group(3),
-                        'carrier': data.group(4)
-                    })
+                    data = re.search(
+                        r"\?d=(\w+)&b=(\w)&r=(\w+)?&n=(\w+)?", item.get("href")
+                    )
+                    self.fastboot_devices.append(
+                        {
+                            "device": re.search(r"(.*) ?最新", item.text)
+                            .group(1)
+                            .strip(),
+                            "codename": data.group(1),
+                            "branch": data.group(2),
+                            "region": data.group(3),
+                            "carrier": data.group(4),
+                        }
+                    )
                 return self.fastboot_devices
 
     async def get_updates(self, device_id: str) -> list:
@@ -101,7 +125,7 @@ class ChinaAPIClient(CommonClient):
         if links:
             updates = []
             for item in links:
-                filename = item.split('/')[-1]
+                filename = item.split("/")[-1]
                 if update_in_db(filename):
                     continue
                 update = self._get_update(filename)
@@ -117,12 +141,26 @@ class ChinaAPIClient(CommonClient):
         :param device_id: Miui China website device code
         :return: list of links
         """
-        async with self.session.get(f'{self.base_url}/download-{device_id}.html',
-                                    headers={'Connection': 'keep-alive'}) as response:
-            if response.status == 200:
-                page = BeautifulSoup(await response.text(), 'html.parser')
-                links = [i.get('href') for i in page.select('a[href$=".zip"]')]
-                return links
+        async with self.session.get(
+                f"{self.base_url}{device_id}", headers={"Connection": "keep-alive"}
+        ) as response:
+            if response.status != 200:
+                return []
+            page_json = await response.json()
+            if page_json["code"] != 200:
+                return []
+            page_content = json.loads(page_json["entity"]["textContent"])
+            links = []
+            for content in page_content:
+                if content["type"] != "txt":
+                    continue
+                for link_el in BeautifulSoup(content["txt"], "html.parser").select(
+                        'a[href$=".zip"]'
+                ):
+                    link = link_el.get("href")
+                    if "miui_" in link and not link.endswith("MiFlash2018-5-28-0.zip"):
+                        links.append(link)
+            return links
 
     def _get_update(self, filename: str) -> Optional[Update]:
         """
@@ -131,18 +169,22 @@ class ChinaAPIClient(CommonClient):
         :return: Update object
         """
         info = rom_info_from_file(filename, more_details=True)
-        codename = get_codename(info.get('miui_name'))
+        codename = get_codename(info.get("miui_name"))
         if not codename:
             self._logger.warning(f"Can't find codename of {filename}!")
             return None
-        version = info.get('version')
+        version = info.get("version")
         return Update(
-            codename=codename, version=version,
-            android=info.get('android'), branch=get_rom_branch(version),
-            type=get_rom_type(filename), method="Recovery",
-            size=info.get('size'),
-            link=info.get('link'), filename=filename,
-            date=info.get('date')
+            codename=codename,
+            version=version,
+            android=info.get("android"),
+            branch=get_rom_branch(version),
+            type=get_rom_type(filename),
+            method="Recovery",
+            size=info.get("size"),
+            link=info.get("link"),
+            filename=filename,
+            date=info.get("date"),
         )
 
     async def get_fastboot_updates(self, codename) -> list:
@@ -165,7 +207,7 @@ class ChinaAPIClient(CommonClient):
         """
         url: str = await self._request_fastboot(codename)
         if url:
-            filename = url.split('/')[-1]
+            filename = url.split("/")[-1]
             if update_in_db(filename):
                 return
             update = self._get_fastboot_update(filename)
@@ -181,11 +223,12 @@ class ChinaAPIClient(CommonClient):
         :return: download URL
         """
         region = get_region_code_from_codename(codename)
-        headers = {'Referer': 'http://www.miui.com/'}
+        headers = {"Referer": "http://www.miui.com/"}
         async with self.session.head(
-                f'https://update.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=',
-                headers=headers) as response:
-            url = response.headers.get('Location')
+                f"https://update.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
+                headers=headers,
+        ) as response:
+            url = response.headers.get("Location")
             return url if url != "http://www.miui.com/" else None
 
     @staticmethod
@@ -196,11 +239,16 @@ class ChinaAPIClient(CommonClient):
         :return: Update object
         """
         info = fastboot_info_from_file(filename, more_details=True)
-        version = info.get('version')
+        version = info.get("version")
         return Update(
-            codename=info.get('codename'), version=version,
-            android=info.get('android'), branch=get_rom_branch(version),
-            type=get_rom_type(filename), method="Fastboot",
-            size=info.get('size'), link=info.get('link'),
-            filename=filename, date=info.get('date')
+            codename=info.get("codename"),
+            version=version,
+            android=info.get("android"),
+            branch=get_rom_branch(version),
+            type=get_rom_type(filename),
+            method="Fastboot",
+            size=info.get("size"),
+            link=info.get("link"),
+            filename=filename,
+            date=info.get("date"),
         )
