@@ -51,17 +51,13 @@ class GlobalAPIClient(CommonClient):
         Website Class constructor
         """
         super().__init__()
-        self.base_url: str = "https://c.mi.com/"
+        self.base_url: str = "https://sgp-api.buy.mi.com"
         self.headers = {
-            "pragma": "no-cache",
-            "accept-encoding": "gzip, deflate, br",
-            "accept-language": "en-US,en;q=0.9",
-            "accept": "application/json, text/javascript, */*; q=0.01",
-            "cache-control": "no-cache",
-            "authority": "c.mi.com",
-            "x-requested-with": "XMLHttpRequest",
-            "connection": "keep-alive",
-            "referer": "https://c.mi.com/miuidownload/",
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Origin": "https://new.c.mi.com",
+            "Referer": "https://new.c.mi.com/",
         }
         self._logger = logging.getLogger(__name__)
         self.fastboot_devices = []
@@ -73,7 +69,7 @@ class GlobalAPIClient(CommonClient):
         """
         response: ClientResponse
         async with self.session.get(
-                f"{self.base_url}/rom/getphonelist", headers=self.headers
+                f"{self.base_url}/bbs/api/global/phone/getphonelist", headers=self.headers
         ) as response:
             if response.status == 200:
                 response: dict = await self._get_json_response(response)
@@ -86,7 +82,7 @@ class GlobalAPIClient(CommonClient):
     async def get_fastboot_devices(self):
         response: ClientResponse
         async with self.session.get(
-                f"{self.base_url}/rom/getlinepackagelist"
+                f"{self.base_url}/bbs/api/global/phone/getlinepackagelist"
         ) as response:
             if response.status == 200:
                 response: list = await self._get_json_response(response)
@@ -143,10 +139,8 @@ class GlobalAPIClient(CommonClient):
         :param device_id: Mi Community API device code
         :return: OTA response dictionary
         """
-        headers = self.headers.copy()
-        headers["Referer"] = f"{self.base_url}/miuidownload/detail?device={device_id}"
         async with self.session.get(
-                f"{self.base_url}/rom/getdevicelist?phone_id={device_id}",
+                f"{self.base_url}/bbs/api/global/phone/getdevicelist?phone_id={device_id}",
                 headers=self.headers,
         ) as response:
             if response.status == 200:
