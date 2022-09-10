@@ -288,5 +288,5 @@ class GlobalAPIClient(CommonClient):
         text = await _response.text()
         if text.startswith("{"):
             response: dict = json.loads(text)
-            if response["errmsg"] == "Success" and response["errno"] == 0:
+            if response["msg"] == "success" and response["code"] == 0:
                 return response["data"]
