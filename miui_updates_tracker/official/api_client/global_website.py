@@ -106,7 +106,8 @@ class GlobalAPIClient(CommonClient):
                         }
                     )
                     self.fastboot_updates.update({codename: item.get("package_url")})
-            return self.fastboot_devices
+        self.fastboot_devices.sort(key=lambda x: x['id'], reverse=True)
+        return self.fastboot_devices
 
     async def get_updates(self, device_id: str) -> list:
         """
