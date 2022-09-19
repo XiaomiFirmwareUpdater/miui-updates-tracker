@@ -71,41 +71,43 @@ class GlobalAPIClient(CommonClient):
         async with self.session.get(
                 f"{self.base_url}/bbs/api/global/phone/getphonelist", headers=self.headers
         ) as response:
-            if response.status == 200:
-                response: dict = await self._get_json_response(response)
-                self.devices = [
-                    GlobalDevice.from_response(item)
-                    for item in response["phone_data"]["phone_list"]
-                ]
-                return self.devices
+            if response.status != 200:
+                return
+            response: dict = await self._get_json_response(response)
+            self.devices = [
+                GlobalDevice.from_response(item)
+                for item in response["phone_data"]["phone_list"]
+            ]
+            return self.devices
 
     async def get_fastboot_devices(self):
         response: ClientResponse
         async with self.session.get(
                 f"{self.base_url}/bbs/api/global/phone/getlinepackagelist"
         ) as response:
-            if response.status == 200:
-                response: list = await self._get_json_response(response)
-                for item in response:
-                    device = re.search(r"★ ?(.*) Latest", item.get("package_name"))
-                    if device:
-                        device = device.group(1)
-                    else:
-                        device = re.search(
-                            r"★ ?(.*) \b\w+\b Stable", item.get("package_name")
-                        ).group(1)
-                    codename = "_".join(item["key"].split("_")[:-2])
-                    region = item["key"].split("_")[-2]
-                    self.fastboot_devices.append(
-                        {
-                            "id": item.get("id"),
-                            "device": device,
-                            "codename": codename,
-                            "branch": item["key"].split("_")[-1],
-                            "region": region if region != "null" else "",
-                        }
-                    )
-                    self.fastboot_updates.update({codename: item.get("package_url")})
+            if response.status != 200:
+                return
+            response: list = await self._get_json_response(response)
+            for item in response:
+                device = re.search(r"★ ?(.*) Latest", item.get("package_name"))
+                if device:
+                    device = device.group(1)
+                else:
+                    device = re.search(
+                        r"★ ?(.*) \b\w+\b Stable", item.get("package_name")
+                    ).group(1)
+                codename = "_".join(item["key"].split("_")[:-2])
+                region = item["key"].split("_")[-2]
+                self.fastboot_devices.append(
+                    {
+                        "id": item.get("id"),
+                        "device": device,
+                        "codename": codename,
+                        "branch": item["key"].split("_")[-1],
+                        "region": region if region != "null" else "",
+                    }
+                )
+                self.fastboot_updates.update({codename: item.get("package_url")})
         self.fastboot_devices.sort(key=lambda x: x['id'], reverse=True)
         return self.fastboot_devices
 
@@ -144,25 +146,26 @@ class GlobalAPIClient(CommonClient):
                 f"{self.base_url}/bbs/api/global/phone/getdevicelist?phone_id={device_id}",
                 headers=self.headers,
         ) as response:
-            if response.status == 200:
-                response = await self._get_json_response(response)
-                response = response["device_data"]["device_list"]
-                if not response:
-                    return
-                files = []
-                for _, info in response.items():
-                    for branch in ["stable_rom", "developer_rom"]:
-                        if info.get(branch):
-                            details = info.get(branch)
-                            files.append(
-                                {
-                                    "version": details.get("version"),
-                                    "link": details.get("rom_url"),
-                                    "filename": details.get("rom_url").split("/")[-1],
-                                    "size": details.get("size"),
-                                }
-                            )
-                return files
+            if response.status != 200:
+                return
+            response = await self._get_json_response(response)
+            response = response["device_data"]["device_list"]
+            if not response:
+                return
+            files = []
+            for _, info in response.items():
+                for branch in ["stable_rom", "developer_rom"]:
+                    if info.get(branch):
+                        details = info.get(branch)
+                        files.append(
+                            {
+                                "version": details.get("version"),
+                                "link": details.get("rom_url"),
+                                "filename": details.get("rom_url").split("/")[-1],
+                                "size": details.get("size"),
+                            }
+                        )
+            return files
 
     async def _request_fastboot(self, codename) -> str:
         """
@@ -186,25 +189,26 @@ class GlobalAPIClient(CommonClient):
         :param device_id: device ID
         :return: Update object
         """
+        updates = []
         response: List[Dict] = await self._request(device_id)
-        if response:
-            updates = []
-            for item in response:
-                filename = item["filename"]
-                if update_in_db(filename):
-                    recovery_update = get_update_by_version(item["version"])
-                    update_stable_beta(recovery_update)
-                    continue
-                update = self._get_update(item)
-                if update:
-                    if update.branch == "Stable" and not get_update_by_version(
-                            update.version, method="Fastboot"
-                    ):
-                        update.branch = "Stable Beta"
-                    add_to_db(update)
-                    self._logger.info(f"Added {filename} to db")
-                    updates.append(update)
+        if not response:
             return updates
+        for item in response:
+            filename = item["filename"]
+            if update_in_db(filename):
+                recovery_update = get_update_by_version(item["version"])
+                update_stable_beta(recovery_update)
+                continue
+            update = self._get_update(item)
+            if update:
+                if update.branch == "Stable" and not get_update_by_version(
+                        update.version, method="Fastboot"
+                ):
+                    update.branch = "Stable Beta"
+                add_to_db(update)
+                self._logger.info(f"Added {filename} to db")
+                updates.append(update)
+        return updates
 
     async def _fetch_fastboot(self, codename) -> Optional[Update]:
         """
@@ -214,16 +218,17 @@ class GlobalAPIClient(CommonClient):
         """
         # url: str = await self._request_fastboot(codename)
         url: str = self.fastboot_updates.get(codename, "")
-        if url:
-            filename = url.split("/")[-1]
-            if update_in_db(filename):
-                return
-            update = self._get_fastboot_update(filename)
-            if update:
-                add_to_db(update)
-                self._logger.info(f"Added {filename} to db")
-                recovery_update = get_update_by_version(update.version)
-                update_stable_beta(recovery_update)
+        if not url:
+            return
+        filename = url.split("/")[-1]
+        if update_in_db(filename):
+            return
+        update = self._get_fastboot_update(filename)
+        if update:
+            add_to_db(update)
+            self._logger.info(f"Added {filename} to db")
+            recovery_update = get_update_by_version(update.version)
+            update_stable_beta(recovery_update)
             return update
 
     @staticmethod

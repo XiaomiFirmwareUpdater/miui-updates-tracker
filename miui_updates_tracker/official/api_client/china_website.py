@@ -3,7 +3,7 @@ import logging
 import re
 from typing import List, Optional
 
-from aiohttp import ClientResponse
+from aiohttp import ClientResponse, ServerDisconnectedError
 from bs4 import BeautifulSoup, Tag
 
 from miui_updates_tracker.common.api_client.common_client import CommonClient
@@ -60,16 +60,17 @@ class ChinaAPIClient(CommonClient):
         """
         response: ClientResponse
         async with self.session.get(f"{self.base_url}/download.html") as response:
-            if response.status == 200:
-                page = BeautifulSoup(await response.text(), "html.parser")
-                data = (
-                    [str(i) for i in page.select("script") if "var phones" in str(i)][0]
-                    .split("=")[1]
-                    .split(";")[0]
-                )
-                info = json.loads(data)
-                self.devices = [ChinaDevice.from_response(item) for item in info]
-                return self.devices
+            if response.status != 200:
+                return
+            page = BeautifulSoup(await response.text(), "html.parser")
+            data = (
+                [str(i) for i in page.select("script") if "var phones" in str(i)][0]
+                .split("=")[1]
+                .split(";")[0]
+            )
+            info = json.loads(data)
+            self.devices = [ChinaDevice.from_response(item) for item in info]
+            return self.devices
 
     async def get_fastboot_devices(self):
         """
@@ -80,26 +81,27 @@ class ChinaAPIClient(CommonClient):
                 f"{self.base_url}/shuaji-393.html",
                 headers={"User-Agent": china_website_useragent},
         ) as response:
-            if response.status == 200:
-                page = BeautifulSoup(await response.text(), "html.parser")
-                links = page.select('a[href^="//update.miui.com/updates/"]')
-                item: Tag
-                for item in links:
-                    data = re.search(
-                        r"\?d=(\w+)&b=(\w)&r=(\w+)?&n=(\w+)?", item.get("href")
-                    )
-                    self.fastboot_devices.append(
-                        {
-                            "device": re.search(r"(.*) ?最新", item.text)
-                            .group(1)
-                            .strip(),
-                            "codename": data.group(1),
-                            "branch": data.group(2),
-                            "region": data.group(3),
-                            "carrier": data.group(4),
-                        }
-                    )
-                return self.fastboot_devices
+            if response.status != 200:
+                return
+            page = BeautifulSoup(await response.text(), "html.parser")
+            links = page.select('a[href^="//update.miui.com/updates/"]')
+            item: Tag
+            for item in links:
+                data = re.search(
+                    r"\?d=(\w+)&b=(\w)&r=(\w+)?&n=(\w+)?", item.get("href")
+                )
+                self.fastboot_devices.append(
+                    {
+                        "device": re.search(r"(.*) ?最新", item.text)
+                        .group(1)
+                        .strip(),
+                        "codename": data.group(1),
+                        "branch": data.group(2),
+                        "region": data.group(3),
+                        "carrier": data.group(4),
+                    }
+                )
+            return self.fastboot_devices
 
     async def get_updates(self, device_id: str) -> list:
         """
@@ -121,19 +123,20 @@ class ChinaAPIClient(CommonClient):
         :param device_id: device ID
         :return: Update object
         """
+        updates = []
         links: List[str] = await self._request(device_id)
-        if links:
-            updates = []
-            for item in links:
-                filename = item.split("/")[-1]
-                if update_in_db(filename):
-                    continue
-                update = self._get_update(filename)
-                if update:
-                    add_to_db(update)
-                    self._logger.info(f"Added {filename} to db")
-                    updates.append(update)
+        if not links:
             return updates
+        for item in links:
+            filename = item.split("/")[-1]
+            if update_in_db(filename):
+                continue
+            update = self._get_update(filename)
+            if update:
+                add_to_db(update)
+                self._logger.info(f"Added {filename} to db")
+                updates.append(update)
+        return updates
 
     async def _request(self, device_id: str) -> list:
         """
@@ -146,7 +149,7 @@ class ChinaAPIClient(CommonClient):
         ) as response:
             if response.status != 200:
                 return []
-            page_json = await response.json()
+            page_json = json.loads(await response.text())
             if page_json["code"] != 200:
                 return []
             page_content = json.loads(page_json["entity"]["textContent"])
@@ -205,16 +208,20 @@ class ChinaAPIClient(CommonClient):
         :param codename: device codename
         :return: Update object
         """
-        url: str = await self._request_fastboot(codename)
-        if url:
-            filename = url.split("/")[-1]
-            if update_in_db(filename):
-                return
-            update = self._get_fastboot_update(filename)
-            if update:
-                add_to_db(update)
-                self._logger.info(f"Added {filename} to db")
-            return update
+        try:
+            url: str = await self._request_fastboot(codename)
+        except ServerDisconnectedError:
+            return
+        if not url:
+            return
+        filename = url.split("/")[-1]
+        if update_in_db(filename):
+            return
+        update = self._get_fastboot_update(filename)
+        if update:
+            add_to_db(update)
+            self._logger.info(f"Added {filename} to db")
+        return update
 
     async def _request_fastboot(self, codename) -> str:
         """
