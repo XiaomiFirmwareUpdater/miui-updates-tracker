@@ -253,7 +253,7 @@ docs = ["Sphinx"]
 
 [[package]]
 name = "humanize"
-version = "4.3.0"
+version = "4.4.0"
 description = "Python humanize utilities"
 category = "main"
 optional = false
@@ -677,7 +677,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a940917e858aaffd587e0c35b000d28fc5644d40086ac5ec1bf7fddb2df4f461"
+content-hash = "d5040bcf2b0f5123ed2ed1e2438d0d8ec2ce6bdafb9eeec1dd092d7ae7130d7d"
 
 [metadata.files]
 aiodns = [
@@ -996,8 +996,8 @@ greenlet = [
     {file = "greenlet-1.1.2.tar.gz", hash = "sha256:e30f5ea4ae2346e62cedde8794a56858a67b878dd79f7df76a0767e356b1744a"},
 ]
 humanize = [
-    {file = "humanize-4.3.0-py3-none-any.whl", hash = "sha256:5dd159c9910cd57b94072e4d7decae097f0eb84c4645153706929a7f127cb2ef"},
-    {file = "humanize-4.3.0.tar.gz", hash = "sha256:0dfac79fe8c1c0c734c14177b07b857bad9ae30dd50daa0a14e2c3d8054ee0c4"},
+    {file = "humanize-4.4.0-py3-none-any.whl", hash = "sha256:8830ebf2d65d0395c1bd4c79189ad71e023f277c2c7ae00f263124432e6f2ffa"},
+    {file = "humanize-4.4.0.tar.gz", hash = "sha256:efb2584565cc86b7ea87a977a15066de34cdedaf341b11c851cfcfd2b964779c"},
 ]
 idna = [
     {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
@@ -1253,7 +1253,6 @@ requests = [
 requests-oauthlib = [
     {file = "requests-oauthlib-1.3.0.tar.gz", hash = "sha256:b4261601a71fd721a8bd6d7aa1cc1d6a8a93b4a9f5e96626f8e4d91e8beeaa6a"},
     {file = "requests_oauthlib-1.3.0-py2.py3-none-any.whl", hash = "sha256:7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d"},
-    {file = "requests_oauthlib-1.3.0-py3.7.egg", hash = "sha256:fa6c47b933f01060936d87ae9327fead68768b69c6c9ea2109c48be30f2d4dbc"},
 ]
 setuptools = [
     {file = "setuptools-65.3.0-py3-none-any.whl", hash = "sha256:2e24e0bec025f035a2e72cdd1961119f557d78ad331bb00ff82efb2ab8da8e82"},
@@ -1312,7 +1311,6 @@ SQLAlchemy = [
 ]
 sshtunnel = [
     {file = "sshtunnel-0.4.0-py2.py3-none-any.whl", hash = "sha256:98e54c26f726ab8bd42b47a3a21fca5c3e60f58956f0f70de2fb8ab0046d0606"},
-    {file = "sshtunnel-0.4.0-py3.8.egg", hash = "sha256:4a07cf989712e8ba76a370584bec922d14775054b3ff18e5d075507a298dc3ed"},
     {file = "sshtunnel-0.4.0.tar.gz", hash = "sha256:e7cb0ea774db81bf91844db22de72a40aae8f7b0f9bb9ba0f666d474ef6bf9fc"},
 ]
 tomli = [
