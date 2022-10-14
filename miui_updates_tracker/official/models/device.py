@@ -23,7 +23,7 @@ class GlobalDevice:
         :param response: dict - Xiaomi updates api response
         :return: :class:`Device` instance
         """
-        return cls(response.get('name'), response.get('id'),
+        return cls(response.get('name').strip(), response.get('id'),
                    response.get('pic_url'))
 
     def __str__(self):
@@ -49,7 +49,7 @@ class ChinaDevice:
         :param response: dict - Xiaomi updates api response
         :return: :class:`Device` instance
         """
-        return cls(response.get('name'), response.get('pid'),
+        return cls(response.get('name').strip(), response.get('pid'),
                    response.get('pic'))
 
     def __str__(self):
