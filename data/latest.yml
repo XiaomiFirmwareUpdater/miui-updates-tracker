@@ -1,5 +1,25 @@
 - android: '12.0'
   branch: Stable Beta
+  codename: light_tw_global
+  date: 2022-10-25
+  link: https://bigota.d.miui.com/V13.0.3.0.SLSTWXM/miui_LIGHTTWGlobal_V13.0.3.0.SLSTWXM_566894272b_12.0.zip
+  md5: 566894272bb168f436df59246c184067
+  method: Recovery
+  name: Redmi 10 5G / POCO M4 5G Taiwan
+  size: 3.1 GB
+  version: V13.0.3.0.SLSTWXM
+- android: '12.0'
+  branch: Stable Beta
+  codename: veux_global
+  date: 2022-10-24
+  link: https://bigota.d.miui.com/V13.0.4.0.SKCMIXM/miui_VEUXGlobal_V13.0.4.0.SKCMIXM_6d83ad06f5_12.0.zip
+  md5: 6d83ad06f52305211e3c2bb710dd4fa5
+  method: Recovery
+  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Global
+  size: 3.4 GB
+  version: V13.0.4.0.SKCMIXM
+- android: '12.0'
+  branch: Stable Beta
   codename: venus_global
   date: 2022-10-21
   link: https://bigota.d.miui.com/V13.0.5.0.SKBMIXM/miui_VENUSGlobal_V13.0.5.0.SKBMIXM_bf2d1f590e_12.0.zip
@@ -388,16 +408,6 @@
   name: Redmi K50 Pro China
   size: 5.2 GB
   version: V13.0.26.0.SLKCNXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: courbet_ru_global
-  date: 2022-10-10
-  link: https://bigota.d.miui.com/V13.0.6.0.SKQRUXM/miui_COURBETRUGlobal_V13.0.6.0.SKQRUXM_1c8a6b9569_12.0.zip
-  md5: 1c8a6b956995ca0d7e024c25f2776dcf
-  method: Recovery
-  name: Mi 11 Lite 4G Russia
-  size: 3.2 GB
-  version: V13.0.6.0.SKQRUXM
 - android: '12.0'
   branch: Stable Beta
   codename: sweet_eea_global
@@ -2590,16 +2600,6 @@
   version: V13.0.9.0.SGMMIXM
 - android: '12.0'
   branch: Stable Beta
-  codename: ice_ru_global
-  date: null
-  link: https://bigota.d.miui.com/V13.0.4.0.SGMRUXM/miui_ICERUGlobal_V13.0.4.0.SGMRUXM_44f1532898_12.0.zip
-  md5: 44f15328981afdb1433df22edfb36ac6
-  method: Recovery
-  name: Redmi A1 / POCO C50 Russia
-  size: 1.5 GB
-  version: V13.0.4.0.SGMRUXM
-- android: '12.0'
-  branch: Stable Beta
   codename: plato_eea_global
   date: null
   link: https://bigota.d.miui.com/V13.0.8.0.SLQEUXM/miui_PLATOEEAGlobal_V13.0.8.0.SLQEUXM_23f1621cbb_12.0.zip
@@ -2808,6 +2808,16 @@
   name: Redmi 9C NFC Global
   size: 1.8 GB
   version: V12.0.16.0.QCSMIXM
+- android: '12.0'
+  branch: Stable
+  codename: courbet_ru_global
+  date: 2022-10-10
+  link: https://bigota.d.miui.com/V13.0.6.0.SKQRUXM/miui_COURBETRUGlobal_V13.0.6.0.SKQRUXM_1c8a6b9569_12.0.zip
+  md5: 1c8a6b956995ca0d7e024c25f2776dcf
+  method: Recovery
+  name: Mi 11 Lite 4G Russia
+  size: 3.2 GB
+  version: V13.0.6.0.SKQRUXM
 - android: '11.0'
   branch: Stable
   codename: fog_global
@@ -3008,6 +3018,16 @@
   name: Redmi K50i / Pro India
   size: 4.4 GB
   version: V13.0.6.0.SLOINXM
+- android: '12.0'
+  branch: Stable
+  codename: courbet_ru_global
+  date: 2022-09-29
+  link: https://bigota.d.miui.com/V13.0.6.0.SKQRUXM/courbet_ru_global_images_V13.0.6.0.SKQRUXM_20220929.0000.00_12.0_global_98fb2a2c44.tgz
+  md5: null
+  method: Fastboot
+  name: Mi 11 Lite 4G Russia
+  size: 4.8 GB
+  version: V13.0.6.0.SKQRUXM
 - android: '12.0'
   branch: Stable
   codename: vili_ru_global
@@ -3838,6 +3858,16 @@
   name: Redmi A1 / POCO C50 EEA
   size: 2.0 GB
   version: V13.0.3.0.SGMEUXM
+- android: '12.0'
+  branch: Stable
+  codename: ice_ru_global
+  date: 2022-09-15
+  link: https://bigota.d.miui.com/V13.0.4.0.SGMRUXM/ice_ru_global_images_V13.0.4.0.SGMRUXM_20220915.0000.00_12.0_d39dac8556.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi A1 / POCO C50 Russia
+  size: 2.0 GB
+  version: V13.0.4.0.SGMRUXM
 - android: '12.0'
   branch: Stable
   codename: lmi_eea_global
@@ -6933,7 +6963,7 @@
   codename: light_tw_global
   date: 2022-07-20
   link: https://bigota.d.miui.com/V13.0.2.0.SLSTWXM/light_tw_global_images_V13.0.2.0.SLSTWXM_20220720.0000.00_12.0_global_406a3d6540.tgz
-  md5: null
+  md5: 406a3d65401002f9cc2ee7b7859c84e4
   method: Fastboot
   name: Redmi 10 5G / POCO M4 5G Taiwan
   size: 4.6 GB
@@ -7380,16 +7410,6 @@
   version: V13.0.4.0.SLJTWXM
 - android: '12.0'
   branch: Stable
-  codename: courbet_ru_global
-  date: 2022-07-09
-  link: https://bigota.d.miui.com/V13.0.5.0.SKQRUXM/miui_COURBETRUGlobal_V13.0.5.0.SKQRUXM_3071939d4a_12.0.zip
-  md5: 3071939d4a004b127ff3d5c8f8ad86d3
-  method: Recovery
-  name: Mi 11 Lite 4G Russia
-  size: 3.2 GB
-  version: V13.0.5.0.SKQRUXM
-- android: '12.0'
-  branch: Stable
   codename: vayu_eea_global
   date: 2022-07-09
   link: https://bigota.d.miui.com/V13.0.3.0.SJUEUXM/vayu_eea_global_images_V13.0.3.0.SJUEUXM_20220709.0000.00_12.0_eea_3182aff4e2.tgz
@@ -7538,16 +7558,6 @@
   name: Mi 11 EEA
   size: 3.7 GB
   version: V13.0.7.0.SKBEUXM
-- android: '12.0'
-  branch: Stable
-  codename: courbet_ru_global
-  date: 2022-07-04
-  link: https://bigota.d.miui.com/V13.0.5.0.SKQRUXM/courbet_ru_global_images_V13.0.5.0.SKQRUXM_20220704.0000.00_12.0_global_a0594169b9.tgz
-  md5: a0594169b9e824f04d36c7d6ef00b03b
-  method: Fastboot
-  name: Mi 11 Lite 4G Russia
-  size: 4.9 GB
-  version: V13.0.5.0.SKQRUXM
 - android: '12.0'
   branch: Stable
   codename: evergreen_tr_global
@@ -15038,6 +15048,16 @@
   name: Redmi A1 / A1+ / POCO C50 India
   size: 1.5 GB
   version: V13.0.4.0.SGMINXM
+- android: '12.0'
+  branch: Stable
+  codename: ice_ru_global
+  date: null
+  link: https://bigota.d.miui.com/V13.0.4.0.SGMRUXM/miui_ICERUGlobal_V13.0.4.0.SGMRUXM_44f1532898_12.0.zip
+  md5: 44f15328981afdb1433df22edfb36ac6
+  method: Recovery
+  name: Redmi A1 / POCO C50 Russia
+  size: 1.5 GB
+  version: V13.0.4.0.SGMRUXM
 - android: '12.0'
   branch: Stable
   codename: yunluo_ru_global
