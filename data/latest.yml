@@ -600,16 +600,6 @@
   version: V13.0.3.0.SGICNXM
 - android: '12.0'
   branch: Stable Beta
-  codename: surya_id_global
-  date: 2022-10-14
-  link: https://bigota.d.miui.com/V13.0.4.0.SJGIDXM/miui_SURYAIDGlobal_V13.0.4.0.SJGIDXM_723166d825_12.0.zip
-  md5: 723166d825e094f044343c6260caf1fd
-  method: Recovery
-  name: POCO X3 NFC Indonesia
-  size: 2.9 GB
-  version: V13.0.4.0.SJGIDXM
-- android: '12.0'
-  branch: Stable Beta
   codename: xaga
   date: 2022-10-14
   link: https://bigota.d.miui.com/V13.0.14.0.SLOCNXM/miui_XAGA_V13.0.14.0.SLOCNXM_559aa81f92_12.0.zip
@@ -1920,16 +1910,6 @@
   version: V13.0.3.0.SJIEUXM
 - android: '11.0'
   branch: Stable Beta
-  codename: elish
-  date: 2022-05-26
-  link: https://bigota.d.miui.com/V13.0.10.0.RKYCNXM/miui_ELISH_V13.0.10.0.RKYCNXM_1bf58ab6f7_11.0.zip
-  md5: 1bf58ab6f718c2f6ccdac22a38be2f1d
-  method: Recovery
-  name: Xiaomi Pad 5 Pro Wi-Fi China
-  size: 3.8 GB
-  version: V13.0.10.0.RKYCNXM
-- android: '11.0'
-  branch: Stable Beta
   codename: curtana_global
   date: 2022-05-25
   link: https://bigota.d.miui.com/V12.5.6.0.RJWMIXM/miui_CURTANAGlobal_V12.5.6.0.RJWMIXM_84796eb2cc_11.0.zip
@@ -1948,16 +1928,6 @@
   name: POCO M3 Taiwan
   size: 2.8 GB
   version: V12.5.4.0.RJFTWXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: nabu
-  date: 2022-05-24
-  link: https://bigota.d.miui.com/V13.0.9.0.RKXCNXM/miui_NABU_V13.0.9.0.RKXCNXM_3fa49a036c_11.0.zip
-  md5: 3fa49a036c45307d9b2bd22baa56a4d4
-  method: Recovery
-  name: Xiaomi Pad 5 China
-  size: 3.4 GB
-  version: V13.0.9.0.RKXCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: dandelion_global
@@ -2028,6 +1998,16 @@
   name: POCO M4 Pro 5G Russia
   size: 2.7 GB
   version: V12.5.5.0.RGBRUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: nabu
+  date: 2022-04-02
+  link: https://bigota.d.miui.com/V13.0.8.0.RKXCNXM/miui_NABU_V13.0.8.0.RKXCNXM_d1a4927e0b_11.0.zip
+  md5: d1a4927e0bf9d6650d7a6cfe405c3c30
+  method: Recovery
+  name: Xiaomi Pad 5 China
+  size: 3.4 GB
+  version: V13.0.8.0.RKXCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: umi_eea_global
@@ -2580,6 +2560,16 @@
   version: V12.0.2.0.PEMMIXM
 - android: '10.0'
   branch: Stable Beta
+  codename: surya_id_global
+  date: 2020-12-22
+  link: https://bigota.d.miui.com/V12.0.5.0.QJGIDXM/miui_SURYAIDGlobal_V12.0.5.0.QJGIDXM_d61ef7b750_10.0.zip
+  md5: d61ef7b750a97f6ca17257325b5a8ded
+  method: Recovery
+  name: POCO X3 NFC Indonesia
+  size: 2.4 GB
+  version: V12.0.5.0.QJGIDXM
+- android: '10.0'
+  branch: Stable Beta
   codename: surya_global
   date: 2020-12-13
   link: https://bigota.d.miui.com/V12.0.6.0.QJGMIXM/miui_SURYAGlobal_V12.0.6.0.QJGMIXM_50419afd46_10.0.zip
@@ -3008,6 +2998,16 @@
   name: Redmi 10 / Redmi 10 2022 Russia
   size: 5.1 GB
   version: V13.0.3.0.SKURUXM
+- android: '12.0'
+  branch: Stable
+  codename: surya_id_global
+  date: 2022-10-14
+  link: https://bigota.d.miui.com/V13.0.4.0.SJGIDXM/miui_SURYAIDGlobal_V13.0.4.0.SJGIDXM_723166d825_12.0.zip
+  md5: 723166d825e094f044343c6260caf1fd
+  method: Recovery
+  name: POCO X3 NFC Indonesia
+  size: 2.9 GB
+  version: V13.0.4.0.SJGIDXM
 - android: '11.0'
   branch: Stable
   codename: dandelion_c3l2_tw_global
@@ -3248,6 +3248,16 @@
   name: Redmi 10C Global
   size: 2.6 GB
   version: V13.0.12.0.RGEMIXM
+- android: '12.0'
+  branch: Stable
+  codename: surya_id_global
+  date: 2022-10-09
+  link: https://bigota.d.miui.com/V13.0.4.0.SJGIDXM/surya_id_global_images_V13.0.4.0.SJGIDXM_20221009.0000.00_12.0_global_bb3ac8e633.tgz
+  md5: null
+  method: Fastboot
+  name: POCO X3 NFC Indonesia
+  size: 4.4 GB
+  version: V13.0.4.0.SJGIDXM
 - android: '12.0'
   branch: Stable
   codename: venus_global
@@ -4170,16 +4180,6 @@
   version: V13.0.10.0.SLACNXM
 - android: '12.0'
   branch: Stable
-  codename: surya_id_global
-  date: 2022-09-17
-  link: https://bigota.d.miui.com/V13.0.3.0.SJGIDXM/miui_SURYAIDGlobal_V13.0.3.0.SJGIDXM_8e033517f6_12.0.zip
-  md5: 8e033517f668888b31dab9c859beeda2
-  method: Recovery
-  name: POCO X3 NFC Indonesia
-  size: 2.9 GB
-  version: V13.0.3.0.SJGIDXM
-- android: '12.0'
-  branch: Stable
   codename: mojito_tr_global
   date: 2022-09-17
   link: https://bigota.d.miui.com/V13.0.3.0.SKGTRXM/miui_MOJITOTRGlobal_V13.0.3.0.SKGTRXM_aa8a365eee_12.0.zip
@@ -4578,16 +4578,6 @@
   name: Xiaomi 12T Pro Global
   size: 6.7 GB
   version: V13.0.3.0.SLFMIXM
-- android: '12.0'
-  branch: Stable
-  codename: surya_id_global
-  date: 2022-09-10
-  link: https://bigota.d.miui.com/V13.0.3.0.SJGIDXM/surya_id_global_images_V13.0.3.0.SJGIDXM_20220910.0000.00_12.0_global_240a333a58.tgz
-  md5: 240a333a587c5b56c2f81ebd88fc4a3a
-  method: Fastboot
-  name: POCO X3 NFC Indonesia
-  size: 4.3 GB
-  version: V13.0.3.0.SJGIDXM
 - android: '12.0'
   branch: Stable
   codename: rubens
@@ -9158,6 +9148,16 @@
   name: POCO X3 GT Turkey
   size: 5.5 GB
   version: V13.0.2.0.SKPTRXM
+- android: '11.0'
+  branch: Stable
+  codename: elish
+  date: 2022-05-26
+  link: https://bigota.d.miui.com/V13.0.10.0.RKYCNXM/miui_ELISH_V13.0.10.0.RKYCNXM_1bf58ab6f7_11.0.zip
+  md5: 1bf58ab6f718c2f6ccdac22a38be2f1d
+  method: Recovery
+  name: Xiaomi Pad 5 Pro Wi-Fi China
+  size: 3.8 GB
+  version: V13.0.10.0.RKYCNXM
 - android: '12.0'
   branch: Stable
   codename: agate_id_global
@@ -9258,6 +9258,16 @@
   name: Redmi 10 / Redmi 10 2022 Taiwan
   size: 4.3 GB
   version: V13.0.1.0.SKUTWXM
+- android: '11.0'
+  branch: Stable
+  codename: nabu
+  date: 2022-05-24
+  link: https://bigota.d.miui.com/V13.0.9.0.RKXCNXM/miui_NABU_V13.0.9.0.RKXCNXM_3fa49a036c_11.0.zip
+  md5: 3fa49a036c45307d9b2bd22baa56a4d4
+  method: Recovery
+  name: Xiaomi Pad 5 China
+  size: 3.4 GB
+  version: V13.0.9.0.RKXCNXM
 - android: '12.0'
   branch: Stable
   codename: psyche
@@ -9353,7 +9363,7 @@
   codename: nabu
   date: 2022-05-20
   link: https://bigota.d.miui.com/V13.0.9.0.RKXCNXM/nabu_images_V13.0.9.0.RKXCNXM_20220520.0000.00_11.0_cn_bc21ea167d.tgz
-  md5: null
+  md5: bc21ea167d0909194d3b350ae6256d28
   method: Fastboot
   name: Xiaomi Pad 5 China
   size: 4.3 GB
@@ -9413,7 +9423,7 @@
   codename: elish
   date: 2022-05-19
   link: https://bigota.d.miui.com/V13.0.10.0.RKYCNXM/elish_images_V13.0.10.0.RKYCNXM_20220519.0000.00_11.0_cn_74fe5c509f.tgz
-  md5: null
+  md5: 74fe5c509fbd0dda79000a50d9cb12f7
   method: Fastboot
   name: Xiaomi Pad 5 Pro Wi-Fi China
   size: 4.6 GB
@@ -10320,16 +10330,6 @@
   version: V13.0.1.0.RFXCNXM
 - android: '11.0'
   branch: Stable
-  codename: elish
-  date: 2022-04-02
-  link: https://bigota.d.miui.com/V13.0.8.0.RKYCNXM/miui_ELISH_V13.0.8.0.RKYCNXM_b7e5788df9_11.0.zip
-  md5: b7e5788df981273245fa6e7352ba46c3
-  method: Recovery
-  name: Xiaomi Pad 5 Pro Wi-Fi China
-  size: 3.8 GB
-  version: V13.0.8.0.RKYCNXM
-- android: '11.0'
-  branch: Stable
   codename: merlin_global
   date: 2022-03-31
   link: https://bigota.d.miui.com/V12.5.4.0.RJOMIXM/miui_MERLINGlobal_V12.5.4.0.RJOMIXM_a4d0f9b695_11.0.zip
@@ -10868,16 +10868,6 @@
   name: Redmi K40 China
   size: 4.5 GB
   version: V13.0.3.0.SKHCNXM
-- android: '11.0'
-  branch: Stable
-  codename: nabu
-  date: 2022-01-19
-  link: https://bigota.d.miui.com/V13.0.5.0.RKXCNXM/miui_NABU_V13.0.5.0.RKXCNXM_106b5db865_11.0.zip
-  md5: 106b5db8657b4b1af2d64143412df3eb
-  method: Recovery
-  name: Xiaomi Pad 5 China
-  size: 3.5 GB
-  version: V13.0.5.0.RKXCNXM
 - android: '11.0'
   branch: Stable
   codename: lime_tw_global
