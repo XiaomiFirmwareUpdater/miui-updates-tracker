@@ -203,19 +203,21 @@ ssh = ["bcrypt (>=3.1.5)"]
 test = ["hypothesis (>=1.11.4,!=3.79.2)", "iso8601", "pretend", "pytest (>=3.6.0,!=3.9.0,!=3.9.1,!=3.9.2)", "pytz"]
 
 [[package]]
-name = "discord.py"
-version = "1.6.0"
+name = "discord-py"
+version = "2.1.0"
 description = "A Python wrapper for the Discord API"
 category = "main"
 optional = false
-python-versions = ">=3.5.3"
+python-versions = ">=3.8.0"
 
 [package.dependencies]
-aiohttp = ">=3.6.0,<3.8.0"
+aiohttp = ">=3.7.4,<4"
 
 [package.extras]
-docs = ["sphinx (==3.0.3)", "sphinxcontrib-trio (==1.1.2)", "sphinxcontrib-websupport"]
-voice = ["PyNaCl (>=1.3.0,<1.5)"]
+docs = ["sphinx (==4.4.0)", "sphinxcontrib-trio (==1.1.2)", "sphinxcontrib-websupport", "typing-extensions (>=4.3,<5)"]
+speed = ["Brotli", "aiodns (>=1.1)", "cchardet (==2.1.7)", "orjson (>=3.5.4)"]
+test = ["coverage[toml]", "pytest", "pytest-asyncio", "pytest-cov", "pytest-mock", "typing-extensions (>=4.3,<5)"]
+voice = ["PyNaCl (>=1.3.0,<1.6)"]
 
 [[package]]
 name = "exceptiongroup"
@@ -681,7 +683,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ed840e27c1f312990436ddc69eb8c7a85d6c73670e82477abe427abe6cf03b3a"
+content-hash = "545918ab42122b1c89b065c2dc00f89191b5e02eaeb4b625d9f1e1988118af61"
 
 [metadata.files]
 aiodns = [
@@ -931,9 +933,9 @@ cryptography = [
     {file = "cryptography-3.3.2-cp36-abi3-win_amd64.whl", hash = "sha256:7951a966613c4211b6612b0352f5bf29989955ee592c4a885d8c7d0f830d0433"},
     {file = "cryptography-3.3.2.tar.gz", hash = "sha256:5a60d3780149e13b7a6ff7ad6526b38846354d11a15e21068e57073e29e19bed"},
 ]
-"discord.py" = [
-    {file = "discord.py-1.6.0-py3-none-any.whl", hash = "sha256:3df148daf6fbcc7ab5b11042368a3cd5f7b730b62f09fb5d3cbceff59bcfbb12"},
-    {file = "discord.py-1.6.0.tar.gz", hash = "sha256:ba8be99ff1b8c616f7b6dcb700460d0222b29d4c11048e74366954c465fdd05f"},
+discord-py = [
+    {file = "discord.py-2.1.0-py3-none-any.whl", hash = "sha256:a2cfa9f09e3013aaaa43600cc8dfaf67c532dd34afcb71e550f5a0dc9133a5e0"},
+    {file = "discord.py-2.1.0.tar.gz", hash = "sha256:027ccdd22b5bb66a9e19cbd8daa1bc74b49271a16a074d57e52f288fcfa208e8"},
 ]
 exceptiongroup = [
     {file = "exceptiongroup-1.0.0-py3-none-any.whl", hash = "sha256:2ac84b496be68464a2da60da518af3785fff8b7ec0d090a581604bc870bdee41"},
