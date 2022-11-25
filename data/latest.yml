@@ -18,6 +18,16 @@
   name: POCO M5 Global
   size: 3.2 GB
   version: V13.0.8.0.SLUMIXM
+- android: '12.0'
+  branch: Stable Beta
+  codename: ruby
+  date: 2022-11-23
+  link: https://bigota.d.miui.com/V13.0.8.0.SMOCNXM/miui_RUBY_V13.0.8.0.SMOCNXM_a1634f2ed0_12.0.zip
+  md5: a1634f2ed0ca6e95807fdc404127d295
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ / Discovery China
+  size: 5.2 GB
+  version: V13.0.8.0.SMOCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: lime_in_global
@@ -128,16 +138,6 @@
   name: Redmi A1 / A1+ / POCO C50 India
   size: 1.5 GB
   version: V13.0.5.0.SGMINXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: citrus_in_global
-  date: 2022-11-17
-  link: https://bigota.d.miui.com/V12.5.6.0.RJFINXM/miui_CITRUSINGlobal_V12.5.6.0.RJFINXM_9f960c82b5_11.0.zip
-  md5: 9f960c82b5f073587eb87eff47ad9936
-  method: Recovery
-  name: POCO M3 India
-  size: 2.8 GB
-  version: V12.5.6.0.RJFINXM
 - android: '12.0'
   branch: Stable Beta
   codename: evergo
@@ -598,16 +598,6 @@
   name: Xiaomi 11T Pro India
   size: 3.7 GB
   version: V13.0.11.0.SKDINXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: ruby
-  date: 2022-10-31
-  link: https://bigota.d.miui.com/V13.0.6.0.SMOCNXM/miui_RUBY_V13.0.6.0.SMOCNXM_fe5fcce44f_12.0.zip
-  md5: fe5fcce44f52568971baf79597087c6e
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ / Discovery China
-  size: 5.0 GB
-  version: V13.0.6.0.SMOCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: evergreen_tr_global
@@ -1978,6 +1968,16 @@
   name: Redmi Note 11 4G China
   size: 3.2 GB
   version: V12.5.7.0.RKUCNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: citrus_in_global
+  date: 2022-01-06
+  link: https://bigota.d.miui.com/V12.5.1.0.RJFINXM/miui_CITRUSINGlobal_V12.5.1.0.RJFINXM_9c620cf172_11.0.zip
+  md5: 9c620cf1726bfeb20c7612749c8b9325
+  method: Recovery
+  name: POCO M3 India
+  size: 2.8 GB
+  version: V12.5.1.0.RJFINXM
 - android: '12.0'
   branch: Stable Beta
   codename: venus_global
@@ -2670,10 +2670,20 @@
   version: V13.0.20.0.SKDEUXM
 - android: '11.0'
   branch: Stable
+  codename: citrus_in_global
+  date: 2022-11-17
+  link: https://bigota.d.miui.com/V12.5.6.0.RJFINXM/miui_CITRUSINGlobal_V12.5.6.0.RJFINXM_9f960c82b5_11.0.zip
+  md5: 9f960c82b5f073587eb87eff47ad9936
+  method: Recovery
+  name: POCO M3 India
+  size: 2.8 GB
+  version: V12.5.6.0.RJFINXM
+- android: '11.0'
+  branch: Stable
   codename: selene_eea_global
   date: 2022-11-16
   link: https://bigota.d.miui.com/V12.5.26.0.RKUEUXM/miui_SELENEEEAGlobal_V12.5.26.0.RKUEUXM_2fb4607dda_11.0.zip
-  md5: null
+  md5: 2fb4607ddaa913485474134e86b1a2b7
   method: Recovery
   name: Redmi 10 / Redmi 10 2022 EEA
   size: 2.6 GB
@@ -3138,6 +3148,16 @@
   name: Mi 10i India
   size: 3.2 GB
   version: V13.0.7.0.SJSINXM
+- android: '11.0'
+  branch: Stable
+  codename: citrus_in_global
+  date: 2022-11-07
+  link: https://bigota.d.miui.com/V12.5.6.0.RJFINXM/citrus_in_global_images_V12.5.6.0.RJFINXM_20221107.0000.00_11.0_in_6fb66232e2.tgz
+  md5: null
+  method: Fastboot
+  name: POCO M3 India
+  size: 3.4 GB
+  version: V12.5.6.0.RJFINXM
 - android: '12.0'
   branch: Stable
   codename: alioth
@@ -3592,12 +3612,12 @@
   branch: Stable
   codename: ruby
   date: 2022-10-31
-  link: https://bigota.d.miui.com/V13.0.4.0.SMOCNXM/miui_RUBY_V13.0.4.0.SMOCNXM_506b9eee6f_12.0.zip
-  md5: 506b9eee6f2991aec39a49b7ac3ff003
+  link: https://bigota.d.miui.com/V13.0.6.0.SMOCNXM/miui_RUBY_V13.0.6.0.SMOCNXM_fe5fcce44f_12.0.zip
+  md5: fe5fcce44f52568971baf79597087c6e
   method: Recovery
   name: Redmi Note 12 Pro / Pro+ / Discovery China
   size: 5.0 GB
-  version: V13.0.4.0.SMOCNXM
+  version: V13.0.6.0.SMOCNXM
 - android: '12.0'
   branch: Stable
   codename: rosemary_global
@@ -3788,6 +3808,16 @@
   name: Redmi Pad Taiwan
   size: 3.5 GB
   version: V13.1.1.0.SLYTWXM
+- android: '12.0'
+  branch: Stable
+  codename: ruby
+  date: 2022-10-27
+  link: https://bigota.d.miui.com/V13.0.6.0.SMOCNXM/ruby_images_V13.0.6.0.SMOCNXM_20221027.0000.00_12.0_cn_f4c71620aa.tgz
+  md5: f4c71620aa6300b2fe0e259cf379440f
+  method: Fastboot
+  name: Redmi Note 12 Pro / Pro+ / Discovery China
+  size: 6.5 GB
+  version: V13.0.6.0.SMOCNXM
 - android: '12.0'
   branch: Stable
   codename: toco_global
@@ -4038,16 +4068,6 @@
   name: Xiaomi 12 Lite EEA
   size: 4.4 GB
   version: V13.0.13.0.SLIEUXM
-- android: '12.0'
-  branch: Stable
-  codename: ruby
-  date: 2022-10-24
-  link: https://bigota.d.miui.com/V13.0.4.0.SMOCNXM/ruby_images_V13.0.4.0.SMOCNXM_20221024.0000.00_12.0_cn_3e7c3334e4.tgz
-  md5: 3e7c3334e401df0f2d342a3f3bb3f706
-  method: Fastboot
-  name: Redmi Note 12 Pro / Pro+ / Discovery China
-  size: 6.5 GB
-  version: V13.0.4.0.SMOCNXM
 - android: '12.0'
   branch: Stable
   codename: sunstone
@@ -6158,16 +6178,6 @@
   name: Mi Note 10 / Note 10 Pro Global
   size: 4.6 GB
   version: V13.0.2.0.RFDMIXM
-- android: '11.0'
-  branch: Stable
-  codename: citrus_in_global
-  date: 2022-09-08
-  link: https://bigota.d.miui.com/V12.5.5.0.RJFINXM/miui_CITRUSINGlobal_V12.5.5.0.RJFINXM_acb557f6ef_11.0.zip
-  md5: acb557f6ef764f00bf9695e87a2cfdcf
-  method: Recovery
-  name: POCO M3 India
-  size: 2.8 GB
-  version: V12.5.5.0.RJFINXM
 - android: '12.0'
   branch: Stable
   codename: cannong_global
@@ -6678,16 +6688,6 @@
   name: Redmi 9C NFC Russia
   size: 2.0 GB
   version: V12.5.3.0.RCSRUXM
-- android: '11.0'
-  branch: Stable
-  codename: citrus_in_global
-  date: 2022-08-30
-  link: https://bigota.d.miui.com/V12.5.5.0.RJFINXM/citrus_in_global_images_V12.5.5.0.RJFINXM_20220830.0000.00_11.0_in_b7b96dc7c9.tgz
-  md5: b7b96dc7c9d277443444468d179d9b23
-  method: Fastboot
-  name: POCO M3 India
-  size: 3.4 GB
-  version: V12.5.5.0.RJFINXM
 - android: '12.0'
   branch: Stable
   codename: camellian_eea_global
@@ -7413,7 +7413,7 @@
   codename: camellian_eea_global
   date: 2022-08-18
   link: https://bigota.d.miui.com/V13.0.3.0.SKSEUXM/camellian_eea_global_images_V13.0.3.0.SKSEUXM_20220818.0000.00_12.0_eea_865236bbba.tgz
-  md5: null
+  md5: 865236bbba8e354dd7480c851127e04d
   method: Fastboot
   name: Redmi Note 10 5G EEA
   size: 5.9 GB
@@ -8673,7 +8673,7 @@
   codename: veux_tr_global
   date: 2022-07-11
   link: https://bigota.d.miui.com/V13.0.4.0.RKCTRXM/veux_tr_global_images_V13.0.4.0.RKCTRXM_20220711.0000.00_11.0_global_e2492d8f67.tgz
-  md5: null
+  md5: e2492d8f67f6087209b14cf4fbd887fe
   method: Fastboot
   name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Turkey
   size: 5.0 GB
