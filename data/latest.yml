@@ -310,16 +310,6 @@
   version: V13.0.3.0.SKCINXM
 - android: '12.0'
   branch: Stable Beta
-  codename: veux_tw_global
-  date: 2022-11-14
-  link: https://bigota.d.miui.com/V13.0.3.0.SKCTWXM/miui_VEUXTWGlobal_V13.0.3.0.SKCTWXM_b877ea2167_12.0.zip
-  md5: b877ea21677133a7a87864e3a567def4
-  method: Recovery
-  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Taiwan
-  size: 3.2 GB
-  version: V13.0.3.0.SKCTWXM
-- android: '12.0'
-  branch: Stable Beta
   codename: spes_tr_global
   date: 2022-11-13
   link: https://bigota.d.miui.com/V13.0.2.0.SGCTRXM/miui_SPESTRGlobal_V13.0.2.0.SGCTRXM_828bf84236_12.0.zip
@@ -1460,16 +1450,6 @@
   version: V13.0.11.0.SLJCNXM
 - android: '12.0'
   branch: Stable Beta
-  codename: chopin_id_global
-  date: 2022-08-18
-  link: https://bigota.d.miui.com/V13.0.3.0.SKPIDXM/miui_CHOPINIDGlobal_V13.0.3.0.SKPIDXM_b708e4de59_12.0.zip
-  md5: b708e4de59c7a74bbc3fbeec4446068b
-  method: Recovery
-  name: POCO X3 GT Indonesia
-  size: 3.4 GB
-  version: V13.0.3.0.SKPIDXM
-- android: '12.0'
-  branch: Stable Beta
   codename: chopin_tr_global
   date: 2022-08-18
   link: https://bigota.d.miui.com/V13.0.3.0.SKPTRXM/miui_CHOPINTRGlobal_V13.0.3.0.SKPTRXM_e08aecd028_12.0.zip
@@ -2028,6 +2008,16 @@
   name: Xiaomi 11T Pro EEA
   size: 3.4 GB
   version: V12.5.19.0.RKDEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: chopin_id_global
+  date: 2021-11-26
+  link: https://bigota.d.miui.com/V12.5.3.0.RKPIDXM/miui_CHOPINIDGlobal_V12.5.3.0.RKPIDXM_68665e1315_11.0.zip
+  md5: 68665e131546f181eb41ea3aa7553648
+  method: Recovery
+  name: POCO X3 GT Indonesia
+  size: 2.8 GB
+  version: V12.5.3.0.RKPIDXM
 - android: '10.0'
   branch: Stable Beta
   codename: ursa
@@ -2408,6 +2398,16 @@
   name: Mi CC 9 China
   size: 2.6 GB
   version: V12.5.1.0.RFCCNXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.7.0.RJGEUXM
 - android: '9.0'
   branch: Stable Beta
   codename: wayne
@@ -2418,16 +2418,6 @@
   name: Mi 6X China
   size: 2.0 GB
   version: V12.0.2.0.PDCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: umi_id_global
@@ -2748,6 +2738,16 @@
   name: Redmi Note 11 Pro+ 5G Global
   size: 3.5 GB
   version: V13.0.6.0.SKTMIXM
+- android: '12.0'
+  branch: Stable
+  codename: veux_tw_global
+  date: 2022-11-14
+  link: https://bigota.d.miui.com/V13.0.3.0.SKCTWXM/miui_VEUXTWGlobal_V13.0.3.0.SKCTWXM_b877ea2167_12.0.zip
+  md5: b877ea21677133a7a87864e3a567def4
+  method: Recovery
+  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Taiwan
+  size: 3.2 GB
+  version: V13.0.3.0.SKCTWXM
 - android: '12.0'
   branch: Stable
   codename: spes_in_global
@@ -3218,6 +3218,16 @@
   name: Xiaomi 12T Pro EEA
   size: 4.6 GB
   version: V13.0.11.0.SLFEUXM
+- android: '12.0'
+  branch: Stable
+  codename: veux_tw_global
+  date: 2022-11-06
+  link: https://bigota.d.miui.com/V13.0.3.0.SKCTWXM/veux_tw_global_images_V13.0.3.0.SKCTWXM_20221106.0000.00_12.0_global_d20d3cf361.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Taiwan
+  size: 5.0 GB
+  version: V13.0.3.0.SKCTWXM
 - android: '11.0'
   branch: Stable
   codename: fog_eea_global
@@ -7440,6 +7450,16 @@
   version: V13.0.3.0.SKSEUXM
 - android: '12.0'
   branch: Stable
+  codename: chopin_id_global
+  date: 2022-08-18
+  link: https://bigota.d.miui.com/V13.0.3.0.SKPIDXM/miui_CHOPINIDGlobal_V13.0.3.0.SKPIDXM_b708e4de59_12.0.zip
+  md5: b708e4de59c7a74bbc3fbeec4446068b
+  method: Recovery
+  name: POCO X3 GT Indonesia
+  size: 3.4 GB
+  version: V13.0.3.0.SKPIDXM
+- android: '12.0'
+  branch: Stable
   codename: rosemary_tw_global
   date: 2022-08-18
   link: https://bigota.d.miui.com/V13.0.2.0.SKLTWXM/rosemary_tw_global_images_V13.0.2.0.SKLTWXM_20220818.0000.00_12.0_global_0562f81f13.tgz
@@ -7758,6 +7778,16 @@
   name: POCO F3 GT India
   size: 4.4 GB
   version: V13.0.4.0.SKJINXM
+- android: '12.0'
+  branch: Stable
+  codename: chopin_id_global
+  date: 2022-08-11
+  link: https://bigota.d.miui.com/V13.0.3.0.SKPIDXM/chopin_id_global_images_V13.0.3.0.SKPIDXM_20220811.0000.00_12.0_global_6d0c4897aa.tgz
+  md5: 6d0c4897aa87ce29e1b354ce229faaf3
+  method: Fastboot
+  name: POCO X3 GT Indonesia
+  size: 5.7 GB
+  version: V13.0.3.0.SKPIDXM
 - android: '12.0'
   branch: Stable
   codename: vili_jp_global
@@ -8490,16 +8520,6 @@
   version: V13.0.6.0.SJDINXM
 - android: '11.0'
   branch: Stable
-  codename: veux_tw_global
-  date: 2022-07-18
-  link: https://bigota.d.miui.com/V13.0.5.0.RKCTWXM/miui_VEUXTWGlobal_V13.0.5.0.RKCTWXM_6202b9fd39_11.0.zip
-  md5: 6202b9fd39c32619eaf4e365ee27be67
-  method: Recovery
-  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Taiwan
-  size: 3.0 GB
-  version: V13.0.5.0.RKCTWXM
-- android: '11.0'
-  branch: Stable
   codename: veux_id_global
   date: 2022-07-17
   link: https://bigota.d.miui.com/V13.0.3.0.RKCIDXM/miui_VEUXIDGlobal_V13.0.3.0.RKCIDXM_6bca83c024_11.0.zip
@@ -8698,16 +8718,6 @@
   name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Turkey
   size: 5.0 GB
   version: V13.0.4.0.RKCTRXM
-- android: '11.0'
-  branch: Stable
-  codename: veux_tw_global
-  date: 2022-07-11
-  link: https://bigota.d.miui.com/V13.0.5.0.RKCTWXM/veux_tw_global_images_V13.0.5.0.RKCTWXM_20220711.0000.00_11.0_global_cf1a14a7e3.tgz
-  md5: cf1a14a7e36c6fdb5a08182d299ce0f7
-  method: Fastboot
-  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Taiwan
-  size: 4.6 GB
-  version: V13.0.5.0.RKCTWXM
 - android: '12.0'
   branch: Stable
   codename: ingres_tw_global
@@ -9450,16 +9460,6 @@
   version: V13.0.3.0.SJIMIXM
 - android: '12.0'
   branch: Stable
-  codename: chopin_id_global
-  date: 2022-06-06
-  link: https://bigota.d.miui.com/V13.0.2.0.SKPIDXM/miui_CHOPINIDGlobal_V13.0.2.0.SKPIDXM_958ce6e7d9_12.0.zip
-  md5: 958ce6e7d982d289e9488d759aa90a0f
-  method: Recovery
-  name: POCO X3 GT Indonesia
-  size: 3.4 GB
-  version: V13.0.2.0.SKPIDXM
-- android: '12.0'
-  branch: Stable
   codename: mona
   date: 2022-06-06
   link: https://bigota.d.miui.com/V13.0.5.0.SKVCNXM/mona_images_V13.0.5.0.SKVCNXM_20220606.0000.00_12.0_cn_a5e72127d9.tgz
@@ -9878,16 +9878,6 @@
   name: Xiaomi Pad 5 Pro Wi-Fi China
   size: 4.6 GB
   version: V13.0.10.0.RKYCNXM
-- android: '12.0'
-  branch: Stable
-  codename: chopin_id_global
-  date: 2022-05-18
-  link: https://bigota.d.miui.com/V13.0.2.0.SKPIDXM/chopin_id_global_images_V13.0.2.0.SKPIDXM_20220518.0000.00_12.0_global_6a7e71ad27.tgz
-  md5: 6a7e71ad27d2d6c2698190347c9f83e1
-  method: Fastboot
-  name: POCO X3 GT Indonesia
-  size: 5.7 GB
-  version: V13.0.2.0.SKPIDXM
 - android: '11.0'
   branch: Stable
   codename: enuma
