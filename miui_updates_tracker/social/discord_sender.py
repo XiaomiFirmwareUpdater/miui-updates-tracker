@@ -3,8 +3,9 @@ import logging
 from typing import List
 from urllib.parse import quote
 
-from discord import Client, Embed, Colour, HTTPException
+from discord import Client, Embed, Colour, HTTPException, Intents
 from humanize import naturalsize
+
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_device_name, get_incremental
 from miui_updates_tracker.common.database.models.miui_update import Update
@@ -26,7 +27,9 @@ class DiscordBot(Client):
         :param token: Discord Bot API access token
         :param chat: Telegram chat username or id that will be used to send updates to
         """
-        super().__init__(loop=asyncio.get_running_loop())
+        intents = Intents.default()
+        intents.message_content = True
+        super().__init__(loop=asyncio.get_running_loop(), intents=intents)
         self.token = token
         self.updates = None
         self.channels = None
@@ -86,3 +89,20 @@ class DiscordBot(Client):
         """
         self.updates = new_updates
         await self.start(self.token)
+
+
+async def run():
+    from miui_updates_tracker import CONFIG
+    updates = [Update(
+        codename="lancelot", version="V11.0.4.0.QJCCNXM", android="10.0",
+        branch="Stable", method="Recovery", size="2040109465",
+        md5="89fd8abc76de4e216635e0cf29c15aed", filename="miui_LANCELOT_V11.0.4.0.QJCCNXM_89fd8abc76_10.0.zip",
+        link="https://bigota.d.miui.com/V11.0.4.0.QJCCNXM/miui_LANCELOT_V11.0.4.0.QJCCNXM_89fd8abc76_10.0.zip",
+        changelog="[Other]\nOptimized system performance\nImproved system security and stability"
+    )]
+    discord_bot = DiscordBot(CONFIG.get('discord').get('bot_token'))
+    await discord_bot.post_updates(updates)
+
+
+if __name__ == '__main__':
+    asyncio.run(run())
