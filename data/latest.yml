@@ -980,16 +980,6 @@
   version: V13.0.4.0.SJNCNXM
 - android: '12.0'
   branch: Stable Beta
-  codename: daumier
-  date: 2022-10-20
-  link: https://bigota.d.miui.com/V13.0.15.0.SLGCNXM/miui_DAUMIER_V13.0.15.0.SLGCNXM_dc1f650281_12.0.zip
-  md5: dc1f650281ac1be68dcddccf4cb7aab9
-  method: Recovery
-  name: Xiaomi 12 Pro Dimensity China
-  size: 5.6 GB
-  version: V13.0.15.0.SLGCNXM
-- android: '12.0'
-  branch: Stable Beta
   codename: picasso_48m
   date: 2022-10-19
   link: https://bigota.d.miui.com/V13.0.4.0.SGICMXM/miui_PICASSO48M_V13.0.4.0.SGICMXM_df3b9b40cb_12.0.zip
@@ -1548,6 +1538,16 @@
   name: Xiaomi 12 China
   size: 5.0 GB
   version: V13.0.37.0.SLCCNXM
+- android: '12.0'
+  branch: Stable Beta
+  codename: daumier
+  date: 2022-08-03
+  link: https://bigota.d.miui.com/V13.0.13.0.SLGCNXM/miui_DAUMIER_V13.0.13.0.SLGCNXM_1f66e033c0_12.0.zip
+  md5: 1f66e033c0dcc9de54bc02cf0824ddcf
+  method: Recovery
+  name: Xiaomi 12 Pro Dimensity China
+  size: 5.5 GB
+  version: V13.0.13.0.SLGCNXM
 - android: '11.0'
   branch: Stable Beta
   codename: shiva_in_global
@@ -2660,6 +2660,16 @@
   version: V13.0.4.0.SGLEUXM
 - android: '12.0'
   branch: Stable
+  codename: light_global
+  date: 2022-12-05
+  link: https://bigota.d.miui.com/V13.0.8.0.SLSMIXM/miui_LIGHTGlobal_V13.0.8.0.SLSMIXM_4fade7e64d_12.0.zip
+  md5: 4fade7e64d971fc32844987d8671d5ee
+  method: Recovery
+  name: Redmi 10 5G / POCO M4 5G Global
+  size: 3.2 GB
+  version: V13.0.8.0.SLSMIXM
+- android: '12.0'
+  branch: Stable
   codename: plato_ru_global
   date: 2022-12-05
   link: https://bigota.d.miui.com/V13.0.6.0.SLQRUXM/miui_PLATORUGlobal_V13.0.6.0.SLQRUXM_182ac0b4ef_12.0.zip
@@ -2743,7 +2753,7 @@
   codename: light_global
   date: 2022-11-29
   link: https://bigota.d.miui.com/V13.0.8.0.SLSMIXM/light_global_images_V13.0.8.0.SLSMIXM_20221129.0000.00_12.0_global_de08bcb4d0.tgz
-  md5: null
+  md5: de08bcb4d02a1891bd85a25f46a1a576
   method: Fastboot
   name: Redmi 10 5G / POCO M4 5G Global
   size: 6.2 GB
@@ -5253,11 +5263,21 @@
   codename: zeus_global
   date: 2022-10-20
   link: https://bigota.d.miui.com/V13.0.9.0.SLBMIXM/zeus_global_images_V13.0.9.0.SLBMIXM_20221020.0000.00_12.0_global_d24c2e8706.tgz
-  md5: null
+  md5: d24c2e87062c7cb9341013a425739f4b
   method: Fastboot
   name: Xiaomi 12 Pro Global
   size: 6.0 GB
   version: V13.0.9.0.SLBMIXM
+- android: '12.0'
+  branch: Stable
+  codename: daumier
+  date: 2022-10-20
+  link: https://bigota.d.miui.com/V13.0.15.0.SLGCNXM/miui_DAUMIER_V13.0.15.0.SLGCNXM_dc1f650281_12.0.zip
+  md5: dc1f650281ac1be68dcddccf4cb7aab9
+  method: Recovery
+  name: Xiaomi 12 Pro Dimensity China
+  size: 5.6 GB
+  version: V13.0.15.0.SLGCNXM
 - android: '12.0'
   branch: Stable
   codename: curtana_in_global
@@ -6040,6 +6060,16 @@
   version: V13.0.26.0.SLKCNXM
 - android: '12.0'
   branch: Stable
+  codename: daumier
+  date: 2022-10-07
+  link: https://bigota.d.miui.com/V13.0.15.0.SLGCNXM/daumier_images_V13.0.15.0.SLGCNXM_20221007.0000.00_12.0_cn_440adb27aa.tgz
+  md5: 440adb27aa53b0ba842e1d5abcd8bbf9
+  method: Fastboot
+  name: Xiaomi 12 Pro Dimensity China
+  size: 7.5 GB
+  version: V13.0.15.0.SLGCNXM
+- android: '12.0'
+  branch: Stable
   codename: plato_tr_global
   date: 2022-10-06
   link: https://bigota.d.miui.com/V13.0.3.0.SLQTRXM/miui_PLATOTRGlobal_V13.0.3.0.SLQTRXM_b674e7630c_12.0.zip
@@ -6128,16 +6158,6 @@
   name: Redmi Note 11 Pro 4G Indonesia
   size: 3.1 GB
   version: V13.0.4.0.SGDIDXM
-- android: '12.0'
-  branch: Stable
-  codename: light_global
-  date: 2022-09-30
-  link: https://bigota.d.miui.com/V13.0.7.0.SLSMIXM/miui_LIGHTGlobal_V13.0.7.0.SLSMIXM_e409654007_12.0.zip
-  md5: e4096540072d731d2f476aead677cec1
-  method: Recovery
-  name: Redmi 10 5G / POCO M4 5G Global
-  size: 3.2 GB
-  version: V13.0.7.0.SLSMIXM
 - android: '12.0'
   branch: Stable
   codename: xaga_in_global
@@ -7613,7 +7633,7 @@
   codename: mojito_global
   date: 2022-08-29
   link: https://bigota.d.miui.com/V13.0.10.0.SKGMIXM/mojito_global_images_V13.0.10.0.SKGMIXM_20220829.0000.00_12.0_global_48bc0a4a3a.tgz
-  md5: null
+  md5: 48bc0a4a3a770c05f4193660d063bbe8
   method: Fastboot
   name: Redmi Note 10 Global
   size: 5.2 GB
@@ -8158,6 +8178,16 @@
   name: POCO X3 GT Turkey
   size: 3.4 GB
   version: V13.0.3.0.SKPTRXM
+- android: '11.0'
+  branch: Stable
+  codename: frost_id_global
+  date: 2022-08-18
+  link: https://bigota.d.miui.com/V13.0.8.0.RGFIDXM/frost_id_global_images_V13.0.8.0.RGFIDXM_20220818.0000.00_11.0_global_f9ba7da2e4.tgz
+  md5: null
+  method: Fastboot
+  name: POCO C40 Indonesia
+  size: 5.0 GB
+  version: V13.0.8.0.RGFIDXM
 - android: '11.0'
   branch: Stable
   codename: nabu_in_global
@@ -9180,16 +9210,6 @@
   version: V13.0.3.0.SJDRUXM
 - android: '12.0'
   branch: Stable
-  codename: daumier
-  date: 2022-07-12
-  link: https://bigota.d.miui.com/V13.0.8.0.SLGCNXM/miui_DAUMIER_V13.0.8.0.SLGCNXM_afd5a12cc7_12.0.zip
-  md5: afd5a12cc75d4411949d96c3e3d9ceb1
-  method: Recovery
-  name: Xiaomi 12 Pro Dimensity China
-  size: 5.5 GB
-  version: V13.0.8.0.SLGCNXM
-- android: '12.0'
-  branch: Stable
   codename: lmi_id_global
   date: 2022-07-11
   link: https://bigota.d.miui.com/V13.0.3.0.SJKIDXM/miui_LMIIDGlobal_V13.0.3.0.SJKIDXM_85b6eb29d6_12.0.zip
@@ -9238,16 +9258,6 @@
   name: POCO X3 Pro EEA
   size: 5.4 GB
   version: V13.0.3.0.SJUEUXM
-- android: '12.0'
-  branch: Stable
-  codename: daumier
-  date: 2022-07-09
-  link: https://bigota.d.miui.com/V13.0.8.0.SLGCNXM/daumier_images_V13.0.8.0.SLGCNXM_20220709.0000.00_12.0_cn_dff29ca8b4.tgz
-  md5: dff29ca8b4871aeaa1b7ceccd4d77205
-  method: Fastboot
-  name: Xiaomi 12 Pro Dimensity China
-  size: 7.5 GB
-  version: V13.0.8.0.SLGCNXM
 - android: '12.0'
   branch: Stable
   codename: sweetin_in_global
@@ -10003,7 +10013,7 @@
   codename: merlin_eea_global
   date: 2022-05-23
   link: https://bigota.d.miui.com/V12.5.6.0.RJOEUXM/merlin_eea_global_images_V12.5.6.0.RJOEUXM_20220523.0000.00_11.0_eea_9e54d33cd1.tgz
-  md5: null
+  md5: 9e54d33cd1e16430c43f341a361e1483
   method: Fastboot
   name: Redmi Note 9 EEA
   size: 4.5 GB
@@ -10593,7 +10603,7 @@
   codename: merlin_id_global
   date: 2022-04-11
   link: https://bigota.d.miui.com/V12.5.5.0.RJOIDXM/merlin_id_global_images_V12.5.5.0.RJOIDXM_20220411.0000.00_11.0_global_828755a93a.tgz
-  md5: null
+  md5: 828755a93a6ab3313a3a0be72f6ec8e3
   method: Fastboot
   name: Redmi Note 9 Indonesia
   size: 4.0 GB
