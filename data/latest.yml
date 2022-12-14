@@ -2638,6 +2638,26 @@
   name: POCO M5 EEA
   size: 318 Bytes
   version: V13.0.2.0.SLUEUXM
+- android: '13.0'
+  branch: Stable
+  codename: fuxi
+  date: 2022-12-14
+  link: https://bigota.d.miui.com/V14.0.4.0.TMCCNXM/miui_FUXI_V14.0.4.0.TMCCNXM_f4decbbbee_13.0.zip
+  md5: f4decbbbeeae1db5584b26c021e27961
+  method: Recovery
+  name: Xiaomi 13 China
+  size: 6.5 GB
+  version: V14.0.4.0.TMCCNXM
+- android: '13.0'
+  branch: Stable
+  codename: nuwa
+  date: 2022-12-14
+  link: https://bigota.d.miui.com/V14.0.4.0.TMBCNXM/miui_NUWA_V14.0.4.0.TMBCNXM_c5625d2228_13.0.zip
+  md5: c5625d22289c984a1fe981be6be670e8
+  method: Recovery
+  name: Xiaomi 13 Pro China
+  size: 6.5 GB
+  version: V14.0.4.0.TMBCNXM
 - android: '12.0'
   branch: Stable
   codename: rock_tw_global
@@ -3528,6 +3548,26 @@
   name: Redmi A1 / POCO C50 Russia
   size: 1.5 GB
   version: V13.0.5.0.SGMRUXM
+- android: '13.0'
+  branch: Stable
+  codename: fuxi
+  date: 2022-11-16
+  link: https://bigota.d.miui.com/V14.0.4.0.TMCCNXM/fuxi_images_V14.0.4.0.TMCCNXM_20221116.0000.00_13.0_cn_9907ee3ec1.tgz
+  md5: 9907ee3ec143e27ce2ec482d0823e450
+  method: Fastboot
+  name: Xiaomi 13 China
+  size: 8.2 GB
+  version: V14.0.4.0.TMCCNXM
+- android: '13.0'
+  branch: Stable
+  codename: nuwa
+  date: 2022-11-16
+  link: https://bigota.d.miui.com/V14.0.4.0.TMBCNXM/nuwa_images_V14.0.4.0.TMBCNXM_20221116.0000.00_13.0_cn_88ccfd8d0f.tgz
+  md5: 88ccfd8d0f1b9b4d5305a72946bb49fc
+  method: Fastboot
+  name: Xiaomi 13 Pro China
+  size: 8.3 GB
+  version: V14.0.4.0.TMBCNXM
 - android: '12.0'
   branch: Stable
   codename: alioth_ru_global
@@ -14312,21 +14352,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Stable
