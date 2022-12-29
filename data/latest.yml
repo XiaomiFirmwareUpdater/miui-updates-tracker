@@ -300,16 +300,6 @@
   version: V14.0.2.0.TLFCNXM
 - android: '12.0'
   branch: Stable Beta
-  codename: rosemary_global
-  date: 2022-12-19
-  link: https://bigota.d.miui.com/V13.0.12.0.SKLMIXM/miui_ROSEMARYGlobal_V13.0.12.0.SKLMIXM_f5bc6effa0_12.0.zip
-  md5: f5bc6effa08c09e48afa61c2a218d62e
-  method: Recovery
-  name: Redmi Note 10S Global
-  size: 3.3 GB
-  version: V13.0.12.0.SKLMIXM
-- android: '12.0'
-  branch: Stable Beta
   codename: ruby
   date: 2022-12-19
   link: https://bigota.d.miui.com/V13.0.9.0.SMOCNXM/miui_RUBY_V13.0.9.0.SMOCNXM_125c782319_12.0.zip
@@ -430,16 +420,6 @@
   version: V14.0.2.0.TLCCNXM
 - android: '13.0'
   branch: Stable Beta
-  codename: zeus_global
-  date: 2022-12-12
-  link: https://bigota.d.miui.com/V13.2.1.0.TLBMIXM/miui_ZEUSGlobal_V13.2.1.0.TLBMIXM_603442db0b_13.0.zip
-  md5: 603442db0b988253263e036c25f44326
-  method: Recovery
-  name: Xiaomi 12 Pro Global
-  size: 4.8 GB
-  version: V13.2.1.0.TLBMIXM
-- android: '13.0'
-  branch: Stable Beta
   codename: matisse
   date: 2022-12-12
   link: https://bigota.d.miui.com/V14.0.5.0.TLKCNXM/miui_MATISSE_V14.0.5.0.TLKCNXM_a1a2b6a363_13.0.zip
@@ -448,6 +428,16 @@
   name: Redmi K50 Pro China
   size: 6.0 GB
   version: V14.0.5.0.TLKCNXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: zeus_global
+  date: 2022-12-12
+  link: https://bigota.d.miui.com/V13.2.1.0.TLBMIXM/miui_ZEUSGlobal_V13.2.1.0.TLBMIXM_603442db0b_13.0.zip
+  md5: 603442db0b988253263e036c25f44326
+  method: Recovery
+  name: Xiaomi 12 Pro Global
+  size: 4.8 GB
+  version: V13.2.1.0.TLBMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: rubens
@@ -1900,6 +1890,16 @@
   version: V12.0.1.0.RKKINXM
 - android: '11.0'
   branch: Stable Beta
+  codename: rosemary_global
+  date: 2021-05-06
+  link: https://bigota.d.miui.com/V12.5.2.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.2.0.RKLMIXM_5d0fbfd3d4_11.0.zip
+  md5: 5d0fbfd3d46f5da6a8ebc5dc2da0ae1d
+  method: Recovery
+  name: Redmi Note 10S Global
+  size: 2.5 GB
+  version: V12.5.2.0.RKLMIXM
+- android: '11.0'
+  branch: Stable Beta
   codename: camellian_eea_global
   date: 2021-04-28
   link: https://bigota.d.miui.com/V12.0.3.0.RKSEUXM/miui_CAMELLIANEEAGlobal_V12.0.3.0.RKSEUXM_acc09f41a8_11.0.zip
@@ -2288,6 +2288,16 @@
   name: Xiaomi Pad 5 Pro 12.4 China
   size: 5.2 GB
   version: V14.0.22.12.20.DEV
+- android: '12.0'
+  branch: Stable
+  codename: rosemary_global
+  date: 2022-12-19
+  link: https://bigota.d.miui.com/V13.0.12.0.SKLMIXM/miui_ROSEMARYGlobal_V13.0.12.0.SKLMIXM_f5bc6effa0_12.0.zip
+  md5: f5bc6effa08c09e48afa61c2a218d62e
+  method: Recovery
+  name: Redmi Note 10S Global
+  size: 3.3 GB
+  version: V13.0.12.0.SKLMIXM
 - android: '13.0'
   branch: Stable
   codename: nuwa
@@ -2698,6 +2708,16 @@
   name: Redmi Note 10 Russia
   size: 4.7 GB
   version: V13.0.5.0.SKGRUXM
+- android: '12.0'
+  branch: Stable
+  codename: rosemary_global
+  date: 2022-12-08
+  link: https://bigota.d.miui.com/V13.0.12.0.SKLMIXM/rosemary_global_images_V13.0.12.0.SKLMIXM_20221208.0000.00_12.0_global_0da657f4af.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi Note 10S Global
+  size: 6.3 GB
+  version: V13.0.12.0.SKLMIXM
 - android: '12.0'
   branch: Stable
   codename: mojito_id_global
@@ -6180,16 +6200,6 @@
   version: V13.0.2.0.SKNJPXM
 - android: '12.0'
   branch: Stable
-  codename: rosemary_global
-  date: 2022-10-29
-  link: https://bigota.d.miui.com/V13.0.10.0.SKLMIXM/miui_ROSEMARYGlobal_V13.0.10.0.SKLMIXM_de547852da_12.0.zip
-  md5: de547852da7fb9bdb4109e1abd61d5ac
-  method: Recovery
-  name: Redmi Note 10S Global
-  size: 3.3 GB
-  version: V13.0.10.0.SKLMIXM
-- android: '12.0'
-  branch: Stable
   codename: selene_tw_global
   date: 2022-10-29
   link: https://bigota.d.miui.com/V13.0.2.0.SKUTWXM/miui_SELENETWGlobal_V13.0.2.0.SKUTWXM_5d612d6385_12.0.zip
@@ -6988,16 +6998,6 @@
   name: Mi 10T Lite Taiwan
   size: 4.4 GB
   version: V13.0.4.0.SJSTWXM
-- android: '12.0'
-  branch: Stable
-  codename: rosemary_global
-  date: 2022-10-19
-  link: https://bigota.d.miui.com/V13.0.10.0.SKLMIXM/rosemary_global_images_V13.0.10.0.SKLMIXM_20221019.0000.00_12.0_global_59cc920691.tgz
-  md5: 59cc92069177d7f03c9a737fc09d6254
-  method: Fastboot
-  name: Redmi Note 10S Global
-  size: 6.3 GB
-  version: V13.0.10.0.SKLMIXM
 - android: '12.0'
   branch: Stable
   codename: vili_global
