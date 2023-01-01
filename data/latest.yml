@@ -20,6 +20,26 @@
   version: V14.0.2.0.SMSCNXM
 - android: '13.0'
   branch: Stable Beta
+  codename: zijin
+  date: 2022-12-28
+  link: https://bigota.d.miui.com/V14.0.2.0.TLPCNXM/miui_ZIJIN_V14.0.2.0.TLPCNXM_320b69bc87_13.0.zip
+  md5: 320b69bc87e720b6b81e1748c2e47b61
+  method: Recovery
+  name: Xiaomi Civi 1S China
+  size: 5.8 GB
+  version: V14.0.2.0.TLPCNXM
+- android: '12.0'
+  branch: Stable Beta
+  codename: light_in_global
+  date: 2022-12-28
+  link: https://bigota.d.miui.com/V13.0.7.0.SLSINXM/miui_LIGHTINGlobal_V13.0.7.0.SLSINXM_d29d71c388_12.0.zip
+  md5: d29d71c38878798a2536fcf973b44a83
+  method: Recovery
+  name: Redmi 11 Prime 5G / POCO M4 5G India
+  size: 3.1 GB
+  version: V13.0.7.0.SLSINXM
+- android: '13.0'
+  branch: Stable Beta
   codename: unicorn
   date: 2022-12-28
   link: https://bigota.d.miui.com/V14.0.3.0.TLECNXM/miui_UNICORN_V14.0.3.0.TLECNXM_9bcaa9726e_13.0.zip
@@ -48,16 +68,6 @@
   name: Xiaomi 12S China
   size: 5.9 GB
   version: V14.0.4.0.TLTCNXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: zijin
-  date: 2022-12-28
-  link: https://bigota.d.miui.com/V14.0.2.0.TLPCNXM/miui_ZIJIN_V14.0.2.0.TLPCNXM_320b69bc87_13.0.zip
-  md5: 320b69bc87e720b6b81e1748c2e47b61
-  method: Recovery
-  name: Xiaomi Civi 1S China
-  size: 5.8 GB
-  version: V14.0.2.0.TLPCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: yunluo
@@ -718,16 +728,6 @@
   name: Redmi Note 10 Pro 5G China
   size: 4.4 GB
   version: V13.0.11.0.SKPCNXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: light_in_global
-  date: 2022-10-17
-  link: https://bigota.d.miui.com/V13.0.5.0.SLSINXM/miui_LIGHTINGlobal_V13.0.5.0.SLSINXM_aba1ab6177_12.0.zip
-  md5: aba1ab6177ee2a5b7754db8e784ead64
-  method: Recovery
-  name: Redmi 11 Prime 5G / POCO M4 5G India
-  size: 3.1 GB
-  version: V13.0.5.0.SLSINXM
 - android: '12.0'
   branch: Stable Beta
   codename: picasso
@@ -1938,16 +1938,6 @@
   name: Mi CC 9 China
   size: 2.6 GB
   version: V12.5.1.0.RFCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -1978,6 +1968,16 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: umi_id_global
@@ -2220,16 +2220,6 @@
   version: V11.0.9.0.QECMIXM
 - android: '10.0'
   branch: Stable Beta
-  codename: umi_tr_global
-  date: 2020-08-06
-  link: https://bigota.d.miui.com/V12.0.1.0.QJBTRXM/miui_UMITRGlobal_V12.0.1.0.QJBTRXM_f835646692_10.0.zip
-  md5: f835646692e49f2f4174d722b72cf687
-  method: Recovery
-  name: Mi 10 Turkey
-  size: 2.9 GB
-  version: V12.0.1.0.QJBTRXM
-- android: '10.0'
-  branch: Stable Beta
   codename: onclite
   date: 2020-07-30
   link: https://bigota.d.miui.com/V11.0.2.0.QFLCNXM/miui_ONCLITE_V11.0.2.0.QFLCNXM_0f7eda3bc4_10.0.zip
@@ -2248,6 +2238,16 @@
   name: Mi Note 10 Lite Global
   size: 2.4 GB
   version: V11.0.6.0.QFNMIXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: umi_tr_global
+  date: 2020-06-12
+  link: https://bigota.d.miui.com/V11.0.3.0.QJBTRXM/miui_UMITRGlobal_V11.0.3.0.QJBTRXM_650e66f686_10.0.zip
+  md5: 650e66f68641b6cbd06c222a3be28def
+  method: Recovery
+  name: Mi 10 Turkey
+  size: 2.7 GB
+  version: V11.0.3.0.QJBTRXM
 - android: '13.0'
   branch: Stable
   codename: mondrian
