@@ -18,6 +18,16 @@
   name: Mi 11 Pro / Ultra China
   size: 5.8 GB
   version: V14.0.6.0.TKACNXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: ingres
+  date: 2023-01-13
+  link: https://bigota.d.miui.com/V14.0.7.0.TLJCNXM/miui_INGRES_V14.0.7.0.TLJCNXM_ce83b806c9_13.0.zip
+  md5: ce83b806c9355e2d1d8321163327be37
+  method: Recovery
+  name: Redmi K50G China
+  size: 5.8 GB
+  version: V14.0.7.0.TLJCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: rock_id_global
@@ -68,16 +78,6 @@
   name: Xiaomi 12S Ultra China
   size: 6.1 GB
   version: V14.0.5.0.TLACNXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: mayfly
-  date: 2023-01-12
-  link: https://bigota.d.miui.com/V14.0.5.0.TLTCNXM/miui_MAYFLY_V14.0.5.0.TLTCNXM_c9b9d9dadb_13.0.zip
-  md5: c9b9d9dadb80a6cadd940763c43df3db
-  method: Recovery
-  name: Xiaomi 12S China
-  size: 5.9 GB
-  version: V14.0.5.0.TLTCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: ice_id_global
@@ -250,16 +250,6 @@
   version: V13.0.5.0.SJDTWXM
 - android: '13.0'
   branch: Stable Beta
-  codename: munch
-  date: 2023-01-09
-  link: https://bigota.d.miui.com/V14.0.3.0.TLMCNXM/miui_MUNCH_V14.0.3.0.TLMCNXM_5e32cddcf6_13.0.zip
-  md5: 5e32cddcf6b8a0a4abdb79b5b5bf3fbf
-  method: Recovery
-  name: Redmi K40S China
-  size: 4.0 GB
-  version: V14.0.3.0.TLMCNXM
-- android: '13.0'
-  branch: Stable Beta
   codename: xaga
   date: 2023-01-09
   link: https://bigota.d.miui.com/V14.0.2.0.TLOCNXM/miui_XAGA_V14.0.2.0.TLOCNXM_c79ba02c33_13.0.zip
@@ -268,6 +258,16 @@
   name: Redmi Note 11T Pro / Pro+ China
   size: 5.9 GB
   version: V14.0.2.0.TLOCNXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: munch
+  date: 2023-01-09
+  link: https://bigota.d.miui.com/V14.0.3.0.TLMCNXM/miui_MUNCH_V14.0.3.0.TLMCNXM_5e32cddcf6_13.0.zip
+  md5: 5e32cddcf6b8a0a4abdb79b5b5bf3fbf
+  method: Recovery
+  name: Redmi K40S China
+  size: 4.0 GB
+  version: V14.0.3.0.TLMCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: odin
@@ -418,16 +418,6 @@
   name: Redmi Note 10S Indonesia
   size: 3.3 GB
   version: V13.0.9.0.SKLIDXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: ingres
-  date: 2022-12-31
-  link: https://bigota.d.miui.com/V14.0.6.0.TLJCNXM/miui_INGRES_V14.0.6.0.TLJCNXM_de5b64e3e5_13.0.zip
-  md5: de5b64e3e50099dc842b048bd9cb14ee
-  method: Recovery
-  name: Redmi K50G China
-  size: 5.8 GB
-  version: V14.0.6.0.TLJCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: lime_in_global
@@ -488,6 +478,16 @@
   name: Xiaomi 12S Pro China
   size: 6.0 GB
   version: V14.0.3.0.TLECNXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: mayfly
+  date: 2022-12-28
+  link: https://bigota.d.miui.com/V14.0.4.0.TLTCNXM/miui_MAYFLY_V14.0.4.0.TLTCNXM_53f81d8553_13.0.zip
+  md5: 53f81d855337680a635e490a6c306b48
+  method: Recovery
+  name: Xiaomi 12S China
+  size: 5.9 GB
+  version: V14.0.4.0.TLTCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: merlin_in_global
@@ -2038,16 +2038,6 @@
   name: Mi CC 9 China
   size: 2.6 GB
   version: V12.5.1.0.RFCCNXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
-  method: Recovery
-  name: POCO X3 NFC EEA
-  size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
 - android: '10.0'
   branch: Stable Beta
   codename: joyeuse_ru_global
@@ -2078,6 +2068,16 @@
   name: Mi 10 Lite EEA
   size: 3.0 GB
   version: V12.1.5.0.RJIEUXM
+- android: '11.0'
+  branch: Stable Beta
+  codename: surya_eea_global
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
+  method: Recovery
+  name: POCO X3 NFC EEA
+  size: 2.5 GB
+  version: V12.0.6.4.RJGEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: umi_id_global
@@ -2300,16 +2300,6 @@
   version: V11.0.9.0.QECMIXM
 - android: '10.0'
   branch: Stable Beta
-  codename: umi_tr_global
-  date: 2020-08-06
-  link: https://bigota.d.miui.com/V12.0.1.0.QJBTRXM/miui_UMITRGlobal_V12.0.1.0.QJBTRXM_f835646692_10.0.zip
-  md5: f835646692e49f2f4174d722b72cf687
-  method: Recovery
-  name: Mi 10 Turkey
-  size: 2.9 GB
-  version: V12.0.1.0.QJBTRXM
-- android: '10.0'
-  branch: Stable Beta
   codename: onclite
   date: 2020-07-30
   link: https://bigota.d.miui.com/V11.0.2.0.QFLCNXM/miui_ONCLITE_V11.0.2.0.QFLCNXM_0f7eda3bc4_10.0.zip
@@ -2328,6 +2318,16 @@
   name: Mi Note 10 Lite Global
   size: 2.4 GB
   version: V11.0.6.0.QFNMIXM
+- android: '10.0'
+  branch: Stable Beta
+  codename: umi_tr_global
+  date: 2020-06-12
+  link: https://bigota.d.miui.com/V11.0.3.0.QJBTRXM/miui_UMITRGlobal_V11.0.3.0.QJBTRXM_650e66f686_10.0.zip
+  md5: 650e66f68641b6cbd06c222a3be28def
+  method: Recovery
+  name: Mi 10 Turkey
+  size: 2.7 GB
+  version: V11.0.3.0.QJBTRXM
 - android: '12.0'
   branch: Stable
   codename: ruby_in_global
