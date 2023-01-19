@@ -60,6 +60,26 @@
   version: V14.0.17.0.TMKCNXM
 - android: '12.0'
   branch: Stable Beta
+  codename: venus_eea_global
+  date: 2023-01-16
+  link: https://bigota.d.miui.com/V13.0.9.0.SKBEUXM/miui_VENUSEEAGlobal_V13.0.9.0.SKBEUXM_f0bf8ef4b9_12.0.zip
+  md5: f0bf8ef4b9afcc28caeaa409f7b53f07
+  method: Recovery
+  name: Mi 11 EEA
+  size: 3.7 GB
+  version: V13.0.9.0.SKBEUXM
+- android: '12.0'
+  branch: Stable Beta
+  codename: haydn_eea_global
+  date: 2023-01-16
+  link: https://bigota.d.miui.com/V13.0.9.0.SKKEUXM/miui_HAYDNEEAGlobal_V13.0.9.0.SKKEUXM_cab52c7bdc_12.0.zip
+  md5: cab52c7bdce65dafd5079be215c430fa
+  method: Recovery
+  name: Mi 11i EEA
+  size: 3.5 GB
+  version: V13.0.9.0.SKKEUXM
+- android: '12.0'
+  branch: Stable Beta
   codename: spesn_global
   date: 2023-01-16
   link: https://bigota.d.miui.com/V13.0.6.0.SGKMIXM/miui_SPESNGlobal_V13.0.6.0.SGKMIXM_666f747bb3_12.0.zip
@@ -218,16 +238,6 @@
   name: Redmi K50G China
   size: 5.8 GB
   version: V14.0.7.0.TLJCNXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: zijin
-  date: 2023-01-13
-  link: https://bigota.d.miui.com/V14.0.3.0.TLPCNXM/miui_ZIJIN_V14.0.3.0.TLPCNXM_d35d475233_13.0.zip
-  md5: d35d475233c9260f230209e3ed95a224
-  method: Recovery
-  name: Xiaomi Civi 1S China
-  size: 5.8 GB
-  version: V14.0.3.0.TLPCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: taoyao_ru_global
@@ -318,16 +328,6 @@
   name: Redmi Note 10 Lite India
   size: 3.0 GB
   version: V13.0.3.0.SJWINRF
-- android: '13.0'
-  branch: Stable Beta
-  codename: cupid
-  date: 2023-01-12
-  link: https://bigota.d.miui.com/V14.0.4.0.TLCCNXM/miui_CUPID_V14.0.4.0.TLCCNXM_ac05f40933_13.0.zip
-  md5: ac05f409335d20c27fd171b3caea6231
-  method: Recovery
-  name: Xiaomi 12 China
-  size: 5.7 GB
-  version: V14.0.4.0.TLCCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: ice_id_global
@@ -798,6 +798,16 @@
   name: Xiaomi Pad 5 Taiwan
   size: 3.1 GB
   version: V13.1.2.0.SKXTWXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: zijin
+  date: 2022-12-21
+  link: https://bigota.d.miui.com/V14.0.1.0.TLPCNXM/miui_ZIJIN_V14.0.1.0.TLPCNXM_3f5e5f7398_13.0.zip
+  md5: 3f5e5f7398b0f7efc417fea6c59492bb
+  method: Recovery
+  name: Xiaomi Civi 1S China
+  size: 5.8 GB
+  version: V14.0.1.0.TLPCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: light_id_global
@@ -878,6 +888,16 @@
   name: Xiaomi Pad 5 Russia
   size: 3.2 GB
   version: V13.1.4.0.SKXRUXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: cupid
+  date: 2022-12-12
+  link: https://bigota.d.miui.com/V14.0.2.0.TLCCNXM/miui_CUPID_V14.0.2.0.TLCCNXM_248bed9c63_13.0.zip
+  md5: 248bed9c6391365686cbd10a2964e88d
+  method: Recovery
+  name: Xiaomi 12 China
+  size: 5.7 GB
+  version: V14.0.2.0.TLCCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: zeus_global
@@ -1718,16 +1738,6 @@
   name: Redmi Note 11 NFC EEA
   size: 2.8 GB
   version: V13.0.1.0.RGKEUXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: venus_eea_global
-  date: 2022-02-09
-  link: https://bigota.d.miui.com/V13.0.1.0.SKBEUXM/miui_VENUSEEAGlobal_V13.0.1.0.SKBEUXM_b96f4b7c4d_12.0.zip
-  md5: b96f4b7c4d350a6123acf4801ccc4ba8
-  method: Recovery
-  name: Mi 11 EEA
-  size: 3.7 GB
-  version: V13.0.1.0.SKBEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: spesn_ru_global
@@ -2118,16 +2128,6 @@
   name: Mi 9T Global
   size: 2.6 GB
   version: V12.1.2.0.RFJMIXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: haydn_eea_global
-  date: 2021-05-18
-  link: https://bigota.d.miui.com/V12.0.3.0.RKKEUXM/miui_HAYDNEEAGlobal_V12.0.3.0.RKKEUXM_3854fa809c_11.0.zip
-  md5: 3854fa809cbb55878e757bd245425a02
-  method: Recovery
-  name: Mi 11i EEA
-  size: 3.1 GB
-  version: V12.0.3.0.RKKEUXM
 - android: '9.0'
   branch: Stable Beta
   codename: andromeda_eea_global
