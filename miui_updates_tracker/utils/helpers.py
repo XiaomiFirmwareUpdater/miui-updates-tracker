@@ -5,7 +5,7 @@ from datetime import datetime
 units = {"BYTES": 1, "B": 1, "KB": 2 ** 10, "MB": 2 ** 20, "M": 2 ** 20, "GB": 2 ** 30, "G": 2 ** 30}
 
 
-def is_newer_datetime(old_datetime: int, new_datetime: int) -> bool:
+def is_newer_datetime(old_datetime: str, new_datetime: str) -> bool:
     """
     Check if a datetime is newer than another
     :param new_datetime: A datetime in posix time format

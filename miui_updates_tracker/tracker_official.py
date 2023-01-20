@@ -14,6 +14,7 @@ from miui_updates_tracker.common.database.database import (
 from miui_updates_tracker.official.api_client.api_client import APIClient
 from miui_updates_tracker.social.poster import post_updates
 from miui_updates_tracker.utils.data_manager import DataManager
+from miui_updates_tracker.utils.rom_utils import is_rom_working_link
 
 logger = logging.getLogger(__name__)
 
@@ -74,7 +75,7 @@ async def main():
         await api.close()
     if new_updates:
         logger.info(f"New updates: {new_updates}")
-        await post_updates(new_updates)
+        await post_updates(list(filter(lambda x: is_rom_working_link(x.link), new_updates)))
 
 
 def run():
