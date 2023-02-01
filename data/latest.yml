@@ -148,16 +148,6 @@
   name: Redmi Note 11E / 11R China
   size: 3.9 GB
   version: V13.0.17.0.SLSCNXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: taoyao_eea_global
-  date: 2023-01-18
-  link: https://bigota.d.miui.com/V14.0.5.0.TLIEUXM/miui_TAOYAOEEAGlobal_V14.0.5.0.TLIEUXM_902d0638de_13.0.zip
-  md5: 902d0638deb654a40d69a3556115467e
-  method: Recovery
-  name: Xiaomi 12 Lite EEA
-  size: 4.8 GB
-  version: V14.0.5.0.TLIEUXM
 - android: '12.0'
   branch: Stable Beta
   codename: rosemary_p_tr_global
@@ -2588,6 +2578,16 @@
   name: Mi 11 Lite 4G EEA
   size: 3.2 GB
   version: V13.0.8.0.SKQEUXM
+- android: '13.0'
+  branch: Stable
+  codename: taoyao_eea_global
+  date: 2023-01-18
+  link: https://bigota.d.miui.com/V14.0.5.0.TLIEUXM/miui_TAOYAOEEAGlobal_V14.0.5.0.TLIEUXM_902d0638de_13.0.zip
+  md5: 902d0638deb654a40d69a3556115467e
+  method: Recovery
+  name: Xiaomi 12 Lite EEA
+  size: 4.8 GB
+  version: V14.0.5.0.TLIEUXM
 - android: '12.0'
   branch: Stable
   codename: rosemary_p_global
@@ -2800,6 +2800,16 @@
   version: V14.0.4.0.TLCCNXM
 - android: '13.0'
   branch: Stable
+  codename: taoyao_eea_global
+  date: 2023-01-12
+  link: https://bigota.d.miui.com/V14.0.5.0.TLIEUXM/taoyao_eea_global_images_V14.0.5.0.TLIEUXM_20230112.0000.00_13.0_eea_095abcb85d.tgz
+  md5: null
+  method: Fastboot
+  name: Xiaomi 12 Lite EEA
+  size: 7.0 GB
+  version: V14.0.5.0.TLIEUXM
+- android: '13.0'
+  branch: Stable
   codename: thor
   date: 2023-01-12
   link: https://bigota.d.miui.com/V14.0.5.0.TLACNXM/miui_THOR_V14.0.5.0.TLACNXM_5c17bcc84b_13.0.zip
@@ -2948,16 +2958,6 @@
   name: Xiaomi 12 Pro EEA
   size: 6.4 GB
   version: V13.2.8.0.TLBEUXM
-- android: '13.0'
-  branch: Stable
-  codename: taoyao_eea_global
-  date: 2023-01-10
-  link: https://bigota.d.miui.com/V14.0.3.0.TLIEUXM/miui_TAOYAOEEAGlobal_V14.0.3.0.TLIEUXM_bf6e4f4ca1_13.0.zip
-  md5: bf6e4f4ca1d5a22dec176f0158c1faaf
-  method: Recovery
-  name: Xiaomi 12 Lite EEA
-  size: 4.8 GB
-  version: V14.0.3.0.TLIEUXM
 - android: '13.0'
   branch: Stable
   codename: unicorn
@@ -3488,16 +3488,6 @@
   name: Xiaomi Civi 1S China
   size: 5.8 GB
   version: V14.0.2.0.TLPCNXM
-- android: '13.0'
-  branch: Stable
-  codename: taoyao_eea_global
-  date: 2022-12-28
-  link: https://bigota.d.miui.com/V14.0.3.0.TLIEUXM/taoyao_eea_global_images_V14.0.3.0.TLIEUXM_20221228.0000.00_13.0_eea_358139ab75.tgz
-  md5: 358139ab756540d68a36f04cde464f80
-  method: Fastboot
-  name: Xiaomi 12 Lite EEA
-  size: 7.0 GB
-  version: V14.0.3.0.TLIEUXM
 - android: '13.0'
   branch: Stable
   codename: daumier
