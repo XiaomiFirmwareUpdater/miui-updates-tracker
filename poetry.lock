@@ -594,14 +594,14 @@ tox = ["tox"]
 
 [[package]]
 name = "discord-py"
-version = "2.1.0"
+version = "2.1.1"
 description = "A Python wrapper for the Discord API"
 category = "main"
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "discord.py-2.1.0-py3-none-any.whl", hash = "sha256:a2cfa9f09e3013aaaa43600cc8dfaf67c532dd34afcb71e550f5a0dc9133a5e0"},
-    {file = "discord.py-2.1.0.tar.gz", hash = "sha256:027ccdd22b5bb66a9e19cbd8daa1bc74b49271a16a074d57e52f288fcfa208e8"},
+    {file = "discord.py-2.1.1-py3-none-any.whl", hash = "sha256:b99fbf4ad74f007c680f33f5174738858146c99a2bc4f6d0e08ddbf93bc12c4d"},
+    {file = "discord.py-2.1.1.tar.gz", hash = "sha256:8258b7af641c532e9e33e186c7b867d9ff5575fe63a460b17ed55bd4fe082200"},
 ]
 
 [package.dependencies]
@@ -1784,4 +1784,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "b0ccfb53267cc210ff39c77e9ad49ae6dac7a1cafd5b2b4c54cae729b74427b4"
+content-hash = "39db5fb1c24e47cd431826708bfa09c8cfc653a2248dfcf7c425815879ae8da6"
