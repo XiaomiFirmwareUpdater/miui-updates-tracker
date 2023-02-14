@@ -7,8 +7,9 @@ from urllib.parse import quote
 
 from humanize import naturalsize
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.constants import ParseMode
 from telegram.error import BadRequest, RetryAfter
-from telegram.ext import Updater
+from telegram.ext import Application
 
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_full_name
@@ -28,7 +29,7 @@ class TelegramBot:
         :param bot_token: Telegram Bot API access token
         :param chat: Telegram chat username or id that will be used to send updates to
         """
-        self.updater = Updater(token=bot_token, use_context=True)
+        self.application = Application.builder().token(bot_token).build()
         self.chat = chat if isinstance(chat, int) else f"@{chat}"
         self.source = source
         self._logger = logging.getLogger(__name__)
@@ -120,10 +121,10 @@ class TelegramBot:
         :return:
         """
         try:
-            self.updater.bot.send_message(
+            await self.application.bot.send_message(
                 chat_id=self.chat,
                 text=message,
-                parse_mode="Markdown",
+                parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview="yes",
                 reply_markup=reply_markup,
             )
