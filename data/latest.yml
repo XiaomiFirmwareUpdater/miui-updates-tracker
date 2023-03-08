@@ -220,16 +220,6 @@
   version: V14.0.10.0.TLKCNXM
 - android: '13.0'
   branch: Stable Beta
-  codename: psyche_global
-  date: 2023-02-28
-  link: https://bigota.d.miui.com/V14.0.3.0.TLDMIXM/miui_PSYCHEGlobal_V14.0.3.0.TLDMIXM_1b52040940_13.0.zip
-  md5: 1b52040940ef567254c047b5833d2d18
-  method: Recovery
-  name: Xiaomi 12X Global
-  size: 3.9 GB
-  version: V14.0.3.0.TLDMIXM
-- android: '13.0'
-  branch: Stable Beta
   codename: psyche_tw_global
   date: 2023-02-28
   link: https://bigota.d.miui.com/V14.0.3.0.TLDTWXM/miui_PSYCHETWGlobal_V14.0.3.0.TLDTWXM_37a7b8cd08_13.0.zip
@@ -308,6 +298,26 @@
   name: Xiaomi 13 Turkey
   size: 5.5 GB
   version: V14.0.3.0.TMCTRXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: nuwa_global
+  date: 2023-02-27
+  link: https://bigota.d.miui.com/V14.0.7.0.TMBMIXM/miui_NUWAGlobal_V14.0.7.0.TMBMIXM_875710201a_13.0.zip
+  md5: 875710201a8e965cf168ffe4aefa2cd4
+  method: Recovery
+  name: Xiaomi 13 Pro Global
+  size: 5.6 GB
+  version: V14.0.7.0.TMBMIXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: nuwa_ru_global
+  date: 2023-02-27
+  link: https://bigota.d.miui.com/V14.0.5.0.TMBRUXM/miui_NUWARUGlobal_V14.0.5.0.TMBRUXM_a12808c0ab_13.0.zip
+  md5: a12808c0ab9e2d6b144a868837599936
+  method: Recovery
+  name: Xiaomi 13 Pro Russia
+  size: 5.5 GB
+  version: V14.0.5.0.TMBRUXM
 - android: '13.0'
   branch: Stable Beta
   codename: nuwa_tw_global
@@ -3118,6 +3128,16 @@
   name: Redmi 10 / Redmi 10 2022 Taiwan
   size: 2.9 GB
   version: V13.0.5.0.SKUTWXM
+- android: '13.0'
+  branch: Stable
+  codename: psyche_global
+  date: 2023-02-28
+  link: https://bigota.d.miui.com/V14.0.3.0.TLDMIXM/miui_PSYCHEGlobal_V14.0.3.0.TLDMIXM_1b52040940_13.0.zip
+  md5: 1b52040940ef567254c047b5833d2d18
+  method: Recovery
+  name: Xiaomi 12X Global
+  size: 3.9 GB
+  version: V14.0.3.0.TLDMIXM
 - android: '12.0'
   branch: Stable
   codename: rock_global
@@ -3368,6 +3388,16 @@
   name: Redmi 12C China
   size: 3.4 GB
   version: V13.0.5.0.SCVCNXM
+- android: '13.0'
+  branch: Stable
+  codename: psyche_global
+  date: 2023-02-20
+  link: https://bigota.d.miui.com/V14.0.3.0.TLDMIXM/psyche_global_images_V14.0.3.0.TLDMIXM_20230220.0000.00_13.0_global_00686cce2d.tgz
+  md5: null
+  method: Fastboot
+  name: Xiaomi 12X Global
+  size: 6.2 GB
+  version: V14.0.3.0.TLDMIXM
 - android: '12.0'
   branch: Stable
   codename: light
@@ -5908,16 +5938,6 @@
   name: Xiaomi 12S Pro China
   size: 6.0 GB
   version: V14.0.4.0.TLECNXM
-- android: '13.0'
-  branch: Stable
-  codename: plato_global
-  date: 2023-01-10
-  link: https://bigota.d.miui.com/V14.0.1.0.TLQMIXM/plato_global_images_V14.0.1.0.TLQMIXM_20230110.0000.00_13.0_global_3020934006.tgz
-  md5: 30209340066a9a805d6c84820a93a9bb
-  method: Fastboot
-  name: Xiaomi 12T Global
-  size: 7.4 GB
-  version: V14.0.1.0.TLQMIXM
 - android: '12.0'
   branch: Stable
   codename: plato_id_global
@@ -5938,6 +5958,16 @@
   name: Xiaomi 12T Russia
   size: 6.6 GB
   version: V13.0.8.0.SLQRUXM
+- android: '13.0'
+  branch: Stable
+  codename: plato_global
+  date: 2023-01-10
+  link: https://bigota.d.miui.com/V14.0.1.0.TLQMIXM/plato_global_images_V14.0.1.0.TLQMIXM_20230110.0000.00_13.0_global_3020934006.tgz
+  md5: 30209340066a9a805d6c84820a93a9bb
+  method: Fastboot
+  name: Xiaomi 12T Global
+  size: 7.4 GB
+  version: V14.0.1.0.TLQMIXM
 - android: '13.0'
   branch: Stable
   codename: zizhan
@@ -9180,16 +9210,6 @@
   version: V13.0.4.0.SLBIDXM
 - android: '12.0'
   branch: Stable
-  codename: psyche_global
-  date: 2022-11-02
-  link: https://bigota.d.miui.com/V13.0.5.0.SLDMIXM/miui_PSYCHEGlobal_V13.0.5.0.SLDMIXM_792a965bb3_12.0.zip
-  md5: 792a965bb312cefd031ab8a9b992139e
-  method: Recovery
-  name: Xiaomi 12X Global
-  size: 3.3 GB
-  version: V13.0.5.0.SLDMIXM
-- android: '12.0'
-  branch: Stable
   codename: psyche_ru_global
   date: 2022-11-02
   link: https://bigota.d.miui.com/V13.0.4.0.SLDRUXM/psyche_ru_global_images_V13.0.4.0.SLDRUXM_20221102.0000.00_12.0_global_b2fb43f162.tgz
@@ -9478,16 +9498,6 @@
   name: Redmi Note 11S 5G Russia
   size: 2.7 GB
   version: V13.0.1.0.RGLRUXM
-- android: '12.0'
-  branch: Stable
-  codename: psyche_global
-  date: 2022-10-27
-  link: https://bigota.d.miui.com/V13.0.5.0.SLDMIXM/psyche_global_images_V13.0.5.0.SLDMIXM_20221027.0000.00_12.0_global_f1381ff532.tgz
-  md5: f1381ff53240194b35a34c09c19c750b
-  method: Fastboot
-  name: Xiaomi 12X Global
-  size: 5.9 GB
-  version: V13.0.5.0.SLDMIXM
 - android: '12.0'
   branch: Stable
   codename: toco_global
