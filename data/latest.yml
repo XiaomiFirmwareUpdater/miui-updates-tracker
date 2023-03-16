@@ -1,5 +1,15 @@
 - android: '12.0'
   branch: Stable Beta
+  codename: moonstone_ru_global
+  date: 2023-03-16
+  link: https://bigota.d.miui.com/V13.0.2.0.SMPRUXM/miui_MOONSTONERUGlobal_V13.0.2.0.SMPRUXM_a36e181b7b_12.0.zip
+  md5: a36e181b7bf3d60b7676d2476986ae77
+  method: Recovery
+  name: POCO X5 5G  Russia
+  size: 3.8 GB
+  version: V13.0.2.0.SMPRUXM
+- android: '12.0'
+  branch: Stable Beta
   codename: ice_eea_global
   date: 2023-03-15
   link: https://bigota.d.miui.com/V13.0.10.0.SGMEUXM/miui_ICEEEAGlobal_V13.0.10.0.SGMEUXM_6c1c738cb8_12.0.zip
@@ -8,16 +18,6 @@
   name: Redmi A1 / POCO C50 EEA
   size: 1.6 GB
   version: V13.0.10.0.SGMEUXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: ice_ru_global
-  date: 2023-03-15
-  link: https://bigota.d.miui.com/V13.0.9.0.SGMRUXM/miui_ICERUGlobal_V13.0.9.0.SGMRUXM_65a6c4dfe5_12.0.zip
-  md5: 65a6c4dfe51ee4c0ae2b36a60639a0ca
-  method: Recovery
-  name: Redmi A1 / POCO C50 Russia
-  size: 1.5 GB
-  version: V13.0.9.0.SGMRUXM
 - android: '12.0'
   branch: Stable Beta
   codename: cannon
@@ -3170,6 +3170,16 @@
   version: V11.0.3.0.QJBTRXM
 - android: '12.0'
   branch: Stable
+  codename: ice_ru_global
+  date: 2023-03-15
+  link: https://bigota.d.miui.com/V13.0.9.0.SGMRUXM/miui_ICERUGlobal_V13.0.9.0.SGMRUXM_65a6c4dfe5_12.0.zip
+  md5: 65a6c4dfe51ee4c0ae2b36a60639a0ca
+  method: Recovery
+  name: Redmi A1 / POCO C50 Russia
+  size: 1.5 GB
+  version: V13.0.9.0.SGMRUXM
+- android: '12.0'
+  branch: Stable
   codename: moonstone_in_global
   date: 2023-03-13
   link: https://bigota.d.miui.com/V13.0.1.0.SMPINXM/miui_MOONSTONEINGlobal_V13.0.1.0.SMPINXM_7dc8df9f8b_12.0.zip
@@ -3228,6 +3238,16 @@
   name: POCO M5 Global
   size: 3.7 GB
   version: V14.0.6.0.TLUMIXM
+- android: '12.0'
+  branch: Stable
+  codename: ice_ru_global
+  date: 2023-03-07
+  link: https://bigota.d.miui.com/V13.0.9.0.SGMRUXM/ice_ru_global_images_V13.0.9.0.SGMRUXM_20230307.0000.00_12.0_960c2c1a98.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi A1 / POCO C50 Russia
+  size: 2.0 GB
+  version: V13.0.9.0.SGMRUXM
 - android: '12.0'
   branch: Stable
   codename: surya_global
@@ -3328,16 +3348,6 @@
   name: POCO F3 EEA
   size: 5.9 GB
   version: V14.0.7.0.TKHEUXM
-- android: '12.0'
-  branch: Stable
-  codename: ice_ru_global
-  date: 2023-03-02
-  link: https://bigota.d.miui.com/V13.0.8.0.SGMRUXM/miui_ICERUGlobal_V13.0.8.0.SGMRUXM_a6cf0933a6_12.0.zip
-  md5: a6cf0933a645367637bc9c8d3da27b05
-  method: Recovery
-  name: Redmi A1 / POCO C50 Russia
-  size: 1.5 GB
-  version: V13.0.8.0.SGMRUXM
 - android: '13.0'
   branch: Stable
   codename: plato_eea_global
@@ -3718,16 +3728,6 @@
   name: Xiaomi 12 Pro Dimensity China
   size: 6.1 GB
   version: V14.0.7.0.TLGCNXM
-- android: '12.0'
-  branch: Stable
-  codename: ice_ru_global
-  date: 2023-02-24
-  link: https://bigota.d.miui.com/V13.0.8.0.SGMRUXM/ice_ru_global_images_V13.0.8.0.SGMRUXM_20230224.0000.00_12.0_af695ee38a.tgz
-  md5: null
-  method: Fastboot
-  name: Redmi A1 / POCO C50 Russia
-  size: 2.0 GB
-  version: V13.0.8.0.SGMRUXM
 - android: '13.0'
   branch: Stable
   codename: yunluo
@@ -6628,16 +6628,6 @@
   name: Xiaomi 11 Lite 5G NE Global
   size: 6.6 GB
   version: V14.0.2.0.TKOMIXM
-- android: '13.0'
-  branch: Stable
-  codename: zeus
-  date: 2023-01-09
-  link: https://bigota.d.miui.com/V14.0.8.0.TLBCNXM/zeus_images_V14.0.8.0.TLBCNXM_20230109.0000.00_13.0_cn_8f9b23b485.tgz
-  md5: 8f9b23b485488144f6a3f62bba88e8f5
-  method: Fastboot
-  name: Xiaomi 12 Pro China
-  size: 7.5 GB
-  version: V14.0.8.0.TLBCNXM
 - android: '12.0'
   branch: Stable
   codename: fleur_eea_global
@@ -6658,6 +6648,16 @@
   name: Redmi Note 11S 4G / POCO M4 Pro 4G Russia
   size: 5.3 GB
   version: V13.0.10.0.RKERUXM
+- android: '13.0'
+  branch: Stable
+  codename: zeus
+  date: 2023-01-09
+  link: https://bigota.d.miui.com/V14.0.8.0.TLBCNXM/zeus_images_V14.0.8.0.TLBCNXM_20230109.0000.00_13.0_cn_8f9b23b485.tgz
+  md5: 8f9b23b485488144f6a3f62bba88e8f5
+  method: Fastboot
+  name: Xiaomi 12 Pro China
+  size: 7.5 GB
+  version: V14.0.8.0.TLBCNXM
 - android: '12.0'
   branch: Stable
   codename: spesn_global
@@ -6688,16 +6688,6 @@
   name: Xiaomi MIX Fold 2 China
   size: 7.7 GB
   version: V14.0.3.0.TLRCNXM
-- android: '12.0'
-  branch: Stable
-  codename: ice_global
-  date: 2023-01-09
-  link: https://bigota.d.miui.com/V13.0.15.0.SGMMIXM/miui_ICEGlobal_V13.0.15.0.SGMMIXM_4ce69d0051_12.0.zip
-  md5: 4ce69d0051e106ae1c122adc34080d9b
-  method: Recovery
-  name: Redmi A1 / POCO C50 Global
-  size: 1.6 GB
-  version: V13.0.15.0.SGMMIXM
 - android: '13.0'
   branch: Stable
   codename: diting
@@ -6708,6 +6698,16 @@
   name: Redmi K50 Ultra China
   size: 7.3 GB
   version: V14.0.5.0.TLFCNXM
+- android: '12.0'
+  branch: Stable
+  codename: ice_global
+  date: 2023-01-09
+  link: https://bigota.d.miui.com/V13.0.15.0.SGMMIXM/miui_ICEGlobal_V13.0.15.0.SGMMIXM_4ce69d0051_12.0.zip
+  md5: 4ce69d0051e106ae1c122adc34080d9b
+  method: Recovery
+  name: Redmi A1 / POCO C50 Global
+  size: 1.6 GB
+  version: V13.0.15.0.SGMMIXM
 - android: '12.0'
   branch: Stable
   codename: joyeuse_global
@@ -7048,16 +7048,6 @@
   name: POCO X5 5G  India
   size: 4.4 GB
   version: V13.0.1.0.SMPINXM
-- android: '13.0'
-  branch: Stable
-  codename: haydn
-  date: 2022-12-29
-  link: https://bigota.d.miui.com/V14.0.3.0.TKKCNXM/haydn_images_V14.0.3.0.TKKCNXM_20221229.0000.00_13.0_cn_10ab62ac3b.tgz
-  md5: 10ab62ac3bce589a2fec9d9020095b99
-  method: Fastboot
-  name: Redmi K40 Pro / Pro+ China
-  size: 6.7 GB
-  version: V14.0.3.0.TKKCNXM
 - android: '12.0'
   branch: Stable
   codename: camellian_eea_global
@@ -7978,6 +7968,16 @@
   name: Redmi Note 9T Global
   size: 3.2 GB
   version: V13.0.4.0.SJEMIXM
+- android: '13.0'
+  branch: Stable
+  codename: haydn
+  date: 2022-12-05
+  link: https://bigota.d.miui.com/V14.0.22.12.5.DEV/haydn_images_V14.0.22.12.5.DEV_20221205.0000.00_13.0_cn_chinatelecom_7a9a966203.tgz
+  md5: 7a9a966203dc00f52e97f95569d83bcb
+  method: Fastboot
+  name: Redmi K40 Pro / Pro+ China
+  size: 6.8 GB
+  version: V14.0.22.12.5.DEV
 - android: '12.0'
   branch: Stable
   codename: camellia
