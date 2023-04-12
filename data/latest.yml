@@ -200,16 +200,6 @@
   version: V14.0.1.0.TKSEUXM
 - android: '13.0'
   branch: Stable Beta
-  codename: munch_eea_global
-  date: 2023-04-06
-  link: https://bigota.d.miui.com/V14.0.3.0.TLMEUXM/miui_MUNCHEEAGlobal_V14.0.3.0.TLMEUXM_cc41176bf7_13.0.zip
-  md5: cc41176bf753f72f73fa00bea5cefdf2
-  method: Recovery
-  name: POCO F4 EEA
-  size: 3.8 GB
-  version: V14.0.3.0.TLMEUXM
-- android: '13.0'
-  branch: Stable Beta
   codename: thor
   date: 2023-04-06
   link: https://bigota.d.miui.com/V14.0.12.0.TLACNXM/miui_THOR_V14.0.12.0.TLACNXM_23666a76e3_13.0.zip
@@ -240,16 +230,6 @@
   version: V14.0.12.0.TMRCNXM
 - android: '13.0'
   branch: Stable Beta
-  codename: light_ru_global
-  date: 2023-04-04
-  link: https://bigota.d.miui.com/V14.0.1.0.TLSRUXM/miui_LIGHTRUGlobal_V14.0.1.0.TLSRUXM_3d61ec2d78_13.0.zip
-  md5: 3d61ec2d786c4806719e710fc1334c90
-  method: Recovery
-  name: Redmi 10 5G / POCO M4 5G Russia
-  size: 3.5 GB
-  version: V14.0.1.0.TLSRUXM
-- android: '13.0'
-  branch: Stable Beta
   codename: munch_id_global
   date: 2023-04-04
   link: https://bigota.d.miui.com/V14.0.6.0.TLMIDXM/miui_MUNCHIDGlobal_V14.0.6.0.TLMIDXM_ed9c17e13f_13.0.zip
@@ -258,6 +238,16 @@
   name: POCO F4 Indonesia
   size: 3.8 GB
   version: V14.0.6.0.TLMIDXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: light_ru_global
+  date: 2023-04-04
+  link: https://bigota.d.miui.com/V14.0.1.0.TLSRUXM/miui_LIGHTRUGlobal_V14.0.1.0.TLSRUXM_3d61ec2d78_13.0.zip
+  md5: 3d61ec2d786c4806719e710fc1334c90
+  method: Recovery
+  name: Redmi 10 5G / POCO M4 5G Russia
+  size: 3.5 GB
+  version: V14.0.1.0.TLSRUXM
 - android: '13.0'
   branch: Stable Beta
   codename: light_tw_global
@@ -278,6 +268,16 @@
   name: Redmi K50 Ultra China
   size: 5.9 GB
   version: V14.0.8.0.TLFCNXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: topaz_eea_global
+  date: 2023-04-04
+  link: https://bigota.d.miui.com/V14.0.4.0.TMGEUXM/miui_TOPAZEEAGlobal_V14.0.4.0.TMGEUXM_f568bed179_13.0.zip
+  md5: f568bed1794e6a4d64ec2cc664b53259
+  method: Recovery
+  name: Redmi Note 12 4G NFC EEA
+  size: 4.3 GB
+  version: V14.0.4.0.TMGEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: odin
@@ -3499,16 +3499,6 @@
   size: 2.7 GB
   version: V11.0.3.0.QJBTRXM
 - android: '13.0'
-  branch: Stable Beta
-  codename: topaz_eea_global
-  date: null
-  link: https://bigota.d.miui.com/V14.0.1.0.TMGEUXM/miui_TOPAZEEAGlobal_V14.0.1.0.TMGEUXM_aa5e91ec83_13.0.zip
-  md5: aa5e91ec83dabdbb5c1fd9840c0a9705
-  method: Recovery
-  name: Redmi Note 12 4G NFC EEA
-  size: 4.3 GB
-  version: V14.0.1.0.TMGEUXM
-- android: '13.0'
   branch: Stable
   codename: moonstone_eea_global
   date: 2023-04-07
@@ -3548,6 +3538,16 @@
   name: POCO F2 Pro Russia
   size: 3.7 GB
   version: V14.0.1.0.SJKRUXM
+- android: '13.0'
+  branch: Stable
+  codename: munch_eea_global
+  date: 2023-04-06
+  link: https://bigota.d.miui.com/V14.0.3.0.TLMEUXM/miui_MUNCHEEAGlobal_V14.0.3.0.TLMEUXM_cc41176bf7_13.0.zip
+  md5: cc41176bf753f72f73fa00bea5cefdf2
+  method: Recovery
+  name: POCO F4 EEA
+  size: 3.8 GB
+  version: V14.0.3.0.TLMEUXM
 - android: '12.0'
   branch: Stable
   codename: redwood_ru_global
@@ -4228,6 +4228,16 @@
   name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G EEA
   size: 6.1 GB
   version: V13.0.5.0.SKCEUXM
+- android: '13.0'
+  branch: Stable
+  codename: munch_eea_global
+  date: 2023-03-21
+  link: https://bigota.d.miui.com/V14.0.3.0.TLMEUXM/munch_eea_global_images_V14.0.3.0.TLMEUXM_20230321.0000.00_13.0_eea_6783cdff4b.tgz
+  md5: null
+  method: Fastboot
+  name: POCO F4 EEA
+  size: 5.9 GB
+  version: V14.0.3.0.TLMEUXM
 - android: '13.0'
   branch: Stable
   codename: rock_eea_global
@@ -6046,7 +6056,7 @@
   md5: 5465edb4ce578dbbfc931885190921ae
   method: Fastboot
   name: Redmi Note 12 4G NFC EEA
-  size: 369 Bytes
+  size: 6.5 GB
   version: V14.0.2.0.TMGEUXM
 - android: '13.0'
   branch: Stable
@@ -8228,16 +8238,6 @@
   name: Redmi Note 11 Pro 4G India
   size: 3.1 GB
   version: V13.0.6.0.SGDINXM
-- android: '13.0'
-  branch: Stable
-  codename: munch_eea_global
-  date: 2023-01-17
-  link: https://bigota.d.miui.com/V14.0.2.0.TLMEUXM/miui_MUNCHEEAGlobal_V14.0.2.0.TLMEUXM_36c47aa22c_13.0.zip
-  md5: 36c47aa22c55192221cf4f501e1abebe
-  method: Recovery
-  name: POCO F4 EEA
-  size: 3.9 GB
-  version: V14.0.2.0.TLMEUXM
 - android: '11.0'
   branch: Stable
   codename: frost_ru_global
@@ -8808,16 +8808,16 @@
   name: Xiaomi MIX Fold 2 China
   size: 6.1 GB
   version: V14.0.3.0.TLRCNXM
-- android: '12.0'
+- android: '13.0'
   branch: Stable
   codename: plato_global
   date: 2023-01-10
-  link: https://bigota.d.miui.com/V13.0.7.0.SLQMIXM/plato_global_images_V13.0.7.0.SLQMIXM_20230110.0000.00_12.0_global_83e3091768.tgz
-  md5: 83e3091768b46b13b6f749c6cb59a19d
+  link: https://bigota.d.miui.com/V14.0.1.0.TLQMIXM/plato_global_images_V14.0.1.0.TLQMIXM_20230110.0000.00_13.0_global_3020934006.tgz
+  md5: 30209340066a9a805d6c84820a93a9bb
   method: Fastboot
   name: Xiaomi 12T Global
-  size: 7.2 GB
-  version: V13.0.7.0.SLQMIXM
+  size: 7.4 GB
+  version: V14.0.1.0.TLQMIXM
 - android: '12.0'
   branch: Stable
   codename: plato_ru_global
@@ -9008,16 +9008,6 @@
   name: Redmi 10 5G / POCO M4 5G Russia
   size: 3.2 GB
   version: V13.0.6.0.SLSRUXM
-- android: '13.0'
-  branch: Stable
-  codename: munch_eea_global
-  date: 2023-01-04
-  link: https://bigota.d.miui.com/V14.0.2.0.TLMEUXM/munch_eea_global_images_V14.0.2.0.TLMEUXM_20230104.0000.00_13.0_eea_b0a69d363c.tgz
-  md5: b0a69d363ccbe0940a83699ac6580b9b
-  method: Fastboot
-  name: POCO F4 EEA
-  size: 6.0 GB
-  version: V14.0.2.0.TLMEUXM
 - android: '11.0'
   branch: Stable
   codename: frost_id_global
