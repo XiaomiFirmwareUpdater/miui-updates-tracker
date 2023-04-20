@@ -18,6 +18,16 @@
   name: POCO X5 Pro 5G EEA
   size: 4.7 GB
   version: V14.0.1.0.TMSEUXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: moonstone_in_global
+  date: 2023-04-20
+  link: https://bigota.d.miui.com/V14.0.2.0.TMPINXM/miui_MOONSTONEINGlobal_V14.0.2.0.TMPINXM_209d9aee4a_13.0.zip
+  md5: 209d9aee4a604e62da7c91dc5e97cddf
+  method: Recovery
+  name: POCO X5 5G  India
+  size: 3.4 GB
+  version: V14.0.2.0.TMPINXM
 - android: '12.0'
   branch: Stable Beta
   codename: selene_in_global
@@ -468,16 +478,6 @@
   name: Redmi Note 11 Pro 4G India
   size: 3.1 GB
   version: V13.0.7.0.SGDINXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: moonstone_in_global
-  date: 2023-04-10
-  link: https://bigota.d.miui.com/V13.0.3.0.SMPINXM/miui_MOONSTONEINGlobal_V13.0.3.0.SMPINXM_eca2b50868_12.0.zip
-  md5: eca2b50868e07cd9fe44d18f3091bddd
-  method: Recovery
-  name: POCO X5 5G  India
-  size: 3.5 GB
-  version: V13.0.3.0.SMPINXM
 - android: '13.0'
   branch: Stable Beta
   codename: pissarro_in_global
@@ -1218,16 +1218,6 @@
   name: Xiaomi 13 EEA
   size: 5.7 GB
   version: V14.0.19.0.TMCEUXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: nuwa_eea_global
-  date: 2023-03-13
-  link: https://bigota.d.miui.com/V14.0.19.0.TMBEUXM/miui_NUWAEEAGlobal_V14.0.19.0.TMBEUXM_58d299a75b_13.0.zip
-  md5: 58d299a75be0e1e3f599a10015f587af
-  method: Recovery
-  name: Xiaomi 13 Pro EEA
-  size: 5.7 GB
-  version: V14.0.19.0.TMBEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: pissarro_tw_global
@@ -3720,6 +3710,16 @@
   version: V14.0.4.0.TLQMIXM
 - android: '12.0'
   branch: Stable
+  codename: moonstone_in_global
+  date: 2023-04-10
+  link: https://bigota.d.miui.com/V13.0.3.0.SMPINXM/miui_MOONSTONEINGlobal_V13.0.3.0.SMPINXM_eca2b50868_12.0.zip
+  md5: eca2b50868e07cd9fe44d18f3091bddd
+  method: Recovery
+  name: POCO X5 5G  India
+  size: 3.5 GB
+  version: V13.0.3.0.SMPINXM
+- android: '12.0'
+  branch: Stable
   codename: moonstone_ru_global
   date: 2023-04-10
   link: https://bigota.d.miui.com/V13.0.4.0.SMPRUXM/miui_MOONSTONERUGlobal_V13.0.4.0.SMPRUXM_03842e7ce9_12.0.zip
@@ -5010,6 +5010,16 @@
   version: V13.0.4.0.SCVRUXM
 - android: '12.0'
   branch: Stable
+  codename: moonstone_in_global
+  date: 2023-03-21
+  link: https://bigota.d.miui.com/V13.0.3.0.SMPINXM/moonstone_in_global_images_V13.0.3.0.SMPINXM_20230321.0000.00_12.0_in_1741429bb4.tgz
+  md5: 1741429bb4ae62d74c84808e3fa5c8cf
+  method: Fastboot
+  name: POCO X5 5G  India
+  size: 4.6 GB
+  version: V13.0.3.0.SMPINXM
+- android: '12.0'
+  branch: Stable
   codename: ziyi_tr_global
   date: 2023-03-21
   link: https://bigota.d.miui.com/V14.0.2.0.SLLTRXM/miui_ZIYITRGlobal_V14.0.2.0.SLLTRXM_c4a948afb8_12.0.zip
@@ -5738,16 +5748,16 @@
   name: Xiaomi 13 Pro China
   size: 6.7 GB
   version: V14.0.22.0.TMBCNXM
-- android: '12.0'
+- android: '13.0'
   branch: Stable
-  codename: moonstone_in_global
+  codename: nuwa_eea_global
   date: 2023-03-13
-  link: https://bigota.d.miui.com/V13.0.1.0.SMPINXM/miui_MOONSTONEINGlobal_V13.0.1.0.SMPINXM_7dc8df9f8b_12.0.zip
-  md5: 7dc8df9f8b919f839182953f5efd6ffd
+  link: https://bigota.d.miui.com/V14.0.19.0.TMBEUXM/miui_NUWAEEAGlobal_V14.0.19.0.TMBEUXM_58d299a75b_13.0.zip
+  md5: 58d299a75be0e1e3f599a10015f587af
   method: Recovery
-  name: POCO X5 5G  India
-  size: 3.4 GB
-  version: V13.0.1.0.SMPINXM
+  name: Xiaomi 13 Pro EEA
+  size: 5.7 GB
+  version: V14.0.19.0.TMBEUXM
 - android: '12.0'
   branch: Stable
   codename: ruby_eea_global
@@ -5988,6 +5998,16 @@
   name: Redmi A1 / POCO C50 Global
   size: 2.1 GB
   version: V13.0.16.0.SGMMIXM
+- android: '13.0'
+  branch: Stable
+  codename: nuwa_eea_global
+  date: 2023-03-09
+  link: https://bigota.d.miui.com/V14.0.19.0.TMBEUXM/nuwa_eea_global_images_V14.0.19.0.TMBEUXM_20230309.0000.00_13.0_eea_70d5b77548.tgz
+  md5: 70d5b77548ebc4a5e0c401be0f25fe98
+  method: Fastboot
+  name: Xiaomi 13 Pro EEA
+  size: 7.3 GB
+  version: V14.0.19.0.TMBEUXM
 - android: '12.0'
   branch: Stable
   codename: earth_eea_global
@@ -6978,16 +6998,6 @@
   name: Xiaomi 13 Pro Global
   size: 5.6 GB
   version: V14.0.6.0.TMBMIXM
-- android: '13.0'
-  branch: Stable
-  codename: nuwa_eea_global
-  date: 2023-02-27
-  link: https://bigota.d.miui.com/V14.0.11.0.TMBEUXM/miui_NUWAEEAGlobal_V14.0.11.0.TMBEUXM_412c938038_13.0.zip
-  md5: 412c938038d2a17699d92f14aae21cfe
-  method: Recovery
-  name: Xiaomi 13 Pro EEA
-  size: 5.7 GB
-  version: V14.0.11.0.TMBEUXM
 - android: '12.0'
   branch: Stable
   codename: redwood_eea_global
@@ -8690,16 +8700,6 @@
   version: V14.0.15.0.TMCEUXM
 - android: '13.0'
   branch: Stable
-  codename: nuwa_eea_global
-  date: 2023-02-03
-  link: https://bigota.d.miui.com/V14.0.15.0.TMBEUXM/nuwa_eea_global_images_V14.0.15.0.TMBEUXM_20230203.0000.00_13.0_eea_e96acaa6fb.tgz
-  md5: e96acaa6fb5ec53a6fb3eb56925efaa0
-  method: Fastboot
-  name: Xiaomi 13 Pro EEA
-  size: 7.2 GB
-  version: V14.0.15.0.TMBEUXM
-- android: '13.0'
-  branch: Stable
   codename: courbet_eea_global
   date: 2023-02-02
   link: https://bigota.d.miui.com/V14.0.1.0.TKQEUXM/courbet_eea_global_images_V14.0.1.0.TKQEUXM_20230202.0000.00_13.0_eea_ab30d71790.tgz
@@ -9828,16 +9828,6 @@
   name: POCO M5S EEA
   size: 3.4 GB
   version: V13.0.4.0.SFFEUXM
-- android: '12.0'
-  branch: Stable
-  codename: moonstone_in_global
-  date: 2022-12-30
-  link: https://bigota.d.miui.com/V13.0.1.0.SMPINXM/moonstone_in_global_images_V13.0.1.0.SMPINXM_20221230.0000.00_12.0_in_a71f7bfce0.tgz
-  md5: a71f7bfce089b7d7b0ccb51ba91e20c4
-  method: Fastboot
-  name: POCO X5 5G  India
-  size: 4.4 GB
-  version: V13.0.1.0.SMPINXM
 - android: '12.0'
   branch: Stable
   codename: selene_in_global
