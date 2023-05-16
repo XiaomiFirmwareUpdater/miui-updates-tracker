@@ -30,6 +30,26 @@
   version: V12.5.4.0.RCRINRF
 - android: '13.0'
   branch: Stable Beta
+  codename: nabu_eea_global
+  date: 2023-05-12
+  link: https://bigota.d.miui.com/V14.0.5.0.TKXEUXM/miui_NABUEEAGlobal_V14.0.5.0.TKXEUXM_81d00ede6e_13.0.zip
+  md5: 81d00ede6e6add3b67598e0be1cb54b1
+  method: Recovery
+  name: Xiaomi Pad 5 EEA
+  size: 3.3 GB
+  version: V14.0.5.0.TKXEUXM
+- android: '12.0'
+  branch: Stable Beta
+  codename: ruby_global
+  date: 2023-05-12
+  link: https://bigota.d.miui.com/V14.0.6.0.SMOMIXM/miui_RUBYGlobal_V14.0.6.0.SMOMIXM_8d6c74adfa_12.0.zip
+  md5: 8d6c74adfa4793168b82815c76ebc0ba
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ 5G Global
+  size: 4.2 GB
+  version: V14.0.6.0.SMOMIXM
+- android: '13.0'
+  branch: Stable Beta
   codename: renoir_tw_global
   date: 2023-05-11
   link: https://bigota.d.miui.com/V14.0.4.0.TKITWXM/miui_RENOIRTWGlobal_V14.0.4.0.TKITWXM_6c21d6dd7a_13.0.zip
@@ -1178,16 +1198,6 @@
   name: Redmi K50i / Pro India
   size: 4.9 GB
   version: V14.0.2.0.TLOINXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: ruby_global
-  date: 2023-03-22
-  link: https://bigota.d.miui.com/V14.0.2.0.SMOMIXM/miui_RUBYGlobal_V14.0.2.0.SMOMIXM_4bbfd34dc6_12.0.zip
-  md5: 4bbfd34dc68c86454ae6d2e7dee58309
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ 5G Global
-  size: 4.1 GB
-  version: V14.0.2.0.SMOMIXM
 - android: '12.0'
   branch: Stable Beta
   codename: ruby_eea_global
@@ -2738,16 +2748,6 @@
   name: Redmi Note 8T Russia
   size: 2.5 GB
   version: V12.0.1.0.RCXRUXM
-- android: '11.0'
-  branch: Stable Beta
-  codename: nabu_eea_global
-  date: 2021-10-13
-  link: https://bigota.d.miui.com/V12.5.1.0.RKXEUXM/miui_NABUEEAGlobal_V12.5.1.0.RKXEUXM_1ea58d057b_11.0.zip
-  md5: null
-  method: Recovery
-  name: Xiaomi Pad 5 EEA
-  size: 2.7 GB
-  version: V12.5.1.0.RKXEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: nabu_tr_global
@@ -8453,7 +8453,7 @@
   codename: nabu_eea_global
   date: 2023-03-05
   link: https://bigota.d.miui.com/V14.0.4.0.TKXEUXM/nabu_eea_global_images_V14.0.4.0.TKXEUXM_20230305.0000.00_13.0_eea_d3eaf75a6f.tgz
-  md5: null
+  md5: d3eaf75a6f961339f2119d4a3b317fe0
   method: Fastboot
   name: Xiaomi Pad 5 EEA
   size: 4.1 GB
