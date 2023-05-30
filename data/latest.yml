@@ -190,6 +190,16 @@
   version: V14.0.2.0.TLMTWXM
 - android: '13.0'
   branch: Stable Beta
+  codename: ziyi
+  date: 2023-05-24
+  link: https://bigota.d.miui.com/V14.0.12.0.TLLCNXM/miui_ZIYI_V14.0.12.0.TLLCNXM_cb3f94575d_13.0.zip
+  md5: cb3f94575d273632b6df20e36d06aee0
+  method: Recovery
+  name: Xiaomi Civi 2 China
+  size: 5.8 GB
+  version: V14.0.12.0.TLLCNXM
+- android: '13.0'
+  branch: Stable Beta
   codename: redwood_ru_global
   date: 2023-05-24
   link: https://bigota.d.miui.com/V14.0.1.0.TMSRUXM/miui_REDWOODRUGlobal_V14.0.1.0.TMSRUXM_4288398401_13.0.zip
@@ -278,16 +288,6 @@
   name: Mi 10T / Mi 10T Pro India
   size: 3.4 GB
   version: V14.0.1.0.SJDINXM
-- android: '13.0'
-  branch: Stable Beta
-  codename: camellian_ru_global
-  date: 2023-05-22
-  link: https://bigota.d.miui.com/V14.0.2.0.TKSRUXM/miui_CAMELLIANRUGlobal_V14.0.2.0.TKSRUXM_83e50e4231_13.0.zip
-  md5: 83e50e42312678a037a367604cd8a4d0
-  method: Recovery
-  name: Redmi Note 10T / POCO M3 Pro Russia
-  size: 3.8 GB
-  version: V14.0.2.0.TKSRUXM
 - android: '13.0'
   branch: Stable Beta
   codename: camellian_tw_global
@@ -1868,16 +1868,6 @@
   name: POCO X3 Pro Global
   size: 3.4 GB
   version: V13.0.9.0.SJUMIXM
-- android: '12.0'
-  branch: Stable Beta
-  codename: ziyi
-  date: 2023-01-10
-  link: https://bigota.d.miui.com/V13.0.13.0.SLLCNXM/miui_ZIYI_V13.0.13.0.SLLCNXM_f2a3679d64_12.0.zip
-  md5: f2a3679d6463433fcc720d426b140aee
-  method: Recovery
-  name: Xiaomi Civi 2 China
-  size: 5.6 GB
-  version: V13.0.13.0.SLLCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: odin
@@ -3460,6 +3450,16 @@
   version: V13.0.10.0.SGMINXM
 - android: '13.0'
   branch: Stable
+  codename: camellian_ru_global
+  date: 2023-05-22
+  link: https://bigota.d.miui.com/V14.0.2.0.TKSRUXM/miui_CAMELLIANRUGlobal_V14.0.2.0.TKSRUXM_83e50e4231_13.0.zip
+  md5: 83e50e42312678a037a367604cd8a4d0
+  method: Recovery
+  name: Redmi Note 10T / POCO M3 Pro Russia
+  size: 3.8 GB
+  version: V14.0.2.0.TKSRUXM
+- android: '13.0'
+  branch: Stable
   codename: nuwa_ru_global
   date: 2023-05-22
   link: https://bigota.d.miui.com/V14.0.6.0.TMBRUXM/miui_NUWARUGlobal_V14.0.6.0.TMBRUXM_e95181d62e_13.0.zip
@@ -3598,6 +3598,16 @@
   name: Redmi 9T EEA
   size: 3.3 GB
   version: V14.0.3.0.SJQEUXM
+- android: '13.0'
+  branch: Stable
+  codename: camellian_ru_global
+  date: 2023-05-17
+  link: https://bigota.d.miui.com/V14.0.2.0.TKSRUXM/camellian_ru_global_images_V14.0.2.0.TKSRUXM_20230517.0000.00_13.0_ru_135c0c826a.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi Note 10T / POCO M3 Pro Russia
+  size: 5.7 GB
+  version: V14.0.2.0.TKSRUXM
 - android: '13.0'
   branch: Stable
   codename: biloba_global
@@ -8538,16 +8548,6 @@
   name: Mi 10T / Mi 10T Pro EEA
   size: 4.9 GB
   version: V14.0.1.0.SJDEUXM
-- android: '12.0'
-  branch: Stable
-  codename: camellian_ru_global
-  date: 2023-03-17
-  link: https://bigota.d.miui.com/V13.0.5.0.SKSRUXM/miui_CAMELLIANRUGlobal_V13.0.5.0.SKSRUXM_148c07fb83_12.0.zip
-  md5: 148c07fb83519c51e1c17c7370ad31c4
-  method: Recovery
-  name: Redmi Note 10T / POCO M3 Pro Russia
-  size: 3.2 GB
-  version: V13.0.5.0.SKSRUXM
 - android: '13.0'
   branch: Stable
   codename: camellia
@@ -9448,16 +9448,6 @@
   name: Redmi Note 10 5G Indonesia
   size: 5.6 GB
   version: V13.0.6.0.SKSIDXM
-- android: '12.0'
-  branch: Stable
-  codename: camellian_ru_global
-  date: 2023-03-06
-  link: https://bigota.d.miui.com/V13.0.5.0.SKSRUXM/camellian_ru_global_images_V13.0.5.0.SKSRUXM_20230306.0000.00_12.0_global_77a3ecebb1.tgz
-  md5: 77a3ecebb136e542dd4debdc54f074be
-  method: Fastboot
-  name: Redmi Note 10T / POCO M3 Pro Russia
-  size: 5.4 GB
-  version: V13.0.5.0.SKSRUXM
 - android: '13.0'
   branch: Stable
   codename: rosemary_global
