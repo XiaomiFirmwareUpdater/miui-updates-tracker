@@ -670,16 +670,6 @@
   version: V14.0.2.0.SJSTRXM
 - android: '12.0'
   branch: Stable Beta
-  codename: sunstone_eea_global
-  date: 2023-05-08
-  link: https://bigota.d.miui.com/V14.0.7.0.SMQEUXM/miui_SUNSTONEEEAGlobal_V14.0.7.0.SMQEUXM_c762988963_12.0.zip
-  md5: c762988963ca7d54f0c17f95943eb4b5
-  method: Recovery
-  name: Redmi Note 12 5G EEA
-  size: 3.9 GB
-  version: V14.0.7.0.SMQEUXM
-- android: '12.0'
-  branch: Stable Beta
   codename: excalibur_in_global
   date: 2023-05-06
   link: https://bigota.d.miui.com/V14.0.2.0.SJXINXM/miui_EXCALIBURINGlobal_V14.0.2.0.SJXINXM_19c8eaf37a_12.0.zip
@@ -4728,6 +4718,16 @@
   name: Xiaomi 13 Pro Russia
   size: 6.9 GB
   version: V14.0.6.0.TMBRUXM
+- android: '12.0'
+  branch: Stable
+  codename: sunstone_eea_global
+  date: 2023-05-08
+  link: https://bigota.d.miui.com/V14.0.7.0.SMQEUXM/miui_SUNSTONEEEAGlobal_V14.0.7.0.SMQEUXM_c762988963_12.0.zip
+  md5: c762988963ca7d54f0c17f95943eb4b5
+  method: Recovery
+  name: Redmi Note 12 5G EEA
+  size: 3.9 GB
+  version: V14.0.7.0.SMQEUXM
 - android: '13.0'
   branch: Stable
   codename: marble_global
@@ -5478,6 +5478,16 @@
   name: Redmi K60E China
   size: 5.9 GB
   version: V14.0.1.0.TMMCNXM
+- android: '12.0'
+  branch: Stable
+  codename: sunstone_eea_global
+  date: 2023-04-25
+  link: https://bigota.d.miui.com/V14.0.7.0.SMQEUXM/sunstone_eea_global_images_V14.0.7.0.SMQEUXM_20230425.0000.00_12.0_eea_d508730340.tgz
+  md5: d50873034066cd8f21d87b3ec307283f
+  method: Fastboot
+  name: Redmi Note 12 5G EEA
+  size: 6.1 GB
+  version: V14.0.7.0.SMQEUXM
 - android: '13.0'
   branch: Stable
   codename: topaz_id_global
@@ -7688,16 +7698,6 @@
   name: Xiaomi Civi 2 / 13 Lite Taiwan
   size: 6.0 GB
   version: V14.0.3.0.SLLTWXM
-- android: '12.0'
-  branch: Stable
-  codename: sunstone_eea_global
-  date: 2023-03-30
-  link: https://bigota.d.miui.com/V14.0.6.0.SMQEUXM/miui_SUNSTONEEEAGlobal_V14.0.6.0.SMQEUXM_85ffd31644_12.0.zip
-  md5: 85ffd3164450088e822be04f5678e1ae
-  method: Recovery
-  name: Redmi Note 12 5G EEA
-  size: 3.9 GB
-  version: V14.0.6.0.SMQEUXM
 - android: '13.0'
   branch: Stable
   codename: cas
@@ -8258,16 +8258,6 @@
   name: POCO M5 / Redmi 11 Prime 4G India
   size: 4.9 GB
   version: V13.0.11.0.SLUINXM
-- android: '12.0'
-  branch: Stable
-  codename: sunstone_eea_global
-  date: 2023-03-24
-  link: https://bigota.d.miui.com/V14.0.6.0.SMQEUXM/sunstone_eea_global_images_V14.0.6.0.SMQEUXM_20230324.0000.00_12.0_eea_45cd8be0e0.tgz
-  md5: 45cd8be0e0f456b65c5548117a9394db
-  method: Fastboot
-  name: Redmi Note 12 5G EEA
-  size: 6.0 GB
-  version: V14.0.6.0.SMQEUXM
 - android: '13.0'
   branch: Stable
   codename: topaz_ru_global
@@ -10133,7 +10123,7 @@
   codename: star_in_global
   date: 2023-02-22
   link: https://bigota.d.miui.com/V14.0.1.0.TKAINXM/star_in_global_images_V14.0.1.0.TKAINXM_20230222.0000.00_13.0_in_8fb0e4dc82.tgz
-  md5: null
+  md5: 8fb0e4dc82d95297095f194966153bda
   method: Fastboot
   name: Mi 11 Ultra India
   size: 5.5 GB
@@ -10543,7 +10533,7 @@
   codename: haydn_eea_global
   date: 2023-02-14
   link: https://bigota.d.miui.com/V14.0.1.0.TKKEUXM/haydn_eea_global_images_V14.0.1.0.TKKEUXM_20230214.0000.00_13.0_eea_a9295eccbf.tgz
-  md5: null
+  md5: a9295eccbfdad2e903b44d9dedd9dbed
   method: Fastboot
   name: Mi 11i EEA
   size: 6.5 GB
