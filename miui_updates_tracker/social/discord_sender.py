@@ -3,11 +3,11 @@ import logging
 from typing import List
 from urllib.parse import quote
 
-from discord import Client, Embed, Colour, HTTPException, Intents
+from discord import Client, Colour, Embed, HTTPException, Intents
 from humanize import naturalsize
 
 from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_full_name, get_device_name, get_incremental
+from miui_updates_tracker.common.database.database import get_device_name, get_full_name, get_incremental
 from miui_updates_tracker.common.database.models.miui_update import Update
 
 logger = logging.getLogger(__name__)
@@ -67,7 +67,7 @@ class DiscordBot(Client):
             if device.startswith(name):
                 await channel.send(embed=embed)
                 return
-        await self.channels['other_phones'].send(embed=embed)
+        await self.channels['other_xiaomi_phones'].send(embed=embed)
 
     async def on_ready(self):
         """Prepare"""
