@@ -37,5 +37,5 @@ def get_region_code_from_codename(codename):
 def is_rom_working_link(rom_link: str) -> bool:
     head_response = head(rom_link)
     return bool(
-        head_response.ok and head_response.headers.get("Content-Length", 0) > 1024
+        head_response.ok and int(head_response.headers.get("Content-Length", 0)) > 1024
     )
