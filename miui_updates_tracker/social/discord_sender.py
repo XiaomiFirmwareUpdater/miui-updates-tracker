@@ -67,7 +67,7 @@ class DiscordBot(Client):
             if device.startswith(name):
                 await channel.send(embed=embed)
                 return
-        await self.channels['other_xiaomi_phones'].send(embed=embed)
+        await self.channels['other xiaomi phones'].send(embed=embed)
 
     async def on_ready(self):
         """Prepare"""
