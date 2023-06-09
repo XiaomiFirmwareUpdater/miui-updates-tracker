@@ -588,16 +588,16 @@
   name: POCO F3 EEA
   size: 5.9 GB
   version: V14.0.7.0.TKHEUXM
-- android: '11.0'
+- android: '13.0'
   branch: Stable Beta
   codename: alioth_global
-  date: 2021-09-03
-  link: https://bigota.d.miui.com/V12.5.3.0.RKHMIXM/miui_ALIOTHGlobal_V12.5.3.0.RKHMIXM_b628b9f893_11.0.zip
-  md5: b628b9f893b7c5abc6426b4795eaf6e1
+  date: 2023-06-05
+  link: https://bigota.d.miui.com/V14.0.7.0.TKHMIXM/miui_ALIOTHGlobal_V14.0.7.0.TKHMIXM_30afed978c_13.0.zip
+  md5: 30afed978cf0d69735b7d9fbf7986eea
   method: Recovery
   name: POCO F3 Global
-  size: 3.1 GB
-  version: V12.5.3.0.RKHMIXM
+  size: 4.0 GB
+  version: V14.0.7.0.TKHMIXM
 - android: '13.0'
   branch: Stable
   codename: alioth_global
@@ -7488,8 +7488,18 @@
   name: Redmi K40 Pro / Pro+ China
   size: 6.8 GB
   version: V14.0.22.12.5.DEV
-- android: '13.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: haydn_eea_global
+  date: 2021-05-18
+  link: https://bigota.d.miui.com/V12.0.3.0.RKKEUXM/miui_HAYDNEEAGlobal_V12.0.3.0.RKKEUXM_3854fa809c_11.0.zip
+  md5: 3854fa809cbb55878e757bd245425a02
+  method: Recovery
+  name: Mi 11i EEA
+  size: 3.1 GB
+  version: V12.0.3.0.RKKEUXM
+- android: '13.0'
+  branch: Stable
   codename: haydn_eea_global
   date: 2023-05-31
   link: https://bigota.d.miui.com/V14.0.3.0.TKKEUXM/miui_HAYDNEEAGlobal_V14.0.3.0.TKKEUXM_1c326eedcf_13.0.zip
@@ -7501,23 +7511,13 @@
 - android: '13.0'
   branch: Stable
   codename: haydn_eea_global
-  date: 2023-02-24
-  link: https://bigota.d.miui.com/V14.0.1.0.TKKEUXM/miui_HAYDNEEAGlobal_V14.0.1.0.TKKEUXM_9bc9199c74_13.0.zip
-  md5: 9bc9199c7487db4934e95ee780528f2b
-  method: Recovery
-  name: Mi 11i EEA
-  size: 4.6 GB
-  version: V14.0.1.0.TKKEUXM
-- android: '13.0'
-  branch: Stable
-  codename: haydn_eea_global
-  date: 2023-02-14
-  link: https://bigota.d.miui.com/V14.0.1.0.TKKEUXM/haydn_eea_global_images_V14.0.1.0.TKKEUXM_20230214.0000.00_13.0_eea_a9295eccbf.tgz
-  md5: a9295eccbfdad2e903b44d9dedd9dbed
+  date: 2023-05-15
+  link: https://bigota.d.miui.com/V14.0.3.0.TKKEUXM/haydn_eea_global_images_V14.0.3.0.TKKEUXM_20230515.0000.00_13.0_eea_a5e863ad59.tgz
+  md5: a5e863ad5958c1bd7d062bcfb9b13671
   method: Fastboot
   name: Mi 11i EEA
-  size: 6.5 GB
-  version: V14.0.1.0.TKKEUXM
+  size: 6.4 GB
+  version: V14.0.3.0.TKKEUXM
 - android: '12.0'
   branch: Stable Beta
   codename: haydn_global
@@ -17759,7 +17759,7 @@
   size: 5.7 GB
   version: V14.0.1.0.TKAIDXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: star_in_global
   date: 2023-06-01
   link: https://bigota.d.miui.com/V14.0.2.0.TKAINXM/miui_STARINGlobal_V14.0.2.0.TKAINXM_260004a39c_13.0.zip
@@ -17771,23 +17771,13 @@
 - android: '13.0'
   branch: Stable
   codename: star_in_global
-  date: 2023-03-21
-  link: https://bigota.d.miui.com/V14.0.1.0.TKAINXM/miui_STARINGlobal_V14.0.1.0.TKAINXM_823ac4c79b_13.0.zip
-  md5: 823ac4c79be9f877f7618fa73de7da79
-  method: Recovery
-  name: Mi 11 Ultra India
-  size: 4.8 GB
-  version: V14.0.1.0.TKAINXM
-- android: '13.0'
-  branch: Stable
-  codename: star_in_global
-  date: 2023-02-22
-  link: https://bigota.d.miui.com/V14.0.1.0.TKAINXM/star_in_global_images_V14.0.1.0.TKAINXM_20230222.0000.00_13.0_in_8fb0e4dc82.tgz
-  md5: 8fb0e4dc82d95297095f194966153bda
+  date: 2023-05-22
+  link: https://bigota.d.miui.com/V14.0.2.0.TKAINXM/star_in_global_images_V14.0.2.0.TKAINXM_20230522.0000.00_13.0_in_e0f1e035b2.tgz
+  md5: e0f1e035b230bc100bfe96a80b21415a
   method: Fastboot
   name: Mi 11 Ultra India
-  size: 5.5 GB
-  version: V14.0.1.0.TKAINXM
+  size: 5.6 GB
+  version: V14.0.2.0.TKAINXM
 - android: '12.0'
   branch: Stable Beta
   codename: sunstone
