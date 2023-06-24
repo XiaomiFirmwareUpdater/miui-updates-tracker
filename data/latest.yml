@@ -2858,8 +2858,18 @@
   name: Mi 5s Global
   size: 1.7 GB
   version: 9.6.27
-- android: '13.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: cas
+  date: 2022-05-27
+  link: https://bigota.d.miui.com/V13.0.4.0.SJJCNXM/miui_CAS_V13.0.4.0.SJJCNXM_0dd5e33084_12.0.zip
+  md5: 0dd5e33084dabb3e8f8f4d56ec4bb803
+  method: Recovery
+  name: Mi 10 Ultra China
+  size: 4.6 GB
+  version: V13.0.4.0.SJJCNXM
+- android: '13.0'
+  branch: Stable
   codename: cas
   date: 2023-06-14
   link: https://bigota.d.miui.com/V14.0.2.0.TJJCNXM/miui_CAS_V14.0.2.0.TJJCNXM_8064d8e1fb_13.0.zip
@@ -2871,23 +2881,13 @@
 - android: '13.0'
   branch: Stable
   codename: cas
-  date: 2023-04-06
-  link: https://bigota.d.miui.com/V14.0.1.0.TJJCNXM/miui_CAS_V14.0.1.0.TJJCNXM_8ff78bbc57_13.0.zip
-  md5: 8ff78bbc57b74b24e5ecae10becef214
-  method: Recovery
-  name: Mi 10 Ultra China
-  size: 4.6 GB
-  version: V14.0.1.0.TJJCNXM
-- android: '13.0'
-  branch: Stable
-  codename: cas
-  date: 2023-03-29
-  link: https://bigota.d.miui.com/V14.0.1.0.TJJCNXM/cas_images_V14.0.1.0.TJJCNXM_20230329.0000.00_13.0_cn_8dd2caa8b8.tgz
-  md5: 8dd2caa8b8590bab206d83d7fd781e1b
+  date: 2023-06-05
+  link: https://bigota.d.miui.com/V14.0.2.0.TJJCNXM/cas_images_V14.0.2.0.TJJCNXM_20230605.0000.00_13.0_cn_ffb47fd80e.tgz
+  md5: ffb47fd80ec0bb37e43dc530e68540f7
   method: Fastboot
   name: Mi 10 Ultra China
-  size: 6.1 GB
-  version: V14.0.1.0.TJJCNXM
+  size: 6.0 GB
+  version: V14.0.2.0.TJJCNXM
 - android: '12.0'
   branch: Weekly
   codename: cas
@@ -10769,6 +10769,16 @@
   size: 7.4 GB
   version: V14.0.20.0.TMRCNXM
 - android: '13.0'
+  branch: Stable Beta
+  codename: marble_eea_global
+  date: 2023-06-21
+  link: https://bigota.d.miui.com/V14.0.7.0.TMREUXM/miui_MARBLEEEAGlobal_V14.0.7.0.TMREUXM_6b217a90d3_13.0.zip
+  md5: 6b217a90d3cd633b403c60034366a1d0
+  method: Recovery
+  name: POCO F5 EEA
+  size: 5.0 GB
+  version: V14.0.7.0.TMREUXM
+- android: '13.0'
   branch: Stable
   codename: marble_eea_global
   date: 2023-05-09
@@ -10788,6 +10798,16 @@
   name: POCO F5 EEA
   size: 7.3 GB
   version: V14.0.6.0.TMREUXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: marble_global
+  date: 2023-06-21
+  link: https://bigota.d.miui.com/V14.0.5.0.TMRMIXM/miui_MARBLEGlobal_V14.0.5.0.TMRMIXM_7c12a4a6ea_13.0.zip
+  md5: 7c12a4a6ea685d16a866905b93ce5867
+  method: Recovery
+  name: POCO F5 Global
+  size: 5.0 GB
+  version: V14.0.5.0.TMRMIXM
 - android: '13.0'
   branch: Stable
   codename: marble_global
@@ -12268,6 +12288,16 @@
   name: POCO F4 Indonesia
   size: 5.8 GB
   version: V14.0.6.0.TLMIDXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: munch_in_global
+  date: 2023-06-21
+  link: https://bigota.d.miui.com/V14.0.5.0.TLMINXM/miui_MUNCHINGlobal_V14.0.5.0.TLMINXM_ff11453ea0_13.0.zip
+  md5: ff11453ea07efeddfe0a11da21d359fb
+  method: Recovery
+  name: POCO F4 India
+  size: 3.8 GB
+  version: V14.0.5.0.TLMINXM
 - android: '13.0'
   branch: Stable
   codename: munch_in_global
@@ -19731,13 +19761,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: umi_id_global
-  date: 2023-05-09
-  link: https://bigota.d.miui.com/V14.0.1.0.TJBIDXM/miui_UMIIDGlobal_V14.0.1.0.TJBIDXM_267174db92_13.0.zip
-  md5: 267174db92112550911e3baa9a8fabd3
+  date: 2023-06-19
+  link: https://bigota.d.miui.com/V14.0.3.0.TJBIDXM/miui_UMIIDGlobal_V14.0.3.0.TJBIDXM_bc802f7e8e_13.0.zip
+  md5: bc802f7e8eb6ac4e0ca43737c6d800c9
   method: Recovery
   name: Mi 10 Indonesia
   size: 4.1 GB
-  version: V14.0.1.0.TJBIDXM
+  version: V14.0.3.0.TJBIDXM
 - android: '13.0'
   branch: Stable
   codename: umi_id_global
