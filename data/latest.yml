@@ -4358,8 +4358,18 @@
   name: Redmi Note 9 Pro India
   size: 3.6 GB
   version: V14.0.3.0.SJWINXM
-- android: '12.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: curtana_in_rf_global
+  date: 2022-08-24
+  link: https://bigota.d.miui.com/V12.5.10.0.RJWINRF/miui_CURTANAINRFGlobal_V12.5.10.0.RJWINRF_c4f977c213_11.0.zip
+  md5: c4f977c2132d25ea03541cee4b828ec4
+  method: Recovery
+  name: Redmi Note 10 Lite India
+  size: 2.8 GB
+  version: V12.5.10.0.RJWINRF
+- android: '12.0'
+  branch: Stable
   codename: curtana_in_rf_global
   date: 2023-06-30
   link: https://bigota.d.miui.com/V14.0.5.0.SJWINRF/miui_CURTANAINRFGlobal_V14.0.5.0.SJWINRF_5d510c37fb_12.0.zip
@@ -4371,23 +4381,13 @@
 - android: '12.0'
   branch: Stable
   codename: curtana_in_rf_global
-  date: 2023-04-24
-  link: https://bigota.d.miui.com/V14.0.2.0.SJWINRF/miui_CURTANAINRFGlobal_V14.0.2.0.SJWINRF_b6c288a7de_12.0.zip
-  md5: b6c288a7decab1f0a773fcf4fdf3ac8d
-  method: Recovery
-  name: Redmi Note 10 Lite India
-  size: 3.0 GB
-  version: V14.0.2.0.SJWINRF
-- android: '12.0'
-  branch: Stable
-  codename: curtana_in_rf_global
-  date: 2023-04-10
-  link: https://bigota.d.miui.com/V14.0.2.0.SJWINRF/curtana_in_rf_global_images_V14.0.2.0.SJWINRF_20230410.0000.00_12.0_in_441dee9173.tgz
-  md5: 441dee9173a82eef2d84c4d5d4156d2f
+  date: 2023-06-19
+  link: https://bigota.d.miui.com/V14.0.5.0.SJWINRF/curtana_in_rf_global_images_V14.0.5.0.SJWINRF_20230619.0000.00_12.0_in_4176b4342c.tgz
+  md5: 4176b4342c876fc24e965852a241f792
   method: Fastboot
   name: Redmi Note 10 Lite India
   size: 3.7 GB
-  version: V14.0.2.0.SJWINRF
+  version: V14.0.5.0.SJWINRF
 - android: '12.0'
   branch: Stable
   codename: curtana_ru_global
@@ -13011,6 +13011,16 @@
 - android: '13.0'
   branch: Stable Beta
   codename: odin
+  date: 2023-01-08
+  link: https://bigota.d.miui.com/V14.0.1.0.TKMCNXM/miui_ODIN_V14.0.1.0.TKMCNXM_dd4b49c456_13.0.zip
+  md5: dd4b49c456e5ddf5b271edf0388e3f4c
+  method: Recovery
+  name: MIX 4 China
+  size: 5.9 GB
+  version: V14.0.1.0.TKMCNXM
+- android: '13.0'
+  branch: Stable
+  codename: odin
   date: 2023-06-26
   link: https://bigota.d.miui.com/V14.0.6.0.TKMCNXM/miui_ODIN_V14.0.6.0.TKMCNXM_444a9dea66_13.0.zip
   md5: 444a9dea66fcd49455594b504360a339
@@ -13021,23 +13031,13 @@
 - android: '13.0'
   branch: Stable
   codename: odin
-  date: 2023-04-03
-  link: https://bigota.d.miui.com/V14.0.4.0.TKMCNXM/miui_ODIN_V14.0.4.0.TKMCNXM_93a33b9259_13.0.zip
-  md5: 93a33b9259364c20672b04cb9697d375
-  method: Recovery
-  name: MIX 4 China
-  size: 5.9 GB
-  version: V14.0.4.0.TKMCNXM
-- android: '13.0'
-  branch: Stable
-  codename: odin
-  date: 2023-03-13
-  link: https://bigota.d.miui.com/V14.0.4.0.TKMCNXM/odin_images_V14.0.4.0.TKMCNXM_20230313.0000.00_13.0_cn_e7f39f24f2.tgz
-  md5: e7f39f24f2c8f99386580ce13bb51918
+  date: 2023-06-14
+  link: https://bigota.d.miui.com/V14.0.6.0.TKMCNXM/odin_images_V14.0.6.0.TKMCNXM_20230614.0000.00_13.0_cn_c3283794ee.tgz
+  md5: c3283794eeade3332aba5cb6e9a02fab
   method: Fastboot
   name: MIX 4 China
-  size: 7.4 GB
-  version: V14.0.4.0.TKMCNXM
+  size: 7.2 GB
+  version: V14.0.6.0.TKMCNXM
 - android: '12.0'
   branch: Weekly
   codename: odin
@@ -18389,7 +18389,7 @@
   size: 6.2 GB
   version: V14.0.2.0.TKFIDXM
 - android: '12.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sweet_k6a_eea_global
   date: 2023-06-27
   link: https://bigota.d.miui.com/V14.0.1.0.SHGEUXM/miui_SWEETK6AEEAGlobal_V14.0.1.0.SHGEUXM_98e69b924a_12.0.zip
@@ -18398,26 +18398,16 @@
   name: Redmi Note 12 Pro 4G EEA
   size: 3.9 GB
   version: V14.0.1.0.SHGEUXM
-- android: '11.0'
+- android: '12.0'
   branch: Stable
   codename: sweet_k6a_eea_global
-  date: 2023-05-12
-  link: https://bigota.d.miui.com/V13.0.4.0.RHGEUXM/miui_SWEETK6AEEAGlobal_V13.0.4.0.RHGEUXM_cbfe2f77ed_11.0.zip
-  md5: cbfe2f77ed47f9b7d1f8c49474974d66
-  method: Recovery
-  name: Redmi Note 12 Pro 4G EEA
-  size: 3.7 GB
-  version: V13.0.4.0.RHGEUXM
-- android: '11.0'
-  branch: Stable
-  codename: sweet_k6a_eea_global
-  date: 2023-04-26
-  link: https://bigota.d.miui.com/V13.0.4.0.RHGEUXM/sweet_k6a_eea_global_images_V13.0.4.0.RHGEUXM_20230426.0000.00_11.0_eea_defe932d75.tgz
-  md5: defe932d759169ea1b9dfe609eb41b3f
+  date: 2023-06-19
+  link: https://bigota.d.miui.com/V14.0.1.0.SHGEUXM/sweet_k6a_eea_global_images_V14.0.1.0.SHGEUXM_20230619.0000.00_12.0_eea_5882ffc9cb.tgz
+  md5: 5882ffc9cbe0ca825a4ef1d202447b15
   method: Fastboot
   name: Redmi Note 12 Pro 4G EEA
-  size: 6.1 GB
-  version: V13.0.4.0.RHGEUXM
+  size: 6.4 GB
+  version: V14.0.1.0.SHGEUXM
 - android: '12.0'
   branch: Stable
   codename: sweet_k6a_global
@@ -19231,6 +19221,16 @@
 - android: '13.0'
   branch: Stable Beta
   codename: topaz_id_global
+  date: 2023-04-10
+  link: https://bigota.d.miui.com/V14.0.1.0.TMGIDXM/miui_TOPAZIDGlobal_V14.0.1.0.TMGIDXM_ca4db59e50_13.0.zip
+  md5: ca4db59e5029337530998d1234e59686
+  method: Recovery
+  name: Redmi Note 12 4G NFC Indonesia
+  size: 4.1 GB
+  version: V14.0.1.0.TMGIDXM
+- android: '13.0'
+  branch: Stable
+  codename: topaz_id_global
   date: 2023-06-26
   link: https://bigota.d.miui.com/V14.0.4.0.TMGIDXM/miui_TOPAZIDGlobal_V14.0.4.0.TMGIDXM_99144da840_13.0.zip
   md5: 99144da840264a520c840ff3cb88f364
@@ -19241,23 +19241,13 @@
 - android: '13.0'
   branch: Stable
   codename: topaz_id_global
-  date: 2023-05-06
-  link: https://bigota.d.miui.com/V14.0.3.0.TMGIDXM/miui_TOPAZIDGlobal_V14.0.3.0.TMGIDXM_fb33b01791_13.0.zip
-  md5: fb33b01791cec2ac00bdbaeda60f0ca5
-  method: Recovery
-  name: Redmi Note 12 4G NFC Indonesia
-  size: 4.2 GB
-  version: V14.0.3.0.TMGIDXM
-- android: '13.0'
-  branch: Stable
-  codename: topaz_id_global
-  date: 2023-04-25
-  link: https://bigota.d.miui.com/V14.0.3.0.TMGIDXM/topaz_id_global_images_V14.0.3.0.TMGIDXM_20230425.0000.00_13.0_id_2e01f1ca77.tgz
-  md5: 2e01f1ca772f51a9672e324b8a0d3194
+  date: 2023-06-19
+  link: https://bigota.d.miui.com/V14.0.4.0.TMGIDXM/topaz_id_global_images_V14.0.4.0.TMGIDXM_20230619.0000.00_13.0_id_50da3c4c30.tgz
+  md5: 50da3c4c30efac28a4996eac9b5b878e
   method: Fastboot
   name: Redmi Note 12 4G NFC Indonesia
-  size: 6.1 GB
-  version: V14.0.3.0.TMGIDXM
+  size: 6.4 GB
+  version: V14.0.4.0.TMGIDXM
 - android: '13.0'
   branch: Stable Beta
   codename: topaz_ru_global
@@ -20459,7 +20449,7 @@
   size: 6.0 GB
   version: V14.0.2.0.TKBIDXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: venus_ru_global
   date: 2023-06-29
   link: https://bigota.d.miui.com/V14.0.3.0.TKBRUXM/miui_VENUSRUGlobal_V14.0.3.0.TKBRUXM_890b280cda_13.0.zip
@@ -20471,23 +20461,13 @@
 - android: '13.0'
   branch: Stable
   codename: venus_ru_global
-  date: 2023-03-28
-  link: https://bigota.d.miui.com/V14.0.1.0.TKBRUXM/miui_VENUSRUGlobal_V14.0.1.0.TKBRUXM_e1e1c1222e_13.0.zip
-  md5: e1e1c1222e31a8833e0871c14e41f285
-  method: Recovery
-  name: Mi 11 Russia
-  size: 4.7 GB
-  version: V14.0.1.0.TKBRUXM
-- android: '13.0'
-  branch: Stable
-  codename: venus_ru_global
-  date: 2023-03-03
-  link: https://bigota.d.miui.com/V14.0.1.0.TKBRUXM/venus_ru_global_images_V14.0.1.0.TKBRUXM_20230303.0000.00_13.0_ru_10577ca747.tgz
+  date: 2023-06-19
+  link: https://bigota.d.miui.com/V14.0.3.0.TKBRUXM/venus_ru_global_images_V14.0.3.0.TKBRUXM_20230619.0000.00_13.0_ru_358a9339c4.tgz
   md5: null
   method: Fastboot
   name: Mi 11 Russia
-  size: 6.2 GB
-  version: V14.0.1.0.TKBRUXM
+  size: 6.1 GB
+  version: V14.0.3.0.TKBRUXM
 - android: '13.0'
   branch: Stable Beta
   codename: venus_tr_global
