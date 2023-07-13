@@ -10078,8 +10078,18 @@
   name: Xiaomi 11 Lite 5G NE EEA
   size: 6.4 GB
   version: V14.0.7.0.TKOEUXM
-- android: '13.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: lisa_global
+  date: 2021-09-16
+  link: https://bigota.d.miui.com/V12.5.1.0.RKOMIXM/miui_LISAGlobal_V12.5.1.0.RKOMIXM_076be2f277_11.0.zip
+  md5: 076be2f27720e7430d8fdd4b7c1f990a
+  method: Recovery
+  name: Xiaomi 11 Lite 5G NE Global
+  size: 3.1 GB
+  version: V12.5.1.0.RKOMIXM
+- android: '13.0'
+  branch: Stable
   codename: lisa_global
   date: 2023-07-03
   link: https://bigota.d.miui.com/V14.0.4.0.TKOMIXM/miui_LISAGlobal_V14.0.4.0.TKOMIXM_eba9fd5482_13.0.zip
@@ -10091,23 +10101,13 @@
 - android: '13.0'
   branch: Stable
   codename: lisa_global
-  date: 2023-04-04
-  link: https://bigota.d.miui.com/V14.0.3.0.TKOMIXM/miui_LISAGlobal_V14.0.3.0.TKOMIXM_cc00db9894_13.0.zip
-  md5: cc00db9894caa702a3f162bf9ae1a9ae
-  method: Recovery
-  name: Xiaomi 11 Lite 5G NE Global
-  size: 4.7 GB
-  version: V14.0.3.0.TKOMIXM
-- android: '13.0'
-  branch: Stable
-  codename: lisa_global
-  date: 2023-03-24
-  link: https://bigota.d.miui.com/V14.0.3.0.TKOMIXM/lisa_global_images_V14.0.3.0.TKOMIXM_20230324.0000.00_13.0_global_b96438c491.tgz
-  md5: b96438c49126d30cf3c7264feea3f208
+  date: 2023-06-21
+  link: https://bigota.d.miui.com/V14.0.4.0.TKOMIXM/lisa_global_images_V14.0.4.0.TKOMIXM_20230621.0000.00_13.0_global_9c7d055254.tgz
+  md5: 9c7d0552549cb9026a8aa0a03f70d7c9
   method: Fastboot
   name: Xiaomi 11 Lite 5G NE Global
-  size: 6.7 GB
-  version: V14.0.3.0.TKOMIXM
+  size: 6.6 GB
+  version: V14.0.4.0.TKOMIXM
 - android: '13.0'
   branch: Stable
   codename: lisa_in_global
