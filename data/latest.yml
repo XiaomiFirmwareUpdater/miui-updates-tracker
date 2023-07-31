@@ -5398,8 +5398,18 @@
   name: Redmi 12C / POCO C55 EEA
   size: 6.3 GB
   version: V14.0.3.0.TCVEUXM
-- android: '13.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: earth_global
+  date: 2023-03-15
+  link: https://bigota.d.miui.com/V13.0.1.0.SCVMIXM/miui_EARTHGlobal_V13.0.1.0.SCVMIXM_dca25e00ce_12.0.zip
+  md5: dca25e00ce3f2c1088832b8d0d229ef2
+  method: Recovery
+  name: Redmi 12C / POCO C55 Global
+  size: 3.3 GB
+  version: V13.0.1.0.SCVMIXM
+- android: '13.0'
+  branch: Stable
   codename: earth_global
   date: 2023-07-19
   link: https://bigota.d.miui.com/V14.0.4.0.TCVMIXM/miui_EARTHGlobal_V14.0.4.0.TCVMIXM_a9aa86c158_13.0.zip
@@ -5408,26 +5418,16 @@
   name: Redmi 12C / POCO C55 Global
   size: 3.5 GB
   version: V14.0.4.0.TCVMIXM
-- android: '12.0'
+- android: '13.0'
   branch: Stable
   codename: earth_global
-  date: 2023-05-26
-  link: https://bigota.d.miui.com/V13.0.7.0.SCVMIXM/miui_EARTHGlobal_V13.0.7.0.SCVMIXM_df45be6a45_12.0.zip
-  md5: df45be6a454b0c221f43ffa1c3a35407
-  method: Recovery
-  name: Redmi 12C / POCO C55 Global
-  size: 3.3 GB
-  version: V13.0.7.0.SCVMIXM
-- android: '12.0'
-  branch: Stable
-  codename: earth_global
-  date: 2023-05-19
-  link: https://bigota.d.miui.com/V13.0.7.0.SCVMIXM/earth_global_images_V13.0.7.0.SCVMIXM_20230519.0000.00_12.0_global_e1aef09046.tgz
-  md5: e1aef090462c33ba378fc2f7d31c1a3b
+  date: 2023-07-13
+  link: https://bigota.d.miui.com/V14.0.4.0.TCVMIXM/earth_global_images_V14.0.4.0.TCVMIXM_20230713.0000.00_13.0_global_f419b7ad2a.tgz
+  md5: f419b7ad2a817e223503b8865c1df969
   method: Fastboot
   name: Redmi 12C / POCO C55 Global
-  size: 6.2 GB
-  version: V13.0.7.0.SCVMIXM
+  size: 6.8 GB
+  version: V14.0.4.0.TCVMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: earth_id_global
@@ -6478,6 +6478,16 @@
   name: Redmi 10C India
   size: 4.9 GB
   version: V14.0.1.0.TGEINXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: fog_ru_global
+  date: 2023-07-26
+  link: https://bigota.d.miui.com/V14.0.1.0.TGERUXM/miui_FOGRUGlobal_V14.0.1.0.TGERUXM_5052d67408_13.0.zip
+  md5: 5052d67408c73034788c0b578aa99aee
+  method: Recovery
+  name: Redmi 10C Russia
+  size: 3.3 GB
+  version: V14.0.1.0.TGERUXM
 - android: '12.0'
   branch: Stable
   codename: fog_ru_global
@@ -12801,13 +12811,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: nuwa_in_global
-  date: 2023-04-25
-  link: https://bigota.d.miui.com/V14.0.6.0.TMBINXM/miui_NUWAINGlobal_V14.0.6.0.TMBINXM_a32be332d1_13.0.zip
-  md5: a32be332d1ed10aa6546ac38970c85a0
+  date: 2023-07-27
+  link: https://bigota.d.miui.com/V14.0.9.0.TMBINXM/miui_NUWAINGlobal_V14.0.9.0.TMBINXM_8c379e9527_13.0.zip
+  md5: 8c379e9527e19b49260dc2446a6d9702
   method: Recovery
   name: Xiaomi 13 Pro India
   size: 5.6 GB
-  version: V14.0.6.0.TMBINXM
+  version: V14.0.9.0.TMBINXM
 - android: '13.0'
   branch: Stable
   codename: nuwa_in_global
@@ -17129,7 +17139,7 @@
   size: 5.9 GB
   version: V14.0.4.0.THZTRXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sea_tw_global
   date: 2023-07-27
   link: https://bigota.d.miui.com/V14.0.4.0.THZTWXM/miui_SEATWGlobal_V14.0.4.0.THZTWXM_8048df7d1d_13.0.zip
@@ -17141,23 +17151,13 @@
 - android: '13.0'
   branch: Stable
   codename: sea_tw_global
-  date: 2023-06-13
-  link: https://bigota.d.miui.com/V14.0.3.0.THZTWXM/miui_SEATWGlobal_V14.0.3.0.THZTWXM_caaa5be4f6_13.0.zip
-  md5: caaa5be4f6b641814ec14aabe72c4a78
-  method: Recovery
-  name: Redmi Note 12S Taiwan
-  size: 3.9 GB
-  version: V14.0.3.0.THZTWXM
-- android: '13.0'
-  branch: Stable
-  codename: sea_tw_global
-  date: 2023-05-16
-  link: https://bigota.d.miui.com/V14.0.3.0.THZTWXM/sea_tw_global_images_V14.0.3.0.THZTWXM_20230516.0000.00_13.0_tw_0b7b26d414.tgz
-  md5: 0b7b26d41441cad04da4bb682afe130e
+  date: 2023-07-15
+  link: https://bigota.d.miui.com/V14.0.4.0.THZTWXM/sea_tw_global_images_V14.0.4.0.THZTWXM_20230715.0000.00_13.0_tw_208b813dc7.tgz
+  md5: 208b813dc78194677bbff555250ecde8
   method: Fastboot
   name: Redmi Note 12S Taiwan
-  size: 5.4 GB
-  version: V14.0.3.0.THZTWXM
+  size: 5.5 GB
+  version: V14.0.4.0.THZTWXM
 - android: '13.0'
   branch: Stable
   codename: selene
@@ -18119,7 +18119,7 @@
   size: 3.5 GB
   version: V13.0.1.0.SJGINXM
 - android: '12.0'
-  branch: Stable Beta
+  branch: Stable
   codename: surya_ru_global
   date: 2023-07-21
   link: https://bigota.d.miui.com/V14.0.2.0.SJGRUXM/miui_SURYARUGlobal_V14.0.2.0.SJGRUXM_957eb846fd_12.0.zip
@@ -18131,23 +18131,13 @@
 - android: '12.0'
   branch: Stable
   codename: surya_ru_global
-  date: 2023-04-28
-  link: https://bigota.d.miui.com/V14.0.1.0.SJGRUXM/miui_SURYARUGlobal_V14.0.1.0.SJGRUXM_69ba5b6f9c_12.0.zip
-  md5: 69ba5b6f9c0e31e538275999822c74d0
-  method: Recovery
-  name: POCO X3 NFC Russia
-  size: 2.9 GB
-  version: V14.0.1.0.SJGRUXM
-- android: '12.0'
-  branch: Stable
-  codename: surya_ru_global
-  date: 2023-04-14
-  link: https://bigota.d.miui.com/V14.0.1.0.SJGRUXM/surya_ru_global_images_V14.0.1.0.SJGRUXM_20230414.0000.00_12.0_global_719b2c0040.tgz
-  md5: 719b2c004061246412a00746156066eb
+  date: 2023-07-03
+  link: https://bigota.d.miui.com/V14.0.2.0.SJGRUXM/surya_ru_global_images_V14.0.2.0.SJGRUXM_20230703.0000.00_12.0_global_0b8ea3d1ae.tgz
+  md5: 0b8ea3d1aea9b9f5e0310d1746b2a75e
   method: Fastboot
   name: POCO X3 NFC Russia
   size: 4.5 GB
-  version: V14.0.1.0.SJGRUXM
+  version: V14.0.2.0.SJGRUXM
 - android: '12.0'
   branch: Stable Beta
   codename: surya_tr_global
@@ -18599,6 +18589,16 @@
   size: 7.1 GB
   version: V14.0.12.0.TMTMIXM
 - android: '13.0'
+  branch: Stable Beta
+  codename: tapas_in_global
+  date: 2023-07-27
+  link: https://bigota.d.miui.com/V14.0.7.0.TMTINXM/miui_TAPASINGlobal_V14.0.7.0.TMTINXM_18af0a7aef_13.0.zip
+  md5: 18af0a7aefb936b76619a7996744d2c6
+  method: Recovery
+  name: Redmi Note 12 4G India
+  size: 4.1 GB
+  version: V14.0.7.0.TMTINXM
+- android: '13.0'
   branch: Stable
   codename: tapas_in_global
   date: 2023-07-04
@@ -18619,7 +18619,7 @@
   size: 5.7 GB
   version: V14.0.6.0.TMTINXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: tapas_tr_global
   date: 2023-07-25
   link: https://bigota.d.miui.com/V14.0.5.0.TMTTRXM/miui_TAPASTRGlobal_V14.0.5.0.TMTTRXM_a73172a9d1_13.0.zip
@@ -18631,23 +18631,13 @@
 - android: '13.0'
   branch: Stable
   codename: tapas_tr_global
-  date: 2023-06-28
-  link: https://bigota.d.miui.com/V14.0.4.0.TMTTRXM/miui_TAPASTRGlobal_V14.0.4.0.TMTTRXM_ef87a946d0_13.0.zip
-  md5: ef87a946d0ed64f1a136312572eade8a
-  method: Recovery
-  name: Redmi Note 12 4G Turkey
-  size: 4.1 GB
-  version: V14.0.4.0.TMTTRXM
-- android: '13.0'
-  branch: Stable
-  codename: tapas_tr_global
-  date: 2023-06-19
-  link: https://bigota.d.miui.com/V14.0.4.0.TMTTRXM/tapas_tr_global_images_V14.0.4.0.TMTTRXM_20230619.0000.00_13.0_tr_d8d0a1a68e.tgz
-  md5: d8d0a1a68ebd2bd4538af6452067c36a
+  date: 2023-07-17
+  link: https://bigota.d.miui.com/V14.0.5.0.TMTTRXM/tapas_tr_global_images_V14.0.5.0.TMTTRXM_20230717.0000.00_13.0_tr_76b1f222d6.tgz
+  md5: 76b1f222d67dbd5286e6234debd79cb3
   method: Fastboot
   name: Redmi Note 12 4G Turkey
-  size: 6.0 GB
-  version: V14.0.4.0.TMTTRXM
+  size: 6.1 GB
+  version: V14.0.5.0.TMTTRXM
 - android: '4.1'
   branch: Stable
   codename: taurus
