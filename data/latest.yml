@@ -5478,16 +5478,16 @@
   name: Redmi 12C / POCO C55 India
   size: 5.2 GB
   version: V14.0.2.0.TCVINXM
-- android: '12.0'
+- android: '13.0'
   branch: Stable Beta
   codename: earth_ru_global
-  date: 2023-04-04
-  link: https://bigota.d.miui.com/V13.0.3.0.SCVRUXM/miui_EARTHRUGlobal_V13.0.3.0.SCVRUXM_03fa03660e_12.0.zip
-  md5: 03fa03660e672f3daa6a28de318c1051
+  date: 2023-07-31
+  link: https://bigota.d.miui.com/V14.0.1.0.TCVRUXM/miui_EARTHRUGlobal_V14.0.1.0.TCVRUXM_28308b1e4c_13.0.zip
+  md5: 28308b1e4ca67235510943b650f4350c
   method: Recovery
   name: Redmi 12C / POCO C55 Russia
-  size: 3.2 GB
-  version: V13.0.3.0.SCVRUXM
+  size: 3.5 GB
+  version: V14.0.1.0.TCVRUXM
 - android: '12.0'
   branch: Stable
   codename: earth_ru_global
@@ -9548,8 +9548,18 @@
   name: Mi 4c China
   size: 1.2 GB
   version: 8.9.13
-- android: '13.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: light
+  date: 2023-01-18
+  link: https://bigota.d.miui.com/V13.0.17.0.SLSCNXM/miui_LIGHT_V13.0.17.0.SLSCNXM_c8d87abda5_12.0.zip
+  md5: c8d87abda5c0076d0e1cf61e9ecff204
+  method: Recovery
+  name: Redmi Note 11E China
+  size: 3.9 GB
+  version: V13.0.17.0.SLSCNXM
+- android: '13.0'
+  branch: Stable
   codename: light
   date: 2023-07-25
   link: https://bigota.d.miui.com/V14.0.5.0.TLSCNXM/miui_LIGHT_V14.0.5.0.TLSCNXM_22a14b9ba3_13.0.zip
@@ -9561,23 +9571,13 @@
 - android: '13.0'
   branch: Stable
   codename: light
-  date: 2023-03-28
-  link: https://bigota.d.miui.com/V14.0.3.0.TLSCNXM/miui_LIGHT_V14.0.3.0.TLSCNXM_12168e0615_13.0.zip
-  md5: 12168e0615751d345cbf31d5cd2aa5c0
-  method: Recovery
-  name: Redmi Note 11E China
-  size: 4.3 GB
-  version: V14.0.3.0.TLSCNXM
-- android: '13.0'
-  branch: Stable
-  codename: light
-  date: 2023-03-20
-  link: https://bigota.d.miui.com/V14.0.3.0.TLSCNXM/light_images_V14.0.3.0.TLSCNXM_20230320.0000.00_13.0_cn_8140e12b67.tgz
-  md5: 8140e12b6751e0bc06d19f43671454ac
+  date: 2023-07-19
+  link: https://bigota.d.miui.com/V14.0.5.0.TLSCNXM/light_images_V14.0.5.0.TLSCNXM_20230719.0000.00_13.0_cn_e00af3e8d1.tgz
+  md5: e00af3e8d162b7b6b4cf957dc340ce58
   method: Fastboot
   name: Redmi Note 11E China
-  size: 5.6 GB
-  version: V14.0.3.0.TLSCNXM
+  size: 5.5 GB
+  version: V14.0.5.0.TLSCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: light_eea_global
@@ -10691,13 +10691,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: marble
-  date: 2023-03-29
-  link: https://bigota.d.miui.com/V14.0.2.0.TMRCNXM/miui_MARBLE_V14.0.2.0.TMRCNXM_e73d3a18f4_13.0.zip
-  md5: e73d3a18f4594db9895b1213f357aa3e
+  date: 2023-07-31
+  link: https://bigota.d.miui.com/V14.0.23.0.TMRCNXM/miui_MARBLE_V14.0.23.0.TMRCNXM_749010fa11_13.0.zip
+  md5: 749010fa11065c9e5fb09afcd7a54166
   method: Recovery
   name: Redmi Note 12 Turbo China
-  size: 6.1 GB
-  version: V14.0.2.0.TMRCNXM
+  size: 6.0 GB
+  version: V14.0.23.0.TMRCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: marble
@@ -18041,13 +18041,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -20558,6 +20558,16 @@
   name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Russia
   size: 5.8 GB
   version: V13.0.5.0.SKCRUXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: veux_tr_global
+  date: 2023-07-31
+  link: https://bigota.d.miui.com/V14.0.1.0.TKCTRXM/miui_VEUXTRGlobal_V14.0.1.0.TKCTRXM_6c942d186f_13.0.zip
+  md5: 6c942d186fa4c250ec6e5fcbcd193df3
+  method: Recovery
+  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Turkey
+  size: 3.8 GB
+  version: V14.0.1.0.TKCTRXM
 - android: '12.0'
   branch: Stable
   codename: veux_tr_global
