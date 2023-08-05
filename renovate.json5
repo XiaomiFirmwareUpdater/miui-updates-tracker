@@ -19,14 +19,14 @@
   "packageRules": [
     {
       matchUpdateTypes: ["minor", "patch", "pin", "digest"],
-      automerge: true,
-      automergeType: "branch"
+      automerge: true
     }
   ],
 
   // https://docs.renovatebot.com/configuration-options/#lockfilemaintenance
   lockFileMaintenance: {
     enabled: true,
+    automerge: true,
     schedule: ["before 5am on saturday"],
   },
 }
