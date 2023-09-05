@@ -5888,8 +5888,18 @@
   name: Mi 8 Pro Russia
   size: 2.6 GB
   version: V12.0.2.0.QECRUXM
-- android: '13.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: evergo
+  date: 2022-08-08
+  link: https://bigota.d.miui.com/V13.0.6.0.SGBCNXM/miui_EVERGO_V13.0.6.0.SGBCNXM_81b235c68d_12.0.zip
+  md5: 81b235c68dcdf00a6390cb27b41756c8
+  method: Recovery
+  name: Redmi Note 11 5G China
+  size: 3.7 GB
+  version: V13.0.6.0.SGBCNXM
+- android: '13.0'
+  branch: Stable
   codename: evergo
   date: 2023-08-22
   link: https://bigota.d.miui.com/V14.0.3.0.TGBCNXM/miui_EVERGO_V14.0.3.0.TGBCNXM_24b0464c9f_13.0.zip
@@ -5898,26 +5908,16 @@
   name: Redmi Note 11 5G China
   size: 4.2 GB
   version: V14.0.3.0.TGBCNXM
-- android: '12.0'
+- android: '13.0'
   branch: Stable
   codename: evergo
-  date: 2023-07-22
-  link: https://bigota.d.miui.com/V13.0.12.0.SGBCNXM/miui_EVERGO_V13.0.12.0.SGBCNXM_816aa8d1c8_12.0.zip
-  md5: 816aa8d1c8fa57d667cb7b7d5bbfdaaf
-  method: Recovery
-  name: Redmi Note 11 5G China
-  size: 3.9 GB
-  version: V13.0.12.0.SGBCNXM
-- android: '12.0'
-  branch: Stable
-  codename: evergo
-  date: 2023-07-19
-  link: https://bigota.d.miui.com/V13.0.12.0.SGBCNXM/evergo_images_V13.0.12.0.SGBCNXM_20230719.0000.00_12.0_cn_584ca4fde7.tgz
-  md5: 584ca4fde71847485bb8f9dfd68a9cf2
+  date: 2023-08-14
+  link: https://bigota.d.miui.com/V14.0.3.0.TGBCNXM/evergo_images_V14.0.3.0.TGBCNXM_20230814.0000.00_13.0_cn_4c0a2bd1ba.tgz
+  md5: 4c0a2bd1ba2eb4844edd9d1d220df3bd
   method: Fastboot
   name: Redmi Note 11 5G China
-  size: 5.2 GB
-  version: V13.0.12.0.SGBCNXM
+  size: 5.5 GB
+  version: V14.0.3.0.TGBCNXM
 - android: '12.0'
   branch: Weekly
   codename: evergo
@@ -8912,21 +8912,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -20651,13 +20651,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: venus_tr_global
-  date: 2023-06-25
-  link: https://bigota.d.miui.com/V14.0.2.0.TKBTRXM/miui_VENUSTRGlobal_V14.0.2.0.TKBTRXM_7551a1aa82_13.0.zip
-  md5: 7551a1aa820468ac95a0106912d7c970
+  date: 2023-09-05
+  link: https://bigota.d.miui.com/V14.0.3.0.TKBTRXM/miui_VENUSTRGlobal_V14.0.3.0.TKBTRXM_7e26e07d9a_13.0.zip
+  md5: 7e26e07d9adb0b3b7d2c215acc2763ba
   method: Recovery
   name: Mi 11 Turkey
-  size: 4.7 GB
-  version: V14.0.2.0.TKBTRXM
+  size: 4.6 GB
+  version: V14.0.3.0.TKBTRXM
 - android: '13.0'
   branch: Stable
   codename: venus_tr_global
@@ -20848,6 +20848,16 @@
   name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G India
   size: 5.2 GB
   version: V14.0.3.0.TKCINXM
+- android: '13.0'
+  branch: Stable
+  codename: veux_jp_global
+  date: 2023-07-11
+  link: https://bigota.d.miui.com/V14.0.1.0.TKCJPXM/veux_jp_global_images_V14.0.1.0.TKCJPXM_20230711.0000.00_13.0_jp_df1ef170b7.tgz
+  md5: null
+  method: Fastboot
+  name: Redmi Note 11 Pro 5G Japan
+  size: 6.0 GB
+  version: V14.0.1.0.TKCJPXM
 - android: '12.0'
   branch: Stable
   codename: veux_jp_global
@@ -20857,16 +20867,6 @@
   method: Recovery
   name: Redmi Note 11 Pro 5G Japan
   size: 3.3 GB
-  version: V13.0.3.0.SKCJPXM
-- android: '12.0'
-  branch: Stable
-  codename: veux_jp_global
-  date: 2023-05-12
-  link: https://bigota.d.miui.com/V13.0.3.0.SKCJPXM/veux_jp_global_images_V13.0.3.0.SKCJPXM_20230512.0000.00_12.0_global_6ef91f2486.tgz
-  md5: 6ef91f2486381b695507f98ec382a3c7
-  method: Fastboot
-  name: Redmi Note 11 Pro 5G Japan
-  size: 5.6 GB
   version: V13.0.3.0.SKCJPXM
 - android: '13.0'
   branch: Stable Beta
