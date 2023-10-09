@@ -85,6 +85,8 @@ def fastboot_info_from_file(fastboot_file: str, more_details: bool = False):
     else:
         match = alt_pattern.search(fastboot_file)
         version = match.group(2)
+        if ".debug" in version:
+            version = version.split(".debug")[0]
         if '_' in version:
             version = version.split('_')[0]
     link = f"https://bigota.d.miui.com/{version}/{fastboot_file}"
