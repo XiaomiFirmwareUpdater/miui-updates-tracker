@@ -612,8 +612,8 @@
   branch: Stable
   codename: alioth_global
   date: 2023-09-04
-  link: https://bigota.d.miui.com/V14.0.8.0.TKHMIXM/alioth_global_images_V14.0.8.0.TKHMIXM_20230904.0000.00_13.0_global_8d24b98f2a.tgz
-  md5: 8d24b98f2ac7baa9f117782dd7d4f84a
+  link: https://bigota.d.miui.com/V14.0.8.0.TKHMIXM/alioth_global_images_V14.0.8.0.TKHMIXM_20230904.0000.00_13.0_global_8d24b98f2a.tgz?t=1697232130&s=9d0c7a1a450a0e7e8722d3fcf393d549
+  md5: null
   method: Fastboot
   name: POCO F3 Global
   size: 5.8 GB
@@ -6799,6 +6799,16 @@
   size: 5.9 GB
   version: V14.0.4.0.TGEEUXM
 - android: '13.0'
+  branch: Stable Beta
+  codename: fog_global
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.4.0.TGEMIXM/miui_FOGGlobal_V14.0.4.0.TGEMIXM_22f0ea8409_13.0.zip
+  md5: 22f0ea8409c4d24c8dda14e64c7b3cdd
+  method: Recovery
+  name: Redmi 10C Global
+  size: 3.4 GB
+  version: V14.0.4.0.TGEMIXM
+- android: '13.0'
   branch: Stable
   codename: fog_global
   date: 2023-07-17
@@ -6818,6 +6828,16 @@
   name: Redmi 10C Global
   size: 6.5 GB
   version: V14.0.3.0.TGEMIXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: fog_id_global
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.2.0.TGEIDXM/miui_FOGIDGlobal_V14.0.2.0.TGEIDXM_0ea9f8bdb4_13.0.zip
+  md5: 0ea9f8bdb42b5eb20128d297c309611b
+  method: Recovery
+  name: Redmi 10C Indonesia
+  size: 3.4 GB
+  version: V14.0.2.0.TGEIDXM
 - android: '13.0'
   branch: Stable
   codename: fog_id_global
@@ -6881,13 +6901,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: fog_tr_global
-  date: 2023-07-24
-  link: https://bigota.d.miui.com/V14.0.1.0.TGETRXM/miui_FOGTRGlobal_V14.0.1.0.TGETRXM_65afb78278_13.0.zip
-  md5: 65afb7827878905d4162627cfbe5fee1
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.2.0.TGETRXM/miui_FOGTRGlobal_V14.0.2.0.TGETRXM_5c0e444eda_13.0.zip
+  md5: 5c0e444eda3ff97dbc9dd0f33695d23c
   method: Recovery
   name: Redmi 10C Turkey
-  size: 3.3 GB
-  version: V14.0.1.0.TGETRXM
+  size: 3.4 GB
+  version: V14.0.2.0.TGETRXM
 - android: '12.0'
   branch: Stable
   codename: fog_tr_global
@@ -16558,16 +16578,16 @@
   name: Redmi Note 10S EEA
   size: 6.3 GB
   version: V14.0.5.0.TKLEUXM
-- android: '11.0'
+- android: '13.0'
   branch: Stable Beta
   codename: rosemary_global
-  date: 2021-05-06
-  link: https://bigota.d.miui.com/V12.5.2.0.RKLMIXM/miui_ROSEMARYGlobal_V12.5.2.0.RKLMIXM_5d0fbfd3d4_11.0.zip
-  md5: 5d0fbfd3d46f5da6a8ebc5dc2da0ae1d
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.7.0.TKLMIXM/miui_ROSEMARYGlobal_V14.0.7.0.TKLMIXM_fbe684c2dc_13.0.zip
+  md5: fbe684c2dc718bd5dd5d7c427528622d
   method: Recovery
   name: Redmi Note 10S Global
-  size: 2.5 GB
-  version: V12.5.2.0.RKLMIXM
+  size: 3.7 GB
+  version: V14.0.7.0.TKLMIXM
 - android: '13.0'
   branch: Stable
   codename: rosemary_global
@@ -18269,6 +18289,16 @@
   size: 6.2 GB
   version: V14.0.2.0.TGKEUXM
 - android: '13.0'
+  branch: Stable Beta
+  codename: spesn_global
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.4.0.TGKMIXM/miui_SPESNGlobal_V14.0.4.0.TGKMIXM_7ce43cc0dc_13.0.zip
+  md5: 7ce43cc0dc8bcee401c08fb705a0fde3
+  method: Recovery
+  name: Redmi Note 11 NFC Global
+  size: 3.8 GB
+  version: V14.0.4.0.TGKMIXM
+- android: '13.0'
   branch: Stable
   codename: spesn_global
   date: 2023-08-04
@@ -18611,13 +18641,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -18798,6 +18828,16 @@
   name: Redmi Note 10 Pro EEA
   size: 6.5 GB
   version: V14.0.5.0.TKFEUXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: sweet_global
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.7.0.TKFMIXM/miui_SWEETGlobal_V14.0.7.0.TKFMIXM_2ccc8e32b7_13.0.zip
+  md5: 2ccc8e32b71500be31cd61f817888ccd
+  method: Recovery
+  name: Redmi Note 10 Pro Global
+  size: 4.1 GB
+  version: V14.0.7.0.TKFMIXM
 - android: '13.0'
   branch: Stable
   codename: sweet_global
