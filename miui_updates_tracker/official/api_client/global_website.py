@@ -4,31 +4,19 @@ MIUI Global Website API Client class implementation
 import json
 import logging
 import re
-from typing import List, Optional, Dict
+from typing import Dict, List, Optional
 
 from aiohttp import ClientResponse
 
 from miui_updates_tracker.common.api_client.common_client import CommonClient
-from miui_updates_tracker.common.database.database import (
-    update_in_db,
-    add_to_db,
-    get_codename,
-    update_stable_beta,
-    get_update_by_version,
-)
+from miui_updates_tracker.common.database.database import (add_to_db, get_codename, get_update_by_version, update_in_db,
+                                                           update_stable_beta)
 from miui_updates_tracker.common.database.models.miui_update import Update
 from miui_updates_tracker.official.models.device import GlobalDevice
 from miui_updates_tracker.utils.helpers import human_size_to_bytes
-from miui_updates_tracker.utils.rom_file_parser import (
-    rom_info_from_file,
-    fastboot_info_from_file,
-)
-from miui_updates_tracker.utils.rom_utils import (
-    get_rom_branch,
-    get_rom_type,
-    get_rom_method,
-    get_region_code_from_codename,
-)
+from miui_updates_tracker.utils.rom_file_parser import (fastboot_info_from_file, rom_info_from_file)
+from miui_updates_tracker.utils.rom_utils import (get_region_code_from_codename, get_rom_branch, get_rom_method,
+                                                  get_rom_type)
 
 
 class GlobalAPIClient(CommonClient):
@@ -161,7 +149,7 @@ class GlobalAPIClient(CommonClient):
                             {
                                 "version": details.get("version"),
                                 "link": details.get("rom_url"),
-                                "filename": details.get("rom_url").split("/")[-1],
+                                "filename": details.get("rom_url").split("/")[-1].split('?')[0],
                                 "size": details.get("size"),
                             }
                         )
