@@ -148,7 +148,7 @@ class GlobalAPIClient(CommonClient):
                         files.append(
                             {
                                 "version": details.get("version"),
-                                "link": details.get("rom_url"),
+                                "link": details.get("rom_url").split('?')[0],
                                 "filename": details.get("rom_url").split("/")[-1].split('?')[0],
                                 "size": details.get("size"),
                             }
@@ -168,7 +168,7 @@ class GlobalAPIClient(CommonClient):
                 f"https://update.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
                 headers=self.headers,
         ) as response:
-            url = response.headers.get("Location")
+            url = response.headers.get("Location").split('?')[0]
             return url if url != "http://www.miui.com/" else None
 
     async def _fetch(self, device_id: str) -> List[Update]:
