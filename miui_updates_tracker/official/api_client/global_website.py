@@ -208,7 +208,7 @@ class GlobalAPIClient(CommonClient):
         url: str = self.fastboot_updates.get(codename, "")
         if not url:
             return
-        filename = url.split("/")[-1]
+        filename = url.split("/")[-1].split('?')[0]
         if update_in_db(filename):
             return
         update = self._get_fastboot_update(filename)
