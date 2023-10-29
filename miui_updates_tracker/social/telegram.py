@@ -6,14 +6,13 @@ from typing import List, Union
 from urllib.parse import quote
 
 from humanize import naturalsize
+from miui_updates_tracker.common.constants import website
+from miui_updates_tracker.common.database.database import get_full_name, get_incremental
+from miui_updates_tracker.common.database.models.miui_update import Update
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 from telegram.error import BadRequest, RetryAfter
 from telegram.ext import Application
-
-from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_incremental, get_full_name
-from miui_updates_tracker.common.database.models.miui_update import Update
 
 
 class TelegramBot:
@@ -56,8 +55,12 @@ class TelegramBot:
         :return: A string containing the update's message
          and inline keyboard that has download link'
         """
+        message: str = ""
+        is_hyperos = bool(update.version.startswith("OS"))
+        if is_hyperos:
+            message += f"#HyperOS\n"
+        message += f"New update available!"
         short_codename = update.codename.split("_")[0]
-        message: str = f"New update available!"
         if update.method == "Fastboot":
             message += "\n"
         else:

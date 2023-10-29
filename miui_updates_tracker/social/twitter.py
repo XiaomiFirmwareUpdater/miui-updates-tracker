@@ -4,12 +4,11 @@ from typing import Dict, List
 from urllib.parse import quote
 
 from humanize import naturalsize
-from tweepy import OAuthHandler, API, TweepyException
-from tweepy.models import Status
-
 from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_full_name, get_device_name
+from miui_updates_tracker.common.database.database import get_device_name, get_full_name
 from miui_updates_tracker.common.database.models.miui_update import Update
+from tweepy import API, OAuthHandler, TweepyException
+from tweepy.models import Status
 
 
 class TwitterBot:
@@ -26,9 +25,10 @@ class TwitterBot:
         self._logger = logging.getLogger(__name__)
 
     def generate_posts(self, update: Update) -> List[str]:
-        footer = f"\n#MIUI_Updates #Xiaomi #MIUI #{get_device_name(update.codename).replace(' ', '')}"
-        if update.version.startswith("V"):
-            footer += f" #MIUI{update.version.split('V')[1].split('.')[0]}"
+        os_name = "HyperOS" if bool(update.version.startswith("OS")) else "MIUI"
+        footer = f"\n#{os_name}_Updates #Xiaomi #{os_name} #{get_device_name(update.codename).replace(' ', '')}"
+        if update.version[0].isalpha():
+            footer += f" #{os_name}{update.version.split('.')[0][1:].split('.')[0]}"
         footer += f" #Android{update.android.split('.')[0]}"
         posts = []
         short_codename = update.codename.split('_')[0]

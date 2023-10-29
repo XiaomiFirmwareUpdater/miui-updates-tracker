@@ -4,7 +4,7 @@ from facebook import GraphAPI
 from humanize import naturalsize
 from miui_updates_tracker import CONFIG
 from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_full_name, get_incremental, get_device_name
+from miui_updates_tracker.common.database.database import get_device_name, get_full_name, get_incremental
 from miui_updates_tracker.common.database.models.miui_update import Update
 
 
@@ -18,6 +18,7 @@ class FacebookPage:
 
     @staticmethod
     def generate_post(update: Update) -> (str, str):
+        os_name = "HyperOS" if bool(update.version.startswith("OS")) else "MIUI"
         short_codename = update.codename.split('_')[0]
         link = f"{website}/miui/{short_codename}"
         message: str = f"New {update.branch} {update.method} update available for " \
@@ -34,9 +35,9 @@ class FacebookPage:
                 message += f"\nIncremental Update: {incremental.link}\n"
         if update.changelog != "Bug fixes and system optimizations.":
             message += f"\nChangelog:\n{update.changelog}\n"
-        message += f"\n#MIUI_Updates #Xiaomi #MIUI #{get_device_name(update.codename).replace(' ', '')}"
-        if update.version.startswith("V"):
-            message += f" #MIUI{update.version.split('V')[1].split('.')[0]}"
+        message += f"\n#{os_name}_Updates #Xiaomi #{os_name} #{get_device_name(update.codename).replace(' ', '')}"
+        if update.version[0].isalpha():
+            message += f" #{os_name}{update.version.split('.')[0][1:].split('.')[0]}"
         message += f" #Android{update.android.split('.')[0]}"
         return message, link
 
