@@ -55,11 +55,8 @@ class TelegramBot:
         :return: A string containing the update's message
          and inline keyboard that has download link'
         """
-        message: str = ""
-        is_hyperos = bool(update.version.startswith("OS"))
-        if is_hyperos:
-            message += f"#HyperOS\n"
-        message += f"New update available!"
+        os_name = "HyperOS" if bool(update.version.startswith("OS")) else "MIUI"
+        message: str = f"#{os_name}\nNew update available!"
         short_codename = update.codename.split("_")[0]
         if update.method == "Fastboot":
             message += "\n"
