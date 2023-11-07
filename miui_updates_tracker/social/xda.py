@@ -1,4 +1,5 @@
 import asyncio
+import logging
 import re
 from itertools import groupby
 from pathlib import Path
@@ -7,9 +8,11 @@ from typing import List
 from urllib.parse import quote
 
 import yaml
+from aiohttp.client_exceptions import ServerDisconnectedError
 from humanize import naturalsize
+
 from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_incremental, get_full_name, get_device_roms
+from miui_updates_tracker.common.database.database import get_device_roms, get_full_name, get_incremental
 from miui_updates_tracker.common.database.models.miui_update import Update
 from miui_updates_tracker.social.xda_poster.xda import XDA
 
@@ -92,15 +95,21 @@ class XDAPoster(XDA):
             if codename not in self.threads.keys():
                 continue
             xda_post = self.generate_message(update)
-            await self.post_async(self.threads[codename]['thread'], xda_post)
-            await asyncio.sleep(15)
+            try:
+                await self.post_async(self.threads[codename]['thread'], xda_post)
+                await asyncio.sleep(15)
+            except ServerDisconnectedError:
+                logging.error(f"Server disconnected while posting {update}.")
         updated_devices = list(set([i.codename.split('_')[0] for i in new_updates]))
         for device in updated_devices:
             if device not in self.threads.keys():
                 continue
             xda_thread = self.generate_thread(device)
-            await self.update_post_async(self.threads[device]['post'], xda_thread)
-            await asyncio.sleep(15)
+            try:
+                await self.update_post_async(self.threads[device]['post'], xda_thread)
+                await asyncio.sleep(15)
+            except ServerDisconnectedError:
+                logging.error(f"Server disconnected while updating {device} thread.")
         # print("Done")
 
 
