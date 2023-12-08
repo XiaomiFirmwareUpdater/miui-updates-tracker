@@ -491,11 +491,21 @@
 - android: '13.0'
   branch: Stable
   codename: air
+  date: 2023-12-08
+  link: https://bigota.d.miui.com/V14.0.4.0.TGQCNXM/miui_AIR_V14.0.4.0.TGQCNXM_6de1aac17c_13.0.zip
+  md5: 6de1aac17cbab72ef3503807048b451b
+  method: Recovery
+  name: Redmi 13R 5G / 13C 5G China
+  size: 4.2 GB
+  version: V14.0.4.0.TGQCNXM
+- android: '13.0'
+  branch: Stable
+  codename: air
   date: 2023-11-09
   link: https://bigota.d.miui.com/V14.0.4.0.TGQCNXM/air_images_V14.0.4.0.TGQCNXM_20231109.0000.00_13.0_cn_ca44e766b1.tgz
   md5: ca44e766b1238638352319eb28d17468
   method: Fastboot
-  name: Redmi 13R 5G China
+  name: Redmi 13R 5G / 13C 5G China
   size: 5.4 GB
   version: V14.0.4.0.TGQCNXM
 - android: '13.0'
@@ -505,7 +515,7 @@
   link: https://bigota.d.miui.com/V14.0.2.0.TGQINXM/air_in_global_images_V14.0.2.0.TGQINXM_20231124.0000.00_13.0_in_1437222e22.tgz
   md5: 1437222e225811cafbefcd6c3a2a80b9
   method: Fastboot
-  name: Redmi 13R 5G India
+  name: Redmi 13R 5G / POCO M6 5G India
   size: 454 Bytes
   version: V14.0.2.0.TGQINXM
 - android: '13.0'
@@ -515,7 +525,7 @@
   link: https://bigota.d.miui.com/V14.0.2.0.TGQINXM/miui_AIRINGlobal_V14.0.2.0.TGQINXM_16bf618b8d_13.0.zip
   md5: 16bf618b8def24f4d9f10936b7d7681e
   method: Recovery
-  name: Redmi 13R 5G India
+  name: Redmi 13R 5G / POCO M6 5G India
   size: 4.1 GB
   version: V14.0.2.0.TGQINXM
 - android: '13.0'
@@ -10441,13 +10451,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: lightcm
-  date: 2023-10-23
-  link: https://bigota.d.miui.com/V14.0.8.0.TLSCNXM/miui_LIGHTCM_V14.0.8.0.TLSCNXM_7443c94d77_13.0.zip
-  md5: 7443c94d77032da27b895f36d3e8b6ff
+  date: 2023-12-05
+  link: https://bigota.d.miui.com/V14.0.10.0.TLSCNXM/miui_LIGHTCM_V14.0.10.0.TLSCNXM_1bc7fbd992_13.0.zip
+  md5: 1bc7fbd9927fbf53bc73d0f9b2b1f483
   method: Recovery
   name: Redmi Note 11R China
   size: 4.2 GB
-  version: V14.0.8.0.TLSCNXM
+  version: V14.0.10.0.TLSCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: lightcm
@@ -19689,7 +19699,7 @@
   size: 7.0 GB
   version: V14.0.14.0.TMTMIXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: tapas_in_global
   date: 2023-11-29
   link: https://bigota.d.miui.com/V14.0.9.0.TMTINXM/miui_TAPASINGlobal_V14.0.9.0.TMTINXM_ac4b149f63_13.0.zip
@@ -19701,23 +19711,13 @@
 - android: '13.0'
   branch: Stable
   codename: tapas_in_global
-  date: 2023-09-07
-  link: https://bigota.d.miui.com/V14.0.8.0.TMTINXM/miui_TAPASINGlobal_V14.0.8.0.TMTINXM_2c7777899e_13.0.zip
-  md5: 2c7777899ec403541e17a98f1a4c6c89
-  method: Recovery
-  name: Redmi Note 12 4G India
-  size: 4.1 GB
-  version: V14.0.8.0.TMTINXM
-- android: '13.0'
-  branch: Stable
-  codename: tapas_in_global
-  date: 2023-08-30
-  link: https://bigota.d.miui.com/V14.0.8.0.TMTINXM/tapas_in_global_images_V14.0.8.0.TMTINXM_20230830.0000.00_13.0_in_2927d436ad.tgz
-  md5: 2927d436ad1c744678c111b4748034ef
+  date: 2023-11-15
+  link: https://bigota.d.miui.com/V14.0.9.0.TMTINXM/tapas_in_global_images_V14.0.9.0.TMTINXM_20231115.0000.00_13.0_in_734e888d83.tgz
+  md5: 734e888d830beead6d6fdb02fff2edc7
   method: Fastboot
   name: Redmi Note 12 4G India
   size: 5.6 GB
-  version: V14.0.8.0.TMTINXM
+  version: V14.0.9.0.TMTINXM
 - android: '13.0'
   branch: Stable Beta
   codename: tapas_tr_global
