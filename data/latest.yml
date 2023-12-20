@@ -5721,6 +5721,26 @@
 - android: '14.0'
   branch: Stable Beta
   codename: duchamp
+  date: 2023-11-30
+  link: https://bigota.d.miui.com/OS1.0.4.0.UNLCNXM/miui_DUCHAMP_OS1.0.4.0.UNLCNXM_6e77720de1_14.0.zip
+  md5: 6e77720de15f1e5ea2470e541f28ef8e
+  method: Recovery
+  name: Redmi K70E China
+  size: 6.3 GB
+  version: OS1.0.4.0.UNLCNXM
+- android: '14.0'
+  branch: Stable
+  codename: duchamp
+  date: 2023-12-20
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNLCNXM/duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_1cc1eed443.tgz
+  md5: 1cc1eed4434384249ed12deb9ef6147c
+  method: Fastboot
+  name: Redmi K70E China
+  size: 7.9 GB
+  version: OS1.0.7.0.UNLCNXM
+- android: '14.0'
+  branch: Stable
+  codename: duchamp
   date: 2023-12-11
   link: https://bigota.d.miui.com/OS1.0.7.0.UNLCNXM/miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip
   md5: 376a47cb7e1b90e254d21f61188f086b
@@ -5728,26 +5748,6 @@
   name: Redmi K70E China
   size: 6.3 GB
   version: OS1.0.7.0.UNLCNXM
-- android: '14.0'
-  branch: Stable
-  codename: duchamp
-  date: 2023-12-03
-  link: https://bigota.d.miui.com/OS1.0.5.0.UNLCNXM/miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip
-  md5: e4365a30e52969e5427e6bb65399ed33
-  method: Recovery
-  name: Redmi K70E China
-  size: 6.3 GB
-  version: OS1.0.5.0.UNLCNXM
-- android: '14.0'
-  branch: Stable
-  codename: duchamp
-  date: null
-  link: https://bigota.d.miui.com/OS1.0.5.0.UNLCNXM/duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_8525102b04.tgz
-  md5: 8525102b0473dfc684c550170774efc7
-  method: Fastboot
-  name: Redmi K70E China
-  size: 448 Bytes
-  version: OS1.0.5.0.UNLCNXM
 - android: '13.0'
   branch: Stable
   codename: earth
@@ -18768,8 +18768,18 @@
   name: Redmi Note 11 Turkey
   size: 5.5 GB
   version: V13.0.5.0.SGCTRXM
-- android: '13.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: spesn_eea_global
+  date: 2022-02-14
+  link: https://bigota.d.miui.com/V13.0.1.0.RGKEUXM/miui_SPESNEEAGlobal_V13.0.1.0.RGKEUXM_4e0525d052_11.0.zip
+  md5: 4e0525d052ff14c8a2c19461e4f69617
+  method: Recovery
+  name: Redmi Note 11 NFC EEA
+  size: 2.8 GB
+  version: V13.0.1.0.RGKEUXM
+- android: '13.0'
+  branch: Stable
   codename: spesn_eea_global
   date: 2023-12-08
   link: https://bigota.d.miui.com/V14.0.4.0.TGKEUXM/miui_SPESNEEAGlobal_V14.0.4.0.TGKEUXM_e248f41f74_13.0.zip
@@ -18781,23 +18791,13 @@
 - android: '13.0'
   branch: Stable
   codename: spesn_eea_global
-  date: 2023-09-15
-  link: https://bigota.d.miui.com/V14.0.2.0.TGKEUXM/miui_SPESNEEAGlobal_V14.0.2.0.TGKEUXM_c2208f07f9_13.0.zip
-  md5: c2208f07f9e2ed49f5d71e8d27c38416
-  method: Recovery
-  name: Redmi Note 11 NFC EEA
-  size: 3.5 GB
-  version: V14.0.2.0.TGKEUXM
-- android: '13.0'
-  branch: Stable
-  codename: spesn_eea_global
-  date: 2023-09-11
-  link: https://bigota.d.miui.com/V14.0.2.0.TGKEUXM/spesn_eea_global_images_V14.0.2.0.TGKEUXM_20230911.0000.00_13.0_eea_b119502ac8.tgz
-  md5: b119502ac8cdead1dcf23ba8b906a7cb
+  date: 2023-11-28
+  link: https://bigota.d.miui.com/V14.0.4.0.TGKEUXM/spesn_eea_global_images_V14.0.4.0.TGKEUXM_20231128.0000.00_13.0_eea_2c1a883f26.tgz
+  md5: 2c1a883f260d0ce10354face352f0226
   method: Fastboot
   name: Redmi Note 11 NFC EEA
   size: 6.2 GB
-  version: V14.0.2.0.TGKEUXM
+  version: V14.0.4.0.TGKEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: spesn_global
@@ -19151,13 +19151,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -23091,23 +23091,23 @@
 - android: '13.0'
   branch: Stable
   codename: xaga_eea_global
-  date: 2023-08-11
-  link: https://bigota.d.miui.com/V14.0.4.0.TLOEUXM/miui_XAGAEEAGlobal_V14.0.4.0.TLOEUXM_547ad562e7_13.0.zip
-  md5: 547ad562e77365cdf1de16d4e63b10da
+  date: 2023-12-12
+  link: https://bigota.d.miui.com/V14.0.6.0.TLOEUXM/miui_XAGAEEAGlobal_V14.0.6.0.TLOEUXM_b6d65c38fe_13.0.zip
+  md5: b6d65c38fe4f77988bad85b74f7a6f56
   method: Recovery
   name: Redmi Note 11T Pro / POCO X4 GT / Pro EEA
   size: 5.0 GB
-  version: V14.0.4.0.TLOEUXM
+  version: V14.0.6.0.TLOEUXM
 - android: '13.0'
   branch: Stable
   codename: xaga_eea_global
-  date: 2023-07-14
-  link: https://bigota.d.miui.com/V14.0.4.0.TLOEUXM/xaga_eea_global_images_V14.0.4.0.TLOEUXM_20230714.0000.00_13.0_eea_978444d5cb.tgz
-  md5: 978444d5cb37d201e8c2c5ee20107649
+  date: 2023-11-29
+  link: https://bigota.d.miui.com/V14.0.6.0.TLOEUXM/xaga_eea_global_images_V14.0.6.0.TLOEUXM_20231129.0000.00_13.0_eea_39c8339f71.tgz
+  md5: 39c8339f7103ec0ac19ecb27dde4aa23
   method: Fastboot
   name: Redmi Note 11T Pro / POCO X4 GT / Pro EEA
-  size: 7.2 GB
-  version: V14.0.4.0.TLOEUXM
+  size: 7.1 GB
+  version: V14.0.6.0.TLOEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: xaga_global
