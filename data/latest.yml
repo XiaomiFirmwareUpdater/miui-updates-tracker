@@ -4091,6 +4091,26 @@
 - android: '14.0'
   branch: Stable Beta
   codename: corot
+  date: 2023-12-01
+  link: https://bigota.d.miui.com/OS1.0.5.0.UMLCNXM/miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip
+  md5: a2e2e5f060e32aa45c0276810f44665c
+  method: Recovery
+  name: Redmi K60 Ultra China
+  size: 6.4 GB
+  version: OS1.0.5.0.UMLCNXM
+- android: '14.0'
+  branch: Stable
+  codename: corot
+  date: 2024-01-02
+  link: https://bigota.d.miui.com/OS1.0.7.0.UMLCNXM/corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz
+  md5: fb02072a3701d8c86453c5bba27c5fbd
+  method: Fastboot
+  name: Redmi K60 Ultra China
+  size: 8.1 GB
+  version: OS1.0.7.0.UMLCNXM
+- android: '14.0'
+  branch: Stable
+  codename: corot
   date: 2023-12-22
   link: https://bigota.d.miui.com/OS1.0.7.0.UMLCNXM/miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip
   md5: 7a4b79c95be3aee3e2d7cd878eb0d21d
@@ -4098,26 +4118,6 @@
   name: Redmi K60 Ultra China
   size: 6.4 GB
   version: OS1.0.7.0.UMLCNXM
-- android: '14.0'
-  branch: Stable
-  codename: corot
-  date: 2023-11-30
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMLCNXM/miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip
-  md5: a5903dd20abd3e05796f84ff406cfc77
-  method: Recovery
-  name: Redmi K60 Ultra China
-  size: 6.4 GB
-  version: OS1.0.4.0.UMLCNXM
-- android: '13.0'
-  branch: Stable
-  codename: corot
-  date: 2023-10-31
-  link: https://bigota.d.miui.com/V14.0.14.0.TMLCNXM/corot_images_V14.0.14.0.TMLCNXM_20231031.0000.00_13.0_cn_0f9fd16fd9.tgz
-  md5: 0f9fd16fd90c73aa8c6a31c8e7990b7e
-  method: Fastboot
-  name: Redmi K60 Ultra China
-  size: 7.9 GB
-  version: V14.0.14.0.TMLCNXM
 - android: '14.0'
   branch: Stable Beta
   codename: corot_eea_global
@@ -9642,21 +9642,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -19231,13 +19231,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -20339,7 +20339,17 @@
   size: 6.8 GB
   version: V14.0.12.0.TMGEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: topaz_global
+  date: 2024-01-02
+  link: https://bigota.d.miui.com/OS1.0.2.0.UMGMIXM/topaz_global_images_OS1.0.2.0.UMGMIXM_20231210.0000.00_14.0_global_7e99fdad86.tgz
+  md5: 7e99fdad86675f5ce0d3f7c2d44050c5
+  method: Fastboot
+  name: Redmi Note 12 4G NFC Global
+  size: 7.1 GB
+  version: OS1.0.2.0.UMGMIXM
+- android: '14.0'
+  branch: Stable
   codename: topaz_global
   date: 2023-12-18
   link: https://bigota.d.miui.com/OS1.0.2.0.UMGMIXM/miui_TOPAZGlobal_OS1.0.2.0.UMGMIXM_0d2645dd48_14.0.zip
@@ -20348,26 +20358,6 @@
   name: Redmi Note 12 4G NFC Global
   size: 4.4 GB
   version: OS1.0.2.0.UMGMIXM
-- android: '13.0'
-  branch: Stable
-  codename: topaz_global
-  date: 2023-11-13
-  link: https://bigota.d.miui.com/V14.0.8.0.TMGMIXM/miui_TOPAZGlobal_V14.0.8.0.TMGMIXM_64c17677ed_13.0.zip
-  md5: 64c17677ed8f38102a0862072d4a720a
-  method: Recovery
-  name: Redmi Note 12 4G NFC Global
-  size: 4.2 GB
-  version: V14.0.8.0.TMGMIXM
-- android: '13.0'
-  branch: Stable
-  codename: topaz_global
-  date: 2023-11-02
-  link: https://bigota.d.miui.com/V14.0.8.0.TMGMIXM/topaz_global_images_V14.0.8.0.TMGMIXM_20231102.0000.00_13.0_global_044efb989c.tgz
-  md5: 044efb989c0fe39b6550fd23199ef955
-  method: Fastboot
-  name: Redmi Note 12 4G NFC Global
-  size: 7.2 GB
-  version: V14.0.8.0.TMGMIXM
 - android: '13.0'
   branch: Stable
   codename: topaz_id_global
@@ -21629,6 +21619,16 @@
   size: 5.8 GB
   version: V14.0.2.0.TKBTWXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: vermeer
+  date: 2023-12-29
+  link: https://bigota.d.miui.com/OS1.0.11.0.UNKCNXM/miui_VERMEER_OS1.0.11.0.UNKCNXM_2316bc4e67_14.0.zip
+  md5: 2316bc4e67f1f81a7f1f9a91d0ca14c8
+  method: Recovery
+  name: Redmi K70 China
+  size: 7.0 GB
+  version: OS1.0.11.0.UNKCNXM
+- android: '14.0'
   branch: Stable
   codename: vermeer
   date: 2023-12-30
@@ -21819,7 +21819,7 @@
   size: 5.9 GB
   version: V14.0.3.0.TKCJPXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: veux_ru_global
   date: 2023-12-24
   link: https://bigota.d.miui.com/V14.0.3.0.TKCRUXM/miui_VEUXRUGlobal_V14.0.3.0.TKCRUXM_a6b220dc55_13.0.zip
@@ -21831,23 +21831,13 @@
 - android: '13.0'
   branch: Stable
   codename: veux_ru_global
-  date: 2023-09-08
-  link: https://bigota.d.miui.com/V14.0.2.0.TKCRUXM/miui_VEUXRUGlobal_V14.0.2.0.TKCRUXM_5c3070fb59_13.0.zip
-  md5: 5c3070fb59cceee7733cf921baa80768
-  method: Recovery
-  name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Russia
-  size: 3.8 GB
-  version: V14.0.2.0.TKCRUXM
-- android: '13.0'
-  branch: Stable
-  codename: veux_ru_global
-  date: 2023-09-04
-  link: https://bigota.d.miui.com/V14.0.2.0.TKCRUXM/veux_ru_global_images_V14.0.2.0.TKCRUXM_20230904.0000.00_13.0_ru_47d77f7218.tgz
+  date: 2023-12-17
+  link: https://bigota.d.miui.com/V14.0.3.0.TKCRUXM/veux_ru_global_images_V14.0.3.0.TKCRUXM_20231217.0000.00_13.0_ru_fdefb5a767.tgz
   md5: null
   method: Fastboot
   name: Redmi Note 11 Pro 5G / POCO X4 Pro 5G Russia
-  size: 6.2 GB
-  version: V14.0.2.0.TKCRUXM
+  size: 6.1 GB
+  version: V14.0.3.0.TKCRUXM
 - android: '13.0'
   branch: Stable
   codename: veux_tr_global
