@@ -12,7 +12,7 @@ def get_headers(link):
     """Perform a HEAD request safely"""
     headers = None
     try:
-        headers = head(link.replace('bigota', 'airtel.bigota')).headers
+        headers = head(link.replace('bigota.', 'bn.')).headers
     except RequestsConnectionError as err:
         logger.error(f"ConnectionError when trying to get headers of {link}\n{err}")
     return headers
