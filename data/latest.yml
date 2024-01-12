@@ -3696,7 +3696,7 @@
   md5: 37288285f1bf49bb835388d939139eca
   method: Recovery
   name: POCO X3 GT Indonesia
-  size: 3.9 GB
+  size: 4.0 GB
   version: V14.0.5.0.TKPIDXM
 - android: '13.0'
   branch: Stable
@@ -4136,7 +4136,7 @@
   md5: 47a27150be94fb68109eb3109a339c59
   method: Recovery
   name: Xiaomi 13T Pro EEA
-  size: 5.9 GB
+  size: 5.8 GB
   version: OS1.0.3.0.UMLEUXM
 - android: '13.0'
   branch: Stable
@@ -4146,7 +4146,7 @@
   md5: d4810ddaca56fbb842bc6c86dd940179
   method: Recovery
   name: Xiaomi 13T Pro Global
-  size: 5.6 GB
+  size: 5.7 GB
   version: V14.0.12.0.TMLMIXM
 - android: '13.0'
   branch: Stable
@@ -8531,23 +8531,23 @@
 - android: '13.0'
   branch: Stable
   codename: haydn
-  date: 2023-09-06
-  link: https://bigota.d.miui.com/V14.0.7.0.TKKCNXM/miui_HAYDN_V14.0.7.0.TKKCNXM_62f554b4aa_13.0.zip
-  md5: 62f554b4aafeac25f5e3af7f640f3493
+  date: 2024-01-03
+  link: https://bigota.d.miui.com/V14.0.8.0.TKKCNXM/miui_HAYDN_V14.0.8.0.TKKCNXM_e3deaf183b_13.0.zip
+  md5: e3deaf183b75faa86adcc14a71441e51
   method: Recovery
   name: Redmi K40 Pro / Pro+ China
   size: 5.5 GB
-  version: V14.0.7.0.TKKCNXM
+  version: V14.0.8.0.TKKCNXM
 - android: '13.0'
   branch: Stable
   codename: haydn
-  date: 2023-08-29
-  link: https://bigota.d.miui.com/V14.0.7.0.TKKCNXM/haydn_images_V14.0.7.0.TKKCNXM_20230829.0000.00_13.0_cn_ade9ae6cc5.tgz
-  md5: ade9ae6cc5674cc84a945219d35f3112
+  date: 2023-12-26
+  link: https://cdn-ota.azureedge.net/V14.0.8.0.TKKCNXM/haydn_images_V14.0.8.0.TKKCNXM_20231226.0000.00_13.0_cn_de34d63e97.tgz
+  md5: de34d63e97cd631bb4b583adc05b3225
   method: Fastboot
   name: Redmi K40 Pro / Pro+ China
   size: 6.5 GB
-  version: V14.0.7.0.TKKCNXM
+  version: V14.0.8.0.TKKCNXM
 - android: '12.0'
   branch: Weekly
   codename: haydn
@@ -10696,7 +10696,7 @@
   md5: 990990a54d3f40ebcee22450a077c813
   method: Recovery
   name: Redmi 10 5G / POCO M4 5G Global
-  size: 3.7 GB
+  size: 3.8 GB
   version: V14.0.8.0.TLSMIXM
 - android: '13.0'
   branch: Stable
@@ -13628,8 +13628,18 @@
   name: Xiaomi Pad 5 Russia
   size: 4.3 GB
   version: V14.0.6.0.TKXRUXM
-- android: '13.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: nabu_tr_global
+  date: 2021-10-13
+  link: https://bigota.d.miui.com/V12.5.1.0.RKXTRXM/miui_NABUTRGlobal_V12.5.1.0.RKXTRXM_f84ff8e1fb_11.0.zip
+  md5: f84ff8e1fbfddc78f7157ece32fb2e95
+  method: Recovery
+  name: Xiaomi Pad 5 Turkey
+  size: 2.7 GB
+  version: V12.5.1.0.RKXTRXM
+- android: '13.0'
+  branch: Stable
   codename: nabu_tr_global
   date: 2024-01-04
   link: https://bigota.d.miui.com/V14.0.5.0.TKXTRXM/miui_NABUTRGlobal_V14.0.5.0.TKXTRXM_dd8d82d660_13.0.zip
@@ -13641,25 +13651,15 @@
 - android: '13.0'
   branch: Stable
   codename: nabu_tr_global
-  date: 2023-08-21
-  link: https://bigota.d.miui.com/V14.0.4.0.TKXTRXM/miui_NABUTRGlobal_V14.0.4.0.TKXTRXM_a45e2dae99_13.0.zip
-  md5: a45e2dae993224a9e132dca044cf3d41
-  method: Recovery
-  name: Xiaomi Pad 5 Turkey
-  size: 3.3 GB
-  version: V14.0.4.0.TKXTRXM
-- android: '13.0'
-  branch: Stable
-  codename: nabu_tr_global
-  date: 2023-08-03
-  link: https://bigota.d.miui.com/V14.0.4.0.TKXTRXM/nabu_tr_global_images_V14.0.4.0.TKXTRXM_20230803.0000.00_13.0_tr_d85b7e6205.tgz
-  md5: d85b7e62053cf361d574dcee59a79cb4
+  date: 2023-12-20
+  link: https://cdn-ota.azureedge.net/V14.0.5.0.TKXTRXM/nabu_tr_global_images_V14.0.5.0.TKXTRXM_20231220.0000.00_13.0_tr_7c34e32ad2.tgz
+  md5: null
   method: Fastboot
   name: Xiaomi Pad 5 Turkey
   size: 4.1 GB
-  version: V14.0.4.0.TKXTRXM
+  version: V14.0.5.0.TKXTRXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: nabu_tw_global
   date: 2024-01-04
   link: https://bigota.d.miui.com/V14.0.4.0.TKXTWXM/miui_NABUTWGlobal_V14.0.4.0.TKXTWXM_a613ad59ff_13.0.zip
@@ -13671,23 +13671,13 @@
 - android: '13.0'
   branch: Stable
   codename: nabu_tw_global
-  date: 2023-08-21
-  link: https://bigota.d.miui.com/V14.0.3.0.TKXTWXM/miui_NABUTWGlobal_V14.0.3.0.TKXTWXM_c01ed5ca29_13.0.zip
-  md5: c01ed5ca290430299fe98515ac3a2626
-  method: Recovery
-  name: Xiaomi Pad 5 Taiwan
-  size: 3.3 GB
-  version: V14.0.3.0.TKXTWXM
-- android: '13.0'
-  branch: Stable
-  codename: nabu_tw_global
-  date: 2023-08-03
-  link: https://bigota.d.miui.com/V14.0.3.0.TKXTWXM/nabu_tw_global_images_V14.0.3.0.TKXTWXM_20230803.0000.00_13.0_tw_9560fc53fc.tgz
-  md5: 9560fc53fcc9110dab361fece079f177
+  date: 2023-12-20
+  link: https://cdn-ota.azureedge.net/V14.0.4.0.TKXTWXM/nabu_tw_global_images_V14.0.4.0.TKXTWXM_20231220.0000.00_13.0_tw_59b0b6252a.tgz
+  md5: null
   method: Fastboot
   name: Xiaomi Pad 5 Taiwan
   size: 4.0 GB
-  version: V14.0.3.0.TKXTWXM
+  version: V14.0.4.0.TKXTWXM
 - android: '8.0'
   branch: Stable
   codename: natrium
@@ -15456,7 +15446,7 @@
   md5: 73fd6f8317aa87bf7e811ee117ee618c
   method: Recovery
   name: Xiaomi Pad 6 Taiwan
-  size: 3.9 GB
+  size: 4.0 GB
   version: V14.0.4.0.TMZTWXM
 - android: '13.0'
   branch: Stable
@@ -17136,7 +17126,7 @@
   md5: bc18926a4290339156762dae201ed1ce
   method: Recovery
   name: POCO M5 Global
-  size: 3.7 GB
+  size: 3.8 GB
   version: V14.0.9.0.TLUMIXM
 - android: '13.0'
   branch: Stable
@@ -17406,7 +17396,7 @@
   md5: 374ebc39831b53911c04e1844bf6b563
   method: Recovery
   name: Redmi Note 10S Global
-  size: 3.6 GB
+  size: 3.7 GB
   version: V14.0.8.0.TKLMIXM
 - android: '12.0'
   branch: Stable
@@ -19531,13 +19521,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -23888,16 +23878,16 @@
   name: Xiaomi Civi 3 China
   size: 8.0 GB
   version: V14.0.11.0.TMICNXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: yunluo
-  date: 2023-10-31
-  link: https://bigota.d.miui.com/V14.0.8.0.TLYCNXM/miui_YUNLUO_V14.0.8.0.TLYCNXM_bc058890f2_13.0.zip
-  md5: bc058890f23122f316b3e3c5212a2a27
+  date: 2024-01-08
+  link: https://bigota.d.miui.com/OS1.0.2.0.ULYCNXM/miui_YUNLUO_OS1.0.2.0.ULYCNXM_b72482c1f6_14.0.zip
+  md5: b72482c1f6fdb2f95a882b2ac47623bc
   method: Recovery
   name: Redmi Pad China
-  size: 4.2 GB
-  version: V14.0.8.0.TLYCNXM
+  size: 4.3 GB
+  version: OS1.0.2.0.ULYCNXM
 - android: '13.0'
   branch: Stable
   codename: yunluo
