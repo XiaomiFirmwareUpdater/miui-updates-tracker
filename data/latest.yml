@@ -14088,8 +14088,28 @@
   name: Xiaomi 13 Pro Global
   size: 7.1 GB
   version: 23.5.6
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: nuwa_in_global
+  date: 2023-07-27
+  link: https://bigota.d.miui.com/V14.0.9.0.TMBINXM/miui_NUWAINGlobal_V14.0.9.0.TMBINXM_8c379e9527_13.0.zip
+  md5: 8c379e9527e19b49260dc2446a6d9702
+  method: Recovery
+  name: Xiaomi 13 Pro India
+  size: 5.6 GB
+  version: V14.0.9.0.TMBINXM
+- android: '14.0'
+  branch: Stable
+  codename: nuwa_in_global
+  date: 2024-01-13
+  link: https://cdn-ota.azureedge.net/OS1.0.1.0.UMBINXM/nuwa_in_global_images_OS1.0.1.0.UMBINXM_20231223.0000.00_14.0_in_5fd3bac540.tgz
+  md5: 5fd3bac540274d5227e03587800cadc4
+  method: Fastboot
+  name: Xiaomi 13 Pro India
+  size: 6.4 GB
+  version: OS1.0.1.0.UMBINXM
+- android: '14.0'
+  branch: Stable
   codename: nuwa_in_global
   date: 2024-01-02
   link: https://bigota.d.miui.com/OS1.0.1.0.UMBINXM/miui_NUWAINGlobal_OS1.0.1.0.UMBINXM_59d6d72371_14.0.zip
@@ -14098,26 +14118,6 @@
   name: Xiaomi 13 Pro India
   size: 5.7 GB
   version: OS1.0.1.0.UMBINXM
-- android: '14.0'
-  branch: Stable
-  codename: nuwa_in_global
-  date: 2023-11-16
-  link: https://bigota.d.miui.com/V14.0.1.0.UMBINXM/miui_NUWAINGlobal_V14.0.1.0.UMBINXM_4bb456eea5_14.0.zip
-  md5: 4bb456eea5798e14d60402eb8376117e
-  method: Recovery
-  name: Xiaomi 13 Pro India
-  size: 5.7 GB
-  version: V14.0.1.0.UMBINXM
-- android: '14.0'
-  branch: Stable
-  codename: nuwa_in_global
-  date: 2023-10-25
-  link: https://bigota.d.miui.com/V14.0.1.0.UMBINXM/nuwa_in_global_images_V14.0.1.0.UMBINXM_20231025.0000.00_14.0_in_3feee679e0.tgz
-  md5: 3feee679e05ad2a909eba8de80836da2
-  method: Fastboot
-  name: Xiaomi 13 Pro India
-  size: 6.5 GB
-  version: V14.0.1.0.UMBINXM
 - android: '13.0'
   branch: Stable
   codename: nuwa_ru_global
