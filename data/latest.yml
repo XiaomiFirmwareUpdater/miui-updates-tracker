@@ -6200,6 +6200,26 @@
   version: V14.0.1.0.TNFEUXM
 - android: '13.0'
   branch: Stable
+  codename: emerald_global
+  date: 2024-01-16
+  link: https://bigota.d.miui.com/V14.0.1.0.TNFMIXM/miui_EMERALDGlobal_V14.0.1.0.TNFMIXM_6f901ccab5_13.0.zip
+  md5: 6f901ccab56e46c94e4252e5ddec6681
+  method: Recovery
+  name: Redmi Note 13 Pro 4G / POCO M6 Pro Global
+  size: 4.5 GB
+  version: V14.0.1.0.TNFMIXM
+- android: '13.0'
+  branch: Stable
+  codename: emerald_global
+  date: 2023-11-25
+  link: https://cdn-ota.azureedge.net/V14.0.1.0.TNFMIXM/emerald_global_images_V14.0.1.0.TNFMIXM_20231125.0000.00_13.0_global_e6ab407880.tgz
+  md5: e6ab40788047526334b28a91a1812cc2
+  method: Fastboot
+  name: Redmi Note 13 Pro 4G / POCO M6 Pro Global
+  size: 7.4 GB
+  version: V14.0.1.0.TNFMIXM
+- android: '13.0'
+  branch: Stable
   codename: emerald_ru_global
   date: 2024-01-12
   link: https://bigota.d.miui.com/V14.0.2.0.TNFRUXM/miui_EMERALDRUGlobal_V14.0.2.0.TNFRUXM_aa5b783e03_13.0.zip
@@ -7695,7 +7715,7 @@
   link: https://bigota.d.miui.com/V14.0.4.0.TNREUXM/miui_GARNETEEAGlobal_V14.0.4.0.TNREUXM_3c7ce45625_13.0.zip
   md5: 3c7ce45625e0bf9b287dcd647538e597
   method: Recovery
-  name: Redmi Note 13 Pro 5G EEA
+  name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
   size: 5.0 GB
   version: V14.0.4.0.TNREUXM
 - android: '13.0'
@@ -7705,7 +7725,7 @@
   link: https://cdn-ota.azureedge.net/V14.0.6.0.TNREUXM/garnet_eea_global_images_V14.0.6.0.TNREUXM_20240104.0000.00_13.0_eea_68d970d6c9.tgz
   md5: 68d970d6c9727297152e4b8fcbd07c07
   method: Fastboot
-  name: Redmi Note 13 Pro 5G EEA
+  name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
   size: 7.4 GB
   version: V14.0.6.0.TNREUXM
 - android: '13.0'
@@ -7715,7 +7735,7 @@
   link: https://bigota.d.miui.com/V14.0.6.0.TNRMIXM/miui_GARNETGlobal_V14.0.6.0.TNRMIXM_8197c5c865_13.0.zip
   md5: 8197c5c865ce366dbc6d0411503480f8
   method: Recovery
-  name: Redmi Note 13 Pro 5G Global
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Global
   size: 5.0 GB
   version: V14.0.6.0.TNRMIXM
 - android: '13.0'
@@ -7725,9 +7745,19 @@
   link: https://cdn-ota.azureedge.net/V14.0.6.0.TNRMIXM/garnet_global_images_V14.0.6.0.TNRMIXM_20231228.0000.00_13.0_global_075babf566.tgz
   md5: 075babf56625c8592dfb637ac14854e5
   method: Fastboot
-  name: Redmi Note 13 Pro 5G Global
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Global
   size: 7.7 GB
   version: V14.0.6.0.TNRMIXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: garnet_in_global
+  date: 2024-01-16
+  link: https://bigota.d.miui.com/V14.0.3.0.TNRINXM/miui_GARNETINGlobal_V14.0.3.0.TNRINXM_c58fc72d31_13.0.zip
+  md5: c58fc72d31390a3535d9e344402a9899
+  method: Recovery
+  name: Redmi Note 13 Pro 5G / POCO X6 5G India
+  size: 4.8 GB
+  version: V14.0.3.0.TNRINXM
 - android: '13.0'
   branch: Stable
   codename: garnet_in_global
@@ -7735,7 +7765,7 @@
   link: https://bigota.d.miui.com/V14.0.2.0.TNRINXM/miui_GARNETINGlobal_V14.0.2.0.TNRINXM_68d1262e54_13.0.zip
   md5: 68d1262e549ae716f85f5325ebd9a2ac
   method: Recovery
-  name: Redmi Note 13 Pro 5G India
+  name: Redmi Note 13 Pro 5G / POCO X6 5G India
   size: 4.7 GB
   version: V14.0.2.0.TNRINXM
 - android: '13.0'
@@ -7745,7 +7775,7 @@
   link: https://bigota.d.miui.com/V14.0.2.0.TNRINXM/garnet_in_global_images_V14.0.2.0.TNRINXM_20231128.0000.00_13.0_in_3f74c31ffa.tgz
   md5: 3f74c31ffa43335009f4cab01d510994
   method: Fastboot
-  name: Redmi Note 13 Pro 5G India
+  name: Redmi Note 13 Pro 5G / POCO X6 5G India
   size: 6.2 GB
   version: V14.0.2.0.TNRINXM
 - android: '13.0'
@@ -7755,7 +7785,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNRTRXM/miui_GARNETTRGlobal_V14.0.1.0.TNRTRXM_3fe2cfb351_13.0.zip
   md5: 3fe2cfb3511e2c2ec94c2d6cbd1e551f
   method: Recovery
-  name: Redmi Note 13 Pro 5G Turkey
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Turkey
   size: 4.8 GB
   version: V14.0.1.0.TNRTRXM
 - android: '13.0'
@@ -7765,7 +7795,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNRTRXM/garnet_tr_global_images_V14.0.1.0.TNRTRXM_20231123.0000.00_13.0_tr_f6220fc168.tgz
   md5: f6220fc168b6ae0bb2c1d5fd0c6d9e81
   method: Fastboot
-  name: Redmi Note 13 Pro 5G Turkey
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Turkey
   size: 6.8 GB
   version: V14.0.1.0.TNRTRXM
 - android: '13.0'
@@ -7775,7 +7805,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNRTWXM/miui_GARNETTWGlobal_V14.0.1.0.TNRTWXM_ec34fb6292_13.0.zip
   md5: ec34fb629219dc606a634f6fae83c887
   method: Recovery
-  name: Redmi Note 13 Pro 5G Taiwan
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Taiwan
   size: 4.8 GB
   version: V14.0.1.0.TNRTWXM
 - android: '13.0'
@@ -7785,7 +7815,7 @@
   link: https://cdn-ota.azureedge.net/V14.0.1.0.TNRTWXM/garnet_tw_global_images_V14.0.1.0.TNRTWXM_20231123.0000.00_13.0_tw_0efd851d22.tgz
   md5: 0efd851d222e4e29a168479751de60d7
   method: Fastboot
-  name: Redmi Note 13 Pro 5G Taiwan
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Taiwan
   size: 6.5 GB
   version: V14.0.1.0.TNRTWXM
 - android: '12.0'
@@ -8275,7 +8305,7 @@
   link: https://bigota.d.miui.com/V14.0.3.0.TNQEUXM/miui_GOLDEEAGlobal_V14.0.3.0.TNQEUXM_89fd7ca462_13.0.zip
   md5: 89fd7ca462d94b4b1ced06f2edff2739
   method: Recovery
-  name: Redmi Note 13 5G EEA
+  name: Redmi Note 13 5G / POCO X6 Neo 5G EEA
   size: 4.5 GB
   version: V14.0.3.0.TNQEUXM
 - android: '13.0'
@@ -8285,7 +8315,7 @@
   link: https://bigota.d.miui.com/V14.0.3.0.TNQEUXM/gold_eea_global_images_V14.0.3.0.TNQEUXM_20231110.0000.00_13.0_eea_0a2947bda7.tgz
   md5: 0a2947bda7f2b8082fb16ee3e4845504
   method: Fastboot
-  name: Redmi Note 13 5G EEA
+  name: Redmi Note 13 5G / POCO X6 Neo 5G EEA
   size: 7.0 GB
   version: V14.0.3.0.TNQEUXM
 - android: '13.0'
@@ -8295,7 +8325,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQMIXM/miui_GOLDGlobal_V14.0.1.0.TNQMIXM_1bad16b831_13.0.zip
   md5: 1bad16b831d0b3ed7a771ed7fb845e83
   method: Recovery
-  name: Redmi Note 13 5G Global
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Global
   size: 4.4 GB
   version: V14.0.1.0.TNQMIXM
 - android: '13.0'
@@ -8305,7 +8335,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQMIXM/gold_global_images_V14.0.1.0.TNQMIXM_20231117.0000.00_13.0_global_1f471ac4f1.tgz
   md5: 1f471ac4f1ca88e9884d5f0d431c13eb
   method: Fastboot
-  name: Redmi Note 13 5G Global
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Global
   size: 7.4 GB
   version: V14.0.1.0.TNQMIXM
 - android: '13.0'
@@ -8315,7 +8345,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQIDXM/miui_GOLDIDGlobal_V14.0.1.0.TNQIDXM_a66acbecf5_13.0.zip
   md5: a66acbecf5a5da3b9bcde41c7d968da6
   method: Recovery
-  name: Redmi Note 13 5G Indonesia
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Indonesia
   size: 4.4 GB
   version: V14.0.1.0.TNQIDXM
 - android: '13.0'
@@ -8325,7 +8355,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQIDXM/gold_id_global_images_V14.0.1.0.TNQIDXM_20231115.0000.00_13.0_id_05afd19e3f.tgz
   md5: 05afd19e3f4e462146dc1f1f77e61939
   method: Fastboot
-  name: Redmi Note 13 5G Indonesia
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Indonesia
   size: 6.6 GB
   version: V14.0.1.0.TNQIDXM
 - android: '13.0'
@@ -8335,7 +8365,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQINXM/miui_GOLDINGlobal_V14.0.1.0.TNQINXM_636ed78238_13.0.zip
   md5: 636ed78238a3ff75298e38889a182ef2
   method: Recovery
-  name: Redmi Note 13 5G India
+  name: Redmi Note 13 5G / POCO X6 Neo 5G India
   size: 4.3 GB
   version: V14.0.1.0.TNQINXM
 - android: '13.0'
@@ -8345,7 +8375,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQINXM/gold_in_global_images_V14.0.1.0.TNQINXM_20231116.0000.00_13.0_in_c574f8566c.tgz
   md5: c574f8566c527fd27efee1a531a3619b
   method: Fastboot
-  name: Redmi Note 13 5G India
+  name: Redmi Note 13 5G / POCO X6 Neo 5G India
   size: 5.8 GB
   version: V14.0.1.0.TNQINXM
 - android: '13.0'
@@ -8355,7 +8385,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQTRXM/miui_GOLDTRGlobal_V14.0.1.0.TNQTRXM_0474814fa6_13.0.zip
   md5: 0474814fa6bd6f3e14a35ccdbb8d8ce6
   method: Recovery
-  name: Redmi Note 13 5G Turkey
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Turkey
   size: 4.4 GB
   version: V14.0.1.0.TNQTRXM
 - android: '13.0'
@@ -8365,7 +8395,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQTRXM/gold_tr_global_images_V14.0.1.0.TNQTRXM_20231204.0000.00_13.0_tr_efcf3ac55a.tgz
   md5: efcf3ac55a446f6046984eedfa20b28d
   method: Fastboot
-  name: Redmi Note 13 5G Turkey
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Turkey
   size: 6.2 GB
   version: V14.0.1.0.TNQTRXM
 - android: '13.0'
@@ -8375,7 +8405,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQTWXM/miui_GOLDTWGlobal_V14.0.1.0.TNQTWXM_bb373cbde7_13.0.zip
   md5: bb373cbde7b2fefaf1dcd2c28e5a6d69
   method: Recovery
-  name: Redmi Note 13 5G Taiwan
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Taiwan
   size: 4.3 GB
   version: V14.0.1.0.TNQTWXM
 - android: '13.0'
@@ -8385,7 +8415,7 @@
   link: https://bigota.d.miui.com/V14.0.1.0.TNQTWXM/gold_tw_global_images_V14.0.1.0.TNQTWXM_20231204.0000.00_13.0_tw_dbd61a1b64.tgz
   md5: dbd61a1b643fb5bb2a4c0fa2400cc490
   method: Fastboot
-  name: Redmi Note 13 5G Taiwan
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Taiwan
   size: 6.0 GB
   version: V14.0.1.0.TNQTWXM
 - android: '11.0'
@@ -11279,7 +11309,7 @@
   size: 6.4 GB
   version: 22.2.19
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: lisa_eea_global
   date: 2024-01-05
   link: https://bigota.d.miui.com/V14.0.11.0.TKOEUXM/miui_LISAEEAGlobal_V14.0.11.0.TKOEUXM_67b2b73e1e_13.0.zip
@@ -11291,25 +11321,25 @@
 - android: '13.0'
   branch: Stable
   codename: lisa_eea_global
-  date: 2023-12-19
-  link: https://bigota.d.miui.com/V14.0.10.0.TKOEUXM/miui_LISAEEAGlobal_V14.0.10.0.TKOEUXM_20b9baf5a4_13.0.zip
-  md5: 20b9baf5a43dce623502614502d1d454
-  method: Recovery
-  name: Xiaomi 11 Lite 5G NE EEA
-  size: 4.6 GB
-  version: V14.0.10.0.TKOEUXM
-- android: '13.0'
-  branch: Stable
-  codename: lisa_eea_global
-  date: 2023-10-27
-  link: https://bigota.d.miui.com/V14.0.10.0.TKOEUXM/lisa_eea_global_images_V14.0.10.0.TKOEUXM_20231027.0000.00_13.0_eea_d9e49c73ff.tgz
-  md5: d9e49c73ff9b796b8cee1336f094ff82
+  date: 2023-12-14
+  link: https://cdn-ota.azureedge.net/V14.0.11.0.TKOEUXM/lisa_eea_global_images_V14.0.11.0.TKOEUXM_20231214.0000.00_13.0_eea_fb80be4f87.tgz
+  md5: fb80be4f87142180bed914e2b9d122f9
   method: Fastboot
   name: Xiaomi 11 Lite 5G NE EEA
   size: 6.2 GB
-  version: V14.0.10.0.TKOEUXM
-- android: '13.0'
+  version: V14.0.11.0.TKOEUXM
+- android: '11.0'
   branch: Stable Beta
+  codename: lisa_global
+  date: 2021-09-16
+  link: https://bigota.d.miui.com/V12.5.1.0.RKOMIXM/miui_LISAGlobal_V12.5.1.0.RKOMIXM_076be2f277_11.0.zip
+  md5: 076be2f27720e7430d8fdd4b7c1f990a
+  method: Recovery
+  name: Xiaomi 11 Lite 5G NE Global
+  size: 3.1 GB
+  version: V12.5.1.0.RKOMIXM
+- android: '13.0'
+  branch: Stable
   codename: lisa_global
   date: 2024-01-04
   link: https://bigota.d.miui.com/V14.0.7.0.TKOMIXM/miui_LISAGlobal_V14.0.7.0.TKOMIXM_6775e21ee0_13.0.zip
@@ -11321,23 +11351,13 @@
 - android: '13.0'
   branch: Stable
   codename: lisa_global
-  date: 2023-09-07
-  link: https://bigota.d.miui.com/V14.0.6.0.TKOMIXM/miui_LISAGlobal_V14.0.6.0.TKOMIXM_607b56f4ff_13.0.zip
-  md5: 607b56f4ff283d5a83ce60f1db4edb8a
-  method: Recovery
-  name: Xiaomi 11 Lite 5G NE Global
-  size: 4.6 GB
-  version: V14.0.6.0.TKOMIXM
-- android: '13.0'
-  branch: Stable
-  codename: lisa_global
-  date: 2023-09-01
-  link: https://bigota.d.miui.com/V14.0.6.0.TKOMIXM/lisa_global_images_V14.0.6.0.TKOMIXM_20230901.0000.00_13.0_global_bddc204b6c.tgz
-  md5: bddc204b6c1da66d1eed7a267326d5f5
+  date: 2023-12-14
+  link: https://cdn-ota.azureedge.net/V14.0.7.0.TKOMIXM/lisa_global_images_V14.0.7.0.TKOMIXM_20231214.0000.00_13.0_global_13c0184ed2.tgz
+  md5: 13c0184ed2eef2402c1cd1d87db65658
   method: Fastboot
   name: Xiaomi 11 Lite 5G NE Global
   size: 6.4 GB
-  version: V14.0.6.0.TKOMIXM
+  version: V14.0.7.0.TKOMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: lisa_in_global
@@ -12009,7 +12029,17 @@
   size: 5.0 GB
   version: OS1.0.4.0.UMREUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: marble_global
+  date: 2024-01-16
+  link: https://cdn-ota.azureedge.net/OS1.0.2.0.UMRMIXM/marble_global_images_OS1.0.2.0.UMRMIXM_20231218.0000.00_14.0_global_17a885eed3.tgz
+  md5: 17a885eed3f28c7059a69b617f7d6bae
+  method: Fastboot
+  name: POCO F5 Global
+  size: 7.9 GB
+  version: OS1.0.2.0.UMRMIXM
+- android: '14.0'
+  branch: Stable
   codename: marble_global
   date: 2024-01-04
   link: https://bigota.d.miui.com/OS1.0.2.0.UMRMIXM/miui_MARBLEGlobal_OS1.0.2.0.UMRMIXM_5e39b4ed67_14.0.zip
@@ -12018,26 +12048,6 @@
   name: POCO F5 Global
   size: 5.2 GB
   version: OS1.0.2.0.UMRMIXM
-- android: '13.0'
-  branch: Stable
-  codename: marble_global
-  date: 2023-12-15
-  link: https://bigota.d.miui.com/V14.0.8.0.TMRMIXM/miui_MARBLEGlobal_V14.0.8.0.TMRMIXM_2b4b4a3113_13.0.zip
-  md5: 2b4b4a3113c2698db63880d47fb1f901
-  method: Recovery
-  name: POCO F5 Global
-  size: 5.0 GB
-  version: V14.0.8.0.TMRMIXM
-- android: '13.0'
-  branch: Stable
-  codename: marble_global
-  date: 2023-12-11
-  link: https://bigota.d.miui.com/V14.0.8.0.TMRMIXM/marble_global_images_V14.0.8.0.TMRMIXM_20231211.0000.00_13.0_global_ca5202487f.tgz
-  md5: ca5202487f6e7b4a672eeaaf24b17185
-  method: Fastboot
-  name: POCO F5 Global
-  size: 7.8 GB
-  version: V14.0.8.0.TMRMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: marble_id_global
