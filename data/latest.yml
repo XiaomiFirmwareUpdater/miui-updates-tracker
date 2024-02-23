@@ -1589,7 +1589,17 @@
   size: 5.7 GB
   version: OS1.0.2.0.UMFIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: aristotle_ru_global
+  date: 2024-02-23
+  link: https://cdn-ota.azureedge.net/OS1.0.1.0.UMFRUXM/aristotle_ru_global_images_OS1.0.1.0.UMFRUXM_20240123.0000.00_14.0_ru_dca97f839a.tgz
+  md5: dca97f839aceaeab26e32c9990bd7bac
+  method: Fastboot
+  name: Xiaomi 13T Russia
+  size: 7.4 GB
+  version: OS1.0.1.0.UMFRUXM
+- android: '14.0'
+  branch: Stable
   codename: aristotle_ru_global
   date: 2024-02-01
   link: https://bigota.d.miui.com/OS1.0.1.0.UMFRUXM/miui_ARISTOTLERUGlobal_OS1.0.1.0.UMFRUXM_863685c368_14.0.zip
@@ -1598,28 +1608,18 @@
   name: Xiaomi 13T Russia
   size: 5.6 GB
   version: OS1.0.1.0.UMFRUXM
-- android: '13.0'
-  branch: Stable
-  codename: aristotle_ru_global
-  date: 2023-09-27
-  link: https://bigota.d.miui.com/V14.0.3.0.TMFRUXM/miui_ARISTOTLERUGlobal_V14.0.3.0.TMFRUXM_c66a67a6d7_13.0.zip
-  md5: c66a67a6d78e709a5b925c0e61404c3b
-  method: Recovery
-  name: Xiaomi 13T Russia
-  size: 5.3 GB
-  version: V14.0.3.0.TMFRUXM
-- android: '13.0'
-  branch: Stable
-  codename: aristotle_ru_global
-  date: 2023-09-19
-  link: https://bigota.d.miui.com/V14.0.3.0.TMFRUXM/aristotle_ru_global_images_V14.0.3.0.TMFRUXM_20230919.0000.00_13.0_ru_c799776fa2.tgz
-  md5: c799776fa23e770a5705a029c5da38d2
-  method: Fastboot
-  name: Xiaomi 13T Russia
-  size: 7.1 GB
-  version: V14.0.3.0.TMFRUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: aristotle_tr_global
+  date: 2024-02-23
+  link: https://cdn-ota.azureedge.net/OS1.0.1.0.UMFTRXM/aristotle_tr_global_images_OS1.0.1.0.UMFTRXM_20240123.0000.00_14.0_tr_3b0ee66582.tgz
+  md5: 3b0ee66582f0bdd509db0f2a26631f1c
+  method: Fastboot
+  name: Xiaomi 13T Turkey
+  size: 6.9 GB
+  version: OS1.0.1.0.UMFTRXM
+- android: '14.0'
+  branch: Stable
   codename: aristotle_tr_global
   date: 2024-01-30
   link: https://bigota.d.miui.com/OS1.0.1.0.UMFTRXM/miui_ARISTOTLETRGlobal_OS1.0.1.0.UMFTRXM_14deef6595_14.0.zip
@@ -1628,26 +1628,6 @@
   name: Xiaomi 13T Turkey
   size: 5.6 GB
   version: OS1.0.1.0.UMFTRXM
-- android: '13.0'
-  branch: Stable
-  codename: aristotle_tr_global
-  date: 2023-11-23
-  link: https://bigota.d.miui.com/V14.0.4.0.TMFTRXM/miui_ARISTOTLETRGlobal_V14.0.4.0.TMFTRXM_01f37ed3ae_13.0.zip
-  md5: 01f37ed3aea9e1ac453d933faf733fad
-  method: Recovery
-  name: Xiaomi 13T Turkey
-  size: 5.3 GB
-  version: V14.0.4.0.TMFTRXM
-- android: '13.0'
-  branch: Stable
-  codename: aristotle_tr_global
-  date: 2023-11-01
-  link: https://bigota.d.miui.com/V14.0.4.0.TMFTRXM/aristotle_tr_global_images_V14.0.4.0.TMFTRXM_20231101.0000.00_13.0_tr_47807d8901.tgz
-  md5: 47807d890165e16cd39b048502689715
-  method: Fastboot
-  name: Xiaomi 13T Turkey
-  size: 6.6 GB
-  version: V14.0.4.0.TMFTRXM
 - android: '14.0'
   branch: Stable
   codename: aristotle_tw_global
@@ -6340,6 +6320,26 @@
   version: V14.0.5.0.TNFRUXM
 - android: '13.0'
   branch: Stable
+  codename: emerald_tr_global
+  date: 2024-02-19
+  link: https://bigota.d.miui.com/V14.0.3.0.TNFTRXM/miui_EMERALDTRGlobal_V14.0.3.0.TNFTRXM_08f048ed79_13.0.zip
+  md5: 08f048ed79f8f9bef73f45a2818611fb
+  method: Recovery
+  name: Redmi Note 13 Pro 4G / POCO M6 Pro Turkey
+  size: 4.5 GB
+  version: V14.0.3.0.TNFTRXM
+- android: '13.0'
+  branch: Stable
+  codename: emerald_tr_global
+  date: 2024-01-30
+  link: https://cdn-ota.azureedge.net/V14.0.3.0.TNFTRXM/emerald_tr_global_images_V14.0.3.0.TNFTRXM_20240130.0000.00_13.0_tr_c1b86fcfd4.tgz
+  md5: c1b86fcfd4c768d9392737ed7720493a
+  method: Fastboot
+  name: Redmi Note 13 Pro 4G / POCO M6 Pro Turkey
+  size: 6.2 GB
+  version: V14.0.3.0.TNFTRXM
+- android: '13.0'
+  branch: Stable
   codename: enuma
   date: 2023-10-07
   link: https://bigota.d.miui.com/V14.0.4.0.TKZCNXM/miui_ENUMA_V14.0.4.0.TKZCNXM_aa80acda54_13.0.zip
@@ -10132,21 +10132,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -19303,7 +19303,7 @@
   codename: sheng
   date: 2024-02-22
   link: https://cdn-ota.azureedge.net/OS1.0.3.0.UNXCNXM/miui_SHENG_OS1.0.3.0.UNXCNXM_37ab7cee9d_14.0.zip
-  md5: null
+  md5: 37ab7cee9dca5f7f74a80cf1f7611829
   method: Recovery
   name: Xiaomi Pad 6S Pro 12.4 China
   size: 6.7 GB
