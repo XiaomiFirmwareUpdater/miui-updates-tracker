@@ -74,7 +74,7 @@ def ota_info_from_file(ota_file: str, more_details: bool = False):
 def fastboot_info_from_file(fastboot_file: str, more_details: bool = False):
     """Parse fastboot rom zip file and return its information"""
     pattern = re.compile(
-        r'([\d\w_]+)_images_(V\.?\d{1,2}\.\d{,2}\.\d{,2}\.\d{,2}\.\d{,2}?\.?[A-Z]{3,}'
+        r'([\d\w_]+)_images_([VOS]+\.?\d{1,}\.\d{,2}\.\d{,2}\.\d{,2}\.\d{,2}?\.?[A-Z]{3,}'
         r'|\d{,2}\.\d{,2}\.\d{,2})_(?:\.1_)?(\d{8})?(?:\.0000)?(?:\.\d{,2})?'
         r'_([0-9.]+)_?([a-z]+)?_(?:\w+_)?([a-z0-9]+)\.tgz')
     alt_pattern = re.compile(r'([\d\w_]+)_images_(.*)_(\d{8})?(?:\.0000\.\d{,2})?'
