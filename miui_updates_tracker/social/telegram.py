@@ -6,13 +6,14 @@ from typing import List, Union
 from urllib.parse import quote
 
 from humanize import naturalsize
-from miui_updates_tracker.common.constants import website
-from miui_updates_tracker.common.database.database import get_full_name, get_incremental
-from miui_updates_tracker.common.database.models.miui_update import Update
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 from telegram.error import BadRequest, RetryAfter
 from telegram.ext import Application
+
+from miui_updates_tracker.common.constants import website
+from miui_updates_tracker.common.database.database import get_full_name, get_incremental
+from miui_updates_tracker.common.database.models.miui_update import Update
 
 
 class TelegramBot:
@@ -125,7 +126,7 @@ class TelegramBot:
                 chat_id=self.chat,
                 text=message,
                 parse_mode=ParseMode.MARKDOWN,
-                disable_web_page_preview="yes",
+                disable_web_page_preview=True,
                 reply_markup=reply_markup,
             )
         except RetryAfter as error:
