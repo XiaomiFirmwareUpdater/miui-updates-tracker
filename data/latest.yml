@@ -4488,8 +4488,18 @@
   name: Mi 9 Pro 5G China
   size: 3.0 GB
   version: 21.11.24
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: cupid
+  date: 2023-10-30
+  link: https://bigota.d.miui.com/V14.0.8.0.TLCCNXM/miui_CUPID_V14.0.8.0.TLCCNXM_3d64b282e7_13.0.zip
+  md5: 3d64b282e766789f556cc0bc46845236
+  method: Recovery
+  name: Xiaomi 12 China
+  size: 5.6 GB
+  version: V14.0.8.0.TLCCNXM
+- android: '14.0'
+  branch: Stable
   codename: cupid
   date: 2024-03-01
   link: https://bigota.d.miui.com/OS1.0.5.0.ULCCNXM/miui_CUPID_OS1.0.5.0.ULCCNXM_06378516d1_14.0.zip
@@ -4501,23 +4511,13 @@
 - android: '14.0'
   branch: Stable
   codename: cupid
-  date: 2024-02-23
-  link: https://cdn-ota.azureedge.net/OS1.0.2.0.ULCCNXM/cupid_images_OS1.0.2.0.ULCCNXM_20240113.0000.00_14.0_cn_34b0f51666.tgz
-  md5: 34b0f516666851fcd820606045a3fed8
+  date: 2024-02-26
+  link: https://cdn-ota.azureedge.net/OS1.0.5.0.ULCCNXM/cupid_images_OS1.0.5.0.ULCCNXM_20240226.0000.00_14.0_cn_ee2d2f6447.tgz
+  md5: ee2d2f64471682302be0f092e1168098
   method: Fastboot
   name: Xiaomi 12 China
   size: 7.2 GB
-  version: OS1.0.2.0.ULCCNXM
-- android: '14.0'
-  branch: Stable
-  codename: cupid
-  date: 2024-01-29
-  link: https://bigota.d.miui.com/OS1.0.2.0.ULCCNXM/miui_CUPID_OS1.0.2.0.ULCCNXM_75f6040d02_14.0.zip
-  md5: 75f6040d02bfc375a6e2931ad677c82e
-  method: Recovery
-  name: Xiaomi 12 China
-  size: 5.7 GB
-  version: OS1.0.2.0.ULCCNXM
+  version: OS1.0.5.0.ULCCNXM
 - android: '14.0'
   branch: Public Beta
   codename: cupid
@@ -7918,6 +7918,16 @@
   name: Redmi Note 13 Pro 5G / POCO X6 5G Indonesia
   size: 7.1 GB
   version: V14.0.1.0.TNRIDXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: garnet_in_global
+  date: 2024-03-05
+  link: https://bigota.d.miui.com/OS1.0.3.0.UNRINXM/miui_GARNETINGlobal_OS1.0.3.0.UNRINXM_414a4dd7e7_14.0.zip
+  md5: 414a4dd7e735b482b00918b0f6948954
+  method: Recovery
+  name: Redmi Note 13 Pro 5G / POCO X6 5G India
+  size: 4.8 GB
+  version: OS1.0.3.0.UNRINXM
 - android: '13.0'
   branch: Stable
   codename: garnet_in_global
@@ -10272,21 +10282,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -18378,16 +18388,16 @@
   name: Redmi Note 12 Pro / Pro+ 5G Indonesia
   size: 6.9 GB
   version: OS1.0.2.0.UMOIDXM
-- android: '12.0'
+- android: '14.0'
   branch: Stable Beta
   codename: ruby_in_global
-  date: 2023-01-10
-  link: https://bigota.d.miui.com/V13.0.2.0.SMOINXM/miui_RUBYINGlobal_V13.0.2.0.SMOINXM_7f66111291_12.0.zip
-  md5: 7f66111291bb10693787e19de8d442f7
+  date: 2024-03-05
+  link: https://bigota.d.miui.com/OS1.0.1.0.UMOINXM/miui_RUBYINGlobal_OS1.0.1.0.UMOINXM_3efecd9f47_14.0.zip
+  md5: 3efecd9f47bcf031b0cb65e0ee7aa20c
   method: Recovery
   name: Redmi Note 12 Pro / Pro+ 5G India
-  size: 4.0 GB
-  version: V13.0.2.0.SMOINXM
+  size: 4.7 GB
+  version: OS1.0.1.0.UMOINXM
 - android: '13.0'
   branch: Stable
   codename: ruby_in_global
@@ -21228,6 +21238,16 @@
   name: Mi Note 10 Lite Turkey
   size: 4.1 GB
   version: V13.0.3.0.SFNTRXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: topaz_eea_global
+  date: 2024-03-06
+  link: https://bigota.d.miui.com/OS1.0.6.0.UMGEUXM/miui_TOPAZEEAGlobal_OS1.0.6.0.UMGEUXM_dfadeededc_14.0.zip
+  md5: dfadeededc6309bc94f92b7b09e39094
+  method: Recovery
+  name: Redmi Note 12 4G NFC EEA
+  size: 4.5 GB
+  version: OS1.0.6.0.UMGEUXM
 - android: '14.0'
   branch: Stable
   codename: topaz_eea_global
