@@ -4171,6 +4171,16 @@
 - android: '14.0'
   branch: Stable
   codename: corot
+  date: 2024-03-06
+  link: https://cdn-ota.azureedge.net/OS1.0.10.0.UMLCNXM/miui_COROT_OS1.0.10.0.UMLCNXM_147c459717_14.0.zip
+  md5: null
+  method: Recovery
+  name: Redmi K60 Ultra China
+  size: 6.4 GB
+  version: OS1.0.10.0.UMLCNXM
+- android: '14.0'
+  branch: Stable
+  codename: corot
   date: 2024-03-01
   link: https://cdn-ota.azureedge.net/OS1.0.9.0.UMLCNXM/corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_bf4a88f84f.tgz
   md5: bf4a88f84f973f1ff3ce321648a9e29e
@@ -4178,16 +4188,6 @@
   name: Redmi K60 Ultra China
   size: 8.1 GB
   version: OS1.0.9.0.UMLCNXM
-- android: '14.0'
-  branch: Stable
-  codename: corot
-  date: 2024-02-29
-  link: https://cdn-ota.azureedge.net/OS1.0.9.6.UMLCNXM/miui_COROT_OS1.0.9.6.UMLCNXM_fb33cc0d0d_14.0.zip
-  md5: null
-  method: Recovery
-  name: Redmi K60 Ultra China
-  size: 6.4 GB
-  version: OS1.0.9.6.UMLCNXM
 - android: '14.0'
   branch: Stable
   codename: corot_eea_global
@@ -6389,7 +6389,7 @@
   size: 6.2 GB
   version: V14.0.3.0.TNFTRXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: enuma
   date: 2024-03-04
   link: https://bigota.d.miui.com/OS1.0.1.0.TKZCNXM/miui_ENUMA_OS1.0.1.0.TKZCNXM_4488f26875_13.0.zip
@@ -6401,23 +6401,13 @@
 - android: '13.0'
   branch: Stable
   codename: enuma
-  date: 2023-10-07
-  link: https://bigota.d.miui.com/V14.0.4.0.TKZCNXM/miui_ENUMA_V14.0.4.0.TKZCNXM_aa80acda54_13.0.zip
-  md5: aa80acda5403b4189294ef95dcdfb3a0
-  method: Recovery
-  name: Xiaomi Pad 5 Pro 5G China
-  size: 4.4 GB
-  version: V14.0.4.0.TKZCNXM
-- android: '13.0'
-  branch: Stable
-  codename: enuma
-  date: 2023-09-20
-  link: https://bigota.d.miui.com/V14.0.4.0.TKZCNXM/enuma_images_V14.0.4.0.TKZCNXM_20230920.0000.00_13.0_cn_ab52a645ef.tgz
-  md5: ab52a645efc3f03b3608b44ee8d94f01
+  date: 2024-02-06
+  link: https://cdn-ota.azureedge.net/OS1.0.1.0.TKZCNXM/enuma_images_OS1.0.1.0.TKZCNXM_20240206.0000.00_13.0_cn_71ead6a87c.tgz
+  md5: 71ead6a87c62adc1c176500d387ce4f6
   method: Fastboot
   name: Xiaomi Pad 5 Pro 5G China
-  size: 5.3 GB
-  version: V14.0.4.0.TKZCNXM
+  size: 5.4 GB
+  version: OS1.0.1.0.TKZCNXM
 - android: '11.0'
   branch: Weekly
   codename: enuma
@@ -10392,21 +10382,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -19421,6 +19411,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: sheng
+  date: 2024-02-22
+  link: https://cdn-ota.azureedge.net/OS1.0.1.0.UNXCNXM/miui_SHENG_OS1.0.1.0.UNXCNXM_db6e0aaf09_14.0.zip
+  md5: db6e0aaf09d36e53ad1106f72c01c00b
+  method: Recovery
+  name: Xiaomi Pad 6S Pro 12.4 China
+  size: 6.7 GB
+  version: OS1.0.1.0.UNXCNXM
+- android: '14.0'
+  branch: Stable
+  codename: sheng
   date: 2024-03-09
   link: https://bigota.d.miui.com/OS1.0.5.0.UNXCNXM/miui_SHENG_OS1.0.5.0.UNXCNXM_c360e030b8_14.0.zip
   md5: c360e030b8c81bb2c25787b62b8f58c2
@@ -19431,23 +19431,13 @@
 - android: '14.0'
   branch: Stable
   codename: sheng
-  date: 2024-02-24
-  link: https://cdn-ota.azureedge.net/OS1.0.4.0.UNXCNXM/sheng_images_OS1.0.4.0.UNXCNXM_20240205.0000.00_14.0_cn_f87e0d6ecd.tgz
-  md5: f87e0d6ecd7f161172607ae6d4af7991
+  date: 2024-03-06
+  link: https://cdn-ota.azureedge.net/OS1.0.5.0.UNXCNXM/sheng_images_OS1.0.5.0.UNXCNXM_20240306.0000.00_14.0_cn_7cac03de7b.tgz
+  md5: 7cac03de7b5058169257a98bb6d3238e
   method: Fastboot
   name: Xiaomi Pad 6S Pro 12.4 China
   size: 7.7 GB
-  version: OS1.0.4.0.UNXCNXM
-- android: '14.0'
-  branch: Stable
-  codename: sheng
-  date: 2024-02-22
-  link: https://cdn-ota.azureedge.net/OS1.0.3.0.UNXCNXM/miui_SHENG_OS1.0.3.0.UNXCNXM_37ab7cee9d_14.0.zip
-  md5: 37ab7cee9dca5f7f74a80cf1f7611829
-  method: Recovery
-  name: Xiaomi Pad 6S Pro 12.4 China
-  size: 6.7 GB
-  version: OS1.0.3.0.UNXCNXM
+  version: OS1.0.5.0.UNXCNXM
 - android: '14.0'
   branch: Stable Beta
   codename: shennong
@@ -20221,13 +20211,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
