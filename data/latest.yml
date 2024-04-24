@@ -4389,7 +4389,7 @@
   size: 8.3 GB
   version: OS1.0.11.0.UMLCNXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: corot_eea_global
   date: 2024-04-03
   link: https://bigota.d.miui.com/OS1.0.6.0.UMLEUXM/miui_COROTEEAGlobal_OS1.0.6.0.UMLEUXM_5563b72367_14.0.zip
@@ -4401,23 +4401,13 @@
 - android: '14.0'
   branch: Stable
   codename: corot_eea_global
-  date: 2024-02-21
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMLEUXM/miui_COROTEEAGlobal_OS1.0.4.0.UMLEUXM_71d7dc436c_14.0.zip
-  md5: 71d7dc436c7dac3322813b42a734736b
-  method: Recovery
-  name: Xiaomi 13T Pro EEA
-  size: 5.9 GB
-  version: OS1.0.4.0.UMLEUXM
-- android: '14.0'
-  branch: Stable
-  codename: corot_eea_global
-  date: 2024-02-06
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMLEUXM/corot_eea_global_images_OS1.0.4.0.UMLEUXM_20240206.0000.00_14.0_eea_9f36877e93.tgz
-  md5: 9f36877e9397de9b11514fcfd8ebbed7
+  date: 2024-03-12
+  link: https://cdnorg.d.miui.com/OS1.0.6.0.UMLEUXM/corot_eea_global_images_OS1.0.6.0.UMLEUXM_20240312.0000.00_14.0_eea_cbc2db7628.tgz
+  md5: cbc2db76281f9f8cb9feb8df2f6f9c5f
   method: Fastboot
   name: Xiaomi 13T Pro EEA
-  size: 7.8 GB
-  version: OS1.0.4.0.UMLEUXM
+  size: 7.7 GB
+  version: OS1.0.6.0.UMLEUXM
 - android: '14.0'
   branch: Stable
   codename: corot_global
@@ -7959,6 +7949,16 @@
   size: 5.4 GB
   version: V14.0.5.0.TGPINXM
 - android: '13.0'
+  branch: Stable Beta
+  codename: gale_ru_global
+  date: 2024-04-23
+  link: https://bigota.d.miui.com/V14.0.5.0.TGPRUXM/miui_GALERUGlobal_V14.0.5.0.TGPRUXM_4f8544991e_13.0.zip
+  md5: 4f8544991e4d399f0e2bf8de420a01da
+  method: Recovery
+  name: Redmi 13C / POCO C65 Russia
+  size: 4.0 GB
+  version: V14.0.5.0.TGPRUXM
+- android: '13.0'
   branch: Stable
   codename: gale_ru_global
   date: 2024-02-22
@@ -8748,26 +8748,26 @@
   name: Redmi Note 13 5G / POCO X6 Neo 5G Indonesia
   size: 6.8 GB
   version: OS1.0.1.0.UNQIDXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable
   codename: gold_in_global
-  date: 2024-04-01
-  link: https://bigota.d.miui.com/V14.0.7.0.TNQINXM/miui_GOLDINGlobal_V14.0.7.0.TNQINXM_dea7eca6e0_13.0.zip
-  md5: dea7eca6e04c39801df2c951702a28e7
+  date: 2024-04-09
+  link: https://bigota.d.miui.com/OS1.0.5.0.UNQINXM/miui_GOLDINGlobal_OS1.0.5.0.UNQINXM_049144b103_14.0.zip
+  md5: 049144b1037056b2a5ea88b2a293084f
   method: Recovery
   name: Redmi Note 13 5G / POCO X6 Neo 5G India
-  size: 4.4 GB
-  version: V14.0.7.0.TNQINXM
-- android: '13.0'
+  size: 4.6 GB
+  version: OS1.0.5.0.UNQINXM
+- android: '14.0'
   branch: Stable
   codename: gold_in_global
-  date: 2024-03-05
-  link: https://cdnorg.d.miui.com/V14.0.7.0.TNQINXM/gold_in_global_images_V14.0.7.0.TNQINXM_20240305.0000.00_13.0_in_4be8920ed8.tgz
-  md5: 4be8920ed8372f593d98804703be6682
+  date: 2024-03-19
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UNQINXM/gold_in_global_images_OS1.0.5.0.UNQINXM_20240319.0000.00_14.0_in_118f078972.tgz
+  md5: 118f07897268dd5798eb7cc998d43465
   method: Fastboot
   name: Redmi Note 13 5G / POCO X6 Neo 5G India
-  size: 6.0 GB
-  version: V14.0.7.0.TNQINXM
+  size: 6.1 GB
+  version: OS1.0.5.0.UNQINXM
 - android: '14.0'
   branch: Stable
   codename: gold_tr_global
@@ -11418,16 +11418,16 @@
   name: Redmi 10 5G / POCO M4 5G Indonesia
   size: 5.7 GB
   version: OS1.0.1.0.ULSIDXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: light_in_global
-  date: 2024-01-05
-  link: https://bigota.d.miui.com/V14.0.9.0.TLSINXM/miui_LIGHTINGlobal_V14.0.9.0.TLSINXM_ccea5f1c1b_13.0.zip
-  md5: ccea5f1c1bc5a02698d79b53ebb7eb55
+  date: 2024-04-21
+  link: https://bigota.d.miui.com/OS1.0.3.0.ULSINXM/miui_LIGHTINGlobal_OS1.0.3.0.ULSINXM_9e4a3c7a82_14.0.zip
+  md5: 9e4a3c7a82f10a6e6647c34ad321f787
   method: Recovery
   name: Redmi 11 Prime 5G / POCO M4 5G India
-  size: 3.5 GB
-  version: V14.0.9.0.TLSINXM
+  size: 3.8 GB
+  version: OS1.0.3.0.ULSINXM
 - android: '14.0'
   branch: Stable
   codename: light_in_global
