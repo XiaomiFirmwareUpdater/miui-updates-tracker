@@ -11328,8 +11328,18 @@
   name: Redmi Note 11E China
   size: 5.7 GB
   version: OS1.0.7.0.ULSCNXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: light_eea_global
+  date: 2022-06-22
+  link: https://bigota.d.miui.com/V13.0.4.0.SLSEUXM/miui_LIGHTEEAGlobal_V13.0.4.0.SLSEUXM_1d3c5b0b56_12.0.zip
+  md5: 1d3c5b0b566378f8ce5e4a47cc78473b
+  method: Recovery
+  name: Redmi 10 5G / POCO M4 5G EEA
+  size: 3.1 GB
+  version: V13.0.4.0.SLSEUXM
+- android: '14.0'
+  branch: Stable
   codename: light_eea_global
   date: 2024-04-15
   link: https://bigota.d.miui.com/OS1.0.3.0.ULSEUXM/miui_LIGHTEEAGlobal_OS1.0.3.0.ULSEUXM_5a2625de37_14.0.zip
@@ -11341,23 +11351,13 @@
 - android: '14.0'
   branch: Stable
   codename: light_eea_global
-  date: 2024-02-22
-  link: https://bigota.d.miui.com/OS1.0.2.0.ULSEUXM/miui_LIGHTEEAGlobal_OS1.0.2.0.ULSEUXM_d416f577f6_14.0.zip
-  md5: d416f577f636b801868b1ff87d7d91ad
-  method: Recovery
-  name: Redmi 10 5G / POCO M4 5G EEA
-  size: 3.9 GB
-  version: OS1.0.2.0.ULSEUXM
-- android: '14.0'
-  branch: Stable
-  codename: light_eea_global
-  date: 2024-02-05
-  link: https://bigota.d.miui.com/OS1.0.2.0.ULSEUXM/light_eea_global_images_OS1.0.2.0.ULSEUXM_20240205.0000.00_14.0_eea_70913df06d.tgz
-  md5: 70913df06d6ba4e9503415d007deac34
+  date: 2024-03-22
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.ULSEUXM/light_eea_global_images_OS1.0.3.0.ULSEUXM_20240322.0000.00_14.0_eea_afa909dfbb.tgz
+  md5: afa909dfbbdee63bfd62c99835203a25
   method: Fastboot
   name: Redmi 10 5G / POCO M4 5G EEA
   size: 6.0 GB
-  version: OS1.0.2.0.ULSEUXM
+  version: OS1.0.3.0.ULSEUXM
 - android: '14.0'
   branch: Stable Beta
   codename: light_global
@@ -14208,8 +14208,18 @@
   name: Xiaomi Pad 5 China
   size: 5.1 GB
   version: V14.0.22.12.21.DEV
-- android: '13.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: nabu_eea_global
+  date: 2021-10-13
+  link: https://bigota.d.miui.com/V12.5.1.0.RKXEUXM/miui_NABUEEAGlobal_V12.5.1.0.RKXEUXM_1ea58d057b_11.0.zip
+  md5: 1ea58d057b09c8b24906f07e17d385ee
+  method: Recovery
+  name: Xiaomi Pad 5 EEA
+  size: 2.7 GB
+  version: V12.5.1.0.RKXEUXM
+- android: '13.0'
+  branch: Stable
   codename: nabu_eea_global
   date: 2024-04-07
   link: https://bigota.d.miui.com/OS1.0.1.0.TKXEUXM/miui_NABUEEAGlobal_OS1.0.1.0.TKXEUXM_3c8ef12514_13.0.zip
@@ -14221,23 +14231,13 @@
 - android: '13.0'
   branch: Stable
   codename: nabu_eea_global
-  date: 2024-01-24
-  link: https://bigota.d.miui.com/V14.0.9.0.TKXEUXM/miui_NABUEEAGlobal_V14.0.9.0.TKXEUXM_1d4e4051dd_13.0.zip
-  md5: 1d4e4051dd6be84bee0f254c213b24ef
-  method: Recovery
-  name: Xiaomi Pad 5 EEA
-  size: 3.4 GB
-  version: V14.0.9.0.TKXEUXM
-- android: '13.0'
-  branch: Stable
-  codename: nabu_eea_global
-  date: 2024-01-16
-  link: https://bigota.d.miui.com/V14.0.9.0.TKXEUXM/nabu_eea_global_images_V14.0.9.0.TKXEUXM_20240116.0000.00_13.0_eea_987fb84b9d.tgz
-  md5: 987fb84b9dd664bcd464119adb86a187
+  date: 2024-03-07
+  link: https://cdnorg.d.miui.com/OS1.0.1.0.TKXEUXM/nabu_eea_global_images_OS1.0.1.0.TKXEUXM_20240307.0000.00_13.0_eea_70bbfd8755.tgz
+  md5: 70bbfd8755e3c4b199f2e8a5d2b9f712
   method: Fastboot
   name: Xiaomi Pad 5 EEA
-  size: 4.1 GB
-  version: V14.0.9.0.TKXEUXM
+  size: 4.4 GB
+  version: OS1.0.1.0.TKXEUXM
 - android: '12.0'
   branch: Stable Beta
   codename: nabu_global
@@ -20511,13 +20511,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
