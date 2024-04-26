@@ -1821,6 +1821,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: aurora
+  date: 2024-03-18
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNACNXM/miui_AURORA_OS1.0.7.0.UNACNXM_81a48e3c20_14.0.zip
+  md5: 81a48e3c208123ca078eb9e7b9ac9368
+  method: Recovery
+  name: Xiaomi 14 Ultra China
+  size: 7.3 GB
+  version: OS1.0.7.0.UNACNXM
+- android: '14.0'
+  branch: Stable
+  codename: aurora
   date: 2024-04-18
   link: https://bigota.d.miui.com/OS1.0.9.0.UNACNXM/miui_AURORA_OS1.0.9.0.UNACNXM_53b6a43c0e_14.0.zip
   md5: 53b6a43c0ee46fd0ab77aeaa5c8efec7
@@ -1831,23 +1841,13 @@
 - android: '14.0'
   branch: Stable
   codename: aurora
-  date: 2024-03-26
-  link: https://bigota.d.miui.com/OS1.0.8.0.UNACNXM/miui_AURORA_OS1.0.8.0.UNACNXM_b427cc3ce7_14.0.zip
-  md5: b427cc3ce7a9e43343b739bbb18b2069
-  method: Recovery
-  name: Xiaomi 14 Ultra China
-  size: 7.3 GB
-  version: OS1.0.8.0.UNACNXM
-- android: '14.0'
-  branch: Stable
-  codename: aurora
-  date: 2024-03-23
-  link: https://cdnorg.d.miui.com/OS1.0.8.0.UNACNXM/aurora_images_OS1.0.8.0.UNACNXM_20240323.0000.00_14.0_cn_fb0e96fd48.tgz
-  md5: fb0e96fd48c01dd880bf782385c0ec0e
+  date: 2024-04-11
+  link: https://cdnorg.d.miui.com/OS1.0.9.0.UNACNXM/aurora_images_OS1.0.9.0.UNACNXM_20240411.0000.00_14.0_cn_86756ce47e.tgz
+  md5: 86756ce47ee391f3765dafe894058f29
   method: Fastboot
   name: Xiaomi 14 Ultra China
   size: 9.3 GB
-  version: OS1.0.8.0.UNACNXM
+  version: OS1.0.9.0.UNACNXM
 - android: '14.0'
   branch: Stable Beta
   codename: aurora_eea_global
@@ -14268,8 +14268,18 @@
   name: Xiaomi Pad 5 India
   size: 4.3 GB
   version: OS1.0.4.0.TKXINXM
-- android: '13.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: nabu_ru_global
+  date: 2021-10-13
+  link: https://bigota.d.miui.com/V12.5.1.0.RKXRUXM/miui_NABURUGlobal_V12.5.1.0.RKXRUXM_d4bce15a0a_11.0.zip
+  md5: d4bce15a0ac002a454e4d4afcb01c355
+  method: Recovery
+  name: Xiaomi Pad 5 Russia
+  size: 2.7 GB
+  version: V12.5.1.0.RKXRUXM
+- android: '13.0'
+  branch: Stable
   codename: nabu_ru_global
   date: 2024-04-10
   link: https://bigota.d.miui.com/OS1.0.1.0.TKXRUXM/miui_NABURUGlobal_OS1.0.1.0.TKXRUXM_f78b2ca5f6_13.0.zip
@@ -14281,23 +14291,13 @@
 - android: '13.0'
   branch: Stable
   codename: nabu_ru_global
-  date: 2024-01-24
-  link: https://bigota.d.miui.com/V14.0.7.0.TKXRUXM/miui_NABURUGlobal_V14.0.7.0.TKXRUXM_16df6ba909_13.0.zip
-  md5: 16df6ba909f079f6e7a23372f4b95018
-  method: Recovery
-  name: Xiaomi Pad 5 Russia
-  size: 3.3 GB
-  version: V14.0.7.0.TKXRUXM
-- android: '13.0'
-  branch: Stable
-  codename: nabu_ru_global
-  date: 2024-01-16
-  link: https://bigota.d.miui.com/V14.0.7.0.TKXRUXM/nabu_ru_global_images_V14.0.7.0.TKXRUXM_20240116.0000.00_13.0_ru_446532b331.tgz
+  date: 2024-03-15
+  link: https://cdnorg.d.miui.com/OS1.0.1.0.TKXRUXM/nabu_ru_global_images_OS1.0.1.0.TKXRUXM_20240315.0000.00_13.0_ru_f15334ca2a.tgz
   md5: null
   method: Fastboot
   name: Xiaomi Pad 5 Russia
-  size: 4.3 GB
-  version: V14.0.7.0.TKXRUXM
+  size: 4.6 GB
+  version: OS1.0.1.0.TKXRUXM
 - android: '11.0'
   branch: Stable Beta
   codename: nabu_tr_global
@@ -15949,7 +15949,7 @@
   size: 4.9 GB
   version: 23.5.6
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: pipa_eea_global
   date: 2024-04-12
   link: https://bigota.d.miui.com/OS1.0.5.0.UMZEUXM/miui_PIPAEEAGlobal_OS1.0.5.0.UMZEUXM_175e04075b_14.0.zip
@@ -15961,23 +15961,13 @@
 - android: '14.0'
   branch: Stable
   codename: pipa_eea_global
-  date: 2024-03-02
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMZEUXM/pipa_eea_global_images_OS1.0.4.0.UMZEUXM_20240131.0000.00_14.0_eea_6ae9c39542.tgz
-  md5: 6ae9c3954205fd3eb8af8112a44f135c
+  date: 2024-03-20
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UMZEUXM/pipa_eea_global_images_OS1.0.5.0.UMZEUXM_20240320.0000.00_14.0_eea_a8efc7c827.tgz
+  md5: a8efc7c82766a8d912d8744c92067258
   method: Fastboot
   name: Xiaomi Pad 6 EEA
   size: 4.8 GB
-  version: OS1.0.4.0.UMZEUXM
-- android: '14.0'
-  branch: Stable
-  codename: pipa_eea_global
-  date: 2024-02-05
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMZEUXM/miui_PIPAEEAGlobal_OS1.0.4.0.UMZEUXM_81e4f605a8_14.0.zip
-  md5: 81e4f605a8b40697558b1ae04e5fe30e
-  method: Recovery
-  name: Xiaomi Pad 6 EEA
-  size: 4.3 GB
-  version: OS1.0.4.0.UMZEUXM
+  version: OS1.0.5.0.UMZEUXM
 - android: '14.0'
   branch: Stable
   codename: pipa_global
@@ -20208,8 +20198,18 @@
   name: Redmi Note 11 NFC Russia
   size: 5.9 GB
   version: V14.0.7.0.TGKRUXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: star
+  date: 2022-04-02
+  link: https://bigota.d.miui.com/V13.0.10.0.SKACNXM/miui_STAR_V13.0.10.0.SKACNXM_ccc25df1dc_12.0.zip
+  md5: ccc25df1dc51a9964a6598246f3dd1d7
+  method: Recovery
+  name: Mi 11 Pro / Ultra China
+  size: 4.6 GB
+  version: V13.0.10.0.SKACNXM
+- android: '14.0'
+  branch: Stable
   codename: star
   date: 2024-04-15
   link: https://bigota.d.miui.com/OS1.0.2.0.UKACNXM/miui_STAR_OS1.0.2.0.UKACNXM_783d84531a_14.0.zip
@@ -20218,26 +20218,16 @@
   name: Mi 11 Pro / Ultra China
   size: 5.7 GB
   version: OS1.0.2.0.UKACNXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable
   codename: star
-  date: 2023-12-26
-  link: https://bigota.d.miui.com/V14.0.13.0.TKACNXM/miui_STAR_V14.0.13.0.TKACNXM_f867605f4c_13.0.zip
-  md5: f867605f4cf257d8dfad7a408a868037
-  method: Recovery
-  name: Mi 11 Pro / Ultra China
-  size: 5.7 GB
-  version: V14.0.13.0.TKACNXM
-- android: '13.0'
-  branch: Stable
-  codename: star
-  date: 2023-12-18
-  link: https://bigota.d.miui.com/V14.0.13.0.TKACNXM/star_images_V14.0.13.0.TKACNXM_20231218.0000.00_13.0_cn_c95766665b.tgz
-  md5: c95766665b30a9145beee1c827563e5f
+  date: 2024-04-10
+  link: https://cdnorg.d.miui.com/OS1.0.2.0.UKACNXM/star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_5104ca64ac.tgz
+  md5: 5104ca64ac5ba329b81fe96205a72f6e
   method: Fastboot
   name: Mi 11 Pro / Ultra China
   size: 7.1 GB
-  version: V14.0.13.0.TKACNXM
+  version: OS1.0.2.0.UKACNXM
 - android: '12.0'
   branch: Weekly
   codename: star
@@ -22048,16 +22038,16 @@
   name: Mi 10 China
   size: 5.0 GB
   version: V13.0.3.1.15.DEV
-- android: '12.0'
+- android: '13.0'
   branch: Stable Beta
   codename: umi_eea_global
-  date: 2022-03-21
-  link: https://bigota.d.miui.com/V13.0.1.0.SJBEUXM/miui_UMIEEAGlobal_V13.0.1.0.SJBEUXM_784d3fd49c_12.0.zip
-  md5: 784d3fd49cbb525a160b5ed9217df88c
+  date: 2024-04-23
+  link: https://bigota.d.miui.com/OS1.0.1.0.TJBEUXM/miui_UMIEEAGlobal_OS1.0.1.0.TJBEUXM_300a8b36de_13.0.zip
+  md5: 300a8b36ded8bfe8395365a27e186164
   method: Recovery
   name: Mi 10 EEA
-  size: 3.7 GB
-  version: V13.0.1.0.SJBEUXM
+  size: 4.3 GB
+  version: OS1.0.1.0.TJBEUXM
 - android: '13.0'
   branch: Stable
   codename: umi_eea_global
