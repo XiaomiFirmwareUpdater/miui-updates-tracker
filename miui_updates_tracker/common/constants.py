@@ -14,4 +14,4 @@ android_one_devices = [
     "blue_id_global",
     "blue_ru_global",
 ]
-website = "https://xiaomifirmwareupdater.com"
+website = "https://xmfirmwareupdater.com"
