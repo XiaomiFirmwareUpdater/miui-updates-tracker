@@ -338,8 +338,18 @@
   name: Redmi 2 LTE China
   size: 351.5 MB
   version: V6.2.1.0.KHJCNBK
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: agate_eea_global
+  date: 2021-09-15
+  link: https://bigota.d.miui.com/V12.5.2.0.RKWEUXM/miui_AGATEEEAGlobal_V12.5.2.0.RKWEUXM_c1c8e246e4_11.0.zip
+  md5: c1c8e246e4396e8454b67b2499bac578
+  method: Recovery
+  name: Xiaomi 11T EEA
+  size: 2.9 GB
+  version: V12.5.2.0.RKWEUXM
+- android: '14.0'
+  branch: Stable
   codename: agate_eea_global
   date: 2024-04-23
   link: https://bigota.d.miui.com/OS1.0.3.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.3.0.UKWEUXM_d82f7096eb_14.0.zip
@@ -351,23 +361,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_eea_global
-  date: 2024-02-23
-  link: https://bigota.d.miui.com/OS1.0.2.0.UKWEUXM/agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz
-  md5: 52fa2d306b5929f6429085048ae7131c
+  date: 2024-04-02
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.UKWEUXM/agate_eea_global_images_OS1.0.3.0.UKWEUXM_20240402.0000.00_14.0_eea_beb012b389.tgz
+  md5: beb012b389260052dfee3795d7229259
   method: Fastboot
   name: Xiaomi 11T EEA
-  size: 6.6 GB
-  version: OS1.0.2.0.UKWEUXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_eea_global
-  date: 2024-01-30
-  link: https://bigota.d.miui.com/OS1.0.2.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.2.0.UKWEUXM_adccc0e057_14.0.zip
-  md5: adccc0e05770cf75a7e0ce97a9306028
-  method: Recovery
-  name: Xiaomi 11T EEA
-  size: 4.9 GB
-  version: OS1.0.2.0.UKWEUXM
+  size: 6.5 GB
+  version: OS1.0.3.0.UKWEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: agate_global
@@ -419,7 +419,7 @@
   size: 6.4 GB
   version: OS1.0.2.0.UKWIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: agate_ru_global
   date: 2024-04-23
   link: https://bigota.d.miui.com/OS1.0.3.0.UKWRUXM/miui_AGATERUGlobal_OS1.0.3.0.UKWRUXM_a7369675b8_14.0.zip
@@ -431,23 +431,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_ru_global
-  date: 2024-02-23
-  link: https://bigota.d.miui.com/OS1.0.2.0.UKWRUXM/agate_ru_global_images_OS1.0.2.0.UKWRUXM_20240122.0000.00_14.0_ru_9a7f1ea9a6.tgz
+  date: 2024-04-02
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.UKWRUXM/agate_ru_global_images_OS1.0.3.0.UKWRUXM_20240402.0000.00_14.0_ru_6dd8afbcda.tgz
   md5: null
   method: Fastboot
   name: Xiaomi 11T Russia
-  size: 6.4 GB
-  version: OS1.0.2.0.UKWRUXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_ru_global
-  date: 2024-01-30
-  link: https://bigota.d.miui.com/OS1.0.2.0.UKWRUXM/miui_AGATERUGlobal_OS1.0.2.0.UKWRUXM_cd75580137_14.0.zip
-  md5: cd7558013748ad9aec73e5a974cb2b29
-  method: Recovery
-  name: Xiaomi 11T Russia
-  size: 4.9 GB
-  version: OS1.0.2.0.UKWRUXM
+  size: 6.2 GB
+  version: OS1.0.3.0.UKWRUXM
 - android: '14.0'
   branch: Stable Beta
   codename: agate_tr_global
@@ -10622,21 +10612,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -10702,21 +10692,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -20701,13 +20691,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
