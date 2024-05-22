@@ -14049,7 +14049,7 @@
   size: 5.4 GB
   version: V14.0.22.12.5.DEV
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: munch_eea_global
   date: 2024-05-13
   link: https://bigota.d.miui.com/OS1.0.1.0.ULMEUXM/miui_MUNCHEEAGlobal_OS1.0.1.0.ULMEUXM_0f15673ab7_14.0.zip
@@ -14058,26 +14058,16 @@
   name: POCO F4 EEA
   size: 4.6 GB
   version: OS1.0.1.0.ULMEUXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable
   codename: munch_eea_global
-  date: 2023-06-26
-  link: https://bigota.d.miui.com/V14.0.4.0.TLMEUXM/miui_MUNCHEEAGlobal_V14.0.4.0.TLMEUXM_88db96ff37_13.0.zip
-  md5: 88db96ff37772d013e33bfabc1a31330
-  method: Recovery
-  name: POCO F4 EEA
-  size: 3.8 GB
-  version: V14.0.4.0.TLMEUXM
-- android: '13.0'
-  branch: Stable
-  codename: munch_eea_global
-  date: 2023-06-07
-  link: https://bigota.d.miui.com/V14.0.4.0.TLMEUXM/munch_eea_global_images_V14.0.4.0.TLMEUXM_20230607.0000.00_13.0_eea_878c063852.tgz
-  md5: 878c063852326e9abadcd4c92eba591b
+  date: 2024-05-06
+  link: https://cdnorg.d.miui.com/OS1.0.1.0.ULMEUXM/munch_eea_global_images_OS1.0.1.0.ULMEUXM_20240506.0000.00_14.0_eea_3d577a5a95.tgz
+  md5: 3d577a5a9557f01ad2ab5487de7b399e
   method: Fastboot
   name: POCO F4 EEA
-  size: 5.9 GB
-  version: V14.0.4.0.TLMEUXM
+  size: 6.2 GB
+  version: OS1.0.1.0.ULMEUXM
 - android: '14.0'
   branch: Stable
   codename: munch_global
@@ -20631,13 +20621,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -23030,24 +23020,44 @@
   version: OS1.0.15.0.UNKCNXM
 - android: '14.0'
   branch: Stable
-  codename: vermeer_global
-  date: 2024-05-08
-  link: https://bigota.d.miui.com/OS1.0.2.0.UNKMIXM/miui_VERMEERGlobal_OS1.0.2.0.UNKMIXM_65fd61fc62_14.0.zip
-  md5: 65fd61fc62177d1c27fea46a041b373c
+  codename: vermeer_eea_global
+  date: 2024-05-22
+  link: https://bigota.d.miui.com/OS1.0.2.0.UNKEUXM/miui_VERMEEREEAGlobal_OS1.0.2.0.UNKEUXM_9d0e404c4a_14.0.zip
+  md5: 9d0e404c4a4affdaa32cbf9893b94836
   method: Recovery
-  name: POCO F6 Pro Global
+  name: POCO F6 Pro EEA
   size: 6.3 GB
-  version: OS1.0.2.0.UNKMIXM
+  version: OS1.0.2.0.UNKEUXM
+- android: '14.0'
+  branch: Stable
+  codename: vermeer_eea_global
+  date: 2024-03-15
+  link: https://cdnorg.d.miui.com/OS1.0.2.0.UNKEUXM/vermeer_eea_global_images_OS1.0.2.0.UNKEUXM_20240315.0000.00_14.0_eea_36a90e58d3.tgz
+  md5: 36a90e58d3934460055393c58441fe74
+  method: Fastboot
+  name: POCO F6 Pro EEA
+  size: 8.7 GB
+  version: OS1.0.2.0.UNKEUXM
 - android: '14.0'
   branch: Stable
   codename: vermeer_global
-  date: 2024-03-28
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.UNKMIXM/vermeer_global_images_OS1.0.2.0.UNKMIXM_20240328.0000.00_14.0_global_a05f14383d.tgz
-  md5: a05f14383d71b8363f042406ffb040b0
+  date: 2024-05-22
+  link: https://bigota.d.miui.com/OS1.0.3.0.UNKMIXM/miui_VERMEERGlobal_OS1.0.3.0.UNKMIXM_5a2effd1b2_14.0.zip
+  md5: 5a2effd1b26547106e44fa14c116de42
+  method: Recovery
+  name: POCO F6 Pro Global
+  size: 6.3 GB
+  version: OS1.0.3.0.UNKMIXM
+- android: '14.0'
+  branch: Stable
+  codename: vermeer_global
+  date: 2024-04-28
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.UNKMIXM/vermeer_global_images_OS1.0.3.0.UNKMIXM_20240428.0000.00_14.0_global_cd91ac8aac.tgz
+  md5: cd91ac8aac13bce5718de278fd8186c0
   method: Fastboot
   name: POCO F6 Pro Global
-  size: 9.1 GB
-  version: OS1.0.2.0.UNKMIXM
+  size: 9.3 GB
+  version: OS1.0.3.0.UNKMIXM
 - android: '14.0'
   branch: Stable
   codename: vermeer_ru_global
@@ -23068,6 +23078,26 @@
   name: POCO F6 Pro Russia
   size: 9.0 GB
   version: OS1.0.1.0.UNKRUXM
+- android: '14.0'
+  branch: Stable
+  codename: vermeer_tw_global
+  date: 2024-05-22
+  link: https://bigota.d.miui.com/OS1.0.1.0.UNKTWXM/miui_VERMEERTWGlobal_OS1.0.1.0.UNKTWXM_21c9ba4d5a_14.0.zip
+  md5: 21c9ba4d5a044f82a3a276c0b5eeb6d2
+  method: Recovery
+  name: POCO F6 Pro Taiwan
+  size: 6.2 GB
+  version: OS1.0.1.0.UNKTWXM
+- android: '14.0'
+  branch: Stable
+  codename: vermeer_tw_global
+  date: 2024-03-27
+  link: https://cdnorg.d.miui.com/OS1.0.1.0.UNKTWXM/vermeer_tw_global_images_OS1.0.1.0.UNKTWXM_20240327.0000.00_14.0_tw_dbf3621eb5.tgz
+  md5: dbf3621eb5781f8bfac038a5bb431231
+  method: Fastboot
+  name: POCO F6 Pro Taiwan
+  size: 8.0 GB
+  version: OS1.0.1.0.UNKTWXM
 - android: '13.0'
   branch: Stable
   codename: veux
