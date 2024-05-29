@@ -1,7 +1,5 @@
 from requests import head
 
-from miui_updates_tracker.common.constants import android_one_devices
-
 
 def get_rom_branch(version: str) -> str:
     if version[0].isalpha() and not version.endswith("DEV"):
@@ -20,18 +18,25 @@ def get_rom_method(filename: str):
     return "Recovery" if filename.endswith(".zip") else "Fastboot"
 
 
+suffix_to_region = {
+    "_eea_global": "eea",
+    "_in_global": "in",
+    "_in_rf_global": "in",
+    "_id_global": "id",
+    "_ru_global": "ru",
+    "_tr_global": "tr",
+    "_tw_global": "tw",
+    "_jp_global": "jp",
+    "_kr_global": "kr",
+    "_global": "global",
+}
+
+
 def get_region_code_from_codename(codename):
-    if codename in android_one_devices:
-        return ""
-    if codename.endswith("_eea_global"):
-        region = "eea"
-    elif codename.endswith("_in_global") or codename.endswith("_in_rf_global"):
-        region = "in"
-    elif codename.endswith("_global"):
-        region = "global"
-    else:
-        region = "cn"
-    return region
+    for suffix, region in suffix_to_region.items():
+        if codename.endswith(suffix):
+            return region
+    return "cn"
 
 
 def is_rom_working_link(rom_link: str) -> bool:
