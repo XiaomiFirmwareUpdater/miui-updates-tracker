@@ -6579,7 +6579,7 @@
   size: 6.9 GB
   version: OS1.0.1.0.UNFEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: emerald_global
   date: 2024-05-11
   link: https://bigota.d.miui.com/OS1.0.3.0.UNFMIXM/miui_EMERALDGlobal_OS1.0.3.0.UNFMIXM_68eb6f61a9_14.0.zip
@@ -6591,23 +6591,13 @@
 - android: '14.0'
   branch: Stable
   codename: emerald_global
-  date: 2024-03-12
-  link: https://bigota.d.miui.com/OS1.0.1.0.UNFMIXM/miui_EMERALDGlobal_OS1.0.1.0.UNFMIXM_69840715c1_14.0.zip
-  md5: 69840715c1326b34e4ba89b47ba9555c
-  method: Recovery
-  name: Redmi Note 13 Pro 4G / POCO M6 Pro Global
-  size: 4.7 GB
-  version: OS1.0.1.0.UNFMIXM
-- android: '14.0'
-  branch: Stable
-  codename: emerald_global
-  date: 2024-02-28
-  link: https://cdnorg.d.miui.com/OS1.0.1.0.UNFMIXM/emerald_global_images_OS1.0.1.0.UNFMIXM_20240228.0000.00_14.0_global_5335b1d3d2.tgz
-  md5: 5335b1d3d23a38473a9b9410a8a2c81e
+  date: 2024-04-29
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.UNFMIXM/emerald_global_images_OS1.0.3.0.UNFMIXM_20240429.0000.00_14.0_global_5301c68bb0.tgz
+  md5: 5301c68bb08f2a036b0bec4050543d3c
   method: Fastboot
   name: Redmi Note 13 Pro 4G / POCO M6 Pro Global
-  size: 7.3 GB
-  version: OS1.0.1.0.UNFMIXM
+  size: 7.4 GB
+  version: OS1.0.3.0.UNFMIXM
 - android: '14.0'
   branch: Stable
   codename: emerald_id_global
@@ -10582,21 +10572,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -10662,21 +10652,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -14158,6 +14148,16 @@
   name: POCO F4 Russia
   size: 5.5 GB
   version: V14.0.6.0.TLMRUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: munch_tr_global
+  date: 2024-05-27
+  link: https://bigota.d.miui.com/OS1.0.1.0.ULMTRXM/miui_MUNCHTRGlobal_OS1.0.1.0.ULMTRXM_11cbd5657d_14.0.zip
+  md5: 11cbd5657d946c38bcbca102def99c28
+  method: Recovery
+  name: POCO F4 Turkey
+  size: 4.6 GB
+  version: OS1.0.1.0.ULMTRXM
 - android: '13.0'
   branch: Stable
   codename: munch_tr_global
@@ -14178,6 +14178,16 @@
   name: POCO F4 Turkey
   size: 5.5 GB
   version: V14.0.5.0.TLMTRXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: munch_tw_global
+  date: 2024-05-28
+  link: https://bigota.d.miui.com/OS1.0.1.0.ULMTWXM/miui_MUNCHTWGlobal_OS1.0.1.0.ULMTWXM_b343b95031_14.0.zip
+  md5: b343b9503168ab86258c511969b0262e
+  method: Recovery
+  name: POCO F4 Taiwan
+  size: 4.4 GB
+  version: OS1.0.1.0.ULMTWXM
 - android: '13.0'
   branch: Stable
   codename: munch_tw_global
@@ -16258,8 +16268,18 @@
   name: Xiaomi Pad 6 Indonesia
   size: 4.9 GB
   version: OS1.0.4.0.UMZIDXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: pipa_in_global
+  date: 2023-10-31
+  link: https://bigota.d.miui.com/V14.0.6.0.TMZINXM/miui_PIPAINGlobal_V14.0.6.0.TMZINXM_bafadb2af4_13.0.zip
+  md5: bafadb2af41e74f71c52a7d1efe2f0f4
+  method: Recovery
+  name: Xiaomi Pad 6 India
+  size: 3.9 GB
+  version: V14.0.6.0.TMZINXM
+- android: '14.0'
+  branch: Stable
   codename: pipa_in_global
   date: 2024-05-17
   link: https://bigota.d.miui.com/OS1.0.4.0.UMZINXM/miui_PIPAINGlobal_OS1.0.4.0.UMZINXM_5f6b24384d_14.0.zip
@@ -16271,23 +16291,13 @@
 - android: '14.0'
   branch: Stable
   codename: pipa_in_global
-  date: 2024-03-18
-  link: https://bigota.d.miui.com/OS1.0.3.0.UMZINXM/miui_PIPAINGlobal_OS1.0.3.0.UMZINXM_53efbe0084_14.0.zip
-  md5: 53efbe0084a6d276fcb5d1b8366ae227
-  method: Recovery
-  name: Xiaomi Pad 6 India
-  size: 4.1 GB
-  version: OS1.0.3.0.UMZINXM
-- android: '14.0'
-  branch: Stable
-  codename: pipa_in_global
-  date: 2024-03-11
-  link: https://cdnorg.d.miui.com/OS1.0.3.0.UMZINXM/pipa_in_global_images_OS1.0.3.0.UMZINXM_20240311.0000.00_14.0_in_ca0bbebb23.tgz
-  md5: ca0bbebb2366a1d92f3f056714517f15
+  date: 2024-05-09
+  link: https://cdnorg.d.miui.com/OS1.0.4.0.UMZINXM/pipa_in_global_images_OS1.0.4.0.UMZINXM_20240509.0000.00_14.0_in_03b6986e52.tgz
+  md5: 03b6986e52252f1b3e7c3d45b67d1c84
   method: Fastboot
   name: Xiaomi Pad 6 India
-  size: 4.6 GB
-  version: OS1.0.3.0.UMZINXM
+  size: 4.7 GB
+  version: OS1.0.4.0.UMZINXM
 - android: '14.0'
   branch: Stable
   codename: pipa_ru_global
@@ -19899,6 +19909,16 @@
   size: 7.8 GB
   version: OS1.0.7.0.UNXCNXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: sheng_eea_global
+  date: 2024-05-28
+  link: https://bigota.d.miui.com/OS1.0.3.0.UNXEUXM/miui_SHENGEEAGlobal_OS1.0.3.0.UNXEUXM_2c190982bc_14.0.zip
+  md5: 2c190982bc406bce57fc358fd484afbd
+  method: Recovery
+  name: Xiaomi Pad 6S Pro 12.4 EEA
+  size: 5.4 GB
+  version: OS1.0.3.0.UNXEUXM
+- android: '14.0'
   branch: Stable
   codename: sheng_eea_global
   date: 2024-04-03
@@ -20731,13 +20751,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
