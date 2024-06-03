@@ -1,21 +1,21 @@
-[CENTER][B][SIZE=5][FONT=Trebuchet MS]MIUI Updates Tracker ($device_name)[/FONT][/SIZE][/B]
+[CENTER][B][SIZE=5][FONT=Trebuchet MS]XM Updates Tracker ($device_name)[/FONT][/SIZE][/B]
 
 [IMG]https://i.imgur.com/jSIVrRy.png[/IMG][/CENTER]
 
-[SIZE=4][B][COLOR=DarkOrange]What is MIUI Updates Tracker?[/COLOR][/B][/SIZE]
-[B]An open-source project that automatically tracks Xiaomi MIUI ROM releases![/B]
-MIUI Updates Tracker is a sibling project of [URL='https://xmfirmwareupdater.com/about/']Xiaomi Firmware Updater[/URL]. Actually, XFU depends on it for getting new updates and make firmware packages.
+[SIZE=4][B][COLOR=DarkOrange]What is XM Updates Tracker?[/COLOR][/B][/SIZE]
+[B]An open-source project that automatically tracks Xiaomi official ROM releases![/B]
+XM Updates Tracker is a sibling project of [URL='https://xmfirmwareupdater.com/about/']XM Firmware Updater[/URL]. Actually, XFU depends on it for getting new updates and make firmware packages.
 
-This thread will have MIUI updates of all regions (Global, EEA, India, China, etc), both stable and beta branches. The updates will be posted once it's detected and this first post will be also updated.
+This thread will have Official ROM updates of all regions (Global, EEA, India, China, etc), both stable and beta branches. The updates will be posted once it's detected and this first post will be also updated.
 
 [SIZE=4][B][COLOR=DarkOrange]RSS Feed[/COLOR][/B][/SIZE]
-You can subscribe to this device MIUI updates using RSS feed we provide [URL='https://raw.githubusercontent.com/XiaomiFirmwareUpdater/miui-updates-tracker/master/rss/$codename.xml']here[/URL].
+You can subscribe to this device updates using RSS feed we provide [URL='https://raw.githubusercontent.com/XiaomiFirmwareUpdater/miui-updates-tracker/master/rss/$codename.xml']here[/URL].
 
 [HEADING=2][CENTER][B][COLOR=DarkOrange]Downloads[/COLOR][/B][/CENTER][/HEADING]
-You can get all MIUI updates always from the archival website:
+You can get all updates always from the archival website:
 [LIST]
-[*][URL='https://xmfirmwareupdater.com/miui/$codename/']Latest Updates[/URL]
-[*][URL='https://xmfirmwareupdater.com/archive/miui/$codename/']Updates Archive[/URL]
+[*][URL='https://xmfirmwareupdater.com/updates/$codename/']Latest Updates[/URL]
+[*][URL='https://xmfirmwareupdater.com/archive/updates/$codename/']Updates Archive[/URL]
 [/LIST]
 
 [HEADING=2][CENTER][B][COLOR=DarkOrange]Updates History[/COLOR][/B][/CENTER][/HEADING]
@@ -23,14 +23,14 @@ $updates_history
 
 [SIZE=4][B][COLOR=DarkOrange]Frequently Asked Questions:[/COLOR][/B][/SIZE]
 [B]- Why?[/B]
-Because Xiaomi's official websites are too messy and not being updated regularly! You will spend a lot of time searching for a ROM on the official websites. You will also find the latest updates there, meanwhile, MIUI Updates Tracker has every single update of every device since 2014 organized and easy to access!
+Because Xiaomi's official websites are too messy and not being updated regularly! You will spend a lot of time searching for a ROM on the official websites. You will also find the latest updates there, meanwhile, XM Updates Tracker has every single update of every device since 2014 organized and easy to access!
 
 [B]- Are these official downloads?[/B]
-Yes! We don't touch updates' files at all. Actually, all download links are from MIUI servers directly, we don't have enough space to mirror more than 25K ROM files.
+Yes! We don't touch updates' files at all. Actually, all download links are from official servers directly, we don't have enough space to mirror more than 25K ROM files.
 
 [B]- How to update?[/B]
 [LIST]
-[*]Recovery updates can be installed using the official updater app inside your device settings, but keep in mind that only [B]stable updates[/B] can be installed like this. If the update is a [B]stable beta[/B] you might not be able to install it. After downloading the MIUI update, whether the incremental or the full one, open the updater from settings then click the 3-dots menu and choose Install from a local file, then select the downloaded MIUI zip. If you can't see this option, click on MIUI logo in the updater several times till you see a message that tells you more features have been enabled.
+[*]Recovery updates can be installed using the official updater app inside your device settings, but keep in mind that only [B]stable updates[/B] can be installed like this. If the update is a [B]stable beta[/B] you might not be able to install it. After downloading the update, whether the incremental or the full one, open the updater from settings then click the 3-dots menu and choose Install from a local file, then select the downloaded zip. If you can't see this option, click on ROM logo in the updater several times till you see a message that tells you more features have been enabled.
 [*]Fastboot updates can be installed using [URL='https://xiaomiwiki.github.io/wiki/Tools_for_Xiaomi_devices.html']MiFlash[/URL] official tool, but you must unlock the bootloader of your device first. Here's a good guide about flashing the official updates: [URL='https://xiaomiwiki.github.io/wiki/Flash_official_ROMs.html']Flash official ROMs | XiaomiWiki[/URL].
 [/LIST]
 
@@ -50,7 +50,7 @@ All Xiaomi, Redmi, and POCO devices including China-only devices.
 [SIZE=4][B][COLOR=DarkOrange]Donations:[/COLOR][/B][/SIZE]
 A donation was never necessary, but It's making life easier for me and guarantees paying server costs. My works are free and open-source, that cost money, time, and many efforts.
 
-[URL='https://github.com/XiaomiFirmwareUpdater']XiaomiFirmwareUpdater[/URL] and [URL='https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker']MIUIUpdatesTracker[/URL] scripts are automated, running on a Linux server. If you want these projects to continue and provide the best services to Xiaomi users, you can help me by donating using:
+[URL='https://github.com/XiaomiFirmwareUpdater']XMFirmwareUpdater[/URL] and [URL='https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker']UpdatesTracker[/URL] scripts are automated, running on a Linux server. If you want these projects to continue and provide the best services to Xiaomi users, you can help me by donating using:
 [LIST]
 [*][URL='https://liberapay.com/yshalsager/']LiberaPay[/URL]
 [*][URL='https://www.paypal.me/yshalsager']Paypal[/URL]
