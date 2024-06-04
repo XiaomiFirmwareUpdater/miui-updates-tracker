@@ -177,6 +177,7 @@ async def _update_posts_in_thread(xda, client, thread, old_link, new_link):
             message_text = post["message"].replace(old_link, new_link)
             await xda.update_post_async(post["post_id"], message_text)
             await asyncio.sleep(3)
+    return thread_data
 
 
 async def update_link_in_threads(old_link, new_link):
@@ -189,7 +190,7 @@ async def update_link_in_threads(old_link, new_link):
     xda = XDAPoster(CONFIG["xda"]["access_token"])
     for idx, thread in enumerate(threads):
         async with xda._async_client() as client:
-            await _update_posts_in_thread(xda, client, thread, old_link, new_link)
+            thread_data = await _update_posts_in_thread(xda, client, thread, old_link, new_link)
             for page in range(2, thread_data["pagination"]["last_page"] + 1):
                 await _update_posts_in_thread(xda, client, thread, old_link, new_link)
             print(f"Thread updated for {idx} {thread}.")
