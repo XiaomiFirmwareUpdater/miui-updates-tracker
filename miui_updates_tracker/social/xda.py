@@ -61,7 +61,7 @@ class XDAPoster(XDA):
             if incremental
             else "Unavailable",
             changelog=update.changelog,
-            os_type='hyperos' if update.version.startswith('OS') else 'miui'
+            os_type="hyperos" if update.version.startswith("OS") else "miui",
         )
 
     def generate_thread(self, codename: str) -> str:
@@ -156,6 +156,48 @@ async def update_all_threads():
     close_db()
 
 
+async def _update_posts_in_thread(xda, client, thread, old_link, new_link):
+    resp = await client.get(
+        f"{xda.url}/threads/{thread}",
+        headers=xda.headers,
+        params={"with_posts": 1},
+    )
+    if not resp.status_code == 200:
+        print(f"XDA Error: {resp.reason_phrase}\nResponse: {resp.text}")
+    thread_data = resp.json()
+    my_posts = [
+        post
+        for post in thread_data["posts"]
+        if post["User"] and post["User"]["username"] == "yshalsager"
+    ]
+    if not my_posts:
+        return
+    for post in my_posts:
+        if old_link in post["message"]:
+            message_text = post["message"].replace(old_link, new_link)
+            await xda.update_post_async(post["post_id"], message_text)
+            await asyncio.sleep(3)
+
+
+async def update_link_in_threads(old_link, new_link):
+    from pathlib import Path
+    import json
+    from miui_updates_tracker import CONFIG
+
+    # console.log(Array.from(document.querySelectorAll('h3.contentRow-title a')).map(element => element.getAttribute('href').split('/').at(-2).split('.').at(-1)));
+    threads = json.loads(Path("mut.json").read_text())
+    xda = XDAPoster(CONFIG["xda"]["access_token"])
+    for idx, thread in enumerate(threads):
+        async with xda._async_client() as client:
+            await _update_posts_in_thread(xda, client, thread, old_link, new_link)
+            for page in range(2, thread_data["pagination"]["last_page"] + 1):
+                await _update_posts_in_thread(xda, client, thread, old_link, new_link)
+            print(f"Thread updated for {idx} {thread}.")
+
+
 if __name__ == "__main__":
     asyncio.run(main())
-    # asyncio.run(update_all_threads())
+    asyncio.run(update_all_threads())
+    # asyncio.run(
+    #     update_link_in_threads("xiaomifirmwareupdater.com", "xmfirmwareupdater.com")
+    # )
