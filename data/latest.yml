@@ -14708,8 +14708,18 @@
   name: Xiaomi 13 Pro Global
   size: 7.1 GB
   version: 23.5.6
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: nuwa_in_global
+  date: 2023-07-27
+  link: https://bigota.d.miui.com/V14.0.9.0.TMBINXM/miui_NUWAINGlobal_V14.0.9.0.TMBINXM_8c379e9527_13.0.zip
+  md5: 8c379e9527e19b49260dc2446a6d9702
+  method: Recovery
+  name: Xiaomi 13 Pro India
+  size: 5.6 GB
+  version: V14.0.9.0.TMBINXM
+- android: '14.0'
+  branch: Stable
   codename: nuwa_in_global
   date: 2024-05-22
   link: https://bigota.d.miui.com/OS1.0.4.0.UMBINXM/miui_NUWAINGlobal_OS1.0.4.0.UMBINXM_f305370c9b_14.0.zip
@@ -14721,23 +14731,13 @@
 - android: '14.0'
   branch: Stable
   codename: nuwa_in_global
-  date: 2024-03-05
-  link: https://bigota.d.miui.com/OS1.0.2.0.UMBINXM/nuwa_in_global_images_OS1.0.2.0.UMBINXM_20240205.0000.00_14.0_in_cb2b19080c.tgz
-  md5: cb2b19080c88a0cf60785d9039913f37
+  date: 2024-04-08
+  link: https://cdnorg.d.miui.com/OS1.0.4.0.UMBINXM/nuwa_in_global_images_OS1.0.4.0.UMBINXM_20240408.0000.00_14.0_in_38e316f40d.tgz
+  md5: 38e316f40d55ef4c7ea825f3a338ebb6
   method: Fastboot
   name: Xiaomi 13 Pro India
   size: 6.4 GB
-  version: OS1.0.2.0.UMBINXM
-- android: '14.0'
-  branch: Stable
-  codename: nuwa_in_global
-  date: 2024-02-23
-  link: https://bigota.d.miui.com/OS1.0.2.0.UMBINXM/miui_NUWAINGlobal_OS1.0.2.0.UMBINXM_5c46af18a0_14.0.zip
-  md5: 5c46af18a0546e740e3b7dbb73aa539b
-  method: Recovery
-  name: Xiaomi 13 Pro India
-  size: 5.7 GB
-  version: OS1.0.2.0.UMBINXM
+  version: OS1.0.4.0.UMBINXM
 - android: '14.0'
   branch: Stable
   codename: nuwa_ru_global
@@ -17478,8 +17478,18 @@
   name: POCO X5 Pro 5G EEA
   size: 7.4 GB
   version: OS1.0.4.0.UMSEUXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: redwood_global
+  date: 2023-02-06
+  link: https://bigota.d.miui.com/V14.0.2.0.SMSMIXM/miui_REDWOODGlobal_V14.0.2.0.SMSMIXM_fcb264345f_12.0.zip
+  md5: fcb264345f6497bfbdb294c53798c868
+  method: Recovery
+  name: POCO X5 Pro 5G Global
+  size: 4.5 GB
+  version: V14.0.2.0.SMSMIXM
+- android: '14.0'
+  branch: Stable
   codename: redwood_global
   date: 2024-05-21
   link: https://bigota.d.miui.com/OS1.0.4.0.UMSMIXM/miui_REDWOODGlobal_OS1.0.4.0.UMSMIXM_53cb65de24_14.0.zip
@@ -17491,33 +17501,13 @@
 - android: '14.0'
   branch: Stable
   codename: redwood_global
-  date: 2024-03-25
-  link: https://bigota.d.miui.com/OS1.0.3.0.UMSMIXM/miui_REDWOODGlobal_OS1.0.3.0.UMSMIXM_5c10a339d0_14.0.zip
-  md5: 5c10a339d0584c072f6d94008e057541
-  method: Recovery
-  name: POCO X5 Pro 5G Global
-  size: 5.0 GB
-  version: OS1.0.3.0.UMSMIXM
-- android: '14.0'
-  branch: Stable
-  codename: redwood_global
-  date: 2024-03-01
-  link: https://cdnorg.d.miui.com/OS1.0.3.0.UMSMIXM/redwood_global_images_OS1.0.3.0.UMSMIXM_20240301.0000.00_14.0_global_03d64ea784.tgz
-  md5: 03d64ea784dda4bc2ce6a321e495d69a
+  date: 2024-05-13
+  link: https://cdnorg.d.miui.com/OS1.0.4.0.UMSMIXM/redwood_global_images_OS1.0.4.0.UMSMIXM_20240513.0000.00_14.0_global_c24f59fd7d.tgz
+  md5: c24f59fd7dd2deacb84f1e31bfc76796
   method: Fastboot
   name: POCO X5 Pro 5G Global
-  size: 7.7 GB
-  version: OS1.0.3.0.UMSMIXM
-- android: '14.0'
-  branch: Stable Beta
-  codename: redwood_id_global
-  date: 2024-05-30
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.4.0.UMSIDXM_b03ae72a11_14.0.zip
-  md5: b03ae72a11ace66d92ddb7419d3a9683
-  method: Recovery
-  name: POCO X5 Pro 5G Indonesia
-  size: 4.9 GB
-  version: OS1.0.4.0.UMSIDXM
+  size: 7.9 GB
+  version: OS1.0.4.0.UMSMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_id_global
@@ -17529,25 +17519,35 @@
   size: 7.0 GB
   version: OS1.0.2.0.UMSIDXM
 - android: '14.0'
-  branch: Stable
+  branch: Stable Beta
   codename: redwood_id_global
-  date: 2024-04-02
-  link: https://bigota.d.miui.com/OS1.0.3.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.3.0.UMSIDXM_d4795b629d_14.0.zip
-  md5: d4795b629d1dd8e79223202b3e65ff19
+  date: 2024-01-26
+  link: https://bigota.d.miui.com/OS1.0.2.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.2.0.UMSIDXM_8576487413_14.0.zip
+  md5: 857648741323aedabdbe90a2fe2ab391
   method: Recovery
   name: POCO X5 Pro 5G Indonesia
   size: 4.9 GB
-  version: OS1.0.3.0.UMSIDXM
+  version: OS1.0.2.0.UMSIDXM
 - android: '14.0'
   branch: Stable
   codename: redwood_id_global
-  date: 2024-03-08
-  link: https://cdnorg.d.miui.com/OS1.0.3.0.UMSIDXM/redwood_id_global_images_OS1.0.3.0.UMSIDXM_20240308.0000.00_14.0_id_5a899ec6dc.tgz
-  md5: 5a899ec6dc540a3917155262e6986c15
+  date: 2024-05-30
+  link: https://bigota.d.miui.com/OS1.0.4.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.4.0.UMSIDXM_b03ae72a11_14.0.zip
+  md5: b03ae72a11ace66d92ddb7419d3a9683
+  method: Recovery
+  name: POCO X5 Pro 5G Indonesia
+  size: 4.9 GB
+  version: OS1.0.4.0.UMSIDXM
+- android: '14.0'
+  branch: Stable
+  codename: redwood_id_global
+  date: 2024-05-17
+  link: https://cdnorg.d.miui.com/OS1.0.4.0.UMSIDXM/redwood_id_global_images_OS1.0.4.0.UMSIDXM_20240517.0000.00_14.0_id_3076fd1a0a.tgz
+  md5: 3076fd1a0a8c6b64159c1aaa026a8bf2
   method: Fastboot
   name: POCO X5 Pro 5G Indonesia
-  size: 7.0 GB
-  version: OS1.0.3.0.UMSIDXM
+  size: 7.1 GB
+  version: OS1.0.4.0.UMSIDXM
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_in_global
@@ -20701,13 +20701,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
