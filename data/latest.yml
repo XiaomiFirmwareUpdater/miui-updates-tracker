@@ -678,16 +678,16 @@
   name: POCO F3 EEA
   size: 5.6 GB
   version: OS1.0.1.0.TKHEUXM
-- android: '11.0'
+- android: '13.0'
   branch: Stable Beta
   codename: alioth_global
-  date: 2021-09-03
-  link: https://bigota.d.miui.com/V12.5.3.0.RKHMIXM/miui_ALIOTHGlobal_V12.5.3.0.RKHMIXM_b628b9f893_11.0.zip
-  md5: b628b9f893b7c5abc6426b4795eaf6e1
+  date: 2024-06-19
+  link: https://bigota.d.miui.com/OS1.0.3.0.TKHMIXM/miui_ALIOTHGlobal_OS1.0.3.0.TKHMIXM_57a88631b9_13.0.zip
+  md5: 57a88631b98f73ae08dfad5695cd6c0f
   method: Recovery
   name: POCO F3 Global
-  size: 3.1 GB
-  version: V12.5.3.0.RKHMIXM
+  size: 4.0 GB
+  version: OS1.0.3.0.TKHMIXM
 - android: '13.0'
   branch: Stable
   codename: alioth_global
@@ -4019,7 +4019,7 @@
   size: 6.2 GB
   version: V14.0.22.12.5.DEV
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: chopin_global
   date: 2024-06-06
   link: https://bigota.d.miui.com/V14.0.6.0.TKPMIXM/miui_CHOPINGlobal_V14.0.6.0.TKPMIXM_d809eee4ce_13.0.zip
@@ -4031,23 +4031,13 @@
 - android: '13.0'
   branch: Stable
   codename: chopin_global
-  date: 2023-11-29
-  link: https://bigota.d.miui.com/V14.0.5.0.TKPMIXM/miui_CHOPINGlobal_V14.0.5.0.TKPMIXM_d4d24b2906_13.0.zip
-  md5: d4d24b2906ba1d6cc60594a86d158548
-  method: Recovery
-  name: POCO X3 GT Global
-  size: 4.0 GB
-  version: V14.0.5.0.TKPMIXM
-- android: '13.0'
-  branch: Stable
-  codename: chopin_global
-  date: 2023-11-17
-  link: https://bigota.d.miui.com/V14.0.5.0.TKPMIXM/chopin_global_images_V14.0.5.0.TKPMIXM_20231117.0000.00_13.0_global_b5bee65424.tgz
-  md5: b5bee654244788ddc432823f3d5251d3
+  date: 2024-05-28
+  link: https://cdnorg.d.miui.com/V14.0.6.0.TKPMIXM/chopin_global_images_V14.0.6.0.TKPMIXM_20240528.0000.00_13.0_global_253b98dc56.tgz
+  md5: 253b98dc563133c83c39d6fd3a8fd05c
   method: Fastboot
   name: POCO X3 GT Global
-  size: 5.8 GB
-  version: V14.0.5.0.TKPMIXM
+  size: 5.7 GB
+  version: V14.0.6.0.TKPMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: chopin_id_global
@@ -4498,6 +4488,16 @@
   name: Xiaomi 13T Pro EEA
   size: 7.8 GB
   version: OS1.0.7.0.UMLEUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: corot_global
+  date: 2024-06-22
+  link: https://bigota.d.miui.com/OS1.0.4.0.UMLMIXM/miui_COROTGlobal_OS1.0.4.0.UMLMIXM_02e82e057a_14.0.zip
+  md5: 02e82e057a108e7c3a9798e85d7ef05c
+  method: Recovery
+  name: Xiaomi 13T Pro Global
+  size: 5.9 GB
+  version: OS1.0.4.0.UMLMIXM
 - android: '14.0'
   branch: Stable
   codename: corot_global
@@ -10419,6 +10419,16 @@
   size: 7.8 GB
   version: OS1.0.8.0.UMAEUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: ishtar_global
+  date: 2024-06-21
+  link: https://bigota.d.miui.com/OS1.0.7.0.UMAMIXM/miui_ISHTARGlobal_OS1.0.7.0.UMAMIXM_4162714934_14.0.zip
+  md5: 4162714934eae4e97173db4cfc2c5166
+  method: Recovery
+  name: Xiaomi 13 Ultra Global
+  size: 6.2 GB
+  version: OS1.0.7.0.UMAMIXM
+- android: '14.0'
   branch: Stable
   codename: ishtar_global
   date: 2024-04-19
@@ -12808,6 +12818,16 @@
   name: Redmi Note 12 Turbo China
   size: 7.3 GB
   version: OS1.0.3.0.UMRCNXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: marble_eea_global
+  date: 2024-06-21
+  link: https://bigota.d.miui.com/OS1.0.8.0.UMREUXM/miui_MARBLEEEAGlobal_OS1.0.8.0.UMREUXM_c6f0e5cf41_14.0.zip
+  md5: c6f0e5cf41dd9bcf740b60c44c22999a
+  method: Recovery
+  name: POCO F5 EEA
+  size: 5.2 GB
+  version: OS1.0.8.0.UMREUXM
 - android: '14.0'
   branch: Stable
   codename: marble_eea_global
@@ -21081,13 +21101,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -24511,6 +24531,16 @@
 - android: '13.0'
   branch: Stable Beta
   codename: water_id_global
+  date: 2023-06-16
+  link: https://bigota.d.miui.com/V14.0.3.0.TGOIDXM/miui_WATERIDGlobal_V14.0.3.0.TGOIDXM_620060f93d_13.0.zip
+  md5: 620060f93df5351dacec611f3492e707
+  method: Recovery
+  name: Redmi A2 / A2+ / POCO C51 Indonesia
+  size: 1.5 GB
+  version: V14.0.3.0.TGOIDXM
+- android: '13.0'
+  branch: Stable
+  codename: water_id_global
   date: 2024-06-25
   link: https://bigota.d.miui.com/V14.0.9.0.TGOIDXM/miui_WATERIDGlobal_V14.0.9.0.TGOIDXM_b4c8e07c25_13.0.zip
   md5: b4c8e07c25bc752177c62741e38d9595
@@ -24521,23 +24551,13 @@
 - android: '13.0'
   branch: Stable
   codename: water_id_global
-  date: 2024-04-29
-  link: https://bigota.d.miui.com/V14.0.8.0.TGOIDXM/miui_WATERIDGlobal_V14.0.8.0.TGOIDXM_531963f279_13.0.zip
-  md5: 531963f27969a03ddc10b775c5de92de
-  method: Recovery
-  name: Redmi A2 / A2+ / POCO C51 Indonesia
-  size: 1.5 GB
-  version: V14.0.8.0.TGOIDXM
-- android: '13.0'
-  branch: Stable
-  codename: water_id_global
-  date: 2024-04-15
-  link: https://cdnorg.d.miui.com/V14.0.8.0.TGOIDXM/water_id_global_images_V14.0.8.0.TGOIDXM_20240415.0000.00_13.0_93d44d03a9.tgz
+  date: 2024-06-13
+  link: https://cdnorg.d.miui.com/V14.0.9.0.TGOIDXM/water_id_global_images_V14.0.9.0.TGOIDXM_20240613.0000.00_13.0_cd04a00184.tgz
   md5: null
   method: Fastboot
   name: Redmi A2 / A2+ / POCO C51 Indonesia
   size: 2.2 GB
-  version: V14.0.8.0.TGOIDXM
+  version: V14.0.9.0.TGOIDXM
 - android: '13.0'
   branch: Stable Beta
   codename: water_in_global
@@ -24601,23 +24621,23 @@
 - android: '13.0'
   branch: Stable
   codename: water_tw_global
-  date: 2024-01-22
-  link: https://bigota.d.miui.com/V14.0.4.0.TGOTWXM/miui_WATERTWGlobal_V14.0.4.0.TGOTWXM_ffe8d8cb23_13.0.zip
-  md5: ffe8d8cb23f3a2350185cbfaf96e35e8
+  date: 2024-06-25
+  link: https://bigota.d.miui.com/V14.0.5.0.TGOTWXM/miui_WATERTWGlobal_V14.0.5.0.TGOTWXM_d8fbf3b17d_13.0.zip
+  md5: d8fbf3b17deee9fc855beac1a5aaff12
   method: Recovery
   name: Redmi A2 / A2+ / POCO C51 Taiwan
   size: 1.4 GB
-  version: V14.0.4.0.TGOTWXM
+  version: V14.0.5.0.TGOTWXM
 - android: '13.0'
   branch: Stable
   codename: water_tw_global
-  date: 2024-01-10
-  link: https://bigota.d.miui.com/V14.0.4.0.TGOTWXM/water_tw_global_images_V14.0.4.0.TGOTWXM_20240110.0000.00_13.0_8b2a9b4699.tgz
+  date: 2024-06-13
+  link: https://cdnorg.d.miui.com/V14.0.5.0.TGOTWXM/water_tw_global_images_V14.0.5.0.TGOTWXM_20240613.0000.00_13.0_49d96c3b47.tgz
   md5: null
   method: Fastboot
   name: Redmi A2 / A2+ / POCO C51 Taiwan
   size: 2.1 GB
-  version: V14.0.4.0.TGOTWXM
+  version: V14.0.5.0.TGOTWXM
 - android: '9.0'
   branch: Stable Beta
   codename: wayne
