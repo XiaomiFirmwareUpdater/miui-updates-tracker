@@ -4788,16 +4788,16 @@
   name: Mi 9 Pro 5G China
   size: 3.0 GB
   version: 21.11.24
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: cupid
-  date: 2023-10-30
-  link: https://bigota.d.miui.com/V14.0.8.0.TLCCNXM/miui_CUPID_V14.0.8.0.TLCCNXM_3d64b282e7_13.0.zip
-  md5: 3d64b282e766789f556cc0bc46845236
+  date: 2024-06-28
+  link: https://bigota.d.miui.com/OS1.0.6.0.ULCCNXM/miui_CUPID_OS1.0.6.0.ULCCNXM_c7ef5af89c_14.0.zip
+  md5: c7ef5af89cec6f14d546a124ed94febe
   method: Recovery
   name: Xiaomi 12 China
-  size: 5.6 GB
-  version: V14.0.8.0.TLCCNXM
+  size: 5.7 GB
+  version: OS1.0.6.0.ULCCNXM
 - android: '14.0'
   branch: Stable
   codename: cupid
@@ -8369,7 +8369,7 @@
   size: 8.0 GB
   version: OS1.0.9.0.UNRMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: garnet_id_global
   date: 2024-06-18
   link: https://bigota.d.miui.com/OS1.0.5.0.UNRIDXM/miui_GARNETIDGlobal_OS1.0.5.0.UNRIDXM_b8e2b1e78a_14.0.zip
@@ -8381,23 +8381,13 @@
 - android: '14.0'
   branch: Stable
   codename: garnet_id_global
-  date: 2024-04-01
-  link: https://bigota.d.miui.com/OS1.0.2.0.UNRIDXM/miui_GARNETIDGlobal_OS1.0.2.0.UNRIDXM_a178ff24a0_14.0.zip
-  md5: a178ff24a0eccc72de9b8b12cb311cc3
-  method: Recovery
-  name: Redmi Note 13 Pro 5G / POCO X6 5G Indonesia
-  size: 5.0 GB
-  version: OS1.0.2.0.UNRIDXM
-- android: '14.0'
-  branch: Stable
-  codename: garnet_id_global
-  date: 2024-03-19
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.UNRIDXM/garnet_id_global_images_OS1.0.2.0.UNRIDXM_20240319.0000.00_14.0_id_94fa573bf1.tgz
-  md5: 94fa573bf128859acc2b86e64fdf6357
+  date: 2024-06-11
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UNRIDXM/garnet_id_global_images_OS1.0.5.0.UNRIDXM_20240611.0000.00_14.0_id_673534bd34.tgz
+  md5: 673534bd34f4fafc2a002c20054e995d
   method: Fastboot
   name: Redmi Note 13 Pro 5G / POCO X6 5G Indonesia
-  size: 7.2 GB
-  version: OS1.0.2.0.UNRIDXM
+  size: 7.4 GB
+  version: OS1.0.5.0.UNRIDXM
 - android: '14.0'
   branch: Stable
   codename: garnet_in_global
@@ -10812,21 +10802,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -12968,6 +12958,16 @@
   name: POCO F5 Indonesia
   size: 7.3 GB
   version: OS1.0.4.0.UMRIDXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: marble_in_global
+  date: 2024-06-28
+  link: https://bigota.d.miui.com/OS1.0.9.0.UMRINXM/miui_MARBLEINGlobal_OS1.0.9.0.UMRINXM_39750c7751_14.0.zip
+  md5: 39750c7751be62939202bc1677e70d2c
+  method: Recovery
+  name: POCO F5 India
+  size: 5.0 GB
+  version: OS1.0.9.0.UMRINXM
 - android: '14.0'
   branch: Stable
   codename: marble_in_global
@@ -19788,6 +19788,16 @@
   name: Redmi Note 13 NFC Russia
   size: 7.1 GB
   version: V14.0.7.0.TNHRUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: sapphiren_tr_global
+  date: 2024-06-19
+  link: https://bigota.d.miui.com/OS1.0.3.0.UNHTRXM/miui_SAPPHIRENTRGlobal_OS1.0.3.0.UNHTRXM_b0f0a299ca_14.0.zip
+  md5: b0f0a299cabbe15c135bd5575fa67f8a
+  method: Recovery
+  name: Redmi Note 13 NFC Turkey
+  size: 4.4 GB
+  version: OS1.0.3.0.UNHTRXM
 - android: '13.0'
   branch: Stable
   codename: sapphiren_tr_global
@@ -20518,16 +20528,16 @@
   name: Mi 8 SE China
   size: 2.8 GB
   version: 9.9.3
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: sky
-  date: 2023-10-17
-  link: https://bigota.d.miui.com/V14.0.6.0.TMWCNXM/miui_SKY_V14.0.6.0.TMWCNXM_80edcb99cb_13.0.zip
-  md5: 80edcb99cb65b46f2136fd2e662f4cd4
+  date: 2024-06-26
+  link: https://bigota.d.miui.com/OS1.0.6.0.UMWCNXM/miui_SKY_OS1.0.6.0.UMWCNXM_e78444c735_14.0.zip
+  md5: e78444c735db5832eb073312a1e3953d
   method: Recovery
   name: Redmi Note 12R China
   size: 4.8 GB
-  version: V14.0.6.0.TMWCNXM
+  version: OS1.0.6.0.UMWCNXM
 - android: '14.0'
   branch: Stable
   codename: sky
