@@ -4441,6 +4441,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: corot
+  date: 2023-12-01
+  link: https://bigota.d.miui.com/OS1.0.5.0.UMLCNXM/miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip
+  md5: a2e2e5f060e32aa45c0276810f44665c
+  method: Recovery
+  name: Redmi K60 Ultra China
+  size: 6.4 GB
+  version: OS1.0.5.0.UMLCNXM
+- android: '14.0'
+  branch: Stable
+  codename: corot
   date: 2024-06-28
   link: https://bigota.d.miui.com/OS1.0.15.0.UMLCNXM/miui_COROT_OS1.0.15.0.UMLCNXM_c8567484cb_14.0.zip
   md5: c8567484cb8a94c601eae931edab793f
@@ -4451,23 +4461,13 @@
 - android: '14.0'
   branch: Stable
   codename: corot
-  date: 2024-05-17
-  link: https://bigota.d.miui.com/OS1.0.13.0.UMLCNXM/miui_COROT_OS1.0.13.0.UMLCNXM_a1699d77ea_14.0.zip
-  md5: a1699d77ea1628f0b506983e050fbed5
-  method: Recovery
-  name: Redmi K60 Ultra China
-  size: 6.4 GB
-  version: OS1.0.13.0.UMLCNXM
-- android: '14.0'
-  branch: Stable
-  codename: corot
-  date: 2024-05-10
-  link: https://cdnorg.d.miui.com/OS1.0.13.0.UMLCNXM/corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_25e40d45fb.tgz
-  md5: 25e40d45fbf032b6c90a0e04b1af0a43
+  date: 2024-06-24
+  link: https://cdnorg.d.miui.com/OS1.0.15.0.UMLCNXM/corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_0bb90214ad.tgz
+  md5: 0bb90214ad8e21a8f6290cc587bbb115
   method: Fastboot
   name: Redmi K60 Ultra China
-  size: 8.3 GB
-  version: OS1.0.13.0.UMLCNXM
+  size: 8.2 GB
+  version: OS1.0.15.0.UMLCNXM
 - android: '14.0'
   branch: Stable
   codename: corot_eea_global
@@ -9388,8 +9388,18 @@
   name: Mi 11i EEA
   size: 6.5 GB
   version: OS1.0.2.0.UKKEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: haydn_global
+  date: 2023-10-24
+  link: https://bigota.d.miui.com/V14.0.7.0.TKKMIXM/miui_HAYDNGlobal_V14.0.7.0.TKKMIXM_07a3402c80_13.0.zip
+  md5: 07a3402c80a1981166f6dea491c4b400
+  method: Recovery
+  name: Mi 11i Global
+  size: 4.8 GB
+  version: V14.0.7.0.TKKMIXM
+- android: '14.0'
+  branch: Stable
   codename: haydn_global
   date: 2024-06-27
   link: https://bigota.d.miui.com/OS1.0.3.0.UKKMIXM/miui_HAYDNGlobal_OS1.0.3.0.UKKMIXM_2792063203_14.0.zip
@@ -9401,23 +9411,13 @@
 - android: '14.0'
   branch: Stable
   codename: haydn_global
-  date: 2024-05-10
-  link: https://bigota.d.miui.com/OS1.0.2.0.UKKMIXM/miui_HAYDNGlobal_OS1.0.2.0.UKKMIXM_295ad2b20e_14.0.zip
-  md5: 295ad2b20e8f7a27ac11b83b1e1b475e
-  method: Recovery
-  name: Mi 11i Global
-  size: 5.0 GB
-  version: OS1.0.2.0.UKKMIXM
-- android: '14.0'
-  branch: Stable
-  codename: haydn_global
-  date: 2024-04-24
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.UKKMIXM/haydn_global_images_OS1.0.2.0.UKKMIXM_20240424.0000.00_14.0_global_bb824f06bc.tgz
-  md5: bb824f06bcad9844f0d2d5a3f8826674
+  date: 2024-06-20
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.UKKMIXM/haydn_global_images_OS1.0.3.0.UKKMIXM_20240620.0000.00_14.0_global_438079ec42.tgz
+  md5: 438079ec42d8a412a4714743ffbaab9a
   method: Fastboot
   name: Mi 11i Global
   size: 6.5 GB
-  version: OS1.0.2.0.UKKMIXM
+  version: OS1.0.3.0.UKKMIXM
 - android: '11.0'
   branch: Stable Beta
   codename: haydn_in_global
@@ -10842,21 +10842,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -21141,13 +21141,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
