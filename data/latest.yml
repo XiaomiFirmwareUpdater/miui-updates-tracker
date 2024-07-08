@@ -511,23 +511,23 @@
 - android: '13.0'
   branch: Stable
   codename: air_eea_global
-  date: 2024-05-06
-  link: https://cdnorg.d.miui.com/V14.0.4.0.TGQEUXM/air_eea_global_images_V14.0.4.0.TGQEUXM_20240506.0000.00_13.0_eea_962e15e0a7.tgz
-  md5: 962e15e0a795f19f2a05ae27dcfb0860
-  method: Fastboot
-  name: Redmi 13R 5G / 13C 5G EEA
-  size: 7.0 GB
-  version: V14.0.4.0.TGQEUXM
-- android: '13.0'
-  branch: Stable
-  codename: air_eea_global
-  date: 2024-05-06
-  link: https://bigota.d.miui.com/V14.0.4.0.TGQEUXM/miui_AIREEAGlobal_V14.0.4.0.TGQEUXM_5b2e600258_13.0.zip
-  md5: 5b2e6002586bb1cc96aff028c6fa55b3
+  date: 2024-06-25
+  link: https://bigota.d.miui.com/V14.0.5.0.TGQEUXM/miui_AIREEAGlobal_V14.0.5.0.TGQEUXM_f50c15bdc0_13.0.zip
+  md5: f50c15bdc024b0d8e19987f642684e57
   method: Recovery
   name: Redmi 13R 5G / 13C 5G EEA
   size: 4.6 GB
-  version: V14.0.4.0.TGQEUXM
+  version: V14.0.5.0.TGQEUXM
+- android: '13.0'
+  branch: Stable
+  codename: air_eea_global
+  date: 2024-06-22
+  link: https://cdnorg.d.miui.com/V14.0.5.0.TGQEUXM/air_eea_global_images_V14.0.5.0.TGQEUXM_20240622.0000.00_13.0_eea_8bdf1781e4.tgz
+  md5: 8bdf1781e4e4259c047eedb3645ea63d
+  method: Fastboot
+  name: Redmi 13R 5G / 13C 5G EEA
+  size: 7.1 GB
+  version: V14.0.5.0.TGQEUXM
 - android: '14.0'
   branch: Stable
   codename: air_global
@@ -749,7 +749,7 @@
   size: 4.9 GB
   version: OS1.0.1.0.TKHINXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: alioth_ru_global
   date: 2024-06-25
   link: https://bigota.d.miui.com/OS1.0.3.0.TKHRUXM/miui_ALIOTHRUGlobal_OS1.0.3.0.TKHRUXM_f3170261e5_13.0.zip
@@ -761,23 +761,13 @@
 - android: '13.0'
   branch: Stable
   codename: alioth_ru_global
-  date: 2024-05-21
-  link: https://bigota.d.miui.com/OS1.0.2.0.TKHRUXM/miui_ALIOTHRUGlobal_OS1.0.2.0.TKHRUXM_68e02dd148_13.0.zip
-  md5: 68e02dd148346767fb07be534f4e7989
-  method: Recovery
-  name: POCO F3 Russia
-  size: 4.0 GB
-  version: OS1.0.2.0.TKHRUXM
-- android: '13.0'
-  branch: Stable
-  codename: alioth_ru_global
-  date: 2024-04-02
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.TKHRUXM/alioth_ru_global_images_OS1.0.2.0.TKHRUXM_20240402.0000.00_13.0_ru_0cd668e1cb.tgz
-  md5: 0cd668e1cb386d43db410898330b7533
+  date: 2024-06-12
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.TKHRUXM/alioth_ru_global_images_OS1.0.3.0.TKHRUXM_20240612.0000.00_13.0_ru_e53dc4736d.tgz
+  md5: e53dc4736de381c4f8361104fe8c2e48
   method: Fastboot
   name: POCO F3 Russia
   size: 5.4 GB
-  version: OS1.0.2.0.TKHRUXM
+  version: OS1.0.3.0.TKHRUXM
 - android: '13.0'
   branch: Stable
   codename: alioth_tr_global
@@ -2528,6 +2518,16 @@
   name: Redmi 10X Pro China
   size: 4.8 GB
   version: V13.0.0.1.27.DEV
+- android: '14.0'
+  branch: Stable Beta
+  codename: breeze
+  date: 2024-07-05
+  link: https://bigota.d.miui.com/OS1.0.5.0.UNUCNXM/miui_BREEZE_OS1.0.5.0.UNUCNXM_4d970379cc_14.0.zip
+  md5: 4d970379cc86baaa72f6b4d43219288d
+  method: Recovery
+  name: Redmi Note 13R China
+  size: 4.7 GB
+  version: OS1.0.5.0.UNUCNXM
 - android: '14.0'
   branch: Stable
   codename: breeze
@@ -8158,26 +8158,26 @@
   name: Redmi 13C / POCO C65 EEA
   size: 6.9 GB
   version: OS1.0.3.0.UGPEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable
   codename: gale_global
-  date: 2024-06-06
-  link: https://bigota.d.miui.com/OS1.0.2.0.UGPMIXM/miui_GALEGlobal_OS1.0.2.0.UGPMIXM_a69fb77e05_14.0.zip
-  md5: a69fb77e05d21e4d0e38ae91c535b54e
+  date: 2024-06-27
+  link: https://bigota.d.miui.com/V14.0.10.0.TGPMIXM/miui_GALEGlobal_V14.0.10.0.TGPMIXM_81867662b3_13.0.zip
+  md5: 81867662b3e13da6b3679afc46c0a7ff
   method: Recovery
   name: Redmi 13C / POCO C65 Global
-  size: 4.3 GB
-  version: OS1.0.2.0.UGPMIXM
-- android: '14.0'
+  size: 4.2 GB
+  version: V14.0.10.0.TGPMIXM
+- android: '13.0'
   branch: Stable
   codename: gale_global
-  date: 2024-05-28
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.UGPMIXM/gale_global_images_OS1.0.2.0.UGPMIXM_20240528.0000.00_14.0_global_7d0cec6dbc.tgz
-  md5: 7d0cec6dbca100c522382629c4c7e616
+  date: 2024-06-14
+  link: https://cdnorg.d.miui.com/V14.0.10.0.TGPMIXM/gale_global_images_V14.0.10.0.TGPMIXM_20240614.0000.00_13.0_global_0f15983e73.tgz
+  md5: 0f15983e7322c6cbe4dfdf808d9dc987
   method: Fastboot
   name: Redmi 13C / POCO C65 Global
   size: 7.0 GB
-  version: OS1.0.2.0.UGPMIXM
+  version: V14.0.10.0.TGPMIXM
 - android: '14.0'
   branch: Stable
   codename: gale_id_global
@@ -8308,8 +8308,18 @@
   name: Redmi Note 13 Pro 5G China
   size: 7.0 GB
   version: OS1.0.4.0.UNRCNXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: garnet_eea_global
+  date: 2024-02-29
+  link: https://bigota.d.miui.com/V14.0.8.0.TNREUXM/miui_GARNETEEAGlobal_V14.0.8.0.TNREUXM_b654206e98_13.0.zip
+  md5: b654206e98c5ccc04f9bd2431059ff9e
+  method: Recovery
+  name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
+  size: 5.1 GB
+  version: V14.0.8.0.TNREUXM
+- android: '14.0'
+  branch: Stable
   codename: garnet_eea_global
   date: 2024-06-21
   link: https://bigota.d.miui.com/OS1.0.14.0.UNREUXM/miui_GARNETEEAGlobal_OS1.0.14.0.UNREUXM_371f861d71_14.0.zip
@@ -8321,23 +8331,13 @@
 - android: '14.0'
   branch: Stable
   codename: garnet_eea_global
-  date: 2024-04-26
-  link: https://bigota.d.miui.com/OS1.0.12.0.UNREUXM/miui_GARNETEEAGlobal_OS1.0.12.0.UNREUXM_28badb0bec_14.0.zip
-  md5: 28badb0becee1baa8ef469523f831699
-  method: Recovery
-  name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
-  size: 5.2 GB
-  version: OS1.0.12.0.UNREUXM
-- android: '14.0'
-  branch: Stable
-  codename: garnet_eea_global
-  date: 2024-04-19
-  link: https://cdnorg.d.miui.com/OS1.0.12.0.UNREUXM/garnet_eea_global_images_OS1.0.12.0.UNREUXM_20240419.0000.00_14.0_eea_2d25152d48.tgz
-  md5: 2d25152d4818869e1a562c277a897fe5
+  date: 2024-06-14
+  link: https://cdnorg.d.miui.com/OS1.0.14.0.UNREUXM/garnet_eea_global_images_OS1.0.14.0.UNREUXM_20240614.0000.00_14.0_eea_b0ff0538cd.tgz
+  md5: b0ff0538cdad2c05f07f744c4a5711f4
   method: Fastboot
   name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
-  size: 7.5 GB
-  version: OS1.0.12.0.UNREUXM
+  size: 7.7 GB
+  version: OS1.0.14.0.UNREUXM
 - android: '14.0'
   branch: Stable
   codename: garnet_global
@@ -10762,21 +10762,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -12869,6 +12869,16 @@
   size: 7.7 GB
   version: OS1.0.8.0.UMREUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: marble_global
+  date: 2024-07-03
+  link: https://bigota.d.miui.com/OS1.0.6.0.UMRMIXM/miui_MARBLEGlobal_OS1.0.6.0.UMRMIXM_bf30e0baf5_14.0.zip
+  md5: bf30e0baf582588967878fa84e128cda
+  method: Recovery
+  name: POCO F5 Global
+  size: 5.3 GB
+  version: OS1.0.6.0.UMRMIXM
+- android: '14.0'
   branch: Stable
   codename: marble_global
   date: 2024-05-08
@@ -12939,7 +12949,7 @@
   size: 6.3 GB
   version: OS1.0.8.0.UMRINXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: marble_ru_global
   date: 2024-06-26
   link: https://bigota.d.miui.com/OS1.0.5.0.UMRRUXM/miui_MARBLERUGlobal_OS1.0.5.0.UMRRUXM_a5b9c4deb8_14.0.zip
@@ -12951,23 +12961,13 @@
 - android: '14.0'
   branch: Stable
   codename: marble_ru_global
-  date: 2024-05-13
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMRRUXM/miui_MARBLERUGlobal_OS1.0.4.0.UMRRUXM_032009b057_14.0.zip
-  md5: 032009b057f1da45ef8554deb5ae0d4f
-  method: Recovery
-  name: POCO F5 Russia
-  size: 5.0 GB
-  version: OS1.0.4.0.UMRRUXM
-- android: '14.0'
-  branch: Stable
-  codename: marble_ru_global
-  date: 2024-04-23
-  link: https://cdnorg.d.miui.com/OS1.0.4.0.UMRRUXM/marble_ru_global_images_OS1.0.4.0.UMRRUXM_20240423.0000.00_14.0_ru_405d72e225.tgz
-  md5: 405d72e225fc350e6afd10af141304a3
+  date: 2024-06-19
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UMRRUXM/marble_ru_global_images_OS1.0.5.0.UMRRUXM_20240619.0000.00_14.0_ru_b5447971dc.tgz
+  md5: b5447971dc67d4b63a1462a515c928f9
   method: Fastboot
   name: POCO F5 Russia
-  size: 7.8 GB
-  version: OS1.0.4.0.UMRRUXM
+  size: 8.0 GB
+  version: OS1.0.5.0.UMRRUXM
 - android: '14.0'
   branch: Stable
   codename: marble_tr_global
@@ -14179,7 +14179,7 @@
   size: 6.3 GB
   version: OS1.0.4.0.UMPEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: moonstone_global
   date: 2024-06-26
   link: https://bigota.d.miui.com/OS1.0.6.0.UMPMIXM/miui_MOONSTONEGlobal_OS1.0.6.0.UMPMIXM_7a430ada0e_14.0.zip
@@ -14191,23 +14191,13 @@
 - android: '14.0'
   branch: Stable
   codename: moonstone_global
-  date: 2024-04-15
-  link: https://bigota.d.miui.com/OS1.0.5.0.UMPMIXM/miui_MOONSTONEGlobal_OS1.0.5.0.UMPMIXM_39a4f11957_14.0.zip
-  md5: 39a4f11957fbac645d095b5ed82e07d1
-  method: Recovery
-  name: POCO X5 5G Global
-  size: 3.9 GB
-  version: OS1.0.5.0.UMPMIXM
-- android: '14.0'
-  branch: Stable
-  codename: moonstone_global
-  date: 2024-04-09
-  link: https://cdnorg.d.miui.com/OS1.0.5.0.UMPMIXM/moonstone_global_images_OS1.0.5.0.UMPMIXM_20240409.0000.00_14.0_global_abdcca4aed.tgz
-  md5: abdcca4aed5629c404ffda3b455b29e5
+  date: 2024-06-13
+  link: https://cdnorg.d.miui.com/OS1.0.6.0.UMPMIXM/moonstone_global_images_OS1.0.6.0.UMPMIXM_20240613.0000.00_14.0_global_fd16dc5609.tgz
+  md5: fd16dc5609af47f896cb2339f86b61cc
   method: Fastboot
   name: POCO X5 5G Global
   size: 6.7 GB
-  version: OS1.0.5.0.UMPMIXM
+  version: OS1.0.6.0.UMPMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: moonstone_id_global
@@ -14379,6 +14369,16 @@
   size: 5.4 GB
   version: V14.0.22.12.5.DEV
 - android: '14.0'
+  branch: Stable Beta
+  codename: munch_eea_global
+  date: 2024-07-04
+  link: https://bigota.d.miui.com/OS1.0.2.0.ULMEUXM/miui_MUNCHEEAGlobal_OS1.0.2.0.ULMEUXM_23bf621c6d_14.0.zip
+  md5: 23bf621c6d7df52ca2fc765c0838d517
+  method: Recovery
+  name: POCO F4 EEA
+  size: 4.6 GB
+  version: OS1.0.2.0.ULMEUXM
+- android: '14.0'
   branch: Stable
   codename: munch_eea_global
   date: 2024-05-13
@@ -14439,7 +14439,7 @@
   size: 6.1 GB
   version: OS1.0.2.0.ULMIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: munch_in_global
   date: 2024-06-26
   link: https://bigota.d.miui.com/OS1.0.2.0.ULMINXM/miui_MUNCHINGlobal_OS1.0.2.0.ULMINXM_73863dbefb_14.0.zip
@@ -14451,23 +14451,23 @@
 - android: '14.0'
   branch: Stable
   codename: munch_in_global
-  date: 2024-05-14
-  link: https://bigota.d.miui.com/OS1.0.1.0.ULMINXM/miui_MUNCHINGlobal_OS1.0.1.0.ULMINXM_a5538f82a5_14.0.zip
-  md5: a5538f82a5ca1bc160f16ff4943e5ec3
-  method: Recovery
-  name: POCO F4 India
-  size: 4.6 GB
-  version: OS1.0.1.0.ULMINXM
-- android: '14.0'
-  branch: Stable
-  codename: munch_in_global
-  date: 2024-05-07
-  link: https://cdnorg.d.miui.com/OS1.0.1.0.ULMINXM/munch_in_global_images_OS1.0.1.0.ULMINXM_20240507.0000.00_14.0_in_5805f94a6f.tgz
-  md5: 5805f94a6f84e71697278d09254ccbc1
+  date: 2024-06-18
+  link: https://cdnorg.d.miui.com/OS1.0.2.0.ULMINXM/munch_in_global_images_OS1.0.2.0.ULMINXM_20240618.0000.00_14.0_in_15cd7af9dc.tgz
+  md5: 15cd7af9dc8619df434e14c3e3149a68
   method: Fastboot
   name: POCO F4 India
-  size: 5.5 GB
-  version: OS1.0.1.0.ULMINXM
+  size: 5.4 GB
+  version: OS1.0.2.0.ULMINXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: munch_ru_global
+  date: 2024-07-02
+  link: https://bigota.d.miui.com/OS1.0.2.0.ULMRUXM/miui_MUNCHRUGlobal_OS1.0.2.0.ULMRUXM_954d41ca7e_14.0.zip
+  md5: 954d41ca7efc592f369c229fb54ccea1
+  method: Recovery
+  name: POCO F4 Russia
+  size: 4.6 GB
+  version: OS1.0.2.0.ULMRUXM
 - android: '14.0'
   branch: Stable
   codename: munch_ru_global
@@ -14488,6 +14488,16 @@
   name: POCO F4 Russia
   size: 6.1 GB
   version: OS1.0.1.0.ULMRUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: munch_tr_global
+  date: 2024-07-02
+  link: https://bigota.d.miui.com/OS1.0.2.0.ULMTRXM/miui_MUNCHTRGlobal_OS1.0.2.0.ULMTRXM_58313d4efa_14.0.zip
+  md5: 58313d4efa125ae901567acbc42a9f5a
+  method: Recovery
+  name: POCO F4 Turkey
+  size: 4.6 GB
+  version: OS1.0.2.0.ULMTRXM
 - android: '14.0'
   branch: Stable
   codename: munch_tr_global
@@ -16841,13 +16851,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: pissarro_eea_global
-  date: 2024-02-04
-  link: https://bigota.d.miui.com/V14.0.9.0.TKTEUXM/miui_PISSARROEEAGlobal_V14.0.9.0.TKTEUXM_c25c87f59b_13.0.zip
-  md5: c25c87f59b07b8f2b27b9eaacda689c0
+  date: 2024-07-03
+  link: https://bigota.d.miui.com/OS1.0.3.0.TKTEUXM/miui_PISSARROEEAGlobal_OS1.0.3.0.TKTEUXM_73c66a7832_13.0.zip
+  md5: 73c66a7832d9778fba5266cdfae288dc
   method: Recovery
   name: Redmi Note 11 Pro+ 5G EEA
-  size: 4.0 GB
-  version: V14.0.9.0.TKTEUXM
+  size: 3.9 GB
+  version: OS1.0.3.0.TKTEUXM
 - android: '13.0'
   branch: Stable
   codename: pissarro_eea_global
@@ -17229,6 +17239,16 @@
   size: 6.4 GB
   version: OS1.0.5.0.ULQIDXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: plato_ru_global
+  date: 2024-07-03
+  link: https://bigota.d.miui.com/OS1.0.4.0.ULQRUXM/miui_PLATORUGlobal_OS1.0.4.0.ULQRUXM_e0e30d89b2_14.0.zip
+  md5: e0e30d89b2b8ada1551ca2dc62807f06
+  method: Recovery
+  name: Xiaomi 12T Russia
+  size: 5.4 GB
+  version: OS1.0.4.0.ULQRUXM
+- android: '14.0'
   branch: Stable
   codename: plato_ru_global
   date: 2024-05-09
@@ -17279,7 +17299,7 @@
   size: 6.7 GB
   version: OS1.0.1.0.ULQTRXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: plato_tw_global
   date: 2024-06-21
   link: https://bigota.d.miui.com/OS1.0.3.0.ULQTWXM/miui_PLATOTWGlobal_OS1.0.3.0.ULQTWXM_c9e01647e8_14.0.zip
@@ -17291,23 +17311,13 @@
 - android: '14.0'
   branch: Stable
   codename: plato_tw_global
-  date: 2024-04-07
-  link: https://bigota.d.miui.com/OS1.0.2.0.ULQTWXM/miui_PLATOTWGlobal_OS1.0.2.0.ULQTWXM_f5f3bbdd6b_14.0.zip
-  md5: f5f3bbdd6b1e3880be591a6044aac151
-  method: Recovery
-  name: Xiaomi 12T Taiwan
-  size: 5.3 GB
-  version: OS1.0.2.0.ULQTWXM
-- android: '14.0'
-  branch: Stable
-  codename: plato_tw_global
-  date: 2024-03-19
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.ULQTWXM/plato_tw_global_images_OS1.0.2.0.ULQTWXM_20240319.0000.00_14.0_tw_c6c46a31d1.tgz
-  md5: c6c46a31d199c710f96483c8fa3a7d40
+  date: 2024-06-11
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.ULQTWXM/plato_tw_global_images_OS1.0.3.0.ULQTWXM_20240611.0000.00_14.0_tw_b5fd0afe95.tgz
+  md5: b5fd0afe95dfa650cb95cf7e9087fed0
   method: Fastboot
   name: Xiaomi 12T Taiwan
   size: 6.4 GB
-  version: OS1.0.2.0.ULQTWXM
+  version: OS1.0.3.0.ULQTWXM
 - android: '10.0'
   branch: Stable
   codename: polaris
@@ -18821,13 +18831,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: rosemary_p_ru_global
-  date: 2023-06-15
-  link: https://bigota.d.miui.com/V14.0.1.0.TFFRUXM/miui_ROSEMARYPRUGlobal_V14.0.1.0.TFFRUXM_ce94bba82a_13.0.zip
-  md5: ce94bba82a8ee1b17013703752abbefe
+  date: 2024-07-04
+  link: https://bigota.d.miui.com/V14.0.9.0.TFFRUXM/miui_ROSEMARYPRUGlobal_V14.0.9.0.TFFRUXM_de6f280fe3_13.0.zip
+  md5: de6f280fe3b1548db28e3a5ed2e861d0
   method: Recovery
   name: POCO M5S Russia
   size: 3.8 GB
-  version: V14.0.1.0.TFFRUXM
+  version: V14.0.9.0.TFFRUXM
 - android: '13.0'
   branch: Stable
   codename: rosemary_p_ru_global
@@ -19959,6 +19969,16 @@
   size: 6.8 GB
   version: OS1.0.3.0.UHZRUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: sea_tr_global
+  date: 2024-07-03
+  link: https://bigota.d.miui.com/OS1.0.2.0.UHZTRXM/miui_SEATRGlobal_OS1.0.2.0.UHZTRXM_3a36ac2034_14.0.zip
+  md5: 3a36ac2034d48bd4e142c45fd413f5ad
+  method: Recovery
+  name: Redmi Note 12S Turkey
+  size: 4.3 GB
+  version: OS1.0.2.0.UHZTRXM
+- android: '14.0'
   branch: Stable
   codename: sea_tr_global
   date: 2024-01-29
@@ -20579,6 +20599,16 @@
   size: 5.8 GB
   version: OS1.0.4.0.UMWINXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: sky_jp_global
+  date: 2024-07-03
+  link: https://bigota.d.miui.com/OS1.0.10.0.UMWJPXM/miui_SKYJPGlobal_OS1.0.10.0.UMWJPXM_a5fcbe8b53_14.0.zip
+  md5: a5fcbe8b530c161b92f7bbee3b26b631
+  method: Recovery
+  name: Redmi 12 5G Japan
+  size: 4.4 GB
+  version: OS1.0.10.0.UMWJPXM
+- android: '14.0'
   branch: Stable
   codename: sky_jp_global
   date: 2024-03-07
@@ -20598,6 +20628,16 @@
   name: Redmi 12 5G Japan
   size: 6.3 GB
   version: OS1.0.8.0.UMWJPXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: sky_tw_global
+  date: 2024-07-04
+  link: https://bigota.d.miui.com/OS1.0.4.0.UMWTWXM/miui_SKYTWGlobal_OS1.0.4.0.UMWTWXM_ae48b419c6_14.0.zip
+  md5: ae48b419c69d7dc6c46951d5cc8ffc99
+  method: Recovery
+  name: Redmi 12 5G / POCO M6 Pro 5G Taiwan
+  size: 4.4 GB
+  version: OS1.0.4.0.UMWTWXM
 - android: '14.0'
   branch: Stable
   codename: sky_tw_global
@@ -21059,7 +21099,7 @@
   size: 6.4 GB
   version: OS1.0.6.0.UMQEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sunstone_global
   date: 2024-06-26
   link: https://bigota.d.miui.com/OS1.0.5.0.UMQMIXM/miui_SUNSTONEGlobal_OS1.0.5.0.UMQMIXM_5187649eac_14.0.zip
@@ -21071,25 +21111,15 @@
 - android: '14.0'
   branch: Stable
   codename: sunstone_global
-  date: 2024-04-15
-  link: https://bigota.d.miui.com/OS1.0.4.0.UMQMIXM/miui_SUNSTONEGlobal_OS1.0.4.0.UMQMIXM_fec8dcde2d_14.0.zip
-  md5: fec8dcde2db2006e098aa7702d460341
-  method: Recovery
-  name: Redmi Note 12 5G Global
-  size: 3.9 GB
-  version: OS1.0.4.0.UMQMIXM
-- android: '14.0'
-  branch: Stable
-  codename: sunstone_global
-  date: 2024-04-09
-  link: https://cdnorg.d.miui.com/OS1.0.4.0.UMQMIXM/sunstone_global_images_OS1.0.4.0.UMQMIXM_20240409.0000.00_14.0_global_2c8075803c.tgz
-  md5: 2c8075803c79c8d44446a4e68d8d2c73
+  date: 2024-06-13
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UMQMIXM/sunstone_global_images_OS1.0.5.0.UMQMIXM_20240613.0000.00_14.0_global_5300d0b269.tgz
+  md5: 5300d0b269d7ba29756fbeebd23974fc
   method: Fastboot
   name: Redmi Note 12 5G Global
   size: 6.8 GB
-  version: OS1.0.4.0.UMQMIXM
+  version: OS1.0.5.0.UMQMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sunstone_in_global
   date: 2024-06-26
   link: https://bigota.d.miui.com/OS1.0.3.0.UMQINXM/miui_SUNSTONEINGlobal_OS1.0.3.0.UMQINXM_0b3b660e85_14.0.zip
@@ -21101,23 +21131,13 @@
 - android: '14.0'
   branch: Stable
   codename: sunstone_in_global
-  date: 2024-05-09
-  link: https://bigota.d.miui.com/OS1.0.2.0.UMQINXM/miui_SUNSTONEINGlobal_OS1.0.2.0.UMQINXM_25d8650de9_14.0.zip
-  md5: 25d8650de9913bb42566dca1d2a9bfa6
-  method: Recovery
-  name: Redmi Note 12 5G India
-  size: 3.8 GB
-  version: OS1.0.2.0.UMQINXM
-- android: '14.0'
-  branch: Stable
-  codename: sunstone_in_global
-  date: 2024-04-28
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.UMQINXM/sunstone_in_global_images_OS1.0.2.0.UMQINXM_20240428.0000.00_14.0_in_7e045c2f74.tgz
-  md5: 7e045c2f743a98bfa90b21f4225d1426
+  date: 2024-06-19
+  link: https://cdnorg.d.miui.com/OS1.0.3.0.UMQINXM/sunstone_in_global_images_OS1.0.3.0.UMQINXM_20240619.0000.00_14.0_in_10a527cff3.tgz
+  md5: 10a527cff3f8f17c415e634321f0bd65
   method: Fastboot
   name: Redmi Note 12 5G India
   size: 5.5 GB
-  version: OS1.0.2.0.UMQINXM
+  version: OS1.0.3.0.UMQINXM
 - android: '14.0'
   branch: Stable
   codename: sunstone_tw_global
@@ -25249,7 +25269,7 @@
   size: 6.5 GB
   version: OS1.0.1.0.ULOINXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xaga_ru_global
   date: 2024-06-27
   link: https://bigota.d.miui.com/OS1.0.2.0.ULORUXM/miui_XAGARUGlobal_OS1.0.2.0.ULORUXM_72c6fe980c_14.0.zip
@@ -25258,26 +25278,16 @@
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Russia
   size: 5.3 GB
   version: OS1.0.2.0.ULORUXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable
   codename: xaga_ru_global
-  date: 2024-04-01
-  link: https://bigota.d.miui.com/V14.0.7.0.TLORUXM/miui_XAGARUGlobal_V14.0.7.0.TLORUXM_05e4036d91_13.0.zip
-  md5: 05e4036d91a995254f63932cd529aaf8
-  method: Recovery
-  name: Redmi Note 11T Pro / POCO X4 GT / Pro Russia
-  size: 5.2 GB
-  version: V14.0.7.0.TLORUXM
-- android: '13.0'
-  branch: Stable
-  codename: xaga_ru_global
-  date: 2024-03-15
-  link: https://cdnorg.d.miui.com/V14.0.7.0.TLORUXM/xaga_ru_global_images_V14.0.7.0.TLORUXM_20240315.0000.00_13.0_ru_6c41c58117.tgz
-  md5: 6c41c581178c266949b104c1003dbddd
+  date: 2024-06-11
+  link: https://cdnorg.d.miui.com/OS1.0.2.0.ULORUXM/xaga_ru_global_images_OS1.0.2.0.ULORUXM_20240611.0000.00_14.0_ru_100b43dcd2.tgz
+  md5: 100b43dcd2b53f8a022b5c0c7c735454
   method: Fastboot
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Russia
-  size: 7.0 GB
-  version: V14.0.7.0.TLORUXM
+  size: 7.1 GB
+  version: OS1.0.2.0.ULORUXM
 - android: '14.0'
   branch: Stable
   codename: xaga_tr_global
@@ -25321,13 +25331,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: xun
-  date: 2024-01-24
-  link: https://bigota.d.miui.com/OS1.0.3.0.UMUCNXM/miui_XUN_OS1.0.3.0.UMUCNXM_a8dd939e4f_14.0.zip
-  md5: a8dd939e4fdeb440bd52fcb16bc0d069
+  date: 2024-07-04
+  link: https://bigota.d.miui.com/OS1.0.5.0.UMUCNXM/miui_XUN_OS1.0.5.0.UMUCNXM_892043337f_14.0.zip
+  md5: 892043337f675f732c410c8a48c64a22
   method: Recovery
   name: Redmi Pad SE China
   size: 4.2 GB
-  version: OS1.0.3.0.UMUCNXM
+  version: OS1.0.5.0.UMUCNXM
 - android: '14.0'
   branch: Stable
   codename: xun
