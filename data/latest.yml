@@ -368,8 +368,18 @@
   name: Xiaomi 11T EEA
   size: 6.5 GB
   version: OS1.0.3.0.UKWEUXM
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: agate_global
+  date: 2021-09-15
+  link: https://bigota.d.miui.com/V12.5.1.0.RKWMIXM/miui_AGATEGlobal_V12.5.1.0.RKWMIXM_fcb5bac54c_11.0.zip
+  md5: fcb5bac54cdac6ac8a1262385792e2f4
+  method: Recovery
+  name: Xiaomi 11T Global
+  size: 2.8 GB
+  version: V12.5.1.0.RKWMIXM
+- android: '14.0'
+  branch: Stable
   codename: agate_global
   date: 2024-07-02
   link: https://bigota.d.miui.com/OS1.0.5.0.UKWMIXM/miui_AGATEGlobal_OS1.0.5.0.UKWMIXM_e09f6580fe_14.0.zip
@@ -381,23 +391,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_global
-  date: 2024-04-01
-  link: https://bigota.d.miui.com/OS1.0.4.0.UKWMIXM/miui_AGATEGlobal_OS1.0.4.0.UKWMIXM_86cb23ca40_14.0.zip
-  md5: 86cb23ca4090848df7436e04e85e704d
-  method: Recovery
-  name: Xiaomi 11T Global
-  size: 5.0 GB
-  version: OS1.0.4.0.UKWMIXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_global
-  date: 2024-03-15
-  link: https://cdnorg.d.miui.com/OS1.0.4.0.UKWMIXM/agate_global_images_OS1.0.4.0.UKWMIXM_20240315.0000.00_14.0_global_14accf683f.tgz
-  md5: 14accf683fad7a3f4c10d0cb837b0323
+  date: 2024-06-17
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UKWMIXM/agate_global_images_OS1.0.5.0.UKWMIXM_20240617.0000.00_14.0_global_fe2a11a7f1.tgz
+  md5: fe2a11a7f126beb5564f30e72c94a37d
   method: Fastboot
   name: Xiaomi 11T Global
-  size: 6.7 GB
-  version: OS1.0.4.0.UKWMIXM
+  size: 6.5 GB
+  version: OS1.0.5.0.UKWMIXM
 - android: '14.0'
   branch: Stable
   codename: agate_id_global
