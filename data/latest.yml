@@ -509,7 +509,7 @@
   size: 5.6 GB
   version: OS1.0.1.0.UGQCNXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: air_eea_global
   date: 2024-07-16
   link: https://bigota.d.miui.com/OS1.0.1.0.UGQEUXM/miui_AIREEAGlobal_OS1.0.1.0.UGQEUXM_d704cd62c8_14.0.zip
@@ -518,26 +518,16 @@
   name: Redmi 13R 5G / 13C 5G EEA
   size: 4.6 GB
   version: OS1.0.1.0.UGQEUXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable
   codename: air_eea_global
-  date: 2024-06-25
-  link: https://bigota.d.miui.com/V14.0.5.0.TGQEUXM/miui_AIREEAGlobal_V14.0.5.0.TGQEUXM_f50c15bdc0_13.0.zip
-  md5: f50c15bdc024b0d8e19987f642684e57
-  method: Recovery
-  name: Redmi 13R 5G / 13C 5G EEA
-  size: 4.6 GB
-  version: V14.0.5.0.TGQEUXM
-- android: '13.0'
-  branch: Stable
-  codename: air_eea_global
-  date: 2024-06-22
-  link: https://cdnorg.d.miui.com/V14.0.5.0.TGQEUXM/air_eea_global_images_V14.0.5.0.TGQEUXM_20240622.0000.00_13.0_eea_8bdf1781e4.tgz
-  md5: 8bdf1781e4e4259c047eedb3645ea63d
+  date: 2024-07-03
+  link: https://cdnorg.d.miui.com/OS1.0.1.0.UGQEUXM/air_eea_global_images_OS1.0.1.0.UGQEUXM_20240703.0000.00_14.0_eea_70c4128712.tgz
+  md5: 70c4128712351d7f0ea84aa156145c53
   method: Fastboot
   name: Redmi 13R 5G / 13C 5G EEA
   size: 7.1 GB
-  version: V14.0.5.0.TGQEUXM
+  version: OS1.0.1.0.UGQEUXM
 - android: '14.0'
   branch: Stable
   codename: air_global
@@ -8298,26 +8288,26 @@
   name: Redmi 13C / POCO C65 Turkey
   size: 6.0 GB
   version: V14.0.6.0.TGPTRXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable
   codename: gale_tw_global
-  date: 2024-05-09
-  link: https://bigota.d.miui.com/OS1.0.2.0.UGPTWXM/miui_GALETWGlobal_OS1.0.2.0.UGPTWXM_f7e51f7326_14.0.zip
-  md5: f7e51f73262fb1d207393dd11f82d471
+  date: 2024-07-15
+  link: https://bigota.d.miui.com/V14.0.5.0.TGPTWXM/miui_GALETWGlobal_V14.0.5.0.TGPTWXM_d2f0b30d11_13.0.zip
+  md5: d2f0b30d11d31e7b9b6035bd3603528b
   method: Recovery
   name: Redmi 13C / POCO C65 Taiwan
-  size: 4.2 GB
-  version: OS1.0.2.0.UGPTWXM
-- android: '14.0'
+  size: 4.0 GB
+  version: V14.0.5.0.TGPTWXM
+- android: '13.0'
   branch: Stable
   codename: gale_tw_global
-  date: 2024-04-27
-  link: https://cdnorg.d.miui.com/OS1.0.2.0.UGPTWXM/gale_tw_global_images_OS1.0.2.0.UGPTWXM_20240427.0000.00_14.0_tw_dc2fb114b4.tgz
-  md5: dc2fb114b4aefb043b702a9be428f5d2
+  date: 2024-07-08
+  link: https://cdnorg.d.miui.com/V14.0.5.0.TGPTWXM/gale_tw_global_images_V14.0.5.0.TGPTWXM_20240708.0000.00_13.0_tw_886275cbe7.tgz
+  md5: 886275cbe7bbe8da2f3e38dbddf65e73
   method: Fastboot
   name: Redmi 13C / POCO C65 Taiwan
-  size: 5.7 GB
-  version: OS1.0.2.0.UGPTWXM
+  size: 5.8 GB
+  version: V14.0.5.0.TGPTWXM
 - android: '13.0'
   branch: Stable Beta
   codename: garnet
@@ -19131,6 +19121,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: rothko
+  date: 2024-07-20
+  link: https://bigota.d.miui.com/OS1.0.14.0.UNNCNXM/miui_ROTHKO_OS1.0.14.0.UNNCNXM_611f2953c7_14.0.zip
+  md5: 611f2953c72305e7bbd49fc806c1cbee
+  method: Recovery
+  name: Redmi K70 Ultra China
+  size: 6.9 GB
+  version: OS1.0.14.0.UNNCNXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: rothko
   date: 2024-07-15
   link: https://cdnorg.d.miui.com/OS1.0.13.0.UNNCNXM/rothko_images_OS1.0.13.0.UNNCNXM_20240715.0000.00_14.0_cn_4d968a47e1.tgz
   md5: 4d968a47e13c703324c48a12e1f25272
@@ -21261,13 +21261,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
