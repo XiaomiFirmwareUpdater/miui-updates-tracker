@@ -1581,23 +1581,23 @@
 - android: '14.0'
   branch: Stable
   codename: aristotle_eea_global
-  date: 2024-06-26
-  link: https://bigota.d.miui.com/OS1.0.10.0.UMFEUXM/miui_ARISTOTLEEEAGlobal_OS1.0.10.0.UMFEUXM_9fd522d995_14.0.zip
-  md5: 9fd522d995baae5bffaeb2d01df44893
+  date: 2024-07-31
+  link: https://bigota.d.miui.com/OS1.0.11.0.UMFEUXM/miui_ARISTOTLEEEAGlobal_OS1.0.11.0.UMFEUXM_76f7916e03_14.0.zip
+  md5: 76f7916e03421a6883426fde569190dc
   method: Recovery
   name: Xiaomi 13T EEA
-  size: 5.8 GB
-  version: OS1.0.10.0.UMFEUXM
+  size: 5.7 GB
+  version: OS1.0.11.0.UMFEUXM
 - android: '14.0'
   branch: Stable
   codename: aristotle_eea_global
-  date: 2024-06-18
-  link: https://cdnorg.d.miui.com/OS1.0.10.0.UMFEUXM/aristotle_eea_global_images_OS1.0.10.0.UMFEUXM_20240618.0000.00_14.0_eea_0aea7ce4d9.tgz
-  md5: 0aea7ce4d95a82d8c1e9820281b1f458
+  date: 2024-07-22
+  link: https://cdnorg.d.miui.com/OS1.0.11.0.UMFEUXM/aristotle_eea_global_images_OS1.0.11.0.UMFEUXM_20240722.0000.00_14.0_eea_8708abfffe.tgz
+  md5: 8708abfffe7dc938eb78c88b578f1ed4
   method: Fastboot
   name: Xiaomi 13T EEA
   size: 7.7 GB
-  version: OS1.0.10.0.UMFEUXM
+  version: OS1.0.11.0.UMFEUXM
 - android: '14.0'
   branch: Stable
   codename: aristotle_global
@@ -4878,8 +4878,18 @@
   name: Xiaomi 12 EEA
   size: 6.3 GB
   version: OS1.0.10.0.ULCEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: cupid_global
+  date: 2022-08-15
+  link: https://bigota.d.miui.com/V13.0.4.0.TLCMIXM/miui_CUPIDGlobal_V13.0.4.0.TLCMIXM_271430c4dc_13.0.zip
+  md5: 271430c4dc8ea8b1e1648e56cb2c86b0
+  method: Recovery
+  name: Xiaomi 12 Global
+  size: 4.5 GB
+  version: V13.0.4.0.TLCMIXM
+- android: '14.0'
+  branch: Stable
   codename: cupid_global
   date: 2024-07-31
   link: https://bigota.d.miui.com/OS1.0.4.0.ULCMIXM/miui_CUPIDGlobal_OS1.0.4.0.ULCMIXM_8bbe01b2d0_14.0.zip
@@ -4891,23 +4901,13 @@
 - android: '14.0'
   branch: Stable
   codename: cupid_global
-  date: 2024-05-15
-  link: https://bigota.d.miui.com/OS1.0.3.0.ULCMIXM/miui_CUPIDGlobal_OS1.0.3.0.ULCMIXM_c0605b4a70_14.0.zip
-  md5: c0605b4a7078f57638909e42810d36eb
-  method: Recovery
-  name: Xiaomi 12 Global
-  size: 5.2 GB
-  version: OS1.0.3.0.ULCMIXM
-- android: '14.0'
-  branch: Stable
-  codename: cupid_global
-  date: 2024-04-28
-  link: https://cdnorg.d.miui.com/OS1.0.3.0.ULCMIXM/cupid_global_images_OS1.0.3.0.ULCMIXM_20240428.0000.00_14.0_global_14f9d43392.tgz
-  md5: 14f9d43392f5c4de9a97d47036e09e9a
+  date: 2024-07-22
+  link: https://cdnorg.d.miui.com/OS1.0.4.0.ULCMIXM/cupid_global_images_OS1.0.4.0.ULCMIXM_20240722.0000.00_14.0_global_db43f70b48.tgz
+  md5: null
   method: Fastboot
   name: Xiaomi 12 Global
   size: 6.6 GB
-  version: OS1.0.3.0.ULCMIXM
+  version: OS1.0.4.0.ULCMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: cupid_id_global
@@ -10922,21 +10922,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13039,7 +13039,7 @@
   size: 7.3 GB
   version: OS1.0.3.0.UMRCNXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: marble_eea_global
   date: 2024-08-01
   link: https://bigota.d.miui.com/OS1.0.9.0.UMREUXM/miui_MARBLEEEAGlobal_OS1.0.9.0.UMREUXM_fdaf5c8f41_14.0.zip
@@ -13051,23 +13051,13 @@
 - android: '14.0'
   branch: Stable
   codename: marble_eea_global
-  date: 2024-06-21
-  link: https://bigota.d.miui.com/OS1.0.8.0.UMREUXM/miui_MARBLEEEAGlobal_OS1.0.8.0.UMREUXM_c6f0e5cf41_14.0.zip
-  md5: c6f0e5cf41dd9bcf740b60c44c22999a
-  method: Recovery
-  name: POCO F5 EEA
-  size: 5.2 GB
-  version: OS1.0.8.0.UMREUXM
-- android: '14.0'
-  branch: Stable
-  codename: marble_eea_global
-  date: 2024-06-07
-  link: https://cdnorg.d.miui.com/OS1.0.8.0.UMREUXM/marble_eea_global_images_OS1.0.8.0.UMREUXM_20240607.0000.00_14.0_eea_2b619cd826.tgz
-  md5: 2b619cd8266d9de8b261d60eb012be22
+  date: 2024-07-17
+  link: https://cdnorg.d.miui.com/OS1.0.9.0.UMREUXM/marble_eea_global_images_OS1.0.9.0.UMREUXM_20240717.0000.00_14.0_eea_65d9cba031.tgz
+  md5: 65d9cba0316cd1c1d224611c56fcb4df
   method: Fastboot
   name: POCO F5 EEA
-  size: 7.7 GB
-  version: OS1.0.8.0.UMREUXM
+  size: 7.8 GB
+  version: OS1.0.9.0.UMREUXM
 - android: '14.0'
   branch: Stable Beta
   codename: marble_global
@@ -20741,13 +20731,13 @@
 - android: '14.0'
   branch: Stable
   codename: sheng
-  date: 2024-05-27
-  link: https://bigota.d.miui.com/OS1.0.8.0.UNXCNXM/miui_SHENG_OS1.0.8.0.UNXCNXM_c12a5e6408_14.0.zip
-  md5: c12a5e64086411dd695932fe589b4f84
+  date: 2024-07-30
+  link: https://cdnorg.d.miui.com/OS1.0.9.0.UNXCNXM/miui_SHENG_OS1.0.9.0.UNXCNXM_031ec69427_14.0.zip
+  md5: null
   method: Recovery
   name: Xiaomi Pad 6S Pro 12.4 China
   size: 6.9 GB
-  version: OS1.0.8.0.UNXCNXM
+  version: OS1.0.9.0.UNXCNXM
 - android: '14.0'
   branch: Stable
   codename: sheng
@@ -21919,7 +21909,7 @@
   size: 6.5 GB
   version: OS1.0.3.0.THGEUXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sweet_k6a_global
   date: 2024-07-29
   link: https://bigota.d.miui.com/OS1.0.6.0.THGMIXM/miui_SWEETK6AGlobal_OS1.0.6.0.THGMIXM_72b3b8ef8e_13.0.zip
@@ -21931,23 +21921,13 @@
 - android: '13.0'
   branch: Stable
   codename: sweet_k6a_global
-  date: 2024-06-14
-  link: https://bigota.d.miui.com/OS1.0.5.0.THGMIXM/miui_SWEETK6AGlobal_OS1.0.5.0.THGMIXM_da620b7122_13.0.zip
-  md5: da620b7122071b38481a69a215c45251
-  method: Recovery
-  name: Redmi Note 12 Pro 4G Global
-  size: 4.2 GB
-  version: OS1.0.5.0.THGMIXM
-- android: '13.0'
-  branch: Stable
-  codename: sweet_k6a_global
-  date: 2024-06-03
-  link: https://cdnorg.d.miui.com/OS1.0.5.0.THGMIXM/sweet_k6a_global_images_OS1.0.5.0.THGMIXM_20240603.0000.00_13.0_global_362ab2c61b.tgz
-  md5: 362ab2c61b41af45f3588ac502c64014
+  date: 2024-07-15
+  link: https://cdnorg.d.miui.com/OS1.0.6.0.THGMIXM/sweet_k6a_global_images_OS1.0.6.0.THGMIXM_20240715.0000.00_13.0_global_a0b0bcd11f.tgz
+  md5: a0b0bcd11fac7da15e355b93e1058892
   method: Fastboot
   name: Redmi Note 12 Pro 4G Global
-  size: 6.9 GB
-  version: OS1.0.5.0.THGMIXM
+  size: 6.8 GB
+  version: OS1.0.6.0.THGMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: sweet_k6a_id_global
@@ -26349,7 +26329,7 @@
   size: 4.7 GB
   version: OS1.0.4.0.ULYEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: yunluo_global
   date: 2024-08-03
   link: https://bigota.d.miui.com/OS1.0.4.0.ULYMIXM/miui_YUNLUOGlobal_OS1.0.4.0.ULYMIXM_a7474dc3be_14.0.zip
@@ -26361,23 +26341,13 @@
 - android: '14.0'
   branch: Stable
   codename: yunluo_global
-  date: 2024-06-14
-  link: https://bigota.d.miui.com/OS1.0.3.0.ULYMIXM/miui_YUNLUOGlobal_OS1.0.3.0.ULYMIXM_6c6a7d9f81_14.0.zip
-  md5: 6c6a7d9f81dc3a242a9c060dfa3ce1a6
-  method: Recovery
-  name: Redmi Pad Global
-  size: 4.2 GB
-  version: OS1.0.3.0.ULYMIXM
-- android: '14.0'
-  branch: Stable
-  codename: yunluo_global
-  date: 2024-06-07
-  link: https://cdnorg.d.miui.com/OS1.0.3.0.ULYMIXM/yunluo_global_images_OS1.0.3.0.ULYMIXM_20240607.0000.00_14.0_global_95f4ed9630.tgz
-  md5: 95f4ed96309ee3481a783658ab562a0f
+  date: 2024-07-26
+  link: https://cdnorg.d.miui.com/OS1.0.4.0.ULYMIXM/yunluo_global_images_OS1.0.4.0.ULYMIXM_20240726.0000.00_14.0_global_71dc41b8f6.tgz
+  md5: 71dc41b8f698a9406930a1d03f1f055f
   method: Fastboot
   name: Redmi Pad Global
   size: 4.8 GB
-  version: OS1.0.3.0.ULYMIXM
+  version: OS1.0.4.0.ULYMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: yunluo_id_global
@@ -26769,7 +26739,7 @@
   size: 7.3 GB
   version: V14.0.22.12.5.DEV
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: zircon
   date: 2024-07-30
   link: https://bigota.d.miui.com/OS1.0.5.0.UNOCNXM/miui_ZIRCON_OS1.0.5.0.UNOCNXM_0211284d9f_14.0.zip
@@ -26781,25 +26751,25 @@
 - android: '14.0'
   branch: Stable
   codename: zircon
-  date: 2024-06-12
-  link: https://bigota.d.miui.com/OS1.0.4.0.UNOCNXM/miui_ZIRCON_OS1.0.4.0.UNOCNXM_97a8daff31_14.0.zip
-  md5: 97a8daff31f0800c1c83d71aae7f070e
-  method: Recovery
-  name: Redmi Note 13 Pro+ 5G China
-  size: 6.2 GB
-  version: OS1.0.4.0.UNOCNXM
-- android: '14.0'
-  branch: Stable
-  codename: zircon
-  date: 2024-06-04
-  link: https://cdnorg.d.miui.com/OS1.0.4.0.UNOCNXM/zircon_images_OS1.0.4.0.UNOCNXM_20240604.0000.00_14.0_cn_fe10a0c520.tgz
-  md5: fe10a0c520bb2061be684f013ddd6cbe
+  date: 2024-07-22
+  link: https://cdnorg.d.miui.com/OS1.0.5.0.UNOCNXM/zircon_images_OS1.0.5.0.UNOCNXM_20240722.0000.00_14.0_cn_384bb0e98b.tgz
+  md5: 384bb0e98bf23674406d6803f59d0442
   method: Fastboot
   name: Redmi Note 13 Pro+ 5G China
   size: 7.8 GB
-  version: OS1.0.4.0.UNOCNXM
-- android: '14.0'
+  version: OS1.0.5.0.UNOCNXM
+- android: '13.0'
   branch: Stable Beta
+  codename: zircon_eea_global
+  date: 2023-12-04
+  link: https://bigota.d.miui.com/V14.0.3.0.TNOEUXM/miui_ZIRCONEEAGlobal_V14.0.3.0.TNOEUXM_355d275de1_13.0.zip
+  md5: 355d275de1f9c3a6123cc3cd025f11b7
+  method: Recovery
+  name: Redmi Note 13 Pro+ 5G EEA
+  size: 5.6 GB
+  version: V14.0.3.0.TNOEUXM
+- android: '14.0'
+  branch: Stable
   codename: zircon_eea_global
   date: 2024-07-30
   link: https://bigota.d.miui.com/OS1.0.7.0.UNOEUXM/miui_ZIRCONEEAGlobal_OS1.0.7.0.UNOEUXM_be5a4d94fb_14.0.zip
@@ -26811,23 +26781,13 @@
 - android: '14.0'
   branch: Stable
   codename: zircon_eea_global
-  date: 2024-06-24
-  link: https://bigota.d.miui.com/OS1.0.6.0.UNOEUXM/miui_ZIRCONEEAGlobal_OS1.0.6.0.UNOEUXM_fe45d6ab11_14.0.zip
-  md5: fe45d6ab119f4a689cf7046dfa7f8f3d
-  method: Recovery
-  name: Redmi Note 13 Pro+ 5G EEA
-  size: 5.8 GB
-  version: OS1.0.6.0.UNOEUXM
-- android: '14.0'
-  branch: Stable
-  codename: zircon_eea_global
-  date: 2024-06-18
-  link: https://cdnorg.d.miui.com/OS1.0.6.0.UNOEUXM/zircon_eea_global_images_OS1.0.6.0.UNOEUXM_20240618.0000.00_14.0_eea_0e9382f381.tgz
-  md5: 0e9382f3817d3477e62989c048242858
+  date: 2024-07-22
+  link: https://cdnorg.d.miui.com/OS1.0.7.0.UNOEUXM/zircon_eea_global_images_OS1.0.7.0.UNOEUXM_20240722.0000.00_14.0_eea_19ea060095.tgz
+  md5: 19ea0600957bbfb9f498ed24d0bc6b0e
   method: Fastboot
   name: Redmi Note 13 Pro+ 5G EEA
-  size: 8.4 GB
-  version: OS1.0.6.0.UNOEUXM
+  size: 8.5 GB
+  version: OS1.0.7.0.UNOEUXM
 - android: '14.0'
   branch: Stable
   codename: zircon_global
