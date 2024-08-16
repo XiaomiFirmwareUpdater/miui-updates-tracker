@@ -1949,7 +1949,7 @@
   size: 8.8 GB
   version: OS1.0.7.0.UNAMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: aurora_in_global
   date: 2024-08-07
   link: https://bigota.d.miui.com/OS1.0.9.0.UNAINXM/miui_AURORAINGlobal_OS1.0.9.0.UNAINXM_0ce136f16a_14.0.zip
@@ -1961,23 +1961,13 @@
 - android: '14.0'
   branch: Stable
   codename: aurora_in_global
-  date: 2024-07-10
-  link: https://bigota.d.miui.com/OS1.0.7.0.UNAINXM/miui_AURORAINGlobal_OS1.0.7.0.UNAINXM_78afface33_14.0.zip
-  md5: 78afface33860a416290dac1774921b3
-  method: Recovery
-  name: Xiaomi 14 Ultra India
-  size: 6.4 GB
-  version: OS1.0.7.0.UNAINXM
-- android: '14.0'
-  branch: Stable
-  codename: aurora_in_global
-  date: 2024-07-05
-  link: https://cdnorg.d.miui.com/OS1.0.7.0.UNAINXM/aurora_in_global_images_OS1.0.7.0.UNAINXM_20240705.0000.00_14.0_in_85dd037a45.tgz
-  md5: 85dd037a4545fd11892bb6298e85dc7d
+  date: 2024-07-29
+  link: https://cdnorg.d.miui.com/OS1.0.9.0.UNAINXM/aurora_in_global_images_OS1.0.9.0.UNAINXM_20240729.0000.00_14.0_in_ea1cb59009.tgz
+  md5: ea1cb590098d4f322067ba54f593cb38
   method: Fastboot
   name: Xiaomi 14 Ultra India
-  size: 7.1 GB
-  version: OS1.0.7.0.UNAINXM
+  size: 7.0 GB
+  version: OS1.0.9.0.UNAINXM
 - android: '14.0'
   branch: Stable
   codename: aurora_ru_global
@@ -8449,6 +8439,16 @@
   size: 7.7 GB
   version: OS1.0.14.0.UNREUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: garnet_global
+  date: 2024-08-12
+  link: https://bigota.d.miui.com/OS1.0.11.0.UNRMIXM/miui_GARNETGlobal_OS1.0.11.0.UNRMIXM_024a60d93c_14.0.zip
+  md5: 024a60d93c03526a9754be18339444a9
+  method: Recovery
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Global
+  size: 5.2 GB
+  version: OS1.0.11.0.UNRMIXM
+- android: '14.0'
   branch: Stable
   codename: garnet_global
   date: 2024-06-18
@@ -8468,6 +8468,16 @@
   name: Redmi Note 13 Pro 5G / POCO X6 5G Global
   size: 8.0 GB
   version: OS1.0.9.0.UNRMIXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: garnet_id_global
+  date: 2024-08-12
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNRIDXM/miui_GARNETIDGlobal_OS1.0.7.0.UNRIDXM_6b2bb4da69_14.0.zip
+  md5: 6b2bb4da69005fe5d842f50d59230f8d
+  method: Recovery
+  name: Redmi Note 13 Pro 5G / POCO X6 5G Indonesia
+  size: 5.0 GB
+  version: OS1.0.7.0.UNRIDXM
 - android: '14.0'
   branch: Stable
   codename: garnet_id_global
@@ -10942,21 +10952,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13139,7 +13149,7 @@
   size: 7.5 GB
   version: OS1.0.5.0.UMRIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: marble_in_global
   date: 2024-08-05
   link: https://bigota.d.miui.com/OS1.0.10.0.UMRINXM/miui_MARBLEINGlobal_OS1.0.10.0.UMRINXM_2060850bfc_14.0.zip
@@ -13151,23 +13161,13 @@
 - android: '14.0'
   branch: Stable
   codename: marble_in_global
-  date: 2024-06-28
-  link: https://bigota.d.miui.com/OS1.0.9.0.UMRINXM/miui_MARBLEINGlobal_OS1.0.9.0.UMRINXM_39750c7751_14.0.zip
-  md5: 39750c7751be62939202bc1677e70d2c
-  method: Recovery
-  name: POCO F5 India
-  size: 5.0 GB
-  version: OS1.0.9.0.UMRINXM
-- android: '14.0'
-  branch: Stable
-  codename: marble_in_global
-  date: 2024-06-19
-  link: https://cdnorg.d.miui.com/OS1.0.9.0.UMRINXM/marble_in_global_images_OS1.0.9.0.UMRINXM_20240619.0000.00_14.0_in_cfcc86ebe9.tgz
-  md5: cfcc86ebe98169325a76ac6366b32054
+  date: 2024-07-19
+  link: https://cdnorg.d.miui.com/OS1.0.10.0.UMRINXM/marble_in_global_images_OS1.0.10.0.UMRINXM_20240719.0000.00_14.0_in_1aa1e8dfa0.tgz
+  md5: 1aa1e8dfa09b2ab6b68d7ce7a1d4b06b
   method: Fastboot
   name: POCO F5 India
   size: 6.5 GB
-  version: OS1.0.9.0.UMRINXM
+  version: OS1.0.10.0.UMRINXM
 - android: '14.0'
   branch: Stable Beta
   codename: marble_ru_global
@@ -26601,13 +26601,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: zijin
-  date: 2024-02-27
-  link: https://bigota.d.miui.com/OS1.0.1.0.ULPCNXM/miui_ZIJIN_OS1.0.1.0.ULPCNXM_356a223b5b_14.0.zip
-  md5: 356a223b5b030356a9cee8bd57038597
+  date: 2024-08-12
+  link: https://bigota.d.miui.com/OS1.0.3.0.ULPCNXM/miui_ZIJIN_OS1.0.3.0.ULPCNXM_81778a72eb_14.0.zip
+  md5: 81778a72eb4a50f7ec4516130829d8bc
   method: Recovery
   name: Xiaomi Civi 1S China
   size: 5.7 GB
-  version: OS1.0.1.0.ULPCNXM
+  version: OS1.0.3.0.ULPCNXM
 - android: '14.0'
   branch: Stable
   codename: zijin
