@@ -12,7 +12,7 @@ def get_headers(link):
     """Perform a HEAD request safely"""
     headers = None
     try:
-        headers = head(link.replace('bigota.d.miui.com', 'cdnorg.d.miui.com')).headers
+        headers = head(link.replace('bigota.d.miui.com', 'bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com')).headers
     except RequestsConnectionError as err:
         logger.error(f"ConnectionError when trying to get headers of {link}\n{err}")
     return headers
@@ -23,7 +23,7 @@ def rom_info_from_file(rom_file: str, more_details: bool = False):
     pattern = re.compile(
         r'miui_([\w\d]+)_(.*)_([a-z0-9]+)_([0-9.]+)\.zip')
     match = pattern.search(rom_file)
-    link = f"https://cdnorg.d.miui.com/{match.group(2)}/{rom_file}"
+    link = f"https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/{match.group(2)}/{rom_file}"
     miui_name = match.group(1).replace('PRE', '') \
         if match.group(1).endswith('PRE') and not match.group(2).startswith('V') \
         else match.group(1)
@@ -50,7 +50,7 @@ def ota_info_from_file(ota_file: str, more_details: bool = False):
     pattern = re.compile(
         r'miui-(?:block)?ota-([a-z0-9_]+)-(.*)-(.*)-([a-z0-9]+)-([0-9.]+)\.zip')
     match = pattern.search(ota_file)
-    link = f"https://cdnorg.d.miui.com/{match.group(3)}/{ota_file}"
+    link = f"https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/{match.group(3)}/{ota_file}"
     info = {'codename': match.group(1),
             'version_from': match.group(2),
             'version': match.group(3),
@@ -89,7 +89,7 @@ def fastboot_info_from_file(fastboot_file: str, more_details: bool = False):
             version = version.split(".debug")[0]
         if '_' in version:
             version = version.split('_')[0]
-    link = f"https://cdnorg.d.miui.com/{version}/{fastboot_file}"
+    link = f"https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/{version}/{fastboot_file}"
     info = {'codename': match.group(1),
             'version': version,
             'android': match.group(4),
