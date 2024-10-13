@@ -528,26 +528,26 @@
   name: Redmi 13R 5G / 13C 5G EEA
   size: 7.0 GB
   version: OS1.0.3.0.UGQEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable
   codename: air_global
-  date: 2024-09-13
-  link: https://bigota.d.miui.com/OS1.0.3.0.UGQMIXM/miui_AIRGlobal_OS1.0.3.0.UGQMIXM_d69b759c5c_14.0.zip
-  md5: d69b759c5c379fd65b0655963f8fb668
+  date: 2024-09-27
+  link: https://bigota.d.miui.com/V14.0.5.0.TGQMIXM/miui_AIRGlobal_V14.0.5.0.TGQMIXM_66dd2330fd_13.0.zip
+  md5: 66dd2330fdd2fe7d2ac57cde6ea0c8dc
   method: Recovery
   name: Redmi 13R 5G / 13C 5G Global
   size: 4.5 GB
-  version: OS1.0.3.0.UGQMIXM
-- android: '14.0'
+  version: V14.0.5.0.TGQMIXM
+- android: '13.0'
   branch: Stable
   codename: air_global
-  date: 2024-09-05
-  link: https://cdnorg.d.miui.com/OS1.0.3.0.UGQMIXM/air_global_images_OS1.0.3.0.UGQMIXM_20240905.0000.00_14.0_global_39cb7f27fd.tgz
-  md5: 39cb7f27fd217173c1b47bbdcf9dab06
+  date: 2024-09-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.5.0.TGQMIXM/air_global_images_V14.0.5.0.TGQMIXM_20240920.0000.00_13.0_global_18b7dea128.tgz
+  md5: 18b7dea128b2c7c716690ab58f5a6155
   method: Fastboot
   name: Redmi 13R 5G / 13C 5G Global
-  size: 7.4 GB
-  version: OS1.0.3.0.UGQMIXM
+  size: 7.6 GB
+  version: V14.0.5.0.TGQMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: air_in_global
@@ -10668,8 +10668,18 @@
   name: Redmi 3/3 Pro Global
   size: 1.0 GB
   version: 8.4.19
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: ingres
+  date: 2022-12-31
+  link: https://bigota.d.miui.com/V14.0.6.0.TLJCNXM/miui_INGRES_V14.0.6.0.TLJCNXM_de5b64e3e5_13.0.zip
+  md5: de5b64e3e50099dc842b048bd9cb14ee
+  method: Recovery
+  name: Redmi K50G China
+  size: 5.8 GB
+  version: V14.0.6.0.TLJCNXM
+- android: '14.0'
+  branch: Stable
   codename: ingres
   date: 2024-09-30
   link: https://bigota.d.miui.com/OS1.0.6.0.ULJCNXM/miui_INGRES_OS1.0.6.0.ULJCNXM_d83831cf61_14.0.zip
@@ -10681,23 +10691,13 @@
 - android: '14.0'
   branch: Stable
   codename: ingres
-  date: 2024-09-06
-  link: https://bigota.d.miui.com/OS1.0.5.0.ULJCNXM/miui_INGRES_OS1.0.5.0.ULJCNXM_b4b49b0aa7_14.0.zip
-  md5: b4b49b0aa7759d2aa5a1505e0c6759a5
-  method: Recovery
-  name: Redmi K50G China
-  size: 5.8 GB
-  version: OS1.0.5.0.ULJCNXM
-- android: '14.0'
-  branch: Stable
-  codename: ingres
-  date: 2024-08-30
-  link: https://cdnorg.d.miui.com/OS1.0.5.0.ULJCNXM/ingres_images_OS1.0.5.0.ULJCNXM_20240830.0000.00_14.0_cn_a1f6da55e4.tgz
-  md5: a1f6da55e456ededaad2870ce2f8876b
+  date: 2024-09-24
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.ULJCNXM/ingres_images_OS1.0.6.0.ULJCNXM_20240924.0000.00_14.0_cn_a0bd666179.tgz
+  md5: a0bd6661798282ce58058ec7f95975cc
   method: Fastboot
   name: Redmi K50G China
   size: 6.9 GB
-  version: OS1.0.5.0.ULJCNXM
+  version: OS1.0.6.0.ULJCNXM
 - android: '14.0'
   branch: Public Beta
   codename: ingres
@@ -11382,21 +11382,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -11548,6 +11548,16 @@
   name: Redmi 14C / POCO C75 / Redmi A3 Pro Indonesia
   size: 6.4 GB
   version: OS1.0.1.0.UGTIDXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: lake_tw_global
+  date: 2024-10-13
+  link: https://bigota.d.miui.com/OS1.0.2.0.UGTTWXM/miui_LAKETWGlobal_OS1.0.2.0.UGTTWXM_09fd1bda08_14.0.zip
+  md5: 09fd1bda08f1a801973086bd43f1ce73
+  method: Recovery
+  name: Redmi 14C / POCO C75 / Redmi A3 Pro Taiwan
+  size: 4.1 GB
+  version: OS1.0.2.0.UGTTWXM
 - android: '14.0'
   branch: Stable
   codename: lake_tw_global
@@ -16849,7 +16859,7 @@
   size: 7.9 GB
   version: OS1.0.4.0.UNPIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: peridot_in_global
   date: 2024-09-25
   link: https://bigota.d.miui.com/OS1.0.6.0.UNPINXM/miui_PERIDOTINGlobal_OS1.0.6.0.UNPINXM_f20e0a401e_14.0.zip
@@ -16861,23 +16871,13 @@
 - android: '14.0'
   branch: Stable
   codename: peridot_in_global
-  date: 2024-08-15
-  link: https://bigota.d.miui.com/OS1.0.5.0.UNPINXM/miui_PERIDOTINGlobal_OS1.0.5.0.UNPINXM_b05647e582_14.0.zip
-  md5: b05647e5827548fb96c27e8554a0d78c
-  method: Recovery
-  name: POCO F6 India
-  size: 5.5 GB
-  version: OS1.0.5.0.UNPINXM
-- android: '14.0'
-  branch: Stable
-  codename: peridot_in_global
-  date: 2024-08-05
-  link: https://cdnorg.d.miui.com/OS1.0.5.0.UNPINXM/peridot_in_global_images_OS1.0.5.0.UNPINXM_20240805.0000.00_14.0_in_3fc6cd741f.tgz
-  md5: 3fc6cd741ff407eacfed350ee01a9df3
+  date: 2024-09-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.UNPINXM/peridot_in_global_images_OS1.0.6.0.UNPINXM_20240918.0000.00_14.0_in_d316a82fd7.tgz
+  md5: d316a82fd7532373e0bc8071d7e0c0f9
   method: Fastboot
   name: POCO F6 India
-  size: 7.1 GB
-  version: OS1.0.5.0.UNPINXM
+  size: 7.2 GB
+  version: OS1.0.6.0.UNPINXM
 - android: '14.0'
   branch: Stable
   codename: peridot_ru_global
