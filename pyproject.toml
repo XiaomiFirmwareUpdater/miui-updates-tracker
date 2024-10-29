@@ -26,3 +26,14 @@ pytest = "^8.0.0"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.ruff]  # https://github.com/charliermarsh/ruff
+fix = true
+src = ["miui_updates_tracker"]
+target-version = "py38"
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+line-ending = "lf"
