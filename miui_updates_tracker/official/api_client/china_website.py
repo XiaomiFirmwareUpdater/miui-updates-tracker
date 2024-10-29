@@ -172,7 +172,7 @@ class ChinaAPIClient(CommonClient):
         :return: Update object
         """
         info = rom_info_from_file(filename, more_details=True)
-        codename = get_codename(info.get("miui_name"))
+        codename = get_codename(info.get("miui_name")) if info.get("miui_name") else info.get("codename")
         if not codename:
             self._logger.warning(f"Can't find codename of {filename}!")
             return None

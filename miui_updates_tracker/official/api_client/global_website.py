@@ -251,7 +251,7 @@ class GlobalAPIClient(CommonClient):
         method = get_rom_method(filename)
         if method == "Recovery":
             info = rom_info_from_file(filename, more_details=True)
-            codename = get_codename(info.get("miui_name"))
+            codename = get_codename(info.get("miui_name")) if info.get("miui_name") else info.get("codename")
         else:
             info = fastboot_info_from_file(filename, more_details=True)
             codename = info.get("codename")

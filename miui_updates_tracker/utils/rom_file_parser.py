@@ -7,38 +7,62 @@ from requests.exceptions import ConnectionError as RequestsConnectionError
 
 logger = logging.getLogger(__name__)
 
+cdn = 'bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com'
+cdn_url = f'https://{cdn}'
+miui_zip_pattern = re.compile(
+    r'miui_(?P<miui_name>[\w\d]+)_(?P<version>.*)_(?P<md5_part>[\w\d]+)_(?P<android>[\d.]+)\.zip'
+)
+miui_incremental_pattern = re.compile(
+    r'miui-(?:block)?ota-(?P<codename>[\w\d_]+)-(?P<version_from>.*)-(?P<version>.*)-(?P<md5_part>[\w\d]+)-(?P<android>[\d.]+)\.zip'
+)
+hos2_zip_pattern = re.compile(
+    r'(?P<codename>[\w\d_]+)-ota_full-(?P<version>[\da-zA-Z.]+)-(?P<type>\w+)-(?P<android>[\d.]+)-(?P<md5_part>[\w\d]+)\.zip'
+)
+hos2_incremental_pattern = re.compile(
+    r'(?P<codename>[\w\d_]+)-ota_incremental-(?P<version_from>[\da-zA-Z.]+)-(?P<version>[\da-zA-Z.]+)-(?P<type>\w+)-(?P<android>[\d.]+)-(?P<md5_part>[\w\d]+)\.zip'
+)
+
 
 def get_headers(link):
     """Perform a HEAD request safely"""
     headers = None
     try:
-        headers = head(link.replace('bigota.d.miui.com', 'bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com')).headers
+        headers = head(link.replace('bigota.d.miui.com', cdn)).headers
     except RequestsConnectionError as err:
-        logger.error(f"ConnectionError when trying to get headers of {link}\n{err}")
+        logger.error(f'ConnectionError when trying to get headers of {link}\n{err}')
     return headers
 
 
 def rom_info_from_file(rom_file: str, more_details: bool = False):
     """Parse recovery rom zip file and return its information"""
-    pattern = re.compile(
-        r'miui_([\w\d]+)_(.*)_([a-z0-9]+)_([0-9.]+)\.zip')
-    match = pattern.search(rom_file)
-    link = f"https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/{match.group(2)}/{rom_file}"
-    miui_name = match.group(1).replace('PRE', '') \
-        if match.group(1).endswith('PRE') and not match.group(2).startswith('V') \
-        else match.group(1)
-    info = {'miui_name': miui_name,
-            'version': match.group(2),
-            'md5_part': match.group(3),
-            'android': match.group(4),
-            'filename': rom_file,
-            'link': link}
+    match = miui_zip_pattern.search(rom_file) or hos2_zip_pattern.search(rom_file)
+    groups = match.groupdict()
+    link = f'{cdn_url}/{groups.get("version")}/{rom_file}'
+    miui_name = groups.get('miui_name')
+    if (
+        groups.get('miui_name')
+        and miui_name.endswith('PRE')
+        and not groups.get('version').startswith('V')
+    ):
+        miui_name = miui_name.replace('PRE', '')
+    info = {
+        'miui_name': miui_name,
+        'version': groups.get('version'),
+        'md5_part': groups.get('md5_part'),
+        'android': groups.get('android'),
+        'filename': rom_file,
+        'link': link,
+    }
+    if groups.get('codename'):
+        info.update({'codename': groups.get('codename')})
     if more_details:
         headers = get_headers(link)
         if headers:
             try:
-                date = datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
-                                         '%d %b %Y').strftime("%Y-%m-%d")
+                date = datetime.strptime(
+                    ' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
+                    '%d %b %Y',
+                ).strftime('%Y-%m-%d')
             except KeyError:
                 date = None
             info.update({'date': date, 'size': headers['Content-Length']})
@@ -47,24 +71,27 @@ def rom_info_from_file(rom_file: str, more_details: bool = False):
 
 def ota_info_from_file(ota_file: str, more_details: bool = False):
     """Parse incremental rom zip file and return its information"""
-    pattern = re.compile(
-        r'miui-(?:block)?ota-([a-z0-9_]+)-(.*)-(.*)-([a-z0-9]+)-([0-9.]+)\.zip')
-    match = pattern.search(ota_file)
-    link = f"https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/{match.group(3)}/{ota_file}"
-    info = {'codename': match.group(1),
-            'version_from': match.group(2),
-            'version': match.group(3),
-            'md5_part': match.group(4),
-            'android': match.group(5),
-            'filename': ota_file,
-            'link': link}
+    match = miui_incremental_pattern.search(ota_file) or hos2_incremental_pattern.search(ota_file)
+    groups = match.groupdict()
+    link = f'{cdn_url}/{groups.get(3)}/{ota_file}'
+    info = {
+        'codename': groups.get('codename'),
+        'version_from': groups.get('version_from'),
+        'version': groups.get('version'),
+        'md5_part': groups.get('md5_part'),
+        'android': groups.get('android'),
+        'filename': ota_file,
+        'link': link,
+    }
     if more_details:
         headers = get_headers(link)
         if headers:
             date = None
             try:
-                date = datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
-                                         '%d %b %Y').strftime("%Y-%m-%d")
+                date = datetime.strptime(
+                    ' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
+                    '%d %b %Y',
+                ).strftime('%Y-%m-%d')
             except KeyError as err:
                 print(err, headers)
             info.update({'date': date, 'size': headers['Content-Length']})
@@ -76,34 +103,44 @@ def fastboot_info_from_file(fastboot_file: str, more_details: bool = False):
     pattern = re.compile(
         r'([\d\w_]+)_images_([VOS]+\.?\d{1,}\.\d{,2}\.\d{,2}\.\d{,2}\.\d{,2}?\.?[A-Z]{3,}'
         r'|\d{,2}\.\d{,2}\.\d{,2})_(?:\.1_)?(\d{8})?(?:\.0000)?(?:\.\d{,2})?'
-        r'_([0-9.]+)_?([a-z]+)?_(?:\w+_)?([a-z0-9]+)\.tgz')
-    alt_pattern = re.compile(r'([\d\w_]+)_images_(.*)_(\d{8})?(?:\.0000\.\d{,2})?'
-                             r'_?([0-9.]+)_([a-z]+)_([a-z0-9]+)\.tgz')
+        r'_([0-9.]+)_?([a-z]+)?_(?:\w+_)?([a-z0-9]+)\.tgz'
+    )
+    alt_pattern = re.compile(
+        r'([\d\w_]+)_images_(.*)_(\d{8})?(?:\.0000\.\d{,2})?'
+        r'_?([0-9.]+)_([a-z]+)_([a-z0-9]+)\.tgz'
+    )
     match = pattern.search(fastboot_file)
     if match:
         version = match.group(2)
     else:
         match = alt_pattern.search(fastboot_file)
         version = match.group(2)
-        if ".debug" in version:
-            version = version.split(".debug")[0]
+        if '.debug' in version:
+            version = version.split('.debug')[0]
         if '_' in version:
             version = version.split('_')[0]
-    link = f"https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/{version}/{fastboot_file}"
-    info = {'codename': match.group(1),
-            'version': version,
-            'android': match.group(4),
-            'region': match.group(5),
-            'md5_part': match.group(6),
-            'filename': fastboot_file,
-            'link': link}
+    link = f'{cdn_url}/{version}/{fastboot_file}'
+    info = {
+        'codename': match.group(1),
+        'version': version,
+        'android': match.group(4),
+        'region': match.group(5),
+        'md5_part': match.group(6),
+        'filename': fastboot_file,
+        'link': link,
+    }
     if more_details:
         headers = get_headers(link)
         if headers:
             try:
-                date = datetime.strptime(match.group(3), '%Y%m%d').strftime("%Y-%m-%d") if match.group(
-                    3) else datetime.strptime(' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
-                                              '%d %b %Y').strftime("%Y-%m-%d")
+                date = (
+                    datetime.strptime(match.group(3), '%Y%m%d').strftime('%Y-%m-%d')
+                    if match.group(3)
+                    else datetime.strptime(
+                        ' '.join(headers['Last-Modified'].split(', ')[1].split(' ')[:3]),
+                        '%d %b %Y',
+                    ).strftime('%Y-%m-%d')
+                )
             except KeyError:
                 date = None
             info.update({'date': date, 'size': headers['Content-Length']})
