@@ -11,7 +11,7 @@ def get_rom_branch(version: str) -> str:
 
 
 def get_rom_type(filename: str):
-    return "Full" if "ota-" not in filename else "Incremental"
+    return "Incremental" if ("ota-" in filename or "incremental-" in filename) else "Full"
 
 
 def get_rom_method(filename: str):
