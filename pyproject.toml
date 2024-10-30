@@ -2,36 +2,40 @@
 name = "miui_updates_tracker"
 version = "0.1.0"
 description = "Automatically track Xiaomi Hyper OS and MIUI ROMs releases."
-authors = [{ name = "yshalsager", email = " contact@yshalsager.com>" }]
-license = {file = "LICENSE"}
+authors = [{ name = "yshalsager", email = "contact@yshalsager.com" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-PyYAML = "^6.0"
-sqlalchemy = "^2.0.17"
-mysqlclient = "^2.1.1"
-beautifulsoup4 = "^4.12.2"
-requests = "^2.32.0"
-humanize = "^4.6.0"
-aiohttp = { extras = ["speedups"], version = "^3.10.2" }
-python-telegram-bot = "^21.0.0"
-"discord.py" = "^2.3.0"
-feedgen = "^1.0.0"
-tweepy = "^4.14.0"
-facebook-sdk = "^3.1.0"
-sshtunnel = "^0.4.0"
+dependencies = [
+    "aiohttp[speedups]>=3.10.10",
+    "beautifulsoup4>=4.12.3",
+    "discord-py>=2.4.0",
+    "facebook-sdk>=3.1.0",
+    "feedgen>=1.0.0",
+    "humanize>=4.11.0",
+    "mysqlclient>=2.2.5",
+    "python-telegram-bot>=21.6",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+    "sqlalchemy>=2.0.36",
+    "tweepy>=4.14.0",
+]
 
-[tool.poetry.dev-dependencies]
-pytest = "^8.0.0"
+[dependency-groups]
+dev = [
+    "ruff>=0.7.1",
+]
 
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+[tool.setuptools]
+packages = ["miui_updates_tracker"]
 
-[tool.ruff]  # https://github.com/charliermarsh/ruff
+[tool.uv]
+package = true
+
+[tool.ruff]
 fix = true
 src = ["miui_updates_tracker"]
-target-version = "py38"
+target-version = "py312"
 line-length = 100
 
 [tool.ruff.format]
