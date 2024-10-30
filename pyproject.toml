@@ -1,18 +1,19 @@
-[tool.poetry]
+[project]
 name = "miui_updates_tracker"
 version = "0.1.0"
-description = ""
-authors = ["yshalsager <ysh-alsager@hotmail.com>"]
+description = "Automatically track Xiaomi Hyper OS and MIUI ROMs releases."
+authors = [{ name = "yshalsager", email = " contact@yshalsager.com>" }]
+license = {file = "LICENSE"}
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.12"
 PyYAML = "^6.0"
 sqlalchemy = "^2.0.17"
 mysqlclient = "^2.1.1"
 beautifulsoup4 = "^4.12.2"
 requests = "^2.32.0"
 humanize = "^4.6.0"
-aiohttp = {extras = ["speedups"], version = "^3.10.2"}
+aiohttp = { extras = ["speedups"], version = "^3.10.2" }
 python-telegram-bot = "^21.0.0"
 "discord.py" = "^2.3.0"
 feedgen = "^1.0.0"

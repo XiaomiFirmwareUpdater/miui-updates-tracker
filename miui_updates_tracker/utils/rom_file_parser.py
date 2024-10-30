@@ -73,7 +73,7 @@ def ota_info_from_file(ota_file: str, more_details: bool = False):
     """Parse incremental rom zip file and return its information"""
     match = miui_incremental_pattern.search(ota_file) or hos2_incremental_pattern.search(ota_file)
     groups = match.groupdict()
-    link = f'{cdn_url}/{groups.get(3)}/{ota_file}'
+    link = f'{cdn_url}/{groups.get("version")}/{ota_file}'
     info = {
         'codename': groups.get('codename'),
         'version_from': groups.get('version_from'),
