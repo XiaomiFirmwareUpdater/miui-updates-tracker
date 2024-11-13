@@ -10018,8 +10018,18 @@
   name: Redmi K40 Pro / Pro+ China
   size: 6.8 GB
   version: V14.0.22.12.5.DEV
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: haydn_eea_global
+  date: 2021-05-18
+  link: https://bigota.d.miui.com/V12.0.3.0.RKKEUXM/miui_HAYDNEEAGlobal_V12.0.3.0.RKKEUXM_3854fa809c_11.0.zip
+  md5: 3854fa809cbb55878e757bd245425a02
+  method: Recovery
+  name: Mi 11i EEA
+  size: 3.1 GB
+  version: V12.0.3.0.RKKEUXM
+- android: '14.0'
+  branch: Stable
   codename: haydn_eea_global
   date: 2024-11-01
   link: https://bigota.d.miui.com/OS1.0.10.0.UKKEUXM/miui_HAYDNEEAGlobal_OS1.0.10.0.UKKEUXM_d7f0ac13f7_14.0.zip
@@ -10031,23 +10041,13 @@
 - android: '14.0'
   branch: Stable
   codename: haydn_eea_global
-  date: 2024-10-09
-  link: https://bigota.d.miui.com/OS1.0.9.0.UKKEUXM/miui_HAYDNEEAGlobal_OS1.0.9.0.UKKEUXM_50c5850e20_14.0.zip
-  md5: 50c5850e202e3289af646690dd52a06d
-  method: Recovery
-  name: Mi 11i EEA
-  size: 5.0 GB
-  version: OS1.0.9.0.UKKEUXM
-- android: '14.0'
-  branch: Stable
-  codename: haydn_eea_global
-  date: 2024-09-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UKKEUXM/haydn_eea_global_images_OS1.0.9.0.UKKEUXM_20240927.0000.00_14.0_eea_aacf2f0d8b.tgz
-  md5: aacf2f0d8be789ce58d07aad6ca7b378
+  date: 2024-10-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UKKEUXM/haydn_eea_global_images_OS1.0.10.0.UKKEUXM_20241018.0000.00_14.0_eea_ff66d1a4da.tgz
+  md5: null
   method: Fastboot
   name: Mi 11i EEA
   size: 6.4 GB
-  version: OS1.0.9.0.UKKEUXM
+  version: OS1.0.10.0.UKKEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: haydn_global
