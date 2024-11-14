@@ -8528,8 +8528,18 @@
   name: Xiaomi 13 EEA
   size: 7.5 GB
   version: OS1.0.8.0.UMCEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: fuxi_global
+  date: 2023-02-27
+  link: https://bigota.d.miui.com/V14.0.3.0.TMCMIXM/miui_FUXIGlobal_V14.0.3.0.TMCMIXM_bb347e0b42_13.0.zip
+  md5: bb347e0b420ae2a19d44c397fc185b3b
+  method: Recovery
+  name: Xiaomi 13 Global
+  size: 5.5 GB
+  version: V14.0.3.0.TMCMIXM
+- android: '14.0'
+  branch: Stable
   codename: fuxi_global
   date: 2024-10-30
   link: https://bigota.d.miui.com/OS1.0.9.0.UMCMIXM/miui_FUXIGlobal_OS1.0.9.0.UMCMIXM_ec593dd683_14.0.zip
@@ -8541,23 +8551,13 @@
 - android: '14.0'
   branch: Stable
   codename: fuxi_global
-  date: 2024-09-24
-  link: https://bigota.d.miui.com/OS1.0.8.0.UMCMIXM/miui_FUXIGlobal_OS1.0.8.0.UMCMIXM_a36e7559db_14.0.zip
-  md5: a36e7559dbf657cd68eecc04d5dc8ffc
-  method: Recovery
-  name: Xiaomi 13 Global
-  size: 5.8 GB
-  version: OS1.0.8.0.UMCMIXM
-- android: '14.0'
-  branch: Stable
-  codename: fuxi_global
-  date: 2024-09-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UMCMIXM/fuxi_global_images_OS1.0.8.0.UMCMIXM_20240911.0000.00_14.0_global_9513637747.tgz
-  md5: 95136377470abf919abb08cfca6e20d8
+  date: 2024-10-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UMCMIXM/fuxi_global_images_OS1.0.9.0.UMCMIXM_20241017.0000.00_14.0_global_2c3a1cf4fb.tgz
+  md5: null
   method: Fastboot
   name: Xiaomi 13 Global
   size: 7.5 GB
-  version: OS1.0.8.0.UMCMIXM
+  version: OS1.0.9.0.UMCMIXM
 - android: '14.0'
   branch: Public Beta
   codename: fuxi_global
@@ -12458,16 +12458,16 @@
   name: Redmi 10 5G / POCO M4 5G EEA
   size: 5.8 GB
   version: OS1.0.5.0.ULSEUXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: light_global
-  date: 2023-10-12
-  link: https://bigota.d.miui.com/V14.0.6.0.TLSMIXM/miui_LIGHTGlobal_V14.0.6.0.TLSMIXM_961f284da0_13.0.zip
-  md5: 961f284da0022432349e3c5027f73346
+  date: 2024-11-11
+  link: https://bigota.d.miui.com/OS1.0.7.0.ULSMIXM/miui_LIGHTGlobal_OS1.0.7.0.ULSMIXM_5bdefe674f_14.0.zip
+  md5: 5bdefe674f5d87f005bd93a8a4e04839
   method: Recovery
   name: Redmi 10 5G / POCO M4 5G Global
-  size: 3.7 GB
-  version: V14.0.6.0.TLSMIXM
+  size: 3.9 GB
+  version: OS1.0.7.0.ULSMIXM
 - android: '14.0'
   branch: Stable
   codename: light_global
@@ -13809,7 +13809,7 @@
   size: 6.5 GB
   version: OS1.0.12.0.UMRINXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: marble_ru_global
   date: 2024-10-29
   link: https://bigota.d.miui.com/OS1.0.9.0.UMRRUXM/miui_MARBLERUGlobal_OS1.0.9.0.UMRRUXM_ecfdcf24b9_14.0.zip
@@ -13821,23 +13821,13 @@
 - android: '14.0'
   branch: Stable
   codename: marble_ru_global
-  date: 2024-09-29
-  link: https://bigota.d.miui.com/OS1.0.8.0.UMRRUXM/miui_MARBLERUGlobal_OS1.0.8.0.UMRRUXM_2343e02b62_14.0.zip
-  md5: 2343e02b62285c630f626e61f797832a
-  method: Recovery
-  name: POCO F5 Russia
-  size: 5.0 GB
-  version: OS1.0.8.0.UMRRUXM
-- android: '14.0'
-  branch: Stable
-  codename: marble_ru_global
-  date: 2024-09-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UMRRUXM/marble_ru_global_images_OS1.0.8.0.UMRRUXM_20240906.0000.00_14.0_ru_647154ffb0.tgz
-  md5: 647154ffb0006aa4c73910ca3821c0a9
+  date: 2024-09-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UMRRUXM/marble_ru_global_images_OS1.0.9.0.UMRRUXM_20240930.0000.00_14.0_ru_53dfd2a436.tgz
+  md5: null
   method: Fastboot
   name: POCO F5 Russia
   size: 7.9 GB
-  version: OS1.0.8.0.UMRRUXM
+  version: OS1.0.9.0.UMRRUXM
 - android: '14.0'
   branch: Stable
   codename: marble_tr_global
@@ -19329,6 +19319,16 @@
   size: 6.3 GB
   version: OS1.0.12.0.ULUMIXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: rock_id_global
+  date: 2024-11-11
+  link: https://bigota.d.miui.com/OS1.0.7.0.ULUIDXM/miui_ROCKIDGlobal_OS1.0.7.0.ULUIDXM_71390f0723_14.0.zip
+  md5: 71390f07234e0f0b70c20e7ca176c773
+  method: Recovery
+  name: POCO M5 Indonesia
+  size: 3.9 GB
+  version: OS1.0.7.0.ULUIDXM
+- android: '14.0'
   branch: Stable
   codename: rock_id_global
   date: 2024-09-11
@@ -20639,6 +20639,16 @@
   size: 9.1 GB
   version: OS1.0.13.0.UNICNXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: ruyi_eea_global
+  date: 2024-11-14
+  link: https://bigota.d.miui.com/OS1.0.11.0.UNIEUXM/miui_RUYIEEAGlobal_OS1.0.11.0.UNIEUXM_8d680cd5e6_14.0.zip
+  md5: 8d680cd5e6cd4606e8a035ec4d95dff1
+  method: Recovery
+  name: MIX Flip EEA
+  size: 6.5 GB
+  version: OS1.0.11.0.UNIEUXM
+- android: '14.0'
   branch: Stable
   codename: ruyi_eea_global
   date: 2024-10-08
@@ -20689,6 +20699,16 @@
   size: 7.7 GB
   version: OS1.0.9.0.UNIMIXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: ruyi_ru_global
+  date: 2024-11-14
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNIRUXM/miui_RUYIRUGlobal_OS1.0.7.0.UNIRUXM_232d8ea776_14.0.zip
+  md5: 232d8ea776a8d6eb29dad2cc3052530f
+  method: Recovery
+  name: MIX Flip Russia
+  size: 6.4 GB
+  version: OS1.0.7.0.UNIRUXM
+- android: '14.0'
   branch: Stable
   codename: ruyi_ru_global
   date: 2024-10-12
@@ -20708,6 +20728,16 @@
   name: MIX Flip Russia
   size: 8.4 GB
   version: OS1.0.4.0.UNIRUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: ruyi_tw_global
+  date: 2024-11-14
+  link: https://bigota.d.miui.com/OS1.0.10.0.UNITWXM/miui_RUYITWGlobal_OS1.0.10.0.UNITWXM_ec14919d77_14.0.zip
+  md5: ec14919d777649200fe650de682ab67a
+  method: Recovery
+  name: MIX Flip Taiwan
+  size: 6.4 GB
+  version: OS1.0.10.0.UNITWXM
 - android: '14.0'
   branch: Stable
   codename: ruyi_tw_global
