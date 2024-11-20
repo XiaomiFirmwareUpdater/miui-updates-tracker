@@ -232,7 +232,7 @@ class ChinaAPIClient(CommonClient):
         region = get_region_code_from_codename(codename)
         headers = {"Referer": "http://www.miui.com/"}
         async with self.session.head(
-                f"https://update.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
+                f"https://update.intl.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
                 headers=headers,
         ) as response:
             url = response.headers.get("Location")

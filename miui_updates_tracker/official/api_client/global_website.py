@@ -165,7 +165,7 @@ class GlobalAPIClient(CommonClient):
         headers = self.headers.copy()
         headers["Referer"] = f"{self.base_url}/miuidownload/detail?guide=2"
         async with self.session.head(
-                f"https://update.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
+                f"https://update.intl.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
                 headers=self.headers,
         ) as response:
             url = response.headers.get("Location").split('?')[0]
