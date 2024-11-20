@@ -22711,13 +22711,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -23188,8 +23188,18 @@
   name: Xiaomi 12 Lite EEA
   size: 7.0 GB
   version: OS1.0.14.0.ULIEUXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: taoyao_global
+  date: 2022-07-11
+  link: https://bigota.d.miui.com/V13.0.1.0.SLIMIXM/miui_TAOYAOGlobal_V13.0.1.0.SLIMIXM_73650864a7_12.0.zip
+  md5: 73650864a73cee0f52110cefba68c73d
+  method: Recovery
+  name: Xiaomi 12 Lite Global
+  size: 4.2 GB
+  version: V13.0.1.0.SLIMIXM
+- android: '14.0'
+  branch: Stable
   codename: taoyao_global
   date: 2024-11-04
   link: https://bigota.d.miui.com/OS1.0.11.0.ULIMIXM/miui_TAOYAOGlobal_OS1.0.11.0.ULIMIXM_8def0487fb_14.0.zip
@@ -23201,23 +23211,13 @@
 - android: '14.0'
   branch: Stable
   codename: taoyao_global
-  date: 2024-09-29
-  link: https://bigota.d.miui.com/OS1.0.10.0.ULIMIXM/miui_TAOYAOGlobal_OS1.0.10.0.ULIMIXM_eac8168804_14.0.zip
-  md5: eac81688040bc9c97db87aba28f83239
-  method: Recovery
-  name: Xiaomi 12 Lite Global
-  size: 5.3 GB
-  version: OS1.0.10.0.ULIMIXM
-- android: '14.0'
-  branch: Stable
-  codename: taoyao_global
-  date: 2024-09-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.ULIMIXM/taoyao_global_images_OS1.0.10.0.ULIMIXM_20240909.0000.00_14.0_global_a2e0180b53.tgz
-  md5: a2e0180b537d4dd34124e929a87e8af3
+  date: 2024-10-14
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.ULIMIXM/taoyao_global_images_OS1.0.11.0.ULIMIXM_20241014.0000.00_14.0_global_23e66473b3.tgz
+  md5: null
   method: Fastboot
   name: Xiaomi 12 Lite Global
   size: 7.3 GB
-  version: OS1.0.10.0.ULIMIXM
+  version: OS1.0.11.0.ULIMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: taoyao_id_global
@@ -23249,7 +23249,7 @@
   size: 6.7 GB
   version: OS1.0.8.0.ULIIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: taoyao_ru_global
   date: 2024-11-04
   link: https://bigota.d.miui.com/OS1.0.7.0.ULIRUXM/miui_TAOYAORUGlobal_OS1.0.7.0.ULIRUXM_16ba47e34d_14.0.zip
@@ -23261,23 +23261,13 @@
 - android: '14.0'
   branch: Stable
   codename: taoyao_ru_global
-  date: 2024-09-29
-  link: https://bigota.d.miui.com/OS1.0.6.0.ULIRUXM/miui_TAOYAORUGlobal_OS1.0.6.0.ULIRUXM_737867b8b5_14.0.zip
-  md5: 737867b8b5674acdda5352bb64eb97c7
-  method: Recovery
-  name: Xiaomi 12 Lite Russia
-  size: 5.2 GB
-  version: OS1.0.6.0.ULIRUXM
-- android: '14.0'
-  branch: Stable
-  codename: taoyao_ru_global
-  date: 2024-09-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.ULIRUXM/taoyao_ru_global_images_OS1.0.6.0.ULIRUXM_20240910.0000.00_14.0_ru_c24ee873bc.tgz
-  md5: c24ee873bc2ae19982031b7f74a7907f
+  date: 2024-10-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.ULIRUXM/taoyao_ru_global_images_OS1.0.7.0.ULIRUXM_20241017.0000.00_14.0_ru_9eeb06f904.tgz
+  md5: null
   method: Fastboot
   name: Xiaomi 12 Lite Russia
-  size: 6.5 GB
-  version: OS1.0.6.0.ULIRUXM
+  size: 6.6 GB
+  version: OS1.0.7.0.ULIRUXM
 - android: '14.0'
   branch: Stable
   codename: taoyao_tr_global
