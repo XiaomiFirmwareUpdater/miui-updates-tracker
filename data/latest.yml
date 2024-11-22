@@ -338,16 +338,16 @@
   name: Redmi 2 LTE China
   size: 351.5 MB
   version: V6.2.1.0.KHJCNBK
-- android: '11.0'
+- android: '14.0'
   branch: Stable Beta
   codename: agate_eea_global
-  date: 2021-09-15
-  link: https://bigota.d.miui.com/V12.5.2.0.RKWEUXM/miui_AGATEEEAGlobal_V12.5.2.0.RKWEUXM_c1c8e246e4_11.0.zip
-  md5: c1c8e246e4396e8454b67b2499bac578
+  date: 2024-11-19
+  link: https://bigota.d.miui.com/OS1.0.8.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.8.0.UKWEUXM_a8b2bb6069_14.0.zip
+  md5: a8b2bb60693e21417f0cdbc196de8a6b
   method: Recovery
   name: Xiaomi 11T EEA
-  size: 2.9 GB
-  version: V12.5.2.0.RKWEUXM
+  size: 4.9 GB
+  version: OS1.0.8.0.UKWEUXM
 - android: '14.0'
   branch: Stable
   codename: agate_eea_global
@@ -368,16 +368,16 @@
   name: Xiaomi 11T EEA
   size: 6.2 GB
   version: OS1.0.7.0.UKWEUXM
-- android: '11.0'
+- android: '14.0'
   branch: Stable Beta
   codename: agate_global
-  date: 2021-09-15
-  link: https://bigota.d.miui.com/V12.5.1.0.RKWMIXM/miui_AGATEGlobal_V12.5.1.0.RKWMIXM_fcb5bac54c_11.0.zip
-  md5: fcb5bac54cdac6ac8a1262385792e2f4
+  date: 2024-11-18
+  link: https://bigota.d.miui.com/OS1.0.9.0.UKWMIXM/miui_AGATEGlobal_OS1.0.9.0.UKWMIXM_69c3b53d67_14.0.zip
+  md5: 69c3b53d67fcfc2662cc2e4f2155b2c9
   method: Recovery
   name: Xiaomi 11T Global
-  size: 2.8 GB
-  version: V12.5.1.0.RKWMIXM
+  size: 5.0 GB
+  version: OS1.0.9.0.UKWMIXM
 - android: '14.0'
   branch: Stable
   codename: agate_global
@@ -843,7 +843,7 @@
   codename: amethyst
   date: 2024-11-18
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.20.0.UOPCNXM/miui_AMETHYST_OS1.0.20.0.UOPCNXM_3477b1c2f9_14.0.zip
-  md5: null
+  md5: 3477b1c2f987410831e2884330647893
   method: Recovery
   name: Redmi Note 14 Pro+ 5G China
   size: 6.0 GB
@@ -6433,7 +6433,7 @@
   codename: dizi_eea_global
   date: 2024-11-12
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UNSEUXM/miui_DIZIEEAGlobal_OS1.0.8.0.UNSEUXM_1a30f1ba13_14.0.zip
-  md5: null
+  md5: 1a30f1ba131745133f9ab5f16fdead91
   method: Recovery
   name: Redmi Pad Pro / POCO Pad EEA
   size: 4.2 GB
@@ -25841,13 +25841,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: water_global
-  date: 2024-01-23
-  link: https://bigota.d.miui.com/V14.0.24.0.TGOMIXM/miui_WATERGlobal_V14.0.24.0.TGOMIXM_e2f5f80463_13.0.zip
-  md5: e2f5f8046340876d29d99683d1600f26
+  date: 2024-11-22
+  link: https://bigota.d.miui.com/V14.0.36.0.TGOMIXM/miui_WATERGlobal_V14.0.36.0.TGOMIXM_2fe7acb9c1_13.0.zip
+  md5: 2fe7acb9c1b8f49837c2d0842899dc03
   method: Recovery
   name: Redmi A2 / A2+ / POCO C51 Global
   size: 1.5 GB
-  version: V14.0.24.0.TGOMIXM
+  version: V14.0.36.0.TGOMIXM
 - android: '13.0'
   branch: Stable
   codename: water_global
@@ -25901,13 +25901,13 @@
 - android: '13.0'
   branch: Stable Beta
   codename: water_in_global
-  date: 2024-10-24
-  link: https://bigota.d.miui.com/V14.0.18.0.TGOINXM/miui_WATERINGlobal_V14.0.18.0.TGOINXM_95e49b28fb_13.0.zip
-  md5: 95e49b28fbd3f11c69094ca07a720c13
+  date: 2024-11-22
+  link: https://bigota.d.miui.com/V14.0.19.0.TGOINXM/miui_WATERINGlobal_V14.0.19.0.TGOINXM_2ee7341820_13.0.zip
+  md5: 2ee7341820b6c7e32b90792570fc78bb
   method: Recovery
   name: Redmi A2 / A2+ / POCO C51 India
   size: 1.5 GB
-  version: V14.0.18.0.TGOINXM
+  version: V14.0.19.0.TGOINXM
 - android: '13.0'
   branch: Stable
   codename: water_in_global
@@ -25958,6 +25958,16 @@
   name: Redmi A2 / A2+ / POCO C51 Russia
   size: 2.2 GB
   version: V14.0.21.0.TGORUXM
+- android: '13.0'
+  branch: Stable Beta
+  codename: water_tw_global
+  date: 2024-11-22
+  link: https://bigota.d.miui.com/V14.0.7.0.TGOTWXM/miui_WATERTWGlobal_V14.0.7.0.TGOTWXM_5493b029a6_13.0.zip
+  md5: 5493b029a65a92313332cff50ce95a1e
+  method: Recovery
+  name: Redmi A2 / A2+ / POCO C51 Taiwan
+  size: 1.5 GB
+  version: V14.0.7.0.TGOTWXM
 - android: '13.0'
   branch: Stable
   codename: water_tw_global
