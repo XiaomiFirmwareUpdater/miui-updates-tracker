@@ -6691,23 +6691,23 @@
 - android: '14.0'
   branch: Stable
   codename: duchamp_tw_global
-  date: 2024-10-15
-  link: https://bigota.d.miui.com/OS1.0.10.0.UNLTWXM/miui_DUCHAMPTWGlobal_OS1.0.10.0.UNLTWXM_94141a6116_14.0.zip
-  md5: 94141a6116ff7be7d77c0491fd28e21a
+  date: 2024-11-19
+  link: https://bigota.d.miui.com/OS1.0.11.0.UNLTWXM/miui_DUCHAMPTWGlobal_OS1.0.11.0.UNLTWXM_0fd9c51a24_14.0.zip
+  md5: 0fd9c51a24b836450a61d07b008546b0
   method: Recovery
   name: POCO X6 Pro 5G Taiwan
   size: 5.4 GB
-  version: OS1.0.10.0.UNLTWXM
+  version: OS1.0.11.0.UNLTWXM
 - android: '14.0'
   branch: Stable
   codename: duchamp_tw_global
-  date: 2024-10-01
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UNLTWXM/duchamp_tw_global_images_OS1.0.10.0.UNLTWXM_20241001.0000.00_14.0_tw_721fac475a.tgz
-  md5: 721fac475a268e518c4dee9e3c8e6fe3
+  date: 2024-10-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UNLTWXM/duchamp_tw_global_images_OS1.0.11.0.UNLTWXM_20241030.0000.00_14.0_tw_258c286a4b.tgz
+  md5: 258c286a4b844d414d6f3198c7370fda
   method: Fastboot
   name: POCO X6 Pro 5G Taiwan
   size: 7.3 GB
-  version: OS1.0.10.0.UNLTWXM
+  version: OS1.0.11.0.UNLTWXM
 - android: '14.0'
   branch: Stable
   codename: earth
@@ -7849,7 +7849,7 @@
   size: 5.0 GB
   version: OS1.0.6.0.UHXMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: flare_ru_global
   date: 2024-11-22
   link: https://bigota.d.miui.com/OS1.0.4.0.UHXRUXM/miui_FLARERUGlobal_OS1.0.4.0.UHXRUXM_a7473fc799_14.0.zip
@@ -7861,23 +7861,13 @@
 - android: '14.0'
   branch: Stable
   codename: flare_ru_global
-  date: 2024-09-26
-  link: https://bigota.d.miui.com/OS1.0.3.0.UHXRUXM/miui_FLARERUGlobal_OS1.0.3.0.UHXRUXM_a201617904_14.0.zip
-  md5: a201617904b57925f7f3f09ed220520e
-  method: Recovery
-  name: Redmi Pad SE 8.7 5G Russia
-  size: 4.0 GB
-  version: OS1.0.3.0.UHXRUXM
-- android: '14.0'
-  branch: Stable
-  codename: flare_ru_global
-  date: 2024-09-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UHXRUXM/flare_ru_global_images_OS1.0.3.0.UHXRUXM_20240918.0000.00_14.0_ru_48450bc74f.tgz
-  md5: 48450bc74fa743044f05dfe070aefea3
+  date: 2024-11-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.4.0.UHXRUXM/flare_ru_global_images_OS1.0.4.0.UHXRUXM_20241115.0000.00_14.0_ru_7176b7a24e.tgz
+  md5: 7176b7a24e297492b36033e1ba97e7db
   method: Fastboot
   name: Redmi Pad SE 8.7 5G Russia
-  size: 5.2 GB
-  version: OS1.0.3.0.UHXRUXM
+  size: 5.3 GB
+  version: OS1.0.4.0.UHXRUXM
 - android: '14.0'
   branch: Stable
   codename: flare_tr_global
@@ -17379,6 +17369,16 @@
   size: 5.4 GB
   version: OS1.0.10.0.UMZRUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: pipa_tr_global
+  date: 2024-11-27
+  link: https://bigota.d.miui.com/OS1.0.10.0.UMZTRXM/miui_PIPATRGlobal_OS1.0.10.0.UMZTRXM_1b867bcdc9_14.0.zip
+  md5: 1b867bcdc9b767c9e2044e6a3ca4fa7d
+  method: Recovery
+  name: Xiaomi Pad 6 Turkey
+  size: 4.3 GB
+  version: OS1.0.10.0.UMZTRXM
+- android: '14.0'
   branch: Stable
   codename: pipa_tr_global
   date: 2024-10-18
@@ -20138,8 +20138,18 @@
   name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
   size: 7.0 GB
   version: OS1.0.9.0.UMOCNXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: ruby_eea_global
+  date: 2023-10-16
+  link: https://bigota.d.miui.com/V14.0.8.0.TMOEUXM/miui_RUBYEEAGlobal_V14.0.8.0.TMOEUXM_a44c880d42_13.0.zip
+  md5: a44c880d4277506f2e5569acadb1a44a
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ 5G EEA
+  size: 4.5 GB
+  version: V14.0.8.0.TMOEUXM
+- android: '14.0'
+  branch: Stable
   codename: ruby_eea_global
   date: 2024-11-15
   link: https://bigota.d.miui.com/OS1.0.11.0.UMOEUXM/miui_RUBYEEAGlobal_OS1.0.11.0.UMOEUXM_8b9fc31459_14.0.zip
@@ -20151,23 +20161,13 @@
 - android: '14.0'
   branch: Stable
   codename: ruby_eea_global
-  date: 2024-10-18
-  link: https://bigota.d.miui.com/OS1.0.9.0.UMOEUXM/miui_RUBYEEAGlobal_OS1.0.9.0.UMOEUXM_b9ddae570f_14.0.zip
-  md5: b9ddae570fed08d8dc75dcf2383db6a0
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ 5G EEA
-  size: 4.9 GB
-  version: OS1.0.9.0.UMOEUXM
-- android: '14.0'
-  branch: Stable
-  codename: ruby_eea_global
-  date: 2024-10-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UMOEUXM/ruby_eea_global_images_OS1.0.9.0.UMOEUXM_20241013.0000.00_14.0_eea_ba126c6e7b.tgz
-  md5: ba126c6e7b80315fa1be996c0bcf459e
+  date: 2024-11-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UMOEUXM/ruby_eea_global_images_OS1.0.11.0.UMOEUXM_20241107.0000.00_14.0_eea_6ed8c0b67b.tgz
+  md5: 6ed8c0b67bb083dff302d7ca2c2536ee
   method: Fastboot
   name: Redmi Note 12 Pro / Pro+ 5G EEA
   size: 7.1 GB
-  version: OS1.0.9.0.UMOEUXM
+  version: OS1.0.11.0.UMOEUXM
 - android: '14.0'
   branch: Stable Beta
   codename: ruby_global
@@ -21049,7 +21049,7 @@
   size: 6.7 GB
   version: OS1.0.7.0.UHZRUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sea_tr_global
   date: 2024-11-19
   link: https://bigota.d.miui.com/OS1.0.7.0.UHZTRXM/miui_SEATRGlobal_OS1.0.7.0.UHZTRXM_90c9d1af1c_14.0.zip
@@ -21061,23 +21061,13 @@
 - android: '14.0'
   branch: Stable
   codename: sea_tr_global
-  date: 2024-10-29
-  link: https://bigota.d.miui.com/OS1.0.6.0.UHZTRXM/miui_SEATRGlobal_OS1.0.6.0.UHZTRXM_1e18d47e55_14.0.zip
-  md5: 1e18d47e55447ed26cb32b538890449e
-  method: Recovery
-  name: Redmi Note 12S Turkey
-  size: 4.3 GB
-  version: OS1.0.6.0.UHZTRXM
-- android: '14.0'
-  branch: Stable
-  codename: sea_tr_global
-  date: 2024-10-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.UHZTRXM/sea_tr_global_images_OS1.0.6.0.UHZTRXM_20241017.0000.00_14.0_tr_ce94fedd0c.tgz
-  md5: ce94fedd0cf0c58184dbc6ba54f2c8e6
+  date: 2024-11-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.UHZTRXM/sea_tr_global_images_OS1.0.7.0.UHZTRXM_20241108.0000.00_14.0_tr_c7c5416bfa.tgz
+  md5: c7c5416bfaca4b7418e84f85c755d086
   method: Fastboot
   name: Redmi Note 12S Turkey
   size: 5.9 GB
-  version: OS1.0.6.0.UHZTRXM
+  version: OS1.0.7.0.UHZTRXM
 - android: '14.0'
   branch: Stable Beta
   codename: sea_tw_global
@@ -21781,23 +21771,23 @@
 - android: '14.0'
   branch: Stable
   codename: spark_eea_global
-  date: 2024-09-13
-  link: https://bigota.d.miui.com/OS1.0.5.0.UHYEUXM/miui_SPARKEEAGlobal_OS1.0.5.0.UHYEUXM_699d2d9fc9_14.0.zip
-  md5: 699d2d9fc9efffc6bb365b09a53f0e81
+  date: 2024-11-22
+  link: https://bigota.d.miui.com/OS1.0.6.0.UHYEUXM/miui_SPARKEEAGlobal_OS1.0.6.0.UHYEUXM_f7ee269ca8_14.0.zip
+  md5: f7ee269ca8fa379c44404431f468bd7f
   method: Recovery
   name: Redmi Pad SE 8.7 4G EEA
   size: 4.1 GB
-  version: OS1.0.5.0.UHYEUXM
+  version: OS1.0.6.0.UHYEUXM
 - android: '14.0'
   branch: Stable
   codename: spark_eea_global
-  date: 2024-09-09
-  link: https://cdnorg.d.miui.com/OS1.0.5.0.UHYEUXM/spark_eea_global_images_OS1.0.5.0.UHYEUXM_20240909.0000.00_14.0_eea_a1b56b86b0.tgz
-  md5: a1b56b86b05b8eb64ec5086d209d8edd
+  date: 2024-11-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.UHYEUXM/spark_eea_global_images_OS1.0.6.0.UHYEUXM_20241111.0000.00_14.0_eea_36e9df7efb.tgz
+  md5: 36e9df7efb764b56d311dd641ac10204
   method: Fastboot
   name: Redmi Pad SE 8.7 4G EEA
-  size: 4.9 GB
-  version: OS1.0.5.0.UHYEUXM
+  size: 5.0 GB
+  version: OS1.0.6.0.UHYEUXM
 - android: '14.0'
   branch: Stable Beta
   codename: spark_global
@@ -21851,23 +21841,23 @@
 - android: '14.0'
   branch: Stable
   codename: spark_ru_global
-  date: 2024-09-26
-  link: https://bigota.d.miui.com/OS1.0.3.0.UHYRUXM/miui_SPARKRUGlobal_OS1.0.3.0.UHYRUXM_ed06ded932_14.0.zip
-  md5: ed06ded932d358b0b8be6f4f8f1c48c2
+  date: 2024-11-22
+  link: https://bigota.d.miui.com/OS1.0.4.0.UHYRUXM/miui_SPARKRUGlobal_OS1.0.4.0.UHYRUXM_faf3d87b0d_14.0.zip
+  md5: faf3d87b0d99156d89a6c79a4fcb5dd5
   method: Recovery
   name: Redmi Pad SE 8.7 4G Russia
   size: 4.0 GB
-  version: OS1.0.3.0.UHYRUXM
+  version: OS1.0.4.0.UHYRUXM
 - android: '14.0'
   branch: Stable
   codename: spark_ru_global
-  date: 2024-09-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UHYRUXM/spark_ru_global_images_OS1.0.3.0.UHYRUXM_20240918.0000.00_14.0_ru_2a694d1f8e.tgz
-  md5: 2a694d1f8ee7a6eb5966faf2f2456ab0
+  date: 2024-11-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.4.0.UHYRUXM/spark_ru_global_images_OS1.0.4.0.UHYRUXM_20241115.0000.00_14.0_ru_e094c131c4.tgz
+  md5: e094c131c418d102e5adad74b533830d
   method: Fastboot
   name: Redmi Pad SE 8.7 4G Russia
-  size: 5.3 GB
-  version: OS1.0.3.0.UHYRUXM
+  size: 5.4 GB
+  version: OS1.0.4.0.UHYRUXM
 - android: '14.0'
   branch: Stable
   codename: spark_tw_global
@@ -24131,6 +24121,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: unicorn
+  date: 2024-07-08
+  link: https://bigota.d.miui.com/OS1.0.5.0.ULECNXM/miui_UNICORN_OS1.0.5.0.ULECNXM_700f13181d_14.0.zip
+  md5: 700f13181d67aa2dc087e3999c1c6418
+  method: Recovery
+  name: Xiaomi 12S Pro China
+  size: 5.9 GB
+  version: OS1.0.5.0.ULECNXM
+- android: '14.0'
+  branch: Stable
+  codename: unicorn
   date: 2024-11-14
   link: https://bigota.d.miui.com/OS1.0.11.0.ULECNXM/miui_UNICORN_OS1.0.11.0.ULECNXM_cf778a6e6e_14.0.zip
   md5: cf778a6e6ea840c0169b5200df852288
@@ -24141,23 +24141,13 @@
 - android: '14.0'
   branch: Stable
   codename: unicorn
-  date: 2024-10-17
-  link: https://bigota.d.miui.com/OS1.0.10.0.ULECNXM/miui_UNICORN_OS1.0.10.0.ULECNXM_a5cafe3463_14.0.zip
-  md5: a5cafe34639b45ce0e9f7086d3316617
-  method: Recovery
-  name: Xiaomi 12S Pro China
-  size: 5.9 GB
-  version: OS1.0.10.0.ULECNXM
-- android: '14.0'
-  branch: Stable
-  codename: unicorn
-  date: 2024-10-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.ULECNXM/unicorn_images_OS1.0.10.0.ULECNXM_20241010.0000.00_14.0_cn_cd766ff0ee.tgz
-  md5: cd766ff0ee69ca8d4db70c372d5f2a99
+  date: 2024-11-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.ULECNXM/unicorn_images_OS1.0.11.0.ULECNXM_20241107.0000.00_14.0_cn_d14e7c463b.tgz
+  md5: d14e7c463b45131f685845d35a106ecb
   method: Fastboot
   name: Xiaomi 12S Pro China
   size: 7.6 GB
-  version: OS1.0.10.0.ULECNXM
+  version: OS1.0.11.0.ULECNXM
 - android: '14.0'
   branch: Public Beta
   codename: unicorn
