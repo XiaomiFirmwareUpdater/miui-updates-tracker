@@ -338,8 +338,18 @@
   name: Redmi 2 LTE China
   size: 351.5 MB
   version: V6.2.1.0.KHJCNBK
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: agate_eea_global
+  date: 2021-09-15
+  link: https://bigota.d.miui.com/V12.5.2.0.RKWEUXM/miui_AGATEEEAGlobal_V12.5.2.0.RKWEUXM_c1c8e246e4_11.0.zip
+  md5: c1c8e246e4396e8454b67b2499bac578
+  method: Recovery
+  name: Xiaomi 11T EEA
+  size: 2.9 GB
+  version: V12.5.2.0.RKWEUXM
+- android: '14.0'
+  branch: Stable
   codename: agate_eea_global
   date: 2024-11-19
   link: https://bigota.d.miui.com/OS1.0.8.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.8.0.UKWEUXM_a8b2bb6069_14.0.zip
@@ -351,23 +361,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_eea_global
-  date: 2024-10-29
-  link: https://bigota.d.miui.com/OS1.0.7.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.7.0.UKWEUXM_0956198d58_14.0.zip
-  md5: 0956198d584bd8bf7385b178d5610e63
-  method: Recovery
-  name: Xiaomi 11T EEA
-  size: 4.9 GB
-  version: OS1.0.7.0.UKWEUXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_eea_global
-  date: 2024-10-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.UKWEUXM/agate_eea_global_images_OS1.0.7.0.UKWEUXM_20241023.0000.00_14.0_eea_f0ac77ceb4.tgz
-  md5: f0ac77ceb4096402288ecf55e45aa64f
+  date: 2024-11-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UKWEUXM/agate_eea_global_images_OS1.0.8.0.UKWEUXM_20241111.0000.00_14.0_eea_2f63707875.tgz
+  md5: 2f637078759b0ede7c7f142e2b31b562
   method: Fastboot
   name: Xiaomi 11T EEA
   size: 6.2 GB
-  version: OS1.0.7.0.UKWEUXM
+  version: OS1.0.8.0.UKWEUXM
 - android: '11.0'
   branch: Stable Beta
   codename: agate_global
@@ -2589,7 +2589,7 @@
   size: 4.8 GB
   version: V13.0.0.1.27.DEV
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: breeze
   date: 2024-11-22
   link: https://bigota.d.miui.com/OS1.0.9.0.UNUCNXM/miui_BREEZE_OS1.0.9.0.UNUCNXM_b46ba36d4c_14.0.zip
@@ -2601,23 +2601,13 @@
 - android: '14.0'
   branch: Stable
   codename: breeze
-  date: 2024-08-29
-  link: https://bigota.d.miui.com/OS1.0.7.0.UNUCNXM/miui_BREEZE_OS1.0.7.0.UNUCNXM_81824c1da9_14.0.zip
-  md5: 81824c1da952e6e90317dc9a9dbaa48e
-  method: Recovery
-  name: Redmi Note 13R China
-  size: 4.7 GB
-  version: OS1.0.7.0.UNUCNXM
-- android: '14.0'
-  branch: Stable
-  codename: breeze
-  date: 2024-08-22
-  link: https://cdnorg.d.miui.com/OS1.0.7.0.UNUCNXM/breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_884ce98901.tgz
-  md5: 884ce989010d1bbdc53e3b64911473b6
+  date: 2024-11-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UNUCNXM/breeze_images_OS1.0.9.0.UNUCNXM_20241115.0000.00_14.0_cn_f06a4c6faa.tgz
+  md5: f06a4c6faac5bfc2d9fe03df780e5739
   method: Fastboot
   name: Redmi Note 13R China
   size: 7.0 GB
-  version: OS1.0.7.0.UNUCNXM
+  version: OS1.0.9.0.UNUCNXM
 - android: '14.0'
   branch: Stable
   codename: breeze_in_global
@@ -11302,21 +11292,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13491,23 +13481,23 @@
 - android: '14.0'
   branch: Stable
   codename: malachite
-  date: 2024-10-22
-  link: https://bigota.d.miui.com/OS1.0.10.0.UOOCNXM/miui_MALACHITE_OS1.0.10.0.UOOCNXM_ebaec547a8_14.0.zip
-  md5: ebaec547a857738fdd4326756ca93e1c
+  date: 2024-11-22
+  link: https://bigota.d.miui.com/OS1.0.11.0.UOOCNXM/miui_MALACHITE_OS1.0.11.0.UOOCNXM_8145b27e5b_14.0.zip
+  md5: 8145b27e5b65719520444e7b9fc47309
   method: Recovery
   name: Redmi Note 14 Pro 5G / POCO X7 China
   size: 6.5 GB
-  version: OS1.0.10.0.UOOCNXM
+  version: OS1.0.11.0.UOOCNXM
 - android: '14.0'
   branch: Stable
   codename: malachite
-  date: 2024-10-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UOOCNXM/malachite_images_OS1.0.10.0.UOOCNXM_20241018.0000.00_14.0_cn_a5c4ced564.tgz
-  md5: a5c4ced56405456abf4a58cbf65cadb6
+  date: 2024-11-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UOOCNXM/malachite_images_OS1.0.11.0.UOOCNXM_20241115.0000.00_14.0_cn_cdb376f08d.tgz
+  md5: cdb376f08d14ace5aecb3e5a1647b73f
   method: Fastboot
   name: Redmi Note 14 Pro 5G / POCO X7 China
   size: 8.4 GB
-  version: OS1.0.10.0.UOOCNXM
+  version: OS1.0.11.0.UOOCNXM
 - android: '14.0'
   branch: Stable Beta
   codename: manet
