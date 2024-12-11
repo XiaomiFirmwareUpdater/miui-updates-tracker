@@ -2638,6 +2638,16 @@
   name: Redmi Note 13R China
   size: 7.0 GB
   version: OS1.0.9.0.UNUCNXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: breeze_in_global
+  date: 2024-12-06
+  link: https://bigota.d.miui.com/OS2.0.3.0.VNUINXM/breeze_in_global-ota_full-OS2.0.3.0.VNUINXM-user-15.0-c535dc4d4d.zip
+  md5: c535dc4d4d5a7e32bb002dfc37395c8b
+  method: Recovery
+  name: Redmi 13 5G / POCO M6 Plus 5G India
+  size: 4.4 GB
+  version: OS2.0.3.0.VNUINXM
 - android: '14.0'
   branch: Stable
   codename: breeze_in_global
@@ -17639,7 +17649,7 @@
   size: 4.9 GB
   version: 23.5.6
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: pipa_eea_global
   date: 2024-11-27
   link: https://bigota.d.miui.com/OS1.0.12.0.UMZEUXM/miui_PIPAEEAGlobal_OS1.0.12.0.UMZEUXM_30a25b7646_14.0.zip
@@ -17651,23 +17661,13 @@
 - android: '14.0'
   branch: Stable
   codename: pipa_eea_global
-  date: 2024-10-18
-  link: https://bigota.d.miui.com/OS1.0.10.0.UMZEUXM/miui_PIPAEEAGlobal_OS1.0.10.0.UMZEUXM_03114f7b45_14.0.zip
-  md5: 03114f7b45189b5f69013362880416b4
-  method: Recovery
-  name: Xiaomi Pad 6 EEA
-  size: 4.3 GB
-  version: OS1.0.10.0.UMZEUXM
-- android: '14.0'
-  branch: Stable
-  codename: pipa_eea_global
-  date: 2024-10-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMZEUXM/pipa_eea_global_images_OS1.0.10.0.UMZEUXM_20241011.0000.00_14.0_eea_cc1b8aa7dd.tgz
-  md5: cc1b8aa7dd7eea769f31f4adc25b6d4b
+  date: 2024-11-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UMZEUXM/pipa_eea_global_images_OS1.0.12.0.UMZEUXM_20241113.0000.00_14.0_eea_3fed9d83ed.tgz
+  md5: 3fed9d83edea23b715e2268be2585302
   method: Fastboot
   name: Xiaomi Pad 6 EEA
-  size: 5.1 GB
-  version: OS1.0.10.0.UMZEUXM
+  size: 5.2 GB
+  version: OS1.0.12.0.UMZEUXM
 - android: '14.0'
   branch: Stable
   codename: pipa_global
@@ -17718,8 +17718,18 @@
   name: Xiaomi Pad 6 Indonesia
   size: 5.2 GB
   version: OS1.0.10.0.UMZIDXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: pipa_in_global
+  date: 2023-10-31
+  link: https://bigota.d.miui.com/V14.0.6.0.TMZINXM/miui_PIPAINGlobal_V14.0.6.0.TMZINXM_bafadb2af4_13.0.zip
+  md5: bafadb2af41e74f71c52a7d1efe2f0f4
+  method: Recovery
+  name: Xiaomi Pad 6 India
+  size: 3.9 GB
+  version: V14.0.6.0.TMZINXM
+- android: '14.0'
+  branch: Stable
   codename: pipa_in_global
   date: 2024-11-27
   link: https://bigota.d.miui.com/OS1.0.10.0.UMZINXM/miui_PIPAINGlobal_OS1.0.10.0.UMZINXM_ad54334022_14.0.zip
@@ -17731,23 +17741,13 @@
 - android: '14.0'
   branch: Stable
   codename: pipa_in_global
-  date: 2024-10-18
-  link: https://bigota.d.miui.com/OS1.0.8.0.UMZINXM/miui_PIPAINGlobal_OS1.0.8.0.UMZINXM_02c2bf35c4_14.0.zip
-  md5: 02c2bf35c45cd92b78332700553521ef
-  method: Recovery
-  name: Xiaomi Pad 6 India
-  size: 4.1 GB
-  version: OS1.0.8.0.UMZINXM
-- android: '14.0'
-  branch: Stable
-  codename: pipa_in_global
-  date: 2024-10-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UMZINXM/pipa_in_global_images_OS1.0.8.0.UMZINXM_20241011.0000.00_14.0_in_192f31ec5c.tgz
-  md5: 192f31ec5cfa8193543f8313918ae2f7
+  date: 2024-11-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMZINXM/pipa_in_global_images_OS1.0.10.0.UMZINXM_20241113.0000.00_14.0_in_495641d1a7.tgz
+  md5: 495641d1a767da4a142924fb144c424b
   method: Fastboot
   name: Xiaomi Pad 6 India
   size: 4.7 GB
-  version: OS1.0.8.0.UMZINXM
+  version: OS1.0.10.0.UMZINXM
 - android: '14.0'
   branch: Stable
   codename: pipa_ru_global
