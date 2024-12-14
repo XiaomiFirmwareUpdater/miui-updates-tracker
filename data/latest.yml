@@ -851,13 +851,13 @@
 - android: '14.0'
   branch: Stable
   codename: amethyst
-  date: 2024-11-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.20.0.UOPCNXM/miui_AMETHYST_OS1.0.20.0.UOPCNXM_3477b1c2f9_14.0.zip
-  md5: 3477b1c2f987410831e2884330647893
+  date: 2024-12-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.21.0.UOPCNXM/miui_AMETHYST_OS1.0.21.0.UOPCNXM_1fc2b5ee3b_14.0.zip
+  md5: null
   method: Recovery
   name: Redmi Note 14 Pro+ 5G China
   size: 6.0 GB
-  version: OS1.0.20.0.UOPCNXM
+  version: OS1.0.21.0.UOPCNXM
 - android: '14.0'
   branch: Stable
   codename: amethyst
@@ -3999,7 +3999,7 @@
   size: 8.8 GB
   version: OS1.0.19.0.UNJCNXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: chenfeng_in_global
   date: 2024-12-04
   link: https://bigota.d.miui.com/OS1.0.9.0.UNJINXM/miui_CHENFENGINGlobal_OS1.0.9.0.UNJINXM_4950e31ac7_14.0.zip
@@ -4011,23 +4011,13 @@
 - android: '14.0'
   branch: Stable
   codename: chenfeng_in_global
-  date: 2024-11-04
-  link: https://bigota.d.miui.com/OS1.0.8.0.UNJINXM/miui_CHENFENGINGlobal_OS1.0.8.0.UNJINXM_f11a64c3f7_14.0.zip
-  md5: f11a64c3f74d85d545312e612781f22e
-  method: Recovery
-  name: Xiaomi Civi 4 Pro India
-  size: 5.8 GB
-  version: OS1.0.8.0.UNJINXM
-- android: '14.0'
-  branch: Stable
-  codename: chenfeng_in_global
-  date: 2024-10-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UNJINXM/chenfeng_in_global_images_OS1.0.8.0.UNJINXM_20241016.0000.00_14.0_in_f94d434cf4.tgz
-  md5: f94d434cf45e955e805646291e953fc2
+  date: 2024-11-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UNJINXM/chenfeng_in_global_images_OS1.0.9.0.UNJINXM_20241113.0000.00_14.0_in_3e89d51e1b.tgz
+  md5: 3e89d51e1bc5225bc857263cf3b7c463
   method: Fastboot
   name: Xiaomi Civi 4 Pro India
-  size: 7.0 GB
-  version: OS1.0.8.0.UNJINXM
+  size: 6.8 GB
+  version: OS1.0.9.0.UNJINXM
 - android: '9.0'
   branch: Stable
   codename: chiron
@@ -6051,13 +6041,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: degas_ru_global
-  date: 2024-09-26
-  link: https://bigota.d.miui.com/OS1.0.1.0.UNERUXM/miui_DEGASRUGlobal_OS1.0.1.0.UNERUXM_d7fbe91ff8_14.0.zip
-  md5: d7fbe91ff81b9511be5e5300ff7bb4e5
+  date: 2024-12-11
+  link: https://bigota.d.miui.com/OS1.0.6.0.UNERUXM/miui_DEGASRUGlobal_OS1.0.6.0.UNERUXM_d9436fd6cd_14.0.zip
+  md5: d9436fd6cdf4694078ecb0c6154adaea
   method: Recovery
   name: Xiaomi 14T Russia
-  size: 5.6 GB
-  version: OS1.0.1.0.UNERUXM
+  size: 5.7 GB
+  version: OS1.0.6.0.UNERUXM
 - android: '14.0'
   branch: Stable
   codename: degas_ru_global
@@ -6098,6 +6088,16 @@
   name: Xiaomi 14T Turkey
   size: 7.2 GB
   version: OS1.0.5.0.UNETRXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: degas_tw_global
+  date: 2024-12-11
+  link: https://bigota.d.miui.com/OS1.0.6.0.UNETWXM/miui_DEGASTWGlobal_OS1.0.6.0.UNETWXM_078265615d_14.0.zip
+  md5: 078265615de2b63aa41c9fe45ac20634
+  method: Recovery
+  name: Xiaomi 14T Taiwan
+  size: 5.7 GB
+  version: OS1.0.6.0.UNETWXM
 - android: '14.0'
   branch: Stable
   codename: degas_tw_global
@@ -6579,6 +6579,16 @@
   size: 5.3 GB
   version: OS1.0.9.0.UNSMIXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: dizi_id_global
+  date: 2024-12-10
+  link: https://bigota.d.miui.com/OS1.0.11.0.UNSIDXM/miui_DIZIIDGlobal_OS1.0.11.0.UNSIDXM_822a2e6dac_14.0.zip
+  md5: 822a2e6dacea64883ea84d86be817de5
+  method: Recovery
+  name: Redmi Pad Pro / POCO Pad Indonesia
+  size: 4.2 GB
+  version: OS1.0.11.0.UNSIDXM
+- android: '14.0'
   branch: Stable
   codename: dizi_id_global
   date: 2024-11-08
@@ -6648,6 +6658,16 @@
   name: Redmi Pad Pro / POCO Pad Turkey
   size: 5.0 GB
   version: OS1.0.5.0.UNSTRXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: dizi_tw_global
+  date: 2024-12-10
+  link: https://bigota.d.miui.com/OS1.0.10.0.UNSTWXM/miui_DIZITWGlobal_OS1.0.10.0.UNSTWXM_c349de819d_14.0.zip
+  md5: c349de819dedb84d7be9c0611e4fb046
+  method: Recovery
+  name: Redmi Pad Pro / POCO Pad Taiwan
+  size: 4.1 GB
+  version: OS1.0.10.0.UNSTWXM
 - android: '14.0'
   branch: Stable
   codename: dizi_tw_global
