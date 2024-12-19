@@ -1608,16 +1608,16 @@
   name: MI 2S Global
   size: 869.3 MB
   version: 7.11.16
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: aristotle_eea_global
-  date: 2023-10-28
-  link: https://bigota.d.miui.com/V14.0.11.0.TMFEUXM/miui_ARISTOTLEEEAGlobal_V14.0.11.0.TMFEUXM_6370eb6ef4_13.0.zip
-  md5: 6370eb6ef4a3888508a0745422814a96
+  date: 2024-12-09
+  link: https://bigota.d.miui.com/OS1.0.17.0.UMFEUXM/miui_ARISTOTLEEEAGlobal_OS1.0.17.0.UMFEUXM_38be2f2355_14.0.zip
+  md5: 38be2f2355bfcdb977e9495f6f500e9f
   method: Recovery
   name: Xiaomi 13T EEA
-  size: 5.5 GB
-  version: V14.0.11.0.TMFEUXM
+  size: 5.8 GB
+  version: OS1.0.17.0.UMFEUXM
 - android: '14.0'
   branch: Stable
   codename: aristotle_eea_global
@@ -18978,8 +18978,18 @@
   name: POCO X5 Pro 5G EEA
   size: 7.2 GB
   version: OS1.0.10.0.UMSEUXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: redwood_global
+  date: 2023-02-06
+  link: https://bigota.d.miui.com/V14.0.2.0.SMSMIXM/miui_REDWOODGlobal_V14.0.2.0.SMSMIXM_fcb264345f_12.0.zip
+  md5: fcb264345f6497bfbdb294c53798c868
+  method: Recovery
+  name: POCO X5 Pro 5G Global
+  size: 4.5 GB
+  version: V14.0.2.0.SMSMIXM
+- android: '14.0'
+  branch: Stable
   codename: redwood_global
   date: 2024-12-05
   link: https://bigota.d.miui.com/OS1.0.10.0.UMSMIXM/miui_REDWOODGlobal_OS1.0.10.0.UMSMIXM_7de29b18ba_14.0.zip
@@ -18991,23 +19001,13 @@
 - android: '14.0'
   branch: Stable
   codename: redwood_global
-  date: 2024-10-29
-  link: https://bigota.d.miui.com/OS1.0.8.0.UMSMIXM/miui_REDWOODGlobal_OS1.0.8.0.UMSMIXM_dca18e1a93_14.0.zip
-  md5: dca18e1a93c2579c2f8d8c0a8a5d01f0
-  method: Recovery
-  name: POCO X5 Pro 5G Global
-  size: 5.0 GB
-  version: OS1.0.8.0.UMSMIXM
-- android: '14.0'
-  branch: Stable
-  codename: redwood_global
-  date: 2024-10-12
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UMSMIXM/redwood_global_images_OS1.0.8.0.UMSMIXM_20241012.0000.00_14.0_global_2b085cd680.tgz
-  md5: 2b085cd68051de7032656e1f2a44975e
+  date: 2024-11-14
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMSMIXM/redwood_global_images_OS1.0.10.0.UMSMIXM_20241114.0000.00_14.0_global_2c10d08c92.tgz
+  md5: 2c10d08c92d5ae6646969ca25d850e07
   method: Fastboot
   name: POCO X5 Pro 5G Global
-  size: 8.1 GB
-  version: OS1.0.8.0.UMSMIXM
+  size: 7.9 GB
+  version: OS1.0.10.0.UMSMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_id_global
@@ -22128,8 +22128,18 @@
   name: Redmi 12 5G / POCO M6 Pro 5G Taiwan
   size: 6.1 GB
   version: OS1.0.5.0.UMWTWXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: socrates
+  date: 2023-01-07
+  link: https://bigota.d.miui.com/V14.0.12.0.TMKCNXM/miui_SOCRATES_V14.0.12.0.TMKCNXM_8a9c1a713d_13.0.zip
+  md5: 8a9c1a713dc5874205128d6c961566bc
+  method: Recovery
+  name: Redmi K60 Pro China
+  size: 6.5 GB
+  version: V14.0.12.0.TMKCNXM
+- android: '14.0'
+  branch: Stable
   codename: socrates
   date: 2024-12-09
   link: https://bigota.d.miui.com/OS1.0.16.0.UMKCNXM/miui_SOCRATES_OS1.0.16.0.UMKCNXM_d791351f8d_14.0.zip
@@ -22141,23 +22151,13 @@
 - android: '14.0'
   branch: Stable
   codename: socrates
-  date: 2024-10-21
-  link: https://bigota.d.miui.com/OS1.0.13.0.UMKCNXM/miui_SOCRATES_OS1.0.13.0.UMKCNXM_9569a89d43_14.0.zip
-  md5: 9569a89d43f32666b7815b92488abd90
-  method: Recovery
-  name: Redmi K60 Pro China
-  size: 6.4 GB
-  version: OS1.0.13.0.UMKCNXM
-- android: '14.0'
-  branch: Stable
-  codename: socrates
-  date: 2024-10-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.13.0.UMKCNXM/socrates_images_OS1.0.13.0.UMKCNXM_20241009.0000.00_14.0_cn_e1bdf2fe8f.tgz
-  md5: e1bdf2fe8f0fff7dd7e6caa7ed657b6d
+  date: 2024-11-25
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.16.0.UMKCNXM/socrates_images_OS1.0.16.0.UMKCNXM_20241125.0000.00_14.0_cn_2a3c473d30.tgz
+  md5: 2a3c473d305424068f9799bc6d2428b1
   method: Fastboot
   name: Redmi K60 Pro China
   size: 7.7 GB
-  version: OS1.0.13.0.UMKCNXM
+  version: OS1.0.16.0.UMKCNXM
 - android: '14.0'
   branch: Public Beta
   codename: socrates
@@ -22791,13 +22791,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -27159,7 +27159,7 @@
   size: 5.1 GB
   version: OS1.0.6.0.UMUEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xun_global
   date: 2024-12-06
   link: https://bigota.d.miui.com/OS1.0.6.0.UMUMIXM/miui_XUNGlobal_OS1.0.6.0.UMUMIXM_4617b2b9c9_14.0.zip
@@ -27171,23 +27171,13 @@
 - android: '14.0'
   branch: Stable
   codename: xun_global
-  date: 2024-12-03
-  link: https://bigota.d.miui.com/OS1.0.5.0.UMUMIXM/miui_XUNGlobal_OS1.0.5.0.UMUMIXM_e46cc9dcab_14.0.zip
-  md5: e46cc9dcab7a4eea799065f902b1475b
-  method: Recovery
-  name: Redmi Pad SE Global
-  size: 4.1 GB
-  version: OS1.0.5.0.UMUMIXM
-- android: '14.0'
-  branch: Stable
-  codename: xun_global
-  date: 2024-11-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.5.0.UMUMIXM/xun_global_images_OS1.0.5.0.UMUMIXM_20241127.0000.00_14.0_global_0008a5817d.tgz
-  md5: 0008a5817d34b2db9252b658abcc62a2
+  date: 2024-12-05
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.UMUMIXM/xun_global_images_OS1.0.6.0.UMUMIXM_20241205.0000.00_14.0_global_aa832130ac.tgz
+  md5: aa832130ac223096553d95523984946f
   method: Fastboot
   name: Redmi Pad SE Global
   size: 5.3 GB
-  version: OS1.0.5.0.UMUMIXM
+  version: OS1.0.6.0.UMUMIXM
 - android: '14.0'
   branch: Stable
   codename: xun_id_global
