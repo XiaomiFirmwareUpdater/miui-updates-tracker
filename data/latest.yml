@@ -2038,16 +2038,16 @@
   name: Redmi 10X 5G China
   size: 4.7 GB
   version: V13.0.0.1.27.DEV
-- android: '14.0'
+- android: '15.0'
   branch: Stable Beta
   codename: aurora
-  date: 2024-03-18
-  link: https://bigota.d.miui.com/OS1.0.7.0.UNACNXM/miui_AURORA_OS1.0.7.0.UNACNXM_81a48e3c20_14.0.zip
-  md5: 81a48e3c208123ca078eb9e7b9ac9368
+  date: 2024-12-17
+  link: https://bigota.d.miui.com/OS2.0.13.0.VNACNXM/aurora-ota_full-OS2.0.13.0.VNACNXM-user-15.0-cc9c5b9dc1.zip
+  md5: cc9c5b9dc1bd758f2b15481b6ad8d1c6
   method: Recovery
   name: Xiaomi 14 Ultra China
-  size: 7.3 GB
-  version: OS1.0.7.0.UNACNXM
+  size: 7.8 GB
+  version: OS2.0.13.0.VNACNXM
 - android: '15.0'
   branch: Stable
   codename: aurora
@@ -8789,7 +8789,7 @@
   size: 7.0 GB
   version: OS1.0.6.0.UGPEUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: gale_global
   date: 2024-12-07
   link: https://bigota.d.miui.com/OS2.0.2.0.VGPMIXM/gale_global-ota_full-OS2.0.2.0.VGPMIXM-user-15.0-95ffe4c9a3.zip
@@ -8798,26 +8798,16 @@
   name: Redmi 13C / POCO C65 Global
   size: 4.5 GB
   version: OS2.0.2.0.VGPMIXM
-- android: '14.0'
+- android: '15.0'
   branch: Stable
   codename: gale_global
-  date: 2024-10-30
-  link: https://bigota.d.miui.com/OS1.0.5.0.UGPMIXM/miui_GALEGlobal_OS1.0.5.0.UGPMIXM_f8ab7858d1_14.0.zip
-  md5: f8ab7858d1bad9a685b1c220f86188cb
-  method: Recovery
-  name: Redmi 13C / POCO C65 Global
-  size: 4.3 GB
-  version: OS1.0.5.0.UGPMIXM
-- android: '14.0'
-  branch: Stable
-  codename: gale_global
-  date: 2024-09-29
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.5.0.UGPMIXM/gale_global_images_OS1.0.5.0.UGPMIXM_20240929.0000.00_14.0_global_29411a7a34.tgz
-  md5: 29411a7a3427452dd2862f10c2c5de41
+  date: 2024-12-04
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VGPMIXM/gale_global_images_OS2.0.2.0.VGPMIXM_20241204.0000.00_15.0_global_9498d93964.tgz
+  md5: 9498d93964602137a360d3b687aa9715
   method: Fastboot
   name: Redmi 13C / POCO C65 Global
   size: 7.3 GB
-  version: OS1.0.5.0.UGPMIXM
+  version: OS2.0.2.0.VGPMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: gale_id_global
@@ -11602,21 +11592,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -14879,7 +14869,7 @@
   size: 7.1 GB
   version: OS1.0.10.0.UMNEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: mondrian_global
   date: 2024-12-13
   link: https://bigota.d.miui.com/OS1.0.13.0.UMNMIXM/miui_MONDRIANGlobal_OS1.0.13.0.UMNMIXM_861fc607d6_14.0.zip
@@ -14891,23 +14881,13 @@
 - android: '14.0'
   branch: Stable
   codename: mondrian_global
-  date: 2024-10-17
-  link: https://bigota.d.miui.com/OS1.0.10.0.UMNMIXM/miui_MONDRIANGlobal_OS1.0.10.0.UMNMIXM_c4e529f742_14.0.zip
-  md5: c4e529f742741f3bf351ee93de540575
-  method: Recovery
-  name: POCO F5 Pro Global
-  size: 5.2 GB
-  version: OS1.0.10.0.UMNMIXM
-- android: '14.0'
-  branch: Stable
-  codename: mondrian_global
-  date: 2024-10-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMNMIXM/mondrian_global_images_OS1.0.10.0.UMNMIXM_20241010.0000.00_14.0_global_d1a34968a1.tgz
-  md5: d1a34968a13cab6d46c5a182c0690d4e
+  date: 2024-11-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.13.0.UMNMIXM/mondrian_global_images_OS1.0.13.0.UMNMIXM_20241118.0000.00_14.0_global_f4d56d25b9.tgz
+  md5: f4d56d25b97d32d4b78acc7a5e58c2cd
   method: Fastboot
   name: POCO F5 Pro Global
   size: 7.6 GB
-  version: OS1.0.10.0.UMNMIXM
+  version: OS1.0.13.0.UMNMIXM
 - android: '14.0'
   branch: Stable
   codename: mondrian_ru_global
@@ -17119,6 +17099,16 @@
   size: 8.3 GB
   version: OS1.0.7.0.UNPRUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: peridot_tw_global
+  date: 2024-12-20
+  link: https://bigota.d.miui.com/OS1.0.9.0.UNPTWXM/miui_PERIDOTTWGlobal_OS1.0.9.0.UNPTWXM_bc07bfd13c_14.0.zip
+  md5: bc07bfd13c9d6ebda419d53cd8e49a8d
+  method: Recovery
+  name: POCO F6 Taiwan
+  size: 5.5 GB
+  version: OS1.0.9.0.UNPTWXM
+- android: '14.0'
   branch: Stable
   codename: peridot_tw_global
   date: 2024-12-02
@@ -17729,7 +17719,7 @@
   size: 5.5 GB
   version: OS1.0.12.0.UMZRUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: pipa_tr_global
   date: 2024-12-18
   link: https://bigota.d.miui.com/OS1.0.11.0.UMZTRXM/miui_PIPATRGlobal_OS1.0.11.0.UMZTRXM_dfd6448a10_14.0.zip
@@ -17741,23 +17731,13 @@
 - android: '14.0'
   branch: Stable
   codename: pipa_tr_global
-  date: 2024-11-27
-  link: https://bigota.d.miui.com/OS1.0.10.0.UMZTRXM/miui_PIPATRGlobal_OS1.0.10.0.UMZTRXM_1b867bcdc9_14.0.zip
-  md5: 1b867bcdc9b767c9e2044e6a3ca4fa7d
-  method: Recovery
-  name: Xiaomi Pad 6 Turkey
-  size: 4.3 GB
-  version: OS1.0.10.0.UMZTRXM
-- android: '14.0'
-  branch: Stable
-  codename: pipa_tr_global
-  date: 2024-11-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMZTRXM/pipa_tr_global_images_OS1.0.10.0.UMZTRXM_20241114.0000.00_14.0_tr_2dfc1b059c.tgz
-  md5: 2dfc1b059ca4510ddd3165568543c827
+  date: 2024-12-10
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UMZTRXM/pipa_tr_global_images_OS1.0.11.0.UMZTRXM_20241210.0000.00_14.0_tr_3a7fd1684d.tgz
+  md5: 3a7fd1684d08d3db68b6833d899a1372
   method: Fastboot
   name: Xiaomi Pad 6 Turkey
-  size: 5.1 GB
-  version: OS1.0.10.0.UMZTRXM
+  size: 5.2 GB
+  version: OS1.0.11.0.UMZTRXM
 - android: '14.0'
   branch: Stable Beta
   codename: pipa_tw_global
