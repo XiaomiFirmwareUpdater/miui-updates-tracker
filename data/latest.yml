@@ -9148,8 +9148,18 @@
   name: Redmi 13C / POCO C65 Taiwan
   size: 5.9 GB
   version: OS1.0.5.0.UGPTWXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: garnet
+  date: 2023-10-12
+  link: https://bigota.d.miui.com/V14.0.11.0.TNRCNXM/miui_GARNET_V14.0.11.0.TNRCNXM_ca270f42a1_13.0.zip
+  md5: ca270f42a1c7a6c42530e2c745610400
+  method: Recovery
+  name: Redmi Note 13 Pro 5G China
+  size: 5.6 GB
+  version: V14.0.11.0.TNRCNXM
+- android: '14.0'
+  branch: Stable
   codename: garnet
   date: 2024-12-25
   link: https://bigota.d.miui.com/OS1.0.16.0.UNRCNXM/miui_GARNET_OS1.0.16.0.UNRCNXM_a11124aa5b_14.0.zip
@@ -9161,23 +9171,13 @@
 - android: '14.0'
   branch: Stable
   codename: garnet
-  date: 2024-11-27
-  link: https://bigota.d.miui.com/OS1.0.14.0.UNRCNXM/miui_GARNET_OS1.0.14.0.UNRCNXM_da1875a852_14.0.zip
-  md5: da1875a852f11b4a8bd2264ae490c269
-  method: Recovery
-  name: Redmi Note 13 Pro 5G China
-  size: 5.6 GB
-  version: OS1.0.14.0.UNRCNXM
-- android: '14.0'
-  branch: Stable
-  codename: garnet
-  date: 2024-11-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.14.0.UNRCNXM/garnet_images_OS1.0.14.0.UNRCNXM_20241114.0000.00_14.0_cn_0077abe4d9.tgz
-  md5: 0077abe4d901fed7d2400c25f3ee7a7a
+  date: 2024-12-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.16.0.UNRCNXM/garnet_images_OS1.0.16.0.UNRCNXM_20241217.0000.00_14.0_cn_9c23f70213.tgz
+  md5: 9c23f70213bb5caf4bf12fe78050a2af
   method: Fastboot
   name: Redmi Note 13 Pro 5G China
   size: 7.2 GB
-  version: OS1.0.14.0.UNRCNXM
+  version: OS1.0.16.0.UNRCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: garnet_eea_global
@@ -9188,26 +9188,26 @@
   name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
   size: 5.1 GB
   version: V14.0.8.0.TNREUXM
-- android: '14.0'
+- android: '15.0'
   branch: Stable
   codename: garnet_eea_global
-  date: 2024-11-23
-  link: https://bigota.d.miui.com/OS1.0.22.0.UNREUXM/miui_GARNETEEAGlobal_OS1.0.22.0.UNREUXM_5a07878481_14.0.zip
-  md5: 5a07878481e7af1a1ac1802e9a4fb4db
+  date: 2024-12-23
+  link: https://bigota.d.miui.com/OS2.0.3.0.VNREUXM/garnet_eea_global-ota_full-OS2.0.3.0.VNREUXM-user-15.0-d71b530b64.zip
+  md5: d71b530b643ca19a8ee583a18cc54627
   method: Recovery
   name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
-  size: 5.2 GB
-  version: OS1.0.22.0.UNREUXM
-- android: '14.0'
+  size: 5.5 GB
+  version: OS2.0.3.0.VNREUXM
+- android: '15.0'
   branch: Stable
   codename: garnet_eea_global
-  date: 2024-11-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.22.0.UNREUXM/garnet_eea_global_images_OS1.0.22.0.UNREUXM_20241114.0000.00_14.0_eea_4234ea7b4b.tgz
-  md5: 4234ea7b4b2e483aa621ba6b7fd2455f
+  date: 2024-12-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VNREUXM/garnet_eea_global_images_OS2.0.3.0.VNREUXM_20241218.0000.00_15.0_eea_e329a6ba44.tgz
+  md5: e329a6ba4442a0097b975bb4ea84fcc0
   method: Fastboot
   name: Redmi Note 13 Pro 5G / POCO X6 5G EEA
   size: 7.5 GB
-  version: OS1.0.22.0.UNREUXM
+  version: OS2.0.3.0.VNREUXM
 - android: '14.0'
   branch: Stable
   codename: garnet_global
@@ -11732,21 +11732,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -16518,8 +16518,18 @@
   name: Xiaomi 13 Pro Global
   size: 7.1 GB
   version: 23.5.6
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: nuwa_in_global
+  date: 2023-07-27
+  link: https://bigota.d.miui.com/V14.0.9.0.TMBINXM/miui_NUWAINGlobal_V14.0.9.0.TMBINXM_8c379e9527_13.0.zip
+  md5: 8c379e9527e19b49260dc2446a6d9702
+  method: Recovery
+  name: Xiaomi 13 Pro India
+  size: 5.6 GB
+  version: V14.0.9.0.TMBINXM
+- android: '14.0'
+  branch: Stable
   codename: nuwa_in_global
   date: 2025-01-02
   link: https://bigota.d.miui.com/OS1.0.12.0.UMBINXM/miui_NUWAINGlobal_OS1.0.12.0.UMBINXM_db225d852a_14.0.zip
@@ -16531,23 +16541,13 @@
 - android: '14.0'
   branch: Stable
   codename: nuwa_in_global
-  date: 2024-11-29
-  link: https://bigota.d.miui.com/OS1.0.11.0.UMBINXM/miui_NUWAINGlobal_OS1.0.11.0.UMBINXM_4032b06c21_14.0.zip
-  md5: 4032b06c210f7daa597ce53a010fabc7
-  method: Recovery
-  name: Xiaomi 13 Pro India
-  size: 5.7 GB
-  version: OS1.0.11.0.UMBINXM
-- android: '14.0'
-  branch: Stable
-  codename: nuwa_in_global
-  date: 2024-11-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UMBINXM/nuwa_in_global_images_OS1.0.11.0.UMBINXM_20241121.0000.00_14.0_in_f539624274.tgz
-  md5: f539624274822ca0a61703683f33a0d6
+  date: 2024-12-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UMBINXM/nuwa_in_global_images_OS1.0.12.0.UMBINXM_20241220.0000.00_14.0_in_454758610a.tgz
+  md5: 454758610a74b3d18c42130cca38e65c
   method: Fastboot
   name: Xiaomi 13 Pro India
   size: 6.4 GB
-  version: OS1.0.11.0.UMBINXM
+  version: OS1.0.12.0.UMBINXM
 - android: '14.0'
   branch: Stable
   codename: nuwa_ru_global
@@ -20108,6 +20108,26 @@
   name: POCO X7 Pro Global
   size: 5.9 GB
   version: OS2.0.8.0.VOJMIXM
+- android: '15.0'
+  branch: Stable
+  codename: rodin_in_global
+  date: 2025-01-14
+  link: https://bigota.d.miui.com/OS2.0.2.0.VOJINXM/rodin_in_global-ota_full-OS2.0.2.0.VOJINXM-user-15.0-60249425a2.zip
+  md5: 60249425a2bb4fd698112f79f0b33665
+  method: Recovery
+  name: POCO X7 Pro India
+  size: 5.7 GB
+  version: OS2.0.2.0.VOJINXM
+- android: '15.0'
+  branch: Stable
+  codename: rodin_in_global
+  date: 2025-01-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VOJINXM/rodin_in_global_images_OS2.0.2.0.VOJINXM_20250106.0000.00_15.0_in_72e6198739.tgz
+  md5: 72e619873910d99fc10b263ab0648b3b
+  method: Fastboot
+  name: POCO X7 Pro India
+  size: 7.6 GB
+  version: OS2.0.2.0.VOJINXM
 - android: '6.0'
   branch: Stable
   codename: rolex
