@@ -6898,16 +6898,16 @@
   name: POCO X6 Pro 5G EEA
   size: 7.8 GB
   version: OS2.0.2.0.VNLEUXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
   codename: duchamp_global
-  date: 2025-01-07
-  link: https://bigota.d.miui.com/OS2.0.1.0.VNLMIXM/duchamp_global-ota_full-OS2.0.1.0.VNLMIXM-user-15.0-681cd7a65d.zip
-  md5: 681cd7a65dff7957e405f0b9b6516d76
+  date: 2024-12-05
+  link: https://bigota.d.miui.com/OS1.0.15.0.UNLMIXM/miui_DUCHAMPGlobal_OS1.0.15.0.UNLMIXM_4c311f2d69_14.0.zip
+  md5: 4c311f2d699963f30aba48c777e0ee96
   method: Recovery
   name: POCO X6 Pro 5G Global
-  size: 5.7 GB
-  version: OS2.0.1.0.VNLMIXM
+  size: 5.5 GB
+  version: OS1.0.15.0.UNLMIXM
 - android: '14.0'
   branch: Stable
   codename: duchamp_global
@@ -14038,16 +14038,16 @@
   name: Redmi Note 14 Pro 5G / POCO X7 Taiwan
   size: 7.4 GB
   version: OS1.0.3.0.UOOTWXM
-- android: '14.0'
+- android: '15.0'
   branch: Stable Beta
   codename: manet
-  date: 2023-12-13
-  link: https://bigota.d.miui.com/OS1.0.7.0.UNMCNXM/miui_MANET_OS1.0.7.0.UNMCNXM_8dba150437_14.0.zip
-  md5: 8dba150437bbd6e87d14a68785718d7f
+  date: 2025-01-14
+  link: https://bigota.d.miui.com/OS2.0.101.0.VNMCNXM/manet-ota_full-OS2.0.101.0.VNMCNXM-user-15.0-bedfaaa689.zip
+  md5: bedfaaa689b47de4268dab9a5b4045f2
   method: Recovery
   name: Redmi K70 Pro China
-  size: 6.5 GB
-  version: OS1.0.7.0.UNMCNXM
+  size: 7.0 GB
+  version: OS2.0.101.0.VNMCNXM
 - android: '14.0'
   branch: Stable Beta
   codename: manet
@@ -18648,8 +18648,18 @@
   name: Xiaomi 12T Russia
   size: 6.7 GB
   version: OS1.0.8.0.ULQRUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: plato_tr_global
+  date: 2023-08-15
+  link: https://bigota.d.miui.com/V14.0.4.0.TLQTRXM/miui_PLATOTRGlobal_V14.0.4.0.TLQTRXM_842f81f8a2_13.0.zip
+  md5: 842f81f8a2b07f819b1abc74c7db0c9d
+  method: Recovery
+  name: Xiaomi 12T Turkey
+  size: 4.9 GB
+  version: V14.0.4.0.TLQTRXM
+- android: '14.0'
+  branch: Stable
   codename: plato_tr_global
   date: 2025-01-13
   link: https://bigota.d.miui.com/OS1.0.7.0.ULQTRXM/miui_PLATOTRGlobal_OS1.0.7.0.ULQTRXM_c8dfbfa743_14.0.zip
@@ -18661,23 +18671,13 @@
 - android: '14.0'
   branch: Stable
   codename: plato_tr_global
-  date: 2024-12-10
-  link: https://bigota.d.miui.com/OS1.0.6.0.ULQTRXM/miui_PLATOTRGlobal_OS1.0.6.0.ULQTRXM_37deb651dc_14.0.zip
-  md5: 37deb651dc11798f42858a5b5c0bd87f
-  method: Recovery
-  name: Xiaomi 12T Turkey
-  size: 5.4 GB
-  version: OS1.0.6.0.ULQTRXM
-- android: '14.0'
-  branch: Stable
-  codename: plato_tr_global
-  date: 2024-11-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.ULQTRXM/plato_tr_global_images_OS1.0.6.0.ULQTRXM_20241125.0000.00_14.0_tr_f00894854d.tgz
-  md5: f00894854dbbd8eac45473e84cb1a657
+  date: 2025-01-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.ULQTRXM/plato_tr_global_images_OS1.0.7.0.ULQTRXM_20250106.0000.00_14.0_tr_6a3e264748.tgz
+  md5: 6a3e264748b6a99dac0c84188ecad5b1
   method: Fastboot
   name: Xiaomi 12T Turkey
-  size: 6.5 GB
-  version: OS1.0.6.0.ULQTRXM
+  size: 6.4 GB
+  version: OS1.0.7.0.ULQTRXM
 - android: '14.0'
   branch: Stable
   codename: plato_tw_global
@@ -27408,8 +27408,18 @@
   name: Redmi 2 Pro Global
   size: 994.1 MB
   version: 7.11.6
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: xaga
+  date: 2022-12-26
+  link: https://bigota.d.miui.com/V14.0.1.0.TLOCNXM/miui_XAGA_V14.0.1.0.TLOCNXM_4653c67b61_13.0.zip
+  md5: 4653c67b615cdd124000cc72da6840a8
+  method: Recovery
+  name: Redmi Note 11T Pro / Pro+ China
+  size: 5.9 GB
+  version: V14.0.1.0.TLOCNXM
+- android: '14.0'
+  branch: Stable
   codename: xaga
   date: 2025-01-09
   link: https://bigota.d.miui.com/OS1.0.10.0.ULOCNXM/miui_XAGA_OS1.0.10.0.ULOCNXM_8b256c3667_14.0.zip
@@ -27421,23 +27431,13 @@
 - android: '14.0'
   branch: Stable
   codename: xaga
-  date: 2024-12-06
-  link: https://bigota.d.miui.com/OS1.0.8.0.ULOCNXM/miui_XAGA_OS1.0.8.0.ULOCNXM_a8cc94e747_14.0.zip
-  md5: a8cc94e747f07d8006becef09e89f319
-  method: Recovery
-  name: Redmi Note 11T Pro / Pro+ China
-  size: 6.0 GB
-  version: OS1.0.8.0.ULOCNXM
-- android: '14.0'
-  branch: Stable
-  codename: xaga
-  date: 2024-11-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.ULOCNXM/xaga_images_OS1.0.8.0.ULOCNXM_20241120.0000.00_14.0_cn_86a69a45d5.tgz
-  md5: 86a69a45d5ba3c948bae122941f2227a
+  date: 2024-12-31
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.ULOCNXM/xaga_images_OS1.0.10.0.ULOCNXM_20241231.0000.00_14.0_cn_e94055ea2e.tgz
+  md5: e94055ea2ea4d0094b716aa131fb2a69
   method: Fastboot
   name: Redmi Note 11T Pro / Pro+ China
-  size: 7.1 GB
-  version: OS1.0.8.0.ULOCNXM
+  size: 7.2 GB
+  version: OS1.0.10.0.ULOCNXM
 - android: '13.0'
   branch: Public Beta
   codename: xaga
@@ -27549,7 +27549,7 @@
   size: 6.5 GB
   version: OS1.0.6.0.ULOINXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xaga_ru_global
   date: 2025-01-13
   link: https://bigota.d.miui.com/OS1.0.8.0.ULORUXM/miui_XAGARUGlobal_OS1.0.8.0.ULORUXM_bd5326df83_14.0.zip
@@ -27561,25 +27561,15 @@
 - android: '14.0'
   branch: Stable
   codename: xaga_ru_global
-  date: 2024-12-11
-  link: https://bigota.d.miui.com/OS1.0.7.0.ULORUXM/miui_XAGARUGlobal_OS1.0.7.0.ULORUXM_49f6a8669a_14.0.zip
-  md5: 49f6a8669a1893f98f03ba3e316bd0ee
-  method: Recovery
-  name: Redmi Note 11T Pro / POCO X4 GT / Pro Russia
-  size: 5.3 GB
-  version: OS1.0.7.0.ULORUXM
-- android: '14.0'
-  branch: Stable
-  codename: xaga_ru_global
-  date: 2024-11-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.ULORUXM/xaga_ru_global_images_OS1.0.7.0.ULORUXM_20241125.0000.00_14.0_ru_82e4ce1016.tgz
-  md5: 82e4ce1016fb17e1786958a64d8179cf
+  date: 2025-01-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.ULORUXM/xaga_ru_global_images_OS1.0.8.0.ULORUXM_20250106.0000.00_14.0_ru_c16b9d2432.tgz
+  md5: c16b9d24326699c907b800d18fd85d1c
   method: Fastboot
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Russia
   size: 7.0 GB
-  version: OS1.0.7.0.ULORUXM
+  version: OS1.0.8.0.ULORUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xaga_tr_global
   date: 2025-01-13
   link: https://bigota.d.miui.com/OS1.0.7.0.ULOTRXM/miui_XAGATRGlobal_OS1.0.7.0.ULOTRXM_ed99d27d3c_14.0.zip
@@ -27591,25 +27581,15 @@
 - android: '14.0'
   branch: Stable
   codename: xaga_tr_global
-  date: 2024-12-11
-  link: https://bigota.d.miui.com/OS1.0.6.0.ULOTRXM/miui_XAGATRGlobal_OS1.0.6.0.ULOTRXM_87e658c11a_14.0.zip
-  md5: 87e658c11a8602a7a05dc2c1ecd48463
-  method: Recovery
-  name: Redmi Note 11T Pro / POCO X4 GT / Pro Turkey
-  size: 5.3 GB
-  version: OS1.0.6.0.ULOTRXM
-- android: '14.0'
-  branch: Stable
-  codename: xaga_tr_global
-  date: 2024-11-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.ULOTRXM/xaga_tr_global_images_OS1.0.6.0.ULOTRXM_20241125.0000.00_14.0_tr_b5343ee106.tgz
-  md5: b5343ee1061ea15425ea36cc93745622
+  date: 2025-01-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.ULOTRXM/xaga_tr_global_images_OS1.0.7.0.ULOTRXM_20250106.0000.00_14.0_tr_8607fe0604.tgz
+  md5: 8607fe06049d51a2dec3df22714dfa1d
   method: Fastboot
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Turkey
-  size: 6.9 GB
-  version: OS1.0.6.0.ULOTRXM
+  size: 6.8 GB
+  version: OS1.0.7.0.ULOTRXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xaga_tw_global
   date: 2025-01-13
   link: https://bigota.d.miui.com/OS1.0.7.0.ULOTWXM/miui_XAGATWGlobal_OS1.0.7.0.ULOTWXM_25dcb32f76_14.0.zip
@@ -27621,23 +27601,13 @@
 - android: '14.0'
   branch: Stable
   codename: xaga_tw_global
-  date: 2024-12-11
-  link: https://bigota.d.miui.com/OS1.0.6.0.ULOTWXM/miui_XAGATWGlobal_OS1.0.6.0.ULOTWXM_65cff4ed3b_14.0.zip
-  md5: 65cff4ed3bde4884c781cda3a69ee2ff
-  method: Recovery
-  name: Redmi Note 11T Pro / POCO X4 GT / Pro Taiwan
-  size: 5.2 GB
-  version: OS1.0.6.0.ULOTWXM
-- android: '14.0'
-  branch: Stable
-  codename: xaga_tw_global
-  date: 2024-11-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.ULOTWXM/xaga_tw_global_images_OS1.0.6.0.ULOTWXM_20241125.0000.00_14.0_tw_6c85e85986.tgz
-  md5: 6c85e8598643c980521a8e8c906027fb
+  date: 2025-01-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.ULOTWXM/xaga_tw_global_images_OS1.0.7.0.ULOTWXM_20250107.0000.00_14.0_tw_6d6e8178c9.tgz
+  md5: 6d6e8178c9477837b748f95ab2eb95c5
   method: Fastboot
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Taiwan
   size: 6.6 GB
-  version: OS1.0.6.0.ULOTWXM
+  version: OS1.0.7.0.ULOTWXM
 - android: '15.0'
   branch: Stable Beta
   codename: xun
@@ -28831,6 +28801,26 @@
 - android: '15.0'
   branch: Stable Beta
   codename: zorn
+  date: 2024-12-12
+  link: https://bigota.d.miui.com/OS2.0.12.0.VOKCNXM/zorn-ota_full-OS2.0.12.0.VOKCNXM-user-15.0-44c050c43e.zip
+  md5: 44c050c43ea6253b3e26c879894a6ee6
+  method: Recovery
+  name: Redmi K80 China
+  size: 7.1 GB
+  version: OS2.0.12.0.VOKCNXM
+- android: '15.0'
+  branch: Stable
+  codename: zorn
+  date: 2025-01-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VOKCNXM/zorn_images_OS2.0.102.0.VOKCNXM_20250110.0000.00_15.0_cn_81eb9086f9.tgz
+  md5: 81eb9086f9426826b4b8b42d496e9254
+  method: Fastboot
+  name: Redmi K80 China
+  size: 9.2 GB
+  version: OS2.0.102.0.VOKCNXM
+- android: '15.0'
+  branch: Stable
+  codename: zorn
   date: 2025-01-15
   link: https://bigota.d.miui.com/OS2.0.102.0.VOKCNXM/zorn-ota_full-OS2.0.102.0.VOKCNXM-user-15.0-38033d7197.zip
   md5: 38033d719704d667570652bcdd42304c
@@ -28838,23 +28828,3 @@
   name: Redmi K80 China
   size: 7.1 GB
   version: OS2.0.102.0.VOKCNXM
-- android: '15.0'
-  branch: Stable
-  codename: zorn
-  date: 2025-01-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VOKCNXM/zorn_images_OS2.0.101.0.VOKCNXM_20241224.0000.00_15.0_cn_0f5b757611.tgz
-  md5: 0f5b75761176325b43523754577c9002
-  method: Fastboot
-  name: Redmi K80 China
-  size: 9.2 GB
-  version: OS2.0.101.0.VOKCNXM
-- android: '15.0'
-  branch: Stable
-  codename: zorn
-  date: 2024-12-27
-  link: https://bigota.d.miui.com/OS2.0.101.0.VOKCNXM/zorn-ota_full-OS2.0.101.0.VOKCNXM-user-15.0-56d3888e30.zip
-  md5: 56d3888e3093f49463c375a465f156eb
-  method: Recovery
-  name: Redmi K80 China
-  size: 7.1 GB
-  version: OS2.0.101.0.VOKCNXM
