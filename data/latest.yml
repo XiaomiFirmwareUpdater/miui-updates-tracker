@@ -6908,16 +6908,16 @@
   name: POCO X6 Pro 5G EEA
   size: 7.8 GB
   version: OS2.0.2.0.VNLEUXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
   codename: duchamp_global
-  date: 2025-01-07
-  link: https://bigota.d.miui.com/OS2.0.1.0.VNLMIXM/duchamp_global-ota_full-OS2.0.1.0.VNLMIXM-user-15.0-681cd7a65d.zip
-  md5: 681cd7a65dff7957e405f0b9b6516d76
+  date: 2024-12-05
+  link: https://bigota.d.miui.com/OS1.0.15.0.UNLMIXM/miui_DUCHAMPGlobal_OS1.0.15.0.UNLMIXM_4c311f2d69_14.0.zip
+  md5: 4c311f2d699963f30aba48c777e0ee96
   method: Recovery
   name: POCO X6 Pro 5G Global
-  size: 5.7 GB
-  version: OS2.0.1.0.VNLMIXM
+  size: 5.5 GB
+  version: OS1.0.15.0.UNLMIXM
 - android: '14.0'
   branch: Stable
   codename: duchamp_global
@@ -20171,13 +20171,13 @@
 - android: '15.0'
   branch: Stable Beta
   codename: rodin
-  date: null
-  link: https://bigota.d.miui.com/OS2.0.2.0.VOJCNXM/rodin-ota_full-OS2.0.2.0.VOJCNXM-user-15.0-503cf3660e.zip
-  md5: 503cf3660ea9ace15b3321c703437eda
+  date: 2025-01-24
+  link: https://bigota.d.miui.com/OS2.0.101.0.VOJCNXM/rodin-ota_full-OS2.0.101.0.VOJCNXM-user-15.0-e8226fb7ab.zip
+  md5: e8226fb7ab32ce92e1e733a4d0ee9453
   method: Recovery
   name: Redmi Turbo 4 China
   size: 7.1 GB
-  version: OS2.0.2.0.VOJCNXM
+  version: OS2.0.101.0.VOJCNXM
 - android: '15.0'
   branch: Stable
   codename: rodin
@@ -20218,6 +20218,16 @@
   name: POCO X7 Pro EEA
   size: 5.9 GB
   version: OS2.0.10.0.VOJEUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: rodin_global
+  date: 2025-02-05
+  link: https://bigota.d.miui.com/OS2.0.9.0.VOJMIXM/rodin_global-ota_full-OS2.0.9.0.VOJMIXM-user-15.0-d077b00098.zip
+  md5: d077b00098ba6dc93db55a6c9f75fbc7
+  method: Recovery
+  name: POCO X7 Pro Global
+  size: 5.9 GB
+  version: OS2.0.9.0.VOJMIXM
 - android: '15.0'
   branch: Stable
   codename: rodin_global
@@ -28358,8 +28368,18 @@
   name: Xiaomi 12 Pro EEA
   size: 6.4 GB
   version: OS1.0.17.0.ULBEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: zeus_global
+  date: 2022-12-12
+  link: https://bigota.d.miui.com/V13.2.1.0.TLBMIXM/miui_ZEUSGlobal_V13.2.1.0.TLBMIXM_603442db0b_13.0.zip
+  md5: 603442db0b988253263e036c25f44326
+  method: Recovery
+  name: Xiaomi 12 Pro Global
+  size: 4.8 GB
+  version: V13.2.1.0.TLBMIXM
+- android: '14.0'
+  branch: Stable
   codename: zeus_global
   date: 2025-01-20
   link: https://bigota.d.miui.com/OS1.0.10.0.ULBMIXM/miui_ZEUSGlobal_OS1.0.10.0.ULBMIXM_9d3fd280c8_14.0.zip
@@ -28371,23 +28391,13 @@
 - android: '14.0'
   branch: Stable
   codename: zeus_global
-  date: 2024-11-28
-  link: https://bigota.d.miui.com/OS1.0.8.0.ULBMIXM/miui_ZEUSGlobal_OS1.0.8.0.ULBMIXM_a43baf1e2e_14.0.zip
-  md5: a43baf1e2e81223dd687aebc905f1600
-  method: Recovery
-  name: Xiaomi 12 Pro Global
-  size: 5.3 GB
-  version: OS1.0.8.0.ULBMIXM
-- android: '14.0'
-  branch: Stable
-  codename: zeus_global
-  date: 2024-11-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.ULBMIXM/zeus_global_images_OS1.0.8.0.ULBMIXM_20241115.0000.00_14.0_global_f530414f61.tgz
-  md5: f530414f6155012194b5f6a3371182d2
+  date: 2025-01-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.ULBMIXM/zeus_global_images_OS1.0.10.0.ULBMIXM_20250107.0000.00_14.0_global_20b4c863c4.tgz
+  md5: 20b4c863c43c004f472aee3690ccc1dd
   method: Fastboot
   name: Xiaomi 12 Pro Global
   size: 6.5 GB
-  version: OS1.0.8.0.ULBMIXM
+  version: OS1.0.10.0.ULBMIXM
 - android: '14.0'
   branch: Stable
   codename: zeus_id_global
