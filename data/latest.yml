@@ -338,8 +338,18 @@
   name: Redmi 2 LTE China
   size: 351.5 MB
   version: V6.2.1.0.KHJCNBK
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: agate_eea_global
+  date: 2021-09-15
+  link: https://bigota.d.miui.com/V12.5.2.0.RKWEUXM/miui_AGATEEEAGlobal_V12.5.2.0.RKWEUXM_c1c8e246e4_11.0.zip
+  md5: c1c8e246e4396e8454b67b2499bac578
+  method: Recovery
+  name: Xiaomi 11T EEA
+  size: 2.9 GB
+  version: V12.5.2.0.RKWEUXM
+- android: '14.0'
+  branch: Stable
   codename: agate_eea_global
   date: 2025-02-24
   link: https://bigota.d.miui.com/OS1.0.11.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.11.0.UKWEUXM_ad3750b77c_14.0.zip
@@ -351,23 +361,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_eea_global
-  date: 2025-01-21
-  link: https://bigota.d.miui.com/OS1.0.10.0.UKWEUXM/miui_AGATEEEAGlobal_OS1.0.10.0.UKWEUXM_6e09feeec4_14.0.zip
-  md5: 6e09feeec4fd978802f4db87ddd7035b
-  method: Recovery
-  name: Xiaomi 11T EEA
-  size: 4.9 GB
-  version: OS1.0.10.0.UKWEUXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_eea_global
-  date: 2025-01-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UKWEUXM/agate_eea_global_images_OS1.0.10.0.UKWEUXM_20250115.0000.00_14.0_eea_3c2f45d9c8.tgz
-  md5: 3c2f45d9c8cce468842de12912f45e99
+  date: 2025-02-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UKWEUXM/agate_eea_global_images_OS1.0.11.0.UKWEUXM_20250217.0000.00_14.0_eea_cd05916608.tgz
+  md5: cd05916608b211e2c2c5d599734b45f9
   method: Fastboot
   name: Xiaomi 11T EEA
   size: 6.2 GB
-  version: OS1.0.10.0.UKWEUXM
+  version: OS1.0.11.0.UKWEUXM
 - android: '14.0'
   branch: Stable Beta
   codename: agate_global
@@ -4968,6 +4968,16 @@
   name: Xiaomi 13T Pro Turkey
   size: 7.4 GB
   version: OS2.0.2.0.VMLTRXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: corot_tw_global
+  date: 2025-03-04
+  link: https://bigota.d.miui.com/OS2.0.2.0.VMLTWXM/corot_tw_global-ota_full-OS2.0.2.0.VMLTWXM-user-15.0-e48f735a4e.zip
+  md5: e48f735a4edf3950d686a277a19fa1d5
+  method: Recovery
+  name: Xiaomi 13T Pro Taiwan
+  size: 5.9 GB
+  version: OS2.0.2.0.VMLTWXM
 - android: '14.0'
   branch: Stable
   codename: corot_tw_global
@@ -7538,6 +7548,16 @@
   name: Redmi Note 13 Pro 4G / POCO M6 Pro Indonesia
   size: 7.1 GB
   version: OS1.0.10.0.UNFIDXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: emerald_ru_global
+  date: 2025-03-03
+  link: https://bigota.d.miui.com/OS2.0.1.0.VNFRUXM/emerald_ru_global-ota_full-OS2.0.1.0.VNFRUXM-user-15.0-faa2f2c84f.zip
+  md5: faa2f2c84f6cf9686dfeabd95b97bcb0
+  method: Recovery
+  name: Redmi Note 13 Pro 4G / POCO M6 Pro Russia
+  size: 4.7 GB
+  version: OS2.0.1.0.VNFRUXM
 - android: '14.0'
   branch: Stable
   codename: emerald_ru_global
@@ -7558,6 +7578,16 @@
   name: Redmi Note 13 Pro 4G / POCO M6 Pro Russia
   size: 7.8 GB
   version: OS1.0.9.0.UNFRUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: emerald_tr_global
+  date: 2025-03-03
+  link: https://bigota.d.miui.com/OS2.0.1.0.VNFTRXM/emerald_tr_global-ota_full-OS2.0.1.0.VNFTRXM-user-15.0-515148b139.zip
+  md5: 515148b1391c30fbd1cdb404d4dbb22c
+  method: Recovery
+  name: Redmi Note 13 Pro 4G / POCO M6 Pro Turkey
+  size: 4.8 GB
+  version: OS2.0.1.0.VNFTRXM
 - android: '14.0'
   branch: Stable
   codename: emerald_tr_global
@@ -8159,6 +8189,16 @@
   size: 6.5 GB
   version: OS2.0.2.0.VMXIDXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: fire_in_global
+  date: 2025-03-04
+  link: https://bigota.d.miui.com/OS2.0.3.0.VMXINXM/fire_in_global-ota_full-OS2.0.3.0.VMXINXM-user-15.0-6ce4915511.zip
+  md5: 6ce4915511816f5746c5ba90390d9881
+  method: Recovery
+  name: Redmi 12 India
+  size: 4.4 GB
+  version: OS2.0.3.0.VMXINXM
+- android: '15.0'
   branch: Stable
   codename: fire_in_global
   date: 2025-02-05
@@ -8209,7 +8249,7 @@
   size: 7.0 GB
   version: OS2.0.2.0.VMXRUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: fire_tr_global
   date: 2025-02-25
   link: https://bigota.d.miui.com/OS2.0.2.0.VMXTRXM/fire_tr_global-ota_full-OS2.0.2.0.VMXTRXM-user-15.0-cc4f8354fb.zip
@@ -8221,23 +8261,13 @@
 - android: '15.0'
   branch: Stable
   codename: fire_tr_global
-  date: 2025-01-06
-  link: https://bigota.d.miui.com/OS2.0.1.0.VMXTRXM/fire_tr_global-ota_full-OS2.0.1.0.VMXTRXM-user-15.0-95273ea60b.zip
-  md5: 95273ea60bdb6a025a8f272d01325171
-  method: Recovery
-  name: Redmi 12 Turkey
-  size: 4.5 GB
-  version: OS2.0.1.0.VMXTRXM
-- android: '15.0'
-  branch: Stable
-  codename: fire_tr_global
-  date: 2024-12-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.1.0.VMXTRXM/fire_tr_global_images_OS2.0.1.0.VMXTRXM_20241223.0000.00_15.0_tr_a78dcff82c.tgz
-  md5: a78dcff82c964722e59f0ed5f0b20df6
+  date: 2025-02-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VMXTRXM/fire_tr_global_images_OS2.0.2.0.VMXTRXM_20250221.0000.00_15.0_tr_7f2230f2cc.tgz
+  md5: 7f2230f2cc1969830c75337d7cab8f05
   method: Fastboot
   name: Redmi 12 Turkey
   size: 6.3 GB
-  version: OS2.0.1.0.VMXTRXM
+  version: OS2.0.2.0.VMXTRXM
 - android: '14.0'
   branch: Stable Beta
   codename: flame
@@ -8938,8 +8968,28 @@
   name: Xiaomi 13 China
   size: 7.8 GB
   version: 23.5.6
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: fuxi_eea_global
+  date: 2023-10-24
+  link: https://bigota.d.miui.com/V14.0.6.0.UMCEUXM/miui_FUXIEEAGlobal_V14.0.6.0.UMCEUXM_bd06bcd878_14.0.zip
+  md5: bd06bcd878627d10a6675aae262c75e2
+  method: Recovery
+  name: Xiaomi 13 EEA
+  size: 5.9 GB
+  version: V14.0.6.0.UMCEUXM
+- android: '15.0'
+  branch: Stable
+  codename: fuxi_eea_global
+  date: 2025-03-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VMCEUXM/fuxi_eea_global_images_OS2.0.102.0.VMCEUXM_20250217.0000.00_15.0_eea_598167cc11.tgz
+  md5: 598167cc11aa057ce8a5bd5f57eb9a6d
+  method: Fastboot
+  name: Xiaomi 13 EEA
+  size: 7.8 GB
+  version: OS2.0.102.0.VMCEUXM
+- android: '15.0'
+  branch: Stable
   codename: fuxi_eea_global
   date: 2025-02-24
   link: https://bigota.d.miui.com/OS2.0.102.0.VMCEUXM/fuxi_eea_global-ota_full-OS2.0.102.0.VMCEUXM-user-15.0-0ce0c6ece5.zip
@@ -8948,26 +8998,6 @@
   name: Xiaomi 13 EEA
   size: 6.1 GB
   version: OS2.0.102.0.VMCEUXM
-- android: '15.0'
-  branch: Stable
-  codename: fuxi_eea_global
-  date: 2025-01-23
-  link: https://bigota.d.miui.com/OS2.0.3.0.VMCEUXM/fuxi_eea_global-ota_full-OS2.0.3.0.VMCEUXM-user-15.0-33b3fb8985.zip
-  md5: 33b3fb8985912fbe886dae3d7143297a
-  method: Recovery
-  name: Xiaomi 13 EEA
-  size: 6.2 GB
-  version: OS2.0.3.0.VMCEUXM
-- android: '15.0'
-  branch: Stable
-  codename: fuxi_eea_global
-  date: 2025-01-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VMCEUXM/fuxi_eea_global_images_OS2.0.3.0.VMCEUXM_20250113.0000.00_15.0_eea_ac95d95a41.tgz
-  md5: ac95d95a41447c5ff237f4b5eea80048
-  method: Fastboot
-  name: Xiaomi 13 EEA
-  size: 7.8 GB
-  version: OS2.0.3.0.VMCEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: fuxi_global
@@ -11549,6 +11579,16 @@
   size: 8.1 GB
   version: OS2.0.1.0.VMAEUXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: ishtar_global
+  date: 2025-03-03
+  link: https://bigota.d.miui.com/OS2.0.101.0.VMAMIXM/ishtar_global-ota_full-OS2.0.101.0.VMAMIXM-user-15.0-7be47ad890.zip
+  md5: 7be47ad8909fd9807d836208c2cf7a72
+  method: Recovery
+  name: Xiaomi 13 Ultra Global
+  size: 6.4 GB
+  version: OS2.0.101.0.VMAMIXM
+- android: '15.0'
   branch: Stable
   codename: ishtar_global
   date: 2025-01-07
@@ -11862,21 +11902,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -14038,26 +14078,26 @@
   name: Redmi 2A China
   size: 557.5 MB
   version: 7.11.16
-- android: '14.0'
+- android: '15.0'
+  branch: Stable
+  codename: malachite
+  date: 2025-02-18
+  link: https://bigota.d.miui.com/OS2.0.6.0.VOOCNXM/malachite-ota_full-OS2.0.6.0.VOOCNXM-user-15.0-edae3d9b93.zip
+  md5: edae3d9b93459cea9bdd04a6acb9ae68
+  method: Recovery
+  name: Redmi Note 14 Pro 5G / POCO X7 China
+  size: 6.9 GB
+  version: OS2.0.6.0.VOOCNXM
+- android: '15.0'
   branch: Stable
   codename: malachite
   date: 2025-02-13
-  link: https://bigota.d.miui.com/OS1.0.12.0.UOOCNXM/miui_MALACHITE_OS1.0.12.0.UOOCNXM_a4d3a5a2ae_14.0.zip
-  md5: a4d3a5a2ae9cf5a6781cec4cf96962c4
-  method: Recovery
-  name: Redmi Note 14 Pro 5G / POCO X7 China
-  size: 6.5 GB
-  version: OS1.0.12.0.UOOCNXM
-- android: '14.0'
-  branch: Stable
-  codename: malachite
-  date: 2025-02-05
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UOOCNXM/malachite_images_OS1.0.12.0.UOOCNXM_20250205.0000.00_14.0_cn_11d6cfb837.tgz
-  md5: 11d6cfb837092bda787407c91c0f08a4
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.6.0.VOOCNXM/malachite_images_OS2.0.6.0.VOOCNXM_20250213.0000.00_15.0_cn_bcaae0f64d.tgz
+  md5: bcaae0f64df46e09f2fc6eed45b95e15
   method: Fastboot
   name: Redmi Note 14 Pro 5G / POCO X7 China
-  size: 8.6 GB
-  version: OS1.0.12.0.UOOCNXM
+  size: 8.9 GB
+  version: OS2.0.6.0.VOOCNXM
 - android: '14.0'
   branch: Stable
   codename: malachite_eea_global
@@ -14218,16 +14258,16 @@
   name: Redmi Note 14 Pro 5G / POCO X7 Taiwan
   size: 7.5 GB
   version: OS1.0.5.0.UOOTWXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
   codename: manet
-  date: 2025-02-21
-  link: https://bigota.d.miui.com/OS2.0.104.0.VNMCNXM/manet-ota_full-OS2.0.104.0.VNMCNXM-user-15.0-5e303c2242.zip
-  md5: 5e303c2242f1725fadc056c5eefb2ee0
+  date: 2023-12-13
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNMCNXM/miui_MANET_OS1.0.7.0.UNMCNXM_8dba150437_14.0.zip
+  md5: 8dba150437bbd6e87d14a68785718d7f
   method: Recovery
   name: Redmi K70 Pro China
-  size: 7.1 GB
-  version: OS2.0.104.0.VNMCNXM
+  size: 6.5 GB
+  version: OS1.0.7.0.UNMCNXM
 - android: '14.0'
   branch: Stable Beta
   codename: manet
@@ -14241,23 +14281,23 @@
 - android: '15.0'
   branch: Stable
   codename: manet
-  date: 2025-01-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNMCNXM/manet_images_OS2.0.101.0.VNMCNXM_20250108.0000.00_15.0_cn_8354004e94.tgz
-  md5: 8354004e94968dcbcffccddb30426fa3
+  date: 2025-03-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.104.0.VNMCNXM/manet_images_OS2.0.104.0.VNMCNXM_20250218.0000.00_15.0_cn_53439ebf94.tgz
+  md5: 53439ebf94586b3c4eaa54c77d51cf0b
   method: Fastboot
   name: Redmi K70 Pro China
-  size: 9.2 GB
-  version: OS2.0.101.0.VNMCNXM
+  size: 9.1 GB
+  version: OS2.0.104.0.VNMCNXM
 - android: '15.0'
   branch: Stable
   codename: manet
-  date: 2025-01-14
-  link: https://bigota.d.miui.com/OS2.0.101.0.VNMCNXM/manet-ota_full-OS2.0.101.0.VNMCNXM-user-15.0-bedfaaa689.zip
-  md5: bedfaaa689b47de4268dab9a5b4045f2
+  date: 2025-02-21
+  link: https://bigota.d.miui.com/OS2.0.104.0.VNMCNXM/manet-ota_full-OS2.0.104.0.VNMCNXM-user-15.0-5e303c2242.zip
+  md5: 5e303c2242f1725fadc056c5eefb2ee0
   method: Recovery
   name: Redmi K70 Pro China
-  size: 7.0 GB
-  version: OS2.0.101.0.VNMCNXM
+  size: 7.1 GB
+  version: OS2.0.104.0.VNMCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: marble
@@ -22049,6 +22089,16 @@
   size: 7.8 GB
   version: OS2.0.8.0.VNGMIXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: sapphiren_eea_global
+  date: 2025-02-28
+  link: https://bigota.d.miui.com/OS2.0.4.0.VNHEUXM/sapphiren_eea_global-ota_full-OS2.0.4.0.VNHEUXM-user-15.0-e84f6478aa.zip
+  md5: e84f6478aa064f0ef5b7a042237f802a
+  method: Recovery
+  name: Redmi Note 13 NFC EEA
+  size: 4.7 GB
+  version: OS2.0.4.0.VNHEUXM
+- android: '15.0'
   branch: Stable
   codename: sapphiren_eea_global
   date: 2025-01-16
@@ -22068,6 +22118,16 @@
   name: Redmi Note 13 NFC EEA
   size: 7.3 GB
   version: OS2.0.3.0.VNHEUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: sapphiren_global
+  date: 2025-02-28
+  link: https://bigota.d.miui.com/OS2.0.9.0.VNHMIXM/sapphiren_global-ota_full-OS2.0.9.0.VNHMIXM-user-15.0-c2516df1fd.zip
+  md5: c2516df1fd40acb0e58a83679c7bf010
+  method: Recovery
+  name: Redmi Note 13 NFC Global
+  size: 4.7 GB
+  version: OS2.0.9.0.VNHMIXM
 - android: '15.0'
   branch: Stable
   codename: sapphiren_global
@@ -22091,6 +22151,16 @@
 - android: '15.0'
   branch: Stable Beta
   codename: sapphiren_id_global
+  date: 2024-12-17
+  link: https://bigota.d.miui.com/OS2.0.1.0.VNHIDXM/sapphiren_id_global-ota_full-OS2.0.1.0.VNHIDXM-user-15.0-4a792cf170.zip
+  md5: 4a792cf170e52e0ed576b9d272dd0e0d
+  method: Recovery
+  name: Redmi Note 13 NFC Indonesia
+  size: 4.6 GB
+  version: OS2.0.1.0.VNHIDXM
+- android: '15.0'
+  branch: Stable
+  codename: sapphiren_id_global
   date: 2025-02-25
   link: https://bigota.d.miui.com/OS2.0.3.0.VNHIDXM/sapphiren_id_global-ota_full-OS2.0.3.0.VNHIDXM-user-15.0-203734b641.zip
   md5: 203734b64124141854a76188bed8795e
@@ -22101,23 +22171,13 @@
 - android: '15.0'
   branch: Stable
   codename: sapphiren_id_global
-  date: 2025-01-08
-  link: https://bigota.d.miui.com/OS2.0.2.0.VNHIDXM/sapphiren_id_global-ota_full-OS2.0.2.0.VNHIDXM-user-15.0-9b621782b5.zip
-  md5: 9b621782b5a347255c2fbff74c6d01cc
-  method: Recovery
-  name: Redmi Note 13 NFC Indonesia
-  size: 4.6 GB
-  version: OS2.0.2.0.VNHIDXM
-- android: '15.0'
-  branch: Stable
-  codename: sapphiren_id_global
-  date: 2025-01-02
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VNHIDXM/sapphiren_id_global_images_OS2.0.2.0.VNHIDXM_20250102.0000.00_15.0_id_d33deb248b.tgz
-  md5: d33deb248b01c00bcfb42fd04d83ea94
+  date: 2025-02-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VNHIDXM/sapphiren_id_global_images_OS2.0.3.0.VNHIDXM_20250217.0000.00_15.0_id_0bd3123cb4.tgz
+  md5: 0bd3123cb476aa50d8c2d9229d5e9fe9
   method: Fastboot
   name: Redmi Note 13 NFC Indonesia
-  size: 6.9 GB
-  version: OS2.0.2.0.VNHIDXM
+  size: 7.1 GB
+  version: OS2.0.3.0.VNHIDXM
 - android: '15.0'
   branch: Stable
   codename: sapphiren_ru_global
@@ -22138,6 +22198,16 @@
   name: Redmi Note 13 NFC Russia
   size: 7.8 GB
   version: OS2.0.6.0.VNHRUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: sapphiren_tr_global
+  date: 2025-03-04
+  link: https://bigota.d.miui.com/OS2.0.5.0.VNHTRXM/sapphiren_tr_global-ota_full-OS2.0.5.0.VNHTRXM-user-15.0-0c31ae9ef7.zip
+  md5: 0c31ae9ef7ab0af4f95b83326936e1c0
+  method: Recovery
+  name: Redmi Note 13 NFC Turkey
+  size: 4.6 GB
+  version: OS2.0.5.0.VNHTRXM
 - android: '15.0'
   branch: Stable
   codename: sapphiren_tr_global
@@ -26439,6 +26509,16 @@
   size: 9.4 GB
   version: OS2.0.3.0.VNKEUXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: vermeer_global
+  date: 2025-03-03
+  link: https://bigota.d.miui.com/OS2.0.100.0.VNKMIXM/vermeer_global-ota_full-OS2.0.100.0.VNKMIXM-user-15.0-d63c2bb143.zip
+  md5: d63c2bb1433df27949b7fa74658bce75
+  method: Recovery
+  name: POCO F6 Pro Global
+  size: 6.7 GB
+  version: OS2.0.100.0.VNKMIXM
+- android: '15.0'
   branch: Stable
   codename: vermeer_global
   date: 2025-02-12
@@ -26799,7 +26879,7 @@
   size: 6.6 GB
   version: OS1.0.8.0.UKDMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: vili_id_global
   date: 2025-02-25
   link: https://bigota.d.miui.com/OS1.0.9.0.UKDIDXM/miui_VILIIDGlobal_OS1.0.9.0.UKDIDXM_e3214c3989_14.0.zip
@@ -26811,23 +26891,13 @@
 - android: '14.0'
   branch: Stable
   codename: vili_id_global
-  date: 2024-12-03
-  link: https://bigota.d.miui.com/OS1.0.7.0.UKDIDXM/miui_VILIIDGlobal_OS1.0.7.0.UKDIDXM_0cfb575daf_14.0.zip
-  md5: 0cfb575daf1bb85bf195f36a81e20062
-  method: Recovery
-  name: Xiaomi 11T Pro Indonesia
-  size: 5.2 GB
-  version: OS1.0.7.0.UKDIDXM
-- android: '14.0'
-  branch: Stable
-  codename: vili_id_global
-  date: 2024-11-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.7.0.UKDIDXM/vili_id_global_images_OS1.0.7.0.UKDIDXM_20241113.0000.00_14.0_id_a90f0efa87.tgz
-  md5: a90f0efa87c023125b857bec0975b0bb
+  date: 2025-02-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UKDIDXM/vili_id_global_images_OS1.0.9.0.UKDIDXM_20250217.0000.00_14.0_id_e191547ad9.tgz
+  md5: e191547ad90e5d5dd6f8342ffa36aa0c
   method: Fastboot
   name: Xiaomi 11T Pro Indonesia
   size: 6.5 GB
-  version: OS1.0.7.0.UKDIDXM
+  version: OS1.0.9.0.UKDIDXM
 - android: '14.0'
   branch: Stable Beta
   codename: vili_in_global
@@ -28689,6 +28759,16 @@
   size: 2.0 GB
   version: V12.0.1.0.PEFRUXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: yudi
+  date: 2025-03-04
+  link: https://bigota.d.miui.com/OS2.0.6.0.VMHCNXM/yudi-ota_full-OS2.0.6.0.VMHCNXM-user-15.0-ee905a8d50.zip
+  md5: ee905a8d508ce0a28ac662d853e0305b
+  method: Recovery
+  name: Xiaomi Pad 6 Max 14 China
+  size: 6.8 GB
+  version: OS2.0.6.0.VMHCNXM
+- android: '15.0'
   branch: Stable
   codename: yudi
   date: 2025-01-13
@@ -28708,6 +28788,16 @@
   name: Xiaomi Pad 6 Max 14 China
   size: 7.8 GB
   version: OS2.0.4.0.VMHCNXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: yuechu
+  date: 2025-03-04
+  link: https://bigota.d.miui.com/OS2.0.2.0.VMICNXM/yuechu-ota_full-OS2.0.2.0.VMICNXM-user-15.0-a171fa4d1a.zip
+  md5: a171fa4d1a7709bf064666a8f5a9de03
+  method: Recovery
+  name: Xiaomi Civi 3 China
+  size: 6.7 GB
+  version: OS2.0.2.0.VMICNXM
 - android: '14.0'
   branch: Stable
   codename: yuechu
