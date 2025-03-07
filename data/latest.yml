@@ -368,8 +368,18 @@
   name: Xiaomi 11T EEA
   size: 6.2 GB
   version: OS1.0.11.0.UKWEUXM
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: agate_global
+  date: 2021-09-15
+  link: https://bigota.d.miui.com/V12.5.1.0.RKWMIXM/miui_AGATEGlobal_V12.5.1.0.RKWMIXM_fcb5bac54c_11.0.zip
+  md5: fcb5bac54cdac6ac8a1262385792e2f4
+  method: Recovery
+  name: Xiaomi 11T Global
+  size: 2.8 GB
+  version: V12.5.1.0.RKWMIXM
+- android: '14.0'
+  branch: Stable
   codename: agate_global
   date: 2025-02-24
   link: https://bigota.d.miui.com/OS1.0.12.0.UKWMIXM/miui_AGATEGlobal_OS1.0.12.0.UKWMIXM_7cc2084312_14.0.zip
@@ -381,23 +391,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_global
-  date: 2025-01-15
-  link: https://bigota.d.miui.com/OS1.0.11.0.UKWMIXM/miui_AGATEGlobal_OS1.0.11.0.UKWMIXM_9fb35fc82d_14.0.zip
-  md5: 9fb35fc82df1dac7fa8710413ef19e46
-  method: Recovery
-  name: Xiaomi 11T Global
-  size: 5.0 GB
-  version: OS1.0.11.0.UKWMIXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_global
-  date: 2025-01-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UKWMIXM/agate_global_images_OS1.0.11.0.UKWMIXM_20250109.0000.00_14.0_global_368d6c4144.tgz
-  md5: 368d6c414430d07f6cfe1a6e2b799cf6
+  date: 2025-02-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UKWMIXM/agate_global_images_OS1.0.12.0.UKWMIXM_20250217.0000.00_14.0_global_f1dab2ed99.tgz
+  md5: f1dab2ed9979229f0ea0d311327181f9
   method: Fastboot
   name: Xiaomi 11T Global
   size: 6.4 GB
-  version: OS1.0.11.0.UKWMIXM
+  version: OS1.0.12.0.UKWMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: agate_id_global
@@ -2558,6 +2558,16 @@
   name: Redmi Note 14 5G / POCO M7 Pro 5G Russia
   size: 8.0 GB
   version: OS1.0.6.0.UOQRUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: beryl_tr_global
+  date: 2025-03-07
+  link: https://bigota.d.miui.com/OS1.0.3.0.UOQTRXM/miui_BERYLTRGlobal_OS1.0.3.0.UOQTRXM_807166d8a5_14.0.zip
+  md5: 807166d8a5b8abca2a842c971a630d57
+  method: Recovery
+  name: Redmi Note 14 5G / POCO M7 Pro 5G Turkey
+  size: 4.7 GB
+  version: OS1.0.3.0.UOQTRXM
 - android: '14.0'
   branch: Stable
   codename: beryl_tr_global
@@ -6968,16 +6978,16 @@
   name: Redmi Pad Pro / POCO Pad Turkey
   size: 5.5 GB
   version: OS2.0.1.0.VNSTRXM
-- android: '14.0'
+- android: '15.0'
   branch: Stable
   codename: dizi_tw_global
-  date: 2025-01-09
-  link: https://bigota.d.miui.com/OS1.0.11.0.UNSTWXM/miui_DIZITWGlobal_OS1.0.11.0.UNSTWXM_588a299754_14.0.zip
-  md5: 588a299754c8de2f9b597d6c0a140e26
+  date: 2025-01-10
+  link: https://bigota.d.miui.com/OS2.0.1.0.VNSTWXM/dizi_tw_global-ota_full-OS2.0.1.0.VNSTWXM-user-15.0-d1331adc93.zip
+  md5: d1331adc936307c9f8a1e2df8519c987
   method: Recovery
   name: Redmi Pad Pro / POCO Pad Taiwan
-  size: 4.1 GB
-  version: OS1.0.11.0.UNSTWXM
+  size: 4.4 GB
+  version: OS2.0.1.0.VNSTWXM
 - android: '14.0'
   branch: Stable
   codename: dizi_tw_global
@@ -11902,21 +11912,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -21259,7 +21269,17 @@
   size: 7.7 GB
   version: OS2.0.3.0.VNNTRXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: rothko_tw_global
+  date: 2025-03-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VNNTWXM/rothko_tw_global_images_OS2.0.102.0.VNNTWXM_20250224.0000.00_15.0_tw_6b763ab42f.tgz
+  md5: 6b763ab42f32616186940b15c1f709ff
+  method: Fastboot
+  name: Xiaomi 14T Pro Taiwan
+  size: 7.4 GB
+  version: OS2.0.102.0.VNNTWXM
+- android: '15.0'
+  branch: Stable
   codename: rothko_tw_global
   date: 2025-02-28
   link: https://bigota.d.miui.com/OS2.0.102.0.VNNTWXM/rothko_tw_global-ota_full-OS2.0.102.0.VNNTWXM-user-15.0-48c570eee5.zip
@@ -21268,26 +21288,6 @@
   name: Xiaomi 14T Pro Taiwan
   size: 6.1 GB
   version: OS2.0.102.0.VNNTWXM
-- android: '15.0'
-  branch: Stable
-  codename: rothko_tw_global
-  date: 2025-01-03
-  link: https://bigota.d.miui.com/OS2.0.3.0.VNNTWXM/rothko_tw_global-ota_full-OS2.0.3.0.VNNTWXM-user-15.0-807adb1d03.zip
-  md5: 807adb1d03b3d2eda1bde758f7800c53
-  method: Recovery
-  name: Xiaomi 14T Pro Taiwan
-  size: 6.0 GB
-  version: OS2.0.3.0.VNNTWXM
-- android: '15.0'
-  branch: Stable
-  codename: rothko_tw_global
-  date: 2024-12-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VNNTWXM/rothko_tw_global_images_OS2.0.3.0.VNNTWXM_20241226.0000.00_15.0_tw_6087476505.tgz
-  md5: 6087476505138ba21626a6ae71ff159a
-  method: Fastboot
-  name: Xiaomi 14T Pro Taiwan
-  size: 7.2 GB
-  version: OS2.0.3.0.VNNTWXM
 - android: '15.0'
   branch: Stable
   codename: ruan
@@ -22368,8 +22368,18 @@
   name: Redmi Note 12S EEA
   size: 6.3 GB
   version: OS1.0.13.0.UHZEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: sea_global
+  date: 2023-05-10
+  link: https://bigota.d.miui.com/V14.0.1.0.THZMIXM/miui_SEAGlobal_V14.0.1.0.THZMIXM_44264fcd36_13.0.zip
+  md5: 44264fcd36bb26a8018b0e9b6a71b014
+  method: Recovery
+  name: Redmi Note 12S Global
+  size: 4.1 GB
+  version: V14.0.1.0.THZMIXM
+- android: '14.0'
+  branch: Stable
   codename: sea_global
   date: 2025-02-25
   link: https://bigota.d.miui.com/OS1.0.16.0.UHZMIXM/miui_SEAGlobal_OS1.0.16.0.UHZMIXM_d77f6bfd3b_14.0.zip
@@ -22381,23 +22391,13 @@
 - android: '14.0'
   branch: Stable
   codename: sea_global
-  date: 2025-01-20
-  link: https://bigota.d.miui.com/OS1.0.14.0.UHZMIXM/miui_SEAGlobal_OS1.0.14.0.UHZMIXM_a0a4ebfde0_14.0.zip
-  md5: a0a4ebfde07b006d23dd6209e2aa897b
-  method: Recovery
-  name: Redmi Note 12S Global
-  size: 4.3 GB
-  version: OS1.0.14.0.UHZMIXM
-- android: '14.0'
-  branch: Stable
-  codename: sea_global
-  date: 2025-01-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.14.0.UHZMIXM/sea_global_images_OS1.0.14.0.UHZMIXM_20250107.0000.00_14.0_global_027f06a06d.tgz
-  md5: 027f06a06d20e2f8f0004cd65b381cdc
+  date: 2025-02-19
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.16.0.UHZMIXM/sea_global_images_OS1.0.16.0.UHZMIXM_20250219.0000.00_14.0_global_65c6e664ad.tgz
+  md5: 65c6e664ad312b72b0fdc9723b425330
   method: Fastboot
   name: Redmi Note 12S Global
   size: 6.7 GB
-  version: OS1.0.14.0.UHZMIXM
+  version: OS1.0.16.0.UHZMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: sea_ru_global
@@ -22459,7 +22459,7 @@
   size: 5.9 GB
   version: OS1.0.9.0.UHZTRXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sea_tw_global
   date: 2025-02-26
   link: https://bigota.d.miui.com/OS1.0.11.0.UHZTWXM/miui_SEATWGlobal_OS1.0.11.0.UHZTWXM_10f3e5c54c_14.0.zip
@@ -22471,23 +22471,13 @@
 - android: '14.0'
   branch: Stable
   codename: sea_tw_global
-  date: 2025-01-22
-  link: https://bigota.d.miui.com/OS1.0.10.0.UHZTWXM/miui_SEATWGlobal_OS1.0.10.0.UHZTWXM_0d7306b9d6_14.0.zip
-  md5: 0d7306b9d6d1018ce85831c687e5ade2
-  method: Recovery
-  name: Redmi Note 12S Taiwan
-  size: 4.2 GB
-  version: OS1.0.10.0.UHZTWXM
-- android: '14.0'
-  branch: Stable
-  codename: sea_tw_global
-  date: 2025-01-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UHZTWXM/sea_tw_global_images_OS1.0.10.0.UHZTWXM_20250107.0000.00_14.0_tw_75711f8b86.tgz
-  md5: 75711f8b861b2dfa92fad65c7c5db415
+  date: 2025-02-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UHZTWXM/sea_tw_global_images_OS1.0.11.0.UHZTWXM_20250220.0000.00_14.0_tw_3f4da42773.tgz
+  md5: 3f4da427736d4737fc0cd457fa9b836b
   method: Fastboot
   name: Redmi Note 12S Taiwan
   size: 5.7 GB
-  version: OS1.0.10.0.UHZTWXM
+  version: OS1.0.11.0.UHZTWXM
 - android: '13.0'
   branch: Stable
   codename: selene
@@ -22999,6 +22989,16 @@
   size: 6.9 GB
   version: OS2.0.2.0.VMWCNXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: sky_eea_global
+  date: 2025-02-28
+  link: https://bigota.d.miui.com/OS2.0.5.0.VMWEUXM/sky_eea_global-ota_full-OS2.0.5.0.VMWEUXM-user-15.0-0c811cb5a7.zip
+  md5: 0c811cb5a7706dd79abbfa8b5df542ea
+  method: Recovery
+  name: Redmi 12 5G / POCO M6 Pro 5G EEA
+  size: 4.8 GB
+  version: OS2.0.5.0.VMWEUXM
+- android: '15.0'
   branch: Stable
   codename: sky_eea_global
   date: 2025-01-09
@@ -23018,6 +23018,16 @@
   name: Redmi 12 5G / POCO M6 Pro 5G EEA
   size: 6.9 GB
   version: OS2.0.3.0.VMWEUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: sky_global
+  date: 2025-03-04
+  link: https://bigota.d.miui.com/OS2.0.4.0.VMWMIXM/sky_global-ota_full-OS2.0.4.0.VMWMIXM-user-15.0-ea8721c043.zip
+  md5: ea8721c0438e2aa33c54f2a33a30ead9
+  method: Recovery
+  name: Redmi 12 5G / POCO M6 Pro 5G Global
+  size: 4.8 GB
+  version: OS2.0.4.0.VMWMIXM
 - android: '15.0'
   branch: Stable
   codename: sky_global
@@ -23771,13 +23781,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -24279,7 +24289,7 @@
   size: 7.7 GB
   version: OS1.0.6.0.UOGMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: tanzanite_id_global
   date: 2025-02-24
   link: https://bigota.d.miui.com/OS1.0.3.0.UOGIDXM/miui_TANZANITEIDGlobal_OS1.0.3.0.UOGIDXM_9fe1ee3529_14.0.zip
@@ -24291,25 +24301,15 @@
 - android: '14.0'
   branch: Stable
   codename: tanzanite_id_global
-  date: 2025-02-06
-  link: https://bigota.d.miui.com/OS1.0.1.0.UOGIDXM/miui_TANZANITEIDGlobal_OS1.0.1.0.UOGIDXM_40e2e12e52_14.0.zip
-  md5: 40e2e12e5234c9394a9cc8599703da6a
-  method: Recovery
-  name: Redmi Note 14 4G Indonesia
-  size: 4.5 GB
-  version: OS1.0.1.0.UOGIDXM
-- android: '14.0'
-  branch: Stable
-  codename: tanzanite_id_global
-  date: 2024-11-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.1.0.UOGIDXM/tanzanite_id_global_images_OS1.0.1.0.UOGIDXM_20241126.0000.00_14.0_id_f1e7919203.tgz
-  md5: f1e79192039e875aec994ab91929aae9
+  date: 2025-02-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UOGIDXM/tanzanite_id_global_images_OS1.0.3.0.UOGIDXM_20250208.0000.00_14.0_id_ac83d56fb6.tgz
+  md5: ac83d56fb624d3b2bb16cff6b04a0472
   method: Fastboot
   name: Redmi Note 14 4G Indonesia
-  size: 6.8 GB
-  version: OS1.0.1.0.UOGIDXM
+  size: 7.0 GB
+  version: OS1.0.3.0.UOGIDXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: tanzanite_ru_global
   date: 2025-02-24
   link: https://bigota.d.miui.com/OS1.0.3.0.UOGRUXM/miui_TANZANITERUGlobal_OS1.0.3.0.UOGRUXM_8f0998936d_14.0.zip
@@ -24321,25 +24321,15 @@
 - android: '14.0'
   branch: Stable
   codename: tanzanite_ru_global
-  date: 2025-01-15
-  link: https://bigota.d.miui.com/OS1.0.2.0.UOGRUXM/miui_TANZANITERUGlobal_OS1.0.2.0.UOGRUXM_ce81928bf2_14.0.zip
-  md5: ce81928bf20b1367fa601cb910dc3ba5
-  method: Recovery
-  name: Redmi Note 14 4G Russia
-  size: 4.5 GB
-  version: OS1.0.2.0.UOGRUXM
-- android: '14.0'
-  branch: Stable
-  codename: tanzanite_ru_global
-  date: 2025-01-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.2.0.UOGRUXM/tanzanite_ru_global_images_OS1.0.2.0.UOGRUXM_20250106.0000.00_14.0_ru_6ff145a38a.tgz
-  md5: 6ff145a38aadb4e0da94fdddcacf7ae4
+  date: 2025-02-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UOGRUXM/tanzanite_ru_global_images_OS1.0.3.0.UOGRUXM_20250217.0000.00_14.0_ru_fb3d2c1903.tgz
+  md5: fb3d2c19039f3f4fdcb1cdf71788d986
   method: Fastboot
   name: Redmi Note 14 4G Russia
   size: 7.8 GB
-  version: OS1.0.2.0.UOGRUXM
+  version: OS1.0.3.0.UOGRUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: tanzanite_tr_global
   date: 2025-02-24
   link: https://bigota.d.miui.com/OS1.0.3.0.UOGTRXM/miui_TANZANITETRGlobal_OS1.0.3.0.UOGTRXM_908f8af2d2_14.0.zip
@@ -24351,23 +24341,13 @@
 - android: '14.0'
   branch: Stable
   codename: tanzanite_tr_global
-  date: 2025-01-17
-  link: https://bigota.d.miui.com/OS1.0.1.0.UOGTRXM/miui_TANZANITETRGlobal_OS1.0.1.0.UOGTRXM_41ef5decf1_14.0.zip
-  md5: 41ef5decf1bef0758ef51aa31396aa46
-  method: Recovery
-  name: Redmi Note 14 4G Turkey
-  size: 4.5 GB
-  version: OS1.0.1.0.UOGTRXM
-- android: '14.0'
-  branch: Stable
-  codename: tanzanite_tr_global
-  date: 2024-11-29
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.1.0.UOGTRXM/tanzanite_tr_global_images_OS1.0.1.0.UOGTRXM_20241129.0000.00_14.0_tr_ed7dce7929.tgz
-  md5: ed7dce7929d602a75b718cba0c600c51
+  date: 2025-02-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UOGTRXM/tanzanite_tr_global_images_OS1.0.3.0.UOGTRXM_20250217.0000.00_14.0_tr_caf14c0001.tgz
+  md5: caf14c0001a28fe420b7ba5975db5ec5
   method: Fastboot
   name: Redmi Note 14 4G Turkey
-  size: 6.4 GB
-  version: OS1.0.1.0.UOGTRXM
+  size: 6.7 GB
+  version: OS1.0.3.0.UOGTRXM
 - android: '14.0'
   branch: Stable
   codename: tanzanite_tw_global
