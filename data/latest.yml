@@ -838,8 +838,18 @@
   name: POCO F3 Taiwan
   size: 4.9 GB
   version: OS1.0.1.0.TKHTWXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: amethyst
+  date: 2024-09-26
+  link: https://bigota.d.miui.com/OS1.0.12.0.UOPCNXM/miui_AMETHYST_OS1.0.12.0.UOPCNXM_a8d48d7e5d_14.0.zip
+  md5: a8d48d7e5d6a64a6072c926cb2b11d59
+  method: Recovery
+  name: Redmi Note 14 Pro+ 5G China
+  size: 6.0 GB
+  version: OS1.0.12.0.UOPCNXM
+- android: '15.0'
+  branch: Stable
   codename: amethyst
   date: 2025-03-07
   link: https://bigota.d.miui.com/OS2.0.8.0.VOPCNXM/amethyst-ota_full-OS2.0.8.0.VOPCNXM-user-15.0-73c5967bea.zip
@@ -851,23 +861,13 @@
 - android: '15.0'
   branch: Stable
   codename: amethyst
-  date: 2025-02-05
-  link: https://bigota.d.miui.com/OS2.0.7.0.VOPCNXM/amethyst-ota_full-OS2.0.7.0.VOPCNXM-user-15.0-8d972646d2.zip
-  md5: 8d972646d2ecbfbfdaea7cccf161355b
-  method: Recovery
-  name: Redmi Note 14 Pro+ 5G China
-  size: 6.3 GB
-  version: OS2.0.7.0.VOPCNXM
-- android: '15.0'
-  branch: Stable
-  codename: amethyst
-  date: 2025-01-31
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.7.0.VOPCNXM/amethyst_images_OS2.0.7.0.VOPCNXM_20250131.0000.00_15.0_cn_3fa0d0d66e.tgz
-  md5: 3fa0d0d66e8ec27ead1b40b9b439beb2
+  date: 2025-03-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.8.0.VOPCNXM/amethyst_images_OS2.0.8.0.VOPCNXM_20250303.0000.00_15.0_cn_dddd3e33bf.tgz
+  md5: dddd3e33bf62768ee828c2317ecb5455
   method: Fastboot
   name: Redmi Note 14 Pro+ 5G China
   size: 8.1 GB
-  version: OS2.0.7.0.VOPCNXM
+  version: OS2.0.8.0.VOPCNXM
 - android: '14.0'
   branch: Stable
   codename: amethyst_eea_global
@@ -11862,21 +11862,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -11942,21 +11942,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -19098,6 +19098,16 @@
   name: Xiaomi 12T Global
   size: 6.8 GB
   version: 23.5.6
+- android: '15.0'
+  branch: Stable Beta
+  codename: plato_id_global
+  date: 2025-03-14
+  link: https://bigota.d.miui.com/OS2.0.1.0.VLQIDXM/plato_id_global-ota_full-OS2.0.1.0.VLQIDXM-user-15.0-5549d553d5.zip
+  md5: 5549d553d54469153e0aa33b6c016d08
+  method: Recovery
+  name: Xiaomi 12T Indonesia
+  size: 5.6 GB
+  version: OS2.0.1.0.VLQIDXM
 - android: '14.0'
   branch: Stable
   codename: plato_id_global
@@ -19138,16 +19148,16 @@
   name: Xiaomi 12T Russia
   size: 6.6 GB
   version: OS1.0.10.0.ULQRUXM
-- android: '13.0'
+- android: '15.0'
   branch: Stable Beta
   codename: plato_tr_global
-  date: 2023-08-15
-  link: https://bigota.d.miui.com/V14.0.4.0.TLQTRXM/miui_PLATOTRGlobal_V14.0.4.0.TLQTRXM_842f81f8a2_13.0.zip
-  md5: 842f81f8a2b07f819b1abc74c7db0c9d
+  date: 2025-03-14
+  link: https://bigota.d.miui.com/OS2.0.1.0.VLQTRXM/plato_tr_global-ota_full-OS2.0.1.0.VLQTRXM-user-15.0-1534a66357.zip
+  md5: 1534a66357c177276c733a5a3e7163d8
   method: Recovery
   name: Xiaomi 12T Turkey
-  size: 4.9 GB
-  version: V14.0.4.0.TLQTRXM
+  size: 5.7 GB
+  version: OS2.0.1.0.VLQTRXM
 - android: '14.0'
   branch: Stable
   codename: plato_tr_global
@@ -21528,16 +21538,16 @@
   name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
   size: 7.0 GB
   version: OS1.0.13.0.UMOCNXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: ruby_eea_global
-  date: 2023-10-16
-  link: https://bigota.d.miui.com/V14.0.8.0.TMOEUXM/miui_RUBYEEAGlobal_V14.0.8.0.TMOEUXM_a44c880d42_13.0.zip
-  md5: a44c880d4277506f2e5569acadb1a44a
+  date: 2025-03-14
+  link: https://bigota.d.miui.com/OS1.0.15.0.UMOEUXM/miui_RUBYEEAGlobal_OS1.0.15.0.UMOEUXM_a14d91dcb3_14.0.zip
+  md5: a14d91dcb38dd004482dd28ce86c4a06
   method: Recovery
   name: Redmi Note 12 Pro / Pro+ 5G EEA
-  size: 4.5 GB
-  version: V14.0.8.0.TMOEUXM
+  size: 4.9 GB
+  version: OS1.0.15.0.UMOEUXM
 - android: '14.0'
   branch: Stable
   codename: ruby_eea_global
@@ -21558,16 +21568,16 @@
   name: Redmi Note 12 Pro / Pro+ 5G EEA
   size: 6.8 GB
   version: OS1.0.14.0.UMOEUXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: ruby_global
-  date: 2023-10-13
-  link: https://bigota.d.miui.com/V14.0.2.0.TMOMIXM/miui_RUBYGlobal_V14.0.2.0.TMOMIXM_462250ba10_13.0.zip
-  md5: 462250ba1067d143c003c618961b2af5
+  date: 2025-03-14
+  link: https://bigota.d.miui.com/OS1.0.17.0.UMOMIXM/miui_RUBYGlobal_OS1.0.17.0.UMOMIXM_1feeb8d47d_14.0.zip
+  md5: 1feeb8d47d62fdb7131204e664319d10
   method: Recovery
   name: Redmi Note 12 Pro / Pro+ 5G Global
-  size: 4.5 GB
-  version: V14.0.2.0.TMOMIXM
+  size: 4.9 GB
+  version: OS1.0.17.0.UMOMIXM
 - android: '14.0'
   branch: Stable
   codename: ruby_global
@@ -23751,13 +23761,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
