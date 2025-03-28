@@ -5721,6 +5721,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: dagu
+  date: 2024-09-20
+  link: https://bigota.d.miui.com/OS1.0.5.0.ULZCNXM/miui_DAGU_OS1.0.5.0.ULZCNXM_b0b86edf69_14.0.zip
+  md5: b0b86edf691cfec27708eae49a2cc88e
+  method: Recovery
+  name: Xiaomi Pad 5 Pro 12.4 China
+  size: 4.4 GB
+  version: OS1.0.5.0.ULZCNXM
+- android: '14.0'
+  branch: Stable
+  codename: dagu
   date: 2025-03-21
   link: https://bigota.d.miui.com/OS2.0.4.0.ULZCNXM/dagu-ota_full-OS2.0.4.0.ULZCNXM-user-14.0-112aa1d54e.zip
   md5: 112aa1d54e3f298ab5f950f6821745ff
@@ -5731,23 +5741,13 @@
 - android: '14.0'
   branch: Stable
   codename: dagu
-  date: 2025-02-26
-  link: https://bigota.d.miui.com/OS2.0.2.0.ULZCNXM/dagu-ota_full-OS2.0.2.0.ULZCNXM-user-14.0-63ccc55757.zip
-  md5: 63ccc55757f3ccc5c15c669006380077
-  method: Recovery
-  name: Xiaomi Pad 5 Pro 12.4 China
-  size: 4.6 GB
-  version: OS2.0.2.0.ULZCNXM
-- android: '14.0'
-  branch: Stable
-  codename: dagu
-  date: 2025-02-22
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.ULZCNXM/dagu_images_OS2.0.2.0.ULZCNXM_20250222.0000.00_14.0_cn_05c87aaf0f.tgz
-  md5: 05c87aaf0f946eb1f823d8ceaaadab3c
+  date: 2025-03-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.4.0.ULZCNXM/dagu_images_OS2.0.4.0.ULZCNXM_20250315.0000.00_14.0_cn_d86f6d058b.tgz
+  md5: d86f6d058b5770c57018a2ea51710420
   method: Fastboot
   name: Xiaomi Pad 5 Pro 12.4 China
   size: 5.5 GB
-  version: OS2.0.2.0.ULZCNXM
+  version: OS2.0.4.0.ULZCNXM
 - android: '14.0'
   branch: Public Beta
   codename: dagu
@@ -11358,16 +11358,16 @@
   name: Redmi K50G China
   size: 6.4 GB
   version: V14.0.22.12.5.DEV
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: ingres_eea_global
-  date: 2023-11-11
-  link: https://bigota.d.miui.com/V14.0.7.0.TLJEUXM/miui_INGRESEEAGlobal_V14.0.7.0.TLJEUXM_0b0d68fbe4_13.0.zip
-  md5: 0b0d68fbe49b6aa86197501f28f50c43
+  date: 2025-03-25
+  link: https://bigota.d.miui.com/OS2.0.1.0.ULJEUXM/ingres_eea_global-ota_full-OS2.0.1.0.ULJEUXM-user-14.0-10e4a386df.zip
+  md5: 10e4a386dfd4078b1c186784af54a2ad
   method: Recovery
   name: POCO F4 GT EEA
-  size: 4.8 GB
-  version: V14.0.7.0.TLJEUXM
+  size: 5.4 GB
+  version: OS2.0.1.0.ULJEUXM
 - android: '14.0'
   branch: Stable
   codename: ingres_eea_global
@@ -11882,21 +11882,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -11962,21 +11962,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -14528,16 +14528,16 @@
   name: Redmi 4 Prime Global
   size: 1.5 GB
   version: V10.2.2.0.MBEMIXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: matisse
-  date: 2023-10-23
-  link: https://bigota.d.miui.com/V14.0.13.0.TLKCNXM/miui_MATISSE_V14.0.13.0.TLKCNXM_1b2adc3d9b_13.0.zip
-  md5: 1b2adc3d9bc65ec212617da024482466
+  date: 2025-03-24
+  link: https://bigota.d.miui.com/OS2.0.1.0.ULKCNXM/matisse-ota_full-OS2.0.1.0.ULKCNXM-user-14.0-fba1a6c58c.zip
+  md5: fba1a6c58c19f840a6c21eae52466497
   method: Recovery
   name: Redmi K50 Pro China
-  size: 5.8 GB
-  version: V14.0.13.0.TLKCNXM
+  size: 6.2 GB
+  version: OS2.0.1.0.ULKCNXM
 - android: '14.0'
   branch: Stable
   codename: matisse
@@ -17051,6 +17051,16 @@
 - android: '14.0'
   branch: Stable Beta
   codename: obsidian_global
+  date: 2025-01-13
+  link: https://bigota.d.miui.com/OS1.0.2.0.UOFMIXM/miui_OBSIDIANGlobal_OS1.0.2.0.UOFMIXM_e39603a780_14.0.zip
+  md5: e39603a780f1d77a02ed989519772691
+  method: Recovery
+  name: Redmi Note 14 Pro 4G Global
+  size: 4.6 GB
+  version: OS1.0.2.0.UOFMIXM
+- android: '14.0'
+  branch: Stable
+  codename: obsidian_global
   date: 2025-03-18
   link: https://bigota.d.miui.com/OS1.0.4.0.UOFMIXM/miui_OBSIDIANGlobal_OS1.0.4.0.UOFMIXM_da2a9c9b73_14.0.zip
   md5: da2a9c9b73b39dccadf5e002d3b600a8
@@ -17061,23 +17071,13 @@
 - android: '14.0'
   branch: Stable
   codename: obsidian_global
-  date: 2025-01-13
-  link: https://bigota.d.miui.com/OS1.0.3.0.UOFMIXM/miui_OBSIDIANGlobal_OS1.0.3.0.UOFMIXM_4c5ca499f5_14.0.zip
-  md5: 4c5ca499f57846bbe6268cd16d9b675c
-  method: Recovery
-  name: Redmi Note 14 Pro 4G Global
-  size: 4.6 GB
-  version: OS1.0.3.0.UOFMIXM
-- android: '14.0'
-  branch: Stable
-  codename: obsidian_global
-  date: 2024-12-31
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UOFMIXM/obsidian_global_images_OS1.0.3.0.UOFMIXM_20241231.0000.00_14.0_global_75d12b2204.tgz
-  md5: 75d12b2204c56bd1ee81c3abfb5fcb8e
+  date: 2025-03-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.4.0.UOFMIXM/obsidian_global_images_OS1.0.4.0.UOFMIXM_20250311.0000.00_14.0_global_b4b9959083.tgz
+  md5: b4b99590833eb64914d6a8b967cd9194
   method: Fastboot
   name: Redmi Note 14 Pro 4G Global
-  size: 7.3 GB
-  version: OS1.0.3.0.UOFMIXM
+  size: 7.9 GB
+  version: OS1.0.4.0.UOFMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: obsidian_ru_global
@@ -19911,13 +19911,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_id_global
-  date: 2025-03-18
-  link: https://bigota.d.miui.com/OS1.0.13.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.13.0.UMSIDXM_b28c66bf1e_14.0.zip
-  md5: b28c66bf1e5c412ccb3b374b8ac85c71
+  date: 2025-01-17
+  link: https://bigota.d.miui.com/OS1.0.10.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.10.0.UMSIDXM_41da7f663a_14.0.zip
+  md5: 41da7f663ac543210737edf12c910a79
   method: Recovery
   name: POCO X5 Pro 5G Indonesia
   size: 4.9 GB
-  version: OS1.0.13.0.UMSIDXM
+  version: OS1.0.10.0.UMSIDXM
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_id_global
@@ -19931,23 +19931,23 @@
 - android: '14.0'
   branch: Stable
   codename: redwood_id_global
-  date: 2025-02-26
-  link: https://bigota.d.miui.com/OS1.0.11.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.11.0.UMSIDXM_914ab078fd_14.0.zip
-  md5: 914ab078fdd6fde1e8cf7d5d92e5999d
+  date: 2025-03-18
+  link: https://bigota.d.miui.com/OS1.0.13.0.UMSIDXM/miui_REDWOODIDGlobal_OS1.0.13.0.UMSIDXM_b28c66bf1e_14.0.zip
+  md5: b28c66bf1e5c412ccb3b374b8ac85c71
   method: Recovery
   name: POCO X5 Pro 5G Indonesia
   size: 4.9 GB
-  version: OS1.0.11.0.UMSIDXM
+  version: OS1.0.13.0.UMSIDXM
 - android: '14.0'
   branch: Stable
   codename: redwood_id_global
-  date: 2025-02-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UMSIDXM/redwood_id_global_images_OS1.0.11.0.UMSIDXM_20250217.0000.00_14.0_id_cfdb9f21b5.tgz
-  md5: cfdb9f21b5eb6b9425f1e8be70525230
+  date: 2025-03-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.13.0.UMSIDXM/redwood_id_global_images_OS1.0.13.0.UMSIDXM_20250303.0000.00_14.0_id_7bbf8326aa.tgz
+  md5: 7bbf8326aac362fb0b3a6885640ebdf0
   method: Fastboot
   name: POCO X5 Pro 5G Indonesia
   size: 7.2 GB
-  version: OS1.0.11.0.UMSIDXM
+  version: OS1.0.13.0.UMSIDXM
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_in_global
@@ -20031,13 +20031,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: redwood_tr_global
-  date: 2025-03-18
-  link: https://bigota.d.miui.com/OS1.0.12.0.UMSTRXM/miui_REDWOODTRGlobal_OS1.0.12.0.UMSTRXM_7613f16d15_14.0.zip
-  md5: 7613f16d15dde98ce06a9fcf9b29cb62
+  date: 2024-02-18
+  link: https://bigota.d.miui.com/OS1.0.1.0.UMSTRXM/miui_REDWOODTRGlobal_OS1.0.1.0.UMSTRXM_177a24bab4_14.0.zip
+  md5: 177a24bab456e596d29a09748e6cc30a
   method: Recovery
   name: POCO X5 Pro 5G Turkey
   size: 4.9 GB
-  version: OS1.0.12.0.UMSTRXM
+  version: OS1.0.1.0.UMSTRXM
 - android: '12.0'
   branch: Stable Beta
   codename: redwood_tr_global
@@ -20051,25 +20051,25 @@
 - android: '14.0'
   branch: Stable
   codename: redwood_tr_global
-  date: 2025-03-03
-  link: https://bigota.d.miui.com/OS1.0.10.0.UMSTRXM/miui_REDWOODTRGlobal_OS1.0.10.0.UMSTRXM_14ef998efc_14.0.zip
-  md5: 14ef998efcd399228ed18ae2407e6556
+  date: 2025-03-18
+  link: https://bigota.d.miui.com/OS1.0.12.0.UMSTRXM/miui_REDWOODTRGlobal_OS1.0.12.0.UMSTRXM_7613f16d15_14.0.zip
+  md5: 7613f16d15dde98ce06a9fcf9b29cb62
   method: Recovery
   name: POCO X5 Pro 5G Turkey
   size: 4.9 GB
-  version: OS1.0.10.0.UMSTRXM
+  version: OS1.0.12.0.UMSTRXM
 - android: '14.0'
   branch: Stable
   codename: redwood_tr_global
-  date: 2025-02-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMSTRXM/redwood_tr_global_images_OS1.0.10.0.UMSTRXM_20250217.0000.00_14.0_tr_d496144d30.tgz
-  md5: d496144d305816efcbb101dd82a45fb6
+  date: 2025-03-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UMSTRXM/redwood_tr_global_images_OS1.0.12.0.UMSTRXM_20250303.0000.00_14.0_tr_dfb5902161.tgz
+  md5: dfb5902161130987297b645d5f199c3e
   method: Fastboot
   name: POCO X5 Pro 5G Turkey
   size: 6.7 GB
-  version: OS1.0.10.0.UMSTRXM
+  version: OS1.0.12.0.UMSTRXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: redwood_tw_global
   date: 2025-03-18
   link: https://bigota.d.miui.com/OS1.0.12.0.UMSTWXM/miui_REDWOODTWGlobal_OS1.0.12.0.UMSTWXM_d32b9b9f77_14.0.zip
@@ -20081,23 +20081,13 @@
 - android: '14.0'
   branch: Stable
   codename: redwood_tw_global
-  date: 2025-02-26
-  link: https://bigota.d.miui.com/OS1.0.10.0.UMSTWXM/miui_REDWOODTWGlobal_OS1.0.10.0.UMSTWXM_7389a2b5b0_14.0.zip
-  md5: 7389a2b5b0dc2f76376a93b7e6ed1c87
-  method: Recovery
-  name: POCO X5 Pro 5G Taiwan
-  size: 4.8 GB
-  version: OS1.0.10.0.UMSTWXM
-- android: '14.0'
-  branch: Stable
-  codename: redwood_tw_global
-  date: 2025-02-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UMSTWXM/redwood_tw_global_images_OS1.0.10.0.UMSTWXM_20250217.0000.00_14.0_tw_c31643d872.tgz
-  md5: c31643d872f719b23daaa2be26068595
+  date: 2025-03-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UMSTWXM/redwood_tw_global_images_OS1.0.12.0.UMSTWXM_20250303.0000.00_14.0_tw_65da0bc41c.tgz
+  md5: 65da0bc41cdd31f57d23bc587ab11396
   method: Fastboot
   name: POCO X5 Pro 5G Taiwan
   size: 6.6 GB
-  version: OS1.0.10.0.UMSTWXM
+  version: OS1.0.12.0.UMSTWXM
 - android: '14.0'
   branch: Stable
   codename: rembrandt
@@ -20629,7 +20619,17 @@
   size: 9.3 GB
   version: OS2.0.10.0.VOJMIXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: rodin_id_global
+  date: 2025-03-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VOJIDXM/rodin_id_global_images_OS2.0.100.0.VOJIDXM_20250310.0000.00_15.0_id_97a693d459.tgz
+  md5: 97a693d459decc970c6cd0c66b0c018d
+  method: Fastboot
+  name: POCO X7 Pro Indonesia
+  size: 8.5 GB
+  version: OS2.0.100.0.VOJIDXM
+- android: '15.0'
+  branch: Stable
   codename: rodin_id_global
   date: 2025-03-20
   link: https://bigota.d.miui.com/OS2.0.100.0.VOJIDXM/rodin_id_global-ota_full-OS2.0.100.0.VOJIDXM-user-15.0-0cfe251ecd.zip
@@ -20638,26 +20638,6 @@
   name: POCO X7 Pro Indonesia
   size: 5.9 GB
   version: OS2.0.100.0.VOJIDXM
-- android: '15.0'
-  branch: Stable
-  codename: rodin_id_global
-  date: 2025-02-28
-  link: https://bigota.d.miui.com/OS2.0.3.0.VOJIDXM/rodin_id_global-ota_full-OS2.0.3.0.VOJIDXM-user-15.0-d81662f28b.zip
-  md5: d81662f28b4a39e0296b5a98fed55e98
-  method: Recovery
-  name: POCO X7 Pro Indonesia
-  size: 5.9 GB
-  version: OS2.0.3.0.VOJIDXM
-- android: '15.0'
-  branch: Stable
-  codename: rodin_id_global
-  date: 2025-02-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VOJIDXM/rodin_id_global_images_OS2.0.3.0.VOJIDXM_20250207.0000.00_15.0_id_7ecc19dede.tgz
-  md5: 7ecc19dedef7d4f5c4dad2ac7db4e4be
-  method: Fastboot
-  name: POCO X7 Pro Indonesia
-  size: 8.5 GB
-  version: OS2.0.3.0.VOJIDXM
 - android: '15.0'
   branch: Stable Beta
   codename: rodin_in_global
@@ -20689,7 +20669,17 @@
   size: 7.6 GB
   version: OS2.0.3.0.VOJINXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: rodin_ru_global
+  date: 2025-03-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VOJRUXM/rodin_ru_global_images_OS2.0.100.0.VOJRUXM_20250310.0000.00_15.0_ru_a8050a0778.tgz
+  md5: a8050a0778ac82945f6e7bb44a0fd352
+  method: Fastboot
+  name: POCO X7 Pro Russia
+  size: 9.4 GB
+  version: OS2.0.100.0.VOJRUXM
+- android: '15.0'
+  branch: Stable
   codename: rodin_ru_global
   date: 2025-03-20
   link: https://bigota.d.miui.com/OS2.0.100.0.VOJRUXM/rodin_ru_global-ota_full-OS2.0.100.0.VOJRUXM-user-15.0-ced0733642.zip
@@ -20698,26 +20688,6 @@
   name: POCO X7 Pro Russia
   size: 5.9 GB
   version: OS2.0.100.0.VOJRUXM
-- android: '15.0'
-  branch: Stable
-  codename: rodin_ru_global
-  date: 2025-02-11
-  link: https://bigota.d.miui.com/OS2.0.4.0.VOJRUXM/rodin_ru_global-ota_full-OS2.0.4.0.VOJRUXM-user-15.0-defdd3b6f3.zip
-  md5: defdd3b6f3dd2af972e6a65fd9adff77
-  method: Recovery
-  name: POCO X7 Pro Russia
-  size: 5.8 GB
-  version: OS2.0.4.0.VOJRUXM
-- android: '15.0'
-  branch: Stable
-  codename: rodin_ru_global
-  date: 2025-01-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.4.0.VOJRUXM/rodin_ru_global_images_OS2.0.4.0.VOJRUXM_20250121.0000.00_15.0_ru_5f37bcf2d3.tgz
-  md5: 5f37bcf2d39b0f3f9d1b41fe21f202a4
-  method: Fastboot
-  name: POCO X7 Pro Russia
-  size: 9.3 GB
-  version: OS2.0.4.0.VOJRUXM
 - android: '15.0'
   branch: Stable
   codename: rodin_tr_global
@@ -20739,7 +20709,17 @@
   size: 5.9 GB
   version: OS2.0.100.0.VOJTRXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: rodin_tw_global
+  date: 2025-03-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VOJTWXM/rodin_tw_global_images_OS2.0.100.0.VOJTWXM_20250310.0000.00_15.0_tw_f76fedfe43.tgz
+  md5: f76fedfe437241ccdb6ac0ed128fe1b6
+  method: Fastboot
+  name: POCO X7 Pro Taiwan
+  size: 7.9 GB
+  version: OS2.0.100.0.VOJTWXM
+- android: '15.0'
+  branch: Stable
   codename: rodin_tw_global
   date: 2025-03-20
   link: https://bigota.d.miui.com/OS2.0.100.0.VOJTWXM/rodin_tw_global-ota_full-OS2.0.100.0.VOJTWXM-user-15.0-de13095578.zip
@@ -20748,26 +20728,6 @@
   name: POCO X7 Pro Taiwan
   size: 5.8 GB
   version: OS2.0.100.0.VOJTWXM
-- android: '15.0'
-  branch: Stable
-  codename: rodin_tw_global
-  date: 2025-02-11
-  link: https://bigota.d.miui.com/OS2.0.2.0.VOJTWXM/rodin_tw_global-ota_full-OS2.0.2.0.VOJTWXM-user-15.0-a4d14369b0.zip
-  md5: a4d14369b0a8ae06b589e2466b77ec8d
-  method: Recovery
-  name: POCO X7 Pro Taiwan
-  size: 5.8 GB
-  version: OS2.0.2.0.VOJTWXM
-- android: '15.0'
-  branch: Stable
-  codename: rodin_tw_global
-  date: 2025-01-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VOJTWXM/rodin_tw_global_images_OS2.0.2.0.VOJTWXM_20250121.0000.00_15.0_tw_ad1c64a9f9.tgz
-  md5: ad1c64a9f9026bdf14ce4e899c3eda39
-  method: Fastboot
-  name: POCO X7 Pro Taiwan
-  size: 7.8 GB
-  version: OS2.0.2.0.VOJTWXM
 - android: '6.0'
   branch: Stable
   codename: rolex
@@ -21528,26 +21488,26 @@
   name: Redmi Pad Pro 5G / POCO Pad 5G EEA
   size: 5.8 GB
   version: OS2.0.3.0.VFSEUXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable
   codename: ruan_global
-  date: 2025-01-17
-  link: https://bigota.d.miui.com/OS2.0.1.0.VFSMIXM/ruan_global-ota_full-OS2.0.1.0.VFSMIXM-user-15.0-44acadea50.zip
-  md5: 44acadea5097f46380e7fb84a7609761
+  date: 2025-03-20
+  link: https://bigota.d.miui.com/OS1.0.12.0.UFSMIXM/miui_RUANGlobal_OS1.0.12.0.UFSMIXM_f83fc4b607_14.0.zip
+  md5: f83fc4b6079c3a460820a8bfe36f102b
   method: Recovery
   name: Redmi Pad Pro 5G / POCO Pad 5G Global
-  size: 4.7 GB
-  version: OS2.0.1.0.VFSMIXM
-- android: '15.0'
+  size: 4.3 GB
+  version: OS1.0.12.0.UFSMIXM
+- android: '14.0'
   branch: Stable
   codename: ruan_global
-  date: 2025-01-08
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.1.0.VFSMIXM/ruan_global_images_OS2.0.1.0.VFSMIXM_20250108.0000.00_15.0_global_13fe989141.tgz
-  md5: 13fe98914164c5a582661ae572a287b0
+  date: 2025-03-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UFSMIXM/ruan_global_images_OS1.0.12.0.UFSMIXM_20250317.0000.00_14.0_global_812c504106.tgz
+  md5: 812c504106440d67c5f75691cf714f4a
   method: Fastboot
   name: Redmi Pad Pro 5G / POCO Pad 5G Global
-  size: 5.8 GB
-  version: OS2.0.1.0.VFSMIXM
+  size: 5.5 GB
+  version: OS1.0.12.0.UFSMIXM
 - android: '15.0'
   branch: Stable
   codename: ruan_in_global
@@ -22899,7 +22859,17 @@
   size: 7.7 GB
   version: OS2.0.104.0.VNXCNXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: sheng_eea_global
+  date: 2025-03-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNXEUXM/sheng_eea_global_images_OS2.0.101.0.VNXEUXM_20250312.0000.00_15.0_eea_0e30ad0147.tgz
+  md5: 0e30ad01470663fdcec324e89d65ebbf
+  method: Fastboot
+  name: Xiaomi Pad 6S Pro 12.4 EEA
+  size: 6.9 GB
+  version: OS2.0.101.0.VNXEUXM
+- android: '15.0'
+  branch: Stable
   codename: sheng_eea_global
   date: 2025-03-20
   link: https://bigota.d.miui.com/OS2.0.101.0.VNXEUXM/sheng_eea_global-ota_full-OS2.0.101.0.VNXEUXM-user-15.0-2813eeb554.zip
@@ -22908,26 +22878,6 @@
   name: Xiaomi Pad 6S Pro 12.4 EEA
   size: 5.9 GB
   version: OS2.0.101.0.VNXEUXM
-- android: '15.0'
-  branch: Stable
-  codename: sheng_eea_global
-  date: 2025-03-02
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNXEUXM/sheng_eea_global_images_OS2.0.100.0.VNXEUXM_20250210.0000.00_15.0_eea_9224ece56b.tgz
-  md5: 9224ece56baf948d7444caf778441c04
-  method: Fastboot
-  name: Xiaomi Pad 6S Pro 12.4 EEA
-  size: 6.9 GB
-  version: OS2.0.100.0.VNXEUXM
-- android: '15.0'
-  branch: Stable
-  codename: sheng_eea_global
-  date: 2025-02-21
-  link: https://bigota.d.miui.com/OS2.0.100.0.VNXEUXM/sheng_eea_global-ota_full-OS2.0.100.0.VNXEUXM-user-15.0-163ba9e31e.zip
-  md5: 163ba9e31e8c3b1ea0f9d84d7ba14592
-  method: Recovery
-  name: Xiaomi Pad 6S Pro 12.4 EEA
-  size: 5.9 GB
-  version: OS2.0.100.0.VNXEUXM
 - android: '15.0'
   branch: Stable
   codename: sheng_global
@@ -22949,7 +22899,17 @@
   size: 5.8 GB
   version: OS2.0.101.0.VNXMIXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: sheng_id_global
+  date: 2025-03-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNXIDXM/sheng_id_global_images_OS2.0.101.0.VNXIDXM_20250312.0000.00_15.0_id_5be3e52be3.tgz
+  md5: 5be3e52be397f252958d4f7fb53636c4
+  method: Fastboot
+  name: Xiaomi Pad 6S Pro 12.4 Indonesia
+  size: 6.9 GB
+  version: OS2.0.101.0.VNXIDXM
+- android: '15.0'
+  branch: Stable
   codename: sheng_id_global
   date: 2025-03-20
   link: https://bigota.d.miui.com/OS2.0.101.0.VNXIDXM/sheng_id_global-ota_full-OS2.0.101.0.VNXIDXM-user-15.0-05460a9b90.zip
@@ -22960,26 +22920,16 @@
   version: OS2.0.101.0.VNXIDXM
 - android: '15.0'
   branch: Stable
-  codename: sheng_id_global
-  date: 2025-03-04
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNXIDXM/sheng_id_global_images_OS2.0.100.0.VNXIDXM_20250210.0000.00_15.0_id_3a6a1a5432.tgz
-  md5: 3a6a1a54329d343d3e16b8ca631d8697
+  codename: sheng_ru_global
+  date: 2025-03-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNXRUXM/sheng_ru_global_images_OS2.0.101.0.VNXRUXM_20250312.0000.00_15.0_ru_f8c1e2c344.tgz
+  md5: f8c1e2c344987b90d7a8d0876090d925
   method: Fastboot
-  name: Xiaomi Pad 6S Pro 12.4 Indonesia
-  size: 6.9 GB
-  version: OS2.0.100.0.VNXIDXM
+  name: Xiaomi Pad 6S Pro 12.4 Russia
+  size: 7.6 GB
+  version: OS2.0.101.0.VNXRUXM
 - android: '15.0'
   branch: Stable
-  codename: sheng_id_global
-  date: 2025-02-24
-  link: https://bigota.d.miui.com/OS2.0.100.0.VNXIDXM/sheng_id_global-ota_full-OS2.0.100.0.VNXIDXM-user-15.0-6e691aa1c5.zip
-  md5: 6e691aa1c598d103e9c50cb7d2bf6f17
-  method: Recovery
-  name: Xiaomi Pad 6S Pro 12.4 Indonesia
-  size: 5.8 GB
-  version: OS2.0.100.0.VNXIDXM
-- android: '15.0'
-  branch: Stable Beta
   codename: sheng_ru_global
   date: 2025-03-20
   link: https://bigota.d.miui.com/OS2.0.101.0.VNXRUXM/sheng_ru_global-ota_full-OS2.0.101.0.VNXRUXM-user-15.0-76ed1c3cf5.zip
@@ -22988,26 +22938,6 @@
   name: Xiaomi Pad 6S Pro 12.4 Russia
   size: 5.8 GB
   version: OS2.0.101.0.VNXRUXM
-- android: '15.0'
-  branch: Stable
-  codename: sheng_ru_global
-  date: 2025-03-04
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNXRUXM/sheng_ru_global_images_OS2.0.100.0.VNXRUXM_20250210.0000.00_15.0_ru_c5a8d91204.tgz
-  md5: c5a8d912044ad1175149534943facaf0
-  method: Fastboot
-  name: Xiaomi Pad 6S Pro 12.4 Russia
-  size: 7.6 GB
-  version: OS2.0.100.0.VNXRUXM
-- android: '15.0'
-  branch: Stable
-  codename: sheng_ru_global
-  date: 2025-02-24
-  link: https://bigota.d.miui.com/OS2.0.100.0.VNXRUXM/sheng_ru_global-ota_full-OS2.0.100.0.VNXRUXM-user-15.0-38baffa56f.zip
-  md5: 38baffa56f6ddc4fbcb1f844d3eaeaf3
-  method: Recovery
-  name: Xiaomi Pad 6S Pro 12.4 Russia
-  size: 5.8 GB
-  version: OS2.0.100.0.VNXRUXM
 - android: '14.0'
   branch: Stable Beta
   codename: shennong
@@ -24488,6 +24418,16 @@
   name: Redmi Note 14 4G Turkey
   size: 6.7 GB
   version: OS1.0.3.0.UOGTRXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: tanzanite_tw_global
+  date: 2025-03-28
+  link: https://bigota.d.miui.com/OS1.0.4.0.UOGTWXM/miui_TANZANITETWGlobal_OS1.0.4.0.UOGTWXM_2587a29316_14.0.zip
+  md5: 2587a29316617aadb7a0edb2a893587b
+  method: Recovery
+  name: Redmi Note 14 4G Taiwan
+  size: 4.5 GB
+  version: OS1.0.4.0.UOGTWXM
 - android: '14.0'
   branch: Stable
   codename: tanzanite_tw_global
