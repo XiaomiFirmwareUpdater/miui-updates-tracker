@@ -2548,6 +2548,16 @@
   name: Redmi Note 14 5G / POCO M7 Pro 5G Indonesia
   size: 7.2 GB
   version: OS1.0.8.0.UOQIDXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: beryl_in_global
+  date: 2025-03-27
+  link: https://bigota.d.miui.com/OS2.0.3.0.VOQINXM/beryl_in_global-ota_full-OS2.0.3.0.VOQINXM-user-15.0-b72aeda189.zip
+  md5: b72aeda189b1f9663bc6ba94a25206a1
+  method: Recovery
+  name: Redmi Note 14 5G / POCO M7 Pro 5G India
+  size: 4.8 GB
+  version: OS2.0.3.0.VOQINXM
 - android: '14.0'
   branch: Stable
   codename: beryl_in_global
@@ -13789,7 +13799,7 @@
   size: 1.7 GB
   version: 9.6.27
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: liuqin
   date: 2025-03-25
   link: https://bigota.d.miui.com/OS2.0.6.0.VMYCNXM/liuqin-ota_full-OS2.0.6.0.VMYCNXM-user-15.0-ff2b5906a3.zip
@@ -13801,23 +13811,13 @@
 - android: '15.0'
   branch: Stable
   codename: liuqin
-  date: 2025-03-06
-  link: https://bigota.d.miui.com/OS2.0.5.0.VMYCNXM/liuqin-ota_full-OS2.0.5.0.VMYCNXM-user-15.0-6edebce863.zip
-  md5: 6edebce86362347c2913e3e90383aff3
-  method: Recovery
-  name: Xiaomi Pad 6 Pro China
-  size: 6.1 GB
-  version: OS2.0.5.0.VMYCNXM
-- android: '15.0'
-  branch: Stable
-  codename: liuqin
-  date: 2025-02-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.5.0.VMYCNXM/liuqin_images_OS2.0.5.0.VMYCNXM_20250227.0000.00_15.0_cn_87ada288db.tgz
-  md5: 87ada288db5a9890c2cbe69456c643c9
+  date: 2025-03-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.6.0.VMYCNXM/liuqin_images_OS2.0.6.0.VMYCNXM_20250318.0000.00_15.0_cn_c29f6de5df.tgz
+  md5: c29f6de5df1445e71b1f6b8851df5e0d
   method: Fastboot
   name: Xiaomi Pad 6 Pro China
   size: 7.1 GB
-  version: OS2.0.5.0.VMYCNXM
+  version: OS2.0.6.0.VMYCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: lmi
@@ -15659,7 +15659,7 @@
   size: 7.4 GB
   version: OS2.0.3.0.VMNEUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: mondrian_global
   date: 2025-03-15
   link: https://bigota.d.miui.com/OS2.0.5.0.VMNMIXM/mondrian_global-ota_full-OS2.0.5.0.VMNMIXM-user-15.0-91db079f27.zip
@@ -15671,23 +15671,13 @@
 - android: '15.0'
   branch: Stable
   codename: mondrian_global
-  date: 2025-02-11
-  link: https://bigota.d.miui.com/OS2.0.3.0.VMNMIXM/mondrian_global-ota_full-OS2.0.3.0.VMNMIXM-user-15.0-c482ff9deb.zip
-  md5: c482ff9deb0867beb1c9f1e5ef2c4d16
-  method: Recovery
-  name: POCO F5 Pro Global
-  size: 5.4 GB
-  version: OS2.0.3.0.VMNMIXM
-- android: '15.0'
-  branch: Stable
-  codename: mondrian_global
-  date: 2025-01-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VMNMIXM/mondrian_global_images_OS2.0.3.0.VMNMIXM_20250113.0000.00_15.0_global_aa9a1cdc7e.tgz
-  md5: aa9a1cdc7e15b8ee664bdfebf797a6da
+  date: 2025-03-10
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.5.0.VMNMIXM/mondrian_global_images_OS2.0.5.0.VMNMIXM_20250310.0000.00_15.0_global_9319ea32e4.tgz
+  md5: 9319ea32e41e5c708c1245ff57517a18
   method: Fastboot
   name: POCO F5 Pro Global
-  size: 7.8 GB
-  version: OS2.0.3.0.VMNMIXM
+  size: 7.9 GB
+  version: OS2.0.5.0.VMNMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: mondrian_ru_global
@@ -23148,8 +23138,28 @@
   name: Xiaomi Pad 6S Pro 12.4 Russia
   size: 5.8 GB
   version: OS2.0.101.0.VNXRUXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: shennong
+  date: 2023-10-26
+  link: https://bigota.d.miui.com/OS1.0.6.0.UNBCNXM/miui_SHENNONG_OS1.0.6.0.UNBCNXM_071034c0d5_14.0.zip
+  md5: 071034c0d5a3e299ae204e5116c7881f
+  method: Recovery
+  name: Xiaomi 14 Pro / Ti China
+  size: 5.8 GB
+  version: OS1.0.6.0.UNBCNXM
+- android: '15.0'
+  branch: Stable
+  codename: shennong
+  date: 2025-04-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.109.0.VNBCNXM/shennong_images_OS2.0.109.0.VNBCNXM_20250320.0000.00_15.0_cn_1a7405cb9f.tgz
+  md5: 1a7405cb9fd6c12c025f85368c412576
+  method: Fastboot
+  name: Xiaomi 14 Pro / Ti China
+  size: 9.7 GB
+  version: OS2.0.109.0.VNBCNXM
+- android: '15.0'
+  branch: Stable
   codename: shennong
   date: 2025-03-26
   link: https://bigota.d.miui.com/OS2.0.109.0.VNBCNXM/shennong-ota_full-OS2.0.109.0.VNBCNXM-user-15.0-a5759dd626.zip
@@ -23158,26 +23168,6 @@
   name: Xiaomi 14 Pro / Ti China
   size: 6.4 GB
   version: OS2.0.109.0.VNBCNXM
-- android: '15.0'
-  branch: Stable
-  codename: shennong
-  date: 2025-02-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.104.0.VNBCNXM/shennong_images_OS2.0.104.0.VNBCNXM_20250205.0000.00_15.0_cn_6e05e7e727.tgz
-  md5: 6e05e7e7279ecf6518336202c580ad2c
-  method: Fastboot
-  name: Xiaomi 14 Pro / Ti China
-  size: 9.7 GB
-  version: OS2.0.104.0.VNBCNXM
-- android: '15.0'
-  branch: Stable
-  codename: shennong
-  date: 2025-02-08
-  link: https://bigota.d.miui.com/OS2.0.104.0.VNBCNXM/shennong-ota_full-OS2.0.104.0.VNBCNXM-user-15.0-31c6513eb3.zip
-  md5: 31c6513eb3e392cac0ee199dd3601dd9
-  method: Recovery
-  name: Xiaomi 14 Pro / Ti China
-  size: 6.3 GB
-  version: OS2.0.104.0.VNBCNXM
 - android: '14.0'
   branch: Public Beta
   codename: shennong
@@ -25908,6 +25898,16 @@
   name: Xiaomi Pad 7 Russia
   size: 5.9 GB
   version: OS2.0.100.0.VOZRUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: uke_tw_global
+  date: 2025-04-01
+  link: https://bigota.d.miui.com/OS2.0.101.0.VOZTWXM/uke_tw_global-ota_full-OS2.0.101.0.VOZTWXM-user-15.0-4967b99210.zip
+  md5: 4967b99210e76a4e22824dabd38f2010
+  method: Recovery
+  name: Xiaomi Pad 7 Taiwan
+  size: 5.9 GB
+  version: OS2.0.101.0.VOZTWXM
 - android: '15.0'
   branch: Stable
   codename: uke_tw_global
