@@ -7068,8 +7068,28 @@
   name: POCO X6 Pro 5G EEA
   size: 5.7 GB
   version: OS2.0.103.0.VNLEUXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: duchamp_global
+  date: 2024-12-05
+  link: https://bigota.d.miui.com/OS1.0.15.0.UNLMIXM/miui_DUCHAMPGlobal_OS1.0.15.0.UNLMIXM_4c311f2d69_14.0.zip
+  md5: 4c311f2d699963f30aba48c777e0ee96
+  method: Recovery
+  name: POCO X6 Pro 5G Global
+  size: 5.5 GB
+  version: OS1.0.15.0.UNLMIXM
+- android: '15.0'
+  branch: Stable
+  codename: duchamp_global
+  date: 2025-04-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNLMIXM/duchamp_global_images_OS2.0.101.0.VNLMIXM_20250307.0000.00_15.0_global_87c5889096.tgz
+  md5: 87c5889096cf17b58e98cac1272759e6
+  method: Fastboot
+  name: POCO X6 Pro 5G Global
+  size: 9.0 GB
+  version: OS2.0.101.0.VNLMIXM
+- android: '15.0'
+  branch: Stable
   codename: duchamp_global
   date: 2025-03-14
   link: https://bigota.d.miui.com/OS2.0.101.0.VNLMIXM/duchamp_global-ota_full-OS2.0.101.0.VNLMIXM-user-15.0-13c1dac60f.zip
@@ -7078,26 +7098,6 @@
   name: POCO X6 Pro 5G Global
   size: 5.7 GB
   version: OS2.0.101.0.VNLMIXM
-- android: '15.0'
-  branch: Stable
-  codename: duchamp_global
-  date: 2025-03-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNLMIXM/duchamp_global_images_OS2.0.100.0.VNLMIXM_20250213.0000.00_15.0_global_00bda7d7a6.tgz
-  md5: 00bda7d7a602ef9b0adec0e78e15cc10
-  method: Fastboot
-  name: POCO X6 Pro 5G Global
-  size: 9.0 GB
-  version: OS2.0.100.0.VNLMIXM
-- android: '15.0'
-  branch: Stable
-  codename: duchamp_global
-  date: 2025-02-21
-  link: https://bigota.d.miui.com/OS2.0.100.0.VNLMIXM/duchamp_global-ota_full-OS2.0.100.0.VNLMIXM-user-15.0-7dd6434acf.zip
-  md5: 7dd6434acf8bd0dcef5abf04e0b9a069
-  method: Recovery
-  name: POCO X6 Pro 5G Global
-  size: 5.7 GB
-  version: OS2.0.100.0.VNLMIXM
 - android: '14.0'
   branch: Stable Beta
   codename: duchamp_id_global
@@ -9018,16 +9018,16 @@
   name: Xiaomi 13 China
   size: 7.8 GB
   version: 23.5.6
-- android: '14.0'
+- android: '15.0'
   branch: Stable Beta
   codename: fuxi_eea_global
-  date: 2023-10-24
-  link: https://bigota.d.miui.com/V14.0.6.0.UMCEUXM/miui_FUXIEEAGlobal_V14.0.6.0.UMCEUXM_bd06bcd878_14.0.zip
-  md5: bd06bcd878627d10a6675aae262c75e2
+  date: 2025-03-28
+  link: https://bigota.d.miui.com/OS2.0.103.0.VMCEUXM/fuxi_eea_global-ota_full-OS2.0.103.0.VMCEUXM-user-15.0-f16d90eb13.zip
+  md5: f16d90eb132ece2fa4e51e30a21312c6
   method: Recovery
   name: Xiaomi 13 EEA
-  size: 5.9 GB
-  version: V14.0.6.0.UMCEUXM
+  size: 6.2 GB
+  version: OS2.0.103.0.VMCEUXM
 - android: '15.0'
   branch: Stable
   codename: fuxi_eea_global
@@ -21408,8 +21408,28 @@
   name: Xiaomi 14T Pro EEA
   size: 6.3 GB
   version: OS2.0.102.0.VNNEUXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: rothko_global
+  date: 2024-09-26
+  link: https://bigota.d.miui.com/OS1.0.4.0.UNNMIXM/miui_ROTHKOGlobal_OS1.0.4.0.UNNMIXM_4b962f7829_14.0.zip
+  md5: 4b962f78293dea1d2ff689291dbe3634
+  method: Recovery
+  name: Xiaomi 14T Pro Global
+  size: 5.7 GB
+  version: OS1.0.4.0.UNNMIXM
+- android: '15.0'
+  branch: Stable
+  codename: rothko_global
+  date: 2025-04-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.103.0.VNNMIXM/rothko_global_images_OS2.0.103.0.VNNMIXM_20250313.0000.00_15.0_global_6ff40c529d.tgz
+  md5: 6ff40c529dcff5c386ba6543ab6e59e7
+  method: Fastboot
+  name: Xiaomi 14T Pro Global
+  size: 8.8 GB
+  version: OS2.0.103.0.VNNMIXM
+- android: '15.0'
+  branch: Stable
   codename: rothko_global
   date: 2025-03-18
   link: https://bigota.d.miui.com/OS2.0.103.0.VNNMIXM/rothko_global-ota_full-OS2.0.103.0.VNNMIXM-user-15.0-439211252f.zip
@@ -21418,26 +21438,6 @@
   name: Xiaomi 14T Pro Global
   size: 6.2 GB
   version: OS2.0.103.0.VNNMIXM
-- android: '15.0'
-  branch: Stable
-  codename: rothko_global
-  date: 2025-03-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VNNMIXM/rothko_global_images_OS2.0.102.0.VNNMIXM_20250302.0000.00_15.0_global_04a999e5d2.tgz
-  md5: 04a999e5d2d76780030afb55e69a4bdf
-  method: Fastboot
-  name: Xiaomi 14T Pro Global
-  size: 8.8 GB
-  version: OS2.0.102.0.VNNMIXM
-- android: '15.0'
-  branch: Stable
-  codename: rothko_global
-  date: 2025-03-07
-  link: https://bigota.d.miui.com/OS2.0.102.0.VNNMIXM/rothko_global-ota_full-OS2.0.102.0.VNNMIXM-user-15.0-561d16995b.zip
-  md5: 561d16995b25c093535ad9e9ff0a8164
-  method: Recovery
-  name: Xiaomi 14T Pro Global
-  size: 6.2 GB
-  version: OS2.0.102.0.VNNMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: rothko_id_global
@@ -22039,6 +22039,16 @@
   size: 7.5 GB
   version: OS2.0.103.0.VNICNXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: ruyi_eea_global
+  date: 2025-03-28
+  link: https://bigota.d.miui.com/OS2.0.102.0.VNIEUXM/ruyi_eea_global-ota_full-OS2.0.102.0.VNIEUXM-user-15.0-60a2d9fbab.zip
+  md5: 60a2d9fbab44543f59d52eec1214dd24
+  method: Recovery
+  name: MIX Flip EEA
+  size: 6.8 GB
+  version: OS2.0.102.0.VNIEUXM
+- android: '15.0'
   branch: Stable
   codename: ruyi_eea_global
   date: 2025-01-15
@@ -22079,6 +22089,16 @@
   size: 6.8 GB
   version: OS2.0.102.0.VNIMIXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: ruyi_ru_global
+  date: 2025-03-28
+  link: https://bigota.d.miui.com/OS2.0.101.0.VNIRUXM/ruyi_ru_global-ota_full-OS2.0.101.0.VNIRUXM-user-15.0-4fcfaa146b.zip
+  md5: 4fcfaa146bd07a08c411f8513caa6dc7
+  method: Recovery
+  name: MIX Flip Russia
+  size: 6.8 GB
+  version: OS2.0.101.0.VNIRUXM
+- android: '15.0'
   branch: Stable
   codename: ruyi_ru_global
   date: 2025-01-15
@@ -22098,6 +22118,16 @@
   name: MIX Flip Russia
   size: 9.1 GB
   version: OS2.0.2.0.VNIRUXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: ruyi_tw_global
+  date: 2025-03-28
+  link: https://bigota.d.miui.com/OS2.0.101.0.VNITWXM/ruyi_tw_global-ota_full-OS2.0.101.0.VNITWXM-user-15.0-d7f3929238.zip
+  md5: d7f3929238b5e075d9c197a03ae7d3d4
+  method: Recovery
+  name: MIX Flip Taiwan
+  size: 6.7 GB
+  version: OS2.0.101.0.VNITWXM
 - android: '15.0'
   branch: Stable
   codename: ruyi_tw_global
@@ -28458,16 +28488,16 @@
   name: Redmi Note 11T Pro / POCO X4 GT / Pro EEA
   size: 6.8 GB
   version: OS1.0.11.0.ULOEUXM
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: xaga_global
-  date: 2023-10-19
-  link: https://bigota.d.miui.com/V14.0.6.0.TLOMIXM/miui_XAGAGlobal_V14.0.6.0.TLOMIXM_75134d8178_13.0.zip
-  md5: 75134d81787a3415fbfc481fa1f5a4b7
+  date: 2025-03-27
+  link: https://bigota.d.miui.com/OS1.0.11.0.ULOMIXM/miui_XAGAGlobal_OS1.0.11.0.ULOMIXM_f6409c1b5c_14.0.zip
+  md5: f6409c1b5c06772af87ded7dfb36ca2b
   method: Recovery
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Global
-  size: 5.2 GB
-  version: V14.0.6.0.TLOMIXM
+  size: 5.3 GB
+  version: OS1.0.11.0.ULOMIXM
 - android: '14.0'
   branch: Stable
   codename: xaga_global
@@ -28488,6 +28518,16 @@
   name: Redmi Note 11T Pro / POCO X4 GT / Pro Global
   size: 7.1 GB
   version: OS1.0.10.0.ULOMIXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: xaga_in_global
+  date: 2025-03-27
+  link: https://bigota.d.miui.com/OS1.0.9.0.ULOINXM/miui_XAGAINGlobal_OS1.0.9.0.ULOINXM_3ab92e3694_14.0.zip
+  md5: 3ab92e36944820889001a442e1b61ef3
+  method: Recovery
+  name: Redmi K50i / Pro India
+  size: 5.4 GB
+  version: OS1.0.9.0.ULOINXM
 - android: '14.0'
   branch: Stable
   codename: xaga_in_global
