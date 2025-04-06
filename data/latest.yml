@@ -8998,8 +8998,28 @@
   name: POCO C40 Taiwan
   size: 4.5 GB
   version: V13.0.7.0.RGFTWXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: fuxi
+  date: 2023-12-23
+  link: https://bigota.d.miui.com/OS1.0.5.0.UMCCNXM/miui_FUXI_OS1.0.5.0.UMCCNXM_84b08e9053_14.0.zip
+  md5: 84b08e905334a1afb8dec0e38983e6f1
+  method: Recovery
+  name: Xiaomi 13 China
+  size: 6.4 GB
+  version: OS1.0.5.0.UMCCNXM
+- android: '15.0'
+  branch: Stable
+  codename: fuxi
+  date: 2025-04-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.107.0.VMCCNXM/fuxi_images_OS2.0.107.0.VMCCNXM_20250323.0000.00_15.0_cn_a102663074.tgz
+  md5: a1026630745487af3a98dd716f9601db
+  method: Fastboot
+  name: Xiaomi 13 China
+  size: 8.8 GB
+  version: OS2.0.107.0.VMCCNXM
+- android: '15.0'
+  branch: Stable
   codename: fuxi
   date: 2025-03-28
   link: https://bigota.d.miui.com/OS2.0.107.0.VMCCNXM/fuxi-ota_full-OS2.0.107.0.VMCCNXM-user-15.0-031bda868e.zip
@@ -9008,26 +9028,6 @@
   name: Xiaomi 13 China
   size: 6.8 GB
   version: OS2.0.107.0.VMCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: fuxi
-  date: 2025-02-24
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.104.0.VMCCNXM/fuxi_images_OS2.0.104.0.VMCCNXM_20250217.0000.00_15.0_cn_75baf61fab.tgz
-  md5: 75baf61fabc91bfaa9c34d37e5491cef
-  method: Fastboot
-  name: Xiaomi 13 China
-  size: 8.8 GB
-  version: OS2.0.104.0.VMCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: fuxi
-  date: 2025-02-18
-  link: https://bigota.d.miui.com/OS2.0.104.0.VMCCNXM/fuxi-ota_full-OS2.0.104.0.VMCCNXM-user-15.0-0558a46bb0.zip
-  md5: 0558a46bb0a59d47d41af662f6a0b0d0
-  method: Recovery
-  name: Xiaomi 13 China
-  size: 6.8 GB
-  version: OS2.0.104.0.VMCCNXM
 - android: '14.0'
   branch: Public Beta
   codename: fuxi
@@ -9078,16 +9078,16 @@
   name: Xiaomi 13 EEA
   size: 6.1 GB
   version: OS2.0.102.0.VMCEUXM
-- android: '13.0'
+- android: '15.0'
   branch: Stable Beta
   codename: fuxi_global
-  date: 2023-02-27
-  link: https://bigota.d.miui.com/V14.0.3.0.TMCMIXM/miui_FUXIGlobal_V14.0.3.0.TMCMIXM_bb347e0b42_13.0.zip
-  md5: bb347e0b420ae2a19d44c397fc185b3b
+  date: 2025-04-01
+  link: https://bigota.d.miui.com/OS2.0.101.0.VMCMIXM/fuxi_global-ota_full-OS2.0.101.0.VMCMIXM-user-15.0-12f3fa0cb5.zip
+  md5: 12f3fa0cb5f9779c435e2451d551b7eb
   method: Recovery
   name: Xiaomi 13 Global
-  size: 5.5 GB
-  version: V14.0.3.0.TMCMIXM
+  size: 6.0 GB
+  version: OS2.0.101.0.VMCMIXM
 - android: '15.0'
   branch: Stable
   codename: fuxi_global
@@ -9118,6 +9118,16 @@
   name: Xiaomi 13 Global
   size: 7.1 GB
   version: 23.5.6
+- android: '15.0'
+  branch: Stable Beta
+  codename: fuxi_ru_global
+  date: 2025-04-02
+  link: https://bigota.d.miui.com/OS2.0.100.0.VMCRUXM/fuxi_ru_global-ota_full-OS2.0.100.0.VMCRUXM-user-15.0-c972298265.zip
+  md5: c972298265d18eaca773ca89416ab72c
+  method: Recovery
+  name: Xiaomi 13 Russia
+  size: 6.0 GB
+  version: OS2.0.100.0.VMCRUXM
 - android: '15.0'
   branch: Stable
   codename: fuxi_ru_global
@@ -9158,6 +9168,16 @@
   name: Xiaomi 13 Turkey
   size: 6.6 GB
   version: V14.0.3.0.TMCTRXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: fuxi_tw_global
+  date: 2025-04-02
+  link: https://bigota.d.miui.com/OS2.0.100.0.VMCTWXM/fuxi_tw_global-ota_full-OS2.0.100.0.VMCTWXM-user-15.0-d5bfe25c53.zip
+  md5: d5bfe25c53f7ed999a50c5e5fdf48642
+  method: Recovery
+  name: Xiaomi 13 Taiwan
+  size: 5.9 GB
+  version: OS2.0.100.0.VMCTWXM
 - android: '15.0'
   branch: Stable
   codename: fuxi_tw_global
