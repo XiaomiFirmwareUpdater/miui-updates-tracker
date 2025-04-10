@@ -9259,7 +9259,7 @@
   size: 6.9 GB
   version: OS2.0.2.0.VMCTWXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: gale_eea_global
   date: 2025-03-28
   link: https://bigota.d.miui.com/OS2.0.7.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.7.0.VGPEUXM-user-15.0-2aa3c446bb.zip
@@ -9271,23 +9271,13 @@
 - android: '15.0'
   branch: Stable
   codename: gale_eea_global
-  date: 2025-02-25
-  link: https://bigota.d.miui.com/OS2.0.6.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.6.0.VGPEUXM-user-15.0-171b4f170b.zip
-  md5: 171b4f170b81956d7073ab32d058adde
-  method: Recovery
-  name: Redmi 13C / POCO C65 EEA
-  size: 4.5 GB
-  version: OS2.0.6.0.VGPEUXM
-- android: '15.0'
-  branch: Stable
-  codename: gale_eea_global
-  date: 2025-02-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.6.0.VGPEUXM/gale_eea_global_images_OS2.0.6.0.VGPEUXM_20250218.0000.00_15.0_eea_df4a83e628.tgz
-  md5: df4a83e628f9e77b5c274a9f6976552e
+  date: 2025-03-05
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.7.0.VGPEUXM/gale_eea_global_images_OS2.0.7.0.VGPEUXM_20250305.0000.00_15.0_eea_24880b8e8c.tgz
+  md5: 24880b8e8cdeb5f550c9e7657e8e1385
   method: Fastboot
   name: Redmi 13C / POCO C65 EEA
   size: 7.3 GB
-  version: OS2.0.6.0.VGPEUXM
+  version: OS2.0.7.0.VGPEUXM
 - android: '15.0'
   branch: Stable
   codename: gale_global
@@ -9358,8 +9348,18 @@
   name: Redmi 13C / POCO C65 India
   size: 6.0 GB
   version: OS2.0.3.0.VGPINXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: gale_ru_global
+  date: 2024-07-11
+  link: https://bigota.d.miui.com/OS1.0.4.0.UGPRUXM/miui_GALERUGlobal_OS1.0.4.0.UGPRUXM_8edcf1c3ae_14.0.zip
+  md5: 8edcf1c3ae57b126aec51d2b05f0f761
+  method: Recovery
+  name: Redmi 13C / POCO C65 Russia
+  size: 4.2 GB
+  version: OS1.0.4.0.UGPRUXM
+- android: '15.0'
+  branch: Stable
   codename: gale_ru_global
   date: 2025-03-28
   link: https://bigota.d.miui.com/OS2.0.3.0.VGPRUXM/gale_ru_global-ota_full-OS2.0.3.0.VGPRUXM-user-15.0-e484036076.zip
@@ -9371,23 +9371,13 @@
 - android: '15.0'
   branch: Stable
   codename: gale_ru_global
-  date: 2025-02-20
-  link: https://bigota.d.miui.com/OS2.0.2.0.VGPRUXM/gale_ru_global-ota_full-OS2.0.2.0.VGPRUXM-user-15.0-aed81fa66e.zip
-  md5: aed81fa66ef1ce09e06cd6446476e99b
-  method: Recovery
-  name: Redmi 13C / POCO C65 Russia
-  size: 4.4 GB
-  version: OS2.0.2.0.VGPRUXM
-- android: '15.0'
-  branch: Stable
-  codename: gale_ru_global
-  date: 2025-02-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VGPRUXM/gale_ru_global_images_OS2.0.2.0.VGPRUXM_20250207.0000.00_15.0_ru_371996710e.tgz
-  md5: 371996710e313c97af3ba9d963ff47f1
+  date: 2025-03-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VGPRUXM/gale_ru_global_images_OS2.0.3.0.VGPRUXM_20250320.0000.00_15.0_ru_c22b112e2c.tgz
+  md5: c22b112e2c416066659bc0bf179581f6
   method: Fastboot
   name: Redmi 13C / POCO C65 Russia
   size: 7.4 GB
-  version: OS2.0.2.0.VGPRUXM
+  version: OS2.0.3.0.VGPRUXM
 - android: '14.0'
   branch: Stable Beta
   codename: gale_tr_global
@@ -12002,21 +11992,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
