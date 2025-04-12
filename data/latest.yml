@@ -24011,13 +24011,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -26659,7 +26659,17 @@
   size: 7.3 GB
   version: OS2.0.102.0.VNKCNXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: vermeer_eea_global
+  date: 2025-04-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VNKEUXM/vermeer_eea_global_images_OS2.0.102.0.VNKEUXM_20250321.0000.00_15.0_eea_8d5afeba7d.tgz
+  md5: 8d5afeba7dbd0e7cba2ddfd4cafffd4d
+  method: Fastboot
+  name: POCO F6 Pro EEA
+  size: 9.4 GB
+  version: OS2.0.102.0.VNKEUXM
+- android: '15.0'
+  branch: Stable
   codename: vermeer_eea_global
   date: 2025-04-02
   link: https://bigota.d.miui.com/OS2.0.102.0.VNKEUXM/vermeer_eea_global-ota_full-OS2.0.102.0.VNKEUXM-user-15.0-c8f7508ec1.zip
@@ -26668,26 +26678,6 @@
   name: POCO F6 Pro EEA
   size: 6.7 GB
   version: OS2.0.102.0.VNKEUXM
-- android: '15.0'
-  branch: Stable
-  codename: vermeer_eea_global
-  date: 2025-02-12
-  link: https://bigota.d.miui.com/OS2.0.3.0.VNKEUXM/vermeer_eea_global-ota_full-OS2.0.3.0.VNKEUXM-user-15.0-04acf73c65.zip
-  md5: 04acf73c65aacb9304b01a44e0625c2c
-  method: Recovery
-  name: POCO F6 Pro EEA
-  size: 6.7 GB
-  version: OS2.0.3.0.VNKEUXM
-- android: '15.0'
-  branch: Stable
-  codename: vermeer_eea_global
-  date: 2025-01-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VNKEUXM/vermeer_eea_global_images_OS2.0.3.0.VNKEUXM_20250118.0000.00_15.0_eea_5a9c91f69e.tgz
-  md5: 5a9c91f69e2040e290c12f45cbd128fb
-  method: Fastboot
-  name: POCO F6 Pro EEA
-  size: 9.4 GB
-  version: OS2.0.3.0.VNKEUXM
 - android: '15.0'
   branch: Stable
   codename: vermeer_global
@@ -26711,25 +26701,35 @@
 - android: '15.0'
   branch: Stable
   codename: vermeer_ru_global
-  date: 2025-02-12
-  link: https://bigota.d.miui.com/OS2.0.3.0.VNKRUXM/vermeer_ru_global-ota_full-OS2.0.3.0.VNKRUXM-user-15.0-00a59586db.zip
-  md5: 00a59586db792e65fae95dc601045599
-  method: Recovery
-  name: POCO F6 Pro Russia
-  size: 6.5 GB
-  version: OS2.0.3.0.VNKRUXM
-- android: '15.0'
-  branch: Stable
-  codename: vermeer_ru_global
-  date: 2025-01-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VNKRUXM/vermeer_ru_global_images_OS2.0.3.0.VNKRUXM_20250123.0000.00_15.0_ru_d71ddd63d4.tgz
-  md5: d71ddd63d469fc960e9952067546ac3c
+  date: 2025-04-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNKRUXM/vermeer_ru_global_images_OS2.0.100.0.VNKRUXM_20250321.0000.00_15.0_ru_83a00b7ea9.tgz
+  md5: 83a00b7ea90e137017f7eb11e316b724
   method: Fastboot
   name: POCO F6 Pro Russia
   size: 10.1 GB
-  version: OS2.0.3.0.VNKRUXM
+  version: OS2.0.100.0.VNKRUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: vermeer_ru_global
+  date: 2025-04-02
+  link: https://bigota.d.miui.com/OS2.0.100.0.VNKRUXM/vermeer_ru_global-ota_full-OS2.0.100.0.VNKRUXM-user-15.0-b012892f6a.zip
+  md5: b012892f6a00160ccd1c13e01a8191b0
+  method: Recovery
+  name: POCO F6 Pro Russia
+  size: 6.7 GB
+  version: OS2.0.100.0.VNKRUXM
+- android: '15.0'
+  branch: Stable
+  codename: vermeer_tw_global
+  date: 2025-04-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNKTWXM/vermeer_tw_global_images_OS2.0.100.0.VNKTWXM_20250321.0000.00_15.0_tw_a790fbd1f0.tgz
+  md5: a790fbd1f01d6739decab7bf50c0ebac
+  method: Fastboot
+  name: POCO F6 Pro Taiwan
+  size: 8.6 GB
+  version: OS2.0.100.0.VNKTWXM
+- android: '15.0'
+  branch: Stable
   codename: vermeer_tw_global
   date: 2025-04-02
   link: https://bigota.d.miui.com/OS2.0.100.0.VNKTWXM/vermeer_tw_global-ota_full-OS2.0.100.0.VNKTWXM-user-15.0-3cc980e994.zip
@@ -26738,26 +26738,6 @@
   name: POCO F6 Pro Taiwan
   size: 6.5 GB
   version: OS2.0.100.0.VNKTWXM
-- android: '15.0'
-  branch: Stable
-  codename: vermeer_tw_global
-  date: 2025-03-18
-  link: https://bigota.d.miui.com/OS2.0.3.0.VNKTWXM/vermeer_tw_global-ota_full-OS2.0.3.0.VNKTWXM-user-15.0-2bc1fa2c60.zip
-  md5: 2bc1fa2c6028f1f68065d90e5fd1bc2d
-  method: Recovery
-  name: POCO F6 Pro Taiwan
-  size: 6.5 GB
-  version: OS2.0.3.0.VNKTWXM
-- android: '15.0'
-  branch: Stable
-  codename: vermeer_tw_global
-  date: 2025-01-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VNKTWXM/vermeer_tw_global_images_OS2.0.3.0.VNKTWXM_20250118.0000.00_15.0_tw_5710d2cee2.tgz
-  md5: 5710d2cee27dd90e3468b51751f87bbd
-  method: Fastboot
-  name: POCO F6 Pro Taiwan
-  size: 8.6 GB
-  version: OS2.0.3.0.VNKTWXM
 - android: '13.0'
   branch: Stable
   codename: veux
