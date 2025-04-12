@@ -5689,7 +5689,17 @@
   size: 7.4 GB
   version: OS2.0.107.0.VOCINXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: dada_ru_global
+  date: 2025-04-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.103.0.VOCRUXM/dada_ru_global_images_OS2.0.103.0.VOCRUXM_20250325.0000.00_15.0_ru_60e9135305.tgz
+  md5: 60e91353053077068481bac42604f9ca
+  method: Fastboot
+  name: Xiaomi 15 Russia
+  size: 9.8 GB
+  version: OS2.0.103.0.VOCRUXM
+- android: '15.0'
+  branch: Stable
   codename: dada_ru_global
   date: 2025-04-01
   link: https://bigota.d.miui.com/OS2.0.103.0.VOCRUXM/dada_ru_global-ota_full-OS2.0.103.0.VOCRUXM-user-15.0-6d2d09aae0.zip
@@ -5700,26 +5710,16 @@
   version: OS2.0.103.0.VOCRUXM
 - android: '15.0'
   branch: Stable
-  codename: dada_ru_global
-  date: 2025-03-02
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VOCRUXM/dada_ru_global_images_OS2.0.102.0.VOCRUXM_20250211.0000.00_15.0_ru_eeac30d2d5.tgz
-  md5: eeac30d2d5031d4a7611cb3b7b06e951
+  codename: dada_tw_global
+  date: 2025-04-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.103.0.VOCTWXM/dada_tw_global_images_OS2.0.103.0.VOCTWXM_20250326.0000.00_15.0_tw_389bea66c9.tgz
+  md5: 389bea66c91505700e52a01fd5b149cc
   method: Fastboot
-  name: Xiaomi 15 Russia
-  size: 9.9 GB
-  version: OS2.0.102.0.VOCRUXM
+  name: Xiaomi 15 Taiwan
+  size: 8.6 GB
+  version: OS2.0.103.0.VOCTWXM
 - android: '15.0'
   branch: Stable
-  codename: dada_ru_global
-  date: 2025-03-02
-  link: https://bigota.d.miui.com/OS2.0.102.0.VOCRUXM/dada_ru_global-ota_full-OS2.0.102.0.VOCRUXM-user-15.0-bba702d536.zip
-  md5: bba702d536faa9ca9685a8e023c7dd34
-  method: Recovery
-  name: Xiaomi 15 Russia
-  size: 7.5 GB
-  version: OS2.0.102.0.VOCRUXM
-- android: '15.0'
-  branch: Stable Beta
   codename: dada_tw_global
   date: 2025-04-03
   link: https://bigota.d.miui.com/OS2.0.103.0.VOCTWXM/dada_tw_global-ota_full-OS2.0.103.0.VOCTWXM-user-15.0-29bf0720f5.zip
@@ -5728,26 +5728,6 @@
   name: Xiaomi 15 Taiwan
   size: 7.4 GB
   version: OS2.0.103.0.VOCTWXM
-- android: '15.0'
-  branch: Stable
-  codename: dada_tw_global
-  date: 2025-03-02
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VOCTWXM/dada_tw_global_images_OS2.0.102.0.VOCTWXM_20250211.0000.00_15.0_tw_cb6ee6cf3a.tgz
-  md5: cb6ee6cf3ac4aa9f079921f5fef90bef
-  method: Fastboot
-  name: Xiaomi 15 Taiwan
-  size: 8.7 GB
-  version: OS2.0.102.0.VOCTWXM
-- android: '15.0'
-  branch: Stable
-  codename: dada_tw_global
-  date: 2025-03-02
-  link: https://bigota.d.miui.com/OS2.0.102.0.VOCTWXM/dada_tw_global-ota_full-OS2.0.102.0.VOCTWXM-user-15.0-f83821dc7b.zip
-  md5: f83821dc7b8a2e4349ff2c38895d39e0
-  method: Recovery
-  name: Xiaomi 15 Taiwan
-  size: 7.4 GB
-  version: OS2.0.102.0.VOCTWXM
 - android: '14.0'
   branch: Stable Beta
   codename: dagu
@@ -12032,21 +12012,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -13471,13 +13451,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: lisa
-  date: 2025-03-10
-  link: https://bigota.d.miui.com/OS2.0.1.0.UKOCNXM/lisa-ota_full-OS2.0.1.0.UKOCNXM-user-14.0-2febfe6978.zip
-  md5: 2febfe697827d91129158da2f52f0ed4
+  date: 2025-01-23
+  link: https://bigota.d.miui.com/OS1.0.10.0.UKOCNXM/miui_LISA_OS1.0.10.0.UKOCNXM_5edac9f765_14.0.zip
+  md5: 5edac9f765cfae876904c1f6c12c8295
   method: Recovery
   name: Mi 11 LE China
-  size: 5.8 GB
-  version: OS2.0.1.0.UKOCNXM
+  size: 5.5 GB
+  version: OS1.0.10.0.UKOCNXM
 - android: '14.0'
   branch: Stable
   codename: lisa
@@ -24011,13 +23991,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
