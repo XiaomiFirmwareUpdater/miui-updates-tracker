@@ -2068,16 +2068,16 @@
   name: Redmi 10X 5G China
   size: 4.7 GB
   version: V13.0.0.1.27.DEV
-- android: '14.0'
+- android: '15.0'
   branch: Stable Beta
   codename: aurora
-  date: 2024-03-18
-  link: https://bigota.d.miui.com/OS1.0.7.0.UNACNXM/miui_AURORA_OS1.0.7.0.UNACNXM_81a48e3c20_14.0.zip
-  md5: 81a48e3c208123ca078eb9e7b9ac9368
+  date: 2025-04-09
+  link: https://bigota.d.miui.com/OS2.0.108.0.VNACNXM/aurora-ota_full-OS2.0.108.0.VNACNXM-user-15.0-d13c9063e5.zip
+  md5: d13c9063e551dd966d93c8c635557134
   method: Recovery
   name: Xiaomi 14 Ultra China
-  size: 7.3 GB
-  version: OS1.0.7.0.UNACNXM
+  size: 7.8 GB
+  version: OS2.0.108.0.VNACNXM
 - android: '15.0'
   branch: Stable
   codename: aurora
@@ -5571,6 +5571,26 @@
 - android: '15.0'
   branch: Stable Beta
   codename: dada
+  date: 2025-01-21
+  link: https://bigota.d.miui.com/OS2.0.104.0.VOCCNXM/dada-ota_full-OS2.0.104.0.VOCCNXM-user-15.0-564f874acc.zip
+  md5: 564f874accbf0809814d3f00f4f50055
+  method: Recovery
+  name: Xiaomi 15 China
+  size: 7.6 GB
+  version: OS2.0.104.0.VOCCNXM
+- android: '15.0'
+  branch: Stable
+  codename: dada
+  date: 2025-04-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.110.0.VOCCNXM/dada_images_OS2.0.110.0.VOCCNXM_20250325.0000.00_15.0_cn_b95d354a39.tgz
+  md5: b95d354a3942f867dbb2a0eea13f8323
+  method: Fastboot
+  name: Xiaomi 15 China
+  size: 10.8 GB
+  version: OS2.0.110.0.VOCCNXM
+- android: '15.0'
+  branch: Stable
+  codename: dada
   date: 2025-04-01
   link: https://bigota.d.miui.com/OS2.0.110.0.VOCCNXM/dada-ota_full-OS2.0.110.0.VOCCNXM-user-15.0-d75ea71360.zip
   md5: d75ea7136041cab760b4c3dad546c290
@@ -5578,26 +5598,6 @@
   name: Xiaomi 15 China
   size: 7.7 GB
   version: OS2.0.110.0.VOCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: dada
-  date: 2025-03-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.108.0.VOCCNXM/dada_images_OS2.0.108.0.VOCCNXM_20250304.0000.00_15.0_cn_f894b6d328.tgz
-  md5: f894b6d32842b59298487129e4faf4f8
-  method: Fastboot
-  name: Xiaomi 15 China
-  size: 10.8 GB
-  version: OS2.0.108.0.VOCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: dada
-  date: 2025-03-04
-  link: https://bigota.d.miui.com/OS2.0.108.0.VOCCNXM/dada-ota_full-OS2.0.108.0.VOCCNXM-user-15.0-2530dcf5dc.zip
-  md5: 2530dcf5dc94f9f2a1973c939c8d2cbb
-  method: Recovery
-  name: Xiaomi 15 China
-  size: 7.7 GB
-  version: OS2.0.108.0.VOCCNXM
 - android: '15.0'
   branch: Stable
   codename: dada_eea_global
@@ -10411,6 +10411,26 @@
 - android: '15.0'
   branch: Stable Beta
   codename: haotian
+  date: 2025-01-21
+  link: https://bigota.d.miui.com/OS2.0.104.0.VOBCNXM/haotian-ota_full-OS2.0.104.0.VOBCNXM-user-15.0-5260ca4796.zip
+  md5: 5260ca47969a5048e5e8aeda3d42449f
+  method: Recovery
+  name: Xiaomi 15 Pro China
+  size: 7.7 GB
+  version: OS2.0.104.0.VOBCNXM
+- android: '15.0'
+  branch: Stable
+  codename: haotian
+  date: 2025-04-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.112.0.VOBCNXM/haotian_images_OS2.0.112.0.VOBCNXM_20250327.0000.00_15.0_cn_b7383c4aac.tgz
+  md5: b7383c4aacaf8bf759dd1158ec10879f
+  method: Fastboot
+  name: Xiaomi 15 Pro China
+  size: 10.9 GB
+  version: OS2.0.112.0.VOBCNXM
+- android: '15.0'
+  branch: Stable
+  codename: haotian
   date: 2025-04-01
   link: https://bigota.d.miui.com/OS2.0.112.0.VOBCNXM/haotian-ota_full-OS2.0.112.0.VOBCNXM-user-15.0-43dd7c0743.zip
   md5: 43dd7c07437746a20ccb10f23ad65779
@@ -10418,26 +10438,6 @@
   name: Xiaomi 15 Pro China
   size: 7.7 GB
   version: OS2.0.112.0.VOBCNXM
-- android: '15.0'
-  branch: Stable
-  codename: haotian
-  date: 2025-03-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.108.0.VOBCNXM/haotian_images_OS2.0.108.0.VOBCNXM_20250304.0000.00_15.0_cn_5a7b2dc343.tgz
-  md5: 5a7b2dc343e49f7567f2fb86790845c2
-  method: Fastboot
-  name: Xiaomi 15 Pro China
-  size: 10.9 GB
-  version: OS2.0.108.0.VOBCNXM
-- android: '15.0'
-  branch: Stable
-  codename: haotian
-  date: 2025-03-04
-  link: https://bigota.d.miui.com/OS2.0.108.0.VOBCNXM/haotian-ota_full-OS2.0.108.0.VOBCNXM-user-15.0-ab254233d5.zip
-  md5: ab254233d5835a6e9bd090f6969f8bf8
-  method: Recovery
-  name: Xiaomi 15 Pro China
-  size: 7.7 GB
-  version: OS2.0.108.0.VOBCNXM
 - android: '14.0'
   branch: Stable Beta
   codename: haydn
@@ -28698,6 +28698,16 @@
   name: Redmi Pad SE China
   size: 5.5 GB
   version: OS1.0.10.0.UMUCNXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: xun_eea_global
+  date: 2025-04-10
+  link: https://bigota.d.miui.com/OS2.0.2.0.VMUEUXM/xun_eea_global-ota_full-OS2.0.2.0.VMUEUXM-user-15.0-603d466d0a.zip
+  md5: 603d466d0a66e24de71f3de882e49788
+  method: Recovery
+  name: Redmi Pad SE EEA
+  size: 4.5 GB
+  version: OS2.0.2.0.VMUEUXM
 - android: '15.0'
   branch: Stable
   codename: xun_eea_global
