@@ -13538,16 +13538,16 @@
   name: Xiaomi 11 Lite 5G NE EEA
   size: 6.6 GB
   version: OS2.0.1.0.UKOEUXM
-- android: '11.0'
+- android: '14.0'
   branch: Stable Beta
   codename: lisa_global
-  date: 2021-09-16
-  link: https://bigota.d.miui.com/V12.5.1.0.RKOMIXM/miui_LISAGlobal_V12.5.1.0.RKOMIXM_076be2f277_11.0.zip
-  md5: 076be2f27720e7430d8fdd4b7c1f990a
+  date: 2025-04-11
+  link: https://bigota.d.miui.com/OS2.0.1.0.UKOMIXM/lisa_global-ota_full-OS2.0.1.0.UKOMIXM-user-14.0-56b17f7a30.zip
+  md5: 56b17f7a3088e08ea0962f5b00cb6e7f
   method: Recovery
   name: Xiaomi 11 Lite 5G NE Global
-  size: 3.1 GB
-  version: V12.5.1.0.RKOMIXM
+  size: 5.3 GB
+  version: OS2.0.1.0.UKOMIXM
 - android: '14.0'
   branch: Stable
   codename: lisa_global
@@ -15059,6 +15059,16 @@
   size: 8.3 GB
   version: OS2.0.108.0.VOMCNXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: miro_eea_global
+  date: 2025-04-14
+  link: https://bigota.d.miui.com/OS2.0.108.0.VOMEUXM/miro_eea_global-ota_full-OS2.0.108.0.VOMEUXM-user-15.0-0e69508f2e.zip
+  md5: 0e69508f2edd8cbb7b698fb6906aed7e
+  method: Recovery
+  name: Redmi K80 Pro / POCO F7 Ultra EEA
+  size: 7.1 GB
+  version: OS2.0.108.0.VOMEUXM
+- android: '15.0'
   branch: Stable
   codename: miro_eea_global
   date: 2025-03-27
@@ -15111,13 +15121,13 @@
 - android: '15.0'
   branch: Stable Beta
   codename: miro_id_global
-  date: 2025-03-27
-  link: https://bigota.d.miui.com/OS2.0.1.0.VOMIDXM/miro_id_global-ota_full-OS2.0.1.0.VOMIDXM-user-15.0-ab850211af.zip
-  md5: ab850211af5b40d6ec4b8517b75f38e1
+  date: 2025-04-17
+  link: https://bigota.d.miui.com/OS2.0.104.0.VOMIDXM/miro_id_global-ota_full-OS2.0.104.0.VOMIDXM-user-15.0-f6840fcc66.zip
+  md5: f6840fcc66c8f49ec376937c057eb0cd
   method: Recovery
   name: Redmi K80 Pro / POCO F7 Ultra Indonesia
   size: 7.1 GB
-  version: OS2.0.1.0.VOMIDXM
+  version: OS2.0.104.0.VOMIDXM
 - android: '15.0'
   branch: Stable
   codename: miro_id_global
@@ -18019,7 +18029,17 @@
   size: 5.9 GB
   version: OS2.0.100.0.VNPIDXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: peridot_in_global
+  date: 2025-04-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VNPINXM/peridot_in_global_images_OS2.0.102.0.VNPINXM_20250326.0000.00_15.0_in_b32d12c217.tgz
+  md5: b32d12c2177a4720f716ee6ff9329590
+  method: Fastboot
+  name: POCO F6 India
+  size: 7.6 GB
+  version: OS2.0.102.0.VNPINXM
+- android: '15.0'
+  branch: Stable
   codename: peridot_in_global
   date: 2025-04-03
   link: https://bigota.d.miui.com/OS2.0.102.0.VNPINXM/peridot_in_global-ota_full-OS2.0.102.0.VNPINXM-user-15.0-04934990fd.zip
@@ -18030,26 +18050,16 @@
   version: OS2.0.102.0.VNPINXM
 - android: '15.0'
   branch: Stable
-  codename: peridot_in_global
-  date: 2025-03-24
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNPINXM/peridot_in_global_images_OS2.0.101.0.VNPINXM_20250221.0000.00_15.0_in_e4c097c739.tgz
-  md5: e4c097c73908aad5eb6c58164bfcdca5
+  codename: peridot_ru_global
+  date: 2025-04-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNPRUXM/peridot_ru_global_images_OS2.0.101.0.VNPRUXM_20250326.0000.00_15.0_ru_e037b30cf1.tgz
+  md5: e037b30cf1035c6e67b49027e640d173
   method: Fastboot
-  name: POCO F6 India
-  size: 7.7 GB
-  version: OS2.0.101.0.VNPINXM
+  name: POCO F6 Russia
+  size: 9.1 GB
+  version: OS2.0.101.0.VNPRUXM
 - android: '15.0'
   branch: Stable
-  codename: peridot_in_global
-  date: 2025-03-04
-  link: https://bigota.d.miui.com/OS2.0.101.0.VNPINXM/peridot_in_global-ota_full-OS2.0.101.0.VNPINXM-user-15.0-f13d0eeef4.zip
-  md5: f13d0eeef4065d03f0734ec0f8a17de4
-  method: Recovery
-  name: POCO F6 India
-  size: 5.8 GB
-  version: OS2.0.101.0.VNPINXM
-- android: '15.0'
-  branch: Stable Beta
   codename: peridot_ru_global
   date: 2025-04-07
   link: https://bigota.d.miui.com/OS2.0.101.0.VNPRUXM/peridot_ru_global-ota_full-OS2.0.101.0.VNPRUXM-user-15.0-6499db453e.zip
@@ -18060,26 +18070,16 @@
   version: OS2.0.101.0.VNPRUXM
 - android: '15.0'
   branch: Stable
-  codename: peridot_ru_global
-  date: 2025-03-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNPRUXM/peridot_ru_global_images_OS2.0.100.0.VNPRUXM_20250226.0000.00_15.0_ru_8451282541.tgz
-  md5: 84512825413ca0e0eef4e4b346bd74d2
+  codename: peridot_tw_global
+  date: 2025-04-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VNPTWXM/peridot_tw_global_images_OS2.0.101.0.VNPTWXM_20250326.0000.00_15.0_tw_a1db07c8f5.tgz
+  md5: a1db07c8f561d2d06b47f502e2a6e37e
   method: Fastboot
-  name: POCO F6 Russia
-  size: 9.1 GB
-  version: OS2.0.100.0.VNPRUXM
+  name: POCO F6 Taiwan
+  size: 7.7 GB
+  version: OS2.0.101.0.VNPTWXM
 - android: '15.0'
   branch: Stable
-  codename: peridot_ru_global
-  date: 2025-03-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNPRUXM/peridot_ru_global-ota_full-OS2.0.100.0.VNPRUXM-user-15.0-ac88e24f19.zip
-  md5: ac88e24f1940d11ef47a26e5f818d7a5
-  method: Recovery
-  name: POCO F6 Russia
-  size: 5.9 GB
-  version: OS2.0.100.0.VNPRUXM
-- android: '15.0'
-  branch: Stable Beta
   codename: peridot_tw_global
   date: 2025-04-07
   link: https://bigota.d.miui.com/OS2.0.101.0.VNPTWXM/peridot_tw_global-ota_full-OS2.0.101.0.VNPTWXM-user-15.0-d6d6a8c00e.zip
@@ -18088,26 +18088,6 @@
   name: POCO F6 Taiwan
   size: 5.8 GB
   version: OS2.0.101.0.VNPTWXM
-- android: '15.0'
-  branch: Stable
-  codename: peridot_tw_global
-  date: 2025-03-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.100.0.VNPTWXM/peridot_tw_global_images_OS2.0.100.0.VNPTWXM_20250226.0000.00_15.0_tw_f767c6de46.tgz
-  md5: f767c6de463c08eb9cae6f922082f92f
-  method: Fastboot
-  name: POCO F6 Taiwan
-  size: 7.7 GB
-  version: OS2.0.100.0.VNPTWXM
-- android: '15.0'
-  branch: Stable
-  codename: peridot_tw_global
-  date: 2025-03-13
-  link: https://bigota.d.miui.com/OS2.0.100.0.VNPTWXM/peridot_tw_global-ota_full-OS2.0.100.0.VNPTWXM-user-15.0-18dec7693c.zip
-  md5: 18dec7693cd7c1742ef83af562292304
-  method: Recovery
-  name: POCO F6 Taiwan
-  size: 5.8 GB
-  version: OS2.0.100.0.VNPTWXM
 - android: '10.0'
   branch: Stable
   codename: perseus
@@ -18719,7 +18699,7 @@
   size: 5.7 GB
   version: OS2.0.2.0.UMZTRXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: pipa_tw_global
   date: 2025-04-08
   link: https://bigota.d.miui.com/OS2.0.2.0.UMZTWXM/pipa_tw_global-ota_full-OS2.0.2.0.UMZTWXM-user-14.0-35b257d43d.zip
@@ -18731,23 +18711,13 @@
 - android: '14.0'
   branch: Stable
   codename: pipa_tw_global
-  date: 2025-03-12
-  link: https://bigota.d.miui.com/OS2.0.1.0.UMZTWXM/pipa_tw_global-ota_full-OS2.0.1.0.UMZTWXM-user-14.0-424086b781.zip
-  md5: 424086b781cd6c31ac66f4ceecea52bd
-  method: Recovery
-  name: Xiaomi Pad 6 Taiwan
-  size: 4.6 GB
-  version: OS2.0.1.0.UMZTWXM
-- android: '14.0'
-  branch: Stable
-  codename: pipa_tw_global
-  date: 2025-02-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.1.0.UMZTWXM/pipa_tw_global_images_OS2.0.1.0.UMZTWXM_20250225.0000.00_14.0_tw_de4d103f7d.tgz
-  md5: de4d103f7dfbbb1b0daf960f1c385e9e
+  date: 2025-03-24
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.UMZTWXM/pipa_tw_global_images_OS2.0.2.0.UMZTWXM_20250324.0000.00_14.0_tw_f655a29fee.tgz
+  md5: f655a29feee7477f61ff188f7f860429
   method: Fastboot
   name: Xiaomi Pad 6 Taiwan
   size: 5.5 GB
-  version: OS2.0.1.0.UMZTWXM
+  version: OS2.0.2.0.UMZTWXM
 - android: '4.4'
   branch: Stable
   codename: pisces
@@ -21358,16 +21328,16 @@
   name: Xiaomi 14T Pro EEA
   size: 6.3 GB
   version: OS2.0.104.0.VNNEUXM
-- android: '14.0'
+- android: '15.0'
   branch: Stable Beta
   codename: rothko_global
-  date: 2024-09-26
-  link: https://bigota.d.miui.com/OS1.0.4.0.UNNMIXM/miui_ROTHKOGlobal_OS1.0.4.0.UNNMIXM_4b962f7829_14.0.zip
-  md5: 4b962f78293dea1d2ff689291dbe3634
+  date: 2025-04-14
+  link: https://bigota.d.miui.com/OS2.0.104.0.VNNMIXM/rothko_global-ota_full-OS2.0.104.0.VNNMIXM-user-15.0-a4c3659d86.zip
+  md5: a4c3659d860e72b2b2264ee74916ca41
   method: Recovery
   name: Xiaomi 14T Pro Global
-  size: 5.7 GB
-  version: OS1.0.4.0.UNNMIXM
+  size: 6.2 GB
+  version: OS2.0.104.0.VNNMIXM
 - android: '15.0'
   branch: Stable
   codename: rothko_global
@@ -24529,6 +24499,16 @@
   size: 7.8 GB
   version: OS1.0.4.0.UOGRUXM
 - android: '14.0'
+  branch: Stable Beta
+  codename: tanzanite_tr_global
+  date: 2025-04-14
+  link: https://bigota.d.miui.com/OS1.0.6.0.UOGTRXM/miui_TANZANITETRGlobal_OS1.0.6.0.UOGTRXM_52c865d9f4_14.0.zip
+  md5: 52c865d9f4ec089de75f1e99d3d5b93d
+  method: Recovery
+  name: Redmi Note 14 4G Turkey
+  size: 4.6 GB
+  version: OS1.0.6.0.UOGTRXM
+- android: '14.0'
   branch: Stable
   codename: tanzanite_tr_global
   date: 2025-03-28
@@ -26968,8 +26948,18 @@
   name: Redmi Note 11 Pro 4G India
   size: 4.8 GB
   version: OS1.0.4.0.TGDINXM
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: vili_eea_global
+  date: 2021-12-20
+  link: https://bigota.d.miui.com/V12.5.19.0.RKDEUXM/miui_VILIEEAGlobal_V12.5.19.0.RKDEUXM_1ffe6df991_11.0.zip
+  md5: 1ffe6df9918eacb51a754c2a6a71f38d
+  method: Recovery
+  name: Xiaomi 11T Pro EEA
+  size: 3.4 GB
+  version: V12.5.19.0.RKDEUXM
+- android: '14.0'
+  branch: Stable
   codename: vili_eea_global
   date: 2025-04-02
   link: https://bigota.d.miui.com/OS1.0.14.0.UKDEUXM/miui_VILIEEAGlobal_OS1.0.14.0.UKDEUXM_4b37a41fb2_14.0.zip
@@ -26981,25 +26971,15 @@
 - android: '14.0'
   branch: Stable
   codename: vili_eea_global
-  date: 2025-02-25
-  link: https://bigota.d.miui.com/OS1.0.12.0.UKDEUXM/miui_VILIEEAGlobal_OS1.0.12.0.UKDEUXM_10150f6b6d_14.0.zip
-  md5: 10150f6b6d1e9c8f7d00493fe31fc411
-  method: Recovery
-  name: Xiaomi 11T Pro EEA
-  size: 5.2 GB
-  version: OS1.0.12.0.UKDEUXM
-- android: '14.0'
-  branch: Stable
-  codename: vili_eea_global
-  date: 2025-02-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UKDEUXM/vili_eea_global_images_OS1.0.12.0.UKDEUXM_20250217.0000.00_14.0_eea_bd2fbf16d8.tgz
-  md5: bd2fbf16d8587932a6ed2f15adac99d2
+  date: 2025-03-05
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.14.0.UKDEUXM/vili_eea_global_images_OS1.0.14.0.UKDEUXM_20250305.0000.00_14.0_eea_95304b9a6a.tgz
+  md5: 95304b9a6a6e2fa2fd2bce8f376790b1
   method: Fastboot
   name: Xiaomi 11T Pro EEA
   size: 6.4 GB
-  version: OS1.0.12.0.UKDEUXM
+  version: OS1.0.14.0.UKDEUXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: vili_global
   date: 2025-04-01
   link: https://bigota.d.miui.com/OS1.0.11.0.UKDMIXM/miui_VILIGlobal_OS1.0.11.0.UKDMIXM_1b12f59c4c_14.0.zip
@@ -27011,23 +26991,13 @@
 - android: '14.0'
   branch: Stable
   codename: vili_global
-  date: 2025-02-25
-  link: https://bigota.d.miui.com/OS1.0.10.0.UKDMIXM/miui_VILIGlobal_OS1.0.10.0.UKDMIXM_0a1d5a3368_14.0.zip
-  md5: 0a1d5a3368ff07132f1adf85d8362dbe
-  method: Recovery
-  name: Xiaomi 11T Pro Global
-  size: 5.3 GB
-  version: OS1.0.10.0.UKDMIXM
-- android: '14.0'
-  branch: Stable
-  codename: vili_global
-  date: 2025-02-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UKDMIXM/vili_global_images_OS1.0.10.0.UKDMIXM_20250217.0000.00_14.0_global_cf7cb17ef6.tgz
-  md5: cf7cb17ef6f98303b7353c99f4a338de
+  date: 2025-03-05
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UKDMIXM/vili_global_images_OS1.0.11.0.UKDMIXM_20250305.0000.00_14.0_global_92b65c0612.tgz
+  md5: 92b65c06124241287cdd0539144cbdaa
   method: Fastboot
   name: Xiaomi 11T Pro Global
   size: 6.6 GB
-  version: OS1.0.10.0.UKDMIXM
+  version: OS1.0.11.0.UKDMIXM
 - android: '14.0'
   branch: Stable
   codename: vili_id_global
