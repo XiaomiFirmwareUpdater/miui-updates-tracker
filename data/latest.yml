@@ -8448,6 +8448,26 @@
   name: Redmi Pad SE 8.7 5G Global
   size: 5.4 GB
   version: OS2.0.3.0.VHXMIXM
+- android: '14.0'
+  branch: Stable
+  codename: flare_id_global
+  date: 2025-04-30
+  link: https://bigota.d.miui.com/OS1.0.3.0.UHXIDXM/miui_FLAREIDGlobal_OS1.0.3.0.UHXIDXM_2ebca9629d_14.0.zip
+  md5: 2ebca9629d8eacee95c4dc178fa0f77e
+  method: Recovery
+  name: Redmi Pad SE 8.7 5G Indonesia
+  size: 4.1 GB
+  version: OS1.0.3.0.UHXIDXM
+- android: '14.0'
+  branch: Stable
+  codename: flare_id_global
+  date: 2025-04-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.3.0.UHXIDXM/flare_id_global_images_OS1.0.3.0.UHXIDXM_20250422.0000.00_14.0_id_7810157805.tgz
+  md5: 78101578053156f0bd858011da30f2ac
+  method: Fastboot
+  name: Redmi Pad SE 8.7 5G Indonesia
+  size: 5.0 GB
+  version: OS1.0.3.0.UHXIDXM
 - android: '15.0'
   branch: Stable
   codename: flare_ru_global
@@ -8978,8 +8998,28 @@
   name: POCO C40 Taiwan
   size: 4.5 GB
   version: V13.0.7.0.RGFTWXM
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: fuxi
+  date: 2023-12-23
+  link: https://bigota.d.miui.com/OS1.0.5.0.UMCCNXM/miui_FUXI_OS1.0.5.0.UMCCNXM_84b08e9053_14.0.zip
+  md5: 84b08e905334a1afb8dec0e38983e6f1
+  method: Recovery
+  name: Xiaomi 13 China
+  size: 6.4 GB
+  version: OS1.0.5.0.UMCCNXM
+- android: '15.0'
+  branch: Stable
+  codename: fuxi
+  date: 2025-05-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.108.0.VMCCNXM/fuxi_images_OS2.0.108.0.VMCCNXM_20250331.0000.00_15.0_cn_2d228fd0a1.tgz
+  md5: 2d228fd0a196c217f1b4abe1caacd4de
+  method: Fastboot
+  name: Xiaomi 13 China
+  size: 8.8 GB
+  version: OS2.0.108.0.VMCCNXM
+- android: '15.0'
+  branch: Stable
   codename: fuxi
   date: 2025-04-24
   link: https://bigota.d.miui.com/OS2.0.108.0.VMCCNXM/fuxi-ota_full-OS2.0.108.0.VMCCNXM-user-15.0-84005adff5.zip
@@ -8988,26 +9028,6 @@
   name: Xiaomi 13 China
   size: 6.8 GB
   version: OS2.0.108.0.VMCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: fuxi
-  date: 2025-04-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.107.0.VMCCNXM/fuxi_images_OS2.0.107.0.VMCCNXM_20250323.0000.00_15.0_cn_a102663074.tgz
-  md5: a1026630745487af3a98dd716f9601db
-  method: Fastboot
-  name: Xiaomi 13 China
-  size: 8.8 GB
-  version: OS2.0.107.0.VMCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: fuxi
-  date: 2025-03-28
-  link: https://bigota.d.miui.com/OS2.0.107.0.VMCCNXM/fuxi-ota_full-OS2.0.107.0.VMCCNXM-user-15.0-031bda868e.zip
-  md5: 031bda868e4569ce4824a9bdc34d710d
-  method: Recovery
-  name: Xiaomi 13 China
-  size: 6.8 GB
-  version: OS2.0.107.0.VMCCNXM
 - android: '14.0'
   branch: Public Beta
   codename: fuxi
@@ -12032,21 +12052,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -14279,7 +14299,7 @@
   size: 7.9 GB
   version: OS1.0.6.0.UOOTRXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: malachite_tw_global
   date: 2025-04-27
   link: https://bigota.d.miui.com/OS2.0.1.0.VOOTWXM/malachite_tw_global-ota_full-OS2.0.1.0.VOOTWXM-user-15.0-4fe8b88193.zip
@@ -14288,26 +14308,16 @@
   name: Redmi Note 14 Pro 5G / POCO X7 Taiwan
   size: 5.9 GB
   version: OS2.0.1.0.VOOTWXM
-- android: '14.0'
+- android: '15.0'
   branch: Stable
   codename: malachite_tw_global
-  date: 2025-03-07
-  link: https://bigota.d.miui.com/OS1.0.6.0.UOOTWXM/miui_MALACHITETWGlobal_OS1.0.6.0.UOOTWXM_1a1631d6ec_14.0.zip
-  md5: 1a1631d6ec2069f8ab889d2240e9255b
-  method: Recovery
-  name: Redmi Note 14 Pro 5G / POCO X7 Taiwan
-  size: 5.5 GB
-  version: OS1.0.6.0.UOOTWXM
-- android: '14.0'
-  branch: Stable
-  codename: malachite_tw_global
-  date: 2025-02-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.6.0.UOOTWXM/malachite_tw_global_images_OS1.0.6.0.UOOTWXM_20250227.0000.00_14.0_tw_d94ed4e27c.tgz
-  md5: d94ed4e27c432326f9b2d20c3b4ad822
+  date: 2025-04-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.1.0.VOOTWXM/malachite_tw_global_images_OS2.0.1.0.VOOTWXM_20250418.0000.00_15.0_tw_26468be01f.tgz
+  md5: 26468be01f4ce9fd8b4fa9377f14b371
   method: Fastboot
   name: Redmi Note 14 Pro 5G / POCO X7 Taiwan
-  size: 7.5 GB
-  version: OS1.0.6.0.UOOTWXM
+  size: 8.0 GB
+  version: OS2.0.1.0.VOOTWXM
 - android: '14.0'
   branch: Stable Beta
   codename: manet
@@ -29961,6 +29971,26 @@
 - android: '15.0'
   branch: Stable Beta
   codename: zorn
+  date: 2024-12-12
+  link: https://bigota.d.miui.com/OS2.0.12.0.VOKCNXM/zorn-ota_full-OS2.0.12.0.VOKCNXM-user-15.0-44c050c43e.zip
+  md5: 44c050c43ea6253b3e26c879894a6ee6
+  method: Recovery
+  name: Redmi K80 China
+  size: 7.1 GB
+  version: OS2.0.12.0.VOKCNXM
+- android: '15.0'
+  branch: Stable
+  codename: zorn
+  date: 2025-05-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.110.0.VOKCNXM/zorn_images_OS2.0.110.0.VOKCNXM_20250427.0000.00_15.0_cn_253f977b70.tgz
+  md5: 253f977b7036100452a8c3bd83f5900d
+  method: Fastboot
+  name: Redmi K80 China
+  size: 9.3 GB
+  version: OS2.0.110.0.VOKCNXM
+- android: '15.0'
+  branch: Stable
+  codename: zorn
   date: 2025-04-29
   link: https://bigota.d.miui.com/OS2.0.110.0.VOKCNXM/zorn-ota_full-OS2.0.110.0.VOKCNXM-user-15.0-7aed5e9c28.zip
   md5: 7aed5e9c286aa9b016b8b97484b11eca
@@ -29968,26 +29998,6 @@
   name: Redmi K80 China
   size: 7.2 GB
   version: OS2.0.110.0.VOKCNXM
-- android: '15.0'
-  branch: Stable
-  codename: zorn
-  date: 2025-04-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.109.0.VOKCNXM/zorn_images_OS2.0.109.0.VOKCNXM_20250409.0000.00_15.0_cn_6aaae94dd7.tgz
-  md5: 6aaae94dd73611e399e546d090078655
-  method: Fastboot
-  name: Redmi K80 China
-  size: 9.3 GB
-  version: OS2.0.109.0.VOKCNXM
-- android: '15.0'
-  branch: Stable
-  codename: zorn
-  date: 2025-04-14
-  link: https://bigota.d.miui.com/OS2.0.109.0.VOKCNXM/zorn-ota_full-OS2.0.109.0.VOKCNXM-user-15.0-d936df248c.zip
-  md5: d936df248c9a1a3004db5a98ae354d97
-  method: Recovery
-  name: Redmi K80 China
-  size: 7.2 GB
-  version: OS2.0.109.0.VOKCNXM
 - android: '15.0'
   branch: Stable Beta
   codename: zorn_eea_global
