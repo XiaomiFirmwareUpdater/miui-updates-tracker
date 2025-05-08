@@ -9409,7 +9409,7 @@
   size: 8.1 GB
   version: OS2.0.9.0.VNREUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: garnet_global
   date: 2025-04-24
   link: https://bigota.d.miui.com/OS2.0.9.0.VNRMIXM/garnet_global-ota_full-OS2.0.9.0.VNRMIXM-user-15.0-a4a2d6cf2c.zip
@@ -9421,23 +9421,13 @@
 - android: '15.0'
   branch: Stable
   codename: garnet_global
-  date: 2025-03-10
-  link: https://bigota.d.miui.com/OS2.0.6.0.VNRMIXM/garnet_global-ota_full-OS2.0.6.0.VNRMIXM-user-15.0-7bfdfa66f5.zip
-  md5: 7bfdfa66f5f629d22045f601b3cabfe5
-  method: Recovery
-  name: Redmi Note 13 Pro 5G / POCO X6 5G Global
-  size: 5.4 GB
-  version: OS2.0.6.0.VNRMIXM
-- android: '15.0'
-  branch: Stable
-  codename: garnet_global
-  date: 2025-02-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.6.0.VNRMIXM/garnet_global_images_OS2.0.6.0.VNRMIXM_20250221.0000.00_15.0_global_fc829ca49b.tgz
-  md5: fc829ca49b45f227feade969427df31c
+  date: 2025-04-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.9.0.VNRMIXM/garnet_global_images_OS2.0.9.0.VNRMIXM_20250422.0000.00_15.0_global_1568410cd2.tgz
+  md5: 1568410cd2808f72ab7a555f40a76d97
   method: Fastboot
   name: Redmi Note 13 Pro 5G / POCO X6 5G Global
   size: 8.7 GB
-  version: OS2.0.6.0.VNRMIXM
+  version: OS2.0.9.0.VNRMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: garnet_id_global
@@ -9499,7 +9489,7 @@
   size: 7.0 GB
   version: OS2.0.4.0.VNRINXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: garnet_ru_global
   date: 2025-04-24
   link: https://bigota.d.miui.com/OS2.0.8.0.VNRRUXM/garnet_ru_global-ota_full-OS2.0.8.0.VNRRUXM-user-15.0-2cd4a55c0c.zip
@@ -9511,23 +9501,13 @@
 - android: '15.0'
   branch: Stable
   codename: garnet_ru_global
-  date: 2025-02-19
-  link: https://bigota.d.miui.com/OS2.0.5.0.VNRRUXM/garnet_ru_global-ota_full-OS2.0.5.0.VNRRUXM-user-15.0-7142a08632.zip
-  md5: 7142a086322124e57a99b0ddc0ed3efa
-  method: Recovery
-  name: Redmi Note 13 Pro 5G / POCO X6 5G Russia
-  size: 5.3 GB
-  version: OS2.0.5.0.VNRRUXM
-- android: '15.0'
-  branch: Stable
-  codename: garnet_ru_global
-  date: 2025-02-12
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.5.0.VNRRUXM/garnet_ru_global_images_OS2.0.5.0.VNRRUXM_20250212.0000.00_15.0_ru_2d7a2f0732.tgz
-  md5: 2d7a2f0732d32b51017aa2b417c37b34
+  date: 2025-04-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.8.0.VNRRUXM/garnet_ru_global_images_OS2.0.8.0.VNRRUXM_20250422.0000.00_15.0_ru_6ba8d6665f.tgz
+  md5: 6ba8d6665f3c7c21abf42cecdfd9c09a
   method: Fastboot
   name: Redmi Note 13 Pro 5G / POCO X6 5G Russia
-  size: 8.3 GB
-  version: OS2.0.5.0.VNRRUXM
+  size: 8.4 GB
+  version: OS2.0.8.0.VNRRUXM
 - android: '15.0'
   branch: Stable
   codename: garnet_tr_global
@@ -18029,7 +18009,17 @@
   size: 6.9 GB
   version: OS2.0.104.0.VNPCNXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: peridot_eea_global
+  date: 2025-05-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.107.0.VNPEUXM/peridot_eea_global_images_OS2.0.107.0.VNPEUXM_20250416.0000.00_15.0_eea_ec03c42172.tgz
+  md5: ec03c421722be5388eb8d33a2220a64e
+  method: Fastboot
+  name: POCO F6 EEA
+  size: 8.7 GB
+  version: OS2.0.107.0.VNPEUXM
+- android: '15.0'
+  branch: Stable
   codename: peridot_eea_global
   date: 2025-04-24
   link: https://bigota.d.miui.com/OS2.0.107.0.VNPEUXM/peridot_eea_global-ota_full-OS2.0.107.0.VNPEUXM-user-15.0-f06adc6edc.zip
@@ -18038,26 +18028,6 @@
   name: POCO F6 EEA
   size: 6.0 GB
   version: OS2.0.107.0.VNPEUXM
-- android: '15.0'
-  branch: Stable
-  codename: peridot_eea_global
-  date: 2025-04-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.105.0.VNPEUXM/peridot_eea_global_images_OS2.0.105.0.VNPEUXM_20250319.0000.00_15.0_eea_7e9734938e.tgz
-  md5: 7e9734938e8b36718c390f0b43b784c8
-  method: Fastboot
-  name: POCO F6 EEA
-  size: 8.6 GB
-  version: OS2.0.105.0.VNPEUXM
-- android: '15.0'
-  branch: Stable
-  codename: peridot_eea_global
-  date: 2025-03-28
-  link: https://bigota.d.miui.com/OS2.0.105.0.VNPEUXM/peridot_eea_global-ota_full-OS2.0.105.0.VNPEUXM-user-15.0-d566887742.zip
-  md5: d566887742adaf50aca29221553086ba
-  method: Recovery
-  name: POCO F6 EEA
-  size: 5.9 GB
-  version: OS2.0.105.0.VNPEUXM
 - android: '15.0'
   branch: Stable
   codename: peridot_global
