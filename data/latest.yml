@@ -399,7 +399,7 @@
   size: 6.4 GB
   version: OS1.0.14.0.UKWMIXM
 - android: '14.0'
-  branch: Stable Beta
+  branch: Stable
   codename: agate_id_global
   date: 2025-04-30
   link: https://bigota.d.miui.com/OS1.0.11.0.UKWIDXM/miui_AGATEIDGlobal_OS1.0.11.0.UKWIDXM_e97eaffbe1_14.0.zip
@@ -411,23 +411,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_id_global
-  date: 2025-04-02
-  link: https://bigota.d.miui.com/OS1.0.10.0.UKWIDXM/miui_AGATEIDGlobal_OS1.0.10.0.UKWIDXM_0dd390cf87_14.0.zip
-  md5: 0dd390cf87406c7221918b8667d61de0
-  method: Recovery
-  name: Xiaomi 11T Indonesia
-  size: 4.9 GB
-  version: OS1.0.10.0.UKWIDXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_id_global
-  date: 2025-03-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.UKWIDXM/agate_id_global_images_OS1.0.10.0.UKWIDXM_20250327.0000.00_14.0_id_ca5e568482.tgz
-  md5: ca5e568482aa8b8cd659714ac45e03f1
+  date: 2025-04-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.UKWIDXM/agate_id_global_images_OS1.0.11.0.UKWIDXM_20250422.0000.00_14.0_id_43986c291f.tgz
+  md5: 43986c291fc8c027428a2c7f54cdb538
   method: Fastboot
   name: Xiaomi 11T Indonesia
   size: 6.2 GB
-  version: OS1.0.10.0.UKWIDXM
+  version: OS1.0.11.0.UKWIDXM
 - android: '14.0'
   branch: Stable
   codename: agate_ru_global
@@ -2028,16 +2018,16 @@
   name: Redmi 10X 5G China
   size: 4.7 GB
   version: V13.0.0.1.27.DEV
-- android: '14.0'
+- android: '15.0'
   branch: Stable Beta
   codename: aurora
-  date: 2024-03-18
-  link: https://bigota.d.miui.com/OS1.0.7.0.UNACNXM/miui_AURORA_OS1.0.7.0.UNACNXM_81a48e3c20_14.0.zip
-  md5: 81a48e3c208123ca078eb9e7b9ac9368
+  date: 2025-05-07
+  link: https://bigota.d.miui.com/OS2.0.110.0.VNACNXM/aurora-ota_full-OS2.0.110.0.VNACNXM-user-15.0-f6b4c3cbd7.zip
+  md5: f6b4c3cbd73665d2089c36fd88b91ac2
   method: Recovery
   name: Xiaomi 14 Ultra China
-  size: 7.3 GB
-  version: OS1.0.7.0.UNACNXM
+  size: 7.8 GB
+  version: OS2.0.110.0.VNACNXM
 - android: '15.0'
   branch: Stable
   codename: aurora
@@ -2878,6 +2868,16 @@
   name: Redmi 10X Pro China
   size: 4.8 GB
   version: V13.0.0.1.27.DEV
+- android: '15.0'
+  branch: Stable Beta
+  codename: breeze
+  date: 2025-05-06
+  link: https://bigota.d.miui.com/OS2.0.6.0.VNUCNXM/breeze-ota_full-OS2.0.6.0.VNUCNXM-user-15.0-0a6bc7c22d.zip
+  md5: 0a6bc7c22d8ce7324c98ca100dce3fad
+  method: Recovery
+  name: Redmi Note 13R China
+  size: 5.2 GB
+  version: OS2.0.6.0.VNUCNXM
 - android: '15.0'
   branch: Stable
   codename: breeze
@@ -16319,7 +16319,17 @@
   size: 6.0 GB
   version: OS2.0.104.0.VOYEUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: muyu_global
+  date: 2025-05-09
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.104.0.VOYMIXM/muyu_global_images_OS2.0.104.0.VOYMIXM_20250416.0000.00_15.0_global_00e360b68b.tgz
+  md5: 00e360b68bb5a02a3431abeb9eb7da84
+  method: Fastboot
+  name: Xiaomi Pad 7 Pro Global
+  size: 7.3 GB
+  version: OS2.0.104.0.VOYMIXM
+- android: '15.0'
+  branch: Stable
   codename: muyu_global
   date: 2025-04-30
   link: https://bigota.d.miui.com/OS2.0.104.0.VOYMIXM/muyu_global-ota_full-OS2.0.104.0.VOYMIXM-user-15.0-34705d4742.zip
@@ -16328,26 +16338,6 @@
   name: Xiaomi Pad 7 Pro Global
   size: 6.0 GB
   version: OS2.0.104.0.VOYMIXM
-- android: '15.0'
-  branch: Stable
-  codename: muyu_global
-  date: 2025-04-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.103.0.VOYMIXM/muyu_global_images_OS2.0.103.0.VOYMIXM_20250318.0000.00_15.0_global_483457c032.tgz
-  md5: 483457c03233f759f5b625cf62941e44
-  method: Fastboot
-  name: Xiaomi Pad 7 Pro Global
-  size: 7.3 GB
-  version: OS2.0.103.0.VOYMIXM
-- android: '15.0'
-  branch: Stable
-  codename: muyu_global
-  date: 2025-03-29
-  link: https://bigota.d.miui.com/OS2.0.103.0.VOYMIXM/muyu_global-ota_full-OS2.0.103.0.VOYMIXM-user-15.0-35ac469fc5.zip
-  md5: 35ac469fc5603a017c62464ea5783420
-  method: Recovery
-  name: Xiaomi Pad 7 Pro Global
-  size: 6.0 GB
-  version: OS2.0.103.0.VOYMIXM
 - android: '15.0'
   branch: Stable
   codename: muyu_id_global
@@ -16369,7 +16359,17 @@
   size: 6.0 GB
   version: OS2.0.102.0.VOYIDXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
+  codename: muyu_ru_global
+  date: 2025-05-09
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.102.0.VOYRUXM/muyu_ru_global_images_OS2.0.102.0.VOYRUXM_20250418.0000.00_15.0_ru_a8309d25fe.tgz
+  md5: a8309d25fe1914bbc92d90ab67644b28
+  method: Fastboot
+  name: Xiaomi Pad 7 Pro Russia
+  size: 7.8 GB
+  version: OS2.0.102.0.VOYRUXM
+- android: '15.0'
+  branch: Stable
   codename: muyu_ru_global
   date: 2025-04-30
   link: https://bigota.d.miui.com/OS2.0.102.0.VOYRUXM/muyu_ru_global-ota_full-OS2.0.102.0.VOYRUXM-user-15.0-cd135129a2.zip
@@ -16378,26 +16378,6 @@
   name: Xiaomi Pad 7 Pro Russia
   size: 5.9 GB
   version: OS2.0.102.0.VOYRUXM
-- android: '15.0'
-  branch: Stable
-  codename: muyu_ru_global
-  date: 2025-04-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.101.0.VOYRUXM/muyu_ru_global_images_OS2.0.101.0.VOYRUXM_20250321.0000.00_15.0_ru_5c1a9825c6.tgz
-  md5: 5c1a9825c6fb9c728b56c6638e9ca8c2
-  method: Fastboot
-  name: Xiaomi Pad 7 Pro Russia
-  size: 7.8 GB
-  version: OS2.0.101.0.VOYRUXM
-- android: '15.0'
-  branch: Stable
-  codename: muyu_ru_global
-  date: 2025-03-29
-  link: https://bigota.d.miui.com/OS2.0.101.0.VOYRUXM/muyu_ru_global-ota_full-OS2.0.101.0.VOYRUXM-user-15.0-6a7add57e4.zip
-  md5: 6a7add57e433ec302664ba670619271d
-  method: Recovery
-  name: Xiaomi Pad 7 Pro Russia
-  size: 5.9 GB
-  version: OS2.0.101.0.VOYRUXM
 - android: '15.0'
   branch: Stable
   codename: muyu_tr_global
