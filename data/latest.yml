@@ -2038,8 +2038,28 @@
   name: Redmi 10X 5G China
   size: 4.7 GB
   version: V13.0.0.1.27.DEV
-- android: '15.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: aurora
+  date: 2024-03-18
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNACNXM/miui_AURORA_OS1.0.7.0.UNACNXM_81a48e3c20_14.0.zip
+  md5: 81a48e3c208123ca078eb9e7b9ac9368
+  method: Recovery
+  name: Xiaomi 14 Ultra China
+  size: 7.3 GB
+  version: OS1.0.7.0.UNACNXM
+- android: '15.0'
+  branch: Stable
+  codename: aurora
+  date: 2025-05-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.110.0.VNACNXM/aurora_images_OS2.0.110.0.VNACNXM_20250427.0000.00_15.0_cn_2368260c16.tgz
+  md5: 2368260c16ece72a0ff1dbea78b9d7eb
+  method: Fastboot
+  name: Xiaomi 14 Ultra China
+  size: 10.0 GB
+  version: OS2.0.110.0.VNACNXM
+- android: '15.0'
+  branch: Stable
   codename: aurora
   date: 2025-05-07
   link: https://bigota.d.miui.com/OS2.0.110.0.VNACNXM/aurora-ota_full-OS2.0.110.0.VNACNXM-user-15.0-f6b4c3cbd7.zip
@@ -2048,26 +2068,6 @@
   name: Xiaomi 14 Ultra China
   size: 7.8 GB
   version: OS2.0.110.0.VNACNXM
-- android: '15.0'
-  branch: Stable
-  codename: aurora
-  date: 2025-04-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.108.0.VNACNXM/aurora_images_OS2.0.108.0.VNACNXM_20250321.0000.00_15.0_cn_fdb2ca0ada.tgz
-  md5: fdb2ca0ada6b625ccbe04a19182565d1
-  method: Fastboot
-  name: Xiaomi 14 Ultra China
-  size: 10.2 GB
-  version: OS2.0.108.0.VNACNXM
-- android: '15.0'
-  branch: Stable
-  codename: aurora
-  date: 2025-04-09
-  link: https://bigota.d.miui.com/OS2.0.108.0.VNACNXM/aurora-ota_full-OS2.0.108.0.VNACNXM-user-15.0-d13c9063e5.zip
-  md5: d13c9063e551dd966d93c8c635557134
-  method: Recovery
-  name: Xiaomi 14 Ultra China
-  size: 7.8 GB
-  version: OS2.0.108.0.VNACNXM
 - android: '14.0'
   branch: Stable Beta
   codename: aurora_eea_global
@@ -2131,23 +2131,23 @@
 - android: '15.0'
   branch: Stable
   codename: aurora_in_global
-  date: 2025-04-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.103.0.VNAINXM/aurora_in_global_images_OS2.0.103.0.VNAINXM_20250327.0000.00_15.0_in_ceba7ff20b.tgz
-  md5: ceba7ff20b8581da9bc0db20e42a675a
+  date: 2025-05-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.104.0.VNAINXM/aurora_in_global_images_OS2.0.104.0.VNAINXM_20250429.0000.00_15.0_in_e464c73dce.tgz
+  md5: e464c73dce2b415d2977fe60468b76f3
   method: Fastboot
   name: Xiaomi 14 Ultra India
   size: 7.6 GB
-  version: OS2.0.103.0.VNAINXM
+  version: OS2.0.104.0.VNAINXM
 - android: '15.0'
   branch: Stable
   codename: aurora_in_global
-  date: 2025-04-13
-  link: https://bigota.d.miui.com/OS2.0.103.0.VNAINXM/aurora_in_global-ota_full-OS2.0.103.0.VNAINXM-user-15.0-9dc7c4950e.zip
-  md5: 9dc7c4950ec2b262caacf0f8149e360e
+  date: 2025-05-16
+  link: https://bigota.d.miui.com/OS2.0.104.0.VNAINXM/aurora_in_global-ota_full-OS2.0.104.0.VNAINXM-user-15.0-2743d2afd3.zip
+  md5: 2743d2afd3e77c9b0d3bb624175291dc
   method: Recovery
   name: Xiaomi 14 Ultra India
   size: 6.9 GB
-  version: OS2.0.103.0.VNAINXM
+  version: OS2.0.104.0.VNAINXM
 - android: '15.0'
   branch: Stable
   codename: aurora_ru_global
@@ -9179,7 +9179,7 @@
   size: 5.9 GB
   version: OS2.0.101.0.VMCTWXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: gale_eea_global
   date: 2025-04-25
   link: https://bigota.d.miui.com/OS2.0.8.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.8.0.VGPEUXM-user-15.0-27e0309629.zip
@@ -9191,23 +9191,13 @@
 - android: '15.0'
   branch: Stable
   codename: gale_eea_global
-  date: 2025-03-28
-  link: https://bigota.d.miui.com/OS2.0.7.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.7.0.VGPEUXM-user-15.0-2aa3c446bb.zip
-  md5: 2aa3c446bba1b8849b0ddccaf4e59dff
-  method: Recovery
-  name: Redmi 13C / POCO C65 EEA
-  size: 4.5 GB
-  version: OS2.0.7.0.VGPEUXM
-- android: '15.0'
-  branch: Stable
-  codename: gale_eea_global
-  date: 2025-03-05
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.7.0.VGPEUXM/gale_eea_global_images_OS2.0.7.0.VGPEUXM_20250305.0000.00_15.0_eea_24880b8e8c.tgz
-  md5: 24880b8e8cdeb5f550c9e7657e8e1385
+  date: 2025-04-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.8.0.VGPEUXM/gale_eea_global_images_OS2.0.8.0.VGPEUXM_20250421.0000.00_15.0_eea_85cec7dee3.tgz
+  md5: 85cec7dee3a67b09b8cc1f81fcf28637
   method: Fastboot
   name: Redmi 13C / POCO C65 EEA
   size: 7.3 GB
-  version: OS2.0.7.0.VGPEUXM
+  version: OS2.0.8.0.VGPEUXM
 - android: '15.0'
   branch: Stable
   codename: gale_global
