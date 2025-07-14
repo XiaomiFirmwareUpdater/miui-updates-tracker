@@ -551,23 +551,23 @@
 - android: '15.0'
   branch: Stable
   codename: air_global
-  date: 2025-04-30
-  link: https://bigota.d.miui.com/OS2.0.2.0.VGQMIXM/air_global-ota_full-OS2.0.2.0.VGQMIXM-user-15.0-3b2261ebb1.zip
-  md5: 3b2261ebb169e9ae50e04fd2ff1f7491
+  date: 2025-06-30
+  link: https://bigota.d.miui.com/OS2.0.3.0.VGQMIXM/air_global-ota_full-OS2.0.3.0.VGQMIXM-user-15.0-b463d0c546.zip
+  md5: b463d0c54631aad5c19857105c008a57
   method: Recovery
   name: Redmi 13R 5G / 13C 5G Global
   size: 4.7 GB
-  version: OS2.0.2.0.VGQMIXM
+  version: OS2.0.3.0.VGQMIXM
 - android: '15.0'
   branch: Stable
   codename: air_global
-  date: 2025-04-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.2.0.VGQMIXM/air_global_images_OS2.0.2.0.VGQMIXM_20250425.0000.00_15.0_global_0d314b8a97.tgz
-  md5: 0d314b8a972d4ec6875621efff91ece6
+  date: 2025-06-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VGQMIXM/air_global_images_OS2.0.3.0.VGQMIXM_20250618.0000.00_15.0_global_c4193e7565.tgz
+  md5: c4193e7565f80f0ad91fde08bfd0026a
   method: Fastboot
   name: Redmi 13R 5G / 13C 5G Global
-  size: 7.9 GB
-  version: OS2.0.2.0.VGQMIXM
+  size: 7.8 GB
+  version: OS2.0.3.0.VGQMIXM
 - android: '15.0'
   branch: Stable
   codename: air_in_global
@@ -7458,8 +7458,18 @@
   name: Redmi 12C / POCO C55 Turkey
   size: 6.0 GB
   version: OS1.0.8.0.UCVTRXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: earth_tw_global
+  date: 2023-07-25
+  link: https://bigota.d.miui.com/V14.0.1.0.TCVTWXM/miui_EARTHTWGlobal_V14.0.1.0.TCVTWXM_70b75956f9_13.0.zip
+  md5: 70b75956f9f4018f545178d0b99b5a8c
+  method: Recovery
+  name: Redmi 12C / POCO C55 Taiwan
+  size: 3.5 GB
+  version: V14.0.1.0.TCVTWXM
+- android: '14.0'
+  branch: Stable
   codename: earth_tw_global
   date: 2025-07-02
   link: https://bigota.d.miui.com/OS1.0.9.0.UCVTWXM/miui_EARTHTWGlobal_OS1.0.9.0.UCVTWXM_229f47204a_14.0.zip
@@ -7471,23 +7481,13 @@
 - android: '14.0'
   branch: Stable
   codename: earth_tw_global
-  date: 2025-04-25
-  link: https://bigota.d.miui.com/OS1.0.8.0.UCVTWXM/miui_EARTHTWGlobal_OS1.0.8.0.UCVTWXM_c0bf6f20bd_14.0.zip
-  md5: c0bf6f20bd7aeb0269c925390f94aa7d
-  method: Recovery
-  name: Redmi 12C / POCO C55 Taiwan
-  size: 4.1 GB
-  version: OS1.0.8.0.UCVTWXM
-- android: '14.0'
-  branch: Stable
-  codename: earth_tw_global
-  date: 2025-04-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.8.0.UCVTWXM/earth_tw_global_images_OS1.0.8.0.UCVTWXM_20250415.0000.00_14.0_tw_0042a22f50.tgz
-  md5: 0042a22f506e5995cb39c963d1421943
+  date: 2025-06-24
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UCVTWXM/earth_tw_global_images_OS1.0.9.0.UCVTWXM_20250624.0000.00_14.0_tw_051ff6f1fe.tgz
+  md5: 051ff6f1fe98e849eaf53d15e927697e
   method: Fastboot
   name: Redmi 12C / POCO C55 Taiwan
-  size: 5.7 GB
-  version: OS1.0.8.0.UCVTWXM
+  size: 5.6 GB
+  version: OS1.0.9.0.UCVTWXM
 - android: '13.0'
   branch: Stable
   codename: elish
@@ -12098,6 +12098,16 @@
   name: Redmi A3x Global
   size: 4.8 GB
   version: V816.0.5.0.VGSMIXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: klein_in_global
+  date: 2025-06-25
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V816.0.6.0.VGSINXM/miui_KLEININGlobal_V816.0.6.0.VGSINXM_18eecf2d9a_15.0.zip
+  md5: null
+  method: Recovery
+  name: Redmi A3x India
+  size: 2.8 GB
+  version: V816.0.6.0.VGSINXM
 - android: '15.0'
   branch: Stable
   codename: klein_in_global
