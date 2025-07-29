@@ -368,8 +368,18 @@
   name: Xiaomi 11T EEA
   size: 6.2 GB
   version: OS1.0.16.0.UKWEUXM
-- android: '14.0'
+- android: '11.0'
   branch: Stable Beta
+  codename: agate_global
+  date: 2021-09-15
+  link: https://bigota.d.miui.com/V12.5.1.0.RKWMIXM/miui_AGATEGlobal_V12.5.1.0.RKWMIXM_fcb5bac54c_11.0.zip
+  md5: fcb5bac54cdac6ac8a1262385792e2f4
+  method: Recovery
+  name: Xiaomi 11T Global
+  size: 2.8 GB
+  version: V12.5.1.0.RKWMIXM
+- android: '14.0'
+  branch: Stable
   codename: agate_global
   date: 2025-07-18
   link: https://bigota.d.miui.com/OS1.0.16.0.UKWMIXM/miui_AGATEGlobal_OS1.0.16.0.UKWMIXM_8994e7a464_14.0.zip
@@ -381,23 +391,13 @@
 - android: '14.0'
   branch: Stable
   codename: agate_global
-  date: 2025-05-17
-  link: https://bigota.d.miui.com/OS1.0.15.0.UKWMIXM/miui_AGATEGlobal_OS1.0.15.0.UKWMIXM_0ea0cb65d7_14.0.zip
-  md5: 0ea0cb65d7d581ef81fe6fc15b0bb1d9
-  method: Recovery
-  name: Xiaomi 11T Global
-  size: 5.0 GB
-  version: OS1.0.15.0.UKWMIXM
-- android: '14.0'
-  branch: Stable
-  codename: agate_global
-  date: 2025-05-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.15.0.UKWMIXM/agate_global_images_OS1.0.15.0.UKWMIXM_20250509.0000.00_14.0_global_f8f89a3d25.tgz
-  md5: f8f89a3d250be81079cb1375c50b4f2f
+  date: 2025-07-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.16.0.UKWMIXM/agate_global_images_OS1.0.16.0.UKWMIXM_20250707.0000.00_14.0_global_a256fb1e9a.tgz
+  md5: a256fb1e9a5b88307f1aa4f1def03eea
   method: Fastboot
   name: Xiaomi 11T Global
   size: 6.4 GB
-  version: OS1.0.15.0.UKWMIXM
+  version: OS1.0.16.0.UKWMIXM
 - android: '14.0'
   branch: Stable
   codename: agate_id_global
@@ -8381,23 +8381,23 @@
 - android: '15.0'
   branch: Stable
   codename: flame_in_global
-  date: 2025-05-27
-  link: https://bigota.d.miui.com/OS2.0.3.0.VGUINXM/flame_in_global-ota_full-OS2.0.3.0.VGUINXM-user-15.0-938a61843b.zip
-  md5: 938a61843b9086d1e7435c95514212ca
+  date: 2025-07-17
+  link: https://bigota.d.miui.com/OS2.0.201.0.VGUINXM/flame_in_global-ota_full-OS2.0.201.0.VGUINXM-user-15.0-bfd15c666c.zip
+  md5: bfd15c666c5a69ebc0955e07f44502d3
   method: Recovery
   name: Redmi 14C 5G / POCO M7 5G India
   size: 4.4 GB
-  version: OS2.0.3.0.VGUINXM
+  version: OS2.0.201.0.VGUINXM
 - android: '15.0'
   branch: Stable
   codename: flame_in_global
-  date: 2025-05-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VGUINXM/flame_in_global_images_OS2.0.3.0.VGUINXM_20250516.0000.00_15.0_in_e947d345e5.tgz
-  md5: e947d345e5f911c51a57abf8a69f1661
+  date: 2025-07-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.201.0.VGUINXM/flame_in_global_images_OS2.0.201.0.VGUINXM_20250701.0000.00_15.0_in_1b4bfaf864.tgz
+  md5: 1b4bfaf864d7fa329a63fcbf164981a4
   method: Fastboot
   name: Redmi 14C 5G / POCO M7 5G India
   size: 6.3 GB
-  version: OS2.0.3.0.VGUINXM
+  version: OS2.0.201.0.VGUINXM
 - android: '14.0'
   branch: Stable Beta
   codename: flare_eea_global
@@ -11922,21 +11922,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -14581,43 +14581,43 @@
 - android: '15.0'
   branch: Stable
   codename: marble_tr_global
-  date: 2025-06-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.4.0.VMRTRXM/marble_tr_global-ota_full-OS2.0.4.0.VMRTRXM-user-15.0-d182247265.zip
-  md5: null
+  date: 2025-07-22
+  link: https://bigota.d.miui.com/OS2.0.203.0.VMRTRXM/marble_tr_global-ota_full-OS2.0.203.0.VMRTRXM-user-15.0-256c4163b8.zip
+  md5: 256c4163b821783a28e72381923b34fb
   method: Recovery
   name: POCO F5 Turkey
   size: 5.5 GB
-  version: OS2.0.4.0.VMRTRXM
+  version: OS2.0.203.0.VMRTRXM
 - android: '15.0'
   branch: Stable
   codename: marble_tr_global
-  date: 2025-05-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.4.0.VMRTRXM/marble_tr_global_images_OS2.0.4.0.VMRTRXM_20250515.0000.00_15.0_tr_57cdc954dc.tgz
-  md5: 57cdc954dcb60ca9830fcb228a05dc51
+  date: 2025-07-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.203.0.VMRTRXM/marble_tr_global_images_OS2.0.203.0.VMRTRXM_20250711.0000.00_15.0_tr_c7770504de.tgz
+  md5: c7770504de61d28f42cae632c48f4b9f
   method: Fastboot
   name: POCO F5 Turkey
   size: 7.5 GB
-  version: OS2.0.4.0.VMRTRXM
+  version: OS2.0.203.0.VMRTRXM
 - android: '15.0'
   branch: Stable
   codename: marble_tw_global
-  date: 2025-06-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.4.0.VMRTWXM/marble_tw_global-ota_full-OS2.0.4.0.VMRTWXM-user-15.0-8ad20f0ab2.zip
-  md5: null
+  date: 2025-07-22
+  link: https://bigota.d.miui.com/OS2.0.203.0.VMRTWXM/marble_tw_global-ota_full-OS2.0.203.0.VMRTWXM-user-15.0-129a885dfc.zip
+  md5: 129a885dfc3789136ff74250ed87c868
   method: Recovery
   name: POCO F5 Taiwan
   size: 5.4 GB
-  version: OS2.0.4.0.VMRTWXM
+  version: OS2.0.203.0.VMRTWXM
 - android: '15.0'
   branch: Stable
   codename: marble_tw_global
-  date: 2025-05-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.4.0.VMRTWXM/marble_tw_global_images_OS2.0.4.0.VMRTWXM_20250515.0000.00_15.0_tw_6631181bc9.tgz
-  md5: 6631181bc9aaa31ab31ec7fb23288be7
+  date: 2025-07-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.203.0.VMRTWXM/marble_tw_global_images_OS2.0.203.0.VMRTWXM_20250711.0000.00_15.0_tw_b2d9a0a723.tgz
+  md5: b2d9a0a72309613153a51101af0e5922
   method: Fastboot
   name: POCO F5 Taiwan
-  size: 7.0 GB
-  version: OS2.0.4.0.VMRTWXM
+  size: 6.8 GB
+  version: OS2.0.203.0.VMRTWXM
 - android: '6.0'
   branch: Stable
   codename: markw
@@ -24091,13 +24091,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
