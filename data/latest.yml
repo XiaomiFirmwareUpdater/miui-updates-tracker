@@ -7528,8 +7528,18 @@
   name: Redmi 12C China
   size: 5.0 GB
   version: OS1.0.8.0.UCVCNXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: earth_eea_global
+  date: 2023-03-09
+  link: https://bigota.d.miui.com/V13.0.2.0.SCVEUXM/miui_EARTHEEAGlobal_V13.0.2.0.SCVEUXM_41b38ec758_12.0.zip
+  md5: 41b38ec7587d19a75ce39925d6614fbc
+  method: Recovery
+  name: Redmi 12C / POCO C55 EEA
+  size: 3.3 GB
+  version: V13.0.2.0.SCVEUXM
+- android: '14.0'
+  branch: Stable
   codename: earth_eea_global
   date: 2025-10-30
   link: https://bigota.d.miui.com/OS1.0.13.0.UCVEUXM/miui_EARTHEEAGlobal_OS1.0.13.0.UCVEUXM_fabe8219cb_14.0.zip
@@ -7541,25 +7551,25 @@
 - android: '14.0'
   branch: Stable
   codename: earth_eea_global
-  date: 2025-08-27
-  link: https://bigota.d.miui.com/OS1.0.12.0.UCVEUXM/miui_EARTHEEAGlobal_OS1.0.12.0.UCVEUXM_314c2c8692_14.0.zip
-  md5: 314c2c8692e0c08d6253d80adee3a261
-  method: Recovery
-  name: Redmi 12C / POCO C55 EEA
-  size: 4.2 GB
-  version: OS1.0.12.0.UCVEUXM
-- android: '14.0'
-  branch: Stable
-  codename: earth_eea_global
-  date: 2025-08-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.12.0.UCVEUXM/earth_eea_global_images_OS1.0.12.0.UCVEUXM_20250821.0000.00_14.0_eea_70bfaa0e47.tgz
-  md5: 70bfaa0e47af60104f39d35b733d8e3c
+  date: 2025-10-27
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.13.0.UCVEUXM/earth_eea_global_images_OS1.0.13.0.UCVEUXM_20251027.0000.00_14.0_eea_ca2745a4ab.tgz
+  md5: ca2745a4ab7118068162c4f596e3e5cd
   method: Fastboot
   name: Redmi 12C / POCO C55 EEA
   size: 6.2 GB
-  version: OS1.0.12.0.UCVEUXM
-- android: '14.0'
+  version: OS1.0.13.0.UCVEUXM
+- android: '12.0'
   branch: Stable Beta
+  codename: earth_global
+  date: 2023-03-15
+  link: https://bigota.d.miui.com/V13.0.1.0.SCVMIXM/miui_EARTHGlobal_V13.0.1.0.SCVMIXM_dca25e00ce_12.0.zip
+  md5: dca25e00ce3f2c1088832b8d0d229ef2
+  method: Recovery
+  name: Redmi 12C / POCO C55 Global
+  size: 3.3 GB
+  version: V13.0.1.0.SCVMIXM
+- android: '14.0'
+  branch: Stable
   codename: earth_global
   date: 2025-10-30
   link: https://bigota.d.miui.com/OS1.0.14.0.UCVMIXM/miui_EARTHGlobal_OS1.0.14.0.UCVMIXM_baf3ec6359_14.0.zip
@@ -7571,23 +7581,13 @@
 - android: '14.0'
   branch: Stable
   codename: earth_global
-  date: 2025-09-11
-  link: https://bigota.d.miui.com/OS1.0.13.0.UCVMIXM/miui_EARTHGlobal_OS1.0.13.0.UCVMIXM_95de154f11_14.0.zip
-  md5: 95de154f119798dac829c960daef4919
-  method: Recovery
-  name: Redmi 12C / POCO C55 Global
-  size: 4.2 GB
-  version: OS1.0.13.0.UCVMIXM
-- android: '14.0'
-  branch: Stable
-  codename: earth_global
-  date: 2025-08-29
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.13.0.UCVMIXM/earth_global_images_OS1.0.13.0.UCVMIXM_20250829.0000.00_14.0_global_9a824d6deb.tgz
-  md5: 9a824d6deb84d2970f92f6cbacc4d5c0
+  date: 2025-10-27
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.14.0.UCVMIXM/earth_global_images_OS1.0.14.0.UCVMIXM_20251027.0000.00_14.0_global_2567c8a97b.tgz
+  md5: 2567c8a97bcb69fb1625d2af40c79905
   method: Fastboot
   name: Redmi 12C / POCO C55 Global
   size: 6.6 GB
-  version: OS1.0.13.0.UCVMIXM
+  version: OS1.0.14.0.UCVMIXM
 - android: '12.0'
   branch: Stable Beta
   codename: earth_id_global
@@ -19031,23 +19031,23 @@
 - android: '16.0'
   branch: Stable
   codename: pandora
-  date: 2025-10-24
-  link: https://bigota.d.miui.com/OS3.0.25.0.WBLCNXM/pandora-ota_full-OS3.0.25.0.WBLCNXM-user-16.0-06a5de6f1d.zip
-  md5: 06a5de6f1d8ff7fec1274a3ad656a912
+  date: 2025-11-04
+  link: https://bigota.d.miui.com/OS3.0.30.0.WBLCNXM/pandora-ota_full-OS3.0.30.0.WBLCNXM-user-16.0-85f4d1660a.zip
+  md5: 85f4d1660a56baa958853f454a700ae9
   method: Recovery
   name: Xiaomi 17 Pro China
   size: 8.2 GB
-  version: OS3.0.25.0.WBLCNXM
+  version: OS3.0.30.0.WBLCNXM
 - android: '16.0'
   branch: Stable
   codename: pandora
-  date: 2025-10-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.25.0.WBLCNXM/pandora_images_OS3.0.25.0.WBLCNXM_20251020.0000.00_16.0_cn_f916b37c70.tgz
-  md5: f916b37c706cc77cf2b785a1e81a1aa3
+  date: 2025-10-31
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.30.0.WBLCNXM/pandora_images_OS3.0.30.0.WBLCNXM_20251031.0000.00_16.0_cn_10f2bcba9f.tgz
+  md5: 10f2bcba9f59532c8372755a35b4d719
   method: Fastboot
   name: Xiaomi 17 Pro China
-  size: 11.6 GB
-  version: OS3.0.25.0.WBLCNXM
+  size: 11.7 GB
+  version: OS3.0.30.0.WBLCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: pearl
@@ -27178,26 +27178,26 @@
   name: Redmi Note 5A (2GB) Global
   size: 1.7 GB
   version: 9.6.27
-- android: '15.0'
+- android: '16.0'
   branch: Stable
   codename: uke
-  date: 2025-10-16
-  link: https://bigota.d.miui.com/OS2.0.208.0.VOZCNXM/uke-ota_full-OS2.0.208.0.VOZCNXM-user-15.0-3f41482738.zip
-  md5: 3f4148273841b6431b5bfc7cf1770a89
+  date: 2025-10-28
+  link: https://bigota.d.miui.com/OS3.0.6.0.WOZCNXM/uke-ota_full-OS3.0.6.0.WOZCNXM-user-16.0-62cdc03371.zip
+  md5: 62cdc0337165608fd03ba429a4de3984
   method: Recovery
   name: Xiaomi Pad 7 China
-  size: 8.3 GB
-  version: OS2.0.208.0.VOZCNXM
-- android: '15.0'
+  size: 8.6 GB
+  version: OS3.0.6.0.WOZCNXM
+- android: '16.0'
   branch: Stable
   codename: uke
-  date: 2025-10-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.208.0.VOZCNXM/uke_images_OS2.0.208.0.VOZCNXM_20251015.0000.00_15.0_cn_5f7ab50059.tgz
-  md5: 5f7ab5005931712dabe4ba85be4f5a23
+  date: 2025-10-24
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.6.0.WOZCNXM/uke_images_OS3.0.6.0.WOZCNXM_20251024.0000.00_16.0_cn_0a0ad8092e.tgz
+  md5: 0a0ad8092e9bb8168218f14bdf1ede07
   method: Fastboot
   name: Xiaomi Pad 7 China
-  size: 9.7 GB
-  version: OS2.0.208.0.VOZCNXM
+  size: 10.0 GB
+  version: OS3.0.6.0.WOZCNXM
 - android: '15.0'
   branch: Stable
   codename: uke_eea_global
