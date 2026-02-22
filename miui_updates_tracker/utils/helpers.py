@@ -2,6 +2,8 @@
 import re
 from datetime import datetime
 
+from humanize import naturalsize
+
 units = {"BYTES": 1, "B": 1, "KB": 2 ** 10, "MB": 2 ** 20, "M": 2 ** 20, "GB": 2 ** 30, "G": 2 ** 30}
 
 
@@ -28,3 +30,7 @@ def human_size_to_bytes(size: str):
         size = re.sub(r'([\d.]+)([KMGT]?B?)', r'\1 \2', size)
     number, unit = [string.strip() for string in size.split()]
     return int(float(number) * units[unit])
+
+
+def safe_naturalsize(size):
+    return naturalsize(size) if size is not None else 'Unknown'

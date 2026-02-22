@@ -3,10 +3,10 @@ from asyncio import sleep
 from typing import Dict, List
 from urllib.parse import quote
 
-from humanize import naturalsize
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_device_name, get_full_name
 from miui_updates_tracker.common.database.models.miui_update import Update
+from miui_updates_tracker.utils.helpers import safe_naturalsize
 from tweepy import API, OAuthHandler, TweepyException
 from tweepy.models import Status
 
@@ -35,7 +35,7 @@ class TwitterBot:
         message: str = f"New {update.branch} {update.method} update available for " \
                        f"{get_full_name(update.codename)} ({short_codename})!\n"
         message += f"Version: {update.version} | {update.android}\n" \
-                   f"Size: {naturalsize(update.size)}\n"
+                   f"Size: {safe_naturalsize(update.size)}\n"
         if update.md5:
             message += f"MD5: {update.md5}\n"
         message_2 = ""

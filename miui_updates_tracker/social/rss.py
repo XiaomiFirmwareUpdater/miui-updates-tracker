@@ -3,10 +3,10 @@ from datetime import datetime, timezone
 from typing import Dict
 
 from feedgen.feed import FeedGenerator
-from humanize import naturalsize
 from miui_updates_tracker import CONF_DIR
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_incremental, get_all_latest_updates
+from miui_updates_tracker.utils.helpers import safe_naturalsize
 
 
 class RSSGenerator:
@@ -30,7 +30,7 @@ class RSSGenerator:
                       f"<p><b>Device:</b> {update.fullname}</p>\n" \
                       f"<p><b>Codename:</b> {update.codename.split('_')[0]}</p>\n" \
                       f"<p><b>Version:</b> {update.version} | {update.android}</p>\n" \
-                      f"<p><b>Size:</b> {naturalsize(update.size)}</p>\n" \
+                      f"<p><b>Size:</b> {safe_naturalsize(update.size)}</p>\n" \
                       f"<p><b>MD5:</b> {update.md5}</p>\n" \
                       f"<p><b>Changelog:</b><br>" + '<br>'.join(update.changelog.splitlines()) + \
                       f"</p>\n<p><b>Download:</b> <a href='{update.link}'>Here</a></p>"

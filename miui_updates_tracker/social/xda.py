@@ -9,7 +9,6 @@ from urllib.parse import quote
 
 import yaml
 from aiohttp.client_exceptions import ServerDisconnectedError
-from humanize import naturalsize
 
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import (
@@ -19,6 +18,7 @@ from miui_updates_tracker.common.database.database import (
 )
 from miui_updates_tracker.common.database.models.miui_update import Update
 from miui_updates_tracker.social.xda_poster.xda import XDA
+from miui_updates_tracker.utils.helpers import safe_naturalsize
 
 current_dir = Path(__file__).parent.absolute()
 
@@ -54,7 +54,7 @@ class XDAPoster(XDA):
             version=update.version,
             android=update.android,
             date=update.date,
-            zip_size=naturalsize(update.size),
+            zip_size=safe_naturalsize(update.size),
             md5_hash=update.md5 if update.md5 else "Unknown",
             link=update.link,
             incremental_link=f'[URL="{incremental.link}"]Here[/URL]'

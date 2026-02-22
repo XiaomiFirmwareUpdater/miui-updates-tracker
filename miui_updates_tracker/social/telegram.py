@@ -5,7 +5,6 @@ from base64 import b64encode
 from typing import List, Union
 from urllib.parse import quote
 
-from humanize import naturalsize
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 from telegram.error import BadRequest, RetryAfter
@@ -14,6 +13,7 @@ from telegram.ext import Application
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_full_name, get_incremental
 from miui_updates_tracker.common.database.models.miui_update import Update
+from miui_updates_tracker.utils.helpers import safe_naturalsize
 
 
 class TelegramBot:
@@ -73,7 +73,7 @@ class TelegramBot:
             f"*Codename*: #{short_codename}\n"
             f"*Type*: {update.branch} {update.method}\n"
             f"*Version*: `{update.version} | {update.android}`\n"
-            f"*Size*: {naturalsize(update.size)}\n"
+            f"*Size*: {safe_naturalsize(update.size)}\n"
         )
         if update.md5:
             message += f"*MD5*: `{update.md5}`\n"

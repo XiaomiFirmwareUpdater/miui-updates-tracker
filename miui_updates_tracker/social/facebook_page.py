@@ -1,11 +1,11 @@
 from typing import List
 
 from facebook import GraphAPI
-from humanize import naturalsize
 from miui_updates_tracker import CONFIG
 from miui_updates_tracker.common.constants import website
 from miui_updates_tracker.common.database.database import get_device_name, get_full_name, get_incremental
 from miui_updates_tracker.common.database.models.miui_update import Update
+from miui_updates_tracker.utils.helpers import safe_naturalsize
 
 
 class FacebookPage:
@@ -24,7 +24,7 @@ class FacebookPage:
         message: str = f"New {update.branch} {update.method} update available for " \
                        f"{get_full_name(update.codename)} ({short_codename})!\n\n"
         message += f"Version: {update.version} | {update.android}\n" \
-                   f"Size: {naturalsize(update.size)}\n"
+                   f"Size: {safe_naturalsize(update.size)}\n"
         if update.md5:
             message += f"MD5: {update.md5}\n"
         message += f"\nFull Update: {update.link}\n"
