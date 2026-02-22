@@ -1,9 +1,10 @@
 import logging
 import re
 from datetime import datetime
+from time import sleep
 
 from requests import head
-from requests.exceptions import ConnectionError as RequestsConnectionError
+from requests.exceptions import RequestException
 
 logger = logging.getLogger(__name__)
 
@@ -25,12 +26,20 @@ hos2_incremental_pattern = re.compile(
 
 def get_headers(link):
     """Perform a HEAD request safely"""
-    headers = None
-    try:
-        headers = head(link.replace('bigota.d.miui.com', cdn)).headers
-    except RequestsConnectionError as err:
-        logger.error(f'ConnectionError when trying to get headers of {link}\n{err}')
-    return headers
+    cdn_link = link.replace('bigota.d.miui.com', cdn)
+    links = [cdn_link, link] if cdn_link != link else [link]
+    for current_link in links:
+        for attempt in range(3):
+            try:
+                response = head(current_link, timeout=15, allow_redirects=True)
+                if response.headers and response.headers.get('Content-Length'):
+                    return response.headers
+            except RequestException as err:
+                if attempt == 2:
+                    logger.error(f'ConnectionError when trying to get headers of {current_link}\n{err}')
+            if attempt < 2:
+                sleep(1)
+    return None
 
 
 def rom_info_from_file(rom_file: str, more_details: bool = False):
