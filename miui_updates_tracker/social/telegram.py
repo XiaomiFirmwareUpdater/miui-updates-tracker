@@ -2,6 +2,7 @@
 import logging
 from asyncio import sleep
 from base64 import b64encode
+from html import escape
 from typing import List, Union
 from urllib.parse import quote
 
@@ -59,6 +60,11 @@ class TelegramBot:
         os_name = "HyperOS" if bool(update.version.startswith("OS")) else "MIUI"
         message: str = f"#{os_name}\nNew update available!"
         short_codename = update.codename.split("_")[0]
+        full_name = escape(get_full_name(update.codename))
+        update_type = escape(f"{update.branch} {update.method}")
+        version = escape(update.version)
+        android = escape(update.android)
+        size = escape(str(safe_naturalsize(update.size)))
         if update.method == "Fastboot":
             message += "\n"
         else:
@@ -69,23 +75,22 @@ class TelegramBot:
             else:
                 message += "\n"
         message += (
-            f"*Device*: {get_full_name(update.codename)}\n"
-            f"*Codename*: #{short_codename}\n"
-            f"*Type*: {update.branch} {update.method}\n"
-            f"*Version*: `{update.version} | {update.android}`\n"
-            f"*Size*: {safe_naturalsize(update.size)}\n"
+            f"<b>Device:</b> {full_name}\n"
+            f"<b>Codename:</b> #{short_codename}\n"
+            f"<b>Type:</b> {update_type}\n"
+            f"<b>Version:</b> <code>{version} | {android}</code>\n"
+            f"<b>Size:</b> {size}\n"
         )
         if update.md5:
-            message += f"*MD5*: `{update.md5}`\n"
+            message += f"<b>MD5:</b> <code>{escape(update.md5)}</code>\n"
         if update.changelog != "Bug fixes and system optimizations.":
             if len(update.changelog) + len(message) > 4000:
                 branch = quote(update.branch.lower())
                 message += (
-                    f"*Changelog*: [Here]({website}/miui/{short_codename}/"
-                    f"{branch}/{update.version}/)\n"
+                    f"<b>Changelog:</b> <a href='{website}/miui/{short_codename}/{branch}/{update.version}/'>Here</a>\n"
                 )
             else:
-                message += f"*Changelog*:\n`{update.changelog.replace('[', '(').replace(']', ')')}`\n"
+                message += f"<b>Changelog</b>:\n<blockquote expandable>{escape(update.changelog)}</blockquote>\n"
         message += "\n@MIUIUpdatesTracker | @XiaomiFirmwareUpdater"
         button: InlineKeyboardButton = InlineKeyboardButton("Full ROM", update.link)
         # bot subscribe
@@ -125,7 +130,7 @@ class TelegramBot:
             await self.application.bot.send_message(
                 chat_id=self.chat,
                 text=message,
-                parse_mode=ParseMode.MARKDOWN,
+                parse_mode=ParseMode.HTML,
                 disable_web_page_preview=True,
                 reply_markup=reply_markup,
             )
