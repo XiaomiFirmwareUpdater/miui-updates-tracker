@@ -6581,23 +6581,23 @@
 - android: '16.0'
   branch: Stable
   codename: dash
-  date: 2026-02-05
-  link: https://bigota.d.miui.com/OS3.0.8.0.WPLCNXM/dash-ota_full-OS3.0.8.0.WPLCNXM-user-16.0-7a58ec4edc.zip
-  md5: 7a58ec4edcb55a08764799fec5243e19
+  date: 2026-02-12
+  link: https://bigota.d.miui.com/OS3.0.10.0.WPLCNXM/dash-ota_full-OS3.0.10.0.WPLCNXM-user-16.0-b62313a48b.zip
+  md5: b62313a48b012dc20f58d43cc549cb52
   method: Recovery
   name: Redmi Turbo 5 Max China
   size: 8.1 GB
-  version: OS3.0.8.0.WPLCNXM
+  version: OS3.0.10.0.WPLCNXM
 - android: '16.0'
   branch: Stable
   codename: dash
-  date: 2026-02-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.8.0.WPLCNXM/dash_images_OS3.0.8.0.WPLCNXM_20260203.0000.00_16.0_cn_b02e0cbe88.tgz
-  md5: b02e0cbe8887ad5417ae03a6ca959a25
+  date: 2026-02-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.10.0.WPLCNXM/dash_images_OS3.0.10.0.WPLCNXM_20260211.0000.00_16.0_cn_384d47a3f5.tgz
+  md5: 384d47a3f5f4bc47690050fa62330354
   method: Fastboot
   name: Redmi Turbo 5 Max China
   size: 10.4 GB
-  version: OS3.0.8.0.WPLCNXM
+  version: OS3.0.10.0.WPLCNXM
 - android: '12.0'
   branch: Stable Beta
   codename: daumier
@@ -9448,6 +9448,16 @@
   name: Redmi Note 15 Pro+ 5G / POCO M8 Pro 5G Indonesia
   size: 9.2 GB
   version: OS2.0.203.0.VPRIDXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: flourite_in_global
+  date: 2026-02-24
+  link: https://bigota.d.miui.com/OS2.0.206.0.VPRINXM/flourite_in_global-ota_full-OS2.0.206.0.VPRINXM-user-15.0-d5c975c4b0.zip
+  md5: d5c975c4b04fe5e5d68576ed0a1b8db1
+  method: Recovery
+  name: Redmi Note 15 Pro+ 5G / POCO M8 Pro 5G India
+  size: 6.2 GB
+  version: OS2.0.206.0.VPRINXM
 - android: '15.0'
   branch: Stable
   codename: flourite_in_global
@@ -13072,21 +13082,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -20469,7 +20479,7 @@
   size: 9.1 GB
   version: OS3.0.4.0.WNPMIXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: peridot_id_global
   date: 2026-02-13
   link: https://bigota.d.miui.com/OS3.0.3.0.WNPIDXM/peridot_id_global-ota_full-OS3.0.3.0.WNPIDXM-user-16.0-89e9678982.zip
@@ -20481,23 +20491,13 @@
 - android: '16.0'
   branch: Stable
   codename: peridot_id_global
-  date: 2026-01-29
-  link: https://bigota.d.miui.com/OS3.0.2.0.WNPIDXM/peridot_id_global-ota_full-OS3.0.2.0.WNPIDXM-user-16.0-c6828c3bcc.zip
-  md5: c6828c3bcc8b744010375a8c697f1f1f
-  method: Recovery
-  name: POCO F6 Indonesia
-  size: 6.2 GB
-  version: OS3.0.2.0.WNPIDXM
-- android: '16.0'
-  branch: Stable
-  codename: peridot_id_global
-  date: 2026-01-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.WNPIDXM/peridot_id_global_images_OS3.0.2.0.WNPIDXM_20260114.0000.00_16.0_id_44eff3731a.tgz
-  md5: 44eff3731a0222e9cf2692479693fe23
+  date: 2026-02-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WNPIDXM/peridot_id_global_images_OS3.0.3.0.WNPIDXM_20260211.0000.00_16.0_id_c55793c2a8.tgz
+  md5: c55793c2a8c29a2c24fe9b833b8dfff8
   method: Fastboot
   name: POCO F6 Indonesia
   size: 8.7 GB
-  version: OS3.0.2.0.WNPIDXM
+  version: OS3.0.3.0.WNPIDXM
 - android: '16.0'
   branch: Stable Beta
   codename: peridot_in_global
@@ -24558,8 +24558,18 @@
   name: Redmi Note 12 Pro / Pro+ 5G South Korea
   size: 6.9 GB
   version: OS2.0.2.0.UMOKRXM
-- android: '14.0'
+- android: '12.0'
   branch: Stable Beta
+  codename: ruby_ru_global
+  date: 2023-03-22
+  link: https://bigota.d.miui.com/V14.0.3.0.SMORUXM/miui_RUBYRUGlobal_V14.0.3.0.SMORUXM_aeb42d6516_12.0.zip
+  md5: aeb42d651626ecc45c65bd46ea8b281a
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ 5G Russia
+  size: 4.1 GB
+  version: V14.0.3.0.SMORUXM
+- android: '14.0'
+  branch: Stable
   codename: ruby_ru_global
   date: 2026-02-23
   link: https://bigota.d.miui.com/OS2.0.10.0.UMORUXM/ruby_ru_global-ota_full-OS2.0.10.0.UMORUXM-user-14.0-c8af18a809.zip
@@ -24571,23 +24581,13 @@
 - android: '14.0'
   branch: Stable
   codename: ruby_ru_global
-  date: 2025-12-10
-  link: https://bigota.d.miui.com/OS2.0.9.0.UMORUXM/ruby_ru_global-ota_full-OS2.0.9.0.UMORUXM-user-14.0-96dbc248ce.zip
-  md5: 96dbc248ce30d7ad962afbe54253b973
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ 5G Russia
-  size: 5.0 GB
-  version: OS2.0.9.0.UMORUXM
-- android: '14.0'
-  branch: Stable
-  codename: ruby_ru_global
-  date: 2025-12-04
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.9.0.UMORUXM/ruby_ru_global_images_OS2.0.9.0.UMORUXM_20251204.0000.00_14.0_ru_22e5325dc6.tgz
-  md5: 22e5325dc6fd02e636a5181e99eaad2f
+  date: 2026-02-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.10.0.UMORUXM/ruby_ru_global_images_OS2.0.10.0.UMORUXM_20260203.0000.00_14.0_ru_99b6641caa.tgz
+  md5: 99b6641caaafa22f0dbfae22663d82be
   method: Fastboot
   name: Redmi Note 12 Pro / Pro+ 5G Russia
   size: 7.2 GB
-  version: OS2.0.9.0.UMORUXM
+  version: OS2.0.10.0.UMORUXM
 - android: '14.0'
   branch: Stable Beta
   codename: ruby_tr_global
