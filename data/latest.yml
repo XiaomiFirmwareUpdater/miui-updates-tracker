@@ -8768,16 +8768,16 @@
   name: MI 4i Global
   size: 896.2 MB
   version: 7.11.16
-- android: '13.0'
+- android: '15.0'
   branch: Stable Beta
   codename: fire_eea_global
-  date: 2023-12-12
-  link: https://bigota.d.miui.com/V14.0.12.0.TMXEUXM/miui_FIREEEAGlobal_V14.0.12.0.TMXEUXM_9c1f62d588_13.0.zip
-  md5: 9c1f62d5884352d767b6e058a8020cf2
+  date: 2026-02-13
+  link: https://bigota.d.miui.com/OS2.0.208.0.VMXEUXM/fire_eea_global-ota_full-OS2.0.208.0.VMXEUXM-user-15.0-2713f5e858.zip
+  md5: 2713f5e8583f4c675c507ece3dce86e8
   method: Recovery
   name: Redmi 12 EEA
-  size: 4.1 GB
-  version: V14.0.12.0.TMXEUXM
+  size: 4.7 GB
+  version: OS2.0.208.0.VMXEUXM
 - android: '15.0'
   branch: Stable
   codename: fire_eea_global
@@ -24338,8 +24338,18 @@
   name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
   size: 7.1 GB
   version: OS2.0.19.0.UMOCNXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: ruby_eea_global
+  date: 2023-10-16
+  link: https://bigota.d.miui.com/V14.0.8.0.TMOEUXM/miui_RUBYEEAGlobal_V14.0.8.0.TMOEUXM_a44c880d42_13.0.zip
+  md5: a44c880d4277506f2e5569acadb1a44a
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ 5G EEA
+  size: 4.5 GB
+  version: V14.0.8.0.TMOEUXM
+- android: '14.0'
+  branch: Stable
   codename: ruby_eea_global
   date: 2026-02-13
   link: https://bigota.d.miui.com/OS2.0.13.0.UMOEUXM/ruby_eea_global-ota_full-OS2.0.13.0.UMOEUXM-user-14.0-96186fcecc.zip
@@ -24351,23 +24361,13 @@
 - android: '14.0'
   branch: Stable
   codename: ruby_eea_global
-  date: 2025-12-26
-  link: https://bigota.d.miui.com/OS2.0.12.0.UMOEUXM/ruby_eea_global-ota_full-OS2.0.12.0.UMOEUXM-user-14.0-fe83ce690a.zip
-  md5: fe83ce690a8ef4be7c0a6477a50fd517
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ 5G EEA
-  size: 5.2 GB
-  version: OS2.0.12.0.UMOEUXM
-- android: '14.0'
-  branch: Stable
-  codename: ruby_eea_global
-  date: 2025-12-22
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.12.0.UMOEUXM/ruby_eea_global_images_OS2.0.12.0.UMOEUXM_20251222.0000.00_14.0_eea_8c76af2a44.tgz
-  md5: 8c76af2a44076afb6f850b9739257bdc
+  date: 2026-02-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.13.0.UMOEUXM/ruby_eea_global_images_OS2.0.13.0.UMOEUXM_20260203.0000.00_14.0_eea_939f9e143a.tgz
+  md5: 939f9e143a786d3cec12982bd354ef78
   method: Fastboot
   name: Redmi Note 12 Pro / Pro+ 5G EEA
   size: 6.8 GB
-  version: OS2.0.12.0.UMOEUXM
+  version: OS2.0.13.0.UMOEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: ruby_global
@@ -28439,6 +28439,16 @@
   size: 7.6 GB
   version: OS2.0.203.0.VMGMIXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: topaz_id_global
+  date: 2026-03-04
+  link: https://bigota.d.miui.com/OS2.0.204.0.VMGIDXM/topaz_id_global-ota_full-OS2.0.204.0.VMGIDXM-user-15.0-60b155c6a7.zip
+  md5: 60b155c6a774937dc7d6348944396ac7
+  method: Recovery
+  name: Redmi Note 12 4G NFC Indonesia
+  size: 4.8 GB
+  version: OS2.0.204.0.VMGIDXM
+- android: '15.0'
   branch: Stable
   codename: topaz_id_global
   date: 2025-12-26
@@ -28458,6 +28468,16 @@
   name: Redmi Note 12 4G NFC Indonesia
   size: 7.0 GB
   version: OS2.0.203.0.VMGIDXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: topaz_ru_global
+  date: 2026-03-04
+  link: https://bigota.d.miui.com/OS2.0.204.0.VMGRUXM/topaz_ru_global-ota_full-OS2.0.204.0.VMGRUXM-user-15.0-cebc2a59f2.zip
+  md5: cebc2a59f29244b863b66cec658e2d50
+  method: Recovery
+  name: Redmi Note 12 4G NFC Russia
+  size: 4.8 GB
+  version: OS2.0.204.0.VMGRUXM
 - android: '15.0'
   branch: Stable
   codename: topaz_ru_global
