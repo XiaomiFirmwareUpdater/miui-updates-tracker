@@ -77,8 +77,7 @@ async def main():
 
 def run():
     """asyncio trigger function"""
-    event_loop = asyncio.get_event_loop()
-    event_loop.run_until_complete(main())
+    asyncio.run(main())
 
 
 if __name__ == '__main__':
