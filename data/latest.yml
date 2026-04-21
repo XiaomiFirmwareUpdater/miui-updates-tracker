@@ -7239,7 +7239,7 @@
   size: 5.7 GB
   version: OS2.0.205.0.VBNTWXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: dijun
   date: 2026-03-18
   link: https://bigota.d.miui.com/OS3.0.301.0.WODCNXM/dijun-ota_full-OS3.0.301.0.WODCNXM-user-16.0-a98dd5fd0d.zip
@@ -7251,23 +7251,13 @@
 - android: '16.0'
   branch: Stable
   codename: dijun
-  date: 2026-02-11
-  link: https://bigota.d.miui.com/OS3.0.11.0.WODCNXM/dijun-ota_full-OS3.0.11.0.WODCNXM-user-16.0-95138b7852.zip
-  md5: 95138b78527adf098b7eddc7132c8896
-  method: Recovery
-  name: Xiaomi 15S Pro China
-  size: 7.3 GB
-  version: OS3.0.11.0.WODCNXM
-- android: '16.0'
-  branch: Stable
-  codename: dijun
-  date: 2026-02-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.11.0.WODCNXM/dijun-images-OS3.0.11.0.WODCNXM-user-20260206.0000.00-16.0-cn-6d5ee38133.tgz
-  md5: 6d5ee38133a06a689afdca3b56f2f719
+  date: 2026-03-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WODCNXM/dijun-images-OS3.0.301.0.WODCNXM-user-20260311.0000.00-16.0-cn-a1e5ae221e.tgz
+  md5: a1e5ae221e4578a8d9aecf16d990de61
   method: Fastboot
   name: Xiaomi 15S Pro China
-  size: 9.5 GB
-  version: OS3.0.11.0.WODCNXM
+  size: 9.7 GB
+  version: OS3.0.301.0.WODCNXM
 - android: '4.4'
   branch: Stable
   codename: dior
@@ -13382,21 +13372,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13462,21 +13452,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -21008,6 +20998,16 @@
   name: POCO F6 Global
   size: 9.1 GB
   version: OS3.0.5.0.WNPMIXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: peridot_id_global
+  date: 2026-04-17
+  link: https://bigota.d.miui.com/OS3.0.4.0.WNPIDXM/peridot_id_global-ota_full-OS3.0.4.0.WNPIDXM-user-16.0-3add6ec50b.zip
+  md5: 3add6ec50b4e278cbbc95b2b65db8409
+  method: Recovery
+  name: POCO F6 Indonesia
+  size: 6.3 GB
+  version: OS3.0.4.0.WNPIDXM
 - android: '16.0'
   branch: Stable
   codename: peridot_id_global
@@ -32689,7 +32689,7 @@
   size: 6.8 GB
   version: OS2.0.2.0.ULOTWXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xuanyuan
   date: 2026-04-10
   link: https://bigota.d.miui.com/OS3.0.303.0.WOACNXM/xuanyuan-ota_full-OS3.0.303.0.WOACNXM-user-16.0-719482c5d6.zip
@@ -32701,23 +32701,13 @@
 - android: '16.0'
   branch: Stable
   codename: xuanyuan
-  date: 2026-01-19
-  link: https://bigota.d.miui.com/OS3.0.8.0.WOACNXM/xuanyuan-ota_full-OS3.0.8.0.WOACNXM-user-16.0-b4da4f88c6.zip
-  md5: b4da4f88c67038838dae89f966724473
-  method: Recovery
-  name: Xiaomi 15 Ultra China
-  size: 9.8 GB
-  version: OS3.0.8.0.WOACNXM
-- android: '16.0'
-  branch: Stable
-  codename: xuanyuan
-  date: 2026-01-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.8.0.WOACNXM/xuanyuan_images_OS3.0.8.0.WOACNXM_20260113.0000.00_16.0_cn_f3e9cc549e.tgz
-  md5: f3e9cc549ea66e2fa7af29a1f744ddf1
+  date: 2026-04-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOACNXM/xuanyuan_images_OS3.0.303.0.WOACNXM_20260403.0000.00_16.0_cn_0482b6b019.tgz
+  md5: 0482b6b0195ac27c4f56a3716cc67310
   method: Fastboot
   name: Xiaomi 15 Ultra China
-  size: 12.3 GB
-  version: OS3.0.8.0.WOACNXM
+  size: 12.8 GB
+  version: OS3.0.303.0.WOACNXM
 - android: '16.0'
   branch: Stable
   codename: xuanyuan_eea_global
