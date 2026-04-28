@@ -10598,16 +10598,16 @@
   name: Redmi 13C / POCO C65 Taiwan
   size: 5.6 GB
   version: OS2.0.201.0.VGPTWXM
-- android: '13.0'
+- android: '16.0'
   branch: Stable Beta
   codename: garnet
-  date: 2023-10-12
-  link: https://bigota.d.miui.com/V14.0.11.0.TNRCNXM/miui_GARNET_V14.0.11.0.TNRCNXM_ca270f42a1_13.0.zip
-  md5: ca270f42a1c7a6c42530e2c745610400
+  date: 2026-04-22
+  link: https://bigota.d.miui.com/OS3.0.304.0.WNRCNXM/garnet-ota_full-OS3.0.304.0.WNRCNXM-user-16.0-d0e642461d.zip
+  md5: d0e642461dad738004dbfb51be718cd9
   method: Recovery
   name: Redmi Note 13 Pro 5G China
-  size: 5.6 GB
-  version: V14.0.11.0.TNRCNXM
+  size: 6.4 GB
+  version: OS3.0.304.0.WNRCNXM
 - android: '16.0'
   branch: Stable
   codename: garnet
@@ -11378,6 +11378,16 @@
   name: Redmi Note 13 5G / POCO X6 Neo 5G India
   size: 6.8 GB
   version: OS2.0.210.0.VNQINXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: gold_tr_global
+  date: 2026-04-28
+  link: https://bigota.d.miui.com/OS3.0.2.0.VNQTRXM/gold_tr_global-ota_full-OS3.0.2.0.VNQTRXM-user-15.0-6acfd4536d.zip
+  md5: 6acfd4536d8f33791b229aab6e8f151b
+  method: Recovery
+  name: Redmi Note 13 5G / POCO X6 Neo 5G Turkey
+  size: 5.5 GB
+  version: OS3.0.2.0.VNQTRXM
 - android: '15.0'
   branch: Stable
   codename: gold_tr_global
@@ -13549,7 +13559,7 @@
   size: 10.4 GB
   version: OS3.0.301.0.WPJCNXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: klee_eea_global
   date: 2026-04-20
   link: https://bigota.d.miui.com/OS3.0.5.0.WPJEUXM/klee_eea_global-ota_full-OS3.0.5.0.WPJEUXM-user-16.0-40275e54d2.zip
@@ -13561,23 +13571,13 @@
 - android: '16.0'
   branch: Stable
   codename: klee_eea_global
-  date: 2026-03-17
-  link: https://bigota.d.miui.com/OS3.0.4.0.WPJEUXM/klee_eea_global-ota_full-OS3.0.4.0.WPJEUXM-user-16.0-3255e8e6d9.zip
-  md5: 3255e8e6d94dbd25d0f38ae5e0772b49
-  method: Recovery
-  name: POCO X8 Pro EEA
-  size: 7.0 GB
-  version: OS3.0.4.0.WPJEUXM
-- android: '16.0'
-  branch: Stable
-  codename: klee_eea_global
-  date: 2026-03-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WPJEUXM/klee_eea_global_images_OS3.0.4.0.WPJEUXM_20260311.0000.00_16.0_eea_ce7ece8f72.tgz
-  md5: ce7ece8f72ae74e7ed607cbff08fee89
+  date: 2026-04-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WPJEUXM/klee_eea_global_images_OS3.0.5.0.WPJEUXM_20260403.0000.00_16.0_eea_d6edcac88f.tgz
+  md5: d6edcac88fa137a6de81b7510f9fcf24
   method: Fastboot
   name: POCO X8 Pro EEA
   size: 9.9 GB
-  version: OS3.0.4.0.WPJEUXM
+  version: OS3.0.5.0.WPJEUXM
 - android: '16.0'
   branch: Stable
   codename: klee_global
@@ -13619,7 +13619,7 @@
   size: 10.0 GB
   version: OS3.0.3.0.WPJIDXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: klee_in_global
   date: 2026-04-20
   link: https://bigota.d.miui.com/OS3.0.5.0.WPJINXM/klee_in_global-ota_full-OS3.0.5.0.WPJINXM-user-16.0-49d5905e17.zip
@@ -13631,23 +13631,13 @@
 - android: '16.0'
   branch: Stable
   codename: klee_in_global
-  date: 2026-03-17
-  link: https://bigota.d.miui.com/OS3.0.3.0.WPJINXM/klee_in_global-ota_full-OS3.0.3.0.WPJINXM-user-16.0-64ffad91f5.zip
-  md5: 64ffad91f592a30e5605af057d2524e8
-  method: Recovery
-  name: POCO X8 Pro India
-  size: 6.9 GB
-  version: OS3.0.3.0.WPJINXM
-- android: '16.0'
-  branch: Stable
-  codename: klee_in_global
-  date: 2026-02-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WPJINXM/klee_in_global_images_OS3.0.3.0.WPJINXM_20260207.0000.00_16.0_in_402668e514.tgz
-  md5: 402668e5148b23016a9476665a38315c
+  date: 2026-04-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WPJINXM/klee_in_global_images_OS3.0.5.0.WPJINXM_20260407.0000.00_16.0_in_73540cc945.tgz
+  md5: 73540cc94532169f22a8916c41da5c35
   method: Fastboot
   name: POCO X8 Pro India
   size: 9.0 GB
-  version: OS3.0.3.0.WPJINXM
+  version: OS3.0.5.0.WPJINXM
 - android: '16.0'
   branch: Stable
   codename: klee_ru_global
@@ -30899,6 +30889,16 @@
   size: 9.4 GB
   version: OS3.0.5.0.WNKEUXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: vermeer_global
+  date: 2026-04-22
+  link: https://bigota.d.miui.com/OS3.0.301.0.WNKMIXM/vermeer_global-ota_full-OS3.0.301.0.WNKMIXM-user-16.0-2af507e4fa.zip
+  md5: 2af507e4faf8b8429cd1f8f23cee22c8
+  method: Recovery
+  name: POCO F6 Pro Global
+  size: 7.1 GB
+  version: OS3.0.301.0.WNKMIXM
+- android: '16.0'
   branch: Stable
   codename: vermeer_global
   date: 2026-02-05
@@ -33929,6 +33929,16 @@
   size: 9.4 GB
   version: OS3.0.3.0.WNOMIXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: zircon_id_global
+  date: 2026-04-25
+  link: https://bigota.d.miui.com/OS3.0.2.0.WNOIDXM/zircon_id_global-ota_full-OS3.0.2.0.WNOIDXM-user-16.0-74824a9cd9.zip
+  md5: 74824a9cd985723874c406d9bf960c47
+  method: Recovery
+  name: Redmi Note 13 Pro+ 5G Indonesia
+  size: 6.4 GB
+  version: OS3.0.2.0.WNOIDXM
+- android: '16.0'
   branch: Stable
   codename: zircon_id_global
   date: 2026-01-28
@@ -33968,6 +33978,16 @@
   name: Redmi Note 13 Pro+ 5G India
   size: 8.1 GB
   version: OS3.0.2.0.WNOINXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: zircon_ru_global
+  date: 2026-04-25
+  link: https://bigota.d.miui.com/OS3.0.2.0.WNORUXM/zircon_ru_global-ota_full-OS3.0.2.0.WNORUXM-user-16.0-0b2167ec27.zip
+  md5: 0b2167ec27864c62198b8b7830ad4953
+  method: Recovery
+  name: Redmi Note 13 Pro+ 5G Russia
+  size: 6.3 GB
+  version: OS3.0.2.0.WNORUXM
 - android: '16.0'
   branch: Stable
   codename: zircon_ru_global
@@ -34381,20 +34401,20 @@
 - android: '16.0'
   branch: Stable
   codename: zorn_tw_global
-  date: 2026-02-04
-  link: https://bigota.d.miui.com/OS3.0.3.0.WOKTWXM/zorn_tw_global-ota_full-OS3.0.3.0.WOKTWXM-user-16.0-a32b598775.zip
-  md5: a32b598775129d0d8f7f8f872cab8f59
+  date: 2026-04-20
+  link: https://bigota.d.miui.com/OS3.0.301.0.WOKTWXM/zorn_tw_global-ota_full-OS3.0.301.0.WOKTWXM-user-16.0-4205483ee8.zip
+  md5: 4205483ee8ccc3e632d72daab0062980
   method: Recovery
   name: POCO F7 Pro Taiwan
-  size: 6.2 GB
-  version: OS3.0.3.0.WOKTWXM
+  size: 6.3 GB
+  version: OS3.0.301.0.WOKTWXM
 - android: '16.0'
   branch: Stable
   codename: zorn_tw_global
-  date: 2026-01-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WOKTWXM/zorn_tw_global_images_OS3.0.3.0.WOKTWXM_20260120.0000.00_16.0_tw_8fb96ccbd8.tgz
-  md5: 8fb96ccbd8de2908a228e6735d800b16
+  date: 2026-04-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WOKTWXM/zorn_tw_global_images_OS3.0.301.0.WOKTWXM_20260408.0000.00_16.0_tw_30a8697dde.tgz
+  md5: 30a8697dde42a464f5fa3364802b5f66
   method: Fastboot
   name: POCO F7 Pro Taiwan
-  size: 7.3 GB
-  version: OS3.0.3.0.WOKTWXM
+  size: 7.4 GB
+  version: OS3.0.301.0.WOKTWXM
