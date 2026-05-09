@@ -5248,8 +5248,18 @@
   name: Mi 10 Pro Global
   size: 5.4 GB
   version: OS1.0.2.0.TJAMIXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: corot
+  date: 2024-07-05
+  link: https://bigota.d.miui.com/OS1.0.17.0.UMLCNXM/miui_COROT_OS1.0.17.0.UMLCNXM_df5b9ad2c6_14.0.zip
+  md5: df5b9ad2c6572a21f4ac9858385e9ea2
+  method: Recovery
+  name: Redmi K60 Ultra China
+  size: 6.4 GB
+  version: OS1.0.17.0.UMLCNXM
+- android: '16.0'
+  branch: Stable
   codename: corot
   date: 2026-04-22
   link: https://bigota.d.miui.com/OS3.0.302.0.WMLCNXM/corot-ota_full-OS3.0.302.0.WMLCNXM-user-16.0-d651215e33.zip
@@ -5261,23 +5271,13 @@
 - android: '16.0'
   branch: Stable
   codename: corot
-  date: 2026-02-09
-  link: https://bigota.d.miui.com/OS3.0.4.0.WMLCNXM/corot-ota_full-OS3.0.4.0.WMLCNXM-user-16.0-a21a878b6b.zip
-  md5: a21a878b6bb68785ebd582b3cc29edda
-  method: Recovery
-  name: Redmi K60 Ultra China
-  size: 7.1 GB
-  version: OS3.0.4.0.WMLCNXM
-- android: '16.0'
-  branch: Stable
-  codename: corot
-  date: 2026-01-29
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WMLCNXM/corot_images_OS3.0.4.0.WMLCNXM_20260129.0000.00_16.0_cn_2f1f089dc2.tgz
-  md5: 2f1f089dc2dfd80c69ef8edf411977a1
+  date: 2026-04-16
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WMLCNXM/corot_images_OS3.0.302.0.WMLCNXM_20260416.0000.00_16.0_cn_bc345503c4.tgz
+  md5: bc345503c4bf4801a5cf0364b817270f
   method: Fastboot
   name: Redmi K60 Ultra China
-  size: 8.9 GB
-  version: OS3.0.4.0.WMLCNXM
+  size: 9.0 GB
+  version: OS3.0.302.0.WMLCNXM
 - android: '15.0'
   branch: Stable Beta
   codename: corot_eea_global
@@ -9728,8 +9728,18 @@
   name: Redmi Note 11S 4G / POCO M4 Pro 4G Taiwan
   size: 5.2 GB
   version: OS1.0.8.0.TKETWXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable Beta
+  codename: flourite
+  date: null
+  link: https://bigota.d.miui.com/OS2.0.202.0.VPRCNXM/flourite-ota_full-OS2.0.202.0.VPRCNXM-user-15.0-f5fc7e1eda.zip
+  md5: f5fc7e1edac83cf6413bf48544754dac
+  method: Recovery
+  name: Redmi Note 15 Pro+ 5G China
+  size: 6.8 GB
+  version: OS2.0.202.0.VPRCNXM
+- android: '16.0'
+  branch: Stable
   codename: flourite
   date: 2026-04-28
   link: https://bigota.d.miui.com/OS3.0.307.0.WPRCNXM/flourite-ota_full-OS3.0.307.0.WPRCNXM-user-16.0-5a346c32e7.zip
@@ -9741,23 +9751,13 @@
 - android: '16.0'
   branch: Stable
   codename: flourite
-  date: 2026-04-14
-  link: https://bigota.d.miui.com/OS3.0.304.0.WPRCNXM/flourite-ota_full-OS3.0.304.0.WPRCNXM-user-16.0-2de6a6fe00.zip
-  md5: 2de6a6fe0002381c27da0b45e63943e7
-  method: Recovery
-  name: Redmi Note 15 Pro+ 5G China
-  size: 7.3 GB
-  version: OS3.0.304.0.WPRCNXM
-- android: '16.0'
-  branch: Stable
-  codename: flourite
-  date: 2026-04-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WPRCNXM/flourite_images_OS3.0.304.0.WPRCNXM_20260406.0000.00_16.0_cn_8f2e6d49f9.tgz
-  md5: 8f2e6d49f99772d0d32488eabad8f939
+  date: 2026-04-23
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.307.0.WPRCNXM/flourite_images_OS3.0.307.0.WPRCNXM_20260423.0000.00_16.0_cn_dbe2522768.tgz
+  md5: dbe25227685ee44e33da894cc23783bd
   method: Fastboot
   name: Redmi Note 15 Pro+ 5G China
   size: 9.6 GB
-  version: OS3.0.304.0.WPRCNXM
+  version: OS3.0.307.0.WPRCNXM
 - android: '16.0'
   branch: Stable Beta
   codename: flourite_eea_global
@@ -20549,7 +20549,7 @@
   size: 9.8 GB
   version: OS3.0.6.0.WOLEUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: onyx_global
   date: 2026-04-24
   link: https://bigota.d.miui.com/OS3.0.7.0.WOLMIXM/onyx_global-ota_full-OS3.0.7.0.WOLMIXM-user-16.0-25c954f376.zip
@@ -20561,25 +20561,15 @@
 - android: '16.0'
   branch: Stable
   codename: onyx_global
-  date: 2026-02-03
-  link: https://bigota.d.miui.com/OS3.0.6.0.WOLMIXM/onyx_global-ota_full-OS3.0.6.0.WOLMIXM-user-16.0-02188a5378.zip
-  md5: 02188a5378f72722bed911295bd3adbe
-  method: Recovery
-  name: POCO F7 Global
-  size: 7.2 GB
-  version: OS3.0.6.0.WOLMIXM
-- android: '16.0'
-  branch: Stable
-  codename: onyx_global
-  date: 2026-01-29
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.6.0.WOLMIXM/onyx_global_images_OS3.0.6.0.WOLMIXM_20260129.0000.00_16.0_global_bf1b560332.tgz
-  md5: bf1b56033225fcb3c23dd3ab8acd78d8
+  date: 2026-04-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.7.0.WOLMIXM/onyx_global_images_OS3.0.7.0.WOLMIXM_20260415.0000.00_16.0_global_0c1fbd9b82.tgz
+  md5: 0c1fbd9b823f871e0de0fab32de2c649
   method: Fastboot
   name: POCO F7 Global
-  size: 10.7 GB
-  version: OS3.0.6.0.WOLMIXM
+  size: 10.9 GB
+  version: OS3.0.7.0.WOLMIXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: onyx_id_global
   date: 2026-04-24
   link: https://bigota.d.miui.com/OS3.0.4.0.WOLIDXM/onyx_id_global-ota_full-OS3.0.4.0.WOLIDXM-user-16.0-b33b5c2794.zip
@@ -20591,25 +20581,15 @@
 - android: '16.0'
   branch: Stable
   codename: onyx_id_global
-  date: 2026-02-08
-  link: https://bigota.d.miui.com/OS3.0.3.0.WOLIDXM/onyx_id_global-ota_full-OS3.0.3.0.WOLIDXM-user-16.0-8d512bc869.zip
-  md5: 8d512bc869324199e603d01ed73efcb6
-  method: Recovery
-  name: POCO F7 Indonesia
-  size: 7.2 GB
-  version: OS3.0.3.0.WOLIDXM
-- android: '16.0'
-  branch: Stable
-  codename: onyx_id_global
-  date: 2026-02-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WOLIDXM/onyx_id_global_images_OS3.0.3.0.WOLIDXM_20260203.0000.00_16.0_id_b54359f7ee.tgz
-  md5: b54359f7ee0733b3ef17b882e70afc0f
+  date: 2026-04-16
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WOLIDXM/onyx_id_global_images_OS3.0.4.0.WOLIDXM_20260416.0000.00_16.0_id_27b23e7bc9.tgz
+  md5: 27b23e7bc95447bb3104b218cbbb59ba
   method: Fastboot
   name: POCO F7 Indonesia
-  size: 10.0 GB
-  version: OS3.0.3.0.WOLIDXM
+  size: 9.9 GB
+  version: OS3.0.4.0.WOLIDXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: onyx_in_global
   date: 2026-04-24
   link: https://bigota.d.miui.com/OS3.0.5.0.WOLINXM/onyx_in_global-ota_full-OS3.0.5.0.WOLINXM-user-16.0-ab6c36cf18.zip
@@ -20621,23 +20601,13 @@
 - android: '16.0'
   branch: Stable
   codename: onyx_in_global
-  date: 2026-02-08
-  link: https://bigota.d.miui.com/OS3.0.4.0.WOLINXM/onyx_in_global-ota_full-OS3.0.4.0.WOLINXM-user-16.0-58c10264c6.zip
-  md5: 58c10264c6bec103b649dc20a4e2c85c
-  method: Recovery
-  name: POCO F7 India
-  size: 7.0 GB
-  version: OS3.0.4.0.WOLINXM
-- android: '16.0'
-  branch: Stable
-  codename: onyx_in_global
-  date: 2026-02-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WOLINXM/onyx_in_global_images_OS3.0.4.0.WOLINXM_20260203.0000.00_16.0_in_ea12dd8e36.tgz
-  md5: ea12dd8e366ed9feba9ef8d3dc65fcf1
+  date: 2026-04-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WOLINXM/onyx_in_global_images_OS3.0.5.0.WOLINXM_20260415.0000.00_16.0_in_9e54f9c7a6.tgz
+  md5: 9e54f9c7a60b96c1b20f05277c0738ae
   method: Fastboot
   name: POCO F7 India
-  size: 8.9 GB
-  version: OS3.0.4.0.WOLINXM
+  size: 9.0 GB
+  version: OS3.0.5.0.WOLINXM
 - android: '16.0'
   branch: Stable Beta
   codename: onyx_ru_global
@@ -21908,6 +21878,16 @@
   name: Xiaomi Pad 6 Russia
   size: 6.3 GB
   version: OS2.0.12.0.UMZRUXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: pipa_tr_global
+  date: 2026-05-09
+  link: https://bigota.d.miui.com/OS2.0.13.0.UMZTRXM/pipa_tr_global-ota_full-OS2.0.13.0.UMZTRXM-user-14.0-16b416828c.zip
+  md5: 16b416828c7eca44eb067bb1c73a78b4
+  method: Recovery
+  name: Xiaomi Pad 6 Turkey
+  size: 4.7 GB
+  version: OS2.0.13.0.UMZTRXM
 - android: '14.0'
   branch: Stable
   codename: pipa_tr_global
@@ -23668,6 +23648,16 @@
   name: POCO X5 Pro 5G Taiwan
   size: 6.5 GB
   version: OS2.0.12.0.UMSTWXM
+- android: '14.0'
+  branch: Stable Beta
+  codename: rembrandt
+  date: 2026-05-06
+  link: https://bigota.d.miui.com/OS2.0.25.0.UMMCNXM/rembrandt-ota_full-OS2.0.25.0.UMMCNXM-user-14.0-c538fa7b98.zip
+  md5: c538fa7b9842ea86a4e6a2e4d22e009c
+  method: Recovery
+  name: Redmi K60E China
+  size: 6.1 GB
+  version: OS2.0.25.0.UMMCNXM
 - android: '14.0'
   branch: Stable
   codename: rembrandt
@@ -26491,23 +26481,23 @@
 - android: '15.0'
   branch: Stable
   codename: serenity_global
-  date: 2026-04-01
-  link: https://bigota.d.miui.com/A15.0.22.0.VGWMIXM/miui_SERENITYGlobal_A15.0.22.0.VGWMIXM_8e43b363a7_15.0.zip
-  md5: 8e43b363a729dcdc83f8688b8bfca82e
+  date: 2026-05-08
+  link: https://bigota.d.miui.com/A15.0.26.0.VGWMIXM/miui_SERENITYGlobal_A15.0.26.0.VGWMIXM_924546036c_15.0.zip
+  md5: 924546036c9c6d656adaf19ed02304dc
   method: Recovery
   name: Redmi A5 / POCO C71 Global
   size: 3.1 GB
-  version: A15.0.22.0.VGWMIXM
+  version: A15.0.26.0.VGWMIXM
 - android: '15.0'
   branch: Stable
   codename: serenity_global
-  date: 2026-03-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/A15.0.22.0.VGWMIXM/serenity_global-images-A15.0.22.0.VGWMIXM-user-20260303.0000.00-15.0-global-01be6e1eb5.tgz
-  md5: 01be6e1eb51ba69a4a5d882d0551d08e
+  date: 2026-04-27
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/A15.0.26.0.VGWMIXM/serenity_global-images-A15.0.26.0.VGWMIXM-user-20260427.0000.00-15.0-global-26c6dc7975.tgz
+  md5: 26c6dc7975bb45d8a85f57657d9a18e2
   method: Fastboot
   name: Redmi A5 / POCO C71 Global
   size: 4.9 GB
-  version: A15.0.22.0.VGWMIXM
+  version: A15.0.26.0.VGWMIXM
 - android: '15.0'
   branch: Stable
   codename: serenity_id_global
