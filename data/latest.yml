@@ -2338,8 +2338,18 @@
   name: Xiaomi 14 Ultra EEA
   size: 8.8 GB
   version: OS3.0.302.0.WNAEUXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: aurora_global
+  date: 2024-03-14
+  link: https://bigota.d.miui.com/OS1.0.1.0.UNAMIXM/miui_AURORAGlobal_OS1.0.1.0.UNAMIXM_9ed03c58fa_14.0.zip
+  md5: 9ed03c58fa63ef4df297e2461c25c1a5
+  method: Recovery
+  name: Xiaomi 14 Ultra Global
+  size: 6.5 GB
+  version: OS1.0.1.0.UNAMIXM
+- android: '16.0'
+  branch: Stable
   codename: aurora_global
   date: 2026-04-29
   link: https://bigota.d.miui.com/OS3.0.302.0.WNAMIXM/aurora_global-ota_full-OS3.0.302.0.WNAMIXM-user-16.0-162a712001.zip
@@ -2351,23 +2361,13 @@
 - android: '16.0'
   branch: Stable
   codename: aurora_global
-  date: 2026-01-29
-  link: https://bigota.d.miui.com/OS3.0.6.0.WNAMIXM/aurora_global-ota_full-OS3.0.6.0.WNAMIXM-user-16.0-3d13c86b57.zip
-  md5: 3d13c86b575a0bfa0da984cd2f69d6f5
-  method: Recovery
-  name: Xiaomi 14 Ultra Global
-  size: 7.1 GB
-  version: OS3.0.6.0.WNAMIXM
-- android: '16.0'
-  branch: Stable
-  codename: aurora_global
-  date: 2026-01-15
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.6.0.WNAMIXM/aurora_global_images_OS3.0.6.0.WNAMIXM_20260115.0000.00_16.0_global_dbabd39018.tgz
-  md5: dbabd390182f4525c0e5ebdbf0c29198
+  date: 2026-04-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WNAMIXM/aurora_global_images_OS3.0.302.0.WNAMIXM_20260421.0000.00_16.0_global_ee952770a5.tgz
+  md5: ee952770a54f2c5d912a47d32619a325
   method: Fastboot
   name: Xiaomi 14 Ultra Global
-  size: 9.4 GB
-  version: OS3.0.6.0.WNAMIXM
+  size: 9.5 GB
+  version: OS3.0.302.0.WNAMIXM
 - android: '16.0'
   branch: Stable Beta
   codename: aurora_in_global
@@ -2399,6 +2399,16 @@
   size: 7.6 GB
   version: OS3.0.5.0.WNAINXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: aurora_ru_global
+  date: 2026-05-12
+  link: https://bigota.d.miui.com/OS3.0.301.0.WNARUXM/aurora_ru_global-ota_full-OS3.0.301.0.WNARUXM-user-16.0-c81a9fbd16.zip
+  md5: c81a9fbd16c8d53df01b90912a3480be
+  method: Recovery
+  name: Xiaomi 14 Ultra Russia
+  size: 7.1 GB
+  version: OS3.0.301.0.WNARUXM
+- android: '16.0'
   branch: Stable
   codename: aurora_ru_global
   date: 2026-02-28
@@ -2419,7 +2429,7 @@
   size: 9.3 GB
   version: OS3.0.3.0.WNARUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: aurora_tr_global
   date: 2026-05-12
   link: https://bigota.d.miui.com/OS3.0.301.0.WNATRXM/aurora_tr_global-ota_full-OS3.0.301.0.WNATRXM-user-16.0-ce7338906c.zip
@@ -2431,33 +2441,23 @@
 - android: '16.0'
   branch: Stable
   codename: aurora_tr_global
-  date: 2026-03-02
-  link: https://bigota.d.miui.com/OS3.0.3.0.WNATRXM/aurora_tr_global-ota_full-OS3.0.3.0.WNATRXM-user-16.0-8c8f0ea96a.zip
-  md5: 8c8f0ea96a70edbbfff7678f8ff9fd93
-  method: Recovery
-  name: Xiaomi 14 Ultra Turkey
-  size: 7.1 GB
-  version: OS3.0.3.0.WNATRXM
-- android: '16.0'
-  branch: Stable
-  codename: aurora_tr_global
-  date: 2026-02-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WNATRXM/aurora_tr_global_images_OS3.0.3.0.WNATRXM_20260210.0000.00_16.0_tr_f2d5b39957.tgz
-  md5: f2d5b39957649f19d5c7b309a223f918
+  date: 2026-04-27
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WNATRXM/aurora_tr_global_images_OS3.0.301.0.WNATRXM_20260427.0000.00_16.0_tr_868395206d.tgz
+  md5: 868395206dba194ceb4cd4fab8e5a8ed
   method: Fastboot
   name: Xiaomi 14 Ultra Turkey
-  size: 8.7 GB
-  version: OS3.0.3.0.WNATRXM
-- android: '14.0'
+  size: 8.8 GB
+  version: OS3.0.301.0.WNATRXM
+- android: '16.0'
   branch: Stable Beta
   codename: aurora_tw_global
-  date: 2024-05-13
-  link: https://bigota.d.miui.com/OS1.0.4.0.UNATWXM/miui_AURORATWGlobal_OS1.0.4.0.UNATWXM_fb23718802_14.0.zip
-  md5: fb2371880223f044a97ef00fba86f743
+  date: 2026-05-12
+  link: https://bigota.d.miui.com/OS3.0.301.0.WNATWXM/aurora_tw_global-ota_full-OS3.0.301.0.WNATWXM-user-16.0-681fa3ac92.zip
+  md5: 681fa3ac923c5fc8a8f83f9f4981b04c
   method: Recovery
   name: Xiaomi 14 Ultra Taiwan
-  size: 6.4 GB
-  version: OS1.0.4.0.UNATWXM
+  size: 7.1 GB
+  version: OS3.0.301.0.WNATWXM
 - android: '16.0'
   branch: Stable
   codename: aurora_tw_global
@@ -7058,8 +7058,18 @@
   name: Xiaomi 14T EEA
   size: 8.3 GB
   version: OS3.0.302.0.WNEEUXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: degas_global
+  date: 2024-09-26
+  link: https://bigota.d.miui.com/OS1.0.4.0.UNEMIXM/miui_DEGASGlobal_OS1.0.4.0.UNEMIXM_ecc0b069d5_14.0.zip
+  md5: ecc0b069d54d18d63517364069219b56
+  method: Recovery
+  name: Xiaomi 14T Global
+  size: 5.6 GB
+  version: OS1.0.4.0.UNEMIXM
+- android: '16.0'
+  branch: Stable
   codename: degas_global
   date: 2026-05-06
   link: https://bigota.d.miui.com/OS3.0.301.0.WNEMIXM/degas_global-ota_full-OS3.0.301.0.WNEMIXM-user-16.0-209e782299.zip
@@ -7071,23 +7081,13 @@
 - android: '16.0'
   branch: Stable
   codename: degas_global
-  date: 2026-03-18
-  link: https://bigota.d.miui.com/OS3.0.4.0.WNEMIXM/degas_global-ota_full-OS3.0.4.0.WNEMIXM-user-16.0-f243ab6cf2.zip
-  md5: f243ab6cf2c98bc390e51fd1055066f7
-  method: Recovery
-  name: Xiaomi 14T Global
-  size: 6.5 GB
-  version: OS3.0.4.0.WNEMIXM
-- android: '16.0'
-  branch: Stable
-  codename: degas_global
-  date: 2026-03-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WNEMIXM/degas_global_images_OS3.0.4.0.WNEMIXM_20260311.0000.00_16.0_global_c590f859b6.tgz
-  md5: c590f859b64db52d182a20985ef0022c
+  date: 2026-04-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WNEMIXM/degas_global_images_OS3.0.301.0.WNEMIXM_20260422.0000.00_16.0_global_4b6e5bb286.tgz
+  md5: 4b6e5bb286d63805227d125f6b0ff4af
   method: Fastboot
   name: Xiaomi 14T Global
-  size: 8.9 GB
-  version: OS3.0.4.0.WNEMIXM
+  size: 9.0 GB
+  version: OS3.0.301.0.WNEMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: degas_id_global
@@ -13442,21 +13442,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -22521,23 +22521,23 @@
 - android: '16.0'
   branch: Stable
   codename: prague
-  date: 2026-04-23
-  link: https://bigota.d.miui.com/OS3.0.308.0.WAACNXM/prague-ota_full-OS3.0.308.0.WAACNXM-user-16.0-2f5a830366.zip
-  md5: 2f5a830366291c94cc55333e61be6326
+  date: 2026-05-07
+  link: https://bigota.d.miui.com/OS3.0.310.0.WAACNXM/prague-ota_full-OS3.0.310.0.WAACNXM-user-16.0-7d0c9b89aa.zip
+  md5: 7d0c9b89aab837bbb6bc36f316846071
   method: Recovery
   name: Redmi K90 Max China
   size: 8.6 GB
-  version: OS3.0.308.0.WAACNXM
+  version: OS3.0.310.0.WAACNXM
 - android: '16.0'
   branch: Stable
   codename: prague
-  date: 2026-04-22
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.308.0.WAACNXM/prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_ac260be858.tgz
-  md5: ac260be858d4e4a2e736aa0c16c388a6
+  date: 2026-05-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.310.0.WAACNXM/prague_images_OS3.0.310.0.WAACNXM_20260506.0000.00_16.0_cn_86eda8f5bb.tgz
+  md5: 86eda8f5bb4bea07ea7461c8c9b5dd3f
   method: Fastboot
   name: Redmi K90 Max China
   size: 13.7 GB
-  version: OS3.0.308.0.WAACNXM
+  version: OS3.0.310.0.WAACNXM
 - android: '13.0'
   branch: Stable Beta
   codename: psyche
@@ -25631,6 +25631,16 @@
 - android: '15.0'
   branch: Stable Beta
   codename: sapphiren_id_global
+  date: 2024-12-17
+  link: https://bigota.d.miui.com/OS2.0.1.0.VNHIDXM/sapphiren_id_global-ota_full-OS2.0.1.0.VNHIDXM-user-15.0-4a792cf170.zip
+  md5: 4a792cf170e52e0ed576b9d272dd0e0d
+  method: Recovery
+  name: Redmi Note 13 NFC Indonesia
+  size: 4.6 GB
+  version: OS2.0.1.0.VNHIDXM
+- android: '15.0'
+  branch: Stable
+  codename: sapphiren_id_global
   date: 2026-04-22
   link: https://bigota.d.miui.com/OS2.0.210.0.VNHIDXM/sapphiren_id_global-ota_full-OS2.0.210.0.VNHIDXM-user-15.0-48386ff916.zip
   md5: 48386ff916173f53e82a7538bdac2973
@@ -25641,23 +25651,13 @@
 - android: '15.0'
   branch: Stable
   codename: sapphiren_id_global
-  date: 2026-02-09
-  link: https://bigota.d.miui.com/OS2.0.209.0.VNHIDXM/sapphiren_id_global-ota_full-OS2.0.209.0.VNHIDXM-user-15.0-a24188164a.zip
-  md5: a24188164a2b798271e8fe60da1fe374
-  method: Recovery
-  name: Redmi Note 13 NFC Indonesia
-  size: 4.8 GB
-  version: OS2.0.209.0.VNHIDXM
-- android: '15.0'
-  branch: Stable
-  codename: sapphiren_id_global
-  date: 2026-01-30
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.209.0.VNHIDXM/sapphiren_id_global_images_OS2.0.209.0.VNHIDXM_20260130.0000.00_15.0_id_425d91a17e.tgz
-  md5: 425d91a17e1f65ce64773506746eb85a
+  date: 2026-04-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.210.0.VNHIDXM/sapphiren_id_global_images_OS2.0.210.0.VNHIDXM_20260412.0000.00_15.0_id_604a92f5e0.tgz
+  md5: 604a92f5e0253547d6a7cd1c62459354
   method: Fastboot
   name: Redmi Note 13 NFC Indonesia
   size: 7.1 GB
-  version: OS2.0.209.0.VNHIDXM
+  version: OS2.0.210.0.VNHIDXM
 - android: '15.0'
   branch: Stable
   codename: sapphiren_ru_global
@@ -26549,7 +26549,7 @@
   size: 6.8 GB
   version: OS2.0.205.0.VMWCNXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sky_eea_global
   date: 2026-05-07
   link: https://bigota.d.miui.com/OS2.0.215.0.VMWEUXM/sky_eea_global-ota_full-OS2.0.215.0.VMWEUXM-user-15.0-7df14b9940.zip
@@ -26561,23 +26561,13 @@
 - android: '15.0'
   branch: Stable
   codename: sky_eea_global
-  date: 2026-03-12
-  link: https://bigota.d.miui.com/OS2.0.213.0.VMWEUXM/sky_eea_global-ota_full-OS2.0.213.0.VMWEUXM-user-15.0-c830f24a23.zip
-  md5: c830f24a23bc9a206d9e46bcbe42f5c4
-  method: Recovery
-  name: Redmi 12 5G / POCO M6 Pro 5G EEA
-  size: 5.0 GB
-  version: OS2.0.213.0.VMWEUXM
-- android: '15.0'
-  branch: Stable
-  codename: sky_eea_global
-  date: 2026-02-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.213.0.VMWEUXM/sky_eea_global_images_OS2.0.213.0.VMWEUXM_20260226.0000.00_15.0_eea_2f8bb9370d.tgz
-  md5: 2f8bb9370d3b9d9f251dfeb90e548db1
+  date: 2026-04-27
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.215.0.VMWEUXM/sky_eea_global_images_OS2.0.215.0.VMWEUXM_20260427.0000.00_15.0_eea_db9036b8bb.tgz
+  md5: db9036b8bb6093ddbe6f2edea0e5c47c
   method: Fastboot
   name: Redmi 12 5G / POCO M6 Pro 5G EEA
-  size: 7.2 GB
-  version: OS2.0.213.0.VMWEUXM
+  size: 7.3 GB
+  version: OS2.0.215.0.VMWEUXM
 - android: '15.0'
   branch: Stable
   codename: sky_global
@@ -26668,26 +26658,26 @@
   name: Redmi K60 Pro China
   size: 6.5 GB
   version: V14.0.12.0.TMKCNXM
-- android: '15.0'
+- android: '16.0'
   branch: Stable
   codename: socrates
-  date: 2026-03-27
-  link: https://bigota.d.miui.com/OS3.0.5.0.VMKCNXM/socrates-ota_full-OS3.0.5.0.VMKCNXM-user-15.0-fe06ac694d.zip
-  md5: fe06ac694d9753289db5b7b1854ef58e
+  date: 2026-04-22
+  link: https://bigota.d.miui.com/OS3.0.303.0.WMKCNXM/socrates-ota_full-OS3.0.303.0.WMKCNXM-user-16.0-f09aed2004.zip
+  md5: f09aed20048f20e4bb37496dcb05f63a
   method: Recovery
   name: Redmi K60 Pro China
-  size: 7.0 GB
-  version: OS3.0.5.0.VMKCNXM
-- android: '15.0'
+  size: 7.1 GB
+  version: OS3.0.303.0.WMKCNXM
+- android: '16.0'
   branch: Stable
   codename: socrates
-  date: 2026-03-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.VMKCNXM/socrates_images_OS3.0.5.0.VMKCNXM_20260316.0000.00_15.0_cn_fd7c33b8b4.tgz
-  md5: fd7c33b8b4b8aaf5e301e6920563e1b3
+  date: 2026-04-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WMKCNXM/socrates_images_OS3.0.303.0.WMKCNXM_20260413.0000.00_16.0_cn_b0445bb184.tgz
+  md5: b0445bb184ef4dc034e543babbe13fc5
   method: Fastboot
   name: Redmi K60 Pro China
-  size: 8.3 GB
-  version: OS3.0.5.0.VMKCNXM
+  size: 8.5 GB
+  version: OS3.0.303.0.WMKCNXM
 - android: '14.0'
   branch: Public Beta
   codename: socrates
@@ -29709,6 +29699,16 @@
   size: 9.9 GB
   version: OS3.0.301.0.WOZCNXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: uke_eea_global
+  date: 2026-05-15
+  link: https://bigota.d.miui.com/OS3.0.302.0.WOZEUXM/uke_eea_global-ota_full-OS3.0.302.0.WOZEUXM-user-16.0-38e116090e.zip
+  md5: 38e116090e0fe2c0e64c97a71126ab40
+  method: Recovery
+  name: Xiaomi Pad 7 / POCO Pad X1 EEA
+  size: 6.4 GB
+  version: OS3.0.302.0.WOZEUXM
+- android: '16.0'
   branch: Stable
   codename: uke_eea_global
   date: 2026-04-03
@@ -29768,6 +29768,16 @@
   name: Xiaomi Pad 7 / POCO Pad X1 Indonesia
   size: 7.7 GB
   version: OS3.0.3.0.WOZIDXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: uke_in_global
+  date: 2026-05-15
+  link: https://bigota.d.miui.com/OS3.0.303.0.WOZINXM/uke_in_global-ota_full-OS3.0.303.0.WOZINXM-user-16.0-b5422594c6.zip
+  md5: b5422594c6b9fe537709fe03374ae840
+  method: Recovery
+  name: Xiaomi Pad 7 / POCO Pad X1 India
+  size: 6.3 GB
+  version: OS3.0.303.0.WOZINXM
 - android: '16.0'
   branch: Stable
   codename: uke_in_global
