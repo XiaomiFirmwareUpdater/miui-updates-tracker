@@ -2369,6 +2369,16 @@
   size: 9.4 GB
   version: OS3.0.6.0.WNAMIXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: aurora_in_global
+  date: 2026-05-12
+  link: https://bigota.d.miui.com/OS3.0.301.0.WNAINXM/aurora_in_global-ota_full-OS3.0.301.0.WNAINXM-user-16.0-b61c508ed9.zip
+  md5: b61c508ed940cd87df37c1a9d452bfca
+  method: Recovery
+  name: Xiaomi 14 Ultra India
+  size: 7.0 GB
+  version: OS3.0.301.0.WNAINXM
+- android: '16.0'
   branch: Stable
   codename: aurora_in_global
   date: 2026-02-28
@@ -2468,8 +2478,18 @@
   name: Xiaomi 14 Ultra Taiwan
   size: 8.0 GB
   version: OS3.0.3.0.WNATWXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: babylon
+  date: 2024-07-08
+  link: https://bigota.d.miui.com/OS1.0.9.0.UMVCNXM/miui_BABYLON_OS1.0.9.0.UMVCNXM_14d1a69a54_14.0.zip
+  md5: 14d1a69a542c786b113bc8a6aefab8ac
+  method: Recovery
+  name: MIX Fold 3 China
+  size: 6.9 GB
+  version: OS1.0.9.0.UMVCNXM
+- android: '16.0'
+  branch: Stable
   codename: babylon
   date: 2026-04-17
   link: https://bigota.d.miui.com/OS3.0.302.0.WMVCNXM/babylon-ota_full-OS3.0.302.0.WMVCNXM-user-16.0-908dfe3161.zip
@@ -2481,23 +2501,13 @@
 - android: '16.0'
   branch: Stable
   codename: babylon
-  date: 2026-01-30
-  link: https://bigota.d.miui.com/OS3.0.8.0.WMVCNXM/babylon-ota_full-OS3.0.8.0.WMVCNXM-user-16.0-c6139f0911.zip
-  md5: c6139f0911d5c909f321f69ff753ac53
-  method: Recovery
-  name: MIX Fold 3 China
-  size: 7.4 GB
-  version: OS3.0.8.0.WMVCNXM
-- android: '16.0'
-  branch: Stable
-  codename: babylon
-  date: 2026-01-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.8.0.WMVCNXM/babylon_images_OS3.0.8.0.WMVCNXM_20260123.0000.00_16.0_cn_c4f4d3f0fa.tgz
-  md5: c4f4d3f0fa36f233b8d729460795421a
+  date: 2026-04-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WMVCNXM/babylon_images_OS3.0.302.0.WMVCNXM_20260411.0000.00_16.0_cn_6e5ba8a444.tgz
+  md5: 6e5ba8a444958ddaee477feb0a1d2120
   method: Fastboot
   name: MIX Fold 3 China
-  size: 9.2 GB
-  version: OS3.0.8.0.WMVCNXM
+  size: 9.3 GB
+  version: OS3.0.302.0.WMVCNXM
 - android: '14.0'
   branch: Public Beta
   codename: babylon
@@ -10231,13 +10241,13 @@
 - android: '14.0'
   branch: Stable Beta
   codename: fuxi
-  date: 2023-12-23
-  link: https://bigota.d.miui.com/OS1.0.5.0.UMCCNXM/miui_FUXI_OS1.0.5.0.UMCCNXM_84b08e9053_14.0.zip
-  md5: 84b08e905334a1afb8dec0e38983e6f1
+  date: 2023-10-19
+  link: https://bigota.d.miui.com/V14.0.4.0.UMCCNXM/miui_FUXI_V14.0.4.0.UMCCNXM_f88642927a_14.0.zip
+  md5: f88642927a79f97eb355f9d13bef318a
   method: Recovery
   name: Xiaomi 13 China
-  size: 6.4 GB
-  version: OS1.0.5.0.UMCCNXM
+  size: 6.5 GB
+  version: V14.0.4.0.UMCCNXM
 - android: '16.0'
   branch: Stable
   codename: fuxi
@@ -13352,21 +13362,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -18028,16 +18038,16 @@
   name: Redmi 13 / POCO M6 EEA
   size: 7.1 GB
   version: OS3.0.4.0.WNTEUXM
-- android: '15.0'
+- android: '16.0'
   branch: Stable Beta
   codename: moon_global
-  date: 2024-12-10
-  link: https://bigota.d.miui.com/OS2.0.2.0.VNTMIXM/moon_global-ota_full-OS2.0.2.0.VNTMIXM-user-15.0-f7ece4195a.zip
-  md5: f7ece4195a35fdfae214334adb22447f
+  date: 2026-05-12
+  link: https://bigota.d.miui.com/OS3.0.301.0.WNTMIXM/moon_global-ota_full-OS3.0.301.0.WNTMIXM-user-16.0-260c3c8177.zip
+  md5: 260c3c81775cfccdcd781f74aa2149f5
   method: Recovery
   name: Redmi 13 / POCO M6 Global
-  size: 4.5 GB
-  version: OS2.0.2.0.VNTMIXM
+  size: 4.9 GB
+  version: OS3.0.301.0.WNTMIXM
 - android: '16.0'
   branch: Stable
   codename: moon_global
@@ -21941,6 +21951,16 @@
 - android: '13.0'
   branch: Stable Beta
   codename: pissarro_ru_global
+  date: 2026-05-13
+  link: https://bigota.d.miui.com/OS1.0.12.0.TKTRUXM/miui_PISSARRORUGlobal_OS1.0.12.0.TKTRUXM_8f74618cfc_13.0.zip
+  md5: 8f74618cfccdbab94c1e3f133cea37fc
+  method: Recovery
+  name: Redmi Note 11 Pro+ 5G Russia
+  size: 3.8 GB
+  version: OS1.0.12.0.TKTRUXM
+- android: '13.0'
+  branch: Stable
+  codename: pissarro_ru_global
   date: 2025-04-10
   link: https://bigota.d.miui.com/OS1.0.11.0.TKTRUXM/miui_PISSARRORUGlobal_OS1.0.11.0.TKTRUXM_7bd32f446d_13.0.zip
   md5: 7bd32f446d11a8730ea785213c51d913
@@ -21951,23 +21971,13 @@
 - android: '13.0'
   branch: Stable
   codename: pissarro_ru_global
-  date: 2025-02-20
-  link: https://bigota.d.miui.com/OS1.0.10.0.TKTRUXM/miui_PISSARRORUGlobal_OS1.0.10.0.TKTRUXM_06a1f7a432_13.0.zip
-  md5: 06a1f7a43295074b41286c32b1ab5dd9
-  method: Recovery
-  name: Redmi Note 11 Pro+ 5G Russia
-  size: 3.8 GB
-  version: OS1.0.10.0.TKTRUXM
-- android: '13.0'
-  branch: Stable
-  codename: pissarro_ru_global
-  date: 2025-02-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.TKTRUXM/pissarro_ru_global_images_OS1.0.10.0.TKTRUXM_20250206.0000.00_13.0_ru_1e650bb5c0.tgz
-  md5: 1e650bb5c02f2ef17c8dbd6c55df2838
+  date: 2025-03-26
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.11.0.TKTRUXM/pissarro_ru_global_images_OS1.0.11.0.TKTRUXM_20250326.0000.00_13.0_ru_1fe4b2f584.tgz
+  md5: 1fe4b2f584dec328bd9b76c6e8fad856
   method: Fastboot
   name: Redmi Note 11 Pro+ 5G Russia
   size: 5.8 GB
-  version: OS1.0.10.0.TKTRUXM
+  version: OS1.0.11.0.TKTRUXM
 - android: '13.0'
   branch: Stable Beta
   codename: pissarro_tr_global
