@@ -5708,8 +5708,18 @@
   name: Mi 9 Pro 5G China
   size: 3.0 GB
   version: 21.11.24
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: cupid
+  date: 2023-10-30
+  link: https://bigota.d.miui.com/V14.0.8.0.TLCCNXM/miui_CUPID_V14.0.8.0.TLCCNXM_3d64b282e7_13.0.zip
+  md5: 3d64b282e766789f556cc0bc46845236
+  method: Recovery
+  name: Xiaomi 12 China
+  size: 5.6 GB
+  version: V14.0.8.0.TLCCNXM
+- android: '15.0'
+  branch: Stable
   codename: cupid
   date: 2026-05-15
   link: https://bigota.d.miui.com/OS3.0.3.0.VLCCNXM/cupid-ota_full-OS3.0.3.0.VLCCNXM-user-15.0-1786889676.zip
@@ -5721,23 +5731,13 @@
 - android: '15.0'
   branch: Stable
   codename: cupid
-  date: 2026-01-14
-  link: https://bigota.d.miui.com/OS3.0.2.0.VLCCNXM/cupid-ota_full-OS3.0.2.0.VLCCNXM-user-15.0-6aae9d0532.zip
-  md5: 6aae9d0532d98bfe70d248fb1e70619e
-  method: Recovery
-  name: Xiaomi 12 China
-  size: 6.2 GB
-  version: OS3.0.2.0.VLCCNXM
-- android: '15.0'
-  branch: Stable
-  codename: cupid
-  date: 2026-01-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.VLCCNXM/cupid_images_OS3.0.2.0.VLCCNXM_20260109.0000.00_15.0_cn_691077bfcd.tgz
-  md5: 691077bfcd2b84b97ff65140ab5641b0
+  date: 2026-05-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLCCNXM/cupid_images_OS3.0.3.0.VLCCNXM_20260506.0000.00_15.0_cn_4cfca91ed0.tgz
+  md5: 4cfca91ed0f4132374462e5f6b211745
   method: Fastboot
   name: Xiaomi 12 China
   size: 7.7 GB
-  version: OS3.0.2.0.VLCCNXM
+  version: OS3.0.3.0.VLCCNXM
 - android: '14.0'
   branch: Public Beta
   codename: cupid
@@ -13422,21 +13422,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13878,8 +13878,18 @@
   name: Xiaomi 15T Pro Japan
   size: 9.0 GB
   version: OS3.0.301.0.WOSJPXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable Beta
+  codename: klimt_ru_global
+  date: 2025-09-24
+  link: https://bigota.d.miui.com/OS2.0.201.0.VOSRUXM/klimt_ru_global-ota_full-OS2.0.201.0.VOSRUXM-user-15.0-02fde6786d.zip
+  md5: 02fde6786d3355ecac2b65e2556c077b
+  method: Recovery
+  name: Xiaomi 15T Pro Russia
+  size: 6.7 GB
+  version: OS2.0.201.0.VOSRUXM
+- android: '16.0'
+  branch: Stable
   codename: klimt_ru_global
   date: 2026-05-11
   link: https://bigota.d.miui.com/OS3.0.301.0.WOSRUXM/klimt_ru_global-ota_full-OS3.0.301.0.WOSRUXM-user-16.0-f84c215a84.zip
@@ -13891,23 +13901,13 @@
 - android: '16.0'
   branch: Stable
   codename: klimt_ru_global
-  date: 2025-12-31
-  link: https://bigota.d.miui.com/OS3.0.4.0.WOSRUXM/klimt_ru_global-ota_full-OS3.0.4.0.WOSRUXM-user-16.0-d8d8f31121.zip
-  md5: d8d8f3112194dbb5009b02cd5cd92a38
-  method: Recovery
-  name: Xiaomi 15T Pro Russia
-  size: 7.2 GB
-  version: OS3.0.4.0.WOSRUXM
-- android: '16.0'
-  branch: Stable
-  codename: klimt_ru_global
-  date: 2025-12-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WOSRUXM/klimt_ru_global_images_OS3.0.4.0.WOSRUXM_20251226.0000.00_16.0_ru_682140636d.tgz
-  md5: 682140636d3a574540ec22f71d289ebb
+  date: 2026-04-23
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WOSRUXM/klimt_ru_global_images_OS3.0.301.0.WOSRUXM_20260423.0000.00_16.0_ru_f844db0c76.tgz
+  md5: f844db0c7673a9c1328e29998c86c719
   method: Fastboot
   name: Xiaomi 15T Pro Russia
   size: 9.8 GB
-  version: OS3.0.4.0.WOSRUXM
+  version: OS3.0.301.0.WOSRUXM
 - android: '16.0'
   branch: Stable
   codename: klimt_tr_global
@@ -13928,6 +13928,16 @@
   name: Xiaomi 15T Pro Turkey
   size: 8.7 GB
   version: OS3.0.301.0.WOSTRXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: klimt_tw_global
+  date: 2026-05-19
+  link: https://bigota.d.miui.com/OS3.0.301.0.WOSTWXM/klimt_tw_global-ota_full-OS3.0.301.0.WOSTWXM-user-16.0-9b060bc76d.zip
+  md5: 9b060bc76dc10337ab8c00a02970b07c
+  method: Recovery
+  name: Xiaomi 15T Pro Taiwan
+  size: 7.1 GB
+  version: OS3.0.301.0.WOSTWXM
 - android: '16.0'
   branch: Stable
   codename: klimt_tw_global
@@ -22599,7 +22609,7 @@
   size: 13.7 GB
   version: OS3.0.310.0.WAACNXM
 - android: '13.0'
-  branch: Stable Beta
+  branch: Stable
   codename: psyche
   date: 2026-03-21
   link: https://bigota.d.miui.com/OS1.0.15.0.TLDCNXM/miui_PSYCHE_OS1.0.15.0.TLDCNXM_15effa03fa_13.0.zip
@@ -22611,23 +22621,13 @@
 - android: '13.0'
   branch: Stable
   codename: psyche
-  date: 2024-10-18
-  link: https://bigota.d.miui.com/OS1.0.10.0.TLDCNXM/miui_PSYCHE_OS1.0.10.0.TLDCNXM_4bdc919500_13.0.zip
-  md5: 4bdc919500fc6c36dde4f383ebdb8fb8
-  method: Recovery
-  name: Xiaomi 12X China
-  size: 4.1 GB
-  version: OS1.0.10.0.TLDCNXM
-- android: '13.0'
-  branch: Stable
-  codename: psyche
-  date: 2024-10-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.10.0.TLDCNXM/psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_ee24e7354c.tgz
-  md5: ee24e7354cc709dda27c36e12481df35
+  date: 2026-03-14
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.15.0.TLDCNXM/psyche_images_OS1.0.15.0.TLDCNXM_20260314.0000.00_13.0_cn_1a422adee1.tgz
+  md5: 1a422adee15b0efb9ddc2a3625edb8b5
   method: Fastboot
   name: Xiaomi 12X China
-  size: 6.2 GB
-  version: OS1.0.10.0.TLDCNXM
+  size: 5.9 GB
+  version: OS1.0.15.0.TLDCNXM
 - android: '12.0'
   branch: Weekly
   codename: psyche
@@ -25018,16 +25018,16 @@
   name: Redmi K50 China
   size: 7.4 GB
   version: V14.0.22.12.5.DEV
-- android: '13.0'
+- android: '14.0'
   branch: Stable Beta
   codename: ruby
-  date: 2023-06-14
-  link: https://bigota.d.miui.com/V14.0.1.0.TMOCNXM/miui_RUBY_V14.0.1.0.TMOCNXM_87b81ad49d_13.0.zip
-  md5: 87b81ad49d55a0d15fac2e8a624a92b7
+  date: 2026-05-19
+  link: https://bigota.d.miui.com/OS2.0.20.0.UMOCNXM/ruby-ota_full-OS2.0.20.0.UMOCNXM-user-14.0-49a94bc079.zip
+  md5: 49a94bc079c85f28c9878a111ec7ed7d
   method: Recovery
   name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
-  size: 5.4 GB
-  version: V14.0.1.0.TMOCNXM
+  size: 5.8 GB
+  version: OS2.0.20.0.UMOCNXM
 - android: '14.0'
   branch: Stable
   codename: ruby
@@ -27771,13 +27771,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
