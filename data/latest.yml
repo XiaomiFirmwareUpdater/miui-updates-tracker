@@ -5768,8 +5768,18 @@
   name: Xiaomi 12 EEA
   size: 6.9 GB
   version: OS3.0.2.0.VLCEUXM
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: cupid_global
+  date: 2022-08-15
+  link: https://bigota.d.miui.com/V13.0.4.0.TLCMIXM/miui_CUPIDGlobal_V13.0.4.0.TLCMIXM_271430c4dc_13.0.zip
+  md5: 271430c4dc8ea8b1e1648e56cb2c86b0
+  method: Recovery
+  name: Xiaomi 12 Global
+  size: 4.5 GB
+  version: V13.0.4.0.TLCMIXM
+- android: '15.0'
+  branch: Stable
   codename: cupid_global
   date: 2026-05-15
   link: https://bigota.d.miui.com/OS3.0.4.0.VLCMIXM/cupid_global-ota_full-OS3.0.4.0.VLCMIXM-user-15.0-f0c58ba08f.zip
@@ -5781,23 +5791,13 @@
 - android: '15.0'
   branch: Stable
   codename: cupid_global
-  date: 2026-03-18
-  link: https://bigota.d.miui.com/OS3.0.3.0.VLCMIXM/cupid_global-ota_full-OS3.0.3.0.VLCMIXM-user-15.0-dbdad700e1.zip
-  md5: dbdad700e10abcb27c309eec1d9df988
-  method: Recovery
-  name: Xiaomi 12 Global
-  size: 5.7 GB
-  version: OS3.0.3.0.VLCMIXM
-- android: '15.0'
-  branch: Stable
-  codename: cupid_global
-  date: 2026-03-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLCMIXM/cupid_global_images_OS3.0.3.0.VLCMIXM_20260311.0000.00_15.0_global_1d642929d1.tgz
-  md5: 1d642929d18f42c7fcd4cb869f3fabca
+  date: 2026-05-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.VLCMIXM/cupid_global_images_OS3.0.4.0.VLCMIXM_20260506.0000.00_15.0_global_d56d6da8ee.tgz
+  md5: d56d6da8ee2969b6a24827d0c2a37f79
   method: Fastboot
   name: Xiaomi 12 Global
   size: 6.9 GB
-  version: OS3.0.3.0.VLCMIXM
+  version: OS3.0.4.0.VLCMIXM
 - android: '15.0'
   branch: Stable
   codename: cupid_id_global
@@ -6749,6 +6749,16 @@
   size: 10.2 GB
   version: OS3.0.2.0.WPLIDXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: dash_in_global
+  date: 2026-05-19
+  link: https://bigota.d.miui.com/OS3.0.301.0.WPLINXM/dash_in_global-ota_full-OS3.0.301.0.WPLINXM-user-16.0-3ff7389b85.zip
+  md5: 3ff7389b85305ee009e9823ebe10a1fd
+  method: Recovery
+  name: POCO X8 Pro Max India
+  size: 7.0 GB
+  version: OS3.0.301.0.WPLINXM
+- android: '16.0'
   branch: Stable
   codename: dash_in_global
   date: 2026-03-23
@@ -6768,6 +6778,16 @@
   name: POCO X8 Pro Max India
   size: 9.2 GB
   version: OS3.0.2.0.WPLINXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: dash_ru_global
+  date: 2026-05-19
+  link: https://bigota.d.miui.com/OS3.0.301.0.WPLRUXM/dash_ru_global-ota_full-OS3.0.301.0.WPLRUXM-user-16.0-9d7f1a07a2.zip
+  md5: 9d7f1a07a226a85419468d7472d7d8ef
+  method: Recovery
+  name: POCO X8 Pro Max Russia
+  size: 7.1 GB
+  version: OS3.0.301.0.WPLRUXM
 - android: '16.0'
   branch: Stable
   codename: dash_ru_global
@@ -18319,6 +18339,16 @@
   size: 5.4 GB
   version: V13.0.3.0.SJITWXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: moon_eea_global
+  date: 2026-05-22
+  link: https://bigota.d.miui.com/OS3.0.301.0.WNTEUXM/moon_eea_global-ota_full-OS3.0.301.0.WNTEUXM-user-16.0-77ab63bd64.zip
+  md5: 77ab63bd64fe9b092ce26f795343ccd1
+  method: Recovery
+  name: Redmi 13 / POCO M6 EEA
+  size: 5.0 GB
+  version: OS3.0.301.0.WNTEUXM
+- android: '16.0'
   branch: Stable
   codename: moon_eea_global
   date: 2026-04-09
@@ -19539,7 +19569,7 @@
   size: 11.3 GB
   version: OS3.0.5.0.WPAIDXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: nezha_in_global
   date: 2026-05-17
   link: https://bigota.d.miui.com/OS3.0.303.0.WPAINXM/nezha_in_global-ota_full-OS3.0.303.0.WPAINXM-user-16.0-d943099f66.zip
@@ -19551,23 +19581,13 @@
 - android: '16.0'
   branch: Stable
   codename: nezha_in_global
-  date: 2026-02-28
-  link: https://bigota.d.miui.com/OS3.0.2.0.WPAINXM/nezha_in_global-ota_full-OS3.0.2.0.WPAINXM-user-16.0-a1f321384f.zip
-  md5: a1f321384fb73641084e6bcc255247e3
-  method: Recovery
-  name: Xiaomi 17 Ultra India
-  size: 9.1 GB
-  version: OS3.0.2.0.WPAINXM
-- android: '16.0'
-  branch: Stable
-  codename: nezha_in_global
-  date: 2026-02-04
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.WPAINXM/nezha_in_global_images_OS3.0.2.0.WPAINXM_20260204.0000.00_16.0_in_27459cfeee.tgz
-  md5: 27459cfeee91bc319c619f9c78f6799f
+  date: 2026-05-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WPAINXM/nezha_in_global_images_OS3.0.303.0.WPAINXM_20260508.0000.00_16.0_in_bb111bb29e.tgz
+  md5: bb111bb29ed4f8cbca9c5648238b7766
   method: Fastboot
   name: Xiaomi 17 Ultra India
   size: 10.1 GB
-  version: OS3.0.2.0.WPAINXM
+  version: OS3.0.303.0.WPAINXM
 - android: '16.0'
   branch: Stable Beta
   codename: nezha_ru_global
