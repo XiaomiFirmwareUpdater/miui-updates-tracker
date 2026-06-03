@@ -7823,7 +7823,7 @@
   codename: diting_jp_global
   date: 2026-05-11
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.26.0.ULFJPXM/diting_jp_global_images_OS1.0.26.0.ULFJPXM_20260511.0000.00_14.0_jp_0d6e706732.tgz
-  md5: null
+  md5: 0d6e7067329f049998626da0a7ee3704
   method: Fastboot
   name: Xiaomi 12T Pro Japan
   size: 6.2 GB
@@ -7843,13 +7843,23 @@
   codename: diting_ru_global
   date: 2026-05-13
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLFRUXM/diting_ru_global_images_OS3.0.3.0.VLFRUXM_20260513.0000.00_15.0_ru_f30b023ef9.tgz
-  md5: null
+  md5: f30b023ef90577de4e9b581122c6e3ec
   method: Fastboot
   name: Xiaomi 12T Pro Russia
   size: 6.9 GB
   version: OS3.0.3.0.VLFRUXM
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: diting_tr_global
+  date: 2023-07-19
+  link: https://bigota.d.miui.com/V14.0.3.0.TLFTRXM/miui_DITINGTRGlobal_V14.0.3.0.TLFTRXM_60ad700e65_13.0.zip
+  md5: 60ad700e657c68f00d46f814f07a1e79
+  method: Recovery
+  name: Xiaomi 12T Pro Turkey
+  size: 4.8 GB
+  version: V14.0.3.0.TLFTRXM
+- android: '15.0'
+  branch: Stable
   codename: diting_tr_global
   date: 2026-05-25
   link: https://bigota.d.miui.com/OS3.0.3.0.VLFTRXM/diting_tr_global-ota_full-OS3.0.3.0.VLFTRXM-user-15.0-c71463c18b.zip
@@ -7861,23 +7871,13 @@
 - android: '15.0'
   branch: Stable
   codename: diting_tr_global
-  date: 2026-04-13
-  link: https://bigota.d.miui.com/OS3.0.2.0.VLFTRXM/diting_tr_global-ota_full-OS3.0.2.0.VLFTRXM-user-15.0-d24909278c.zip
-  md5: d24909278cfaf05022a37e1de12cc97d
-  method: Recovery
-  name: Xiaomi 12T Pro Turkey
-  size: 5.8 GB
-  version: OS3.0.2.0.VLFTRXM
-- android: '15.0'
-  branch: Stable
-  codename: diting_tr_global
-  date: 2026-04-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.VLFTRXM/diting_tr_global_images_OS3.0.2.0.VLFTRXM_20260403.0000.00_15.0_tr_7da8023a7d.tgz
-  md5: 7da8023a7df901baa52a11ab2595d6a7
+  date: 2026-05-13
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLFTRXM/diting_tr_global_images_OS3.0.3.0.VLFTRXM_20260513.0000.00_15.0_tr_87cdb81877.tgz
+  md5: 87cdb8187762e3b930099eb18d413059
   method: Fastboot
   name: Xiaomi 12T Pro Turkey
   size: 6.7 GB
-  version: OS3.0.2.0.VLFTRXM
+  version: OS3.0.3.0.VLFTRXM
 - android: '15.0'
   branch: Stable
   codename: diting_tw_global
@@ -7893,7 +7893,7 @@
   codename: diting_tw_global
   date: 2026-05-14
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLFTWXM/diting_tw_global_images_OS3.0.3.0.VLFTWXM_20260514.0000.00_15.0_tw_cf4d8d284f.tgz
-  md5: null
+  md5: cf4d8d284f8f3530bd184c9a464b76c4
   method: Fastboot
   name: Xiaomi 12T Pro Taiwan
   size: 6.6 GB
@@ -23291,6 +23291,16 @@
 - android: '16.0'
   branch: Stable Beta
   codename: pudding_ru_global
+  date: 2026-02-28
+  link: https://bigota.d.miui.com/OS3.0.4.0.WPCRUXM/pudding_ru_global-ota_full-OS3.0.4.0.WPCRUXM-user-16.0-d392689d7f.zip
+  md5: d392689d7f9e0d35e6443d730fe0bed6
+  method: Recovery
+  name: Xiaomi 17 Russia
+  size: 7.5 GB
+  version: OS3.0.4.0.WPCRUXM
+- android: '16.0'
+  branch: Stable
+  codename: pudding_ru_global
   date: 2026-05-25
   link: https://bigota.d.miui.com/OS3.0.302.0.WPCRUXM/pudding_ru_global-ota_full-OS3.0.302.0.WPCRUXM-user-16.0-8aa79410e2.zip
   md5: 8aa79410e2df0cc1dd7cdc83020c8b00
@@ -23301,23 +23311,13 @@
 - android: '16.0'
   branch: Stable
   codename: pudding_ru_global
-  date: 2026-04-22
-  link: https://bigota.d.miui.com/OS3.0.301.0.WPCRUXM/pudding_ru_global-ota_full-OS3.0.301.0.WPCRUXM-user-16.0-2af85b90e8.zip
-  md5: 2af85b90e872b5c506681587634c4baf
-  method: Recovery
-  name: Xiaomi 17 Russia
-  size: 7.8 GB
-  version: OS3.0.301.0.WPCRUXM
-- android: '16.0'
-  branch: Stable
-  codename: pudding_ru_global
-  date: 2026-04-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPCRUXM/pudding_ru_global_images_OS3.0.301.0.WPCRUXM_20260407.0000.00_16.0_ru_7d53a1c52b.tgz
-  md5: 7d53a1c52b3d0e19cb03b394bc54020f
+  date: 2026-05-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WPCRUXM/pudding_ru_global_images_OS3.0.302.0.WPCRUXM_20260515.0000.00_16.0_ru_f0bc143c20.tgz
+  md5: f0bc143c201e4ed257b825d2a9cc79db
   method: Fastboot
   name: Xiaomi 17 Russia
   size: 10.4 GB
-  version: OS3.0.301.0.WPCRUXM
+  version: OS3.0.302.0.WPCRUXM
 - android: '16.0'
   branch: Stable Beta
   codename: pudding_tr_global
@@ -25388,8 +25388,18 @@
   name: Redmi K50 China
   size: 7.4 GB
   version: V14.0.22.12.5.DEV
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: ruby
+  date: 2023-06-14
+  link: https://bigota.d.miui.com/V14.0.1.0.TMOCNXM/miui_RUBY_V14.0.1.0.TMOCNXM_87b81ad49d_13.0.zip
+  md5: 87b81ad49d55a0d15fac2e8a624a92b7
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
+  size: 5.4 GB
+  version: V14.0.1.0.TMOCNXM
+- android: '14.0'
+  branch: Stable
   codename: ruby
   date: 2026-05-19
   link: https://bigota.d.miui.com/OS2.0.20.0.UMOCNXM/ruby-ota_full-OS2.0.20.0.UMOCNXM-user-14.0-49a94bc079.zip
@@ -25401,23 +25411,13 @@
 - android: '14.0'
   branch: Stable
   codename: ruby
-  date: 2026-02-25
-  link: https://bigota.d.miui.com/OS2.0.19.0.UMOCNXM/ruby-ota_full-OS2.0.19.0.UMOCNXM-user-14.0-9cd5f571ca.zip
-  md5: 9cd5f571ca7a8d2d7cd85f3d3428af72
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
-  size: 5.8 GB
-  version: OS2.0.19.0.UMOCNXM
-- android: '14.0'
-  branch: Stable
-  codename: ruby
-  date: 2026-02-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.19.0.UMOCNXM/ruby_images_OS2.0.19.0.UMOCNXM_20260206.0000.00_14.0_cn_24eef1adf2.tgz
-  md5: 24eef1adf2231cf4c0fce336bd64f29b
+  date: 2026-05-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.20.0.UMOCNXM/ruby_images_OS2.0.20.0.UMOCNXM_20260511.0000.00_14.0_cn_aa512c5ffd.tgz
+  md5: aa512c5ffd66518728fd92077efb681d
   method: Fastboot
   name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
   size: 7.1 GB
-  version: OS2.0.19.0.UMOCNXM
+  version: OS2.0.20.0.UMOCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: ruby_eea_global
@@ -33339,7 +33339,7 @@
   size: 9.9 GB
   version: OS2.0.2.0.VOATRXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xuanyuan_tw_global
   date: 2026-05-25
   link: https://bigota.d.miui.com/OS3.0.301.0.WOATWXM/xuanyuan_tw_global-ota_full-OS3.0.301.0.WOATWXM-user-16.0-f2dce31ab6.zip
@@ -33351,23 +33351,13 @@
 - android: '16.0'
   branch: Stable
   codename: xuanyuan_tw_global
-  date: 2026-03-11
-  link: https://bigota.d.miui.com/OS3.0.2.0.WOATWXM/xuanyuan_tw_global-ota_full-OS3.0.2.0.WOATWXM-user-16.0-fe04b69a19.zip
-  md5: fe04b69a19c3dd9647be14cc3096f708
-  method: Recovery
-  name: Xiaomi 15 Ultra Taiwan
-  size: 8.8 GB
-  version: OS3.0.2.0.WOATWXM
-- android: '16.0'
-  branch: Stable
-  codename: xuanyuan_tw_global
-  date: 2026-02-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.WOATWXM/xuanyuan_tw_global_images_OS3.0.2.0.WOATWXM_20260225.0000.00_16.0_tw_b03ebcbe2b.tgz
-  md5: b03ebcbe2b4efd676c755b24bea05797
+  date: 2026-05-14
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WOATWXM/xuanyuan_tw_global_images_OS3.0.301.0.WOATWXM_20260514.0000.00_16.0_tw_16a756bade.tgz
+  md5: 16a756bade229a52c9c7351c02829928
   method: Fastboot
   name: Xiaomi 15 Ultra Taiwan
   size: 9.9 GB
-  version: OS3.0.2.0.WOATWXM
+  version: OS3.0.301.0.WOATWXM
 - android: '14.0'
   branch: Stable Beta
   codename: xun
