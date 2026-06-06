@@ -10658,8 +10658,18 @@
   name: Xiaomi 13 EEA
   size: 8.0 GB
   version: OS3.0.301.0.WMCEUXM
-- android: '16.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: fuxi_global
+  date: 2023-02-27
+  link: https://bigota.d.miui.com/V14.0.3.0.TMCMIXM/miui_FUXIGlobal_V14.0.3.0.TMCMIXM_bb347e0b42_13.0.zip
+  md5: bb347e0b420ae2a19d44c397fc185b3b
+  method: Recovery
+  name: Xiaomi 13 Global
+  size: 5.5 GB
+  version: V14.0.3.0.TMCMIXM
+- android: '16.0'
+  branch: Stable
   codename: fuxi_global
   date: 2026-05-27
   link: https://bigota.d.miui.com/OS3.0.303.0.WMCMIXM/fuxi_global-ota_full-OS3.0.303.0.WMCMIXM-user-16.0-5db9239cee.zip
@@ -10671,23 +10681,13 @@
 - android: '16.0'
   branch: Stable
   codename: fuxi_global
-  date: 2026-03-09
-  link: https://bigota.d.miui.com/OS3.0.4.0.WMCMIXM/fuxi_global-ota_full-OS3.0.4.0.WMCMIXM-user-16.0-65b468e4ea.zip
-  md5: 65b468e4ea11c8ca64f18726d00c01c8
-  method: Recovery
-  name: Xiaomi 13 Global
-  size: 6.4 GB
-  version: OS3.0.4.0.WMCMIXM
-- android: '16.0'
-  branch: Stable
-  codename: fuxi_global
-  date: 2026-02-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WMCMIXM/fuxi_global_images_OS3.0.4.0.WMCMIXM_20260226.0000.00_16.0_global_31f8847656.tgz
-  md5: 31f8847656b69f1c60b55f309fd4ae25
+  date: 2026-05-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WMCMIXM/fuxi_global_images_OS3.0.303.0.WMCMIXM_20260518.0000.00_16.0_global_e912267d8f.tgz
+  md5: e912267d8f59093230f91f8835e52b89
   method: Fastboot
   name: Xiaomi 13 Global
   size: 8.1 GB
-  version: OS3.0.4.0.WMCMIXM
+  version: OS3.0.303.0.WMCMIXM
 - android: '14.0'
   branch: Public Beta
   codename: fuxi_global
@@ -13912,21 +13912,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -13979,7 +13979,7 @@
   size: 10.7 GB
   version: OS3.0.303.0.WPJCNXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: klee_eea_global
   date: 2026-05-29
   link: https://bigota.d.miui.com/OS3.0.301.0.WPJEUXM/klee_eea_global-ota_full-OS3.0.301.0.WPJEUXM-user-16.0-d52ce62517.zip
@@ -13991,23 +13991,13 @@
 - android: '16.0'
   branch: Stable
   codename: klee_eea_global
-  date: 2026-04-20
-  link: https://bigota.d.miui.com/OS3.0.5.0.WPJEUXM/klee_eea_global-ota_full-OS3.0.5.0.WPJEUXM-user-16.0-40275e54d2.zip
-  md5: 40275e54d2ce387bd8ad3d9beb08590e
-  method: Recovery
-  name: POCO X8 Pro EEA
-  size: 7.0 GB
-  version: OS3.0.5.0.WPJEUXM
-- android: '16.0'
-  branch: Stable
-  codename: klee_eea_global
-  date: 2026-04-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WPJEUXM/klee_eea_global_images_OS3.0.5.0.WPJEUXM_20260403.0000.00_16.0_eea_d6edcac88f.tgz
-  md5: d6edcac88fa137a6de81b7510f9fcf24
+  date: 2026-05-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPJEUXM/klee_eea_global_images_OS3.0.301.0.WPJEUXM_20260520.0000.00_16.0_eea_7f16e6eeeb.tgz
+  md5: 7f16e6eeeb3dc10e47e2bf4d0f937d31
   method: Fastboot
   name: POCO X8 Pro EEA
-  size: 9.9 GB
-  version: OS3.0.5.0.WPJEUXM
+  size: 10.0 GB
+  version: OS3.0.301.0.WPJEUXM
 - android: '16.0'
   branch: Stable Beta
   codename: klee_global
@@ -14079,7 +14069,7 @@
   size: 9.0 GB
   version: OS3.0.5.0.WPJINXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: klee_ru_global
   date: 2026-05-29
   link: https://bigota.d.miui.com/OS3.0.301.0.WPJRUXM/klee_ru_global-ota_full-OS3.0.301.0.WPJRUXM-user-16.0-f3300a57a8.zip
@@ -14091,23 +14081,13 @@
 - android: '16.0'
   branch: Stable
   codename: klee_ru_global
-  date: 2026-04-17
-  link: https://bigota.d.miui.com/OS3.0.4.0.WPJRUXM/klee_ru_global-ota_full-OS3.0.4.0.WPJRUXM-user-16.0-24fc42d167.zip
-  md5: 24fc42d167a27af2f8930b5aaebd351f
-  method: Recovery
-  name: POCO X8 Pro Russia
-  size: 6.9 GB
-  version: OS3.0.4.0.WPJRUXM
-- android: '16.0'
-  branch: Stable
-  codename: klee_ru_global
-  date: 2026-03-28
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WPJRUXM/klee_ru_global_images_OS3.0.4.0.WPJRUXM_20260328.0000.00_16.0_ru_a26ce9c05c.tgz
-  md5: a26ce9c05c58b60f76cd7781fac49ded
+  date: 2026-05-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPJRUXM/klee_ru_global_images_OS3.0.301.0.WPJRUXM_20260520.0000.00_16.0_ru_40e7277621.tgz
+  md5: 40e7277621ab8e0a60272135591d00be
   method: Fastboot
   name: POCO X8 Pro Russia
-  size: 10.7 GB
-  version: OS3.0.4.0.WPJRUXM
+  size: 10.8 GB
+  version: OS3.0.301.0.WPJRUXM
 - android: '16.0'
   branch: Stable
   codename: klee_tr_global
