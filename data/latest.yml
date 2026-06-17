@@ -4709,7 +4709,7 @@
   size: 8.4 GB
   version: OS3.0.306.0.WPTTWXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: charoite_eea_global
   date: 2026-06-05
   link: https://bigota.d.miui.com/OS3.0.301.0.WPFEUXM/charoite_eea_global-ota_full-OS3.0.301.0.WPFEUXM-user-16.0-ebdf2352b1.zip
@@ -4721,23 +4721,13 @@
 - android: '16.0'
   branch: Stable
   codename: charoite_eea_global
-  date: 2026-04-14
-  link: https://bigota.d.miui.com/OS3.0.1.0.WPFEUXM/charoite_eea_global-ota_full-OS3.0.1.0.WPFEUXM-user-16.0-6afd343915.zip
-  md5: 6afd3439159f7250b7147ea91e671344
-  method: Recovery
-  name: Redmi Note 15 Pro 4G EEA
-  size: 6.0 GB
-  version: OS3.0.1.0.WPFEUXM
-- android: '16.0'
-  branch: Stable
-  codename: charoite_eea_global
-  date: 2026-04-05
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.1.0.WPFEUXM/charoite_eea_global_images_OS3.0.1.0.WPFEUXM_20260405.0000.00_16.0_eea_e8dbb9b6dd.tgz
-  md5: e8dbb9b6dde0d9f02fa3a13e984c83cd
+  date: 2026-05-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPFEUXM/charoite_eea_global_images_OS3.0.301.0.WPFEUXM_20260528.0000.00_16.0_eea_e65b35526d.tgz
+  md5: e65b35526d26731ff69bade8bbdf7293
   method: Fastboot
   name: Redmi Note 15 Pro 4G EEA
-  size: 8.8 GB
-  version: OS3.0.1.0.WPFEUXM
+  size: 8.9 GB
+  version: OS3.0.301.0.WPFEUXM
 - android: '16.0'
   branch: Stable
   codename: charoite_global
@@ -4788,6 +4778,16 @@
   name: Redmi Note 15 Pro 4G Russia
   size: 9.7 GB
   version: OS3.0.1.0.WPFRUXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: charoite_tr_global
+  date: 2026-06-16
+  link: https://bigota.d.miui.com/OS3.0.301.0.WPFTRXM/charoite_tr_global-ota_full-OS3.0.301.0.WPFTRXM-user-16.0-340622b471.zip
+  md5: 340622b4710eea117774b0edbe0cd323
+  method: Recovery
+  name: Redmi Note 15 Pro 4G Turkey
+  size: 6.0 GB
+  version: OS3.0.301.0.WPFTRXM
 - android: '16.0'
   branch: Stable
   codename: charoite_tr_global
@@ -13912,21 +13912,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
-  md5: ffb51fb6dc722055630a0db15a47c641
-  method: Recovery
-  name: Redmi Note 3 SE Global
-  size: 1.6 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
   md5: 52f71e4360b986500ec717b3f573fe3b
   method: Fastboot
   name: Redmi Note 3 SE Global
   size: 1.8 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
+  md5: ffb51fb6dc722055630a0db15a47c641
+  method: Recovery
+  name: Redmi Note 3 SE Global
+  size: 1.6 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13992,21 +13992,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -18438,8 +18438,18 @@
   name: Xiaomi Civi China
   size: 7.2 GB
   version: V14.0.22.12.5.DEV
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: mondrian
+  date: 2023-10-16
+  link: https://bigota.d.miui.com/V14.0.28.0.TMNCNXM/miui_MONDRIAN_V14.0.28.0.TMNCNXM_36074967f4_13.0.zip
+  md5: 36074967f40f52479ae37f092e3a99b1
+  method: Recovery
+  name: Redmi K60 China
+  size: 5.8 GB
+  version: V14.0.28.0.TMNCNXM
+- android: '15.0'
+  branch: Stable
   codename: mondrian
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS3.0.8.0.VMNCNXM/mondrian-ota_full-OS3.0.8.0.VMNCNXM-user-15.0-3fb07519a6.zip
@@ -18451,23 +18461,13 @@
 - android: '15.0'
   branch: Stable
   codename: mondrian
-  date: 2026-01-30
-  link: https://bigota.d.miui.com/OS3.0.5.0.VMNCNXM/mondrian-ota_full-OS3.0.5.0.VMNCNXM-user-15.0-d9db2e6dd9.zip
-  md5: d9db2e6dd941290325b4dde7f1791dcb
-  method: Recovery
-  name: Redmi K60 China
-  size: 6.3 GB
-  version: OS3.0.5.0.VMNCNXM
-- android: '15.0'
-  branch: Stable
-  codename: mondrian
-  date: 2026-01-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.VMNCNXM/mondrian_images_OS3.0.5.0.VMNCNXM_20260125.0000.00_15.0_cn_051f912344.tgz
-  md5: 051f91234446f83f70d0475b8508297b
+  date: 2026-06-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.8.0.VMNCNXM/mondrian_images_OS3.0.8.0.VMNCNXM_20260601.0000.00_15.0_cn_dd8b3061a3.tgz
+  md5: dd8b3061a3e2d7c1c08a61f38a7876f8
   method: Fastboot
   name: Redmi K60 China
   size: 8.3 GB
-  version: OS3.0.5.0.VMNCNXM
+  version: OS3.0.8.0.VMNCNXM
 - android: '14.0'
   branch: Public Beta
   codename: mondrian
@@ -18719,7 +18719,7 @@
   size: 8.0 GB
   version: OS3.0.7.0.WNTMIXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: moon_id_global
   date: 2026-06-02
   link: https://bigota.d.miui.com/OS3.0.301.0.WNTIDXM/moon_id_global-ota_full-OS3.0.301.0.WNTIDXM-user-16.0-28688303bc.zip
@@ -18731,23 +18731,13 @@
 - android: '16.0'
   branch: Stable
   codename: moon_id_global
-  date: 2026-04-20
-  link: https://bigota.d.miui.com/OS3.0.4.0.WNTIDXM/moon_id_global-ota_full-OS3.0.4.0.WNTIDXM-user-16.0-4c659f6ffc.zip
-  md5: 4c659f6ffc102fad462dcfd3cfdf3681
-  method: Recovery
-  name: Redmi 13 / POCO M6 Indonesia
-  size: 4.9 GB
-  version: OS3.0.4.0.WNTIDXM
-- android: '16.0'
-  branch: Stable
-  codename: moon_id_global
-  date: 2026-04-08
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.WNTIDXM/moon_id_global_images_OS3.0.4.0.WNTIDXM_20260408.0000.00_16.0_id_555d4786d8.tgz
-  md5: 555d4786d8668aef8568e8707ffce218
+  date: 2026-05-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WNTIDXM/moon_id_global_images_OS3.0.301.0.WNTIDXM_20260522.0000.00_16.0_id_bcb67ac02c.tgz
+  md5: bcb67ac02c85ee82fd3f94c03057ba81
   method: Fastboot
   name: Redmi 13 / POCO M6 Indonesia
-  size: 7.4 GB
-  version: OS3.0.4.0.WNTIDXM
+  size: 7.3 GB
+  version: OS3.0.301.0.WNTIDXM
 - android: '16.0'
   branch: Stable
   codename: moon_ru_global
@@ -34531,6 +34521,16 @@
 - android: '15.0'
   branch: Stable Beta
   codename: zeus_global
+  date: 2026-03-02
+  link: https://bigota.d.miui.com/OS3.0.2.0.VLBMIXM/zeus_global-ota_full-OS3.0.2.0.VLBMIXM-user-15.0-7aa0ba9d88.zip
+  md5: 7aa0ba9d88601175ef0f28abb52e0b63
+  method: Recovery
+  name: Xiaomi 12 Pro Global
+  size: 5.8 GB
+  version: OS3.0.2.0.VLBMIXM
+- android: '15.0'
+  branch: Stable
+  codename: zeus_global
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS3.0.4.0.VLBMIXM/zeus_global-ota_full-OS3.0.4.0.VLBMIXM-user-15.0-18ce810dc8.zip
   md5: 18ce810dc8328fbc281cf67ed602f43c
@@ -34541,25 +34541,25 @@
 - android: '15.0'
   branch: Stable
   codename: zeus_global
-  date: 2026-03-18
-  link: https://bigota.d.miui.com/OS3.0.3.0.VLBMIXM/zeus_global-ota_full-OS3.0.3.0.VLBMIXM-user-15.0-5824dc992d.zip
-  md5: 5824dc992d7fd4c61fe68c62d5e041b1
-  method: Recovery
-  name: Xiaomi 12 Pro Global
-  size: 5.8 GB
-  version: OS3.0.3.0.VLBMIXM
-- android: '15.0'
-  branch: Stable
-  codename: zeus_global
-  date: 2026-03-12
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLBMIXM/zeus_global_images_OS3.0.3.0.VLBMIXM_20260312.0000.00_15.0_global_b050b029e2.tgz
-  md5: b050b029e2aec8974e67c7a636c233c4
+  date: 2026-06-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.VLBMIXM/zeus_global_images_OS3.0.4.0.VLBMIXM_20260601.0000.00_15.0_global_70c95a776f.tgz
+  md5: 70c95a776f991cefcf76a37b85bf8c24
   method: Fastboot
   name: Xiaomi 12 Pro Global
   size: 6.9 GB
-  version: OS3.0.3.0.VLBMIXM
+  version: OS3.0.4.0.VLBMIXM
 - android: '15.0'
   branch: Stable Beta
+  codename: zeus_id_global
+  date: 2026-03-02
+  link: https://bigota.d.miui.com/OS3.0.2.0.VLBIDXM/zeus_id_global-ota_full-OS3.0.2.0.VLBIDXM-user-15.0-db8d0067a2.zip
+  md5: db8d0067a2a7873cd236718c000600dd
+  method: Recovery
+  name: Xiaomi 12 Pro Indonesia
+  size: 5.7 GB
+  version: OS3.0.2.0.VLBIDXM
+- android: '15.0'
+  branch: Stable
   codename: zeus_id_global
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS3.0.4.0.VLBIDXM/zeus_id_global-ota_full-OS3.0.4.0.VLBIDXM-user-15.0-147c16570d.zip
@@ -34571,23 +34571,13 @@
 - android: '15.0'
   branch: Stable
   codename: zeus_id_global
-  date: 2026-03-27
-  link: https://bigota.d.miui.com/OS3.0.3.0.VLBIDXM/zeus_id_global-ota_full-OS3.0.3.0.VLBIDXM-user-15.0-5ff8e7345c.zip
-  md5: 5ff8e7345c6b487bce8868fae0915f58
-  method: Recovery
-  name: Xiaomi 12 Pro Indonesia
-  size: 5.7 GB
-  version: OS3.0.3.0.VLBIDXM
-- android: '15.0'
-  branch: Stable
-  codename: zeus_id_global
-  date: 2026-03-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLBIDXM/zeus_id_global_images_OS3.0.3.0.VLBIDXM_20260320.0000.00_15.0_id_b3204f94c3.tgz
-  md5: b3204f94c39884704fd27610735110e3
+  date: 2026-06-01
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.VLBIDXM/zeus_id_global_images_OS3.0.4.0.VLBIDXM_20260601.0000.00_15.0_id_da29cb7ee0.tgz
+  md5: da29cb7ee04f25ca45e13aa43cd88eaa
   method: Fastboot
   name: Xiaomi 12 Pro Indonesia
   size: 6.9 GB
-  version: OS3.0.3.0.VLBIDXM
+  version: OS3.0.4.0.VLBIDXM
 - android: '15.0'
   branch: Stable Beta
   codename: zeus_in_global
@@ -34619,7 +34609,7 @@
   size: 6.3 GB
   version: OS3.0.2.0.VLBINXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: zeus_ru_global
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS3.0.3.0.VLBRUXM/zeus_ru_global-ota_full-OS3.0.3.0.VLBRUXM-user-15.0-d5f3b2f6ce.zip
@@ -34631,25 +34621,15 @@
 - android: '15.0'
   branch: Stable
   codename: zeus_ru_global
-  date: 2026-03-27
-  link: https://bigota.d.miui.com/OS3.0.2.0.VLBRUXM/zeus_ru_global-ota_full-OS3.0.2.0.VLBRUXM-user-15.0-8cba014176.zip
-  md5: 8cba0141764b3490cc1ab12e1c5a7755
-  method: Recovery
-  name: Xiaomi 12 Pro Russia
-  size: 5.7 GB
-  version: OS3.0.2.0.VLBRUXM
-- android: '15.0'
-  branch: Stable
-  codename: zeus_ru_global
-  date: 2026-03-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.VLBRUXM/zeus_ru_global_images_OS3.0.2.0.VLBRUXM_20260320.0000.00_15.0_ru_360c3e1a02.tgz
-  md5: 360c3e1a023d6ee65538b1bc88770ba0
+  date: 2026-06-02
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLBRUXM/zeus_ru_global_images_OS3.0.3.0.VLBRUXM_20260602.0000.00_15.0_ru_82cd8f1811.tgz
+  md5: 82cd8f1811f0303bffe43d6bb751afb8
   method: Fastboot
   name: Xiaomi 12 Pro Russia
   size: 6.6 GB
-  version: OS3.0.2.0.VLBRUXM
+  version: OS3.0.3.0.VLBRUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: zeus_tr_global
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS3.0.3.0.VLBTRXM/zeus_tr_global-ota_full-OS3.0.3.0.VLBTRXM-user-15.0-171590578e.zip
@@ -34661,25 +34641,15 @@
 - android: '15.0'
   branch: Stable
   codename: zeus_tr_global
-  date: 2026-03-27
-  link: https://bigota.d.miui.com/OS3.0.2.0.VLBTRXM/zeus_tr_global-ota_full-OS3.0.2.0.VLBTRXM-user-15.0-b700b5acd3.zip
-  md5: b700b5acd383fb416cd8f0b60bdb6577
-  method: Recovery
-  name: Xiaomi 12 Pro Turkey
-  size: 5.8 GB
-  version: OS3.0.2.0.VLBTRXM
-- android: '15.0'
-  branch: Stable
-  codename: zeus_tr_global
-  date: 2026-03-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.VLBTRXM/zeus_tr_global_images_OS3.0.2.0.VLBTRXM_20260320.0000.00_15.0_tr_39b55c20a2.tgz
-  md5: 39b55c20a247b41174cf13ddc112c0c2
+  date: 2026-06-02
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLBTRXM/zeus_tr_global_images_OS3.0.3.0.VLBTRXM_20260602.0000.00_15.0_tr_156d478fa3.tgz
+  md5: 156d478fa3b657307733d2e49a8f3e0f
   method: Fastboot
   name: Xiaomi 12 Pro Turkey
   size: 6.6 GB
-  version: OS3.0.2.0.VLBTRXM
+  version: OS3.0.3.0.VLBTRXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: zeus_tw_global
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS3.0.3.0.VLBTWXM/zeus_tw_global-ota_full-OS3.0.3.0.VLBTWXM-user-15.0-8f67c243c0.zip
@@ -34691,23 +34661,13 @@
 - android: '15.0'
   branch: Stable
   codename: zeus_tw_global
-  date: 2026-03-27
-  link: https://bigota.d.miui.com/OS3.0.2.0.VLBTWXM/zeus_tw_global-ota_full-OS3.0.2.0.VLBTWXM-user-15.0-e4874de2de.zip
-  md5: e4874de2de9a1aa7ba7f29c2201b2d39
-  method: Recovery
-  name: Xiaomi 12 Pro Taiwan
-  size: 5.6 GB
-  version: OS3.0.2.0.VLBTWXM
-- android: '15.0'
-  branch: Stable
-  codename: zeus_tw_global
-  date: 2026-03-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.VLBTWXM/zeus_tw_global_images_OS3.0.2.0.VLBTWXM_20260320.0000.00_15.0_tw_54e1d8d178.tgz
-  md5: 54e1d8d178a6b968ae248ee9078f4930
+  date: 2026-06-02
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLBTWXM/zeus_tw_global_images_OS3.0.3.0.VLBTWXM_20260602.0000.00_15.0_tw_e02d4dc3d6.tgz
+  md5: e02d4dc3d622b7913e715fbd099b7aa6
   method: Fastboot
   name: Xiaomi 12 Pro Taiwan
   size: 6.3 GB
-  version: OS3.0.2.0.VLBTWXM
+  version: OS3.0.3.0.VLBTWXM
 - android: '14.0'
   branch: Stable Beta
   codename: zijin
