@@ -3241,23 +3241,23 @@
 - android: '16.0'
   branch: Stable
   codename: byron
-  date: 2026-05-26
-  link: https://bigota.d.miui.com/OS3.0.304.0.WAFCNXM/byron-ota_full-OS3.0.304.0.WAFCNXM-user-16.0-b3a2165acf.zip
-  md5: b3a2165acf5f38fe08cce342cd104df2
+  date: 2026-06-15
+  link: https://bigota.d.miui.com/OS3.0.307.0.WAFCNXM/byron-ota_full-OS3.0.307.0.WAFCNXM-user-16.0-be99c1047e.zip
+  md5: be99c1047e96c25a1643d31822a0c46c
   method: Recovery
   name: Xiaomi 17 Max China
   size: 8.8 GB
-  version: OS3.0.304.0.WAFCNXM
+  version: OS3.0.307.0.WAFCNXM
 - android: '16.0'
   branch: Stable
   codename: byron
-  date: 2026-05-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WAFCNXM/byron_images_OS3.0.304.0.WAFCNXM_20260520.0000.00_16.0_cn_1fa5c5a68a.tgz
-  md5: 1fa5c5a68a9d14652a99ed5ae0465fc6
+  date: 2026-06-07
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.307.0.WAFCNXM/byron_images_OS3.0.307.0.WAFCNXM_20260607.0000.00_16.0_cn_696a7139d5.tgz
+  md5: 696a7139d5417610a9c27e4e4eaa4dfc
   method: Fastboot
   name: Xiaomi 17 Max China
   size: 11.5 GB
-  version: OS3.0.304.0.WAFCNXM
+  version: OS3.0.307.0.WAFCNXM
 - android: '9.0'
   branch: Stable Beta
   codename: cactus
@@ -9518,8 +9518,18 @@
   name: Redmi 12 India
   size: 5.7 GB
   version: OS2.0.204.0.VMXINXM
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: fire_ru_global
+  date: 2023-11-01
+  link: https://bigota.d.miui.com/V14.0.10.0.TMXRUXM/miui_FIRERUGlobal_V14.0.10.0.TMXRUXM_91cf50ed9b_13.0.zip
+  md5: 91cf50ed9bc0b30361e8c9f75cc243d2
+  method: Recovery
+  name: Redmi 12 Russia
+  size: 3.9 GB
+  version: V14.0.10.0.TMXRUXM
+- android: '15.0'
+  branch: Stable
   codename: fire_ru_global
   date: 2026-06-09
   link: https://bigota.d.miui.com/OS2.0.203.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.203.0.VMXRUXM-user-15.0-1a48e6d345.zip
@@ -9531,23 +9541,13 @@
 - android: '15.0'
   branch: Stable
   codename: fire_ru_global
-  date: 2025-09-03
-  link: https://bigota.d.miui.com/OS2.0.202.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.202.0.VMXRUXM-user-15.0-834d64f28a.zip
-  md5: 834d64f28a7ba7ab03f5aef7af453f52
-  method: Recovery
-  name: Redmi 12 Russia
-  size: 4.5 GB
-  version: OS2.0.202.0.VMXRUXM
-- android: '15.0'
-  branch: Stable
-  codename: fire_ru_global
-  date: 2025-08-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.202.0.VMXRUXM/fire_ru_global_images_OS2.0.202.0.VMXRUXM_20250826.0000.00_15.0_ru_5b95ee2fe5.tgz
-  md5: 5b95ee2fe5c44d76347df5ad20d5b6e5
+  date: 2026-05-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.203.0.VMXRUXM/fire_ru_global_images_OS2.0.203.0.VMXRUXM_20260522.0000.00_15.0_ru_ded5b88b61.tgz
+  md5: ded5b88b6102b82949c7b465394a60c7
   method: Fastboot
   name: Redmi 12 Russia
   size: 7.0 GB
-  version: OS2.0.202.0.VMXRUXM
+  version: OS2.0.203.0.VMXRUXM
 - android: '15.0'
   branch: Stable
   codename: fire_tr_global
@@ -26039,7 +26039,7 @@
   size: 1.7 GB
   version: 9.6.27
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sapphire_global
   date: 2026-06-11
   link: https://bigota.d.miui.com/OS2.0.211.0.VNGMIXM/sapphire_global-ota_full-OS2.0.211.0.VNGMIXM-user-15.0-857602d8aa.zip
@@ -26051,25 +26051,15 @@
 - android: '15.0'
   branch: Stable
   codename: sapphire_global
-  date: 2026-03-23
-  link: https://bigota.d.miui.com/OS2.0.210.0.VNGMIXM/sapphire_global-ota_full-OS2.0.210.0.VNGMIXM-user-15.0-09bcc4ce74.zip
-  md5: 09bcc4ce745c5364ae2fa844a5ad3621
-  method: Recovery
-  name: Redmi Note 13 Global
-  size: 4.9 GB
-  version: OS2.0.210.0.VNGMIXM
-- android: '15.0'
-  branch: Stable
-  codename: sapphire_global
-  date: 2026-03-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.210.0.VNGMIXM/sapphire_global_images_OS2.0.210.0.VNGMIXM_20260313.0000.00_15.0_global_f229b88129.tgz
-  md5: f229b8812929598ab5c68349a76b0d59
+  date: 2026-05-27
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.211.0.VNGMIXM/sapphire_global_images_OS2.0.211.0.VNGMIXM_20260527.0000.00_15.0_global_c1fc37f370.tgz
+  md5: c1fc37f37091548d6185e1619bc0f06d
   method: Fastboot
   name: Redmi Note 13 Global
   size: 7.6 GB
-  version: OS2.0.210.0.VNGMIXM
+  version: OS2.0.211.0.VNGMIXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sapphiren_eea_global
   date: 2026-06-10
   link: https://bigota.d.miui.com/OS2.0.213.0.VNHEUXM/sapphiren_eea_global-ota_full-OS2.0.213.0.VNHEUXM-user-15.0-c45a17128f.zip
@@ -26081,23 +26071,13 @@
 - android: '15.0'
   branch: Stable
   codename: sapphiren_eea_global
-  date: 2026-04-03
-  link: https://bigota.d.miui.com/OS2.0.212.0.VNHEUXM/sapphiren_eea_global-ota_full-OS2.0.212.0.VNHEUXM-user-15.0-aa42895566.zip
-  md5: aa42895566a2e3ec36eecf6b47ffa181
-  method: Recovery
-  name: Redmi Note 13 NFC EEA
-  size: 4.9 GB
-  version: OS2.0.212.0.VNHEUXM
-- android: '15.0'
-  branch: Stable
-  codename: sapphiren_eea_global
-  date: 2026-03-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.212.0.VNHEUXM/sapphiren_eea_global_images_OS2.0.212.0.VNHEUXM_20260320.0000.00_15.0_eea_22604527d2.tgz
-  md5: 22604527d23c96d6200ce781c2ac7ead
+  date: 2026-05-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.213.0.VNHEUXM/sapphiren_eea_global_images_OS2.0.213.0.VNHEUXM_20260528.0000.00_15.0_eea_6f4e4f76ca.tgz
+  md5: 6f4e4f76caa2cb62ca3ea97161296792
   method: Fastboot
   name: Redmi Note 13 NFC EEA
   size: 7.1 GB
-  version: OS2.0.212.0.VNHEUXM
+  version: OS2.0.213.0.VNHEUXM
 - android: '15.0'
   branch: Stable
   codename: sapphiren_global
