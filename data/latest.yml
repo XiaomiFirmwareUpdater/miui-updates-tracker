@@ -2498,8 +2498,18 @@
   name: Xiaomi 14 Ultra Taiwan
   size: 8.1 GB
   version: OS3.0.301.0.WNATWXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: babylon
+  date: 2024-07-08
+  link: https://bigota.d.miui.com/OS1.0.9.0.UMVCNXM/miui_BABYLON_OS1.0.9.0.UMVCNXM_14d1a69a54_14.0.zip
+  md5: 14d1a69a542c786b113bc8a6aefab8ac
+  method: Recovery
+  name: MIX Fold 3 China
+  size: 6.9 GB
+  version: OS1.0.9.0.UMVCNXM
+- android: '16.0'
+  branch: Stable
   codename: babylon
   date: 2026-05-19
   link: https://bigota.d.miui.com/OS3.0.303.0.WMVCNXM/babylon-ota_full-OS3.0.303.0.WMVCNXM-user-16.0-5ac18a7dd8.zip
@@ -2511,23 +2521,13 @@
 - android: '16.0'
   branch: Stable
   codename: babylon
-  date: 2026-04-17
-  link: https://bigota.d.miui.com/OS3.0.302.0.WMVCNXM/babylon-ota_full-OS3.0.302.0.WMVCNXM-user-16.0-908dfe3161.zip
-  md5: 908dfe3161539c12012df936eae159d2
-  method: Recovery
-  name: MIX Fold 3 China
-  size: 7.4 GB
-  version: OS3.0.302.0.WMVCNXM
-- android: '16.0'
-  branch: Stable
-  codename: babylon
-  date: 2026-04-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WMVCNXM/babylon_images_OS3.0.302.0.WMVCNXM_20260411.0000.00_16.0_cn_6e5ba8a444.tgz
-  md5: 6e5ba8a444958ddaee477feb0a1d2120
+  date: 2026-05-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WMVCNXM/babylon_images_OS3.0.303.0.WMVCNXM_20260512.0000.00_16.0_cn_c6b7f04089.tgz
+  md5: c6b7f040894e58e54d36b14749264c8f
   method: Fastboot
   name: MIX Fold 3 China
   size: 9.3 GB
-  version: OS3.0.302.0.WMVCNXM
+  version: OS3.0.303.0.WMVCNXM
 - android: '14.0'
   branch: Public Beta
   codename: babylon
@@ -6989,6 +6989,16 @@
   size: 11.1 GB
   version: OS3.0.301.0.WPLMIXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: dash_id_global
+  date: 2026-06-26
+  link: https://bigota.d.miui.com/OS3.0.302.0.WPLIDXM/dash_id_global-ota_full-OS3.0.302.0.WPLIDXM-user-16.0-1ae687f139.zip
+  md5: 1ae687f1394bb96c805b293c8362285a
+  method: Recovery
+  name: POCO X8 Pro Max Indonesia
+  size: 7.2 GB
+  version: OS3.0.302.0.WPLIDXM
+- android: '16.0'
   branch: Stable
   codename: dash_id_global
   date: 2026-05-19
@@ -7009,6 +7019,16 @@
   size: 10.2 GB
   version: OS3.0.301.0.WPLIDXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: dash_in_global
+  date: 2026-06-26
+  link: https://bigota.d.miui.com/OS3.0.302.0.WPLINXM/dash_in_global-ota_full-OS3.0.302.0.WPLINXM-user-16.0-01ba058f20.zip
+  md5: 01ba058f20aaac8dd16633d93d9392fb
+  method: Recovery
+  name: POCO X8 Pro Max India
+  size: 7.0 GB
+  version: OS3.0.302.0.WPLINXM
+- android: '16.0'
   branch: Stable
   codename: dash_in_global
   date: 2026-05-19
@@ -7028,6 +7048,16 @@
   name: POCO X8 Pro Max India
   size: 9.3 GB
   version: OS3.0.301.0.WPLINXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: dash_ru_global
+  date: 2026-06-26
+  link: https://bigota.d.miui.com/OS3.0.302.0.WPLRUXM/dash_ru_global-ota_full-OS3.0.302.0.WPLRUXM-user-16.0-27dd1b536f.zip
+  md5: 27dd1b536f85aa715a7f73bb8dde46ab
+  method: Recovery
+  name: POCO X8 Pro Max Russia
+  size: 7.1 GB
+  version: OS3.0.302.0.WPLRUXM
 - android: '16.0'
   branch: Stable
   codename: dash_ru_global
@@ -7068,6 +7098,16 @@
   name: POCO X8 Pro Max Turkey
   size: 9.7 GB
   version: OS3.0.1.0.WPLTRXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: dash_tw_global
+  date: 2026-06-26
+  link: https://bigota.d.miui.com/OS3.0.302.0.WPLTWXM/dash_tw_global-ota_full-OS3.0.302.0.WPLTWXM-user-16.0-9cba9f0888.zip
+  md5: 9cba9f08889e33d521b4df86c7e218a7
+  method: Recovery
+  name: POCO X8 Pro Max Taiwan
+  size: 7.1 GB
+  version: OS3.0.302.0.WPLTWXM
 - android: '16.0'
   branch: Stable
   codename: dash_tw_global
@@ -10648,16 +10688,16 @@
   name: Xiaomi 13 China
   size: 7.8 GB
   version: 23.5.6
-- android: '14.0'
+- android: '16.0'
   branch: Stable Beta
   codename: fuxi_eea_global
-  date: 2023-10-24
-  link: https://bigota.d.miui.com/V14.0.6.0.UMCEUXM/miui_FUXIEEAGlobal_V14.0.6.0.UMCEUXM_bd06bcd878_14.0.zip
-  md5: bd06bcd878627d10a6675aae262c75e2
+  date: 2026-06-26
+  link: https://bigota.d.miui.com/OS3.0.302.0.WMCEUXM/fuxi_eea_global-ota_full-OS3.0.302.0.WMCEUXM-user-16.0-e5f5e8e1cc.zip
+  md5: e5f5e8e1ccb43bc0c1e5abd8a31e4cbf
   method: Recovery
   name: Xiaomi 13 EEA
-  size: 5.9 GB
-  version: V14.0.6.0.UMCEUXM
+  size: 6.5 GB
+  version: OS3.0.302.0.WMCEUXM
 - android: '16.0'
   branch: Stable
   codename: fuxi_eea_global
@@ -21449,6 +21489,16 @@
   size: 8.7 GB
   version: OS3.0.4.0.WNPIDXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: peridot_in_global
+  date: 2026-06-23
+  link: https://bigota.d.miui.com/OS3.0.302.0.WNPINXM/peridot_in_global-ota_full-OS3.0.302.0.WNPINXM-user-16.0-fe9fe96717.zip
+  md5: fe9fe96717685107c90a9946f9636ca5
+  method: Recovery
+  name: POCO F6 India
+  size: 6.1 GB
+  version: OS3.0.302.0.WNPINXM
+- android: '16.0'
   branch: Stable
   codename: peridot_in_global
   date: 2026-04-17
@@ -21488,6 +21538,16 @@
   name: POCO F6 Russia
   size: 9.5 GB
   version: OS3.0.4.0.WNPRUXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: peridot_tw_global
+  date: 2026-06-23
+  link: https://bigota.d.miui.com/OS3.0.302.0.WNPTWXM/peridot_tw_global-ota_full-OS3.0.302.0.WNPTWXM-user-16.0-6f7614db59.zip
+  md5: 6f7614db59cb7c3645cdb1a72f9da921
+  method: Recovery
+  name: POCO F6 Taiwan
+  size: 6.2 GB
+  version: OS3.0.302.0.WNPTWXM
 - android: '16.0'
   branch: Stable
   codename: peridot_tw_global
@@ -32271,23 +32331,23 @@
 - android: '16.0'
   branch: Stable
   codename: warhol_global
-  date: 2026-05-28
-  link: https://bigota.d.miui.com/OS3.0.302.0.WPSMIDM/warhol_global-ota_full-OS3.0.302.0.WPSMIDM-user-16.0-1fa331df2a.zip
-  md5: 1fa331df2a0697c8fe2dfde544fcaa84
+  date: 2026-06-17
+  link: https://bigota.d.miui.com/OS3.0.306.0.WPSMIXM/warhol_global-ota_full-OS3.0.306.0.WPSMIXM-user-16.0-814386728d.zip
+  md5: 814386728d6751537f4b65e9263d6b0c
   method: Recovery
   name: Xiaomi 17T Pro Global
-  size: 7.8 GB
-  version: OS3.0.302.0.WPSMIDM
+  size: 7.7 GB
+  version: OS3.0.306.0.WPSMIXM
 - android: '16.0'
   branch: Stable
   codename: warhol_global
-  date: 2026-05-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WPSMIDM/warhol_global_images_OS3.0.302.0.WPSMIDM_20260521.0000.00_16.0_global_a613af4de1.tgz
-  md5: a613af4de125369d1e47faa1a00386e7
+  date: 2026-06-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.306.0.WPSMIXM/warhol_global_images_OS3.0.306.0.WPSMIXM_20260611.0000.00_16.0_global_cdb0823a36.tgz
+  md5: cdb0823a360a1553991b59339d76efb4
   method: Fastboot
   name: Xiaomi 17T Pro Global
-  size: 12.5 GB
-  version: OS3.0.302.0.WPSMIDM
+  size: 12.4 GB
+  version: OS3.0.306.0.WPSMIXM
 - android: '16.0'
   branch: Stable
   codename: warhol_id_global
