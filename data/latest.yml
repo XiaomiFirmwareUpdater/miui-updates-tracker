@@ -6969,7 +6969,7 @@
   size: 10.2 GB
   version: OS3.0.301.0.WPLEUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: dash_global
   date: 2026-06-17
   link: https://bigota.d.miui.com/OS3.0.302.0.WPLMIXM/dash_global-ota_full-OS3.0.302.0.WPLMIXM-user-16.0-19defcf744.zip
@@ -6981,23 +6981,13 @@
 - android: '16.0'
   branch: Stable
   codename: dash_global
-  date: 2026-05-29
-  link: https://bigota.d.miui.com/OS3.0.301.0.WPLMIXM/dash_global-ota_full-OS3.0.301.0.WPLMIXM-user-16.0-f2ffe862d4.zip
-  md5: f2ffe862d403be1802bb3e0579797783
-  method: Recovery
-  name: POCO X8 Pro Max Global
-  size: 7.3 GB
-  version: OS3.0.301.0.WPLMIXM
-- android: '16.0'
-  branch: Stable
-  codename: dash_global
-  date: 2026-05-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPLMIXM/dash_global_images_OS3.0.301.0.WPLMIXM_20260520.0000.00_16.0_global_8194a05825.tgz
-  md5: 8194a058258835a178d24d74b232b0a0
+  date: 2026-06-10
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WPLMIXM/dash_global_images_OS3.0.302.0.WPLMIXM_20260610.0000.00_16.0_global_6a7fe2295f.tgz
+  md5: 6a7fe2295f83d595e44c35407ab90af5
   method: Fastboot
   name: POCO X8 Pro Max Global
   size: 11.1 GB
-  version: OS3.0.301.0.WPLMIXM
+  version: OS3.0.302.0.WPLMIXM
 - android: '16.0'
   branch: Stable Beta
   codename: dash_id_global
@@ -7348,8 +7338,18 @@
   name: Xiaomi 14T EEA
   size: 8.3 GB
   version: OS3.0.303.0.WNEEUXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: degas_global
+  date: 2024-09-26
+  link: https://bigota.d.miui.com/OS1.0.4.0.UNEMIXM/miui_DEGASGlobal_OS1.0.4.0.UNEMIXM_ecc0b069d5_14.0.zip
+  md5: ecc0b069d54d18d63517364069219b56
+  method: Recovery
+  name: Xiaomi 14T Global
+  size: 5.6 GB
+  version: OS1.0.4.0.UNEMIXM
+- android: '16.0'
+  branch: Stable
   codename: degas_global
   date: 2026-06-16
   link: https://bigota.d.miui.com/OS3.0.302.0.WNEMIXM/degas_global-ota_full-OS3.0.302.0.WNEMIXM-user-16.0-f786504e00.zip
@@ -7361,23 +7361,13 @@
 - android: '16.0'
   branch: Stable
   codename: degas_global
-  date: 2026-05-06
-  link: https://bigota.d.miui.com/OS3.0.301.0.WNEMIXM/degas_global-ota_full-OS3.0.301.0.WNEMIXM-user-16.0-209e782299.zip
-  md5: 209e782299635c8f490282a7fe476f30
-  method: Recovery
-  name: Xiaomi 14T Global
-  size: 6.7 GB
-  version: OS3.0.301.0.WNEMIXM
-- android: '16.0'
-  branch: Stable
-  codename: degas_global
-  date: 2026-04-22
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WNEMIXM/degas_global_images_OS3.0.301.0.WNEMIXM_20260422.0000.00_16.0_global_4b6e5bb286.tgz
-  md5: 4b6e5bb286d63805227d125f6b0ff4af
+  date: 2026-06-08
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WNEMIXM/degas_global_images_OS3.0.302.0.WNEMIXM_20260608.0000.00_16.0_global_2c86759df3.tgz
+  md5: 2c86759df3b23755ecf2f61db5e2be2f
   method: Fastboot
   name: Xiaomi 14T Global
   size: 9.0 GB
-  version: OS3.0.301.0.WNEMIXM
+  version: OS3.0.302.0.WNEMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: degas_id_global
@@ -11838,8 +11828,18 @@
   name: Redmi Note 13 5G / POCO X6 Neo 5G Taiwan
   size: 6.8 GB
   version: OS3.0.2.0.VNQTWXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable Beta
+  codename: goya_eea_global
+  date: 2025-09-24
+  link: https://bigota.d.miui.com/OS2.0.203.0.VOEEUXM/goya_eea_global-ota_full-OS2.0.203.0.VOEEUXM-user-15.0-de13ed9f9d.zip
+  md5: de13ed9f9df033109cc4b6a53e3d2848
+  method: Recovery
+  name: Xiaomi 15T EEA
+  size: 6.4 GB
+  version: OS2.0.203.0.VOEEUXM
+- android: '16.0'
+  branch: Stable
   codename: goya_eea_global
   date: 2026-06-18
   link: https://bigota.d.miui.com/OS3.0.305.0.WOEEUXM/goya_eea_global-ota_full-OS3.0.305.0.WOEEUXM-user-16.0-f6d1a93cfc.zip
@@ -11851,23 +11851,13 @@
 - android: '16.0'
   branch: Stable
   codename: goya_eea_global
-  date: 2026-05-27
-  link: https://bigota.d.miui.com/OS3.0.304.0.WOEEUXM/goya_eea_global-ota_full-OS3.0.304.0.WOEEUXM-user-16.0-6c66749cde.zip
-  md5: 6c66749cde6fd48acb655ee7f1aeac69
-  method: Recovery
-  name: Xiaomi 15T EEA
-  size: 7.0 GB
-  version: OS3.0.304.0.WOEEUXM
-- android: '16.0'
-  branch: Stable
-  codename: goya_eea_global
-  date: 2026-05-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WOEEUXM/goya_eea_global_images_OS3.0.304.0.WOEEUXM_20260518.0000.00_16.0_eea_aa6f5aff25.tgz
-  md5: aa6f5aff256b7c38a1c93640037d95aa
+  date: 2026-06-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.305.0.WOEEUXM/goya_eea_global_images_OS3.0.305.0.WOEEUXM_20260612.0000.00_16.0_eea_c95b6261da.tgz
+  md5: c95b6261dae8293fb55ab1cb008a3dec
   method: Fastboot
   name: Xiaomi 15T EEA
-  size: 8.7 GB
-  version: OS3.0.304.0.WOEEUXM
+  size: 8.8 GB
+  version: OS3.0.305.0.WOEEUXM
 - android: '15.0'
   branch: Stable Beta
   codename: goya_global
@@ -14268,8 +14258,18 @@
   name: Xiaomi 15T Pro EEA
   size: 9.1 GB
   version: OS3.0.304.0.WOSEUXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable Beta
+  codename: klimt_global
+  date: 2025-09-24
+  link: https://bigota.d.miui.com/OS2.0.201.0.VOSMIXM/klimt_global-ota_full-OS2.0.201.0.VOSMIXM-user-15.0-c6a96f80d3.zip
+  md5: c6a96f80d3c3715ee7d9bfd459731f5a
+  method: Recovery
+  name: Xiaomi 15T Pro Global
+  size: 6.8 GB
+  version: OS2.0.201.0.VOSMIXM
+- android: '16.0'
+  branch: Stable
   codename: klimt_global
   date: 2026-06-19
   link: https://bigota.d.miui.com/OS3.0.302.0.WOSMIXM/klimt_global-ota_full-OS3.0.302.0.WOSMIXM-user-16.0-d2500919fc.zip
@@ -14281,23 +14281,13 @@
 - android: '16.0'
   branch: Stable
   codename: klimt_global
-  date: 2026-04-22
-  link: https://bigota.d.miui.com/OS3.0.301.0.WOSMIXM/klimt_global-ota_full-OS3.0.301.0.WOSMIXM-user-16.0-41598d3c2a.zip
-  md5: 41598d3c2a31e8d8cbf8b845ad686a1e
-  method: Recovery
-  name: Xiaomi 15T Pro Global
-  size: 7.3 GB
-  version: OS3.0.301.0.WOSMIXM
-- android: '16.0'
-  branch: Stable
-  codename: klimt_global
-  date: 2026-04-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WOSMIXM/klimt_global_images_OS3.0.301.0.WOSMIXM_20260413.0000.00_16.0_global_0f9e01d020.tgz
-  md5: 0f9e01d020f8fb699a18138c93a9a712
+  date: 2026-06-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOSMIXM/klimt_global_images_OS3.0.302.0.WOSMIXM_20260612.0000.00_16.0_global_390f94ab0a.tgz
+  md5: 390f94ab0adec7dbfaf4d5be483d0c06
   method: Fastboot
   name: Xiaomi 15T Pro Global
   size: 10.1 GB
-  version: OS3.0.301.0.WOSMIXM
+  version: OS3.0.302.0.WOSMIXM
 - android: '16.0'
   branch: Stable
   codename: klimt_id_global
@@ -25421,13 +25411,13 @@
 - android: '16.0'
   branch: Stable
   codename: ruan_eea_global
-  date: 2026-05-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.WFSEUXM/ruan_eea_global_images_OS3.0.2.0.WFSEUXM_20260514.0000.00_16.0_eea_7c45d35d08.tgz
-  md5: 7c45d35d080d11f9e9bd6fd0937fbb31
+  date: 2026-05-22
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WFSEUXM/ruan_eea_global_images_OS3.0.301.0.WFSEUXM_20260522.0000.00_16.0_eea_a7dcd5db93.tgz
+  md5: a7dcd5db937ddefee8f2bd730f3b2733
   method: Fastboot
   name: Redmi Pad Pro 5G / POCO Pad 5G EEA
   size: 6.3 GB
-  version: OS3.0.2.0.WFSEUXM
+  version: OS3.0.301.0.WFSEUXM
 - android: '16.0'
   branch: Stable
   codename: ruan_global
@@ -28321,13 +28311,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -28771,13 +28761,13 @@
 - android: '16.0'
   branch: Stable
   codename: taiko
-  date: 2026-04-07
-  link: https://bigota.d.miui.com/OS3.0.5.0.WOVCNXM/taiko-ota_full-OS3.0.5.0.WOVCNXM-user-16.0-fd4d18662e.zip
-  md5: fd4d18662e921782e3e9fe8c68362be0
+  date: 2026-04-22
+  link: https://bigota.d.miui.com/OS3.0.303.0.WOVCNXM/taiko-ota_full-OS3.0.303.0.WOVCNXM-user-16.0-cafd2ead7a.zip
+  md5: cafd2ead7ac31073bf6d0471e17ec740
   method: Recovery
   name: Redmi Pad 2 China
-  size: 5.7 GB
-  version: OS3.0.5.0.WOVCNXM
+  size: 5.9 GB
+  version: OS3.0.303.0.WOVCNXM
 - android: '16.0'
   branch: Stable
   codename: taiko
