@@ -25598,8 +25598,18 @@
   name: Redmi Note 12 Pro / Pro+ / Discovery 5G China
   size: 7.1 GB
   version: OS2.0.20.0.UMOCNXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: ruby_eea_global
+  date: 2023-10-16
+  link: https://bigota.d.miui.com/V14.0.8.0.TMOEUXM/miui_RUBYEEAGlobal_V14.0.8.0.TMOEUXM_a44c880d42_13.0.zip
+  md5: a44c880d4277506f2e5569acadb1a44a
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ 5G EEA
+  size: 4.5 GB
+  version: V14.0.8.0.TMOEUXM
+- android: '14.0'
+  branch: Stable
   codename: ruby_eea_global
   date: 2026-06-24
   link: https://bigota.d.miui.com/OS2.0.15.0.UMOEUXM/ruby_eea_global-ota_full-OS2.0.15.0.UMOEUXM-user-14.0-1634bd711f.zip
@@ -25611,23 +25621,13 @@
 - android: '14.0'
   branch: Stable
   codename: ruby_eea_global
-  date: 2026-04-17
-  link: https://bigota.d.miui.com/OS2.0.14.0.UMOEUXM/ruby_eea_global-ota_full-OS2.0.14.0.UMOEUXM-user-14.0-75c0db9e62.zip
-  md5: 75c0db9e62bc6e15b75dd2df8134d874
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ 5G EEA
-  size: 5.2 GB
-  version: OS2.0.14.0.UMOEUXM
-- android: '14.0'
-  branch: Stable
-  codename: ruby_eea_global
-  date: 2026-04-11
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.14.0.UMOEUXM/ruby_eea_global_images_OS2.0.14.0.UMOEUXM_20260411.0000.00_14.0_eea_da19a43d81.tgz
-  md5: da19a43d81752972cf9ddeedce368ed8
+  date: 2026-06-17
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.15.0.UMOEUXM/ruby_eea_global_images_OS2.0.15.0.UMOEUXM_20260617.0000.00_14.0_eea_aeba66ef15.tgz
+  md5: aeba66ef15ca53e81e6a441daf2ea6b5
   method: Fastboot
   name: Redmi Note 12 Pro / Pro+ 5G EEA
   size: 6.8 GB
-  version: OS2.0.14.0.UMOEUXM
+  version: OS2.0.15.0.UMOEUXM
 - android: '13.0'
   branch: Stable Beta
   codename: ruby_global
@@ -27199,7 +27199,7 @@
   size: 7.3 GB
   version: OS2.0.216.0.VMWEUXM
 - android: '15.0'
-  branch: Stable Beta
+  branch: Stable
   codename: sky_global
   date: 2026-06-26
   link: https://bigota.d.miui.com/OS2.0.209.0.VMWMIXM/sky_global-ota_full-OS2.0.209.0.VMWMIXM-user-15.0-e67fd1a100.zip
@@ -27211,23 +27211,13 @@
 - android: '15.0'
   branch: Stable
   codename: sky_global
-  date: 2026-05-06
-  link: https://bigota.d.miui.com/OS2.0.208.0.VMWMIXM/sky_global-ota_full-OS2.0.208.0.VMWMIXM-user-15.0-34d74acb5e.zip
-  md5: 34d74acb5e4400a531a962adf7409f39
-  method: Recovery
-  name: Redmi 12 5G / POCO M6 Pro 5G Global
-  size: 4.9 GB
-  version: OS2.0.208.0.VMWMIXM
-- android: '15.0'
-  branch: Stable
-  codename: sky_global
-  date: 2026-04-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.208.0.VMWMIXM/sky_global_images_OS2.0.208.0.VMWMIXM_20260423.0000.00_15.0_global_7c416aaefd.tgz
-  md5: 7c416aaefd49e9739f2000d18bbdda3a
+  date: 2026-06-16
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.209.0.VMWMIXM/sky_global_images_OS2.0.209.0.VMWMIXM_20260616.0000.00_15.0_global_5c27e2e7cd.tgz
+  md5: 5c27e2e7cd9b050e448f891c76f4a599
   method: Fastboot
   name: Redmi 12 5G / POCO M6 Pro 5G Global
   size: 7.7 GB
-  version: OS2.0.208.0.VMWMIXM
+  version: OS2.0.209.0.VMWMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: sky_in_global
@@ -30721,6 +30711,16 @@
 - android: '15.0'
   branch: Stable Beta
   codename: unicorn
+  date: 2025-02-19
+  link: https://bigota.d.miui.com/OS2.0.3.0.VLECNXM/unicorn-ota_full-OS2.0.3.0.VLECNXM-user-15.0-1692fbbf05.zip
+  md5: 1692fbbf059783ec94be86e44eed2741
+  method: Recovery
+  name: Xiaomi 12S Pro China
+  size: 6.2 GB
+  version: OS2.0.3.0.VLECNXM
+- android: '15.0'
+  branch: Stable
+  codename: unicorn
   date: 2026-06-25
   link: https://bigota.d.miui.com/OS3.0.4.0.VLECNXM/unicorn-ota_full-OS3.0.4.0.VLECNXM-user-15.0-9be4b80759.zip
   md5: 9be4b807591b30510d6c577baa06b5a5
@@ -30731,23 +30731,13 @@
 - android: '15.0'
   branch: Stable
   codename: unicorn
-  date: 2026-03-23
-  link: https://bigota.d.miui.com/OS3.0.3.0.VLECNXM/unicorn-ota_full-OS3.0.3.0.VLECNXM-user-15.0-46a3d8d51a.zip
-  md5: 46a3d8d51a73bc6c60b6df808c2896e2
-  method: Recovery
-  name: Xiaomi 12S Pro China
-  size: 6.4 GB
-  version: OS3.0.3.0.VLECNXM
-- android: '15.0'
-  branch: Stable
-  codename: unicorn
-  date: 2026-03-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.VLECNXM/unicorn_images_OS3.0.3.0.VLECNXM_20260316.0000.00_15.0_cn_37fc29a7af.tgz
-  md5: 37fc29a7af188721ae124d400697cc99
+  date: 2026-06-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.VLECNXM/unicorn_images_OS3.0.4.0.VLECNXM_20260603.0000.00_15.0_cn_17629c3b9c.tgz
+  md5: 17629c3b9c1287f511d2666419849bbb
   method: Fastboot
   name: Xiaomi 12S Pro China
   size: 8.0 GB
-  version: OS3.0.3.0.VLECNXM
+  version: OS3.0.4.0.VLECNXM
 - android: '14.0'
   branch: Public Beta
   codename: unicorn
