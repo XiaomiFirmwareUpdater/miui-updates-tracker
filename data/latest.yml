@@ -2068,8 +2068,18 @@
   name: MI 2S Global
   size: 869.3 MB
   version: 7.11.16
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: aristotle_eea_global
+  date: 2023-10-28
+  link: https://bigota.d.miui.com/V14.0.11.0.TMFEUXM/miui_ARISTOTLEEEAGlobal_V14.0.11.0.TMFEUXM_6370eb6ef4_13.0.zip
+  md5: 6370eb6ef4a3888508a0745422814a96
+  method: Recovery
+  name: Xiaomi 13T EEA
+  size: 5.5 GB
+  version: V14.0.11.0.TMFEUXM
+- android: '15.0'
+  branch: Stable
   codename: aristotle_eea_global
   date: 2026-07-07
   link: https://bigota.d.miui.com/OS2.0.217.0.VMFEUXM/aristotle_eea_global-ota_full-OS2.0.217.0.VMFEUXM-user-15.0-87b05a4aa1.zip
@@ -2081,23 +2091,13 @@
 - android: '15.0'
   branch: Stable
   codename: aristotle_eea_global
-  date: 2026-03-06
-  link: https://bigota.d.miui.com/OS2.0.216.0.VMFEUXM/aristotle_eea_global-ota_full-OS2.0.216.0.VMFEUXM-user-15.0-f1d6faf75d.zip
-  md5: f1d6faf75d14293854ad9b7cec59233b
-  method: Recovery
-  name: Xiaomi 13T EEA
-  size: 6.1 GB
-  version: OS2.0.216.0.VMFEUXM
-- android: '15.0'
-  branch: Stable
-  codename: aristotle_eea_global
-  date: 2026-03-02
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.216.0.VMFEUXM/aristotle_eea_global_images_OS2.0.216.0.VMFEUXM_20260302.0000.00_15.0_eea_e27623b5c9.tgz
-  md5: e27623b5c93242f961c184b5ad9ed417
+  date: 2026-06-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.217.0.VMFEUXM/aristotle_eea_global_images_OS2.0.217.0.VMFEUXM_20260630.0000.00_15.0_eea_525d7d3eca.tgz
+  md5: 525d7d3eca1ecd6751374b9fd1d28a9f
   method: Fastboot
   name: Xiaomi 13T EEA
   size: 7.3 GB
-  version: OS2.0.216.0.VMFEUXM
+  version: OS2.0.217.0.VMFEUXM
 - android: '15.0'
   branch: Stable
   codename: aristotle_global
@@ -19349,7 +19349,7 @@
   size: 9.9 GB
   version: OS3.0.301.0.WPMEUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: myron_global
   date: 2026-07-01
   link: https://bigota.d.miui.com/OS3.0.301.0.WPMMIXM/myron_global-ota_full-OS3.0.301.0.WPMMIXM-user-16.0-008e85754a.zip
@@ -19361,23 +19361,13 @@
 - android: '16.0'
   branch: Stable
   codename: myron_global
-  date: 2026-03-26
-  link: https://bigota.d.miui.com/OS3.0.13.0.WPMMIXM/myron_global-ota_full-OS3.0.13.0.WPMMIXM-user-16.0-8a1bb56c94.zip
-  md5: 8a1bb56c94f3d2fcb72271092ed11186
-  method: Recovery
-  name: Redmi K90 Pro Max / POCO F8 Ultra Global
-  size: 8.2 GB
-  version: OS3.0.13.0.WPMMIXM
-- android: '16.0'
-  branch: Stable
-  codename: myron_global
-  date: 2026-03-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.13.0.WPMMIXM/myron_global_images_OS3.0.13.0.WPMMIXM_20260318.0000.00_16.0_global_f893fbd5bd.tgz
-  md5: f893fbd5bd162564d3df4c0ae718cfc7
+  date: 2026-05-29
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPMMIXM/myron_global_images_OS3.0.301.0.WPMMIXM_20260529.0000.00_16.0_global_831a5eebb2.tgz
+  md5: 831a5eebb274cd2c786f88897c5abf7a
   method: Fastboot
   name: Redmi K90 Pro Max / POCO F8 Ultra Global
-  size: 10.7 GB
-  version: OS3.0.13.0.WPMMIXM
+  size: 11.0 GB
+  version: OS3.0.301.0.WPMMIXM
 - android: '16.0'
   branch: Stable
   codename: myron_id_global
