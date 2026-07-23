@@ -3051,23 +3051,23 @@
 - android: '16.0'
   branch: Stable
   codename: bixi
-  date: 2026-03-18
-  link: https://bigota.d.miui.com/OS3.0.301.0.WOHCNXM/bixi-ota_full-OS3.0.301.0.WOHCNXM-user-16.0-1d924bc332.zip
-  md5: 1d924bc332f570b08ec067f213dcadba
+  date: 2026-06-10
+  link: https://bigota.d.miui.com/OS3.0.303.0.WOHCNXM/bixi-ota_full-OS3.0.303.0.WOHCNXM-user-16.0-2bb0f37eec.zip
+  md5: 2bb0f37eec36b29eea9d4345720b63e8
   method: Recovery
   name: MIX Flip 2 China
-  size: 9.4 GB
-  version: OS3.0.301.0.WOHCNXM
+  size: 9.6 GB
+  version: OS3.0.303.0.WOHCNXM
 - android: '16.0'
   branch: Stable
   codename: bixi
-  date: 2026-03-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WOHCNXM/bixi_images_OS3.0.301.0.WOHCNXM_20260310.0000.00_16.0_cn_4be6af86ba.tgz
-  md5: 4be6af86bad1e5d516610e022c80ce1f
+  date: 2026-05-31
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOHCNXM/bixi_images_OS3.0.303.0.WOHCNXM_20260531.0000.00_16.0_cn_b6b73f1bf4.tgz
+  md5: b6b73f1bf489e158cf198e8a6ab36dab
   method: Fastboot
   name: MIX Flip 2 China
   size: 12.3 GB
-  version: OS3.0.301.0.WOHCNXM
+  version: OS3.0.303.0.WOHCNXM
 - android: '14.0'
   branch: Stable
   codename: blue_eea_global
@@ -4748,6 +4748,16 @@
   name: Redmi Note 15 Pro 4G EEA
   size: 8.9 GB
   version: OS3.0.301.0.WPFEUXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: charoite_global
+  date: 2026-07-20
+  link: https://bigota.d.miui.com/OS3.0.303.0.WPFMIXM/charoite_global-ota_full-OS3.0.303.0.WPFMIXM-user-16.0-c91c2ec6e3.zip
+  md5: c91c2ec6e381b7a31e726e269e775f3e
+  method: Recovery
+  name: Redmi Note 15 Pro 4G Global
+  size: 6.1 GB
+  version: OS3.0.303.0.WPFMIXM
 - android: '16.0'
   branch: Stable
   codename: charoite_global
@@ -8198,8 +8208,18 @@
   name: POCO X6 Pro 5G Global
   size: 9.4 GB
   version: OS3.0.6.0.WNLMIXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: duchamp_id_global
+  date: 2024-12-10
+  link: https://bigota.d.miui.com/OS1.0.10.0.UNLIDXM/miui_DUCHAMPIDGlobal_OS1.0.10.0.UNLIDXM_88ca2a7403_14.0.zip
+  md5: 88ca2a74032e81edd3c1e004cf33c2d1
+  method: Recovery
+  name: POCO X6 Pro 5G Indonesia
+  size: 5.5 GB
+  version: OS1.0.10.0.UNLIDXM
+- android: '16.0'
+  branch: Stable
   codename: duchamp_id_global
   date: 2026-07-10
   link: https://bigota.d.miui.com/OS3.0.5.0.WNLIDXM/duchamp_id_global-ota_full-OS3.0.5.0.WNLIDXM-user-16.0-93a91f3385.zip
@@ -8211,23 +8231,13 @@
 - android: '16.0'
   branch: Stable
   codename: duchamp_id_global
-  date: 2026-05-13
-  link: https://bigota.d.miui.com/OS3.0.3.0.WNLIDXM/duchamp_id_global-ota_full-OS3.0.3.0.WNLIDXM-user-16.0-2ed5ebc274.zip
-  md5: 2ed5ebc274a3f72d7bff9193da110cb2
-  method: Recovery
-  name: POCO X6 Pro 5G Indonesia
-  size: 6.3 GB
-  version: OS3.0.3.0.WNLIDXM
-- android: '16.0'
-  branch: Stable
-  codename: duchamp_id_global
-  date: 2026-05-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WNLIDXM/duchamp_id_global_images_OS3.0.3.0.WNLIDXM_20260509.0000.00_16.0_id_630a7261c9.tgz
-  md5: 630a7261c9e05ed6c638058d68784776
+  date: 2026-06-19
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WNLIDXM/duchamp_id_global_images_OS3.0.5.0.WNLIDXM_20260619.0000.00_16.0_id_2344c1afc0.tgz
+  md5: 2344c1afc08fe201f937aaf55e7f406f
   method: Fastboot
   name: POCO X6 Pro 5G Indonesia
   size: 8.8 GB
-  version: OS3.0.3.0.WNLIDXM
+  version: OS3.0.5.0.WNLIDXM
 - android: '14.0'
   branch: Stable Beta
   codename: duchamp_in_global
@@ -9548,26 +9558,26 @@
   name: Redmi 14R 5G China
   size: 5.6 GB
   version: OS1.0.6.0.UGUCNXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable
   codename: flame
-  date: 2026-04-27
-  link: https://bigota.d.miui.com/OS3.0.301.0.WGUCNXM/flame-ota_full-OS3.0.301.0.WGUCNXM-user-16.0-7c6a9a09a8.zip
-  md5: 7c6a9a09a801aa6c1df86d70a8c712a0
+  date: 2026-07-13
+  link: https://bigota.d.miui.com/OS2.0.205.0.VGUCNXM/flame-ota_full-OS2.0.205.0.VGUCNXM-user-15.0-90916369cc.zip
+  md5: 90916369ccbfd0a2ef5b295294dac3e0
   method: Recovery
   name: Redmi 14R 5G China
-  size: 4.7 GB
-  version: OS3.0.301.0.WGUCNXM
-- android: '16.0'
+  size: 4.6 GB
+  version: OS2.0.205.0.VGUCNXM
+- android: '15.0'
   branch: Stable
   codename: flame
-  date: 2026-04-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WGUCNXM/flame_images_OS3.0.301.0.WGUCNXM_20260413.0000.00_16.0_cn_76b432ad38.tgz
-  md5: 76b432ad38fb2088c05bcf11083dbd26
+  date: 2026-07-06
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.205.0.VGUCNXM/flame_images_OS2.0.205.0.VGUCNXM_20260706.0000.00_15.0_cn_cc97eff319.tgz
+  md5: cc97eff319b3c34287b695dcba2077a3
   method: Fastboot
   name: Redmi 14R 5G China
-  size: 6.8 GB
-  version: OS3.0.301.0.WGUCNXM
+  size: 6.5 GB
+  version: OS2.0.205.0.VGUCNXM
 - android: '16.0'
   branch: Stable
   codename: flame_in_global
@@ -9938,16 +9948,16 @@
   name: Redmi Note 11S 4G / POCO M4 Pro 4G Taiwan
   size: 5.2 GB
   version: OS1.0.8.0.TKETWXM
-- android: '15.0'
+- android: '16.0'
   branch: Stable Beta
   codename: flourite
-  date: null
-  link: https://bigota.d.miui.com/OS2.0.202.0.VPRCNXM/flourite-ota_full-OS2.0.202.0.VPRCNXM-user-15.0-f5fc7e1eda.zip
-  md5: f5fc7e1edac83cf6413bf48544754dac
+  date: 2026-07-20
+  link: https://bigota.d.miui.com/OS3.0.316.0.WPRCNXM/flourite-ota_full-OS3.0.316.0.WPRCNXM-user-16.0-d0a2cc710b.zip
+  md5: d0a2cc710ba7106390007327106c2b58
   method: Recovery
   name: Redmi Note 15 Pro+ 5G China
-  size: 6.8 GB
-  version: OS2.0.202.0.VPRCNXM
+  size: 7.3 GB
+  version: OS3.0.316.0.WPRCNXM
 - android: '16.0'
   branch: Stable
   codename: flourite
@@ -13872,21 +13882,21 @@
   branch: Stable
   codename: kate_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
-  md5: 52f71e4360b986500ec717b3f573fe3b
-  method: Fastboot
-  name: Redmi Note 3 SE Global
-  size: 1.8 GB
-  version: V10.2.1.0.MHRMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kate_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/miui_HMNote3ProtwGlobal_V10.2.1.0.MHRMIXM_ffb51fb6dc_6.0.zip
   md5: ffb51fb6dc722055630a0db15a47c641
   method: Recovery
   name: Redmi Note 3 SE Global
   size: 1.6 GB
+  version: V10.2.1.0.MHRMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kate_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHRMIXM/kate_global_images_V10.2.1.0.MHRMIXM_20190114.0000.00_6.0_global_52f71e4360.tgz
+  md5: 52f71e4360b986500ec717b3f573fe3b
+  method: Fastboot
+  name: Redmi Note 3 SE Global
+  size: 1.8 GB
   version: V10.2.1.0.MHRMIXM
 - android: '6.0'
   branch: Weekly
@@ -13952,21 +13962,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -14499,6 +14509,16 @@
   size: 7.9 GB
   version: OS3.0.301.0.WOWRUXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: koto_tw_global
+  date: 2026-07-23
+  link: https://bigota.d.miui.com/OS3.0.301.0.WOWTWXM/koto_tw_global-ota_full-OS3.0.301.0.WOWTWXM-user-16.0-195b795aaf.zip
+  md5: 195b795aaf9609c2d86935a22a370de2
+  method: Recovery
+  name: Redmi Pad 2 4G Taiwan
+  size: 5.4 GB
+  version: OS3.0.301.0.WOWTWXM
+- android: '16.0'
   branch: Stable
   codename: koto_tw_global
   date: 2026-04-16
@@ -14708,16 +14728,16 @@
   name: Redmi 14C/17C/A3 Pro/POCO C75 EEA
   size: 7.1 GB
   version: OS3.0.302.0.WGTEUXM
-- android: '14.0'
+- android: '16.0'
   branch: Stable Beta
   codename: lake_global
-  date: 2024-09-02
-  link: https://bigota.d.miui.com/OS1.0.1.0.UGTMIXM/miui_LAKEGlobal_OS1.0.1.0.UGTMIXM_5d1787a452_14.0.zip
-  md5: 5d1787a4522844ea81db3a2710775d2b
+  date: 2026-07-17
+  link: https://bigota.d.miui.com/OS3.0.306.0.WGTMIXM/lake_global-ota_full-OS3.0.306.0.WGTMIXM-user-16.0-e850180983.zip
+  md5: e850180983d097edec3bcc7b7735a717
   method: Recovery
   name: Redmi 14C/17C/A3 Pro/POCO C75 Global
-  size: 4.2 GB
-  version: OS1.0.1.0.UGTMIXM
+  size: 4.9 GB
+  version: OS3.0.306.0.WGTMIXM
 - android: '16.0'
   branch: Stable
   codename: lake_global
@@ -27748,8 +27768,18 @@
   name: Redmi Note 15 4G Global
   size: 9.9 GB
   version: OS3.0.301.0.WPGMIXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable Beta
+  codename: spinel_id_global
+  date: 2026-01-15
+  link: https://bigota.d.miui.com/OS2.0.201.0.VPGIDXM/spinel_id_global-ota_full-OS2.0.201.0.VPGIDXM-user-15.0-6b0b9be2d2.zip
+  md5: 6b0b9be2d26bbddeffe35280e643b38c
+  method: Recovery
+  name: Redmi Note 15 4G Indonesia
+  size: 4.8 GB
+  version: OS2.0.201.0.VPGIDXM
+- android: '16.0'
+  branch: Stable
   codename: spinel_id_global
   date: 2026-07-17
   link: https://bigota.d.miui.com/OS3.0.301.0.WPGIDXM/spinel_id_global-ota_full-OS3.0.301.0.WPGIDXM-user-16.0-871c9899e5.zip
@@ -27761,25 +27791,25 @@
 - android: '16.0'
   branch: Stable
   codename: spinel_id_global
-  date: 2026-05-06
-  link: https://bigota.d.miui.com/OS3.0.1.0.WPGIDXM/spinel_id_global-ota_full-OS3.0.1.0.WPGIDXM-user-16.0-94af58bc4c.zip
-  md5: 94af58bc4c7b65ff4387d4123456191e
-  method: Recovery
-  name: Redmi Note 15 4G Indonesia
-  size: 5.9 GB
-  version: OS3.0.1.0.WPGIDXM
-- android: '16.0'
-  branch: Stable
-  codename: spinel_id_global
-  date: 2026-04-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.1.0.WPGIDXM/spinel_id_global_images_OS3.0.1.0.WPGIDXM_20260421.0000.00_16.0_id_3331850ed1.tgz
-  md5: 3331850ed135725a7c7df9f7cac1906d
+  date: 2026-07-09
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPGIDXM/spinel_id_global_images_OS3.0.301.0.WPGIDXM_20260709.0000.00_16.0_id_2ba15ef165.tgz
+  md5: 2ba15ef16503f7ee9db611b115698825
   method: Fastboot
   name: Redmi Note 15 4G Indonesia
   size: 8.9 GB
-  version: OS3.0.1.0.WPGIDXM
-- android: '16.0'
+  version: OS3.0.301.0.WPGIDXM
+- android: '15.0'
   branch: Stable Beta
+  codename: spinel_ru_global
+  date: 2026-01-15
+  link: https://bigota.d.miui.com/OS2.0.204.0.VPGRUXM/spinel_ru_global-ota_full-OS2.0.204.0.VPGRUXM-user-15.0-d92cbafcc1.zip
+  md5: d92cbafcc165a937a310472019eaa273
+  method: Recovery
+  name: Redmi Note 15 4G Russia
+  size: 4.7 GB
+  version: OS2.0.204.0.VPGRUXM
+- android: '16.0'
+  branch: Stable
   codename: spinel_ru_global
   date: 2026-07-17
   link: https://bigota.d.miui.com/OS3.0.301.0.WPGRUXM/spinel_ru_global-ota_full-OS3.0.301.0.WPGRUXM-user-16.0-7d29341b22.zip
@@ -27788,26 +27818,16 @@
   name: Redmi Note 15 4G Russia
   size: 5.8 GB
   version: OS3.0.301.0.WPGRUXM
-- android: '15.0'
+- android: '16.0'
   branch: Stable
   codename: spinel_ru_global
-  date: 2026-04-15
-  link: https://bigota.d.miui.com/OS2.0.212.0.VPGRUXM/spinel_ru_global-ota_full-OS2.0.212.0.VPGRUXM-user-15.0-20c0e4aa85.zip
-  md5: 20c0e4aa85cd0413ced16c45b72ab092
-  method: Recovery
-  name: Redmi Note 15 4G Russia
-  size: 4.8 GB
-  version: OS2.0.212.0.VPGRUXM
-- android: '15.0'
-  branch: Stable
-  codename: spinel_ru_global
-  date: 2026-03-23
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.212.0.VPGRUXM/spinel_ru_global_images_OS2.0.212.0.VPGRUXM_20260323.0000.00_15.0_ru_27f41a54ac.tgz
-  md5: 27f41a54ac5115f71ad883f4669d2de7
+  date: 2026-07-09
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WPGRUXM/spinel_ru_global_images_OS3.0.301.0.WPGRUXM_20260709.0000.00_16.0_ru_25d3194a71.tgz
+  md5: 25d3194a71bfecb25fb5a65de424bec0
   method: Fastboot
   name: Redmi Note 15 4G Russia
-  size: 8.8 GB
-  version: OS2.0.212.0.VPGRUXM
+  size: 9.6 GB
+  version: OS3.0.301.0.WPGRUXM
 - android: '15.0'
   branch: Stable Beta
   codename: spinel_tr_global
@@ -34729,6 +34749,16 @@
   size: 7.9 GB
   version: OS3.0.5.0.VLLCNXM
 - android: '15.0'
+  branch: Stable Beta
+  codename: ziyi_eea_global
+  date: 2026-07-20
+  link: https://bigota.d.miui.com/OS3.0.5.0.VLLEUXM/ziyi_eea_global-ota_full-OS3.0.5.0.VLLEUXM-user-15.0-acd03129ee.zip
+  md5: acd03129ee38eefe7d3c70beaa234228
+  method: Recovery
+  name: Xiaomi Civi 2 / 13 Lite EEA
+  size: 5.9 GB
+  version: OS3.0.5.0.VLLEUXM
+- android: '15.0'
   branch: Stable
   codename: ziyi_eea_global
   date: 2026-05-22
@@ -34808,16 +34838,16 @@
   name: Xiaomi Civi 2 / 13 Lite Russia
   size: 7.2 GB
   version: OS3.0.3.0.VLLRUXM
-- android: '13.0'
+- android: '15.0'
   branch: Stable Beta
   codename: ziyi_tr_global
-  date: 2023-11-17
-  link: https://bigota.d.miui.com/V14.0.3.0.TLLTRXM/miui_ZIYITRGlobal_V14.0.3.0.TLLTRXM_567a9c2eab_13.0.zip
-  md5: 567a9c2eab530e42dbcf134b58ced838
+  date: 2026-07-20
+  link: https://bigota.d.miui.com/OS3.0.4.0.VLLTRXM/ziyi_tr_global-ota_full-OS3.0.4.0.VLLTRXM-user-15.0-e8e8d8200a.zip
+  md5: e8e8d8200ae85e3f1dd88438a6dad5b5
   method: Recovery
   name: Xiaomi 13 Lite Turkey
-  size: 4.9 GB
-  version: V14.0.3.0.TLLTRXM
+  size: 5.8 GB
+  version: OS3.0.4.0.VLLTRXM
 - android: '15.0'
   branch: Stable
   codename: ziyi_tr_global
@@ -34838,6 +34868,16 @@
   name: Xiaomi 13 Lite Turkey
   size: 7.1 GB
   version: OS3.0.3.0.VLLTRXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: ziyi_tw_global
+  date: 2026-07-20
+  link: https://bigota.d.miui.com/OS3.0.4.0.VLLTWXM/ziyi_tw_global-ota_full-OS3.0.4.0.VLLTWXM-user-15.0-1df50a8474.zip
+  md5: 1df50a847435a41559e84f5be1380382
+  method: Recovery
+  name: Xiaomi Civi 2 / 13 Lite Taiwan
+  size: 5.7 GB
+  version: OS3.0.4.0.VLLTWXM
 - android: '15.0'
   branch: Stable
   codename: ziyi_tw_global
