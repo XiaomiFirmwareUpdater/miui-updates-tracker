@@ -1839,7 +1839,7 @@
   size: 7.1 GB
   version: OS3.0.4.0.WBVINXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: arctic_ru_global
   date: 2026-08-04
   link: https://bigota.d.miui.com/OS3.0.7.0.WBVRUXM/arctic_ru_global-ota_full-OS3.0.7.0.WBVRUXM-user-16.0-387b7bfca6.zip
@@ -1851,23 +1851,13 @@
 - android: '16.0'
   branch: Stable
   codename: arctic_ru_global
-  date: 2026-06-01
-  link: https://bigota.d.miui.com/OS3.0.5.0.WBVRUXM/arctic_ru_global-ota_full-OS3.0.5.0.WBVRUXM-user-16.0-52bbf31c9f.zip
-  md5: 52bbf31c9fadc03d46b0909b6f86f2f2
-  method: Recovery
-  name: Redmi A7 Pro / POCO C81 / C81 Pro Russia
-  size: 5.3 GB
-  version: OS3.0.5.0.WBVRUXM
-- android: '16.0'
-  branch: Stable
-  codename: arctic_ru_global
-  date: 2026-05-22
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WBVRUXM/arctic_ru_global-images-OS3.0.5.0.WBVRUXM-user-20260522.0000.00-16.0-ru-917138958a.tgz
-  md5: 917138958a2ea00b6bf002570d71562c
+  date: 2026-07-31
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.7.0.WBVRUXM/arctic_ru_global-images-OS3.0.7.0.WBVRUXM-user-20260731.0000.00-16.0-ru-3b87fb32ca.tgz
+  md5: 3b87fb32ca32e9c341881150a85db3c7
   method: Fastboot
   name: Redmi A7 Pro / POCO C81 / C81 Pro Russia
   size: 8.4 GB
-  version: OS3.0.5.0.WBVRUXM
+  version: OS3.0.7.0.WBVRUXM
 - android: '16.0'
   branch: Stable
   codename: arctic_tr_global
@@ -7471,6 +7461,16 @@
 - android: '16.0'
   branch: Stable Beta
   codename: dew_global
+  date: 2026-03-05
+  link: https://bigota.d.miui.com/OS3.0.1.0.WBNMIXM/dew_global-ota_full-OS3.0.1.0.WBNMIXM-user-16.0-1de1d1c7c5.zip
+  md5: 1de1d1c7c54f47b5ded4769209f6f796
+  method: Recovery
+  name: Redmi 15C / POCO C85 Global
+  size: 4.8 GB
+  version: OS3.0.1.0.WBNMIXM
+- android: '16.0'
+  branch: Stable
+  codename: dew_global
   date: 2026-07-31
   link: https://bigota.d.miui.com/OS3.0.306.0.WBNMIXM/dew_global-ota_full-OS3.0.306.0.WBNMIXM-user-16.0-3d7981225e.zip
   md5: 3d7981225ee546ce0a6127b6339cdb8d
@@ -7481,23 +7481,13 @@
 - android: '16.0'
   branch: Stable
   codename: dew_global
-  date: 2026-06-04
-  link: https://bigota.d.miui.com/OS3.0.302.0.WBNMIXM/dew_global-ota_full-OS3.0.302.0.WBNMIXM-user-16.0-fcf1e9ca16.zip
-  md5: fcf1e9ca1683f5fa1f0ae641c7b15765
-  method: Recovery
-  name: Redmi 15C / POCO C85 Global
-  size: 4.9 GB
-  version: OS3.0.302.0.WBNMIXM
-- android: '15.0'
-  branch: Stable
-  codename: dew_global
-  date: 2026-05-12
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.221.0.VBNMIXM/dew_global_images_OS2.0.221.0.VBNMIXM_20260512.0000.00_15.0_global_e0836588d5.tgz
-  md5: e0836588d5cdafe220d00d1513640be3
+  date: 2026-07-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.306.0.WBNMIXM/dew_global_images_OS3.0.306.0.WBNMIXM_20260721.0000.00_16.0_global_c64fe8f708.tgz
+  md5: c64fe8f70864aca7792ec15dc524bb9b
   method: Fastboot
   name: Redmi 15C / POCO C85 Global
-  size: 7.9 GB
-  version: OS2.0.221.0.VBNMIXM
+  size: 8.1 GB
+  version: OS3.0.306.0.WBNMIXM
 - android: '16.0'
   branch: Stable Beta
   codename: dew_id_global
@@ -9528,8 +9518,18 @@
   name: Redmi 12 EEA
   size: 6.6 GB
   version: OS2.0.211.0.VMXEUXM
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: fire_global
+  date: 2023-10-19
+  link: https://bigota.d.miui.com/V14.0.11.0.TMXMIXM/miui_FIREGlobal_V14.0.11.0.TMXMIXM_8602dd8854_13.0.zip
+  md5: 8602dd88542297e877a127f92c58f6b3
+  method: Recovery
+  name: Redmi 12 Global
+  size: 4.1 GB
+  version: V14.0.11.0.TMXMIXM
+- android: '15.0'
+  branch: Stable
   codename: fire_global
   date: 2026-07-29
   link: https://bigota.d.miui.com/OS2.0.209.0.VMXMIXM/fire_global-ota_full-OS2.0.209.0.VMXMIXM-user-15.0-15667ba4a1.zip
@@ -9541,23 +9541,13 @@
 - android: '15.0'
   branch: Stable
   codename: fire_global
-  date: 2026-06-03
-  link: https://bigota.d.miui.com/OS2.0.208.0.VMXMIXM/fire_global-ota_full-OS2.0.208.0.VMXMIXM-user-15.0-2e87547031.zip
-  md5: 2e87547031148eeb39dfc23cd5de11c4
-  method: Recovery
-  name: Redmi 12 Global
-  size: 4.6 GB
-  version: OS2.0.208.0.VMXMIXM
-- android: '15.0'
-  branch: Stable
-  codename: fire_global
-  date: 2026-05-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.208.0.VMXMIXM/fire_global_images_OS2.0.208.0.VMXMIXM_20260520.0000.00_15.0_global_178fa798ab.tgz
-  md5: 178fa798ab5869b6e058a529e37ecbd4
+  date: 2026-07-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.209.0.VMXMIXM/fire_global_images_OS2.0.209.0.VMXMIXM_20260720.0000.00_15.0_global_70b5fd6771.tgz
+  md5: 70b5fd6771a522d3c5694df3a2fcd3ed
   method: Fastboot
   name: Redmi 12 Global
   size: 6.8 GB
-  version: OS2.0.208.0.VMXMIXM
+  version: OS2.0.209.0.VMXMIXM
 - android: '15.0'
   branch: Stable
   codename: fire_id_global
