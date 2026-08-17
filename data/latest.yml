@@ -1759,7 +1759,7 @@
   size: 8.1 GB
   version: OS3.0.8.0.WBVEUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: arctic_global
   date: 2026-07-31
   link: https://bigota.d.miui.com/OS3.0.12.0.WBVMIXM/arctic_global-ota_full-OS3.0.12.0.WBVMIXM-user-16.0-cf14a45af2.zip
@@ -1771,23 +1771,13 @@
 - android: '16.0'
   branch: Stable
   codename: arctic_global
-  date: 2026-07-23
-  link: https://bigota.d.miui.com/OS3.0.11.0.WBVMIXM/arctic_global-ota_full-OS3.0.11.0.WBVMIXM-user-16.0-8bf3cf1ab2.zip
-  md5: 8bf3cf1ab2b7237e57a6a8b9f055f3ab
-  method: Recovery
-  name: Redmi A7 Pro / POCO C81 / C81 Pro Global
-  size: 5.4 GB
-  version: OS3.0.11.0.WBVMIXM
-- android: '16.0'
-  branch: Stable
-  codename: arctic_global
-  date: 2026-07-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.11.0.WBVMIXM/arctic_global-images-OS3.0.11.0.WBVMIXM-user-20260716.0000.00-16.0-global-79893d86e9.tgz
-  md5: 79893d86e9748c47444f96a911534d4a
+  date: 2026-07-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.12.0.WBVMIXM/arctic_global-images-OS3.0.12.0.WBVMIXM-user-20260730.0000.00-16.0-global-5463323933.tgz
+  md5: 546332393326c4772ae53c90a561d470
   method: Fastboot
   name: Redmi A7 Pro / POCO C81 / C81 Pro Global
   size: 8.6 GB
-  version: OS3.0.11.0.WBVMIXM
+  version: OS3.0.12.0.WBVMIXM
 - android: '16.0'
   branch: Stable
   codename: arctic_id_global
@@ -2768,6 +2758,16 @@
   name: Redmi Note 8 Pro India
   size: 3.1 GB
   version: V12.5.5.0.RGGINXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: beryl
+  date: 2026-08-12
+  link: https://bigota.d.miui.com/OS3.0.306.0.WOQCNXM/beryl-ota_full-OS3.0.306.0.WOQCNXM-user-16.0-429fcb7dd3.zip
+  md5: 429fcb7dd3aecb3d0fec5e9c68bd424b
+  method: Recovery
+  name: Redmi Note 14 5G China
+  size: 6.5 GB
+  version: OS3.0.306.0.WOQCNXM
 - android: '16.0'
   branch: Stable
   codename: beryl
@@ -5589,6 +5589,16 @@
   size: 7.6 GB
   version: OS2.0.210.0.VMLJPXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: corot_ru_global
+  date: 2026-08-13
+  link: https://bigota.d.miui.com/OS3.0.301.0.WMLRUXM/corot_ru_global-ota_full-OS3.0.301.0.WMLRUXM-user-16.0-2e815c9b85.zip
+  md5: 2e815c9b8539dc251113321f272233a5
+  method: Recovery
+  name: Xiaomi 13T Pro Russia
+  size: 6.4 GB
+  version: OS3.0.301.0.WMLRUXM
+- android: '16.0'
   branch: Stable
   codename: corot_ru_global
   date: 2026-06-11
@@ -5609,6 +5619,16 @@
   size: 8.4 GB
   version: OS3.0.3.0.WMLRUXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: corot_tr_global
+  date: 2026-08-13
+  link: https://bigota.d.miui.com/OS3.0.301.0.WMLTRXM/corot_tr_global-ota_full-OS3.0.301.0.WMLTRXM-user-16.0-144de8dfa0.zip
+  md5: 144de8dfa0848f27cc4e9dc33fe52c18
+  method: Recovery
+  name: Xiaomi 13T Pro Turkey
+  size: 6.4 GB
+  version: OS3.0.301.0.WMLTRXM
+- android: '16.0'
   branch: Stable
   codename: corot_tr_global
   date: 2026-06-22
@@ -5628,6 +5648,16 @@
   name: Xiaomi 13T Pro Turkey
   size: 7.8 GB
   version: OS3.0.3.0.WMLTRXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: corot_tw_global
+  date: 2026-08-13
+  link: https://bigota.d.miui.com/OS3.0.301.0.WMLTWXM/corot_tw_global-ota_full-OS3.0.301.0.WMLTWXM-user-16.0-c667412b7e.zip
+  md5: c667412b7ed5b0bcdbd8a73412b43500
+  method: Recovery
+  name: Xiaomi 13T Pro Taiwan
+  size: 6.3 GB
+  version: OS3.0.301.0.WMLTWXM
 - android: '16.0'
   branch: Stable
   codename: corot_tw_global
@@ -12779,7 +12809,7 @@
   size: 5.8 GB
   version: OS1.0.24.1.11.DEV
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: houji_eea_global
   date: 2026-07-29
   link: https://bigota.d.miui.com/OS3.0.303.0.WNCEUXM/houji_eea_global-ota_full-OS3.0.303.0.WNCEUXM-user-16.0-090c4c46cb.zip
@@ -12791,23 +12821,13 @@
 - android: '16.0'
   branch: Stable
   codename: houji_eea_global
-  date: 2026-06-10
-  link: https://bigota.d.miui.com/OS3.0.302.0.WNCEUXM/houji_eea_global-ota_full-OS3.0.302.0.WNCEUXM-user-16.0-76040ccc8e.zip
-  md5: 76040ccc8e16eae20bb0df1d034848a0
-  method: Recovery
-  name: Xiaomi 14 EEA
-  size: 6.5 GB
-  version: OS3.0.302.0.WNCEUXM
-- android: '16.0'
-  branch: Stable
-  codename: houji_eea_global
-  date: 2026-05-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WNCEUXM/houji_eea_global_images_OS3.0.302.0.WNCEUXM_20260527.0000.00_16.0_eea_22e08508a5.tgz
-  md5: 22e08508a5ba29c536608d5414145231
+  date: 2026-07-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WNCEUXM/houji_eea_global_images_OS3.0.303.0.WNCEUXM_20260720.0000.00_16.0_eea_389ba3cf60.tgz
+  md5: 389ba3cf6035870df9fa88c0c8154a02
   method: Fastboot
   name: Xiaomi 14 EEA
   size: 8.2 GB
-  version: OS3.0.302.0.WNCEUXM
+  version: OS3.0.303.0.WNCEUXM
 - android: '16.0'
   branch: Stable
   codename: houji_global
@@ -19881,23 +19901,23 @@
 - android: '16.0'
   branch: Stable
   codename: nezha_eea_global
-  date: 2026-05-25
-  link: https://bigota.d.miui.com/OS3.0.303.0.WPAEUXM/nezha_eea_global-ota_full-OS3.0.303.0.WPAEUXM-user-16.0-9f75c0f23d.zip
-  md5: 9f75c0f23d1e3c1d088268cf8844fc15
+  date: 2026-08-06
+  link: https://bigota.d.miui.com/OS3.0.307.0.WPAEUXM/nezha_eea_global-ota_full-OS3.0.307.0.WPAEUXM-user-16.0-11ead0756c.zip
+  md5: 11ead0756c0f8e7071b8b3d144500761
   method: Recovery
   name: Xiaomi 17 Ultra EEA
   size: 9.4 GB
-  version: OS3.0.303.0.WPAEUXM
+  version: OS3.0.307.0.WPAEUXM
 - android: '16.0'
   branch: Stable
   codename: nezha_eea_global
-  date: 2026-05-13
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WPAEUXM/nezha_eea_global_images_OS3.0.303.0.WPAEUXM_20260513.0000.00_16.0_eea_d33a2e63ad.tgz
-  md5: d33a2e63ada0e34498bb64bb5b463f4e
+  date: 2026-07-29
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.307.0.WPAEUXM/nezha_eea_global_images_OS3.0.307.0.WPAEUXM_20260729.0000.00_16.0_eea_683716e3d3.tgz
+  md5: 683716e3d33703c392ec0126ed3d62c9
   method: Fastboot
   name: Xiaomi 17 Ultra EEA
   size: 11.2 GB
-  version: OS3.0.303.0.WPAEUXM
+  version: OS3.0.307.0.WPAEUXM
 - android: '17.0'
   branch: Stable Beta
   codename: nezha_global
@@ -30699,7 +30719,7 @@
   size: 8.3 GB
   version: OS3.0.303.0.WOZMIXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: uke_id_global
   date: 2026-08-07
   link: https://bigota.d.miui.com/OS3.0.303.0.WOZIDXM/uke_id_global-ota_full-OS3.0.303.0.WOZIDXM-user-16.0-8c04057ae6.zip
@@ -30711,23 +30731,13 @@
 - android: '16.0'
   branch: Stable
   codename: uke_id_global
-  date: 2026-05-22
-  link: https://bigota.d.miui.com/OS3.0.302.0.WOZIDXM/uke_id_global-ota_full-OS3.0.302.0.WOZIDXM-user-16.0-916aee6f3e.zip
-  md5: 916aee6f3e68a7c35d42df31116e362b
-  method: Recovery
-  name: Xiaomi Pad 7 / POCO Pad X1 Indonesia
-  size: 6.4 GB
-  version: OS3.0.302.0.WOZIDXM
-- android: '16.0'
-  branch: Stable
-  codename: uke_id_global
-  date: 2026-05-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOZIDXM/uke_id_global_images_OS3.0.302.0.WOZIDXM_20260506.0000.00_16.0_id_2e769fbae4.tgz
-  md5: 2e769fbae4e9018f03abc13a478cbb61
+  date: 2026-06-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOZIDXM/uke_id_global_images_OS3.0.303.0.WOZIDXM_20260630.0000.00_16.0_id_4e20db13ee.tgz
+  md5: 4e20db13ee30bcb863ad3994332eec9c
   method: Fastboot
   name: Xiaomi Pad 7 / POCO Pad X1 Indonesia
   size: 7.7 GB
-  version: OS3.0.302.0.WOZIDXM
+  version: OS3.0.303.0.WOZIDXM
 - android: '16.0'
   branch: Stable
   codename: uke_in_global
@@ -30749,7 +30759,7 @@
   size: 7.2 GB
   version: OS3.0.304.0.WOZINXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: uke_ru_global
   date: 2026-08-07
   link: https://bigota.d.miui.com/OS3.0.303.0.WOZRUXM/uke_ru_global-ota_full-OS3.0.303.0.WOZRUXM-user-16.0-08c2778535.zip
@@ -30761,23 +30771,13 @@
 - android: '16.0'
   branch: Stable
   codename: uke_ru_global
-  date: 2026-05-22
-  link: https://bigota.d.miui.com/OS3.0.302.0.WOZRUXM/uke_ru_global-ota_full-OS3.0.302.0.WOZRUXM-user-16.0-243956bff5.zip
-  md5: 243956bff5a5da66f63c2add12b914db
-  method: Recovery
-  name: Xiaomi Pad 7 / POCO Pad X1 Russia
-  size: 6.3 GB
-  version: OS3.0.302.0.WOZRUXM
-- android: '16.0'
-  branch: Stable
-  codename: uke_ru_global
-  date: 2026-05-06
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOZRUXM/uke_ru_global_images_OS3.0.302.0.WOZRUXM_20260506.0000.00_16.0_ru_7726f0c83d.tgz
-  md5: 7726f0c83d548f08cd699d852ce4c138
+  date: 2026-06-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOZRUXM/uke_ru_global_images_OS3.0.303.0.WOZRUXM_20260630.0000.00_16.0_ru_b2e2df4e2b.tgz
+  md5: b2e2df4e2ba7b279656f65299909f38e
   method: Fastboot
   name: Xiaomi Pad 7 / POCO Pad X1 Russia
   size: 8.5 GB
-  version: OS3.0.302.0.WOZRUXM
+  version: OS3.0.303.0.WOZRUXM
 - android: '16.0'
   branch: Stable
   codename: uke_tw_global
@@ -33819,7 +33819,7 @@
   size: 11.8 GB
   version: OS3.0.302.0.WOAMIXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: xuanyuan_id_global
   date: 2026-08-06
   link: https://bigota.d.miui.com/OS3.0.302.0.WOAIDXM/xuanyuan_id_global-ota_full-OS3.0.302.0.WOAIDXM-user-16.0-5e565d73da.zip
@@ -33831,23 +33831,13 @@
 - android: '16.0'
   branch: Stable
   codename: xuanyuan_id_global
-  date: 2026-05-25
-  link: https://bigota.d.miui.com/OS3.0.301.0.WOAIDXM/xuanyuan_id_global-ota_full-OS3.0.301.0.WOAIDXM-user-16.0-b5636650e7.zip
-  md5: b5636650e7b638154963c82131f431cd
-  method: Recovery
-  name: Xiaomi 15 Ultra Indonesia
-  size: 9.0 GB
-  version: OS3.0.301.0.WOAIDXM
-- android: '16.0'
-  branch: Stable
-  codename: xuanyuan_id_global
-  date: 2026-05-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WOAIDXM/xuanyuan_id_global_images_OS3.0.301.0.WOAIDXM_20260514.0000.00_16.0_id_2709984b33.tgz
-  md5: 2709984b3379a4b35a8957ad6e279062
+  date: 2026-07-24
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOAIDXM/xuanyuan_id_global_images_OS3.0.302.0.WOAIDXM_20260724.0000.00_16.0_id_ed08964ccd.tgz
+  md5: ed08964ccd80ee2baa5a78ee961030fb
   method: Fastboot
   name: Xiaomi 15 Ultra Indonesia
-  size: 10.9 GB
-  version: OS3.0.301.0.WOAIDXM
+  size: 11.0 GB
+  version: OS3.0.302.0.WOAIDXM
 - android: '16.0'
   branch: Stable
   codename: xuanyuan_in_global
@@ -34018,6 +34008,16 @@
   name: Redmi Pad SE Indonesia
   size: 5.7 GB
   version: OS2.0.205.0.VMUIDXM
+- android: '15.0'
+  branch: Stable Beta
+  codename: xun_in_global
+  date: 2026-08-12
+  link: https://bigota.d.miui.com/OS2.0.206.0.VMUINXM/xun_in_global-ota_full-OS2.0.206.0.VMUINXM-user-15.0-41baad6f13.zip
+  md5: 41baad6f1387fee1cf9d8a645b3d0db4
+  method: Recovery
+  name: Redmi Pad SE India
+  size: 4.6 GB
+  version: OS2.0.206.0.VMUINXM
 - android: '15.0'
   branch: Stable
   codename: xun_in_global
