@@ -2378,8 +2378,18 @@
   name: Redmi 10X 5G China
   size: 4.7 GB
   version: V13.0.0.1.27.DEV
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: aurora
+  date: 2024-03-18
+  link: https://bigota.d.miui.com/OS1.0.7.0.UNACNXM/miui_AURORA_OS1.0.7.0.UNACNXM_81a48e3c20_14.0.zip
+  md5: 81a48e3c208123ca078eb9e7b9ac9368
+  method: Recovery
+  name: Xiaomi 14 Ultra China
+  size: 7.3 GB
+  version: OS1.0.7.0.UNACNXM
+- android: '16.0'
+  branch: Stable
   codename: aurora
   date: 2026-08-14
   link: https://bigota.d.miui.com/OS3.0.306.0.WNACNXM/aurora-ota_full-OS3.0.306.0.WNACNXM-user-16.0-5f184c188d.zip
@@ -2391,23 +2401,13 @@
 - android: '16.0'
   branch: Stable
   codename: aurora
-  date: 2026-06-05
-  link: https://bigota.d.miui.com/OS3.0.305.0.WNACNXM/aurora-ota_full-OS3.0.305.0.WNACNXM-user-16.0-366972ea82.zip
-  md5: 366972ea824cf9804f9d7ce083ef1850
-  method: Recovery
-  name: Xiaomi 14 Ultra China
-  size: 7.9 GB
-  version: OS3.0.305.0.WNACNXM
-- android: '16.0'
-  branch: Stable
-  codename: aurora
-  date: 2026-05-28
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.305.0.WNACNXM/aurora_images_OS3.0.305.0.WNACNXM_20260528.0000.00_16.0_cn_1474025c25.tgz
-  md5: 1474025c2524b88a8bc3119ee3ada540
+  date: 2026-08-04
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.306.0.WNACNXM/aurora_images_OS3.0.306.0.WNACNXM_20260804.0000.00_16.0_cn_6cf03954f2.tgz
+  md5: 6cf03954f29b113c8a277980f4228cfa
   method: Fastboot
   name: Xiaomi 14 Ultra China
-  size: 9.9 GB
-  version: OS3.0.305.0.WNACNXM
+  size: 10.0 GB
+  version: OS3.0.306.0.WNACNXM
 - android: '14.0'
   branch: Stable Beta
   codename: aurora_eea_global
@@ -34788,6 +34788,66 @@
   name: Xiaomi Pad 8 / Xiaomi Pad 9 Taiwan
   size: 9.1 GB
   version: OS3.0.303.0.WPZTWXM
+- android: '16.0'
+  branch: Stable
+  codename: zephyr_eea_global
+  date: 2026-08-27
+  link: https://bigota.d.miui.com/OS3.0.305.0.WBUEUDM/zephyr_eea_global-ota_full-OS3.0.305.0.WBUEUDM-user-16.0-5a0912999a.zip
+  md5: 5a0912999af085f77ed9df0d37820af4
+  method: Recovery
+  name: Redmi Note 17 4G EEA
+  size: 5.5 GB
+  version: OS3.0.305.0.WBUEUDM
+- android: '16.0'
+  branch: Stable
+  codename: zephyr_eea_global
+  date: 2026-08-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.305.0.WBUEUDM/zephyr_eea_global_images_OS3.0.305.0.WBUEUDM_20260803.0000.00_16.0_eea_c28c5c5bed.tgz
+  md5: c28c5c5bed3bb10759ccbb5f62f2769e
+  method: Fastboot
+  name: Redmi Note 17 4G EEA
+  size: 8.2 GB
+  version: OS3.0.305.0.WBUEUDM
+- android: '16.0'
+  branch: Stable
+  codename: zephyr_global
+  date: 2026-08-27
+  link: https://bigota.d.miui.com/OS3.0.308.0.WBUMIXM/zephyr_global-ota_full-OS3.0.308.0.WBUMIXM-user-16.0-d5f2cea0fa.zip
+  md5: d5f2cea0fa59bf1907186508a249f8a0
+  method: Recovery
+  name: Redmi Note 17 4G Global
+  size: 5.4 GB
+  version: OS3.0.308.0.WBUMIXM
+- android: '16.0'
+  branch: Stable
+  codename: zephyr_global
+  date: 2026-08-26
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.308.0.WBUMIXM/zephyr_global_images_OS3.0.308.0.WBUMIXM_20260826.0000.00_16.0_global_5936be1a30.tgz
+  md5: 5936be1a30833d9e349023201f9074d2
+  method: Fastboot
+  name: Redmi Note 17 4G Global
+  size: 500 Bytes
+  version: OS3.0.308.0.WBUMIXM
+- android: '16.0'
+  branch: Stable
+  codename: zephyr_tw_global
+  date: 2026-08-27
+  link: https://bigota.d.miui.com/OS3.0.304.0.WBUTWXM/zephyr_tw_global-ota_full-OS3.0.304.0.WBUTWXM-user-16.0-9a67f563af.zip
+  md5: 9a67f563afe179c64c7028763e1879db
+  method: Recovery
+  name: Redmi Note 17 4G Taiwan
+  size: 5.2 GB
+  version: OS3.0.304.0.WBUTWXM
+- android: '16.0'
+  branch: Stable
+  codename: zephyr_tw_global
+  date: 2026-08-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WBUTWXM/zephyr_tw_global_images_OS3.0.304.0.WBUTWXM_20260820.0000.00_16.0_tw_f1b7158539.tgz
+  md5: f1b7158539c63dbeca776b3551fbef12
+  method: Fastboot
+  name: Redmi Note 17 4G Taiwan
+  size: 6.2 GB
+  version: OS3.0.304.0.WBUTWXM
 - android: '13.0'
   branch: Stable Beta
   codename: zeus
