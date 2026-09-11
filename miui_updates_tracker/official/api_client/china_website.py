@@ -1,10 +1,9 @@
 import json
 import logging
-import re
 from typing import List, Optional
 
 from aiohttp import ClientResponse, ServerDisconnectedError
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup
 
 from miui_updates_tracker.common.api_client.common_client import CommonClient
 from miui_updates_tracker.common.database.database import (
@@ -24,12 +23,6 @@ from miui_updates_tracker.utils.rom_utils import (
     get_region_code_from_codename,
 )
 
-china_website_useragent = (
-    "'Mozilla/5.0 (Linux; U; Android 10; zh-cn; M2007J1SC Build/QKQ1.200419.002) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 "
-    "Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.25'"
-)
-
 
 class ChinaAPIClient(CommonClient):
     """
@@ -38,7 +31,6 @@ class ChinaAPIClient(CommonClient):
     This class is used to get data from Xiaomi China website.
     :attr: `headers`: dict - HTTP request headers
     :meth: `get_devices` - Get all available devices on the website.
-    :meth: `get_fastboot_devices` - Get all available fastboot devices on the website.
     :meth: `get_updates` - Get latest updates available for a device.
     :meth: `get_fastboot_updates` - Get latest fastboot update for a device.
     """
@@ -52,7 +44,6 @@ class ChinaAPIClient(CommonClient):
             "https://api.vip.miui.com/api/community/post/detail?postId="
         )
         self._logger = logging.getLogger(__name__)
-        self.fastboot_devices = []
 
     async def get_devices(self):
         """
@@ -71,37 +62,6 @@ class ChinaAPIClient(CommonClient):
             info = json.loads(data)
             self.devices = [ChinaDevice.from_response(item) for item in info]
             return self.devices
-
-    async def get_fastboot_devices(self):
-        """
-        Get all available fastboot devices from the website.
-        """
-        response: ClientResponse
-        async with self.session.get(
-                f"{self.base_url}/shuaji-393.html",
-                headers={"User-Agent": china_website_useragent},
-        ) as response:
-            if response.status != 200:
-                return
-            page = BeautifulSoup(await response.text(), "html.parser")
-            links = page.select('a[href^="//update.miui.com/updates/"]')
-            item: Tag
-            for item in links:
-                data = re.search(
-                    r"\?d=(\w+)&b=(\w)&r=(\w+)?&n=(\w+)?", item.get("href")
-                )
-                self.fastboot_devices.append(
-                    {
-                        "device": re.search(r"(.*) ?最新", item.text)
-                        .group(1)
-                        .strip(),
-                        "codename": data.group(1),
-                        "branch": data.group(2),
-                        "region": data.group(3),
-                        "carrier": data.group(4),
-                    }
-                )
-            return self.fastboot_devices
 
     async def get_updates(self, device_id: str) -> list:
         """
@@ -225,12 +185,11 @@ class ChinaAPIClient(CommonClient):
         :return: Update object
         """
         try:
-            url: str = await self._request_fastboot(codename)
+            filename: str = await self._request_fastboot(codename)
         except ServerDisconnectedError:
             return
-        if not url:
+        if not filename:
             return
-        filename = url.split("/")[-1]
         if update_in_db(filename):
             return
         update = self._get_fastboot_update(filename)
@@ -243,16 +202,26 @@ class ChinaAPIClient(CommonClient):
         """
         Perform a fastboot request
         :param codename: device codename
-        :return: download URL
+        :return: fastboot archive filename
         """
         region = get_region_code_from_codename(codename)
-        headers = {"Referer": "http://www.miui.com/"}
-        async with self.session.head(
-                f"https://update.intl.miui.com/updates/v1/fullromdownload.php?d={codename}&b=F&r={region}&n=",
-                headers=headers,
+        async with self.session.get(
+                "https://update.intl.miui.com/updates/miota-fullrom.php"
+                f"?d={codename}&b=F&r={region}&n=&l=en_US"
         ) as response:
-            url = response.headers.get("Location")
-            return url if url != "http://www.miui.com/" else None
+            if response.status != 200:
+                return
+            try:
+                response_json = json.loads(await response.text())
+            except json.JSONDecodeError:
+                return
+            if not isinstance(response_json, dict):
+                return
+            latest = response_json.get("LatestFullRom")
+            if not isinstance(latest, dict):
+                return
+            filename = latest.get("filename")
+            return filename if isinstance(filename, str) else None
 
     @staticmethod
     def _get_fastboot_update(filename) -> Update:
