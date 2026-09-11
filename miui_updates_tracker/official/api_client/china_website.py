@@ -149,15 +149,31 @@ class ChinaAPIClient(CommonClient):
         ) as response:
             if response.status != 200:
                 return []
-            page_json = json.loads(await response.text())
-            if page_json["code"] != 200:
+            try:
+                page_json = json.loads(await response.text())
+            except json.JSONDecodeError:
+                self._logger.warning('Invalid response for China post %s', device_id)
                 return []
-            page_content = json.loads(page_json["entity"]["textContent"])
+            if not isinstance(page_json, dict) or page_json.get('code') != 200:
+                return []
+            entity = page_json.get('entity')
+            try:
+                page_content = json.loads(entity.get('textContent'))
+            except (AttributeError, json.JSONDecodeError, TypeError):
+                self._logger.warning('Invalid content for China post %s', device_id)
+                return []
+            if not isinstance(page_content, list):
+                self._logger.warning('Invalid content for China post %s', device_id)
+                return []
             links = []
             for content in page_content:
-                if content["type"] != "txt":
+                if (
+                    not isinstance(content, dict)
+                    or content.get('type') != 'txt'
+                    or not isinstance(content.get('txt'), str)
+                ):
                     continue
-                for link_el in BeautifulSoup(content["txt"], "html.parser").select(
+                for link_el in BeautifulSoup(content['txt'], 'html.parser').select(
                         'a[href$=".zip"]'
                 ):
                     link = link_el.get("href")
