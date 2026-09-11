@@ -27,9 +27,7 @@ class DiscordBot(Client):
         :param token: Discord Bot API access token
         :param chat: Telegram chat username or id that will be used to send updates to
         """
-        intents = Intents.default()
-        intents.message_content = True
-        super().__init__(loop=asyncio.get_running_loop(), intents=intents)
+        super().__init__(loop=asyncio.get_running_loop(), intents=Intents(guilds=True))
         self.token = token
         self.updates = None
         self.channels = None
