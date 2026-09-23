@@ -62,10 +62,12 @@ class DiscordBot(Client):
         embed.add_field(name="Archive", value=f'[Here]({website}/archive/miui/{short_codename})', inline=True)
         device = get_device_name(update.codename).lower()
         for name, channel in self.channels.items():
-            if device.startswith(name):
+            if device.startswith(name) or (
+                name == 'xiaomi 1x and pad' and device.startswith('xiaomi')
+            ):
                 await channel.send(embed=embed)
                 return
-        await self.channels['other xiaomi phones'].send(embed=embed)
+        self._logger.warning('No Discord channel mapping found for device %s', device)
 
     async def on_ready(self):
         """Prepare"""
