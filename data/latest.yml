@@ -9788,8 +9788,18 @@
   name: Redmi 12 EEA
   size: 6.6 GB
   version: OS2.0.213.0.VMXEUXM
-- android: '15.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: fire_global
+  date: 2023-10-19
+  link: https://bigota.d.miui.com/V14.0.11.0.TMXMIXM/miui_FIREGlobal_V14.0.11.0.TMXMIXM_8602dd8854_13.0.zip
+  md5: 8602dd88542297e877a127f92c58f6b3
+  method: Recovery
+  name: Redmi 12 Global
+  size: 4.1 GB
+  version: V14.0.11.0.TMXMIXM
+- android: '15.0'
+  branch: Stable
   codename: fire_global
   date: 2026-09-22
   link: https://bigota.d.miui.com/OS2.0.210.0.VMXMIXM/fire_global-ota_full-OS2.0.210.0.VMXMIXM-user-15.0-d93a260097.zip
@@ -9801,23 +9811,13 @@
 - android: '15.0'
   branch: Stable
   codename: fire_global
-  date: 2026-07-29
-  link: https://bigota.d.miui.com/OS2.0.209.0.VMXMIXM/fire_global-ota_full-OS2.0.209.0.VMXMIXM-user-15.0-15667ba4a1.zip
-  md5: 15667ba4a18898110b6d952b644dbd66
-  method: Recovery
-  name: Redmi 12 Global
-  size: 4.6 GB
-  version: OS2.0.209.0.VMXMIXM
-- android: '15.0'
-  branch: Stable
-  codename: fire_global
-  date: 2026-07-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.209.0.VMXMIXM/fire_global_images_OS2.0.209.0.VMXMIXM_20260720.0000.00_15.0_global_70b5fd6771.tgz
-  md5: 70b5fd6771a522d3c5694df3a2fcd3ed
+  date: 2026-09-16
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.210.0.VMXMIXM/fire_global_images_OS2.0.210.0.VMXMIXM_20260916.0000.00_15.0_global_4b0edfd9d1.tgz
+  md5: 4b0edfd9d1ef02283788a835241bc67b
   method: Fastboot
   name: Redmi 12 Global
   size: 6.8 GB
-  version: OS2.0.209.0.VMXMIXM
+  version: OS2.0.210.0.VMXMIXM
 - android: '15.0'
   branch: Stable Beta
   codename: fire_id_global
@@ -10328,8 +10328,18 @@
   name: Redmi Note 11S 4G / POCO M4 Pro 4G Taiwan
   size: 5.2 GB
   version: OS1.0.8.0.TKETWXM
-- android: '16.0'
+- android: '15.0'
   branch: Stable Beta
+  codename: flourite
+  date: null
+  link: https://bigota.d.miui.com/OS2.0.202.0.VPRCNXM/flourite-ota_full-OS2.0.202.0.VPRCNXM-user-15.0-f5fc7e1eda.zip
+  md5: f5fc7e1edac83cf6413bf48544754dac
+  method: Recovery
+  name: Redmi Note 15 Pro+ 5G China
+  size: 6.8 GB
+  version: OS2.0.202.0.VPRCNXM
+- android: '16.0'
+  branch: Stable
   codename: flourite
   date: 2026-09-25
   link: https://bigota.d.miui.com/OS3.0.318.0.WPRCNXM/flourite-ota_full-OS3.0.318.0.WPRCNXM-user-16.0-baed5e3613.zip
@@ -10341,23 +10351,13 @@
 - android: '16.0'
   branch: Stable
   codename: flourite
-  date: 2026-08-25
-  link: https://bigota.d.miui.com/OS3.0.317.0.WPRCNXM/flourite-ota_full-OS3.0.317.0.WPRCNXM-user-16.0-ff98c106ce.zip
-  md5: ff98c106cebd1770f99762457b8ab3b8
-  method: Recovery
-  name: Redmi Note 15 Pro+ 5G China
-  size: 7.3 GB
-  version: OS3.0.317.0.WPRCNXM
-- android: '16.0'
-  branch: Stable
-  codename: flourite
-  date: 2026-08-20
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.317.0.WPRCNXM/flourite_images_OS3.0.317.0.WPRCNXM_20260820.0000.00_16.0_cn_51b5da7734.tgz
-  md5: 51b5da7734259932b736ac5935e79417
+  date: 2026-09-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.318.0.WPRCNXM/flourite_images_OS3.0.318.0.WPRCNXM_20260921.0000.00_16.0_cn_2366ba0a41.tgz
+  md5: 2366ba0a41307f85828375bbaf3e489d
   method: Fastboot
   name: Redmi Note 15 Pro+ 5G China
   size: 9.5 GB
-  version: OS3.0.317.0.WPRCNXM
+  version: OS3.0.318.0.WPRCNXM
 - android: '16.0'
   branch: Stable Beta
   codename: flourite_eea_global
@@ -20089,7 +20089,7 @@
   size: 7.7 GB
   version: OS3.0.304.0.WOYEUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: muyu_global
   date: 2026-09-21
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WOYMIXM/muyu_global-ota_full-OS3.0.304.0.WOYMIXM-user-16.0-da93b59295.zip
@@ -20101,23 +20101,13 @@
 - android: '16.0'
   branch: Stable
   codename: muyu_global
-  date: 2026-07-13
-  link: https://bigota.d.miui.com/OS3.0.303.0.WOYMIXM/muyu_global-ota_full-OS3.0.303.0.WOYMIXM-user-16.0-2a6864c29c.zip
-  md5: 2a6864c29c74a7f32779646a2d1a8fd9
-  method: Recovery
-  name: Xiaomi Pad 7 Pro Global
-  size: 6.4 GB
-  version: OS3.0.303.0.WOYMIXM
-- android: '16.0'
-  branch: Stable
-  codename: muyu_global
-  date: 2026-06-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOYMIXM/muyu_global_images_OS3.0.303.0.WOYMIXM_20260625.0000.00_16.0_global_59ef5e03ea.tgz
-  md5: 59ef5e03ea18505083c3da1aa57c4752
+  date: 2026-09-10
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WOYMIXM/muyu_global_images_OS3.0.304.0.WOYMIXM_20260910.0000.00_16.0_global_644a03686a.tgz
+  md5: 644a03686a4719d1edc8809c1c14eef9
   method: Fastboot
   name: Xiaomi Pad 7 Pro Global
   size: 8.2 GB
-  version: OS3.0.303.0.WOYMIXM
+  version: OS3.0.304.0.WOYMIXM
 - android: '16.0'
   branch: Stable
   codename: muyu_id_global
@@ -26518,8 +26508,18 @@
   name: Redmi Note 12 Pro / Pro+ 5G EEA
   size: 6.8 GB
   version: OS2.0.16.0.UMOEUXM
-- android: '14.0'
+- android: '13.0'
   branch: Stable Beta
+  codename: ruby_global
+  date: 2023-10-13
+  link: https://bigota.d.miui.com/V14.0.2.0.TMOMIXM/miui_RUBYGlobal_V14.0.2.0.TMOMIXM_462250ba10_13.0.zip
+  md5: 462250ba1067d143c003c618961b2af5
+  method: Recovery
+  name: Redmi Note 12 Pro / Pro+ 5G Global
+  size: 4.5 GB
+  version: V14.0.2.0.TMOMIXM
+- android: '14.0'
+  branch: Stable
   codename: ruby_global
   date: 2026-09-24
   link: https://bigota.d.miui.com/OS2.0.16.0.UMOMIXM/ruby_global-ota_full-OS2.0.16.0.UMOMIXM-user-14.0-9ac7df942a.zip
@@ -26531,23 +26531,13 @@
 - android: '14.0'
   branch: Stable
   codename: ruby_global
-  date: 2026-08-25
-  link: https://bigota.d.miui.com/OS2.0.15.0.UMOMIXM/ruby_global-ota_full-OS2.0.15.0.UMOMIXM-user-14.0-6d7ccb014a.zip
-  md5: 6d7ccb014ae53172ca6279e08a009d20
-  method: Recovery
-  name: Redmi Note 12 Pro / Pro+ 5G Global
-  size: 5.0 GB
-  version: OS2.0.15.0.UMOMIXM
-- android: '14.0'
-  branch: Stable
-  codename: ruby_global
-  date: 2026-08-14
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.15.0.UMOMIXM/ruby_global_images_OS2.0.15.0.UMOMIXM_20260814.0000.00_14.0_global_e25f184dad.tgz
-  md5: e25f184dad697fe0c94626849b5bc8b5
+  date: 2026-09-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.16.0.UMOMIXM/ruby_global_images_OS2.0.16.0.UMOMIXM_20260920.0000.00_14.0_global_0cd03a953b.tgz
+  md5: 0cd03a953b845695d5924ea2752ed3f7
   method: Fastboot
   name: Redmi Note 12 Pro / Pro+ 5G Global
   size: 7.1 GB
-  version: OS2.0.15.0.UMOMIXM
+  version: OS2.0.16.0.UMOMIXM
 - android: '13.0'
   branch: Stable Beta
   codename: ruby_id_global
@@ -29581,13 +29571,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-01
-  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
-  md5: 393436f62dcca93bb69a8b60174c6816
+  date: 2021-04-15
+  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
+  md5: 641da640cd9c90618ad06f989f6ead0b
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.6.4.RJGEUXM
+  version: V12.0.7.0.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
@@ -31569,7 +31559,7 @@
   size: 10.0 GB
   version: OS3.0.306.0.WOZCNXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: uke_eea_global
   date: 2026-09-21
   link: https://bigota.d.miui.com/OS3.0.304.0.WOZEUXM/uke_eea_global-ota_full-OS3.0.304.0.WOZEUXM-user-16.0-bb4525610c.zip
@@ -31581,25 +31571,15 @@
 - android: '16.0'
   branch: Stable
   codename: uke_eea_global
-  date: 2026-07-21
-  link: https://bigota.d.miui.com/OS3.0.303.0.WOZEUXM/uke_eea_global-ota_full-OS3.0.303.0.WOZEUXM-user-16.0-14bc5719ac.zip
-  md5: 14bc5719ac0342156aecd9057db04dd2
-  method: Recovery
-  name: Xiaomi Pad 7 / POCO Pad X1 EEA
-  size: 6.4 GB
-  version: OS3.0.303.0.WOZEUXM
-- android: '16.0'
-  branch: Stable
-  codename: uke_eea_global
-  date: 2026-06-30
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOZEUXM/uke_eea_global_images_OS3.0.303.0.WOZEUXM_20260630.0000.00_16.0_eea_c7f7e248bb.tgz
-  md5: c7f7e248bb3f1297411820b1617dfdc4
+  date: 2026-09-16
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WOZEUXM/uke_eea_global_images_OS3.0.304.0.WOZEUXM_20260916.0000.00_16.0_eea_e75e8b0d13.tgz
+  md5: e75e8b0d13087009bd619058a0790aea
   method: Fastboot
   name: Xiaomi Pad 7 / POCO Pad X1 EEA
   size: 7.8 GB
-  version: OS3.0.303.0.WOZEUXM
+  version: OS3.0.304.0.WOZEUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: uke_global
   date: 2026-09-21
   link: https://bigota.d.miui.com/OS3.0.304.0.WOZMIXM/uke_global-ota_full-OS3.0.304.0.WOZMIXM-user-16.0-f70cbc0556.zip
@@ -31611,23 +31591,13 @@
 - android: '16.0'
   branch: Stable
   codename: uke_global
-  date: 2026-07-16
-  link: https://bigota.d.miui.com/OS3.0.303.0.WOZMIXM/uke_global-ota_full-OS3.0.303.0.WOZMIXM-user-16.0-67617e1f57.zip
-  md5: 67617e1f57d18065d8827018bb7af91e
-  method: Recovery
-  name: Xiaomi Pad 7 / POCO Pad X1 Global
-  size: 6.4 GB
-  version: OS3.0.303.0.WOZMIXM
-- android: '16.0'
-  branch: Stable
-  codename: uke_global
-  date: 2026-06-25
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOZMIXM/uke_global_images_OS3.0.303.0.WOZMIXM_20260625.0000.00_16.0_global_0a5b1b6851.tgz
-  md5: 0a5b1b68516a0a73e80bc9da48db53bc
+  date: 2026-09-10
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WOZMIXM/uke_global_images_OS3.0.304.0.WOZMIXM_20260910.0000.00_16.0_global_ce79ce6a2d.tgz
+  md5: ce79ce6a2d9aa8e75c17ac369850f256
   method: Fastboot
   name: Xiaomi Pad 7 / POCO Pad X1 Global
   size: 8.3 GB
-  version: OS3.0.303.0.WOZMIXM
+  version: OS3.0.304.0.WOZMIXM
 - android: '16.0'
   branch: Stable
   codename: uke_id_global
@@ -33641,6 +33611,16 @@
 - android: '16.0'
   branch: Stable Beta
   codename: warhol_global
+  date: 2026-05-28
+  link: https://bigota.d.miui.com/OS3.0.305.0.WPSMIXM/warhol_global-ota_full-OS3.0.305.0.WPSMIXM-user-16.0-8c0f373638.zip
+  md5: 8c0f373638ca8891d78967aafb1000a5
+  method: Recovery
+  name: Xiaomi 17T Pro Global
+  size: 7.7 GB
+  version: OS3.0.305.0.WPSMIXM
+- android: '16.0'
+  branch: Stable
+  codename: warhol_global
   date: 2026-09-24
   link: https://bigota.d.miui.com/OS3.0.311.0.WPSMIXM/warhol_global-ota_full-OS3.0.311.0.WPSMIXM-user-16.0-e29c8ad11a.zip
   md5: e29c8ad11ad444d18d5149f2ac374d90
@@ -33651,23 +33631,13 @@
 - android: '16.0'
   branch: Stable
   codename: warhol_global
-  date: 2026-08-10
-  link: https://bigota.d.miui.com/OS3.0.310.0.WPSMIXM/warhol_global-ota_full-OS3.0.310.0.WPSMIXM-user-16.0-576f64e91d.zip
-  md5: 576f64e91d81cd77a48e4c9e613228f6
-  method: Recovery
-  name: Xiaomi 17T Pro Global
-  size: 7.7 GB
-  version: OS3.0.310.0.WPSMIXM
-- android: '16.0'
-  branch: Stable
-  codename: warhol_global
-  date: 2026-08-02
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.310.0.WPSMIXM/warhol_global_images_OS3.0.310.0.WPSMIXM_20260802.0000.00_16.0_global_8d4ba53b1e.tgz
-  md5: 8d4ba53b1ed53957d746a7fa4cba795e
+  date: 2026-09-20
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.311.0.WPSMIXM/warhol_global_images_OS3.0.311.0.WPSMIXM_20260920.0000.00_16.0_global_0e3b9b28c9.tgz
+  md5: 0e3b9b28c938ebc1dc187bcc3ad264d9
   method: Fastboot
   name: Xiaomi 17T Pro Global
-  size: 12.4 GB
-  version: OS3.0.310.0.WPSMIXM
+  size: 12.2 GB
+  version: OS3.0.311.0.WPSMIXM
 - android: '16.0'
   branch: Stable
   codename: warhol_id_global
