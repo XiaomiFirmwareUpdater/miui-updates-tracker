@@ -7729,7 +7729,7 @@
   size: 7.7 GB
   version: OS3.0.303.0.WNETWXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: dew_eea_global
   date: 2026-10-08
   link: https://bigota.d.miui.com/OS3.0.302.0.WBNEUXM/dew_eea_global-ota_full-OS3.0.302.0.WBNEUXM-user-16.0-bd1a4ec0b1.zip
@@ -7741,23 +7741,13 @@
 - android: '16.0'
   branch: Stable
   codename: dew_eea_global
-  date: 2026-08-14
-  link: https://bigota.d.miui.com/OS3.0.301.0.WBNEUXM/dew_eea_global-ota_full-OS3.0.301.0.WBNEUXM-user-16.0-019b868c37.zip
-  md5: 019b868c378f5f85f7516f565033b0de
-  method: Recovery
-  name: Redmi 15C / POCO C85 EEA
-  size: 5.0 GB
-  version: OS3.0.301.0.WBNEUXM
-- android: '16.0'
-  branch: Stable
-  codename: dew_eea_global
-  date: 2026-08-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WBNEUXM/dew_eea_global_images_OS3.0.301.0.WBNEUXM_20260807.0000.00_16.0_eea_1a13bf2055.tgz
-  md5: 1a13bf205562fdc8cd32fbf25baa6ab6
+  date: 2026-09-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WBNEUXM/dew_eea_global_images_OS3.0.302.0.WBNEUXM_20260921.0000.00_16.0_eea_36be8d52e8.tgz
+  md5: 36be8d52e8ffec1b47ae0b6383a98c5a
   method: Fastboot
   name: Redmi 15C / POCO C85 EEA
-  size: 7.7 GB
-  version: OS3.0.301.0.WBNEUXM
+  size: 7.5 GB
+  version: OS3.0.302.0.WBNEUXM
 - android: '16.0'
   branch: Stable Beta
   codename: dew_global
@@ -9858,16 +9848,16 @@
   name: Redmi 12 India
   size: 5.7 GB
   version: OS2.0.209.0.VMXINXM
-- android: '13.0'
+- android: '15.0'
   branch: Stable Beta
   codename: fire_ru_global
-  date: 2023-11-01
-  link: https://bigota.d.miui.com/V14.0.10.0.TMXRUXM/miui_FIRERUGlobal_V14.0.10.0.TMXRUXM_91cf50ed9b_13.0.zip
-  md5: 91cf50ed9bc0b30361e8c9f75cc243d2
+  date: 2026-10-16
+  link: https://bigota.d.miui.com/OS2.0.205.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.205.0.VMXRUXM-user-15.0-aa007f016d.zip
+  md5: aa007f016d85914d3935c41501cd501c
   method: Recovery
   name: Redmi 12 Russia
-  size: 3.9 GB
-  version: V14.0.10.0.TMXRUXM
+  size: 4.5 GB
+  version: OS2.0.205.0.VMXRUXM
 - android: '15.0'
   branch: Stable
   codename: fire_ru_global
@@ -14492,21 +14482,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -15331,6 +15321,16 @@
 - android: '16.0'
   branch: Stable Beta
   codename: lake_ru_global
+  date: 2026-07-31
+  link: https://bigota.d.miui.com/OS3.0.301.0.WGTRUXM/lake_ru_global-ota_full-OS3.0.301.0.WGTRUXM-user-16.0-bd82ad1b4b.zip
+  md5: bd82ad1b4b759f86de431bf7ea54cf2a
+  method: Recovery
+  name: Redmi 14C/17C/A3 Pro/POCO C75 Russia
+  size: 4.7 GB
+  version: OS3.0.301.0.WGTRUXM
+- android: '16.0'
+  branch: Stable
+  codename: lake_ru_global
   date: 2026-10-10
   link: https://bigota.d.miui.com/OS3.0.303.0.WGTRUXM/lake_ru_global-ota_full-OS3.0.303.0.WGTRUXM-user-16.0-91322b9c3e.zip
   md5: 91322b9c3e986916a0bd37cd4ae96b96
@@ -15341,25 +15341,15 @@
 - android: '16.0'
   branch: Stable
   codename: lake_ru_global
-  date: 2026-08-11
-  link: https://bigota.d.miui.com/OS3.0.302.0.WGTRUXM/lake_ru_global-ota_full-OS3.0.302.0.WGTRUXM-user-16.0-496917d044.zip
-  md5: 496917d044cd427bd2c7ddb096b0daf0
-  method: Recovery
-  name: Redmi 14C/17C/A3 Pro/POCO C75 Russia
-  size: 4.7 GB
-  version: OS3.0.302.0.WGTRUXM
-- android: '16.0'
-  branch: Stable
-  codename: lake_ru_global
-  date: 2026-08-04
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WGTRUXM/lake_ru_global_images_OS3.0.302.0.WGTRUXM_20260804.0000.00_16.0_ru_01f0367f64.tgz
-  md5: 01f0367f64c68df5fc2a5bb88fb4bc92
+  date: 2026-09-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WGTRUXM/lake_ru_global_images_OS3.0.303.0.WGTRUXM_20260928.0000.00_16.0_ru_4d48696a85.tgz
+  md5: 4d48696a858f20bae2ea640f55aa637b
   method: Fastboot
   name: Redmi 14C/17C/A3 Pro/POCO C75 Russia
   size: 7.8 GB
-  version: OS3.0.302.0.WGTRUXM
+  version: OS3.0.303.0.WGTRUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: lake_tr_global
   date: 2026-10-10
   link: https://bigota.d.miui.com/OS3.0.302.0.WGTTRXM/lake_tr_global-ota_full-OS3.0.302.0.WGTTRXM-user-16.0-d89064a14b.zip
@@ -15371,23 +15361,13 @@
 - android: '16.0'
   branch: Stable
   codename: lake_tr_global
-  date: 2026-07-24
-  link: https://bigota.d.miui.com/OS3.0.301.0.WGTTRXM/lake_tr_global-ota_full-OS3.0.301.0.WGTTRXM-user-16.0-a62231b151.zip
-  md5: a62231b1517db1a30b15f9144226be87
-  method: Recovery
-  name: Redmi 14C/17C/A3 Pro/POCO C75 Turkey
-  size: 4.8 GB
-  version: OS3.0.301.0.WGTTRXM
-- android: '16.0'
-  branch: Stable
-  codename: lake_tr_global
-  date: 2026-07-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.301.0.WGTTRXM/lake_tr_global_images_OS3.0.301.0.WGTTRXM_20260716.0000.00_16.0_tr_ff9c054eef.tgz
-  md5: ff9c054eef2cab04801932e43c1ace32
+  date: 2026-09-28
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WGTTRXM/lake_tr_global_images_OS3.0.302.0.WGTTRXM_20260928.0000.00_16.0_tr_6a39f4fe10.tgz
+  md5: 6a39f4fe107c9fc155ed9f274878f9bf
   method: Fastboot
   name: Redmi 14C/17C/A3 Pro/POCO C75 Turkey
   size: 6.8 GB
-  version: OS3.0.301.0.WGTTRXM
+  version: OS3.0.302.0.WGTTRXM
 - android: '16.0'
   branch: Stable
   codename: lake_tw_global
@@ -17741,6 +17721,16 @@
 - android: '16.0'
   branch: Stable Beta
   codename: malachite
+  date: 2026-04-22
+  link: https://bigota.d.miui.com/OS3.0.303.0.WOOCNXM/malachite-ota_full-OS3.0.303.0.WOOCNXM-user-16.0-8d79fd9dee.zip
+  md5: 8d79fd9deed57b3279501173a5f8ec39
+  method: Recovery
+  name: Redmi Note 14 Pro 5G / POCO X7 China
+  size: 7.2 GB
+  version: OS3.0.303.0.WOOCNXM
+- android: '16.0'
+  branch: Stable
+  codename: malachite
   date: 2026-10-08
   link: https://bigota.d.miui.com/OS3.0.309.0.WOOCNXM/malachite-ota_full-OS3.0.309.0.WOOCNXM-user-16.0-45d08e712e.zip
   md5: 45d08e712e0b7bda17f2d4b8ac45545a
@@ -17751,23 +17741,13 @@
 - android: '16.0'
   branch: Stable
   codename: malachite
-  date: 2026-09-22
-  link: https://bigota.d.miui.com/OS3.0.308.0.WOOCNXM/malachite-ota_full-OS3.0.308.0.WOOCNXM-user-16.0-48049ecf6e.zip
-  md5: 48049ecf6e8bf7cde5d6802420dd8d19
-  method: Recovery
-  name: Redmi Note 14 Pro 5G / POCO X7 China
-  size: 7.2 GB
-  version: OS3.0.308.0.WOOCNXM
-- android: '16.0'
-  branch: Stable
-  codename: malachite
-  date: 2026-09-10
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.308.0.WOOCNXM/malachite_images_OS3.0.308.0.WOOCNXM_20260910.0000.00_16.0_cn_6cffc9d7ae.tgz
-  md5: 6cffc9d7aeddfc86b7a7c1f4704d5790
+  date: 2026-09-23
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.309.0.WOOCNXM/malachite_images_OS3.0.309.0.WOOCNXM_20260923.0000.00_16.0_cn_b06028b76c.tgz
+  md5: b06028b76cc05db9b726c11a5a983fec
   method: Fastboot
   name: Redmi Note 14 Pro 5G / POCO X7 China
   size: 9.6 GB
-  version: OS3.0.308.0.WOOCNXM
+  version: OS3.0.309.0.WOOCNXM
 - android: '16.0'
   branch: Stable
   codename: malachite_eea_global
@@ -28618,16 +28598,16 @@
   name: POCO F9 Ultra Taiwan
   size: 9.6 GB
   version: OS3.0.303.0.WGNTWXM
-- android: '14.0'
+- android: '16.0'
   branch: Stable Beta
   codename: spark_eea_global
-  date: 2024-08-27
-  link: https://bigota.d.miui.com/OS1.0.1.0.UHYEUXM/miui_SPARKEEAGlobal_OS1.0.1.0.UHYEUXM_a7ccff8fa0_14.0.zip
-  md5: a7ccff8fa0898047facd25d027e33fce
+  date: 2026-10-16
+  link: https://bigota.d.miui.com/OS3.0.303.0.WHYEUXM/spark_eea_global-ota_full-OS3.0.303.0.WHYEUXM-user-16.0-603ef9ffdd.zip
+  md5: 603ef9ffdd6370a52811b8564353db32
   method: Recovery
   name: Redmi Pad SE 8.7 4G EEA
-  size: 4.1 GB
-  version: OS1.0.1.0.UHYEUXM
+  size: 4.8 GB
+  version: OS3.0.303.0.WHYEUXM
 - android: '16.0'
   branch: Stable
   codename: spark_eea_global
@@ -29721,13 +29701,13 @@
 - android: '11.0'
   branch: Stable Beta
   codename: surya_eea_global
-  date: 2021-04-15
-  link: https://bigota.d.miui.com/V12.0.7.0.RJGEUXM/miui_SURYAEEAGlobal_V12.0.7.0.RJGEUXM_641da640cd_11.0.zip
-  md5: 641da640cd9c90618ad06f989f6ead0b
+  date: 2021-04-01
+  link: https://bigota.d.miui.com/V12.0.6.4.RJGEUXM/miui_SURYAEEAGlobal_V12.0.6.4.RJGEUXM_393436f62d_11.0.zip
+  md5: 393436f62dcca93bb69a8b60174c6816
   method: Recovery
   name: POCO X3 NFC EEA
   size: 2.5 GB
-  version: V12.0.7.0.RJGEUXM
+  version: V12.0.6.4.RJGEUXM
 - android: '12.0'
   branch: Stable
   codename: surya_eea_global
