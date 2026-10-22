@@ -3549,7 +3549,7 @@
   size: 6.8 GB
   version: OS3.0.305.0.WDRTWXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: byron
   date: 2026-10-12
   link: https://bigota.d.miui.com/OS3.0.310.0.WAFCNXM/byron-ota_full-OS3.0.310.0.WAFCNXM-user-16.0-af218e1233.zip
@@ -3561,23 +3561,13 @@
 - android: '16.0'
   branch: Stable
   codename: byron
-  date: 2026-09-02
-  link: https://bigota.d.miui.com/OS3.0.309.0.WAFCNXM/byron-ota_full-OS3.0.309.0.WAFCNXM-user-16.0-46d6d23957.zip
-  md5: 46d6d239570c6ae27e9cf563e15d7583
-  method: Recovery
-  name: Xiaomi 17 Max China
-  size: 8.9 GB
-  version: OS3.0.309.0.WAFCNXM
-- android: '16.0'
-  branch: Stable
-  codename: byron
-  date: 2026-08-18
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.309.0.WAFCNXM/byron_images_OS3.0.309.0.WAFCNXM_20260818.0000.00_16.0_cn_bd0411122d.tgz
-  md5: bd0411122d97db98eb54f842f4c4c46d
+  date: 2026-09-15
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.310.0.WAFCNXM/byron_images_OS3.0.310.0.WAFCNXM_20260915.0000.00_16.0_cn_38b82f6a27.tgz
+  md5: 38b82f6a27472ad6833eb13e312f654a
   method: Fastboot
   name: Xiaomi 17 Max China
   size: 11.5 GB
-  version: OS3.0.309.0.WAFCNXM
+  version: OS3.0.310.0.WAFCNXM
 - android: '9.0'
   branch: Stable Beta
   codename: cactus
@@ -7278,6 +7268,16 @@
   name: POCO X8 Pro Max Global
   size: 11.1 GB
   version: OS3.0.303.0.WPLMIXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: dash_id_global
+  date: 2026-10-16
+  link: https://bigota.d.miui.com/OS3.0.304.0.WPLIDXM/dash_id_global-ota_full-OS3.0.304.0.WPLIDXM-user-16.0-36e49ec350.zip
+  md5: 36e49ec350e67ca085c41340aa3ade8f
+  method: Recovery
+  name: POCO X8 Pro Max Indonesia
+  size: 7.2 GB
+  version: OS3.0.304.0.WPLIDXM
 - android: '16.0'
   branch: Stable
   codename: dash_id_global
@@ -14492,21 +14492,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
-  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
-  method: Recovery
-  name: Redmi Note 3 Pro Global
-  size: 1.3 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
   md5: 8a48e54fe35e29f9e66b13f9d3543e67
   method: Fastboot
   name: Redmi Note 3 Pro Global
   size: 1.5 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
+  md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
+  method: Recovery
+  name: Redmi Note 3 Pro Global
+  size: 1.3 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -14858,6 +14858,16 @@
   name: Xiaomi 15T Pro Indonesia
   size: 9.2 GB
   version: OS3.0.302.0.WOSIDXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: klimt_jp_global
+  date: 2026-10-22
+  link: https://bigota.d.miui.com/OS3.0.303.0.WOSJPXM/klimt_jp_global-ota_full-OS3.0.303.0.WOSJPXM-user-16.0-b4393b58e8.zip
+  md5: b4393b58e80e6ebf928f749c6993f7ab
+  method: Recovery
+  name: Xiaomi 15T Pro Japan
+  size: 7.3 GB
+  version: OS3.0.303.0.WOSJPXM
 - android: '16.0'
   branch: Stable
   codename: klimt_jp_global
@@ -30389,7 +30399,7 @@
   size: 7.7 GB
   version: OS3.0.303.0.WOGIDXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: tanzanite_ru_global
   date: 2026-10-08
   link: https://bigota.d.miui.com/OS3.0.303.0.WOGRUXM/tanzanite_ru_global-ota_full-OS3.0.303.0.WOGRUXM-user-16.0-0c76c5807e.zip
@@ -30401,23 +30411,23 @@
 - android: '16.0'
   branch: Stable
   codename: tanzanite_ru_global
-  date: 2026-07-13
-  link: https://bigota.d.miui.com/OS3.0.302.0.WOGRUXM/tanzanite_ru_global-ota_full-OS3.0.302.0.WOGRUXM-user-16.0-59c8d44ae7.zip
-  md5: 59c8d44ae7cdf18c5a6f1266b4ae7d74
-  method: Recovery
-  name: Redmi Note 14 4G Russia
-  size: 5.2 GB
-  version: OS3.0.302.0.WOGRUXM
-- android: '16.0'
-  branch: Stable
-  codename: tanzanite_ru_global
-  date: 2026-06-26
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOGRUXM/tanzanite_ru_global_images_OS3.0.302.0.WOGRUXM_20260626.0000.00_16.0_ru_91ac6a59fc.tgz
-  md5: 91ac6a59fcd4cb065247660368ff569a
+  date: 2026-09-18
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WOGRUXM/tanzanite_ru_global_images_OS3.0.303.0.WOGRUXM_20260918.0000.00_16.0_ru_ef19f50dd3.tgz
+  md5: ef19f50dd380879fd5a01f652b663c44
   method: Fastboot
   name: Redmi Note 14 4G Russia
   size: 8.6 GB
-  version: OS3.0.302.0.WOGRUXM
+  version: OS3.0.303.0.WOGRUXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: tanzanite_tr_global
+  date: 2026-10-19
+  link: https://bigota.d.miui.com/OS3.0.303.0.WOGTRXM/tanzanite_tr_global-ota_full-OS3.0.303.0.WOGTRXM-user-16.0-020563bdba.zip
+  md5: 020563bdba2fb1e436a7f89b435bfc39
+  method: Recovery
+  name: Redmi Note 14 4G Turkey
+  size: 5.3 GB
+  version: OS3.0.303.0.WOGTRXM
 - android: '16.0'
   branch: Stable
   codename: tanzanite_tr_global
