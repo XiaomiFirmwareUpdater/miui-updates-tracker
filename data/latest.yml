@@ -2889,6 +2889,16 @@
   size: 3.1 GB
   version: V12.5.5.0.RGGINXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: beryl
+  date: 2026-10-28
+  link: https://bigota.d.miui.com/OS3.0.307.0.WOQCNXM/beryl-ota_full-OS3.0.307.0.WOQCNXM-user-16.0-32d9448f9d.zip
+  md5: 32d9448f9d5227501fddb84edf40f834
+  method: Recovery
+  name: Redmi Note 14 5G China
+  size: 6.5 GB
+  version: OS3.0.307.0.WOQCNXM
+- android: '16.0'
   branch: Stable
   codename: beryl
   date: 2026-08-12
@@ -3428,6 +3438,16 @@
   name: Redmi Note 17 Pro Max 5G EEA
   size: 8.6 GB
   version: OS3.0.307.0.WDREUXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: brussels_global
+  date: 2026-10-29
+  link: https://bigota.d.miui.com/OS3.0.311.0.WDRMIXM/brussels_global-ota_full-OS3.0.311.0.WDRMIXM-user-16.0-f3650db77d.zip
+  md5: f3650db77d5ae8583be0dca99806431c
+  method: Recovery
+  name: Redmi Note 17 Pro Max 5G Global
+  size: 6.1 GB
+  version: OS3.0.311.0.WDRMIXM
 - android: '16.0'
   branch: Stable
   codename: brussels_global
@@ -33948,28 +33968,38 @@
   name: Redmi Note 11 Pro 4G Taiwan
   size: 5.3 GB
   version: OS1.0.4.0.TGDTWXM
-- android: '16.0'
+- android: '17.0'
   branch: Stable
   codename: warhol
-  date: 2026-09-15
-  link: https://bigota.d.miui.com/OS3.0.311.0.WPSCNXM/warhol-ota_full-OS3.0.311.0.WPSCNXM-user-16.0-a89ba31296.zip
-  md5: a89ba312963f9e89809bc844e9e0aa53
+  date: 2026-10-26
+  link: https://bigota.d.miui.com/OS4.0.3.0.XPSCNXM/warhol-ota_full-OS4.0.3.0.XPSCNXM-user-17.0-6f4b057826.zip
+  md5: 6f4b05782696786534fc7ec508053f9b
   method: Recovery
   name: Xiaomi 17T Pro China
-  size: 8.8 GB
-  version: OS3.0.311.0.WPSCNXM
-- android: '16.0'
+  size: 9.2 GB
+  version: OS4.0.3.0.XPSCNXM
+- android: '17.0'
   branch: Stable
   codename: warhol
-  date: 2026-09-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.311.0.WPSCNXM/warhol_images_OS3.0.311.0.WPSCNXM_20260909.0000.00_16.0_cn_03c29e9c7b.tgz
-  md5: 03c29e9c7bc972c9b9c7e51758a9ab38
+  date: 2026-10-21
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.3.0.XPSCNXM/warhol_images_OS4.0.3.0.XPSCNXM_20261021.0000.00_17.0_cn_6bafc3e79c.tgz
+  md5: 6bafc3e79c1a3b29866a9a8e3814c202
   method: Fastboot
   name: Xiaomi 17T Pro China
-  size: 13.2 GB
-  version: OS3.0.311.0.WPSCNXM
+  size: 13.6 GB
+  version: OS4.0.3.0.XPSCNXM
 - android: '16.0'
   branch: Stable Beta
+  codename: warhol_eea_global
+  date: 2026-05-28
+  link: https://bigota.d.miui.com/OS3.0.308.0.WPSEUXM/warhol_eea_global-ota_full-OS3.0.308.0.WPSEUXM-user-16.0-10ed3675ba.zip
+  md5: 10ed3675baa467d94ae0f0e3cfb2c633
+  method: Recovery
+  name: Xiaomi 17T Pro EEA
+  size: 7.7 GB
+  version: OS3.0.308.0.WPSEUXM
+- android: '16.0'
+  branch: Stable
   codename: warhol_eea_global
   date: 2026-10-19
   link: https://bigota.d.miui.com/OS3.0.312.0.WPSEUXM/warhol_eea_global-ota_full-OS3.0.312.0.WPSEUXM-user-16.0-c776053304.zip
@@ -33981,23 +34011,13 @@
 - android: '16.0'
   branch: Stable
   codename: warhol_eea_global
-  date: 2026-08-04
-  link: https://bigota.d.miui.com/OS3.0.311.0.WPSEUXM/warhol_eea_global-ota_full-OS3.0.311.0.WPSEUXM-user-16.0-be4feae6f5.zip
-  md5: be4feae6f52150f8c00ac30d8dd0dae0
-  method: Recovery
-  name: Xiaomi 17T Pro EEA
-  size: 7.7 GB
-  version: OS3.0.311.0.WPSEUXM
-- android: '16.0'
-  branch: Stable
-  codename: warhol_eea_global
-  date: 2026-07-27
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.311.0.WPSEUXM/warhol_eea_global_images_OS3.0.311.0.WPSEUXM_20260727.0000.00_16.0_eea_dcece25854.tgz
-  md5: dcece258544a5fa9f3d91a349c42dd8f
+  date: 2026-10-12
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.312.0.WPSEUXM/warhol_eea_global_images_OS3.0.312.0.WPSEUXM_20261012.0000.00_16.0_eea_dc8e36fe62.tgz
+  md5: dc8e36fe623ce62359f6e34ea9bbf308
   method: Fastboot
   name: Xiaomi 17T Pro EEA
-  size: 10.4 GB
-  version: OS3.0.311.0.WPSEUXM
+  size: 10.3 GB
+  version: OS3.0.312.0.WPSEUXM
 - android: '16.0'
   branch: Stable Beta
   codename: warhol_global
