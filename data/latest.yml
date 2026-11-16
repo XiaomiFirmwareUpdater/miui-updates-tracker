@@ -2238,8 +2238,18 @@
   name: Redmi 1S Global
   size: 1.0 GB
   version: 7.1.19
-- android: '17.0'
+- android: '16.0'
   branch: Stable Beta
+  codename: athens
+  date: 2026-08-11
+  link: https://bigota.d.miui.com/OS3.0.302.0.WPICNXM/athens-ota_full-OS3.0.302.0.WPICNXM-user-16.0-18e99699de.zip
+  md5: 18e99699de3278dd07eda7d5adc911cb
+  method: Recovery
+  name: Redmi K100 Pro China
+  size: 9.3 GB
+  version: OS3.0.302.0.WPICNXM
+- android: '17.0'
+  branch: Stable
   codename: athens
   date: 2026-11-03
   link: https://bigota.d.miui.com/OS4.0.6.0.XPICNXM/athens-ota_full-OS4.0.6.0.XPICNXM-user-17.0-0065146572.zip
@@ -2251,23 +2261,13 @@
 - android: '17.0'
   branch: Stable
   codename: athens
-  date: 2026-10-23
-  link: https://bigota.d.miui.com/OS4.0.5.0.XPICNXM/athens-ota_full-OS4.0.5.0.XPICNXM-user-17.0-7ac64ef792.zip
-  md5: 7ac64ef7922c81d9485b2138c032ddc2
-  method: Recovery
-  name: Redmi K100 Pro China
-  size: 9.9 GB
-  version: OS4.0.5.0.XPICNXM
-- android: '17.0'
-  branch: Stable
-  codename: athens
-  date: 2026-10-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.5.0.XPICNXM/athens_images_OS4.0.5.0.XPICNXM_20261021.0000.00_17.0_cn_7c6698a70e.tgz
-  md5: 7c6698a70eb1752a491f4c568ca2c063
+  date: 2026-10-26
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.6.0.XPICNXM/athens_images_OS4.0.6.0.XPICNXM_20261026.0000.00_17.0_cn_8452ad1aa7.tgz
+  md5: 8452ad1aa7a38e6f2fd0463704791660
   method: Fastboot
   name: Redmi K100 Pro China
   size: 12.8 GB
-  version: OS4.0.5.0.XPICNXM
+  version: OS4.0.6.0.XPICNXM
 - android: '16.0'
   branch: Stable
   codename: athens_eea_global
@@ -3489,7 +3489,7 @@
   size: 7.7 GB
   version: OS3.0.304.0.WDRINXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: brussels_jp_global
   date: 2026-11-12
   link: https://bigota.d.miui.com/OS3.0.306.0.WDRJPXM/brussels_jp_global-ota_full-OS3.0.306.0.WDRJPXM-user-16.0-ebd37fd2ad.zip
@@ -3501,23 +3501,13 @@
 - android: '16.0'
   branch: Stable
   codename: brussels_jp_global
-  date: 2026-09-30
-  link: https://bigota.d.miui.com/OS3.0.305.0.WDRJPXM/brussels_jp_global-ota_full-OS3.0.305.0.WDRJPXM-user-16.0-2635db8514.zip
-  md5: 2635db851450652e6d580bb2adad6236
-  method: Recovery
-  name: Redmi Note 17 Pro Max 5G Japan
-  size: 5.9 GB
-  version: OS3.0.305.0.WDRJPXM
-- android: '16.0'
-  branch: Stable
-  codename: brussels_jp_global
-  date: 2026-09-17
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.305.0.WDRJPXM/brussels_jp_global_images_OS3.0.305.0.WDRJPXM_20260917.0000.00_16.0_jp_2b1b62fbe8.tgz
-  md5: 2b1b62fbe81d2381aadf3179987f0839
+  date: 2026-11-02
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.306.0.WDRJPXM/brussels_jp_global_images_OS3.0.306.0.WDRJPXM_20261102.0000.00_16.0_jp_3250f7d0d1.tgz
+  md5: 3250f7d0d142cd40466727b6ddbfa5c5
   method: Fastboot
   name: Redmi Note 17 Pro Max 5G Japan
   size: 8.4 GB
-  version: OS3.0.305.0.WDRJPXM
+  version: OS3.0.306.0.WDRJPXM
 - android: '16.0'
   branch: Stable
   codename: brussels_ru_global
@@ -14919,6 +14909,16 @@
   size: 9.6 GB
   version: OS3.0.2.0.WPJTRXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: klee_tw_global
+  date: 2026-11-13
+  link: https://bigota.d.miui.com/OS3.0.305.0.WPJTWXM/klee_tw_global-ota_full-OS3.0.305.0.WPJTWXM-user-16.0-87cce2c141.zip
+  md5: 87cce2c141a5f7d6cb7ba94b714e24de
+  method: Recovery
+  name: POCO X8 Pro Taiwan
+  size: 7.0 GB
+  version: OS3.0.305.0.WPJTWXM
+- android: '16.0'
   branch: Stable
   codename: klee_tw_global
   date: 2026-09-09
@@ -16418,6 +16418,16 @@
   name: Redmi Note 1 TD China
   size: 496.2 MB
   version: 7.11.16
+- android: '16.0'
+  branch: Stable Beta
+  codename: leedsa_eea_global
+  date: 2026-11-13
+  link: https://bigota.d.miui.com/OS3.0.308.0.WDTEUXM/leedsa_eea_global-ota_full-OS3.0.308.0.WDTEUXM-user-16.0-7a9129d712.zip
+  md5: 7a9129d712121c6695c19bddfb7b2d71
+  method: Recovery
+  name: Redmi 17 / POCO C95 Pro EEA
+  size: 5.2 GB
+  version: OS3.0.308.0.WDTEUXM
 - android: '16.0'
   branch: Stable
   codename: leedsa_eea_global
@@ -31299,6 +31309,16 @@
   size: 8.9 GB
   version: OS3.0.306.0.WPOMIXM
 - android: '16.0'
+  branch: Stable Beta
+  codename: tornado_in_global
+  date: 2026-11-13
+  link: https://bigota.d.miui.com/OS3.0.310.0.WPOINXM/tornado_in_global-ota_full-OS3.0.310.0.WPOINXM-user-16.0-8cdfa30df6.zip
+  md5: 8cdfa30df6d7fcff9565e560b2fb6e6f
+  method: Recovery
+  name: Redmi 15C 5G / POCO C85 5G India
+  size: 5.4 GB
+  version: OS3.0.310.0.WPOINXM
+- android: '16.0'
   branch: Stable
   codename: tornado_in_global
   date: 2026-09-15
@@ -34001,23 +34021,23 @@
 - android: '17.0'
   branch: Stable
   codename: warsaw
-  date: 2026-10-31
-  link: https://bigota.d.miui.com/OS4.0.6.0.XHPCNXM/warsaw-ota_full-OS4.0.6.0.XHPCNXM-user-17.0-220d1ce4e3.zip
-  md5: 220d1ce4e35ac71616bd6b1aacc2050c
+  date: 2026-11-03
+  link: https://bigota.d.miui.com/OS4.0.8.0.XHPCNXM/warsaw-ota_full-OS4.0.8.0.XHPCNXM-user-17.0-96194cf12c.zip
+  md5: 96194cf12c33fc9054ef4eeeeda9e315
   method: Recovery
   name: Redmi K90 Ultra China
   size: 9.0 GB
-  version: OS4.0.6.0.XHPCNXM
+  version: OS4.0.8.0.XHPCNXM
 - android: '17.0'
   branch: Stable
   codename: warsaw
-  date: 2026-10-28
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.6.0.XHPCNXM/warsaw_images_OS4.0.6.0.XHPCNXM_20261028.0000.00_17.0_cn_6a6101b221.tgz
-  md5: 6a6101b221ff25ba0df008b78b86ee0d
+  date: 2026-10-30
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.8.0.XHPCNXM/warsaw_images_OS4.0.8.0.XHPCNXM_20261030.0000.00_17.0_cn_d507a3debd.tgz
+  md5: d507a3debd72d22a45c671cc07ac06d8
   method: Fastboot
   name: Redmi K90 Ultra China
   size: 11.9 GB
-  version: OS4.0.6.0.XHPCNXM
+  version: OS4.0.8.0.XHPCNXM
 - android: '13.0'
   branch: Stable Beta
   codename: water_eea_global
