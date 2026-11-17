@@ -1298,8 +1298,18 @@
   name: Redmi 9C NFC Russia
   size: 3.5 GB
   version: V12.5.3.0.RCSRUXM
-- android: '17.0'
+- android: '16.0'
   branch: Stable Beta
+  codename: annibale
+  date: 2025-10-23
+  link: https://bigota.d.miui.com/OS3.0.4.0.WPKCNXM/annibale-ota_full-OS3.0.4.0.WPKCNXM-user-16.0-eff83315c8.zip
+  md5: eff83315c89531fbfb9f213fee8bbf6b
+  method: Recovery
+  name: Redmi K90 China
+  size: 8.8 GB
+  version: OS3.0.4.0.WPKCNXM
+- android: '17.0'
+  branch: Stable
   codename: annibale
   date: 2026-11-03
   link: https://bigota.d.miui.com/OS4.0.6.0.XPKCNXM/annibale-ota_full-OS4.0.6.0.XPKCNXM-user-17.0-0207c91df5.zip
@@ -1311,23 +1321,13 @@
 - android: '17.0'
   branch: Stable
   codename: annibale
-  date: 2026-10-23
-  link: https://bigota.d.miui.com/OS4.0.5.0.XPKCNXM/annibale-ota_full-OS4.0.5.0.XPKCNXM-user-17.0-ba0c9eabdc.zip
-  md5: ba0c9eabdc9c4d8183956156aa894384
-  method: Recovery
-  name: Redmi K90 China
-  size: 9.4 GB
-  version: OS4.0.5.0.XPKCNXM
-- android: '17.0'
-  branch: Stable
-  codename: annibale
-  date: 2026-10-21
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.5.0.XPKCNXM/annibale_images_OS4.0.5.0.XPKCNXM_20261021.0000.00_17.0_cn_0516f49032.tgz
-  md5: 0516f49032ea6c625245eb2ece4c791e
+  date: 2026-10-26
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS4.0.6.0.XPKCNXM/annibale_images_OS4.0.6.0.XPKCNXM_20261026.0000.00_17.0_cn_8129267a3b.tgz
+  md5: 8129267a3b7c656423d739b118167934
   method: Fastboot
   name: Redmi K90 China
   size: 12.4 GB
-  version: OS4.0.5.0.XPKCNXM
+  version: OS4.0.6.0.XPKCNXM
 - android: '16.0'
   branch: Stable
   codename: annibale_eea_global
@@ -14122,12 +14122,12 @@
   branch: Stable
   codename: iolite_id_global
   date: 2026-09-24
-  link: https://bigota.d.miui.com/OS3.0.301.0.WDQIDXM/iolite_id_global-ota_full-OS3.0.301.0.WDQIDXM-user-16.0-31ca588b17.zip
-  md5: 31ca588b170087123fc82a46af38358b
+  link: https://bigota.d.miui.com/OS3.0.302.0.WDQIDXM/iolite_id_global-ota_full-OS3.0.302.0.WDQIDXM-user-16.0-c72a057506.zip
+  md5: c72a05750666912653af4737a364c90e
   method: Recovery
   name: Redmi Note 17 Pro 5G / POCO X8 Indonesia
   size: 5.4 GB
-  version: OS3.0.301.0.WDQIDXM
+  version: OS3.0.302.0.WDQIDXM
 - android: '16.0'
   branch: Stable
   codename: iolite_id_global
@@ -14189,7 +14189,7 @@
   size: 8.7 GB
   version: OS3.0.304.0.WDQRUXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: iolite_tr_global
   date: 2026-11-09
   link: https://bigota.d.miui.com/OS3.0.304.0.WDQTRXM/iolite_tr_global-ota_full-OS3.0.304.0.WDQTRXM-user-16.0-cca2a52dd6.zip
@@ -14201,25 +14201,15 @@
 - android: '16.0'
   branch: Stable
   codename: iolite_tr_global
-  date: 2026-09-24
-  link: https://bigota.d.miui.com/OS3.0.303.0.WDQTRXM/iolite_tr_global-ota_full-OS3.0.303.0.WDQTRXM-user-16.0-d8f1a87dde.zip
-  md5: d8f1a87dde7b1394abaf13be5dda388a
-  method: Recovery
-  name: Redmi Note 17 Pro 5G / POCO X8 Turkey
-  size: 5.4 GB
-  version: OS3.0.303.0.WDQTRXM
-- android: '16.0'
-  branch: Stable
-  codename: iolite_tr_global
-  date: 2026-09-09
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WDQTRXM/iolite_tr_global_images_OS3.0.303.0.WDQTRXM_20260909.0000.00_16.0_tr_c0039813f4.tgz
-  md5: c0039813f48a4e59ff9fabbafc0ba2d6
+  date: 2026-11-03
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WDQTRXM/iolite_tr_global_images_OS3.0.304.0.WDQTRXM_20261103.0000.00_16.0_tr_e7ae5b9688.tgz
+  md5: e7ae5b9688515c30e23399d6202c6632
   method: Fastboot
   name: Redmi Note 17 Pro 5G / POCO X8 Turkey
   size: 7.7 GB
-  version: OS3.0.303.0.WDQTRXM
+  version: OS3.0.304.0.WDQTRXM
 - android: '16.0'
-  branch: Stable Beta
+  branch: Stable
   codename: iolite_tw_global
   date: 2026-11-09
   link: https://bigota.d.miui.com/OS3.0.306.0.WDQTWXM/iolite_tw_global-ota_full-OS3.0.306.0.WDQTWXM-user-16.0-4cbed25eb9.zip
@@ -14231,23 +14221,13 @@
 - android: '16.0'
   branch: Stable
   codename: iolite_tw_global
-  date: 2026-09-09
-  link: https://bigota.d.miui.com/OS3.0.305.0.WDQTWXM/iolite_tw_global-ota_full-OS3.0.305.0.WDQTWXM-user-16.0-e13a32cd9b.zip
-  md5: e13a32cd9bb3f6f12921c2630802e355
-  method: Recovery
-  name: Redmi Note 17 Pro 5G / POCO X8 Taiwan
-  size: 5.2 GB
-  version: OS3.0.305.0.WDQTWXM
-- android: '16.0'
-  branch: Stable
-  codename: iolite_tw_global
-  date: 2026-09-03
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.305.0.WDQTWXM/iolite_tw_global_images_OS3.0.305.0.WDQTWXM_20260903.0000.00_16.0_tw_23aafeb9f1.tgz
-  md5: 23aafeb9f193420455aa4649cf874cb8
+  date: 2026-11-02
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.306.0.WDQTWXM/iolite_tw_global_images_OS3.0.306.0.WDQTWXM_20261102.0000.00_16.0_tw_8c344ec7bc.tgz
+  md5: 8c344ec7bc9fad416487dcfea3e54334
   method: Fastboot
   name: Redmi Note 17 Pro 5G / POCO X8 Taiwan
   size: 6.2 GB
-  version: OS3.0.305.0.WDQTWXM
+  version: OS3.0.306.0.WDQTWXM
 - android: '13.0'
   branch: Stable Beta
   codename: ishtar
@@ -32808,6 +32788,16 @@
   name: Mi 11 Taiwan
   size: 6.1 GB
   version: OS2.0.2.0.UKBTWXM
+- android: '16.0'
+  branch: Stable Beta
+  codename: vermeer
+  date: 2026-11-10
+  link: https://bigota.d.miui.com/OS3.0.308.0.WNKCNXM/vermeer-ota_full-OS3.0.308.0.WNKCNXM-user-16.0-0534f299eb.zip
+  md5: 0534f299eb014d7f9a14c92bb8454b8b
+  method: Recovery
+  name: Redmi K70 China
+  size: 7.5 GB
+  version: OS3.0.308.0.WNKCNXM
 - android: '15.0'
   branch: Stable
   codename: vermeer
