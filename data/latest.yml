@@ -10088,8 +10088,18 @@
   name: Redmi 14C 5G / POCO M7 5G India
   size: 6.6 GB
   version: OS3.0.303.0.WGUINXM
-- android: '16.0'
+- android: '14.0'
   branch: Stable Beta
+  codename: flare_eea_global
+  date: 2024-08-27
+  link: https://bigota.d.miui.com/OS1.0.1.0.UHXEUXM/miui_FLAREEEAGlobal_OS1.0.1.0.UHXEUXM_bb1972afcb_14.0.zip
+  md5: bb1972afcbbfaac2efd669e7aaf27187
+  method: Recovery
+  name: Redmi Pad SE 8.7 5G EEA
+  size: 4.0 GB
+  version: OS1.0.1.0.UHXEUXM
+- android: '16.0'
+  branch: Stable
   codename: flare_eea_global
   date: 2026-11-17
   link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WHXEUXM/flare_eea_global-ota_full-OS3.0.304.0.WHXEUXM-user-16.0-0a69be4b74.zip
@@ -10101,25 +10111,25 @@
 - android: '16.0'
   branch: Stable
   codename: flare_eea_global
-  date: 2026-09-28
-  link: https://bigota.d.miui.com/OS3.0.303.0.WHXEUXM/flare_eea_global-ota_full-OS3.0.303.0.WHXEUXM-user-16.0-c8702cca6b.zip
-  md5: c8702cca6b83ca3a8746b1c23cd21343
-  method: Recovery
-  name: Redmi Pad SE 8.7 5G EEA
-  size: 4.8 GB
-  version: OS3.0.303.0.WHXEUXM
-- android: '16.0'
-  branch: Stable
-  codename: flare_eea_global
-  date: 2026-09-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WHXEUXM/flare_eea_global_images_OS3.0.303.0.WHXEUXM_20260916.0000.00_16.0_eea_6cc518a3ba.tgz
-  md5: 6cc518a3ba29ff885a3b23eca030fc42
+  date: 2026-11-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WHXEUXM/flare_eea_global_images_OS3.0.304.0.WHXEUXM_20261111.0000.00_16.0_eea_89832cccc0.tgz
+  md5: null
   method: Fastboot
   name: Redmi Pad SE 8.7 5G EEA
   size: 5.8 GB
-  version: OS3.0.303.0.WHXEUXM
-- android: '16.0'
+  version: OS3.0.304.0.WHXEUXM
+- android: '14.0'
   branch: Stable Beta
+  codename: flare_global
+  date: 2024-08-27
+  link: https://bigota.d.miui.com/OS1.0.3.0.UHXMIXM/miui_FLAREGlobal_OS1.0.3.0.UHXMIXM_39f90da70a_14.0.zip
+  md5: 39f90da70a3f7a8c54aae90dbfd0c5df
+  method: Recovery
+  name: Redmi Pad SE 8.7 5G Global
+  size: 4.0 GB
+  version: OS1.0.3.0.UHXMIXM
+- android: '16.0'
+  branch: Stable
   codename: flare_global
   date: 2026-11-17
   link: https://bigota.d.miui.com/OS3.0.304.0.WHXMIXM/flare_global-ota_full-OS3.0.304.0.WHXMIXM-user-16.0-7213e927b5.zip
@@ -10131,23 +10141,13 @@
 - android: '16.0'
   branch: Stable
   codename: flare_global
-  date: 2026-09-28
-  link: https://bigota.d.miui.com/OS3.0.303.0.WHXMIXM/flare_global-ota_full-OS3.0.303.0.WHXMIXM-user-16.0-5737ce6962.zip
-  md5: 5737ce6962bc0718db11158df42b929a
-  method: Recovery
-  name: Redmi Pad SE 8.7 5G Global
-  size: 4.7 GB
-  version: OS3.0.303.0.WHXMIXM
-- android: '16.0'
-  branch: Stable
-  codename: flare_global
-  date: 2026-09-16
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.303.0.WHXMIXM/flare_global_images_OS3.0.303.0.WHXMIXM_20260916.0000.00_16.0_global_8dc2bb708b.tgz
-  md5: 8dc2bb708bab205e3c8da9f9bf616fc5
+  date: 2026-11-11
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WHXMIXM/flare_global_images_OS3.0.304.0.WHXMIXM_20261111.0000.00_16.0_global_bb765593c2.tgz
+  md5: null
   method: Fastboot
   name: Redmi Pad SE 8.7 5G Global
-  size: 5.9 GB
-  version: OS3.0.303.0.WHXMIXM
+  size: 6.0 GB
+  version: OS3.0.304.0.WHXMIXM
 - android: '16.0'
   branch: Stable
   codename: flare_id_global
@@ -14172,12 +14172,12 @@
   branch: Stable
   codename: iolite_id_global
   date: 2026-09-24
-  link: https://bigota.d.miui.com/OS3.0.302.0.WDQIDXM/iolite_id_global-ota_full-OS3.0.302.0.WDQIDXM-user-16.0-c72a057506.zip
-  md5: c72a05750666912653af4737a364c90e
+  link: https://bigota.d.miui.com/OS3.0.301.0.WDQIDXM/iolite_id_global-ota_full-OS3.0.301.0.WDQIDXM-user-16.0-31ca588b17.zip
+  md5: 31ca588b170087123fc82a46af38358b
   method: Recovery
   name: Redmi Note 17 Pro 5G / POCO X8 Indonesia
   size: 5.4 GB
-  version: OS3.0.302.0.WDQIDXM
+  version: OS3.0.301.0.WDQIDXM
 - android: '16.0'
   branch: Stable
   codename: iolite_id_global
@@ -14752,21 +14752,21 @@
   branch: Stable
   codename: kenzo_global
   date: 2019-01-25
-  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
-  md5: 8a48e54fe35e29f9e66b13f9d3543e67
-  method: Fastboot
-  name: Redmi Note 3 Pro Global
-  size: 1.5 GB
-  version: V10.2.1.0.MHOMIXM
-- android: '6.0'
-  branch: Stable
-  codename: kenzo_global
-  date: 2019-01-25
   link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/miui_HMNote3ProGlobal_V10.2.1.0.MHOMIXM_36c0f5ded3_6.0.zip
   md5: 36c0f5ded3f1ec0d19da7f8d1b013a0d
   method: Recovery
   name: Redmi Note 3 Pro Global
   size: 1.3 GB
+  version: V10.2.1.0.MHOMIXM
+- android: '6.0'
+  branch: Stable
+  codename: kenzo_global
+  date: 2019-01-25
+  link: http://bigota.d.miui.com/V10.2.1.0.MHOMIXM/kenzo_global_images_V10.2.1.0.MHOMIXM_20190114.0000.00_6.0_global_8a48e54fe3.tgz
+  md5: 8a48e54fe35e29f9e66b13f9d3543e67
+  method: Fastboot
+  name: Redmi Note 3 Pro Global
+  size: 1.5 GB
   version: V10.2.1.0.MHOMIXM
 - android: '6.0'
   branch: Weekly
@@ -28121,13 +28121,13 @@
 - android: '17.0'
   branch: Stable
   codename: serenity_global
-  date: 2026-11-07
-  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/A17.0.4.0.XGWMIXM/serenity_global-images-A17.0.4.0.XGWMIXM-user-20261107.0000.00-17.0-global-d87e02eb1d.tgz
-  md5: d87e02eb1dc59be2a3e71a1346c067e3
+  date: 2026-11-24
+  link: https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/A17.0.5.0.XGWMIXM/serenity_global-images-A17.0.5.0.XGWMIXM-user-20261124.0000.00-17.0-global-eb092845e7.tgz
+  md5: null
   method: Fastboot
   name: Redmi A5 / A7 / POCO C71 / C81x Global
   size: 5.1 GB
-  version: A17.0.4.0.XGWMIXM
+  version: A17.0.5.0.XGWMIXM
 - android: '15.0'
   branch: Stable
   codename: serenity_global
